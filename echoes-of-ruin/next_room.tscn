@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://beje5i7v4oow1"]
+
+[ext_resource type="PackedScene" uid="uid://br0xjikbl1guw" path="res://player.tscn" id="1_564au"]
+[ext_resource type="Script" uid="uid://dehcfycxiawta" path="res://next_room.gd" id="1_etso6"]
+[ext_resource type="PackedScene" uid="uid://qtrnx5rhvyq7" path="res://ui.tscn" id="1_gia6h"]
+[ext_resource type="Script" uid="uid://houvxa3h13he" path="res://return_door.gd" id="2_qc5hh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ertv"]
+size = Vector2(1799.5, 39)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bu65u"]
+size = Vector2(51, 118)
+
+[node name="NextRoom" type="Node2D" unique_id=1809529096]
+script = ExtResource("1_etso6")
+
+[node name="Ground" type="StaticBody2D" parent="." unique_id=837393178]
+position = Vector2(509, 525)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground" unique_id=1765697277]
+position = Vector2(388.25, 125)
+shape = SubResource("RectangleShape2D_7ertv")
+
+[node name="ColorRect" type="ColorRect" parent="Ground" unique_id=1542220518]
+offset_left = -511.0
+offset_top = 106.0
+offset_right = 1287.0
+offset_bottom = 146.0
+color = Color(0.10872082, 0.10872076, 0.10872073, 1)
+
+[node name="ReturnDoor" type="Area2D" parent="." unique_id=2096087767]
+script = ExtResource("2_qc5hh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ReturnDoor" unique_id=1627923424]
+position = Vector2(105, 574)
+shape = SubResource("RectangleShape2D_bu65u")
+
+[node name="DoorHole" type="ColorRect" parent="ReturnDoor" unique_id=1060290644]
+offset_left = 77.0
+offset_top = 516.0
+offset_right = 135.0
+offset_bottom = 632.0
+color = Color(0.15007517, 0.15007517, 0.15007517, 1)
+
+[node name="UI" parent="." unique_id=226972366 instance=ExtResource("1_gia6h")]
+
+[node name="Player" parent="." unique_id=1041421276 instance=ExtResource("1_564au")]
+position = Vector2(86, 557)
+
+[connection signal="body_entered" from="ReturnDoor" to="ReturnDoor" method="_on_body_entered"]
+[connection signal="body_exited" from="ReturnDoor" to="ReturnDoor" method="_on_body_exited"]
