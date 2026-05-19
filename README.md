@@ -1,2 +1,12 @@
 # echoes-of-ruin
-A Godot exploration puzzle game project set in a post-apocalyptic world.
+・Godot 4.6.2 で制作
+・探索型謎解きゲームのプロトタイプ
+・操作方法：
+  ← → 移動
+  Space / Enter ジャンプ
+  E インタラクション
+  Esc 一時停止メニュー
+・実装内容：
+  タイトル画面、プレイヤー移動、会話UI、端末認証、ドア開閉、場面遷移、ポーズメニュー
+・素材：
+  一部仮素材を使用
