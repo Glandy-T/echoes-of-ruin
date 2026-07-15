@@ -1,6 +1,29 @@
-[gd_scene format=3 uid="uid://qtrnx5rhvyq7"]
+[gd_scene load_steps=7 format=3 uid="uid://qtrnx5rhvyq7"]
 
 [ext_resource type="Script" uid="uid://bjjgj8jhrm05m" path="res://scripts/ui/game_ui.gd" id="1_fyqef"]
+[ext_resource type="FontFile" path="res://assets/fonts/DotGothic16-Regular.ttf" id="2_font"]
+[ext_resource type="Texture2D" uid="uid://cuys3gqrysgxt" path="res://assets/characters/idle.png" id="3_portrait"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_portrait"]
+atlas = ExtResource("3_portrait")
+region = Rect2(28, 20, 40, 40)
+filter_clip = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dialogue"]
+bg_color = Color(0.027, 0.035, 0.043, 0.96)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.38, 0.45, 0.5, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_portrait"]
+bg_color = Color(0.018, 0.024, 0.03, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.32, 0.39, 0.44, 1)
 
 [node name="GameUI" type="CanvasLayer" unique_id=226972366 groups=["game_ui"]]
 process_mode = 3
@@ -8,6 +31,7 @@ script = ExtResource("1_fyqef")
 
 [node name="TextBox" type="Panel" parent="." unique_id=624405881]
 visible = false
+z_index = 5
 offset_left = 264.0
 offset_top = 584.0
 offset_right = 802.0
@@ -21,8 +45,125 @@ offset_right = 300.0
 offset_bottom = 32.0
 text = ""
 
+[node name="DetailOverlay" type="Control" parent="."]
+visible = false
+z_index = 10
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Background" type="ColorRect" parent="DetailOverlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.012, 0.016, 0.02, 0.82)
+
+[node name="DetailTexture" type="TextureRect" parent="DetailOverlay"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -320.0
+offset_top = -300.0
+offset_right = 320.0
+offset_bottom = 120.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="DialoguePanel" type="Panel" parent="."]
+visible = false
+z_index = 20
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 64.0
+offset_top = -204.0
+offset_right = -64.0
+offset_bottom = -28.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dialogue")
+
+[node name="MarginContainer" type="MarginContainer" parent="DialoguePanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DialoguePanel/MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 16
+
+[node name="PortraitFrame" type="Panel" parent="DialoguePanel/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(144, 144)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_portrait")
+
+[node name="PortraitTexture" type="TextureRect" parent="DialoguePanel/MarginContainer/HBoxContainer/PortraitFrame"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 132.0
+offset_bottom = 132.0
+mouse_filter = 2
+texture = SubResource("AtlasTexture_portrait")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextArea" type="VBoxContainer" parent="DialoguePanel/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_constants/separation = 4
+
+[node name="DialogueText" type="Label" parent="DialoguePanel/MarginContainer/HBoxContainer/TextArea"]
+custom_minimum_size = Vector2(0, 108)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_fonts/font = ExtResource("2_font")
+theme_override_font_sizes/font_size = 24
+text = ""
+autowrap_mode = 2
+
+[node name="AdvanceHint" type="Label" parent="DialoguePanel/MarginContainer/HBoxContainer/TextArea"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.68, 0.72, 0.75, 1)
+theme_override_fonts/font = ExtResource("2_font")
+theme_override_font_sizes/font_size = 16
+text = "クリック / Enter ▶"
+horizontal_alignment = 2
+
 [node name="PauseButton" type="Button" parent="." unique_id=1159528735]
 process_mode = 3
+z_index = 40
 offset_left = 1096.0
 offset_top = 15.0
 offset_right = 1134.0
@@ -30,6 +171,7 @@ offset_bottom = 58.0
 text = "Ⅱ"
 
 [node name="PauseOverlay" type="ColorRect" parent="." unique_id=1981441906]
+z_index = 30
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -39,6 +181,7 @@ color = Color(0, 0, 0, 0.007843138)
 
 [node name="PauseMenu" type="Panel" parent="." unique_id=407740784]
 visible = false
+z_index = 31
 offset_left = 467.0
 offset_top = 234.0
 offset_right = 644.0
@@ -73,6 +216,7 @@ text = "TITLE"
 
 [node name="SettingsPanel" type="Panel" parent="." unique_id=1784978576]
 process_mode = 3
+z_index = 31
 offset_left = 390.0
 offset_top = 59.0
 offset_right = 753.0

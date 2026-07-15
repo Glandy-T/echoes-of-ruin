@@ -7,6 +7,13 @@ const GRAVITY = 900.0
 @onready var anim = $AnimatedSprite2D
 
 var facing_left = false
+var input_locked := false
+
+
+func set_input_locked(locked: bool) -> void:
+	input_locked = locked
+	if input_locked:
+		velocity.x = 0.0
 
 
 func _physics_process(delta):
@@ -14,12 +21,19 @@ func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += GRAVITY * delta
 
+	if input_locked:
+		velocity.x = 0.0
+		anim.play("idle")
+		anim.flip_h = facing_left
+		move_and_slide()
+		return
+
 	# 跳跃
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
 	# 左右移动
-	var direction = Input.get_axis("ui_left", "ui_right")
+	var direction = Input.get_axis("move_left", "move_right")
 
 	if direction != 0:
 		velocity.x = direction * SPEED

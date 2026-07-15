@@ -22,7 +22,7 @@ func _ready() -> void:
 
 
 func _process(_delta: float) -> void:
-	if player_near and Input.is_action_just_pressed("interact"):
+	if player_near and Input.is_action_just_pressed("interact") and _can_accept_world_interaction():
 		_try_change_scene()
 
 
@@ -58,3 +58,11 @@ func _on_body_exited(body: Node) -> void:
 	player_near = false
 	if _ui != null:
 		_ui.call("hide_prompt", self)
+
+
+func _can_accept_world_interaction() -> bool:
+	if _ui == null:
+		return not get_tree().paused
+	if not _ui.has_method("can_accept_world_interaction"):
+		return not get_tree().paused
+	return bool(_ui.call("can_accept_world_interaction"))

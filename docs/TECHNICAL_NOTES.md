@@ -16,7 +16,8 @@ res://
 │  ├─ interactions/
 │  │  ├─ door.tscn
 │  │  ├─ terminal.tscn
-│  │  └─ scene_exit.tscn
+│  │  ├─ scene_exit.tscn
+│  │  └─ investigation_point.tscn
 │  ├─ dev/
 │  │  ├─ prototype_room_a.tscn
 │  │  └─ prototype_room_b.tscn
@@ -25,7 +26,7 @@ res://
 │  ├─ core/game_state.gd, title_screen.gd
 │  ├─ player/player.gd
 │  ├─ ui/game_ui.gd
-│  ├─ interactions/door.gd, terminal.gd, scene_exit.gd
+│  ├─ interactions/door.gd, terminal.gd, scene_exit.gd, investigation_point.gd
 │  └─ world/room_controller.gd, spawn_point.gd
 └─ assets/characters/
    ├─ idle.png
@@ -40,11 +41,12 @@ res://
 | `title_screen.gd` | Demo 状態の初期化、一時的な prototype 入口、操作ヒント設定、ウィンドウ／フルスクリーン切替を管理する。 |
 | `room_controller.gd` | Player のスポーン適用と、部屋ごとの Camera 境界設定を共通処理する。 |
 | `spawn_point.gd` | Marker2D に Inspector 設定可能な `spawn_id` を与える。 |
-| `player.gd` | `CharacterBody2D` の左右移動、重力、ジャンプ、アニメーション再生、左右反転を制御する。 |
+| `player.gd` | `CharacterBody2D` の左右移動、重力、ジャンプ、アニメーション、左右反転と、対話中の入力ロックを制御する。 |
 | `terminal.gd` | Group で Player と GameUI を検出し、Inspector 指定の Door を検証して `unlock_and_open()` を呼ぶ。 |
 | `door.gd` | 開放状態、上方向 Tween、閉鎖時の物理衝突、開放後の衝突無効化を管理する。 |
 | `scene_exit.gd` | Inspector 指定の目標シーン、スポーン ID、必要 flag に基づいて場面を切り替える。 |
-| `game_ui.gd` | テキスト、発生元別のヒント、フェード、ポーズ／設定画面を制御し、操作ヒント設定を GameState と同期する。 |
+| `investigation_point.gd` | Inspector 指定のページ、表情 ID、任意の詳細画像を GameUI の対話 API へ渡す。 |
+| `game_ui.gd` | 一時テキスト、発生元別ヒント、独白／詳細調査、プレイヤー入力ロック、ポーズ／設定を制御し、操作ヒント設定を GameState と同期する。 |
 
 ## シーン間の関係
 
@@ -58,6 +60,7 @@ scenes/core/title_screen.tscn
 ```
 
 - `prototype_room_a.tscn` は Player、GameUI、Door、Terminal、SceneExit をインスタンス化する。
+- `prototype_room_a.tscn` には、第一版対話 API の確認専用として通常独白と詳細調査の DEV Investigation Point を配置する。正式マップ用の調査対象ではない。
 - `prototype_room_b.tscn` は Player、GameUI、SceneExit をインスタンス化する。
 - 両 prototype は同じ `room_controller.gd` を使用し、正式な建築シーンではない。
 - `player.tscn` は `CharacterBody2D`、当たり判定、`AnimatedSprite2D`、`Camera2D` で構成される。
@@ -70,9 +73,17 @@ Player の物理処理
   └─ player.gd → 入力取得 → CharacterBody2D.move_and_slide()
 
 Area2D の body_entered / body_exited
-  └─ terminal.gd / scene_exit.gd
+  └─ terminal.gd / scene_exit.gd / investigation_point.gd
        ├─ Player は `player` Group で判定
        └─ `game_ui` Group の GameUI へ発生元付きヒントを登録／解除
+
+Investigation Point の E 操作
+  ├─ GameUI.can_accept_world_interaction() を確認
+  ├─ 画像なし → GameUI.start_dialogue()
+  └─ 画像あり → GameUI.start_detail_dialogue()
+       ├─ DialoguePanel と任意の DetailOverlay を表示
+       ├─ Player.set_input_locked(true)
+       └─ 終了時にロック解除と登録済みヒントの再表示
 
 Terminal の E 操作
   └─ GameState.set_flag(terminal_state_id, true)
@@ -94,19 +105,35 @@ Room Controller の初期化
 
 Terminal と Scene Exit は `body.is_in_group("player")` で Player を判定する。UI は `game_ui` Group から取得するため、インタラクションの直接の親ノードに UI 仲介メソッドを要求しない。`terminal.gd` は `target_door_path` の存在と `unlock_and_open()` の有無を検証し、不正な場合は警告を出す。
 
+Terminal、Scene Exit、Investigation Point は E 入力を処理する前に `GameUI.can_accept_world_interaction()` を確認する。対話、詳細調査、ポーズ、設定画面のいずれかが開いている間は、世界側のインタラクションを開始しない。
+
 ## 再利用シーンの設定
 
 - Door：`state_id`、`open_offset`、`animation_time` を Inspector で設定する。
 - Terminal：`target_door_path`、`state_id`、表示テキストを Inspector で設定する。
 - Scene Exit：`target_scene_path`、`target_spawn_id`、`prompt_text`、任意の `required_flag_id` を設定する。
+- Investigation Point：`prompt_text`、手動改ページ単位の `pages`、任意の `expression_ids` と `detail_texture` を設定する。
 - Spawn Point：Marker2D に `spawn_point.gd` を設定し、`spawn_id` を指定する。
 - Room：`room_controller.gd` の `default_spawn_id` と Camera 境界 4 値を指定する。
 
+## 対話・詳細調査 API
+
+- `GameUI.start_dialogue(pages, expression_ids)`：画像を使用しない主人公独白または簡易調査を開始する。
+- `GameUI.start_detail_dialogue(detail_texture, pages, expression_ids)`：中央の詳細画像と共通 DialoguePanel を同時に表示する。
+- `pages` の 1 要素を 1 ページとして扱い、自動分割や自動終了は行わない。
+- `expression_ids` が不足するページ、空 ID、未登録 ID は `neutral` へフォールバックする。第一版では全 ID が同じ暫定画像を使用する。
+- 対話中は SceneTree を pause せず、Player の入力だけをロックする。空中の重力、衝突、着地は継続する。
+- Enter またはマウス左クリックで次ページへ進み、最終ページの次で閉じる。Esc は現在の対話または詳細調査だけを閉じ、同じ入力でポーズを開かない。
+
 ## 入力・設定上の補足
 
-- `project.godot` で独自に定義されている入力は `interact`（`E`）と `pause`（`Esc`）である。
-- 移動とジャンプには Godot 標準の `ui_left`、`ui_right`、`ui_accept` を使用する。
-- 正式な会話ボックスと、会話の送り／選択／キャンセルに用いるキー構成は未実装・未確定である。
+- `move_left`：A／左方向キー、`move_right`：D／右方向キー。
+- `jump`：Space／W／上方向キー。Player のジャンプには `ui_accept` を使用しない。
+- `interact`：E。調査、端末、ドア、場面インタラクションに使用する。
+- `dialogue_advance`：Enter／マウス左ボタン。DialoguePanel または DetailOverlay が開いている間だけ使用する。
+- `pause`：Esc。対話中は対話を閉じ、ポーズ設定画面ではポーズ主画面へ戻り、ポーズ主画面ではゲームへ復帰する。
+- `ui_accept` など Godot 標準 UI 入力はタイトル、ポーズ、設定画面の操作用として保持する。
+- S／下方向キーに対応するゲーム内アクションは定義しない。
 - UI の音量・言語選択は現状 `print()` のみで、音響・ローカライズの実装は**要補足**。
 - BGM と言語の UI ラベルには、現在未接続であることを明記している。
 - シーンパスは小文字 snake_case の実在パスへ統一済みである。

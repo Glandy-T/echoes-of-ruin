@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dxtr8afq8olc3"]
+[gd_scene load_steps=11 format=3 uid="uid://dxtr8afq8olc3"]
 
 [ext_resource type="Script" uid="uid://duo1k7h6kybo5" path="res://scripts/world/room_controller.gd" id="1_room"]
 [ext_resource type="PackedScene" uid="uid://br0xjikbl1guw" path="res://scenes/player/player.tscn" id="2_player"]
@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" path="res://scenes/interactions/terminal.tscn" id="5_terminal"]
 [ext_resource type="PackedScene" path="res://scenes/interactions/scene_exit.tscn" id="6_exit"]
 [ext_resource type="Script" uid="uid://dehcfycxiawta" path="res://scripts/world/spawn_point.gd" id="7_spawn"]
+[ext_resource type="PackedScene" path="res://scenes/interactions/investigation_point.tscn" id="8_investigation"]
+[ext_resource type="Texture2D" uid="uid://cuys3gqrysgxt" path="res://assets/characters/idle.png" id="9_detail"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
 size = Vector2(1799.5, 39)
@@ -49,6 +51,35 @@ target_spawn_id = &"from_room_a"
 prompt_text = "Eキーで調べる"
 required_flag_id = &"prototype_a_door_opened"
 unavailable_text = "ドアはロックされている。"
+
+[node name="DevDialogueInvestigation" parent="." instance=ExtResource("8_investigation")]
+position = Vector2(360, 570)
+prompt_text = "Eキーで DEV 独白を確認"
+pages = Array[String](["……これは開発用の調査点らしい。", "二ページ目。仕組みは単純な方が助かる。"])
+expression_ids = Array[StringName]([&"confused", &"deadpan"])
+
+[node name="DevDialogueLabel" type="Label" parent="."]
+offset_left = 270.0
+offset_top = 493.0
+offset_right = 450.0
+offset_bottom = 522.0
+text = "DEV: DIALOGUE TEST"
+horizontal_alignment = 1
+
+[node name="DevDetailInvestigation" parent="." instance=ExtResource("8_investigation")]
+position = Vector2(650, 570)
+prompt_text = "Eキーで DEV 詳細調査を確認"
+pages = Array[String](["画像付きの調査表示。今は仮素材だ。", "正式な資料画像は、必要になってから差し替える。"])
+expression_ids = Array[StringName]([&"wary", &"neutral"])
+detail_texture = ExtResource("9_detail")
+
+[node name="DevDetailLabel" type="Label" parent="."]
+offset_left = 560.0
+offset_top = 493.0
+offset_right = 740.0
+offset_bottom = 522.0
+text = "DEV: DETAIL TEST"
+horizontal_alignment = 1
 
 [node name="Player" parent="." instance=ExtResource("2_player")]
 position = Vector2(423, 554)

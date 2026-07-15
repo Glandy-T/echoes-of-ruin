@@ -1,31 +1,55 @@
 extends CanvasLayer
 
-@onready var text_box = $TextBox
-@onready var text_label = $TextBox/TextLabel
+const EXPRESSION_IDS := [
+	&"neutral",
+	&"confused",
+	&"wary",
+	&"deadpan",
+	&"surprised",
+	&"sad",
+	&"bitter_smile",
+]
 
-@onready var pause_button = $PauseButton
-@onready var pause_overlay = $PauseOverlay
-@onready var pause_menu = $PauseMenu
-@onready var resume_button = $PauseMenu/ResumeButton
-@onready var settings_button = $PauseMenu/SettingsButton
-@onready var title_button = $PauseMenu/TitleButton
+@onready var text_box: Panel = $TextBox
+@onready var text_label: Label = $TextBox/TextLabel
 
-@onready var settings_panel = $SettingsPanel
-@onready var hint_check_box = $SettingsPanel/HintCheckBox
-@onready var volume_slider = $SettingsPanel/VolumeSlider
-@onready var language_option = $SettingsPanel/LanguageOption
-@onready var back_button = $SettingsPanel/BackButton
+@onready var detail_overlay: Control = $DetailOverlay
+@onready var detail_texture_rect: TextureRect = $DetailOverlay/DetailTexture
+@onready var dialogue_panel: Panel = $DialoguePanel
+@onready var portrait_texture: TextureRect = $DialoguePanel/MarginContainer/HBoxContainer/PortraitFrame/PortraitTexture
+@onready var dialogue_text: Label = $DialoguePanel/MarginContainer/HBoxContainer/TextArea/DialogueText
+
+@onready var pause_button: Button = $PauseButton
+@onready var pause_overlay: ColorRect = $PauseOverlay
+@onready var pause_menu: Panel = $PauseMenu
+@onready var resume_button: Button = $PauseMenu/ResumeButton
+@onready var settings_button: Button = $PauseMenu/SettingsButton
+@onready var title_button: Button = $PauseMenu/TitleButton
+
+@onready var settings_panel: Panel = $SettingsPanel
+@onready var hint_check_box: CheckBox = $SettingsPanel/HintCheckBox
+@onready var volume_slider: HSlider = $SettingsPanel/VolumeSlider
+@onready var language_option: OptionButton = $SettingsPanel/LanguageOption
+@onready var back_button: Button = $SettingsPanel/BackButton
 
 var fade_tween: Tween
-var is_paused = false
-var show_hint = true
+var is_paused := false
+var show_hint := true
 var _message_version := 0
 var _message_active := false
 var _prompt_texts: Dictionary = {}
 var _prompt_order: Array[int] = []
 
+var _dialogue_open := false
+var _dialogue_pages: Array[String] = []
+var _dialogue_expression_ids: Array[StringName] = []
+var _dialogue_page_index := 0
+var _player: Node
+var _expression_textures: Dictionary = {}
+var _warned_expression_ids: Dictionary = {}
 
-func _ready():
+
+func _ready() -> void:
 	pause_button.pressed.connect(_on_pause_button_pressed)
 	resume_button.pressed.connect(_on_resume_button_pressed)
 	settings_button.pressed.connect(_on_settings_button_pressed)
@@ -37,6 +61,8 @@ func _ready():
 	back_button.pressed.connect(_on_back_button_pressed)
 
 	text_box.visible = false
+	detail_overlay.visible = false
+	dialogue_panel.visible = false
 	pause_overlay.visible = false
 	pause_menu.visible = false
 	settings_panel.visible = false
@@ -54,10 +80,69 @@ func _ready():
 	language_option.add_item("English")
 	language_option.select(0)
 
+	_player = get_tree().get_first_node_in_group("player")
+	for expression_id in EXPRESSION_IDS:
+		_expression_textures[expression_id] = portrait_texture.texture
 
-func _process(_delta: float) -> void:
-	if Input.is_action_just_pressed("pause"):
+
+func _unhandled_input(event: InputEvent) -> void:
+	if is_dialogue_open():
+		if event.is_action_pressed("pause"):
+			close_dialogue()
+			get_viewport().set_input_as_handled()
+		elif event.is_action_pressed("dialogue_advance"):
+			_advance_dialogue()
+			get_viewport().set_input_as_handled()
+		return
+
+	if not event.is_action_pressed("pause"):
+		return
+
+	if is_paused and settings_panel.visible:
+		_show_pause_menu()
+	else:
 		toggle_pause()
+	get_viewport().set_input_as_handled()
+
+
+func start_dialogue(pages: Array[String], expression_ids: Array[StringName] = []) -> void:
+	_open_dialogue(null, pages, expression_ids)
+
+
+func start_detail_dialogue(
+	detail_texture: Texture2D,
+	pages: Array[String],
+	expression_ids: Array[StringName] = []
+) -> void:
+	_open_dialogue(detail_texture, pages, expression_ids)
+
+
+func close_dialogue() -> void:
+	if not _dialogue_open:
+		return
+
+	_dialogue_open = false
+	_dialogue_pages.clear()
+	_dialogue_expression_ids.clear()
+	_dialogue_page_index = 0
+	dialogue_panel.visible = false
+	detail_overlay.visible = false
+	detail_texture_rect.texture = null
+	pause_button.visible = true
+	_set_player_input_locked(false)
+	_refresh_prompt()
+
+
+func is_dialogue_open() -> bool:
+	return _dialogue_open
+
+
+func is_modal_open() -> bool:
+	return _dialogue_open or is_paused
+
+
+func can_accept_world_interaction() -> bool:
+	return not is_modal_open() and not get_tree().paused
 
 
 func show_text(text: String, duration: float = 2.5) -> void:
@@ -65,7 +150,8 @@ func show_text(text: String, duration: float = 2.5) -> void:
 	var version := _message_version
 	_message_active = true
 	_stop_fade()
-	_display_text(text)
+	if not is_modal_open():
+		_display_text(text)
 
 	await get_tree().create_timer(duration).timeout
 	if version != _message_version:
@@ -98,8 +184,85 @@ func hide_text() -> void:
 	_refresh_prompt()
 
 
+func _open_dialogue(
+	detail_texture: Texture2D,
+	pages: Array[String],
+	expression_ids: Array[StringName]
+) -> void:
+	if pages.is_empty():
+		return
+	if _dialogue_open:
+		close_dialogue()
+
+	_cancel_temporary_text()
+	_dialogue_pages.append_array(pages)
+	_dialogue_expression_ids.append_array(expression_ids)
+	_dialogue_page_index = 0
+	_dialogue_open = true
+
+	detail_texture_rect.texture = detail_texture
+	detail_overlay.visible = detail_texture != null
+	dialogue_panel.visible = true
+	pause_button.visible = false
+	_set_player_input_locked(true)
+	_show_dialogue_page()
+
+
+func _advance_dialogue() -> void:
+	_dialogue_page_index += 1
+	if _dialogue_page_index >= _dialogue_pages.size():
+		close_dialogue()
+		return
+	_show_dialogue_page()
+
+
+func _show_dialogue_page() -> void:
+	dialogue_text.text = _dialogue_pages[_dialogue_page_index]
+	var expression_id: StringName = &"neutral"
+	if _dialogue_page_index < _dialogue_expression_ids.size():
+		expression_id = _dialogue_expression_ids[_dialogue_page_index]
+		if expression_id.is_empty():
+			expression_id = &"neutral"
+	_apply_expression(expression_id)
+
+
+func _apply_expression(expression_id: StringName) -> void:
+	var resolved_id := expression_id
+	if not _expression_textures.has(resolved_id):
+		if not _warned_expression_ids.has(resolved_id):
+			push_warning("Unknown dialogue expression '%s'; using neutral." % resolved_id)
+			_warned_expression_ids[resolved_id] = true
+		resolved_id = &"neutral"
+	portrait_texture.texture = _expression_textures[resolved_id]
+
+
+func _cancel_temporary_text() -> void:
+	_message_version += 1
+	_message_active = false
+	_stop_fade()
+	text_box.visible = false
+	text_box.modulate.a = 1.0
+
+
+func _set_player_input_locked(locked: bool) -> void:
+	if _player == null or not is_instance_valid(_player):
+		_player = get_tree().get_first_node_in_group("player")
+	if _player == null:
+		push_warning("GameUI could not find Player for dialogue input locking.")
+		return
+	if not _player.has_method("set_input_locked"):
+		push_warning("Player does not implement set_input_locked().")
+		return
+	_player.call("set_input_locked", locked)
+
+
 func _fade_out_message(version: int) -> void:
 	_stop_fade()
+	if not text_box.visible:
+		_message_active = false
+		_refresh_prompt()
+		return
+
 	fade_tween = create_tween()
 	fade_tween.tween_property(text_box, "modulate:a", 0.0, 0.5)
 	await fade_tween.finished
@@ -119,6 +282,10 @@ func _display_text(text: String) -> void:
 
 
 func _refresh_prompt() -> void:
+	if is_modal_open():
+		text_box.visible = false
+		text_box.modulate.a = 1.0
+		return
 	if _message_active:
 		return
 
@@ -140,21 +307,33 @@ func _stop_fade() -> void:
 
 
 func toggle_pause() -> void:
-	is_paused = !is_paused
-	get_tree().paused = is_paused
+	if is_dialogue_open():
+		return
 
+	is_paused = not is_paused
+	get_tree().paused = is_paused
 	pause_overlay.visible = is_paused
 	pause_menu.visible = is_paused
 	settings_panel.visible = false
 
 	if is_paused:
 		pause_button.text = "▶"
+		resume_button.grab_focus()
 	else:
 		pause_button.text = "Ⅱ"
+	_refresh_prompt()
+
+
+func _show_pause_menu() -> void:
+	settings_panel.visible = false
+	pause_menu.visible = true
+	settings_button.grab_focus()
+	_refresh_prompt()
 
 
 func _on_pause_button_pressed() -> void:
-	toggle_pause()
+	if not is_dialogue_open():
+		toggle_pause()
 
 
 func _on_resume_button_pressed() -> void:
@@ -165,6 +344,8 @@ func _on_resume_button_pressed() -> void:
 func _on_settings_button_pressed() -> void:
 	pause_menu.visible = false
 	settings_panel.visible = true
+	hint_check_box.grab_focus()
+	_refresh_prompt()
 
 
 func _on_title_button_pressed() -> void:
@@ -174,21 +355,20 @@ func _on_title_button_pressed() -> void:
 
 
 func _on_back_button_pressed() -> void:
-	settings_panel.visible = false
-	pause_menu.visible = true
+	_show_pause_menu()
 
 
-func _on_hint_check_box_toggled(button_pressed: bool):
+func _on_hint_check_box_toggled(button_pressed: bool) -> void:
 	show_hint = button_pressed
 	GameState.interaction_hints_enabled = button_pressed
 	if not _message_active:
 		_refresh_prompt()
 
 
-func _on_volume_slider_value_changed(value: float):
+func _on_volume_slider_value_changed(value: float) -> void:
 	print("BGM Volume placeholder (not connected): ", value)
 
 
-func _on_language_option_item_selected(index: int):
-	var selected_language = language_option.get_item_text(index)
+func _on_language_option_item_selected(index: int) -> void:
+	var selected_language := language_option.get_item_text(index)
 	print("Language placeholder (not connected): ", selected_language)
