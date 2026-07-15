@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=2 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/DotGothic16-Regular.ttf" id="1_font"]
+
+[resource]
+default_font = ExtResource("1_font")
+default_font_size = 28
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 28
+Label/constants/outline_size = 0

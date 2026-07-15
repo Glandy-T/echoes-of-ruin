@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" uid="uid://rd86nnu68kpg" path="res://scripts/interactions/terminal.gd" id="1_terminal"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_terminal"]
+size = Vector2(30, 41)
+
+[node name="Terminal" type="Area2D"]
+script = ExtResource("1_terminal")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(23, 17.5)
+shape = SubResource("RectangleShape2D_terminal")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 6.0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

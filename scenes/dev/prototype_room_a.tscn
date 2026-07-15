@@ -1,0 +1,82 @@
+[gd_scene load_steps=9 format=3 uid="uid://dxtr8afq8olc3"]
+
+[ext_resource type="Script" uid="uid://duo1k7h6kybo5" path="res://scripts/world/room_controller.gd" id="1_room"]
+[ext_resource type="PackedScene" uid="uid://br0xjikbl1guw" path="res://scenes/player/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" uid="uid://qtrnx5rhvyq7" path="res://scenes/ui/game_ui.tscn" id="3_ui"]
+[ext_resource type="PackedScene" path="res://scenes/interactions/door.tscn" id="4_door"]
+[ext_resource type="PackedScene" path="res://scenes/interactions/terminal.tscn" id="5_terminal"]
+[ext_resource type="PackedScene" path="res://scenes/interactions/scene_exit.tscn" id="6_exit"]
+[ext_resource type="Script" uid="uid://dehcfycxiawta" path="res://scripts/world/spawn_point.gd" id="7_spawn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
+size = Vector2(1799.5, 39)
+
+[node name="PrototypeRoomA" type="Node2D"]
+script = ExtResource("1_room")
+default_spawn_id = &"start"
+camera_bottom = 720
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(509, 525)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+position = Vector2(388.25, 125)
+shape = SubResource("RectangleShape2D_ground")
+
+[node name="ColorRect" type="ColorRect" parent="Ground"]
+offset_left = -511.0
+offset_top = 106.0
+offset_right = 1287.0
+offset_bottom = 146.0
+color = Color(0.10872082, 0.10872076, 0.10872073, 1)
+
+[node name="Door" parent="." instance=ExtResource("4_door")]
+position = Vector2(1700, 574)
+state_id = &"prototype_a_door_opened"
+
+[node name="Terminal" parent="." instance=ExtResource("5_terminal")]
+position = Vector2(1591, 591)
+target_door_path = NodePath("../Door")
+state_id = &"prototype_a_terminal_used"
+activation_text = "端末を起動した。生体反応を確認。認証完了。"
+already_used_text = "端末はすでに認証済みです。"
+failure_text = "端末は対象のドアに接続できない。"
+
+[node name="ExitToRoomB" parent="." instance=ExtResource("6_exit")]
+position = Vector2(1700, 574)
+target_scene_path = "res://scenes/dev/prototype_room_b.tscn"
+target_spawn_id = &"from_room_a"
+prompt_text = "Eキーで調べる"
+required_flag_id = &"prototype_a_door_opened"
+unavailable_text = "ドアはロックされている。"
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(423, 554)
+
+[node name="GameUI" parent="." instance=ExtResource("3_ui")]
+
+[node name="Ground2" type="StaticBody2D" parent="."]
+position = Vector2(-414, 215)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground2"]
+position = Vector2(388.25, 125)
+rotation = 1.5707964
+shape = SubResource("RectangleShape2D_ground")
+
+[node name="ColorRect" type="ColorRect" parent="Ground2"]
+offset_left = 414.0
+offset_top = -777.0
+offset_right = 2212.0
+offset_bottom = -737.0
+rotation = 1.5707964
+color = Color(0.10872082, 0.10872076, 0.10872073, 1)
+
+[node name="StartSpawn" type="Marker2D" parent="."]
+position = Vector2(298, 573)
+script = ExtResource("7_spawn")
+spawn_id = &"start"
+
+[node name="DoorSpawn" type="Marker2D" parent="."]
+position = Vector2(1702, 568)
+script = ExtResource("7_spawn")
+spawn_id = &"from_room_b"

@@ -1,0 +1,141 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5irjibgor2d1"]
+
+[ext_resource type="Script" uid="uid://v0ks3edtagh7" path="res://scripts/core/title_screen.gd" id="1_script"]
+[ext_resource type="Theme" path="res://assets/ui/title_screen_theme.tres" id="2_theme"]
+
+[node name="TitleScreen" type="Control" unique_id=1805084774]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_script")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.035, 0.043, 0.055, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MainMenu" type="VBoxContainer" parent="CenterContainer"]
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="JapaneseTitle" type="Label" parent="CenterContainer/MainMenu"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 72
+text = "終末の残響"
+horizontal_alignment = 1
+
+[node name="EnglishSubtitle" type="Label" parent="CenterContainer/MainMenu"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "ECHOES OF RUIN"
+horizontal_alignment = 1
+
+[node name="MenuSpacer" type="Control" parent="CenterContainer/MainMenu"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="StartButton" type="Button" parent="CenterContainer/MainMenu" unique_id=1580379617]
+custom_minimum_size = Vector2(360, 56)
+layout_mode = 2
+focus_neighbor_top = NodePath("../ExitButton")
+focus_neighbor_bottom = NodePath("../SettingsButton")
+mouse_default_cursor_shape = 2
+text = "はじめる"
+
+[node name="SettingsButton" type="Button" parent="CenterContainer/MainMenu"]
+custom_minimum_size = Vector2(360, 56)
+layout_mode = 2
+focus_neighbor_top = NodePath("../StartButton")
+focus_neighbor_bottom = NodePath("../ExitButton")
+mouse_default_cursor_shape = 2
+text = "設定"
+
+[node name="ExitButton" type="Button" parent="CenterContainer/MainMenu"]
+custom_minimum_size = Vector2(360, 56)
+layout_mode = 2
+focus_neighbor_top = NodePath("../SettingsButton")
+focus_neighbor_bottom = NodePath("../StartButton")
+mouse_default_cursor_shape = 2
+text = "終了"
+
+[node name="SettingsMenu" type="VBoxContainer" parent="CenterContainer"]
+visible = false
+custom_minimum_size = Vector2(520, 0)
+layout_mode = 2
+theme_override_constants/separation = 24
+alignment = 1
+
+[node name="SettingsTitle" type="Label" parent="CenterContainer/SettingsMenu"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "設定"
+horizontal_alignment = 1
+
+[node name="SettingsSpacerTop" type="Control" parent="CenterContainer/SettingsMenu"]
+custom_minimum_size = Vector2(0, 12)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="SettingsGrid" type="GridContainer" parent="CenterContainer/SettingsMenu"]
+layout_mode = 2
+theme_override_constants/h_separation = 32
+theme_override_constants/v_separation = 20
+columns = 2
+
+[node name="HintLabel" type="Label" parent="CenterContainer/SettingsMenu/SettingsGrid"]
+layout_mode = 2
+text = "操作提示"
+vertical_alignment = 1
+
+[node name="HintCheckBox" type="CheckBox" parent="CenterContainer/SettingsMenu/SettingsGrid"]
+custom_minimum_size = Vector2(220, 50)
+layout_mode = 2
+focus_neighbor_top = NodePath("../../BackButton")
+focus_neighbor_bottom = NodePath("../DisplayModeOption")
+mouse_default_cursor_shape = 2
+text = "表示する"
+
+[node name="DisplayModeLabel" type="Label" parent="CenterContainer/SettingsMenu/SettingsGrid"]
+layout_mode = 2
+text = "画面モード"
+vertical_alignment = 1
+
+[node name="DisplayModeOption" type="OptionButton" parent="CenterContainer/SettingsMenu/SettingsGrid"]
+custom_minimum_size = Vector2(220, 50)
+layout_mode = 2
+focus_neighbor_top = NodePath("../HintCheckBox")
+focus_neighbor_bottom = NodePath("../../BackButton")
+mouse_default_cursor_shape = 2
+
+[node name="SettingsSpacerBottom" type="Control" parent="CenterContainer/SettingsMenu"]
+custom_minimum_size = Vector2(0, 12)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="BackButton" type="Button" parent="CenterContainer/SettingsMenu"]
+custom_minimum_size = Vector2(520, 56)
+layout_mode = 2
+focus_neighbor_top = NodePath("../SettingsGrid/DisplayModeOption")
+focus_neighbor_bottom = NodePath("../SettingsGrid/HintCheckBox")
+mouse_default_cursor_shape = 2
+text = "戻る"
