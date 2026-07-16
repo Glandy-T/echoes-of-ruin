@@ -1,0 +1,562 @@
+[gd_scene load_steps=14 format=3]
+
+[ext_resource type="Script" uid="uid://duo1k7h6kybo5" path="res://scripts/world/room_controller.gd" id="1_room"]
+[ext_resource type="PackedScene" uid="uid://br0xjikbl1guw" path="res://scenes/player/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" uid="uid://qtrnx5rhvyq7" path="res://scenes/ui/game_ui.tscn" id="3_ui"]
+[ext_resource type="PackedScene" path="res://scenes/interactions/door.tscn" id="4_door"]
+[ext_resource type="PackedScene" path="res://scenes/interactions/terminal.tscn" id="5_terminal"]
+[ext_resource type="Script" uid="uid://dehcfycxiawta" path="res://scripts/world/spawn_point.gd" id="6_spawn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
+size = Vector2(1920, 70)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_side_wall"]
+size = Vector2(40, 720)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ceiling"]
+size = Vector2(1920, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pod"]
+size = Vector2(150, 260)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_damaged_pod"]
+size = Vector2(132, 210)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rubble"]
+size = Vector2(84, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_workbench"]
+size = Vector2(210, 28)
+
+; Slot numbers are left-to-right spatial positions.
+; Only the protagonist pod has a confirmed in-world body ID: POD ID 04.
+
+[node name="CryoRoom4F01" type="Node2D"]
+script = ExtResource("1_room")
+default_spawn_id = &"start"
+camera_left = 0
+camera_top = 0
+camera_right = 1920
+camera_bottom = 720
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 720.0
+color = Color(0.66, 0.69, 0.71, 1)
+
+[node name="WallInset" type="ColorRect" parent="."]
+offset_left = 56.0
+offset_top = 86.0
+offset_right = 1860.0
+offset_bottom = 590.0
+color = Color(0.76, 0.79, 0.8, 1)
+
+[node name="CeilingBand" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 72.0
+color = Color(0.47, 0.51, 0.54, 1)
+
+[node name="FloorVisual" type="ColorRect" parent="."]
+offset_top = 650.0
+offset_right = 1920.0
+offset_bottom = 720.0
+color = Color(0.18, 0.21, 0.23, 1)
+
+[node name="Floor" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(960, 685)
+shape = SubResource("RectangleShape2D_floor")
+
+[node name="Ceiling" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ceiling"]
+position = Vector2(960, 16)
+shape = SubResource("RectangleShape2D_ceiling")
+
+[node name="LeftBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftBoundary"]
+position = Vector2(-20, 360)
+shape = SubResource("RectangleShape2D_side_wall")
+
+[node name="RightBoundary" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightBoundary"]
+position = Vector2(1940, 360)
+shape = SubResource("RectangleShape2D_side_wall")
+
+[node name="LeftEquipmentSpace" type="Node2D" parent="."]
+
+[node name="ControlCabinet" type="ColorRect" parent="LeftEquipmentSpace"]
+offset_left = 26.0
+offset_top = 330.0
+offset_right = 82.0
+offset_bottom = 570.0
+color = Color(0.36, 0.4, 0.42, 1)
+
+[node name="CableModule" type="ColorRect" parent="LeftEquipmentSpace"]
+offset_left = 42.0
+offset_top = 360.0
+offset_right = 66.0
+offset_bottom = 530.0
+color = Color(0.15, 0.18, 0.2, 1)
+
+[node name="DevLabel" type="Label" parent="LeftEquipmentSpace"]
+offset_left = 12.0
+offset_top = 292.0
+offset_right = 110.0
+offset_bottom = 320.0
+text = "DEV: EQUIPMENT"
+
+[node name="PodSlot01PowerOff" type="Node2D" parent="."]
+position = Vector2(170, 570)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="PodSlot01PowerOff"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PodSlot01PowerOff/StaticBody2D"]
+position = Vector2(0, -135)
+shape = SubResource("RectangleShape2D_pod")
+
+[node name="PodShell" type="ColorRect" parent="PodSlot01PowerOff"]
+offset_left = -75.0
+offset_top = -265.0
+offset_right = 75.0
+offset_bottom = -5.0
+color = Color(0.28, 0.31, 0.33, 1)
+
+[node name="Chamber" type="ColorRect" parent="PodSlot01PowerOff"]
+offset_left = -55.0
+offset_top = -238.0
+offset_right = 55.0
+offset_bottom = -28.0
+color = Color(0.12, 0.14, 0.15, 1)
+
+[node name="StatusPanel" type="ColorRect" parent="PodSlot01PowerOff"]
+offset_left = -52.0
+offset_top = -257.0
+offset_right = 52.0
+offset_bottom = -243.0
+color = Color(0.08, 0.09, 0.1, 1)
+
+[node name="StateLabel" type="Label" parent="PodSlot01PowerOff"]
+offset_left = -75.0
+offset_top = -298.0
+offset_right = 75.0
+offset_bottom = -272.0
+text = "DEV SLOT 01: POWER OFF"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="PodSlot01StatusAnchor" type="Marker2D" parent="PodSlot01PowerOff"]
+position = Vector2(48, -250)
+
+[node name="PodSlot01NameplateAnchor" type="Marker2D" parent="PodSlot01PowerOff"]
+position = Vector2(-48, -18)
+
+[node name="PodSlot02PlayerID04" type="Node2D" parent="."]
+position = Vector2(410, 570)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="PodSlot02PlayerID04"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PodSlot02PlayerID04/StaticBody2D"]
+position = Vector2(0, -135)
+shape = SubResource("RectangleShape2D_pod")
+
+[node name="PodShell" type="ColorRect" parent="PodSlot02PlayerID04"]
+offset_left = -75.0
+offset_top = -265.0
+offset_right = 75.0
+offset_bottom = -5.0
+color = Color(0.4, 0.5, 0.54, 1)
+
+[node name="OpenChamber" type="ColorRect" parent="PodSlot02PlayerID04"]
+offset_left = -57.0
+offset_top = -240.0
+offset_right = 38.0
+offset_bottom = -28.0
+color = Color(0.08, 0.13, 0.15, 1)
+
+[node name="OpenDoorPanel" type="ColorRect" parent="PodSlot02PlayerID04"]
+offset_left = 45.0
+offset_top = -248.0
+offset_right = 89.0
+offset_bottom = -20.0
+rotation = 0.035
+color = Color(0.56, 0.67, 0.7, 1)
+
+[node name="EmergencyWakeLight" type="ColorRect" parent="PodSlot02PlayerID04"]
+offset_left = -50.0
+offset_top = -257.0
+offset_right = 50.0
+offset_bottom = -245.0
+color = Color(0.25, 0.86, 0.9, 1)
+
+[node name="StateLabel" type="Label" parent="PodSlot02PlayerID04"]
+offset_left = -90.0
+offset_top = -298.0
+offset_right = 90.0
+offset_bottom = -272.0
+text = "DEV SLOT 02 / POD ID 04: OPEN"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="PodSlot02PlayerID04StatusAnchor" type="Marker2D" parent="PodSlot02PlayerID04"]
+position = Vector2(48, -250)
+
+[node name="PodSlot02PlayerID04NameplateAnchor" type="Marker2D" parent="PodSlot02PlayerID04"]
+position = Vector2(-48, -18)
+
+[node name="PodSlot03WakeInterrupted" type="Node2D" parent="."]
+position = Vector2(650, 570)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="PodSlot03WakeInterrupted"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PodSlot03WakeInterrupted/StaticBody2D"]
+position = Vector2(0, -135)
+shape = SubResource("RectangleShape2D_pod")
+
+[node name="PodShell" type="ColorRect" parent="PodSlot03WakeInterrupted"]
+offset_left = -75.0
+offset_top = -265.0
+offset_right = 75.0
+offset_bottom = -5.0
+color = Color(0.35, 0.39, 0.4, 1)
+
+[node name="Chamber" type="ColorRect" parent="PodSlot03WakeInterrupted"]
+offset_left = -55.0
+offset_top = -238.0
+offset_right = 55.0
+offset_bottom = -28.0
+color = Color(0.15, 0.2, 0.2, 1)
+
+[node name="InterruptedStatusLight" type="ColorRect" parent="PodSlot03WakeInterrupted"]
+offset_left = -50.0
+offset_top = -257.0
+offset_right = 8.0
+offset_bottom = -245.0
+color = Color(0.76, 0.6, 0.18, 1)
+
+[node name="InactiveStatusLight" type="ColorRect" parent="PodSlot03WakeInterrupted"]
+offset_left = 12.0
+offset_top = -257.0
+offset_right = 50.0
+offset_bottom = -245.0
+color = Color(0.1, 0.11, 0.11, 1)
+
+[node name="StateLabel" type="Label" parent="PodSlot03WakeInterrupted"]
+offset_left = -88.0
+offset_top = -298.0
+offset_right = 88.0
+offset_bottom = -272.0
+text = "DEV SLOT 03: WAKE INTERRUPTED"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="PodSlot03StatusAnchor" type="Marker2D" parent="PodSlot03WakeInterrupted"]
+position = Vector2(48, -250)
+
+[node name="PodSlot03NameplateAnchor" type="Marker2D" parent="PodSlot03WakeInterrupted"]
+position = Vector2(-48, -18)
+
+[node name="PodSlot04Unresponsive" type="Node2D" parent="."]
+position = Vector2(890, 570)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="PodSlot04Unresponsive"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PodSlot04Unresponsive/StaticBody2D"]
+position = Vector2(0, -135)
+shape = SubResource("RectangleShape2D_pod")
+
+[node name="PodShell" type="ColorRect" parent="PodSlot04Unresponsive"]
+offset_left = -75.0
+offset_top = -265.0
+offset_right = 75.0
+offset_bottom = -5.0
+color = Color(0.34, 0.37, 0.39, 1)
+
+[node name="OpaqueChamber" type="ColorRect" parent="PodSlot04Unresponsive"]
+offset_left = -55.0
+offset_top = -238.0
+offset_right = 55.0
+offset_bottom = -28.0
+color = Color(0.12, 0.15, 0.16, 1)
+
+[node name="StateLabel" type="Label" parent="PodSlot04Unresponsive"]
+offset_left = -84.0
+offset_top = -298.0
+offset_right = 84.0
+offset_bottom = -272.0
+text = "DEV SLOT 04: UNRESPONSIVE"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="PodSlot04StatusAnchor" type="Marker2D" parent="PodSlot04Unresponsive"]
+position = Vector2(48, -250)
+
+[node name="PodSlot04NameplateAnchor" type="Marker2D" parent="PodSlot04Unresponsive"]
+position = Vector2(-48, -18)
+
+[node name="CeilingBreach" type="Node2D" parent="."]
+
+[node name="BreachVoid" type="ColorRect" parent="CeilingBreach"]
+offset_left = 1030.0
+offset_right = 1220.0
+offset_bottom = 78.0
+color = Color(0.11, 0.13, 0.14, 1)
+
+[node name="UpperFloorSlab" type="ColorRect" parent="CeilingBreach"]
+offset_left = 1048.0
+offset_top = 142.0
+offset_right = 1190.0
+offset_bottom = 184.0
+rotation = 0.08
+color = Color(0.3, 0.33, 0.34, 1)
+
+[node name="FallenUpperFloorPod" type="ColorRect" parent="CeilingBreach"]
+offset_left = 1080.0
+offset_top = 74.0
+offset_right = 1182.0
+offset_bottom = 280.0
+rotation = -0.075
+color = Color(0.27, 0.31, 0.33, 1)
+
+[node name="BreachLabel" type="Label" parent="CeilingBreach"]
+offset_left = 1015.0
+offset_top = 92.0
+offset_right = 1225.0
+offset_bottom = 120.0
+text = "DEV: LOCAL VERTICAL COLLAPSE"
+horizontal_alignment = 1
+
+[node name="PodSlot05Collapsed" type="Node2D" parent="."]
+position = Vector2(1130, 570)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="PodSlot05Collapsed"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PodSlot05Collapsed/StaticBody2D"]
+position = Vector2(0, -150)
+shape = SubResource("RectangleShape2D_damaged_pod")
+
+[node name="DamagedPodBody" type="ColorRect" parent="PodSlot05Collapsed"]
+offset_left = -68.0
+offset_top = -238.0
+offset_right = 68.0
+offset_bottom = -16.0
+rotation = 0.055
+color = Color(0.24, 0.27, 0.28, 1)
+
+[node name="CrushedChamber" type="ColorRect" parent="PodSlot05Collapsed"]
+offset_left = -47.0
+offset_top = -208.0
+offset_right = 48.0
+offset_bottom = -38.0
+rotation = -0.04
+color = Color(0.09, 0.11, 0.12, 1)
+
+[node name="StateLabel" type="Label" parent="PodSlot05Collapsed"]
+offset_left = -88.0
+offset_top = -298.0
+offset_right = 88.0
+offset_bottom = -272.0
+text = "DEV SLOT 05: COLLAPSED"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 11
+
+[node name="PodSlot05StatusAnchor" type="Marker2D" parent="PodSlot05Collapsed"]
+position = Vector2(48, -230)
+
+[node name="PodSlot05NameplateAnchor" type="Marker2D" parent="PodSlot05Collapsed"]
+position = Vector2(-48, -18)
+
+[node name="LowRubble" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LowRubble"]
+position = Vector2(1160, 626)
+shape = SubResource("RectangleShape2D_rubble")
+
+[node name="RubbleBlockA" type="ColorRect" parent="LowRubble"]
+offset_left = 1118.0
+offset_top = 602.0
+offset_right = 1202.0
+offset_bottom = 650.0
+color = Color(0.25, 0.28, 0.29, 1)
+
+[node name="RubbleBlockB" type="ColorRect" parent="LowRubble"]
+offset_left = 1088.0
+offset_top = 625.0
+offset_right = 1136.0
+offset_bottom = 650.0
+color = Color(0.31, 0.33, 0.34, 1)
+
+[node name="DutyRosterPlaceholder" type="Node2D" parent="."]
+
+[node name="Sheet" type="ColorRect" parent="DutyRosterPlaceholder"]
+offset_left = 1248.0
+offset_top = 330.0
+offset_right = 1352.0
+offset_bottom = 475.0
+color = Color(0.88, 0.87, 0.8, 1)
+
+[node name="Header" type="Label" parent="DutyRosterPlaceholder"]
+offset_left = 1252.0
+offset_top = 337.0
+offset_right = 1348.0
+offset_bottom = 382.0
+text = "DEV\nROUTINE ROSTER"
+horizontal_alignment = 1
+
+[node name="CheckLine01" type="ColorRect" parent="DutyRosterPlaceholder"]
+offset_left = 1260.0
+offset_top = 400.0
+offset_right = 1336.0
+offset_bottom = 404.0
+color = Color(0.35, 0.35, 0.33, 1)
+
+[node name="CheckCircle" type="Label" parent="DutyRosterPlaceholder"]
+offset_left = 1282.0
+offset_top = 414.0
+offset_right = 1318.0
+offset_bottom = 448.0
+text = "○"
+horizontal_alignment = 1
+
+[node name="DutyRosterAnchor" type="Marker2D" parent="DutyRosterPlaceholder"]
+position = Vector2(1300, 405)
+
+[node name="WallMountedWorkbench" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallMountedWorkbench"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallMountedWorkbench/StaticBody2D"]
+position = Vector2(1470, 535)
+shape = SubResource("RectangleShape2D_workbench")
+
+[node name="BenchTop" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1365.0
+offset_top = 521.0
+offset_right = 1575.0
+offset_bottom = 549.0
+color = Color(0.31, 0.36, 0.38, 1)
+
+[node name="WallBracketLeft" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1382.0
+offset_top = 549.0
+offset_right = 1396.0
+offset_bottom = 575.0
+color = Color(0.25, 0.28, 0.3, 1)
+
+[node name="WallBracketRight" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1544.0
+offset_top = 549.0
+offset_right = 1558.0
+offset_bottom = 575.0
+color = Color(0.25, 0.28, 0.3, 1)
+
+[node name="UsedCup" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1512.0
+offset_top = 487.0
+offset_right = 1536.0
+offset_bottom = 521.0
+color = Color(0.22, 0.27, 0.29, 1)
+
+[node name="Pen" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1480.0
+offset_top = 512.0
+offset_right = 1510.0
+offset_bottom = 517.0
+rotation = -0.12
+color = Color(0.12, 0.16, 0.18, 1)
+
+[node name="DisposableGloves" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1435.0
+offset_top = 502.0
+offset_right = 1470.0
+offset_bottom = 521.0
+color = Color(0.67, 0.76, 0.78, 1)
+
+[node name="MintPack" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1540.0
+offset_top = 506.0
+offset_right = 1566.0
+offset_bottom = 521.0
+color = Color(0.72, 0.76, 0.7, 1)
+
+[node name="ConsentFormFolder" type="ColorRect" parent="WallMountedWorkbench"]
+offset_left = 1385.0
+offset_top = 498.0
+offset_right = 1430.0
+offset_bottom = 521.0
+color = Color(0.75, 0.67, 0.5, 1)
+
+[node name="DeskItemsAnchor" type="Marker2D" parent="WallMountedWorkbench"]
+position = Vector2(1518, 500)
+
+[node name="ConsentFormAnchor" type="Marker2D" parent="WallMountedWorkbench"]
+position = Vector2(1408, 508)
+
+[node name="DeskDevLabel" type="Label" parent="WallMountedWorkbench"]
+offset_left = 1370.0
+offset_top = 458.0
+offset_right = 1570.0
+offset_bottom = 484.0
+text = "DEV: NARROW CHECK BENCH"
+horizontal_alignment = 1
+
+[node name="ExitDoor" parent="." instance=ExtResource("4_door")]
+position = Vector2(1810, 590)
+state_id = &"cryo_room_exit_authorized"
+open_offset = Vector2(0, -180)
+animation_time = 0.7
+
+[node name="IdentityTerminal" parent="." instance=ExtResource("5_terminal")]
+position = Vector2(1650, 590)
+target_door_path = NodePath("../ExitDoor")
+state_id = &"cryo_room_exit_authorized"
+prompt_text = "E: DEV TERMINAL TEST"
+activation_text = "DEV PLACEHOLDER: Authorization complete. Exit lock released."
+already_used_text = "DEV PLACEHOLDER: Exit authorization is already active."
+failure_text = "DEV PLACEHOLDER: Door connection unavailable."
+
+[node name="TerminalDevLabel" type="Label" parent="."]
+offset_left = 1580.0
+offset_top = 493.0
+offset_right = 1720.0
+offset_bottom = 522.0
+text = "DEV: ID TERMINAL"
+horizontal_alignment = 1
+
+[node name="ExitDevLabel" type="Label" parent="."]
+offset_left = 1720.0
+offset_top = 470.0
+offset_right = 1900.0
+offset_bottom = 522.0
+text = "DEV: EXIT ROUTE TBD\nSCENE CHANGE DISABLED"
+horizontal_alignment = 1
+
+[node name="ExitRouteDisabledAnchor" type="Marker2D" parent="."]
+position = Vector2(1850, 590)
+
+[node name="OpeningCameraClose" type="Marker2D" parent="."]
+position = Vector2(410, 420)
+
+[node name="OpeningCameraWide" type="Marker2D" parent="."]
+position = Vector2(640, 360)
+
+[node name="PlayerControlStart" type="Marker2D" parent="."]
+position = Vector2(450, 574)
+script = ExtResource("6_spawn")
+spawn_id = &"start"
+
+[node name="OpeningReserveLabel" type="Label" parent="."]
+offset_left = 300.0
+offset_top = 102.0
+offset_right = 520.0
+offset_bottom = 154.0
+text = "DEV: OPENING MARKERS ONLY\nNO CUTSCENE CONTROLLER"
+horizontal_alignment = 1
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(450, 574)
+
+[node name="GameUI" parent="." instance=ExtResource("3_ui")]

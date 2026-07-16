@@ -4,7 +4,7 @@
 
 Godot 4.6 系、GDScript のプロジェクトである。`project.godot` では `res://scenes/core/title_screen.tscn` をメインシーンに設定し、`res://scripts/core/game_state.gd` をオートロード `GameState` として登録している。レンダラーは Compatibility（GL Compatibility）である。
 
-第一段階の工程整理後、シーン、スクリプト、アセットを用途別ディレクトリへ配置している。`scenes/areas/military_facility/` は正式な軍事休眠施設シーンの配置先として確保しているが、正式シーンはまだ作成していない。
+第一段階の工程整理後、シーン、スクリプト、アセットを用途別ディレクトリへ配置している。`scenes/areas/military_facility/` には正式マップ用の第一版灰盒 `cryo_room_4f_01.tscn` を配置している。ただし、タイトル画面からの正式な進行経路にはまだ接続していない。
 
 ```text
 res://
@@ -21,7 +21,7 @@ res://
 │  ├─ dev/
 │  │  ├─ prototype_room_a.tscn
 │  │  └─ prototype_room_b.tscn
-│  └─ areas/military_facility/
+│  └─ areas/military_facility/cryo_room_4f_01.tscn
 ├─ scripts/
 │  ├─ core/game_state.gd, title_screen.gd
 │  ├─ player/player.gd
@@ -63,6 +63,9 @@ scenes/core/title_screen.tscn
 - `prototype_room_a.tscn` には、第一版対話 API の確認専用として通常独白と詳細調査の DEV Investigation Point を配置する。正式マップ用の調査対象ではない。
 - `prototype_room_b.tscn` は Player、GameUI、SceneExit をインスタンス化する。
 - 両 prototype は同じ `room_controller.gd` を使用し、正式な建築シーンではない。
+- `cryo_room_4f_01.tscn` は Player、GameUI、Room Controller、Spawn Point、Door、Terminal を既存システムから再利用する。Camera 境界は 1920×720 であり、開始位置は `PlayerControlStart` に設定する。
+- 正式 Room 1 はまだタイトル画面や他の正式マップへ接続しない。出口付近には `SceneExit` を置かず、`ExitRouteDisabledAnchor` によって将来の接続位置だけを示す。
+- 各休眠ポッドの状態と銘板、巡回表、検査台上の物品、同意書は Marker2D のみを配置する。空ページを開くことを防ぐため、正式な調査文章が決まるまでは Investigation Point を有効化しない。
 - `player.tscn` は `CharacterBody2D`、当たり判定、`AnimatedSprite2D`、`Camera2D` で構成される。
 - `game_ui.tscn` は `CanvasLayer` をルートとし、テキストボックス、ポーズ UI、設定 UI を持つ。`process_mode = 3` によりゲームがポーズ中でも UI を処理する。
 
@@ -115,6 +118,8 @@ Terminal、Scene Exit、Investigation Point は E 入力を処理する前に `G
 - Investigation Point：`prompt_text`、手動改ページ単位の `pages`、任意の `expression_ids` と `detail_texture` を設定する。
 - Spawn Point：Marker2D に `spawn_point.gd` を設定し、`spawn_id` を指定する。
 - Room：`room_controller.gd` の `default_spawn_id` と Camera 境界 4 値を指定する。
+
+`cryo_room_4f_01.tscn` では、左から右への空間上の並びを `PodSlot01`～`PodSlot05` として扱い、設定上確定しているポッド本体番号は主役ポッドの `ID 04` だけである。空間順と本体番号を混同しないため、主役ポッドは `PodSlot02PlayerID04` と命名している。
 
 ## 対話・詳細調査 API
 
