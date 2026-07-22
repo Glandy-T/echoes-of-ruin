@@ -63,9 +63,9 @@ scenes/core/title_screen.tscn
 - `prototype_room_a.tscn` には、第一版対話 API の確認専用として通常独白と詳細調査の DEV Investigation Point を配置する。正式マップ用の調査対象ではない。
 - `prototype_room_b.tscn` は Player、GameUI、SceneExit をインスタンス化する。
 - 両 prototype は同じ `room_controller.gd` を使用し、正式な建築シーンではない。
-- `cryo_room_4f_01.tscn` は Player、GameUI、Room Controller、Spawn Point、Door、Terminal を既存システムから再利用する。Camera 境界は 1920×720 であり、開始位置は `PlayerControlStart` に設定する。
+- `cryo_room_4f_01.tscn` は Player、GameUI、Room Controller、Spawn Point、Door、Terminal を既存システムから再利用する。Camera 境界は 2600×720、Room 1 固有の Camera zoom は 1.8 であり、開始位置は `PlayerControlStart` に設定する。主人公を 165cm の基準尺度として、天井、家具、紙資料、端末、ドアの灰盒寸法を決める。
 - 正式 Room 1 はまだタイトル画面や他の正式マップへ接続しない。出口付近には `SceneExit` を置かず、`ExitRouteDisabledAnchor` によって将来の接続位置だけを示す。
-- 各休眠ポッドの状態と銘板、巡回表、検査台上の物品、同意書は Marker2D のみを配置する。空ページを開くことを防ぐため、正式な調査文章が決まるまでは Investigation Point を有効化しない。
+- 各休眠ポッド、当直表、故障メモ、同意書、廃棄物回収口、出口には Investigation Point を配置し、灰盒検証用の暫定文章を設定している。正式な台詞と詳細画像は未決定であり、後から差し替える。
 - `player.tscn` は `CharacterBody2D`、当たり判定、`AnimatedSprite2D`、`Camera2D` で構成される。
 - `game_ui.tscn` は `CanvasLayer` をルートとし、テキストボックス、ポーズ UI、設定 UI を持つ。`process_mode = 3` によりゲームがポーズ中でも UI を処理する。
 

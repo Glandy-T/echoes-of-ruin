@@ -16,6 +16,7 @@ shape = SubResource("RectangleShape2D_terminal")
 offset_left = 6.0
 offset_right = 40.0
 offset_bottom = 40.0
+color = Color(0.24, 0.32, 0.34, 1)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]

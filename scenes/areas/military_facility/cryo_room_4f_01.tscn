@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3]
+[gd_scene load_steps=11 format=3]
 
 [ext_resource type="Script" uid="uid://duo1k7h6kybo5" path="res://scripts/world/room_controller.gd" id="1_room"]
 [ext_resource type="PackedScene" uid="uid://br0xjikbl1guw" path="res://scenes/player/player.tscn" id="2_player"]
@@ -9,125 +9,123 @@
 [ext_resource type="PackedScene" path="res://scenes/interactions/investigation_point.tscn" id="7_investigation"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_floor"]
-size = Vector2(3200, 70)
+size = Vector2(2600, 70)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_side_wall"]
 size = Vector2(40, 720)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ceiling"]
-size = Vector2(3200, 32)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_upper_debris"]
-size = Vector2(300, 90)
+size = Vector2(2600, 32)
 
 ; Room 4-14 is a side-scrolling ward conversion. All pod roots are named by
 ; their in-world IDs, not by left-to-right slot numbers. Investigation points
-; intentionally contain no pages; they only expose temporary proximity prompts.
+; use temporary greybox copy so every visible prompt produces feedback.
 
 [node name="CryoRoom4F01" type="Node2D"]
 script = ExtResource("1_room")
 default_spawn_id = &"start"
 camera_left = 0
 camera_top = 0
-camera_right = 3200
+camera_right = 2600
 camera_bottom = 720
+camera_zoom = Vector2(1.8, 1.8)
 
 [node name="Background" type="ColorRect" parent="."]
-offset_right = 3200.0
+offset_right = 2600.0
 offset_bottom = 720.0
 color = Color(0.64, 0.68, 0.7, 1)
 
 [node name="BackWall" type="ColorRect" parent="."]
 offset_left = 48.0
-offset_top = 86.0
-offset_right = 3152.0
+offset_top = 350.0
+offset_right = 2552.0
 offset_bottom = 615.0
 color = Color(0.78, 0.81, 0.82, 1)
 
 [node name="CeilingBand" type="ColorRect" parent="."]
-offset_right = 3200.0
-offset_bottom = 76.0
+offset_right = 2600.0
+offset_bottom = 350.0
 color = Color(0.43, 0.48, 0.5, 1)
 
 [node name="RearServiceRail" type="ColorRect" parent="."]
 offset_left = 70.0
-offset_top = 235.0
-offset_right = 3130.0
-offset_bottom = 250.0
+offset_top = 390.0
+offset_right = 2530.0
+offset_bottom = 405.0
 color = Color(0.45, 0.5, 0.52, 1)
 
 [node name="RearPipe" type="ColorRect" parent="."]
 offset_left = 80.0
-offset_top = 270.0
-offset_right = 3120.0
-offset_bottom = 278.0
+offset_top = 420.0
+offset_right = 2520.0
+offset_bottom = 428.0
 color = Color(0.28, 0.36, 0.38, 1)
 
 [node name="WallModuleSeam01" type="ColorRect" parent="."]
 offset_left = 500.0
-offset_top = 90.0
+offset_top = 350.0
 offset_right = 504.0
 offset_bottom = 615.0
 color = Color(0.58, 0.62, 0.64, 1)
 
 [node name="WallModuleSeam02" type="ColorRect" parent="."]
 offset_left = 1040.0
-offset_top = 90.0
+offset_top = 350.0
 offset_right = 1044.0
 offset_bottom = 615.0
 color = Color(0.58, 0.62, 0.64, 1)
 
 [node name="WallModuleSeam03" type="ColorRect" parent="."]
 offset_left = 1550.0
-offset_top = 90.0
+offset_top = 350.0
 offset_right = 1554.0
 offset_bottom = 615.0
 color = Color(0.58, 0.62, 0.64, 1)
 
 [node name="WallModuleSeam04" type="ColorRect" parent="."]
 offset_left = 2050.0
-offset_top = 90.0
+offset_top = 350.0
 offset_right = 2054.0
 offset_bottom = 615.0
 color = Color(0.58, 0.62, 0.64, 1)
 
 [node name="WallModuleSeam05" type="ColorRect" parent="."]
-offset_left = 2550.0
-offset_top = 90.0
-offset_right = 2554.0
+offset_left = 2520.0
+offset_top = 350.0
+offset_right = 2524.0
 offset_bottom = 615.0
 color = Color(0.58, 0.62, 0.64, 1)
 
 [node name="CeilingLight01" type="ColorRect" parent="."]
 offset_left = 300.0
-offset_top = 105.0
+offset_top = 362.0
 offset_right = 420.0
-offset_bottom = 117.0
+offset_bottom = 374.0
 color = Color(0.82, 0.88, 0.88, 1)
 
 [node name="CeilingLight02" type="ColorRect" parent="."]
 offset_left = 1150.0
-offset_top = 105.0
+offset_top = 362.0
 offset_right = 1270.0
-offset_bottom = 117.0
+offset_bottom = 374.0
 color = Color(0.74, 0.79, 0.8, 1)
 
 [node name="CeilingLight03" type="ColorRect" parent="."]
 offset_left = 2350.0
-offset_top = 105.0
+offset_top = 362.0
 offset_right = 2470.0
-offset_bottom = 117.0
+offset_bottom = 374.0
 color = Color(0.68, 0.72, 0.73, 1)
 
 [node name="FloorVisual" type="ColorRect" parent="."]
 offset_top = 650.0
-offset_right = 3200.0
+offset_right = 2600.0
 offset_bottom = 720.0
 color = Color(0.18, 0.21, 0.23, 1)
 
 [node name="WalkwayEdge" type="ColorRect" parent="."]
 offset_top = 642.0
-offset_right = 3200.0
+offset_right = 2600.0
 offset_bottom = 650.0
 color = Color(0.42, 0.49, 0.5, 1)
 
@@ -160,29 +158,29 @@ offset_bottom = 681.0
 color = Color(0.32, 0.39, 0.4, 1)
 
 [node name="FloorMark05" type="ColorRect" parent="."]
-offset_left = 2370.0
+offset_left = 2290.0
 offset_top = 675.0
-offset_right = 2670.0
+offset_right = 2510.0
 offset_bottom = 681.0
 color = Color(0.32, 0.39, 0.4, 1)
 
 [node name="FloorMark06" type="ColorRect" parent="."]
-offset_left = 2920.0
+offset_left = 2530.0
 offset_top = 675.0
-offset_right = 3220.0
+offset_right = 2590.0
 offset_bottom = 681.0
 color = Color(0.32, 0.39, 0.4, 1)
 
 [node name="Floor" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
-position = Vector2(1600, 685)
+position = Vector2(1300, 685)
 shape = SubResource("RectangleShape2D_floor")
 
 [node name="Ceiling" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ceiling"]
-position = Vector2(1600, 16)
+position = Vector2(1300, 334)
 shape = SubResource("RectangleShape2D_ceiling")
 
 [node name="LeftBoundary" type="StaticBody2D" parent="."]
@@ -194,7 +192,7 @@ shape = SubResource("RectangleShape2D_side_wall")
 [node name="RightBoundary" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RightBoundary"]
-position = Vector2(3220, 360)
+position = Vector2(2620, 360)
 shape = SubResource("RectangleShape2D_side_wall")
 
 [node name="Pod_4_14_05" type="Node2D" parent="."]
@@ -252,7 +250,8 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_05" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E: DEV 4-14-05"
+prompt_text = "E：休眠ポッド 4-14-05 を調べる"
+pages = Array[String](["休眠ポッド 4-14-05。電源は完全に落ちている。", "中の人が目を覚ます気配はない。"])
 
 [node name="Pod_4_14_04_Player" type="Node2D" parent="."]
 position = Vector2(700, 650)
@@ -321,7 +320,8 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_04_Player" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E: DEV 4-14-04"
+prompt_text = "E：開いた休眠ポッドを調べる"
+pages = Array[String](["4-14-04。私が入っていたポッドだ。", "非常解凍の表示だけが、まだ弱く点滅している。"])
 
 [node name="Pod_4_14_03" type="Node2D" parent="."]
 position = Vector2(1050, 650)
@@ -385,7 +385,8 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_03" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E: DEV 4-14-03"
+prompt_text = "E：休眠ポッド 4-14-03 を調べる"
+pages = Array[String](["表示灯が途中で止まっている。", "生きているのかどうかさえ、ここからは分からない。"])
 
 [node name="Pod_4_14_02" type="Node2D" parent="."]
 position = Vector2(1400, 650)
@@ -442,73 +443,68 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_02" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E: DEV 4-14-02"
+prompt_text = "E：休眠ポッド 4-14-02 を調べる"
+pages = Array[String](["扉は固着している。手で開けられる状態ではない。"])
 
 [node name="CollapseArea_4_14_01" type="Node2D" parent="."]
 
 [node name="CeilingBreach" type="Polygon2D" parent="CollapseArea_4_14_01"]
-polygon = PackedVector2Array(1460, 0, 1760, 0, 1740, 220, 1692, 275, 1625, 248, 1558, 292, 1490, 235)
+polygon = PackedVector2Array(1635, 0, 1865, 0, 1850, 338, 1810, 382, 1752, 360, 1694, 390, 1650, 344)
 color = Color(0.1, 0.13, 0.14, 1)
 
 [node name="BrokenSlabLeft" type="Polygon2D" parent="CollapseArea_4_14_01"]
-polygon = PackedVector2Array(1488, 225, 1580, 270, 1550, 330, 1455, 286)
+polygon = PackedVector2Array(1645, 335, 1708, 365, 1684, 414, 1622, 382)
 color = Color(0.34, 0.38, 0.39, 1)
 
 [node name="BrokenSlabRight" type="Polygon2D" parent="CollapseArea_4_14_01"]
-polygon = PackedVector2Array(1690, 260, 1760, 215, 1800, 282, 1725, 326)
+polygon = PackedVector2Array(1803, 370, 1852, 333, 1882, 382, 1832, 421)
 color = Color(0.34, 0.38, 0.39, 1)
 
 [node name="HangingCable01" type="ColorRect" parent="CollapseArea_4_14_01"]
-offset_left = 1515.0
-offset_top = 220.0
-offset_right = 1522.0
-offset_bottom = 410.0
+offset_left = 1660.0
+offset_top = 360.0
+offset_right = 1667.0
+offset_bottom = 478.0
 rotation = 0.08
 color = Color(0.16, 0.2, 0.21, 1)
 
 [node name="HangingCable02" type="ColorRect" parent="CollapseArea_4_14_01"]
-offset_left = 1750.0
-offset_top = 218.0
-offset_right = 1757.0
-offset_bottom = 390.0
+offset_left = 1835.0
+offset_top = 355.0
+offset_right = 1842.0
+offset_bottom = 472.0
 rotation = -0.1
 color = Color(0.16, 0.2, 0.21, 1)
 
 [node name="UpperFloorPod" type="Node2D" parent="CollapseArea_4_14_01"]
-position = Vector2(1665, 446)
-rotation = 0.32
+position = Vector2(1750, 590)
+rotation = 0.06
 
 [node name="Base" type="Polygon2D" parent="CollapseArea_4_14_01/UpperFloorPod"]
-polygon = PackedVector2Array(-165, -52, 165, -52, 165, 52, -165, 52)
+polygon = PackedVector2Array(-76, -10, 76, -10, 58, -124, -55, -128)
 color = Color(0.3, 0.35, 0.37, 1)
 
 [node name="Canopy" type="Polygon2D" parent="CollapseArea_4_14_01/UpperFloorPod"]
-polygon = PackedVector2Array(-108, -34, 112, -34, 112, 30, -108, 30)
+polygon = PackedVector2Array(-49, -37, 50, -37, 36, -111, -36, -114)
 color = Color(0.12, 0.18, 0.2, 1)
 
 [node name="SideRail" type="ColorRect" parent="CollapseArea_4_14_01/UpperFloorPod"]
-offset_left = -140.0
-offset_top = 35.0
-offset_right = 124.0
-offset_bottom = 45.0
+offset_left = -70.0
+offset_top = -42.0
+offset_right = 70.0
+offset_bottom = -27.0
 color = Color(0.22, 0.27, 0.29, 1)
 
 [node name="ContactEnd" type="ColorRect" parent="CollapseArea_4_14_01/UpperFloorPod"]
-offset_left = 120.0
-offset_top = -55.0
-offset_right = 172.0
-offset_bottom = 55.0
+offset_left = -82.0
+offset_top = -68.0
+offset_right = -68.0
+offset_bottom = -15.0
 color = Color(0.24, 0.29, 0.31, 1)
-
-[node name="UpperDebrisCollider" type="StaticBody2D" parent="CollapseArea_4_14_01"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CollapseArea_4_14_01/UpperDebrisCollider"]
-position = Vector2(1665, 446)
-shape = SubResource("RectangleShape2D_upper_debris")
 
 [node name="Pod_4_14_01_Collapsed" type="Node2D" parent="CollapseArea_4_14_01"]
 position = Vector2(1750, 650)
-rotation = 0.05
+rotation = -0.03
 
 [node name="DamagedBase" type="Polygon2D" parent="CollapseArea_4_14_01/Pod_4_14_01_Collapsed"]
 polygon = PackedVector2Array(-82, -7, 76, -9, 67, -28, -70, -25)
@@ -537,11 +533,12 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="CollapseArea_4_14_01/Pod_4_14_01_Collapsed" instance=ExtResource("7_investigation")]
 position = Vector2(-10, -35)
-rotation = -0.05
-prompt_text = "E: DEV 4-14-01"
+rotation = 0.03
+prompt_text = "E：損壊した休眠ポッドを調べる"
+pages = Array[String](["上階のポッドが落ちて、4-14-01を押し潰している。", "これでは中を確かめることもできない。"])
 
 [node name="PinchedSlab" type="Polygon2D" parent="CollapseArea_4_14_01"]
-polygon = PackedVector2Array(1505, 314, 1578, 340, 1562, 368, 1518, 354)
+polygon = PackedVector2Array(1688, 522, 1744, 528, 1732, 558, 1695, 550)
 color = Color(0.3, 0.34, 0.35, 1)
 
 [node name="PressureShard01" type="Polygon2D" parent="CollapseArea_4_14_01"]
@@ -581,264 +578,276 @@ color = Color(0.13, 0.17, 0.18, 1)
 [node name="DutyRoster" type="Node2D" parent="InspectionZone"]
 
 [node name="Sheet" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1985.0
-offset_top = 522.0
-offset_right = 2015.0
-offset_bottom = 564.0
+offset_left = 1948.0
+offset_top = 550.0
+offset_right = 1964.0
+offset_bottom = 573.0
 color = Color(0.88, 0.87, 0.8, 1)
 
 [node name="Row01" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1990.0
-offset_top = 534.0
-offset_right = 2010.0
-offset_bottom = 536.0
+offset_left = 1951.0
+offset_top = 556.0
+offset_right = 1961.0
+offset_bottom = 557.0
 color = Color(0.4, 0.4, 0.37, 1)
 
 [node name="Row02" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1990.0
-offset_top = 544.0
-offset_right = 2010.0
-offset_bottom = 546.0
+offset_left = 1951.0
+offset_top = 562.0
+offset_right = 1961.0
+offset_bottom = 563.0
 color = Color(0.4, 0.4, 0.37, 1)
 
 [node name="Row03" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1990.0
-offset_top = 554.0
-offset_right = 2010.0
-offset_bottom = 556.0
+offset_left = 1951.0
+offset_top = 568.0
+offset_right = 1961.0
+offset_bottom = 569.0
 color = Color(0.4, 0.4, 0.37, 1)
 
 [node name="RegularCircle01" type="Label" parent="InspectionZone/DutyRoster"]
-offset_left = 1998.0
-offset_top = 524.0
-offset_right = 2012.0
-offset_bottom = 541.0
+offset_left = 1955.0
+offset_top = 550.0
+offset_right = 1963.0
+offset_bottom = 559.0
 text = "○"
-theme_override_font_sizes/font_size = 16
+theme_override_font_sizes/font_size = 6
 
 [node name="RegularCircle02" type="Label" parent="InspectionZone/DutyRoster"]
-offset_left = 1998.0
-offset_top = 534.0
-offset_right = 2012.0
-offset_bottom = 551.0
+offset_left = 1955.0
+offset_top = 556.0
+offset_right = 1963.0
+offset_bottom = 565.0
 text = "○"
-theme_override_font_sizes/font_size = 16
+theme_override_font_sizes/font_size = 6
 
 [node name="SparseCircle" type="Label" parent="InspectionZone/DutyRoster"]
-offset_left = 1988.0
-offset_top = 544.0
-offset_right = 2002.0
-offset_bottom = 561.0
+offset_left = 1949.0
+offset_top = 562.0
+offset_right = 1957.0
+offset_bottom = 571.0
 text = "○"
-theme_override_font_sizes/font_size = 16
+theme_override_font_sizes/font_size = 6
 
 [node name="FixedPenSlot" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1988.0
-offset_top = 590.0
-offset_right = 2022.0
-offset_bottom = 598.0
+offset_left = 1990.0
+offset_top = 582.0
+offset_right = 2018.0
+offset_bottom = 587.0
 color = Color(0.38, 0.42, 0.43, 1)
 
 [node name="FixedPen" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1992.0
-offset_top = 588.0
-offset_right = 2018.0
-offset_bottom = 592.0
+offset_left = 1994.0
+offset_top = 580.0
+offset_right = 2014.0
+offset_bottom = 583.0
 rotation = -0.05
 color = Color(0.12, 0.17, 0.18, 1)
 
+[node name="FixedPenInvestigationPoint" parent="InspectionZone/DutyRoster" instance=ExtResource("7_investigation")]
+position = Vector2(2004, 582)
+scale = Vector2(0.45, 0.35)
+prompt_text = "E：固定ペンを調べる"
+pages = Array[String](["ペンは台に固定されている。", "……誰もいないのに、備品管理だけは完璧だ。"])
+expression_ids = Array[StringName]([&"neutral", &"deadpan"])
+
 [node name="InvestigationPoint" parent="InspectionZone/DutyRoster" instance=ExtResource("7_investigation")]
-position = Vector2(2000, 600)
-scale = Vector2(0.35, 1)
-prompt_text = "E: DEV ROSTER + PEN"
+position = Vector2(1956, 561)
+scale = Vector2(0.45, 0.5)
+prompt_text = "E：当直表を調べる"
+pages = Array[String](["当直表。丸印は途中から急に少なくなっている。", "最後の数日は、同じ欄だけが何度も書き直されている。"])
 
 [node name="WallMountedInspectionWorkbench" type="Node2D" parent="InspectionZone"]
 
 [node name="ThinWorktop" type="ColorRect" parent="InspectionZone/WallMountedInspectionWorkbench"]
-offset_left = 1980.0
-offset_top = 600.0
-offset_right = 2140.0
-offset_bottom = 606.0
+offset_left = 1925.0
+offset_top = 590.0
+offset_right = 2130.0
+offset_bottom = 597.0
 color = Color(0.32, 0.38, 0.4, 1)
 
 [node name="LeftBracket" type="ColorRect" parent="InspectionZone/WallMountedInspectionWorkbench"]
-offset_left = 1990.0
-offset_top = 606.0
-offset_right = 1996.0
-offset_bottom = 620.0
+offset_left = 1942.0
+offset_top = 597.0
+offset_right = 1948.0
+offset_bottom = 625.0
 color = Color(0.25, 0.29, 0.3, 1)
 
 [node name="RightBracket" type="ColorRect" parent="InspectionZone/WallMountedInspectionWorkbench"]
-offset_left = 2124.0
-offset_top = 606.0
-offset_right = 2130.0
-offset_bottom = 620.0
+offset_left = 2108.0
+offset_top = 597.0
+offset_right = 2114.0
+offset_bottom = 625.0
 color = Color(0.25, 0.29, 0.3, 1)
 
 [node name="Pod05FaultNote" type="Node2D" parent="InspectionZone"]
 
 [node name="Note" type="ColorRect" parent="InspectionZone/Pod05FaultNote"]
-offset_left = 2056.0
-offset_top = 588.0
-offset_right = 2068.0
-offset_bottom = 598.0
+offset_left = 2038.0
+offset_top = 579.0
+offset_right = 2049.0
+offset_bottom = 587.0
 rotation = -0.035
 color = Color(0.86, 0.78, 0.46, 1)
 
 [node name="WritingLine01" type="ColorRect" parent="InspectionZone/Pod05FaultNote"]
-offset_left = 2058.0
-offset_top = 591.0
-offset_right = 2066.0
-offset_bottom = 593.0
+offset_left = 2040.0
+offset_top = 582.0
+offset_right = 2047.0
+offset_bottom = 583.0
 color = Color(0.33, 0.32, 0.28, 1)
 
 [node name="WritingLine02" type="ColorRect" parent="InspectionZone/Pod05FaultNote"]
-offset_left = 2058.0
-offset_top = 595.0
-offset_right = 2064.0
-offset_bottom = 597.0
+offset_left = 2040.0
+offset_top = 585.0
+offset_right = 2046.0
+offset_bottom = 586.0
 color = Color(0.33, 0.32, 0.28, 1)
 
 [node name="InvestigationPoint" parent="InspectionZone/Pod05FaultNote" instance=ExtResource("7_investigation")]
-position = Vector2(2062, 600)
-scale = Vector2(0.35, 1)
-prompt_text = "E: DEV POD 05 NOTE"
+position = Vector2(2044, 583)
+scale = Vector2(0.5, 0.5)
+prompt_text = "E：故障メモを調べる"
+pages = Array[String](["『4-14-05、冷却循環に断続的な異常』", "日付の後には、点検済みの印だけが残っている。"])
 
 [node name="ConsentFormEnvelope" type="Node2D" parent="InspectionZone"]
 
 [node name="WallHolder" type="ColorRect" parent="InspectionZone/ConsentFormEnvelope"]
-offset_left = 2116.0
-offset_top = 568.0
-offset_right = 2140.0
-offset_bottom = 600.0
+offset_left = 2080.0
+offset_top = 548.0
+offset_right = 2110.0
+offset_bottom = 572.0
 color = Color(0.38, 0.43, 0.44, 1)
 
 [node name="Envelope" type="Polygon2D" parent="InspectionZone/ConsentFormEnvelope"]
-polygon = PackedVector2Array(2087, 588, 2112, 588, 2112, 600, 2087, 600)
+polygon = PackedVector2Array(2084, 554, 2106, 554, 2106, 568, 2084, 568)
 color = Color(0.74, 0.65, 0.48, 1)
 
 [node name="Flap" type="Polygon2D" parent="InspectionZone/ConsentFormEnvelope"]
-polygon = PackedVector2Array(2087, 588, 2112, 588, 2099.5, 594)
+polygon = PackedVector2Array(2084, 554, 2106, 554, 2095, 562)
 color = Color(0.63, 0.55, 0.41, 1)
 
 [node name="InvestigationPoint" parent="InspectionZone/ConsentFormEnvelope" instance=ExtResource("7_investigation")]
-position = Vector2(2124, 600)
-scale = Vector2(0.35, 1)
-prompt_text = "E: DEV CONSENT FORM"
+position = Vector2(2095, 560)
+scale = Vector2(0.5, 0.5)
+prompt_text = "E：休眠処置同意書を調べる"
+pages = Array[String](["休眠処置同意書。患者番号は4-14-04。", "署名欄には、私が自分で書いたらしい文字が残っている。"])
 
 [node name="WasteRecoveryChute" type="Node2D" parent="InspectionZone"]
 
 [node name="Housing" type="ColorRect" parent="InspectionZone/WasteRecoveryChute"]
-offset_left = 2325.0
-offset_top = 565.0
-offset_right = 2375.0
+offset_left = 2180.0
+offset_top = 558.0
+offset_right = 2230.0
 offset_bottom = 620.0
 color = Color(0.32, 0.38, 0.4, 1)
 
 [node name="ChuteMouth" type="ColorRect" parent="InspectionZone/WasteRecoveryChute"]
-offset_left = 2334.0
-offset_top = 578.0
-offset_right = 2366.0
-offset_bottom = 607.0
+offset_left = 2189.0
+offset_top = 570.0
+offset_right = 2221.0
+offset_bottom = 600.0
 color = Color(0.11, 0.14, 0.15, 1)
 
 [node name="UnknownBlockage" type="Polygon2D" parent="InspectionZone/WasteRecoveryChute"]
-polygon = PackedVector2Array(2338, 604, 2363, 604, 2358, 588, 2348, 585, 2338, 594)
+polygon = PackedVector2Array(2193, 598, 2218, 598, 2214, 582, 2205, 578, 2194, 587)
 color = Color(0.38, 0.32, 0.28, 1)
 
 [node name="InvestigationPoint" parent="InspectionZone/WasteRecoveryChute" instance=ExtResource("7_investigation")]
-position = Vector2(2350, 600)
-scale = Vector2(0.6, 1)
-prompt_text = "E: DEV WASTE CHUTE"
+position = Vector2(2205, 586)
+scale = Vector2(0.65, 0.75)
+prompt_text = "E：廃棄物回収口を調べる"
+pages = Array[String](["医療廃棄物の回収口。内部で何かが詰まっている。", "無理に触らない方がよさそうだ。"])
 
 [node name="TerminalHousing" type="Node2D" parent="."]
 
 [node name="Column" type="ColorRect" parent="TerminalHousing"]
-offset_left = 2970.0
-offset_top = 520.0
-offset_right = 2996.0
-offset_bottom = 565.0
+offset_left = 2342.0
+offset_top = 544.0
+offset_right = 2374.0
+offset_bottom = 582.0
 color = Color(0.32, 0.4, 0.42, 1)
 
 [node name="Screen" type="ColorRect" parent="TerminalHousing"]
-offset_left = 2975.0
-offset_top = 526.0
-offset_right = 2991.0
-offset_bottom = 543.0
+offset_left = 2348.0
+offset_top = 550.0
+offset_right = 2368.0
+offset_bottom = 565.0
 color = Color(0.18, 0.46, 0.5, 1)
 
 [node name="Scanner" type="ColorRect" parent="TerminalHousing"]
-offset_left = 2977.0
-offset_top = 550.0
-offset_right = 2989.0
-offset_bottom = 557.0
+offset_left = 2350.0
+offset_top = 572.0
+offset_right = 2366.0
+offset_bottom = 578.0
 color = Color(0.12, 0.16, 0.17, 1)
 
 [node name="IdentityTerminal" parent="." instance=ExtResource("5_terminal")]
-visible = false
-position = Vector2(2964, 520)
-scale = Vector2(0.7, 2)
+position = Vector2(2338, 545)
+scale = Vector2(0.8, 1.1)
 target_door_path = NodePath("../ExitDoor")
 state_id = &"cryo_room_exit_authorized"
-prompt_text = "E: DEV ID TERMINAL"
-activation_text = "DEV PLACEHOLDER: Authorization complete. Exit lock released."
-already_used_text = "DEV PLACEHOLDER: Exit authorization is already active."
-failure_text = "DEV PLACEHOLDER: Door connection unavailable."
+prompt_text = "E：身元認証端末を操作する"
+activation_text = "身元を確認。4F休眠区画の出口ロックを解除します。"
+already_used_text = "認証済み。出口ロックは解除されています。"
+failure_text = "端末と出口制御装置の接続が失われています。"
 
 [node name="ExitDoorFrame" type="Node2D" parent="."]
 
 [node name="Opening" type="ColorRect" parent="ExitDoorFrame"]
-offset_left = 3020.0
+offset_left = 2470.0
 offset_top = 485.0
-offset_right = 3080.0
+offset_right = 2530.0
 offset_bottom = 650.0
 color = Color(0.09, 0.12, 0.13, 1)
 
 [node name="LeftFrame" type="ColorRect" parent="ExitDoorFrame"]
-offset_left = 3000.0
+offset_left = 2448.0
 offset_top = 465.0
-offset_right = 3023.0
+offset_right = 2473.0
 offset_bottom = 650.0
 color = Color(0.35, 0.41, 0.43, 1)
 
 [node name="RightFrame" type="ColorRect" parent="ExitDoorFrame"]
-offset_left = 3077.0
+offset_left = 2527.0
 offset_top = 465.0
-offset_right = 3100.0
+offset_right = 2552.0
 offset_bottom = 650.0
 color = Color(0.35, 0.41, 0.43, 1)
 
 [node name="TopFrame" type="ColorRect" parent="ExitDoorFrame"]
-offset_left = 3000.0
+offset_left = 2448.0
 offset_top = 455.0
-offset_right = 3100.0
+offset_right = 2552.0
 offset_bottom = 490.0
 color = Color(0.35, 0.41, 0.43, 1)
 
 [node name="ExitDoor" parent="." instance=ExtResource("4_door")]
-position = Vector2(3050, 570)
-scale = Vector2(1, 1.35)
+position = Vector2(2500, 570)
+scale = Vector2(1.15, 1.35)
 state_id = &"cryo_room_exit_authorized"
 open_offset = Vector2(0, -180)
 animation_time = 0.7
 
 [node name="ExitDoorInvestigationPoint" parent="." instance=ExtResource("7_investigation")]
-position = Vector2(3050, 600)
-scale = Vector2(0.5, 1)
-prompt_text = "E: DEV LOCKED EXIT"
+position = Vector2(2500, 590)
+scale = Vector2(0.75, 1)
+prompt_text = "E：電子ドアを調べる"
+pages = Array[String](["電子ロックが作動している。", "近くの身元認証端末を使えば開けられそうだ。"])
 
 [node name="ExitRouteDisabledAnchor" type="Marker2D" parent="."]
-position = Vector2(3150, 600)
+position = Vector2(2570, 600)
 
 [node name="OpeningCameraClose" type="Marker2D" parent="."]
 position = Vector2(700, 550)
 
 [node name="PlayerControlStart" type="Marker2D" parent="."]
-position = Vector2(650, 574)
+position = Vector2(650, 560)
 script = ExtResource("6_spawn")
 spawn_id = &"start"
 
 [node name="Player" parent="." instance=ExtResource("2_player")]
-position = Vector2(650, 574)
+position = Vector2(650, 560)
+scale = Vector2(1.18, 1.18)
 
 [node name="GameUI" parent="." instance=ExtResource("3_ui")]

@@ -5,6 +5,7 @@ extends Node2D
 @export var camera_top: int = 0
 @export var camera_right: int = 1797
 @export var camera_bottom: int = 650
+@export var camera_zoom: Vector2 = Vector2.ONE
 
 
 func _ready() -> void:
@@ -54,3 +55,4 @@ func _configure_camera(player: CharacterBody2D) -> void:
 	camera.limit_top = camera_top
 	camera.limit_right = camera_right
 	camera.limit_bottom = camera_bottom
+	camera.zoom = camera_zoom
