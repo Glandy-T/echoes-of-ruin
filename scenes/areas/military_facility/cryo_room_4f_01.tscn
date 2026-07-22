@@ -250,8 +250,10 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_05" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E：休眠ポッド 4-14-05 を調べる"
-pages = Array[String](["休眠ポッド 4-14-05。電源は完全に落ちている。", "中の人が目を覚ます気配はない。"])
+display_name = "休眠ポッド 05"
+label_offset = Vector2(0, -76)
+pages = Array[String](["……ミラ。聞いたことない名前。", "ミラは、この中で完全に休眠しちゃったみたいだ。"])
+expression_ids = Array[StringName]([&"neutral", &"deadpan"])
 
 [node name="Pod_4_14_04_Player" type="Node2D" parent="."]
 position = Vector2(700, 650)
@@ -320,8 +322,10 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_04_Player" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E：開いた休眠ポッドを調べる"
-pages = Array[String](["4-14-04。私が入っていたポッドだ。", "非常解凍の表示だけが、まだ弱く点滅している。"])
+display_name = "休眠ポッド 04"
+label_offset = Vector2(0, -76)
+pages = Array[String](["これ……僕？", "見た目は、まあ普通か。", "4-14-04……なんか、縁起悪そう。"])
+expression_ids = Array[StringName]([&"confused", &"deadpan", &"deadpan"])
 
 [node name="Pod_4_14_03" type="Node2D" parent="."]
 position = Vector2(1050, 650)
@@ -385,8 +389,10 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_03" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E：休眠ポッド 4-14-03 を調べる"
-pages = Array[String](["表示灯が途中で止まっている。", "生きているのかどうかさえ、ここからは分からない。"])
+display_name = "休眠ポッド 03"
+label_offset = Vector2(0, -76)
+pages = Array[String](["……レン。まったく覚えがない。", "装置はまだ動いている……？", "でも、中の人はもう目を覚まさない。"])
+expression_ids = Array[StringName]([&"neutral", &"wary", &"sad"])
 
 [node name="Pod_4_14_02" type="Node2D" parent="."]
 position = Vector2(1400, 650)
@@ -443,8 +449,10 @@ theme_override_font_sizes/font_size = 14
 
 [node name="InvestigationPoint" parent="Pod_4_14_02" instance=ExtResource("7_investigation")]
 position = Vector2(0, -35)
-prompt_text = "E：休眠ポッド 4-14-02 を調べる"
-pages = Array[String](["扉は固着している。手で開けられる状態ではない。"])
+display_name = "休眠ポッド 02"
+label_offset = Vector2(0, -76)
+pages = Array[String](["この人は、運がなかったみたいだ。", "起きたの、まさか僕だけ……？"])
+expression_ids = Array[StringName]([&"neutral", &"wary"])
 
 [node name="CollapseArea_4_14_01" type="Node2D" parent="."]
 
@@ -534,8 +542,10 @@ theme_override_font_sizes/font_size = 14
 [node name="InvestigationPoint" parent="CollapseArea_4_14_01/Pod_4_14_01_Collapsed" instance=ExtResource("7_investigation")]
 position = Vector2(-10, -35)
 rotation = 0.03
-prompt_text = "E：損壊した休眠ポッドを調べる"
-pages = Array[String](["上階のポッドが落ちて、4-14-01を押し潰している。", "これでは中を確かめることもできない。"])
+display_name = "損壊した休眠ポッド"
+label_offset = Vector2(0, -90)
+pages = Array[String](["うわ……これはひどい。", "どうやって上から落ちてきたんだ……？", "上のやつ、下のやつに何か恨みでもあったのかな。"])
+expression_ids = Array[StringName]([&"surprised", &"confused", &"deadpan"])
 
 [node name="PinchedSlab" type="Polygon2D" parent="CollapseArea_4_14_01"]
 polygon = PackedVector2Array(1688, 522, 1744, 528, 1732, 558, 1695, 550)
@@ -578,186 +588,195 @@ color = Color(0.13, 0.17, 0.18, 1)
 [node name="DutyRoster" type="Node2D" parent="InspectionZone"]
 
 [node name="Sheet" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1948.0
+offset_left = 1930.0
 offset_top = 550.0
-offset_right = 1964.0
+offset_right = 1946.0
 offset_bottom = 573.0
 color = Color(0.88, 0.87, 0.8, 1)
 
 [node name="Row01" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1951.0
+offset_left = 1933.0
 offset_top = 556.0
-offset_right = 1961.0
+offset_right = 1943.0
 offset_bottom = 557.0
 color = Color(0.4, 0.4, 0.37, 1)
 
 [node name="Row02" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1951.0
+offset_left = 1933.0
 offset_top = 562.0
-offset_right = 1961.0
+offset_right = 1943.0
 offset_bottom = 563.0
 color = Color(0.4, 0.4, 0.37, 1)
 
 [node name="Row03" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1951.0
+offset_left = 1933.0
 offset_top = 568.0
-offset_right = 1961.0
+offset_right = 1943.0
 offset_bottom = 569.0
 color = Color(0.4, 0.4, 0.37, 1)
 
 [node name="RegularCircle01" type="Label" parent="InspectionZone/DutyRoster"]
-offset_left = 1955.0
+offset_left = 1937.0
 offset_top = 550.0
-offset_right = 1963.0
+offset_right = 1945.0
 offset_bottom = 559.0
 text = "○"
 theme_override_font_sizes/font_size = 6
 
 [node name="RegularCircle02" type="Label" parent="InspectionZone/DutyRoster"]
-offset_left = 1955.0
+offset_left = 1937.0
 offset_top = 556.0
-offset_right = 1963.0
+offset_right = 1945.0
 offset_bottom = 565.0
 text = "○"
 theme_override_font_sizes/font_size = 6
 
 [node name="SparseCircle" type="Label" parent="InspectionZone/DutyRoster"]
-offset_left = 1949.0
+offset_left = 1931.0
 offset_top = 562.0
-offset_right = 1957.0
+offset_right = 1939.0
 offset_bottom = 571.0
 text = "○"
 theme_override_font_sizes/font_size = 6
 
 [node name="FixedPenSlot" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1990.0
+offset_left = 2011.0
 offset_top = 582.0
-offset_right = 2018.0
+offset_right = 2039.0
 offset_bottom = 587.0
 color = Color(0.38, 0.42, 0.43, 1)
 
 [node name="FixedPen" type="ColorRect" parent="InspectionZone/DutyRoster"]
-offset_left = 1994.0
+offset_left = 2015.0
 offset_top = 580.0
-offset_right = 2014.0
+offset_right = 2035.0
 offset_bottom = 583.0
 rotation = -0.05
 color = Color(0.12, 0.17, 0.18, 1)
 
 [node name="FixedPenInvestigationPoint" parent="InspectionZone/DutyRoster" instance=ExtResource("7_investigation")]
-position = Vector2(2004, 582)
-scale = Vector2(0.45, 0.35)
-prompt_text = "E：固定ペンを調べる"
-pages = Array[String](["ペンは台に固定されている。", "……誰もいないのに、備品管理だけは完璧だ。"])
-expression_ids = Array[StringName]([&"neutral", &"deadpan"])
+position = Vector2(2025, 582)
+scale = Vector2(0.4, 0.35)
+display_name = "固定ペン"
+label_offset = Vector2(0, -42)
+pages = Array[String](["持ち歩くんじゃなくて、部屋ごとに一本置いてたのか。"])
+expression_ids = Array[StringName]([&"deadpan"])
 
 [node name="InvestigationPoint" parent="InspectionZone/DutyRoster" instance=ExtResource("7_investigation")]
-position = Vector2(1956, 561)
-scale = Vector2(0.45, 0.5)
-prompt_text = "E：当直表を調べる"
-pages = Array[String](["当直表。丸印は途中から急に少なくなっている。", "最後の数日は、同じ欄だけが何度も書き直されている。"])
+position = Vector2(1938, 561)
+scale = Vector2(0.4, 0.5)
+display_name = "巡回表"
+label_offset = Vector2(0, -50)
+pages = Array[String](["毎日、誰かが見に来てたんだ。", "……でも、途中から記録がない。"])
+expression_ids = Array[StringName]([&"neutral", &"wary"])
 
 [node name="WallMountedInspectionWorkbench" type="Node2D" parent="InspectionZone"]
 
 [node name="ThinWorktop" type="ColorRect" parent="InspectionZone/WallMountedInspectionWorkbench"]
-offset_left = 1925.0
+offset_left = 1910.0
 offset_top = 590.0
-offset_right = 2130.0
+offset_right = 2220.0
 offset_bottom = 597.0
 color = Color(0.32, 0.38, 0.4, 1)
 
 [node name="LeftBracket" type="ColorRect" parent="InspectionZone/WallMountedInspectionWorkbench"]
-offset_left = 1942.0
+offset_left = 1927.0
 offset_top = 597.0
-offset_right = 1948.0
+offset_right = 1933.0
 offset_bottom = 625.0
 color = Color(0.25, 0.29, 0.3, 1)
 
 [node name="RightBracket" type="ColorRect" parent="InspectionZone/WallMountedInspectionWorkbench"]
-offset_left = 2108.0
+offset_left = 2202.0
 offset_top = 597.0
-offset_right = 2114.0
+offset_right = 2208.0
 offset_bottom = 625.0
 color = Color(0.25, 0.29, 0.3, 1)
 
 [node name="Pod05FaultNote" type="Node2D" parent="InspectionZone"]
 
 [node name="Note" type="ColorRect" parent="InspectionZone/Pod05FaultNote"]
-offset_left = 2038.0
+offset_left = 2094.0
 offset_top = 579.0
-offset_right = 2049.0
+offset_right = 2105.0
 offset_bottom = 587.0
 rotation = -0.035
 color = Color(0.86, 0.78, 0.46, 1)
 
 [node name="WritingLine01" type="ColorRect" parent="InspectionZone/Pod05FaultNote"]
-offset_left = 2040.0
+offset_left = 2096.0
 offset_top = 582.0
-offset_right = 2047.0
+offset_right = 2103.0
 offset_bottom = 583.0
 color = Color(0.33, 0.32, 0.28, 1)
 
 [node name="WritingLine02" type="ColorRect" parent="InspectionZone/Pod05FaultNote"]
-offset_left = 2040.0
+offset_left = 2096.0
 offset_top = 585.0
-offset_right = 2046.0
+offset_right = 2102.0
 offset_bottom = 586.0
 color = Color(0.33, 0.32, 0.28, 1)
 
 [node name="InvestigationPoint" parent="InspectionZone/Pod05FaultNote" instance=ExtResource("7_investigation")]
-position = Vector2(2044, 583)
-scale = Vector2(0.5, 0.5)
-prompt_text = "E：故障メモを調べる"
-pages = Array[String](["『4-14-05、冷却循環に断続的な異常』", "日付の後には、点検済みの印だけが残っている。"])
+position = Vector2(2100, 583)
+scale = Vector2(0.4, 0.45)
+display_name = "故障メモ"
+label_offset = Vector2(0, -42)
+pages = Array[String](["『05号休眠ポッド、最近動作が不安定。しばらく注意して見ておいて』", "前から気づいてたんだ。", "……結局、直せなかったみたいだけど。"])
+expression_ids = Array[StringName]([&"neutral", &"neutral", &"bitter_smile"])
 
 [node name="ConsentFormEnvelope" type="Node2D" parent="InspectionZone"]
 
 [node name="WallHolder" type="ColorRect" parent="InspectionZone/ConsentFormEnvelope"]
-offset_left = 2080.0
+offset_left = 2170.0
 offset_top = 548.0
-offset_right = 2110.0
+offset_right = 2200.0
 offset_bottom = 572.0
 color = Color(0.38, 0.43, 0.44, 1)
 
 [node name="Envelope" type="Polygon2D" parent="InspectionZone/ConsentFormEnvelope"]
-polygon = PackedVector2Array(2084, 554, 2106, 554, 2106, 568, 2084, 568)
+polygon = PackedVector2Array(2174, 554, 2196, 554, 2196, 568, 2174, 568)
 color = Color(0.74, 0.65, 0.48, 1)
 
 [node name="Flap" type="Polygon2D" parent="InspectionZone/ConsentFormEnvelope"]
-polygon = PackedVector2Array(2084, 554, 2106, 554, 2095, 562)
+polygon = PackedVector2Array(2174, 554, 2196, 554, 2185, 562)
 color = Color(0.63, 0.55, 0.41, 1)
 
 [node name="InvestigationPoint" parent="InspectionZone/ConsentFormEnvelope" instance=ExtResource("7_investigation")]
-position = Vector2(2095, 560)
-scale = Vector2(0.5, 0.5)
-prompt_text = "E：休眠処置同意書を調べる"
-pages = Array[String](["休眠処置同意書。患者番号は4-14-04。", "署名欄には、私が自分で書いたらしい文字が残っている。"])
+position = Vector2(2185, 560)
+scale = Vector2(0.4, 0.45)
+display_name = "休眠同意書"
+label_offset = Vector2(0, -50)
+pages = Array[String](["休眠同意書……？", "一応、みんな自分で同意したことになってる。", "自動覚醒サービス付き、か。", "苦情は、どこに言えばいいんだろう。"])
+expression_ids = Array[StringName]([&"confused", &"wary", &"deadpan", &"deadpan"])
 
 [node name="WasteRecoveryChute" type="Node2D" parent="InspectionZone"]
 
 [node name="Housing" type="ColorRect" parent="InspectionZone/WasteRecoveryChute"]
-offset_left = 2180.0
+offset_left = 2260.0
 offset_top = 558.0
-offset_right = 2230.0
+offset_right = 2310.0
 offset_bottom = 620.0
 color = Color(0.32, 0.38, 0.4, 1)
 
 [node name="ChuteMouth" type="ColorRect" parent="InspectionZone/WasteRecoveryChute"]
-offset_left = 2189.0
+offset_left = 2269.0
 offset_top = 570.0
-offset_right = 2221.0
+offset_right = 2301.0
 offset_bottom = 600.0
 color = Color(0.11, 0.14, 0.15, 1)
 
 [node name="UnknownBlockage" type="Polygon2D" parent="InspectionZone/WasteRecoveryChute"]
-polygon = PackedVector2Array(2193, 598, 2218, 598, 2214, 582, 2205, 578, 2194, 587)
+polygon = PackedVector2Array(2273, 598, 2298, 598, 2294, 582, 2285, 578, 2274, 587)
 color = Color(0.38, 0.32, 0.28, 1)
 
 [node name="InvestigationPoint" parent="InspectionZone/WasteRecoveryChute" instance=ExtResource("7_investigation")]
-position = Vector2(2205, 586)
+position = Vector2(2285, 586)
 scale = Vector2(0.65, 0.75)
-prompt_text = "E：廃棄物回収口を調べる"
-pages = Array[String](["医療廃棄物の回収口。内部で何かが詰まっている。", "無理に触らない方がよさそうだ。"])
+display_name = "廃棄物回収口"
+label_offset = Vector2(0, -62)
+pages = Array[String](["……ん？", "何か詰まってる。"])
+expression_ids = Array[StringName]([&"confused", &"wary"])
 
 [node name="TerminalHousing" type="Node2D" parent="."]
 
@@ -787,10 +806,15 @@ position = Vector2(2338, 545)
 scale = Vector2(0.8, 1.1)
 target_door_path = NodePath("../ExitDoor")
 state_id = &"cryo_room_exit_authorized"
-prompt_text = "E：身元認証端末を操作する"
+display_name = "認証端末"
+label_offset = Vector2(0, -72)
 activation_text = "身元を確認。4F休眠区画の出口ロックを解除します。"
 already_used_text = "認証済み。出口ロックは解除されています。"
 failure_text = "端末と出口制御装置の接続が失われています。"
+activation_pages = Array[String](["【端末】\n本人認証完了\n収容者04：グラン", "グラン……これが僕の名前か。", "扉も開いた。とりあえず、外を見てみよう。", "……ドッキリだったりして。"])
+activation_expression_ids = Array[StringName]([&"neutral", &"confused", &"wary", &"bitter_smile"])
+already_used_pages = Array[String](["……もう何も出なさそう。"])
+already_used_expression_ids = Array[StringName]([&"neutral"])
 
 [node name="ExitDoorFrame" type="Node2D" parent="."]
 
@@ -832,8 +856,12 @@ animation_time = 0.7
 [node name="ExitDoorInvestigationPoint" parent="." instance=ExtResource("7_investigation")]
 position = Vector2(2500, 590)
 scale = Vector2(0.75, 1)
-prompt_text = "E：電子ドアを調べる"
-pages = Array[String](["電子ロックが作動している。", "近くの身元認証端末を使えば開けられそうだ。"])
+display_name = "電子ドア"
+label_offset = Vector2(0, -86)
+pages = Array[String](["こんな状況でも、ちゃんと鍵は掛かってる。", "……鍵穴は見当たらないけど。"])
+expression_ids = Array[StringName]([&"deadpan", &"neutral"])
+available_flag_id = &"cryo_room_exit_authorized"
+available_flag_value = false
 
 [node name="ExitRouteDisabledAnchor" type="Marker2D" parent="."]
 position = Vector2(2570, 600)

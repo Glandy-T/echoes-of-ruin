@@ -12,6 +12,7 @@ const EXPRESSION_IDS := [
 
 @onready var text_box: Panel = $TextBox
 @onready var text_label: Label = $TextBox/TextLabel
+@onready var interaction_name_label: Label = $InteractionNameLabel
 
 @onready var detail_overlay: Control = $DetailOverlay
 @onready var detail_texture_rect: TextureRect = $DetailOverlay/DetailTexture
@@ -37,8 +38,8 @@ var is_paused := false
 var show_hint := true
 var _message_version := 0
 var _message_active := false
-var _prompt_texts: Dictionary = {}
-var _prompt_order: Array[int] = []
+var _interaction_targets: Dictionary = {}
+var _interaction_order: Array[int] = []
 
 var _dialogue_open := false
 var _dialogue_pages: Array[String] = []
@@ -61,6 +62,7 @@ func _ready() -> void:
 	back_button.pressed.connect(_on_back_button_pressed)
 
 	text_box.visible = false
+	interaction_name_label.visible = false
 	detail_overlay.visible = false
 	dialogue_panel.visible = false
 	pause_overlay.visible = false
@@ -83,6 +85,11 @@ func _ready() -> void:
 	_player = get_tree().get_first_node_in_group("player")
 	for expression_id in EXPRESSION_IDS:
 		_expression_textures[expression_id] = portrait_texture.texture
+	_refresh_interaction_name()
+
+
+func _process(_delta: float) -> void:
+	_update_interaction_name_position()
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -130,7 +137,7 @@ func close_dialogue() -> void:
 	detail_texture_rect.texture = null
 	pause_button.visible = true
 	_set_player_input_locked(false)
-	_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func is_dialogue_open() -> bool:
@@ -150,6 +157,7 @@ func show_text(text: String, duration: float = 2.5) -> void:
 	var version := _message_version
 	_message_active = true
 	_stop_fade()
+	_refresh_interaction_name()
 	if not is_modal_open():
 		_display_text(text)
 
@@ -159,29 +167,36 @@ func show_text(text: String, duration: float = 2.5) -> void:
 	await _fade_out_message(version)
 
 
-# Each interaction owns its prompt. Leaving one Area does not clear another Area's prompt.
-func show_prompt(source: Node, text: String) -> void:
+func show_interaction_name(
+	source: Node,
+	display_name: String,
+	position_reference: Node2D,
+	label_offset: Vector2
+) -> void:
 	var source_id := source.get_instance_id()
-	_prompt_texts[source_id] = text
-	_prompt_order.erase(source_id)
-	_prompt_order.append(source_id)
-	if not _message_active:
-		_refresh_prompt()
+	_interaction_targets[source_id] = {
+		"source": source,
+		"display_name": display_name,
+		"position_reference": position_reference,
+		"label_offset": label_offset,
+	}
+	_interaction_order.erase(source_id)
+	_interaction_order.append(source_id)
+	_refresh_interaction_name()
 
 
-func hide_prompt(source: Node) -> void:
+func hide_interaction_name(source: Node) -> void:
 	var source_id := source.get_instance_id()
-	_prompt_texts.erase(source_id)
-	_prompt_order.erase(source_id)
-	if not _message_active:
-		_refresh_prompt()
+	_interaction_targets.erase(source_id)
+	_interaction_order.erase(source_id)
+	_refresh_interaction_name()
 
 
 func hide_text() -> void:
 	_message_version += 1
 	_message_active = false
 	_stop_fade()
-	_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func _open_dialogue(
@@ -205,6 +220,7 @@ func _open_dialogue(
 	dialogue_panel.visible = true
 	pause_button.visible = false
 	_set_player_input_locked(true)
+	_refresh_interaction_name()
 	_show_dialogue_page()
 
 
@@ -242,6 +258,7 @@ func _cancel_temporary_text() -> void:
 	_stop_fade()
 	text_box.visible = false
 	text_box.modulate.a = 1.0
+	_refresh_interaction_name()
 
 
 func _set_player_input_locked(locked: bool) -> void:
@@ -260,7 +277,7 @@ func _fade_out_message(version: int) -> void:
 	_stop_fade()
 	if not text_box.visible:
 		_message_active = false
-		_refresh_prompt()
+		_refresh_interaction_name()
 		return
 
 	fade_tween = create_tween()
@@ -272,7 +289,7 @@ func _fade_out_message(version: int) -> void:
 	_message_active = false
 	fade_tween = null
 	text_box.modulate.a = 1.0
-	_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func _display_text(text: String) -> void:
@@ -281,23 +298,56 @@ func _display_text(text: String) -> void:
 	text_box.modulate.a = 1.0
 
 
-func _refresh_prompt() -> void:
-	if is_modal_open():
-		text_box.visible = false
-		text_box.modulate.a = 1.0
-		return
-	if _message_active:
+func _refresh_interaction_name() -> void:
+	while not _interaction_order.is_empty():
+		var source_id: int = _interaction_order.back()
+		if not _interaction_targets.has(source_id):
+			_interaction_order.pop_back()
+			continue
+		var target: Dictionary = _interaction_targets[source_id]
+		var source: Node = target.get("source")
+		var position_reference: Node2D = target.get("position_reference")
+		if is_instance_valid(source) and is_instance_valid(position_reference):
+			break
+		_interaction_targets.erase(source_id)
+		_interaction_order.pop_back()
+
+	if is_modal_open() or _message_active or not show_hint or _interaction_order.is_empty():
+		interaction_name_label.visible = false
 		return
 
-	while not _prompt_order.is_empty() and not _prompt_texts.has(_prompt_order.back()):
-		_prompt_order.pop_back()
-
-	if not show_hint or _prompt_order.is_empty():
-		text_box.visible = false
-		text_box.modulate.a = 1.0
+	var current_target: Dictionary = _interaction_targets[_interaction_order.back()]
+	var current_name := str(current_target.get("display_name", ""))
+	if current_name.is_empty():
+		interaction_name_label.visible = false
 		return
 
-	_display_text(str(_prompt_texts[_prompt_order.back()]))
+	interaction_name_label.text = current_name
+	interaction_name_label.reset_size()
+	interaction_name_label.visible = true
+	_update_interaction_name_position()
+
+
+func _update_interaction_name_position() -> void:
+	if not interaction_name_label.visible or _interaction_order.is_empty():
+		return
+	var source_id: int = _interaction_order.back()
+	if not _interaction_targets.has(source_id):
+		_refresh_interaction_name()
+		return
+	var target: Dictionary = _interaction_targets[source_id]
+	var position_reference: Node2D = target.get("position_reference")
+	if not is_instance_valid(position_reference):
+		_refresh_interaction_name()
+		return
+
+	var screen_position: Vector2 = get_viewport().get_canvas_transform() * position_reference.global_position
+	var label_offset: Vector2 = target.get("label_offset", Vector2.ZERO)
+	var viewport_size := get_viewport().get_visible_rect().size
+	var label_position := screen_position + label_offset - interaction_name_label.size * 0.5
+	label_position.x = clampf(label_position.x, 0.0, maxf(0.0, viewport_size.x - interaction_name_label.size.x))
+	label_position.y = maxf(0.0, label_position.y)
+	interaction_name_label.position = label_position
 
 
 func _stop_fade() -> void:
@@ -321,14 +371,14 @@ func toggle_pause() -> void:
 		resume_button.grab_focus()
 	else:
 		pause_button.text = "Ⅱ"
-	_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func _show_pause_menu() -> void:
 	settings_panel.visible = false
 	pause_menu.visible = true
 	settings_button.grab_focus()
-	_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func _on_pause_button_pressed() -> void:
@@ -345,7 +395,7 @@ func _on_settings_button_pressed() -> void:
 	pause_menu.visible = false
 	settings_panel.visible = true
 	hint_check_box.grab_focus()
-	_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func _on_title_button_pressed() -> void:
@@ -361,8 +411,7 @@ func _on_back_button_pressed() -> void:
 func _on_hint_check_box_toggled(button_pressed: bool) -> void:
 	show_hint = button_pressed
 	GameState.interaction_hints_enabled = button_pressed
-	if not _message_active:
-		_refresh_prompt()
+	_refresh_interaction_name()
 
 
 func _on_volume_slider_value_changed(value: float) -> void:

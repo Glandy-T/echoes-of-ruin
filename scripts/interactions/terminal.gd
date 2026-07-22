@@ -2,10 +2,15 @@ extends Area2D
 
 @export var target_door_path: NodePath
 @export var state_id: StringName = &""
-@export var prompt_text := "Eキーで調べる"
+@export var display_name: String = ""
+@export var label_offset := Vector2(0, -64)
 @export_multiline var activation_text := ""
 @export_multiline var already_used_text := ""
 @export_multiline var failure_text := ""
+@export_multiline var activation_pages: Array[String] = []
+@export var activation_expression_ids: Array[StringName] = []
+@export_multiline var already_used_pages: Array[String] = []
+@export var already_used_expression_ids: Array[StringName] = []
 
 var player_near := false
 var used := false
@@ -38,7 +43,11 @@ func _process(_delta: float) -> void:
 
 func _activate() -> void:
 	if used:
-		_show_text(already_used_text)
+		_show_dialogue_or_text(
+			already_used_pages,
+			already_used_expression_ids,
+			already_used_text
+		)
 		return
 
 	if _door == null:
@@ -49,16 +58,16 @@ func _activate() -> void:
 	used = true
 	if not state_id.is_empty():
 		GameState.set_flag(state_id, true)
-	_show_text(activation_text)
 	_door.call("unlock_and_open")
+	_show_dialogue_or_text(activation_pages, activation_expression_ids, activation_text)
 
 
 func _on_body_entered(body: Node) -> void:
 	if not body.is_in_group("player"):
 		return
 	player_near = true
-	if _ui != null and not prompt_text.is_empty():
-		_ui.call("show_prompt", self, prompt_text)
+	if _ui != null and not display_name.is_empty():
+		_ui.call("show_interaction_name", self, display_name, self, label_offset)
 
 
 func _on_body_exited(body: Node) -> void:
@@ -66,12 +75,23 @@ func _on_body_exited(body: Node) -> void:
 		return
 	player_near = false
 	if _ui != null:
-		_ui.call("hide_prompt", self)
+		_ui.call("hide_interaction_name", self)
 
 
 func _show_text(text: String) -> void:
 	if _ui != null and not text.is_empty():
 		_ui.call("show_text", text)
+
+
+func _show_dialogue_or_text(
+	pages: Array[String],
+	expression_ids: Array[StringName],
+	fallback_text: String
+) -> void:
+	if _ui != null and not pages.is_empty() and _ui.has_method("start_dialogue"):
+		_ui.call("start_dialogue", pages, expression_ids)
+		return
+	_show_text(fallback_text)
 
 
 func _can_accept_world_interaction() -> bool:

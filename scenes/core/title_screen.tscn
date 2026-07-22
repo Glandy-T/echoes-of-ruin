@@ -104,7 +104,7 @@ columns = 2
 
 [node name="HintLabel" type="Label" parent="CenterContainer/SettingsMenu/SettingsGrid"]
 layout_mode = 2
-text = "操作提示"
+text = "対象名の表示"
 vertical_alignment = 1
 
 [node name="HintCheckBox" type="CheckBox" parent="CenterContainer/SettingsMenu/SettingsGrid"]

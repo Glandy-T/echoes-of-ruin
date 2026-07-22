@@ -43,18 +43,19 @@ state_id = &"prototype_a_terminal_used"
 activation_text = "端末を起動した。生体反応を確認。認証完了。"
 already_used_text = "端末はすでに認証済みです。"
 failure_text = "端末は対象のドアに接続できない。"
+display_name = "DEV 端末"
 
 [node name="ExitToRoomB" parent="." instance=ExtResource("6_exit")]
 position = Vector2(1700, 574)
 target_scene_path = "res://scenes/dev/prototype_room_b.tscn"
 target_spawn_id = &"from_room_a"
-prompt_text = "Eキーで調べる"
+display_name = "出口"
 required_flag_id = &"prototype_a_door_opened"
 unavailable_text = "ドアはロックされている。"
 
 [node name="DevDialogueInvestigation" parent="." instance=ExtResource("8_investigation")]
 position = Vector2(360, 570)
-prompt_text = "Eキーで DEV 独白を確認"
+display_name = "DEV 独白"
 pages = Array[String](["……これは開発用の調査点らしい。", "二ページ目。仕組みは単純な方が助かる。"])
 expression_ids = Array[StringName]([&"confused", &"deadpan"])
 
@@ -68,7 +69,7 @@ horizontal_alignment = 1
 
 [node name="DevDetailInvestigation" parent="." instance=ExtResource("8_investigation")]
 position = Vector2(650, 570)
-prompt_text = "Eキーで DEV 詳細調査を確認"
+display_name = "DEV 詳細調査"
 pages = Array[String](["画像付きの調査表示。今は仮素材だ。", "正式な資料画像は、必要になってから差し替える。"])
 expression_ids = Array[StringName]([&"wary", &"neutral"])
 detail_texture = ExtResource("9_detail")

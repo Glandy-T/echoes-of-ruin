@@ -38,15 +38,15 @@ res://
 | スクリプト | 責務 |
 | --- | --- |
 | `game_state.gd` | `world_flags` と `next_spawn_id` に加え、世界状態とは分離した実行時設定 `interaction_hints_enabled` を保持する。 |
-| `title_screen.gd` | Demo 状態の初期化、一時的な prototype 入口、操作ヒント設定、ウィンドウ／フルスクリーン切替を管理する。 |
+| `title_screen.gd` | Demo 状態の初期化、一時的な prototype 入口、対象名表示設定、ウィンドウ／フルスクリーン切替を管理する。 |
 | `room_controller.gd` | Player のスポーン適用と、部屋ごとの Camera 境界設定を共通処理する。 |
 | `spawn_point.gd` | Marker2D に Inspector 設定可能な `spawn_id` を与える。 |
 | `player.gd` | `CharacterBody2D` の左右移動、重力、ジャンプ、アニメーション、左右反転と、対話中の入力ロックを制御する。 |
-| `terminal.gd` | Group で Player と GameUI を検出し、Inspector 指定の Door を検証して `unlock_and_open()` を呼ぶ。 |
+| `terminal.gd` | Group で Player と GameUI を検出し、Inspector 指定の Door を検証して `unlock_and_open()` を呼ぶ。任意の activation／already-used ページが設定されている場合は DialoguePanel を使用し、未設定時は従来の短文表示へフォールバックする。 |
 | `door.gd` | 開放状態、上方向 Tween、閉鎖時の物理衝突、開放後の衝突無効化を管理する。 |
-| `scene_exit.gd` | Inspector 指定の目標シーン、スポーン ID、必要 flag に基づいて場面を切り替える。 |
-| `investigation_point.gd` | Inspector 指定のページ、表情 ID、任意の詳細画像を GameUI の対話 API へ渡す。 |
-| `game_ui.gd` | 一時テキスト、発生元別ヒント、独白／詳細調査、プレイヤー入力ロック、ポーズ／設定を制御し、操作ヒント設定を GameState と同期する。 |
+| `scene_exit.gd` | Inspector 指定の目標シーン、スポーン ID、必要 flag に基づいて場面を切り替え、近接時は出口名を GameUI へ登録する。 |
+| `investigation_point.gd` | Inspector 指定のページ、表情 ID、任意の詳細画像を GameUI の対話 API へ渡す。任意の world flag 条件が不一致の間は、対象名表示と E 操作を無効にする。 |
+| `game_ui.gd` | 一時テキスト、発生元別の単一対象名表示、独白／詳細調査、プレイヤー入力ロック、ポーズ／設定を制御し、対象名表示設定を GameState と同期する。 |
 
 ## シーン間の関係
 
@@ -65,7 +65,7 @@ scenes/core/title_screen.tscn
 - 両 prototype は同じ `room_controller.gd` を使用し、正式な建築シーンではない。
 - `cryo_room_4f_01.tscn` は Player、GameUI、Room Controller、Spawn Point、Door、Terminal を既存システムから再利用する。Camera 境界は 2600×720、Room 1 固有の Camera zoom は 1.8 であり、開始位置は `PlayerControlStart` に設定する。主人公を 165cm の基準尺度として、天井、家具、紙資料、端末、ドアの灰盒寸法を決める。
 - 正式 Room 1 はまだタイトル画面や他の正式マップへ接続しない。出口付近には `SceneExit` を置かず、`ExitRouteDisabledAnchor` によって将来の接続位置だけを示す。
-- 各休眠ポッド、当直表、故障メモ、同意書、廃棄物回収口、出口には Investigation Point を配置し、灰盒検証用の暫定文章を設定している。正式な台詞と詳細画像は未決定であり、後から差し替える。
+- 各休眠ポッド、巡回表、固定ペン、故障メモ、同意書、廃棄物回収口、出口には Investigation Point を配置し、正式なページ台詞と `display_name` を設定している。詳細画像は必要になった時点で追加する。出口のロック中調査は `cryo_room_exit_authorized == false` の間だけ有効である。
 - `player.tscn` は `CharacterBody2D`、当たり判定、`AnimatedSprite2D`、`Camera2D` で構成される。
 - `game_ui.tscn` は `CanvasLayer` をルートとし、テキストボックス、ポーズ UI、設定 UI を持つ。`process_mode = 3` によりゲームがポーズ中でも UI を処理する。
 
@@ -78,7 +78,7 @@ Player の物理処理
 Area2D の body_entered / body_exited
   └─ terminal.gd / scene_exit.gd / investigation_point.gd
        ├─ Player は `player` Group で判定
-       └─ `game_ui` Group の GameUI へ発生元付きヒントを登録／解除
+       └─ `game_ui` Group の GameUI へ発生元付き対象名を登録／解除
 
 Investigation Point の E 操作
   ├─ GameUI.can_accept_world_interaction() を確認
@@ -86,7 +86,7 @@ Investigation Point の E 操作
   └─ 画像あり → GameUI.start_detail_dialogue()
        ├─ DialoguePanel と任意の DetailOverlay を表示
        ├─ Player.set_input_locked(true)
-       └─ 終了時にロック解除と登録済みヒントの再表示
+       └─ 終了時にロック解除と登録済み対象名の再表示
 
 Terminal の E 操作
   └─ GameState.set_flag(terminal_state_id, true)
@@ -113,13 +113,13 @@ Terminal、Scene Exit、Investigation Point は E 入力を処理する前に `G
 ## 再利用シーンの設定
 
 - Door：`state_id`、`open_offset`、`animation_time` を Inspector で設定する。
-- Terminal：`target_door_path`、`state_id`、表示テキストを Inspector で設定する。
-- Scene Exit：`target_scene_path`、`target_spawn_id`、`prompt_text`、任意の `required_flag_id` を設定する。
-- Investigation Point：`prompt_text`、手動改ページ単位の `pages`、任意の `expression_ids` と `detail_texture` を設定する。
+- Terminal：`target_door_path`、`state_id`、表示テキストを Inspector で設定する。`activation_pages`／`activation_expression_ids` と `already_used_pages`／`already_used_expression_ids` は任意であり、ページ未設定時は短文表示を使用する。
+- Scene Exit：`target_scene_path`、`target_spawn_id`、`display_name`、任意の `required_flag_id` を設定する。
+- Investigation Point：`display_name`、画面ピクセル単位の `label_offset`、手動改ページ単位の `pages`、任意の `expression_ids` と `detail_texture` を設定する。`available_flag_id` が設定されている場合は、`available_flag_value` と一致する間だけ対象名表示と操作を受け付ける。
 - Spawn Point：Marker2D に `spawn_point.gd` を設定し、`spawn_id` を指定する。
 - Room：`room_controller.gd` の `default_spawn_id` と Camera 境界 4 値を指定する。
 
-`cryo_room_4f_01.tscn` では、左から右への空間上の並びを `PodSlot01`～`PodSlot05` として扱い、設定上確定しているポッド本体番号は主役ポッドの `ID 04` だけである。空間順と本体番号を混同しないため、主役ポッドは `PodSlot02PlayerID04` と命名している。
+`cryo_room_4f_01.tscn` の休眠ポッドは、左から右へ `Pod_4_14_05`、`Pod_4_14_04_Player`、`Pod_4_14_03`、`Pod_4_14_02`、`Pod_4_14_01_Collapsed` として配置している。Room 1 では `Pod_4_14_05` ～ `Pod_4_14_01` の正式番号を使用し、`PodSlot` という仮の空間順命名は使用しない。
 
 ## 対話・詳細調査 API
 

@@ -2,7 +2,8 @@ extends Area2D
 
 @export_file("*.tscn") var target_scene_path := ""
 @export var target_spawn_id: StringName = &"start"
-@export var prompt_text := "Eキーで移動する"
+@export var display_name: String = ""
+@export var label_offset := Vector2(0, -64)
 @export var required_flag_id: StringName = &""
 @export var required_flag_value := true
 @export_multiline var unavailable_text := ""
@@ -48,8 +49,8 @@ func _on_body_entered(body: Node) -> void:
 	if not body.is_in_group("player"):
 		return
 	player_near = true
-	if _ui != null and not prompt_text.is_empty():
-		_ui.call("show_prompt", self, prompt_text)
+	if _ui != null and not display_name.is_empty():
+		_ui.call("show_interaction_name", self, display_name, self, label_offset)
 
 
 func _on_body_exited(body: Node) -> void:
@@ -57,7 +58,7 @@ func _on_body_exited(body: Node) -> void:
 		return
 	player_near = false
 	if _ui != null:
-		_ui.call("hide_prompt", self)
+		_ui.call("hide_interaction_name", self)
 
 
 func _can_accept_world_interaction() -> bool:
