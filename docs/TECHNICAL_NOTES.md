@@ -4,7 +4,7 @@
 
 Godot 4.6 系、GDScript のプロジェクトである。`project.godot` では `res://scenes/core/title_screen.tscn` をメインシーンに設定し、`res://scripts/core/game_state.gd` をオートロード `GameState` として登録している。レンダラーは Compatibility（GL Compatibility）である。
 
-第一段階の工程整理後、シーン、スクリプト、アセットを用途別ディレクトリへ配置している。`scenes/areas/military_facility/` には正式マップ用の第一版灰盒 `cryo_room_4f_01.tscn` を配置している。ただし、タイトル画面からの正式な進行経路にはまだ接続していない。
+第一段階の工程整理後、シーン、スクリプト、アセットを用途別ディレクトリへ配置している。`scenes/areas/military_facility/` には正式マップ用の第一版灰盒 `cryo_room_4f_01.tscn` を配置しており、タイトル画面の START は現在この Room 1 へ接続している。
 
 ```text
 res://
@@ -53,10 +53,13 @@ res://
 ```text
 scenes/core/title_screen.tscn
   └─ START
-       └─ scenes/dev/prototype_room_a.tscn
-            ├─ Terminal（認証）→ Door（開放）
-            └─ SceneExit → scenes/dev/prototype_room_b.tscn
-                              └─ SceneExit → prototype_room_a.tscn（from_room_b）
+       └─ scenes/areas/military_facility/cryo_room_4f_01.tscn
+            └─ Terminal（認証）→ Door（開放）
+
+scenes/dev/prototype_room_a.tscn（開発確認用）
+  ├─ Terminal（認証）→ Door（開放）
+  └─ SceneExit → scenes/dev/prototype_room_b.tscn
+                    └─ SceneExit → prototype_room_a.tscn（from_room_b）
 ```
 
 - `prototype_room_a.tscn` は Player、GameUI、Door、Terminal、SceneExit をインスタンス化する。
@@ -64,7 +67,7 @@ scenes/core/title_screen.tscn
 - `prototype_room_b.tscn` は Player、GameUI、SceneExit をインスタンス化する。
 - 両 prototype は同じ `room_controller.gd` を使用し、正式な建築シーンではない。
 - `cryo_room_4f_01.tscn` は Player、GameUI、Room Controller、Spawn Point、Door、Terminal を既存システムから再利用する。Camera 境界は 2600×720、Room 1 固有の Camera zoom は 1.8 であり、開始位置は `PlayerControlStart` に設定する。主人公を 165cm の基準尺度として、天井、家具、紙資料、端末、ドアの灰盒寸法を決める。
-- 正式 Room 1 はまだタイトル画面や他の正式マップへ接続しない。出口付近には `SceneExit` を置かず、`ExitRouteDisabledAnchor` によって将来の接続位置だけを示す。
+- 正式 Room 1 はタイトル画面から接続する。出口付近には `SceneExit` を置かず、`ExitRouteDisabledAnchor` によって次の正式マップへの将来の接続位置だけを示す。
 - 各休眠ポッド、巡回表、固定ペン、故障メモ、同意書、廃棄物回収口、出口には Investigation Point を配置し、正式なページ台詞と `display_name` を設定している。詳細画像は必要になった時点で追加する。出口のロック中調査は `cryo_room_exit_authorized == false` の間だけ有効である。
 - `player.tscn` は `CharacterBody2D`、当たり判定、`AnimatedSprite2D`、`Camera2D` で構成される。
 - `game_ui.tscn` は `CanvasLayer` をルートとし、テキストボックス、ポーズ UI、設定 UI を持つ。`process_mode = 3` によりゲームがポーズ中でも UI を処理する。

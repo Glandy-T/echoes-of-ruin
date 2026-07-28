@@ -1,18 +1,18 @@
 extends Control
 
-# Temporary development target. The final flow will be:
-# title -> opening/wake-up sequence -> first cryogenic room -> player control.
-# Replace only this path after the formal opening scene is created.
-const TEMPORARY_START_SCENE_PATH := "res://scenes/dev/prototype_room_a.tscn"
+# Current playable route. The opening sequence will be inserted before this room
+# when it is implemented, without changing the title menu's Start action.
+const START_SCENE_PATH := "res://scenes/areas/military_facility/cryo_room_4f_01.tscn"
 const WINDOWED_SIZE := Vector2i(1280, 720)
 const DISPLAY_MODE_WINDOWED := 0
 const DISPLAY_MODE_FULLSCREEN := 1
 
-@onready var main_menu: VBoxContainer = $CenterContainer/MainMenu
+@onready var main_menu: VBoxContainer = $MainMenu
+@onready var title_block: VBoxContainer = $TitleBlock
 @onready var settings_menu: VBoxContainer = $CenterContainer/SettingsMenu
-@onready var start_button: Button = $CenterContainer/MainMenu/StartButton
-@onready var settings_button: Button = $CenterContainer/MainMenu/SettingsButton
-@onready var exit_button: Button = $CenterContainer/MainMenu/ExitButton
+@onready var start_button: Button = $MainMenu/StartButton
+@onready var settings_button: Button = $MainMenu/SettingsButton
+@onready var exit_button: Button = $MainMenu/ExitButton
 @onready var hint_check_box: CheckBox = $CenterContainer/SettingsMenu/SettingsGrid/HintCheckBox
 @onready var display_mode_option: OptionButton = $CenterContainer/SettingsMenu/SettingsGrid/DisplayModeOption
 @onready var back_button: Button = $CenterContainer/SettingsMenu/BackButton
@@ -43,11 +43,12 @@ func _unhandled_input(event: InputEvent) -> void:
 
 func _on_start_button_pressed() -> void:
 	GameState.reset_demo_state()
-	get_tree().change_scene_to_file(TEMPORARY_START_SCENE_PATH)
+	get_tree().change_scene_to_file(START_SCENE_PATH)
 
 
 func _on_settings_button_pressed() -> void:
 	main_menu.hide()
+	title_block.hide()
 	settings_menu.show()
 	hint_check_box.grab_focus()
 
@@ -86,5 +87,6 @@ func _on_back_button_pressed() -> void:
 
 func _show_main_menu() -> void:
 	settings_menu.hide()
+	title_block.show()
 	main_menu.show()
 	settings_button.grab_focus()

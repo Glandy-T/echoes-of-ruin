@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://b5irjibgor2d1"]
+[gd_scene load_steps=5 format=3 uid="uid://b5irjibgor2d1"]
 
 [ext_resource type="Script" uid="uid://v0ks3edtagh7" path="res://scripts/core/title_screen.gd" id="1_script"]
 [ext_resource type="Theme" path="res://assets/ui/title_screen_theme.tres" id="2_theme"]
+[ext_resource type="Texture2D" path="res://assets/ui/title_cover.jpg" id="3_cover"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_menu_focus"]
 
 [node name="TitleScreen" type="Control" unique_id=1805084774]
 layout_mode = 3
@@ -23,6 +26,52 @@ grow_vertical = 2
 mouse_filter = 2
 color = Color(0.035, 0.043, 0.055, 1)
 
+[node name="CoverImage" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_cover")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="CoverShade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.015, 0.02, 0.03, 0.2)
+
+[node name="TitleBlock" type="VBoxContainer" parent="."]
+layout_mode = 0
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -360.0
+offset_top = 120.0
+offset_right = 360.0
+offset_bottom = 300.0
+grow_horizontal = 2
+theme_override_constants/separation = 2
+alignment = 1
+
+[node name="JapaneseTitle" type="Label" parent="TitleBlock"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 96
+text = "終末の残響"
+horizontal_alignment = 1
+
+[node name="EnglishSubtitle" type="Label" parent="TitleBlock"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "ECHOES OF RUIN"
+horizontal_alignment = 1
+
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
 anchors_preset = 15
@@ -31,52 +80,63 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MainMenu" type="VBoxContainer" parent="CenterContainer"]
+[node name="MainMenu" type="VBoxContainer" parent="."]
 custom_minimum_size = Vector2(360, 0)
-layout_mode = 2
+layout_mode = 0
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 92.0
+offset_top = -300.0
+offset_right = 452.0
+offset_bottom = -70.0
+grow_vertical = 2
 theme_override_constants/separation = 12
 alignment = 1
 
-[node name="JapaneseTitle" type="Label" parent="CenterContainer/MainMenu"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 72
-text = "終末の残響"
-horizontal_alignment = 1
-
-[node name="EnglishSubtitle" type="Label" parent="CenterContainer/MainMenu"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 22
-text = "ECHOES OF RUIN"
-horizontal_alignment = 1
-
-[node name="MenuSpacer" type="Control" parent="CenterContainer/MainMenu"]
-custom_minimum_size = Vector2(0, 28)
-layout_mode = 2
-mouse_filter = 2
-
-[node name="StartButton" type="Button" parent="CenterContainer/MainMenu" unique_id=1580379617]
-custom_minimum_size = Vector2(360, 56)
+[node name="StartButton" type="Button" parent="MainMenu" unique_id=1580379617]
+custom_minimum_size = Vector2(360, 48)
 layout_mode = 2
 focus_neighbor_top = NodePath("../ExitButton")
 focus_neighbor_bottom = NodePath("../SettingsButton")
 mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.86, 0.89, 0.9, 1)
+theme_override_colors/font_focus_color = Color(0.86, 0.89, 0.9, 1)
+theme_override_colors/font_hover_color = Color(0.65, 0.9, 1, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/focus = SubResource("StyleBoxEmpty_menu_focus")
+flat = true
 text = "はじめる"
+alignment = 0
 
-[node name="SettingsButton" type="Button" parent="CenterContainer/MainMenu"]
-custom_minimum_size = Vector2(360, 56)
+[node name="SettingsButton" type="Button" parent="MainMenu"]
+custom_minimum_size = Vector2(360, 48)
 layout_mode = 2
 focus_neighbor_top = NodePath("../StartButton")
 focus_neighbor_bottom = NodePath("../ExitButton")
 mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.86, 0.89, 0.9, 1)
+theme_override_colors/font_focus_color = Color(0.86, 0.89, 0.9, 1)
+theme_override_colors/font_hover_color = Color(0.65, 0.9, 1, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/focus = SubResource("StyleBoxEmpty_menu_focus")
+flat = true
 text = "設定"
+alignment = 0
 
-[node name="ExitButton" type="Button" parent="CenterContainer/MainMenu"]
-custom_minimum_size = Vector2(360, 56)
+[node name="ExitButton" type="Button" parent="MainMenu"]
+custom_minimum_size = Vector2(360, 48)
 layout_mode = 2
 focus_neighbor_top = NodePath("../SettingsButton")
 focus_neighbor_bottom = NodePath("../StartButton")
 mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.86, 0.89, 0.9, 1)
+theme_override_colors/font_focus_color = Color(0.86, 0.89, 0.9, 1)
+theme_override_colors/font_hover_color = Color(0.65, 0.9, 1, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/focus = SubResource("StyleBoxEmpty_menu_focus")
+flat = true
 text = "終了"
+alignment = 0
 
 [node name="SettingsMenu" type="VBoxContainer" parent="CenterContainer"]
 visible = false
