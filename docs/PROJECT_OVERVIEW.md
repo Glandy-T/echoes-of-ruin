@@ -41,5 +41,5 @@
 - メインシーンは `res://scenes/core/title_screen.tscn` である。
 - タイトルから開始する機能検証マップは `res://scenes/dev/prototype_room_a.tscn`、往復先は `prototype_room_b.tscn` である。
 - 両方の prototype は正式な休眠施設ではなく、移動、端末、ドア、シーン遷移、状態保持、UI を回帰確認するための開発用シーンである。
-- 正式な軍事休眠施設シーンは、今後 `res://scenes/areas/military_facility/` に作成する。
+- 正式設定では工業区休眠施設とする。現行の実装パスは旧名称由来の `res://scenes/areas/military_facility/` であり、ディレクトリ名の改称はシーン参照の更新と合わせて行う。
 - Door、Terminal、Scene Exit は `res://scenes/interactions/` の再利用可能シーンとして分離されている。
