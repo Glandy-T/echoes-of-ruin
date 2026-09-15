@@ -4,7 +4,7 @@
 
 『Echoes of Ruin（終末残響）』は、2D ピクセルアートの探索型謎解きアドベンチャーゲームである。現行プロトタイプでは、プレイヤーが横方向のマップを移動し、端末を調べて認証を完了し、解放されたドアの先へ進む一連の体験を実装している。
 
-作者用の完全な世界設定は [WORLD_BIBLE.md](WORLD_BIBLE.md)、プレイヤーへの段階的な情報開示は [STORY_REVEAL_PLAN.md](STORY_REVEAL_PLAN.md) に分離して記録する。主人公設定は [CHARACTER_DESIGN.md](CHARACTER_DESIGN.md) を参照する。
+卒業論文の GitHub 編集用原稿は [THESIS.md](THESIS.md) に置く。作者用の完全な世界設定は [WORLD_BIBLE.md](WORLD_BIBLE.md)、プレイヤーへの段階的な情報開示は [STORY_REVEAL_PLAN.md](STORY_REVEAL_PLAN.md) に分離して記録する。主人公設定は [CHARACTER_DESIGN.md](CHARACTER_DESIGN.md) を参照する。
 
 ## ジャンル
 
