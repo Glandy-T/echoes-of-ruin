@@ -1511,6 +1511,16 @@
 
 > 保持现有图像大部分内容不变，只修改明确指定的设计细节。
 
+当前 Web Creator 实际界面已确认：
+
+- 从左侧 **Edit** 进入后，先回到 Edit 工具列表；
+- 选择 **AI 编辑**；
+- AI 编辑页当前提供 **Pro / Pixen** 两种互斥编辑模型；
+- 填写 **编辑说明**；
+- 可选择 **无背景**；
+- 必须上传 **编辑图像**；
+- 当前 Web UI 未确认存在“Edit with text / Edit with reference”这样的独立方法选择器，因此后续不要把 API／插件文档中的参数直接当作 Web UI 菜单来指导操作。
+
 适合：
 
 - 加厚／减薄底座；
@@ -1612,6 +1622,10 @@ PixelLab 的 Rotate 功能主要面向角色／方向旋转，不能默认当作
 ---
 
 # Revision Log
+
+## 2026-09-29 — v0.36
+- 修正 PixelLab Web Creator 与 API／插件文档的混用：当前 Web 的 AI 编辑页按实际界面记录为 Pro／Pixen、编辑说明、无背景、必填编辑图像；不再假定 Web UI 存在“Edit with text / Edit with reference”方法选择器。
+- 明确后续指导 PixelLab 时优先以当前 Web Creator 实际界面为准，API／插件文档仅用于解释能力边界，不直接映射成界面按钮。
 
 ## 2026-09-29 — v0.35
 - 新增 PixelLab 像素资产生产工作流，明确 Pro／Pixen／PixFlux／BitForge 为 Creator 中彼此互斥的四种生成选项，不再混用不同模型的参数菜单。
