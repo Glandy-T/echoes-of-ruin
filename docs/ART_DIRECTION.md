@@ -1515,7 +1515,9 @@
 
 - 从左侧 **Edit** 进入后，先回到 Edit 工具列表；
 - 选择 **AI 编辑**；
-- AI 编辑页当前提供 **Pro / Pixen** 两种互斥编辑模型；
+- AI 编辑页当前显示 **Pro / Pixen** 两种互斥编辑模型；
+- 但截至 2026-09-29 的实际 Web Creator 中，点击 **Pro** 会切回／进入 **Create Image** 页面，而不是继续停留在 AI Edit；因此当前网页端实际进行 AI Edit 时优先使用 **Pixen**，不要假定 Pro Edit 已在该 UI 中正常暴露；
+- 官方文档／API 仍列有 Pro Edit 能力，因此这更可能是当前 Web Creator 的 UI／路由暴露差异，后续若界面更新需重新验证；
 - 填写 **编辑说明**；
 - 可选择 **无背景**；
 - 必须上传 **编辑图像**；
@@ -1622,6 +1624,10 @@ PixelLab 的 Rotate 功能主要面向角色／方向旋转，不能默认当作
 ---
 
 # Revision Log
+
+## 2026-09-29 — v0.37
+- 根据当前 Web Creator 实测补充：AI Edit 页面虽显示 Pro / Pixen，但点击 Pro 会进入 Create Image；当前网页端实际编辑优先使用 Pixen。
+- 保留“官方文档／API 存在 Pro Edit 能力”的记录，但不再把它等同于当前 Web Creator 已可直接使用的 Pro 编辑入口。
 
 ## 2026-09-29 — v0.36
 - 修正 PixelLab Web Creator 与 API／插件文档的混用：当前 Web 的 AI 编辑页按实际界面记录为 Pro／Pixen、编辑说明、无背景、必填编辑图像；不再假定 Web UI 存在“Edit with text / Edit with reference”方法选择器。
