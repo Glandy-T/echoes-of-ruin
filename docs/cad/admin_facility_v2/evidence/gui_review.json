@@ -1,0 +1,17 @@
+{
+  "document": "admin_facility_v2.FCStd",
+  "native_gui_opened": true,
+  "source_commit": "d67e58a89410abfc42f48a28dcbe2228a1b12a90",
+  "snapshot_pages": 3,
+  "native_views": 2,
+  "native_dimensions": 4,
+  "saved_after_gui_export": true,
+  "visual_review": "all four native exports checked",
+  "evidence": [
+    "freecad_A201.png",
+    "freecad_A202.png",
+    "freecad_A203.png",
+    "freecad_A204_live.png"
+  ],
+  "native_pdf_exports": "local diagnostic exports; CAD source contains all four pages"
+}

@@ -1,0 +1,15 @@
+{
+  "saved_fcstd_sha256": "674fc277d5892f7d22a358b6240a6aa1b7b5e7606562c462218dd589cac86bdf",
+  "fully_constrained_sketches": 6,
+  "front_groups": 10,
+  "rear_exits": 3,
+  "toilet_nodes": 3,
+  "native_views": 2,
+  "native_dimensions": 4,
+  "cad_errors": [],
+  "parameter_recompute": "passed",
+  "source_ref": "d67e58a89410abfc42f48a28dcbe2228a1b12a90",
+  "actual_placement_verified": false,
+  "toilet_fit_verified": false,
+  "throughput_verified": false
+}
