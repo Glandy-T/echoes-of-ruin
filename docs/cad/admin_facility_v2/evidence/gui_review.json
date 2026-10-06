@@ -1,7 +1,7 @@
 {
   "revision": "v2-FINAL",
   "native_gui_opened": true,
-  "source_main": "4b9a3609d0c76f301c0dd75429d30f0c5a7d4013",
+  "source_main": "c1ab4d25e5945b579517f8ceb956dcdd7502223f",
   "sketch_count": 335,
   "fully_constrained": true,
   "native_dimensions": [
@@ -86,14 +86,14 @@
     "freecad_A203.pdf",
     "freecad_A204_live.pdf"
   ],
-  "visual_review": "passed: A201, A202, A203 and A204 GUI exports rendered and inspected",
+  "visual_review": "pending",
   "preserved_other_documents": [
     "admin_facility_v1",
     "admin_facility_v2",
     "redraw_gui_40b18ffc",
     "redraw_gui_7482fee4",
+    "redraw_gui_d5fb4cb6",
     "redraw_gui_db882081",
     "redraw_gui_e2be0a8f"
-  ],
-  "publication_pdf_visual_review": "passed: all three A2 pages rendered and inspected"
+  ]
 }

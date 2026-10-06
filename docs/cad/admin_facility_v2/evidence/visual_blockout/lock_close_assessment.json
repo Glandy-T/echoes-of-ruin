@@ -1,0 +1,88 @@
+{
+  "basis": {
+    "document": "LOCK_AND_CLOSE.md",
+    "source_main": "c1ab4d25e5945b579517f8ceb956dcdd7502223f"
+  },
+  "dimensions": {
+    "plan_width_m": 4.0,
+    "plan_depth_m": 0.15,
+    "visible_height_m": 2.1,
+    "visible_bottom_z_m": 0.7,
+    "visible_top_z_m": 2.8,
+    "positions": {
+      "GuideLeft": {
+        "x": 13.4,
+        "y": 22.0,
+        "w": 4.0,
+        "d": 0.15
+      },
+      "GuideRight": {
+        "x": 47.6,
+        "y": 22.0,
+        "w": 4.0,
+        "d": 0.15
+      }
+    }
+  },
+  "camera_test": {
+    "view": "02_after_auth_human_view",
+    "camera_position_m": [
+      32.5,
+      9.0,
+      1.6
+    ],
+    "image_px": [
+      1800,
+      1100
+    ],
+    "vertical_fov_deg": 38.0,
+    "horizontal_fov_deg": 58.8,
+    "horizontal_half_fov_deg": 29.4,
+    "nearest_panel_edge_bearing_abs_deg": {
+      "left": 49.27,
+      "right": 49.27
+    },
+    "both_panels_visible_without_turn": false,
+    "observed": "Neither panel appears in 02; each is visible in its corresponding same-eye-position head-turn view 02b or 02c."
+  },
+  "three_d_validation": {
+    "native_shapes": 302,
+    "new_entity_collisions": 0,
+    "inherited_wall_overlaps": 6,
+    "parameter_tests_passed": 4,
+    "source_file_unchanged_by_readback": true
+  },
+  "checks": [
+    {
+      "condition": 1,
+      "status": "PASS",
+      "evidence": "2D GuideWidth=4.0m and 3D GuideHeight=2.1m derive from the same saved plan."
+    },
+    {
+      "condition": 2,
+      "status": "PASS",
+      "evidence": "Both visible faces are 4.0m wide x 2.1m high."
+    },
+    {
+      "condition": 3,
+      "status": "FAIL",
+      "evidence": "02_after_auth_human_view shows neither panel; nearest panel edges are about 49 degrees off axis, outside the captured view's roughly 29 degree half-width."
+    },
+    {
+      "condition": 4,
+      "status": "PASS",
+      "evidence": "5.1m minimum clear width on each side; native 3D reports zero new collisions. Six shared-wall overlaps are inherited from the source plan."
+    },
+    {
+      "condition": 5,
+      "status": "PASS",
+      "evidence": "Source-plan comparison changes only GuideLeft and GuideRight footprints; all other 331 feature geometries are unchanged."
+    },
+    {
+      "condition": 6,
+      "status": "PASS",
+      "evidence": "Updated FCStd, A201-A203 SVG/PDF, validation reports, 3D blockout, and affected screenshots have been regenerated and hashed."
+    }
+  ],
+  "freeze_status": "NOT FROZEN - LOCK_AND_CLOSE condition 3 failed; review or a user-authorized presentation/viewpoint change is required."
+}

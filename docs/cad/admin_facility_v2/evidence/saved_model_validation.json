@@ -1,6 +1,6 @@
 {
   "revision": "v2-FINAL",
-  "saved_fcstd_sha256": "37ccf7af8692696735632603159091f97a12388c992f9399cf2a2f70a4c26c19",
+  "saved_fcstd_sha256": "c0f7cd4c3dc0e0f7ccd0262b28a8a01203ca1985da5e64dc926c64c9a180fb6e",
   "fully_constrained_sketches": 335,
   "native_shape_readback": "all 333 features match metre layout",
   "parameter_tests": [
@@ -395,7 +395,7 @@
     "staff_wc_approach_after_retreat_m": 2.1999999999999997,
     "staff_front_lobby_m": 1.6,
     "chair_extra_retreat_m": 0.6,
-    "map_minimum_bypass_width_m": 6.1,
+    "map_minimum_bypass_width_m": 5.1,
     "continuous_staff_wc_route": "entry lobby -> right side aisle -> rear cross aisle -> WC door",
     "staff_route_reserved_rectangles_m": [
       {

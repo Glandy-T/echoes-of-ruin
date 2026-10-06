@@ -280,6 +280,6 @@
     }
   },
   "source_file_unchanged_by_readback": true,
-  "fcstd_sha256": "9909f593009409d92cb0b367a3ed9bbbe3b35ffa1a310f83690b6fb59ecd4413",
+  "fcstd_sha256": "aad789291d8e61b064d251d9e7ef31df5444f314f7b1dd7037c98a30bab183e6",
   "collision_note": "Positive-volume intersections tested in native OCC. Shared inherited wall strips are recorded separately; coplanar contact has zero volume."
 }

@@ -24,7 +24,7 @@ HEIGHTS={
  'MonitorBottomZ':(.86,'Dual-screen lower edge'), 'MonitorHeight':(.36,'Screen'),
  'FixtureHeight':(.45,'WC fixture block'),
  'BasinBottomZ':(.78,'Wash basin underside'), 'BasinThickness':(.10,'Wash basin block'),
- 'GuideBottomZ':(.70,'Map lower edge'), 'GuideHeight':(1.4,'Map panel height'),
+ 'GuideBottomZ':(.70,'Map lower edge'), 'GuideHeight':(2.1,'Map panel height'),
  'HumanHeight':(1.7,'Pure reference cylinder'), 'HumanRadius':(.18,'Reference cylinder'),
 }
 
@@ -135,7 +135,7 @@ def build():
    s=doc.getObject(f['name']).Shape.BoundBox;b=o.Shape.BoundBox
    assert all(abs(getattr(s,k)-getattr(b,k))<1e-5 for k in ['XMin','XMax','YMin','YMax']),f['name'];xy.append(f['name'])
  doc.saveAs(str(TARGET));assert sha(SOURCE)==before
- result={'revision':'3d-blockout-v1','source_main':'83232b0ab064e730cc0b1beadb2a5d945373054a','source_plan_sha256':before,'source_plan_unchanged':True,'source_feature_count':len(features),'extruded_xy_footprints_verified':len(xy),'native_3d_objects':len(registry),'wall_height_m':5.8,'eye_height_m':1.6,'new_height_parameters':{k:{'value_m':v[0],'status':'PROVISIONAL','purpose':v[1]} for k,v in HEIGHTS.items()},'source_plan_checks':checks,'visual_review':'pending','acceptance':'PENDING VISUAL REVIEW','roof_default_hidden':True,'door_panels':'hinged leaves retain source open plan position; sliders hidden in open-entry screenshots','wall_openings':'real threshold void with parameter-linked lintel above DoorHeight; roof-level full-height enclosure','future_art_development_started':False}
+ result={'revision':'3d-blockout-v1','source_main':'c1ab4d25e5945b579517f8ceb956dcdd7502223f','source_plan_sha256':before,'source_plan_unchanged':True,'source_feature_count':len(features),'extruded_xy_footprints_verified':len(xy),'native_3d_objects':len(registry),'wall_height_m':5.8,'eye_height_m':1.6,'new_height_parameters':{k:{'value_m':v[0],'status':'CONFIRMED' if k=='GuideHeight' else 'PROVISIONAL','purpose':v[1]} for k,v in HEIGHTS.items()},'source_plan_checks':checks,'visual_review':'pending','acceptance':'PENDING VISUAL REVIEW','roof_default_hidden':True,'door_panels':'hinged leaves retain source open plan position; sliders hidden in open-entry screenshots','wall_openings':'real threshold void with parameter-linked lintel above DoorHeight; roof-level full-height enclosure','future_art_development_started':False}
  (ROOT/'visual_blockout_validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  App.closeDocument(doc.Name);return result
 

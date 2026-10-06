@@ -13,7 +13,7 @@ from plan_layout import PARAMETERS, COUNTS, make_layout, check_layout
 from paper_drawings import make_pages, to_svg
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'exports';OUT.mkdir(exist_ok=True)
-SOURCE_MAIN='4b9a3609d0c76f301c0dd75429d30f0c5a7d4013'
+SOURCE_MAIN='c1ab4d25e5945b579517f8ceb956dcdd7502223f'
 SPEC_BLOB='e0543c128fc1271f0cb5bdd8d7ea3a7e77307551'
 BRIEF_BLOB='fe1c57e0679fb7e88592f53ada9d12c0749c1d86'
 FINAL_PASS_BLOB='d52cb9060b030ce59c1af88d0c80fd68468c2aea'

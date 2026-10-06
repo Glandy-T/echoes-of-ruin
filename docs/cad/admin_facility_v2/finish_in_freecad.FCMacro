@@ -89,9 +89,9 @@ try:
     doc.recompute()
     for d in dimensions:assert abs(doc.getObject(d['name']).getRawValue()-d['measured_mm'])<1e-5
     doc.saveAs(str(target))
-    doc.Label='管理设施 v2-FINAL | 本阶段空间设计收工';doc.save()
+    doc.Label='管理设施 v2-FINAL | 空间验收待确认';doc.save()
     Gui.activeDocument().getObject('A201').doubleClicked();Gui.updateGui()
-    report=dict(revision='v2-FINAL',native_gui_opened=True,source_main='4b9a3609d0c76f301c0dd75429d30f0c5a7d4013',
+    report=dict(revision='v2-FINAL',native_gui_opened=True,source_main='c1ab4d25e5945b579517f8ceb956dcdd7502223f',
         sketch_count=len(sketches),fully_constrained=True,native_dimensions=dimensions,parameter_edit_tests=modifications,
         saved_after_gui_export=True,exported_pages=exports,visual_review='pending',
         preserved_other_documents=list(App.listDocuments().keys()))

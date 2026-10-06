@@ -56,7 +56,7 @@ PARAMETERS = {
     'TableWidth': (1.8, 'PROVISIONAL', 'A–J监控/日志工位桌面宽'),
     'TableDepth': (.8, 'PROVISIONAL', 'A–J监控/日志工位桌面深'),
     'ChairWidth': (.55, 'PROVISIONAL', '工作台座位占位'),
-    'GuideWidth': (2., 'PROVISIONAL', '分流通道中地图正面宽'),
+    'GuideWidth': (4., 'CONFIRMED', '封盘要求：地图正面宽'),
     'GuideDepth': (.15, 'PROVISIONAL', '地图占位厚度'),
     'StaffTableYInset': (1.8, 'PROVISIONAL', '前排工位前端距工作人员区前边界'),
     'TableGap': (.8, 'PROVISIONAL', '同排桌面之间间距，非指定通道'),

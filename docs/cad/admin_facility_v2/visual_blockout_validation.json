@@ -1,7 +1,7 @@
 {
   "revision": "3d-blockout-v1",
-  "source_main": "83232b0ab064e730cc0b1beadb2a5d945373054a",
-  "source_plan_sha256": "37ccf7af8692696735632603159091f97a12388c992f9399cf2a2f70a4c26c19",
+  "source_main": "c1ab4d25e5945b579517f8ceb956dcdd7502223f",
+  "source_plan_sha256": "c0f7cd4c3dc0e0f7ccd0262b28a8a01203ca1985da5e64dc926c64c9a180fb6e",
   "source_plan_unchanged": true,
   "source_feature_count": 333,
   "extruded_xy_footprints_verified": 223,
@@ -90,8 +90,8 @@
       "purpose": "Map lower edge"
     },
     "GuideHeight": {
-      "value_m": 1.4,
-      "status": "PROVISIONAL",
+      "value_m": 2.1,
+      "status": "CONFIRMED",
       "purpose": "Map panel height"
     },
     "HumanHeight": {
@@ -106,18 +106,401 @@
     }
   },
   "source_plan_checks": {
-    "geometric_fit": "passed",
-    "workstations": 10,
-    "monitor_screens": 20,
+    "left_clear_gap_m": 14.2,
+    "right_clear_gap_m": 14.200000000000003,
+    "front_merge_depth_m": 11.7,
+    "rear_clear_depth_m": 10.700000000000003,
     "staff_wc_stalls": 2,
     "staff_wc_basins": 2,
+    "staff_wc_stall_clear_size_m": [
+      1.95,
+      2.0
+    ],
+    "staff_wc_shared_lobby_depth_m": 1.4,
+    "staff_wc_between_basins_clear_m": 3.0999999999999996,
+    "staff_wc_turning_test_diameter_m": 1.2,
     "public_wc_rows_per_node": 2,
     "public_wc_ordinary_stalls_per_node": 6,
     "public_wc_larger_stalls_per_node": 1,
-    "map_minimum_bypass_width_m": 6.1
+    "public_wc_shared_basins_per_node": 3,
+    "public_wc_shared_cross_lobby_depth_m": 3.9999999999999996,
+    "privacy_design": "fully enclosed independent rooms; all gender; shared wash area",
+    "door_swing_obstacle_conflicts": [],
+    "stage_space_design": "FINAL_PASS checks passed; stage complete",
+    "door_approach_depth_m": 1.0,
+    "door_approach_obstacle_conflicts": [],
+    "door_approach_reserved_rectangles_m": [
+      {
+        "door": "Staff_Door_Swing",
+        "side": 0,
+        "x": 31.9,
+        "y": 20.2,
+        "w": 1.2,
+        "d": 1.0
+      },
+      {
+        "door": "Staff_Door_Swing",
+        "side": 1,
+        "x": 31.9,
+        "y": 19.0,
+        "w": 1.2,
+        "d": 1.0
+      },
+      {
+        "door": "StaffWC_Door_Swing",
+        "side": 0,
+        "x": 32.0,
+        "y": 29.0,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StaffWC_Door_Swing",
+        "side": 1,
+        "x": 32.0,
+        "y": 30.2,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StaffStall_0_Door_Swing",
+        "side": 0,
+        "x": 31.025000000000002,
+        "y": 31.799999999999997,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StaffStall_0_Door_Swing",
+        "side": 1,
+        "x": 31.025000000000002,
+        "y": 30.599999999999998,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StaffStall_1_Door_Swing",
+        "side": 0,
+        "x": 32.975,
+        "y": 31.799999999999997,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StaffStall_1_Door_Swing",
+        "side": 1,
+        "x": 32.975,
+        "y": 30.599999999999998,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "PubL_Entry_Swing",
+        "side": 0,
+        "x": 7.100000000000001,
+        "y": 25.4,
+        "w": 1.0,
+        "d": 1.2
+      },
+      {
+        "door": "PubL_Entry_Swing",
+        "side": 1,
+        "x": 8.3,
+        "y": 25.4,
+        "w": 1.0,
+        "d": 1.2
+      },
+      {
+        "door": "LargeL_Door_Swing",
+        "side": 0,
+        "x": 1.4499999999999997,
+        "y": 23.2,
+        "w": 1.1,
+        "d": 1.0
+      },
+      {
+        "door": "LargeL_Door_Swing",
+        "side": 1,
+        "x": 1.4499999999999997,
+        "y": 24.4,
+        "w": 1.1,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallL_0_Door_Swing",
+        "side": 0,
+        "x": 4.25,
+        "y": 22.4,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallL_0_Door_Swing",
+        "side": 1,
+        "x": 4.25,
+        "y": 23.599999999999998,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallL_1_Door_Swing",
+        "side": 0,
+        "x": 6.55,
+        "y": 22.4,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallL_1_Door_Swing",
+        "side": 1,
+        "x": 6.55,
+        "y": 23.599999999999998,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_0_Door_Swing",
+        "side": 0,
+        "x": 0.875,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_0_Door_Swing",
+        "side": 1,
+        "x": 0.875,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_1_Door_Swing",
+        "side": 0,
+        "x": 2.825,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_1_Door_Swing",
+        "side": 1,
+        "x": 2.825,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_2_Door_Swing",
+        "side": 0,
+        "x": 4.775,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_2_Door_Swing",
+        "side": 1,
+        "x": 4.775,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_3_Door_Swing",
+        "side": 0,
+        "x": 6.725,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallL_3_Door_Swing",
+        "side": 1,
+        "x": 6.725,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "PubR_Entry_Swing",
+        "side": 0,
+        "x": 56.9,
+        "y": 25.4,
+        "w": 1.0,
+        "d": 1.2
+      },
+      {
+        "door": "PubR_Entry_Swing",
+        "side": 1,
+        "x": 55.699999999999996,
+        "y": 25.4,
+        "w": 1.0,
+        "d": 1.2
+      },
+      {
+        "door": "LargeR_Door_Swing",
+        "side": 0,
+        "x": 62.449999999999996,
+        "y": 23.2,
+        "w": 1.1,
+        "d": 1.0
+      },
+      {
+        "door": "LargeR_Door_Swing",
+        "side": 1,
+        "x": 62.449999999999996,
+        "y": 24.4,
+        "w": 1.1,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallR_0_Door_Swing",
+        "side": 0,
+        "x": 59.75,
+        "y": 22.4,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallR_0_Door_Swing",
+        "side": 1,
+        "x": 59.75,
+        "y": 23.599999999999998,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallR_1_Door_Swing",
+        "side": 0,
+        "x": 57.45,
+        "y": 22.4,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "FrontStallR_1_Door_Swing",
+        "side": 1,
+        "x": 57.45,
+        "y": 23.599999999999998,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_0_Door_Swing",
+        "side": 0,
+        "x": 63.125,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_0_Door_Swing",
+        "side": 1,
+        "x": 63.125,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_1_Door_Swing",
+        "side": 0,
+        "x": 61.175,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_1_Door_Swing",
+        "side": 1,
+        "x": 61.175,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_2_Door_Swing",
+        "side": 0,
+        "x": 59.225,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_2_Door_Swing",
+        "side": 1,
+        "x": 59.225,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_3_Door_Swing",
+        "side": 0,
+        "x": 57.275,
+        "y": 28.6,
+        "w": 1.0,
+        "d": 1.0
+      },
+      {
+        "door": "StallR_3_Door_Swing",
+        "side": 1,
+        "x": 57.275,
+        "y": 27.400000000000002,
+        "w": 1.0,
+        "d": 1.0
+      }
+    ],
+    "workstations": 10,
+    "monitor_screens": 20,
+    "workstation_rows": [
+      5,
+      5
+    ],
+    "staff_side_aisle_m": 3.7,
+    "staff_row_aisle_after_retreat_m": 1.2000000000000002,
+    "staff_wc_approach_after_retreat_m": 2.1999999999999997,
+    "staff_front_lobby_m": 1.6,
+    "chair_extra_retreat_m": 0.6,
+    "map_minimum_bypass_width_m": 5.1,
+    "continuous_staff_wc_route": "entry lobby -> right side aisle -> rear cross aisle -> WC door",
+    "staff_route_reserved_rectangles_m": [
+      {
+        "x": 31.9,
+        "y": 20.2,
+        "w": 9.149999999999995,
+        "d": 1.2
+      },
+      {
+        "x": 39.849999999999994,
+        "y": 20.2,
+        "w": 1.2,
+        "d": 8.8
+      },
+      {
+        "x": 31.9,
+        "y": 27.8,
+        "w": 9.149999999999995,
+        "d": 1.2
+      },
+      {
+        "x": 32.0,
+        "y": 28.400000000000002,
+        "w": 1.0,
+        "d": 1.7999999999999972
+      }
+    ],
+    "staff_wc_door_clear_m": 1.0,
+    "gate_footprint_m": 2.64,
+    "minimum_bay_width_m": 6.1000000000000005,
+    "solid_obstacle_overlap_conflicts": [],
+    "turning_circle_obstacle_conflicts": [],
+    "geometric_fit": "passed",
+    "code_compliance_verified": false,
+    "throughput_verified": false
   },
-  "visual_review": "completed: 14 native FreeCAD views inspected",
-  "acceptance": "SPATIAL BLOCKOUT REVIEW REQUIRED — WAYFINDING AND LOCAL HEIGHT",
+  "visual_review": "02_after_auth_human_view reviewed; neither map appears in the frame.",
+  "acceptance": "PENDING - LOCK_AND_CLOSE condition 3 not met.",
   "roof_default_hidden": true,
   "door_panels": "hinged leaves retain source open plan position; sliders hidden in open-entry screenshots",
   "wall_openings": "real threshold void with parameter-linked lintel above DoorHeight; roof-level full-height enclosure",
@@ -140,12 +523,12 @@
       "projection": "perspective",
       "roof_hidden": true,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 82000 -78000 36000\n  orientation 0.92411029 0.22631541 0.30789852  1.3438532\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 112238.59\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 82000 -78000 36000\n  orientation 0.92411029 0.22631541 0.30789852  1.3438532\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 112238.59\n  heightAngle 0.66322511\n\n}\n",
       "name": "01_front_entry_oblique",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "正面斜视：十个真实入口开口；开顶显示内部。",
-      "screenshot_sha256": "a8e415751e8444d7fb2ce66109687644a5f36d8b70377f97ffc323a8f4332944"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -163,12 +546,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21000\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21000\n  heightAngle 0.66322511\n\n}\n",
       "name": "02_after_auth_human_view",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "认证后中央直视：眼高1.6m。地图位于正前方画幅之外，工作人员区挡住后方视线。",
-      "screenshot_sha256": "efce99f7c3843afc9cced86a8fc79e379cdc93ee9a0d530f5a0af7034c22c13b"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -186,12 +569,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 0.40602556 0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 0.40602556 0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n",
       "name": "02b_after_auth_look_left",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "同一眼位向左转头：左地图面板可见。",
-      "screenshot_sha256": "49e69b637682ed907d62cbab14b1ae74f519cd854b552a1c7b5b088f9b77eb17"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -209,12 +592,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 -0.40602556 -0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 -0.40602556 -0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n",
       "name": "02c_after_auth_look_right",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "同一眼位向右转头：右地图面板可见。",
-      "screenshot_sha256": "1e658b6a28afbc051970feca90142b28fe3fd3338a155ba980798e2046fd7f2c"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -232,12 +615,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 16250 9000 1600\n  orientation 0.99929613 0.026525103 0.026525103  1.5715004\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 16022.562\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 16250 9000 1600\n  orientation 0.99929613 0.026525103 0.026525103  1.5715004\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 16022.562\n  heightAngle 0.66322511\n\n}\n",
       "name": "02d_after_auth_entry_C",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "C入口后向前：左地图直接进入视野，左侧后出口可见。",
-      "screenshot_sha256": "c0a6d2a20385d63c53bb72fec0b7d36a45f577eef506b49252143eb8d6abdcc3"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -255,12 +638,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 12000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33000\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 12000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33000\n  heightAngle 0.66322511\n\n}\n",
       "name": "03_hall_to_rear_exits",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "前厅中轴望后侧：工作人员区遮挡后出口。保留真实遮挡。",
-      "screenshot_sha256": "a31f9357e1e600b7b362360c692e759b76d914ec666ff33ba3f2c6b2a10b92dd"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -278,6 +661,8 @@
       "projection": "perspective",
       "roof_hidden": true,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 49000 11000 25000\n  orientation 0.66083479 0.27970093 0.69646591  1.0921484\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33230.258\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 49000 11000 25000\n  orientation 0.66083479 0.27970093 0.69646591  1.0921484\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33230.258\n  heightAngle 0.66322511\n\n}\n",
       "name": "04_staff_area_oblique",
       "hidden_for_cutaway": [
         "B3_Staff_FrontL",
@@ -287,9 +672,7 @@
         "B3_Lintel_Staff_Door_Leaf"
       ],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "工位检查：十个双屏工位、后侧卫生间；仅本视角隐藏工作人员区前/右墙与对应门楣。",
-      "screenshot_sha256": "f492e1cecaf6874d870637001172aa6cf10fdba0f83e392de72b294c5042c1ba"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -307,6 +690,8 @@
       "projection": "perspective",
       "roof_hidden": true,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 4300 23000 25000\n  orientation 1.0000058 0 0  0.11942822\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 25179.357\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 4300 23000 25000\n  orientation 1.0000058 0 0  0.11942822\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 25179.357\n  heightAngle 0.66322511\n\n}\n",
       "name": "05_public_wc_oblique",
       "hidden_for_cutaway": [
         "B3_Outer_Front_0",
@@ -560,9 +945,7 @@
         "B3_ScaleReference_2"
       ],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "左公共厕所开顶：两排七个全高独立隔间、三洗手位；右侧镜像。",
-      "screenshot_sha256": "1b2053293fcc6ddcdd82de3815bd6976fbd3fd16c232733fb7268348ccb0fc44"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -580,6 +963,8 @@
       "projection": "perspective",
       "roof_hidden": true,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 31700 12000\n  orientation 1.00006 0 0  0.024993295\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 12003.749\n  heightAngle 0.43633232\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 31700 12000\n  orientation 1.00006 0 0  0.024993295\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 12003.749\n  heightAngle 0.43633232\n\n}\n",
       "name": "04b_staff_wc_overhead",
       "hidden_for_cutaway": [
         "B3_Staff_FrontL",
@@ -589,9 +974,7 @@
         "B3_Lintel_Staff_Door_Leaf"
       ],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "内部卫生间开顶：两隔间、两洗手位；保留全高墙。",
-      "screenshot_sha256": "e11428d3c766718e66feb46d94ebd280272885ce8ec42b730dc6e2a760457d7f"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -609,12 +992,12 @@
       "projection": "perspective",
       "roof_hidden": true,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 91000 -54000 91000\n  orientation 0.76707506 0.25569168 0.58840263  1.0308541\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 133368.84\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 91000 -54000 91000\n  orientation 0.76707506 0.25569168 0.58840263  1.0308541\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 133368.84\n  heightAngle 0.66322511\n\n}\n",
       "name": "06_overall_birdseye",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "整体鸟瞰：65×45m，同源布局，墙高5.8m。",
-      "screenshot_sha256": "6649bea487fc23bbe3f606e7f7b507a5346158733de434ec1630d7eea446da80"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -632,12 +1015,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 9000\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 9000\n  heightAngle 0.66322511\n\n}\n",
       "name": "03b_rear_hall_human_view",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "绕行至后厅中部：中央出口可见。",
-      "screenshot_sha256": "5d3c550b3ed54f861b447d28a2cc0a2210d10c485d0585a83b71ce6625939ce0"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -655,12 +1038,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 0.48686689 0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 0.48686689 0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n",
       "name": "03c_rear_hall_look_left",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "同一后厅眼位向左：左出口可见。",
-      "screenshot_sha256": "6f02699691aa3481bd4905a0f9cf687e7c9be2d469a28817f90dbf131de84e0c"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -678,12 +1061,12 @@
       "projection": "perspective",
       "roof_hidden": false,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 -0.48686689 -0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 -0.48686689 -0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n",
       "name": "03d_rear_hall_look_right",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "同一后厅眼位向右：右出口可见。",
-      "screenshot_sha256": "cbe200a0a5020eb94227ce63e89f2cf4249fce4503acb0f4eb64d87f9c0c0d47"
+      "height_px": 1100
     },
     {
       "position_m": [
@@ -701,54 +1084,101 @@
       "projection": "perspective",
       "roof_hidden": true,
       "sliding_panels_hidden_as_open": true,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 -12000 28000\n  orientation 1.0000001 0 0  1.0335115\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 54708.316\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 -12000 28000\n  orientation 1.0000001 0 0  1.0335115\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 54708.316\n  heightAngle 0.66322511\n\n}\n",
       "name": "03e_rear_exits_overview",
       "hidden_for_cutaway": [],
       "width_px": 1800,
-      "height_px": 1100,
-      "caption": "高位检查：三个后出口完整留空。此图不能证明人视角可见性。",
-      "screenshot_sha256": "7a59aea60d06928b0ae140bbcb70410eaaadf5f79192b5699eb05778e2d74a50"
+      "height_px": 1100
     }
   ],
-  "camera_note": "Main views: perspective vertical38deg, horizontal58.8deg at1800x1100. Staff WC detail: vertical25deg. All human eye positions1.6m, roof visible at5.8m. Open-top/cutaway images cannot establish human visibility.",
-  "spatial_blockout_accepted_for_art_direction": false,
-  "model_sha256": "9909f593009409d92cb0b367a3ed9bbbe3b35ffa1a310f83690b6fb59ecd4413",
-  "new_entity_collisions": [],
-  "inherited_wall_overlap_count": 6,
-  "native_parameter_readback": "passed; see evidence/visual_blockout/native_validation.json",
-  "original_2d_artifacts_unchanged": true,
-  "camera_capture_pose_verified": true,
-  "visual_findings": {
-    "wall_total_height": "5.8m PROVISIONAL clear from finished floor to roof underside; roof thickness0.15m makes total above-floor5.95m. No internal suspended ceiling assumed.",
-    "entry_space": "十个认证通道横向6.5m节距、纵向8m；全高分隔产生正式分流感。认证后大厅宽阔；中轴视线由工作人员区正面收束，未发现物理压缩。",
-    "map_visibility": "两地图面板由地面0.7至2.1m，正面朝-Y。中心眼位(32.5,9,1.6)到面板中心需左右约52.8度转头，超出正常58.8度水平画幅；转头可见，C/H附近更直接。极端入口A/J的对侧地图另被工作人员区遮挡。不能声称所有入口认证后直视即见两地图。",
-    "rear_exit_visibility": "前厅中央人视角被工作人员区遮挡，不能同时辨认三个出口。左右侧通道可见对应侧出口；到后厅(32.5,36,1.6)后转头可分别清楚识别三出口。",
-    "staff_space": "20×14m整体宽裕；十个1.8×0.8m桌面、两排五个与双屏比例协调，未显拥挤；侧通路与后横向通路保留。裸模型空白较多，不据此缩小已经完成的平面。",
-    "staff_wc_space": "4.5×4m含2间净1.95×2m及2洗手位；无新碰撞。5.8m全高拉升使小房间高宽比明显偏高，局部净高/顶面处理待确认。",
-    "public_wc_space": "两排6普通+1较大隔间、共享洗手区及约4m横向空间不显拥挤。全高墙保留完整私密房间语言，但5.8m墙高使小隔间呈竖井感，局部净高需视觉确认。",
-    "overall_proportion": "65×45m及5.8m高度形成宽阔、低于宽度很多的制度化大厅；没有新增实体冲突或明显水平比例失衡。当前审查问题为中轴导视和局部厕所高度。"
-  },
-  "issues_to_confirm": [
-    {
-      "id": "V01",
-      "issue": "是否接受中央入口需要转头找地图、前厅需绕行才看清后出口的体验？",
-      "evidence": [
-        "02_after_auth_human_view",
-        "02b_after_auth_look_left",
-        "02c_after_auth_look_right",
-        "03_hall_to_rear_exits",
-        "03b_rear_hall_human_view"
-      ],
-      "plan_changed": false
+  "camera_note": "Main cameras use 38-degree vertical perspective (~59 degree horizontal at 1800x1100); staff WC detail uses a narrower 25-degree vertical field. Supplementary left/right views are rotations at the same eye position, not wide-angle composites. Human views include the 5.8m ceiling; inspection views hide it.",
+  "lock_and_close_assessment": {
+    "basis": {
+      "document": "LOCK_AND_CLOSE.md",
+      "source_main": "c1ab4d25e5945b579517f8ceb956dcdd7502223f"
     },
-    {
-      "id": "V02",
-      "issue": "5.8m建筑净高是否也用于小厕所隔间？局部净高/顶面尚未确认，本轮统一拉高测试。",
-      "evidence": [
-        "04b_staff_wc_overhead",
-        "05_public_wc_oblique"
+    "dimensions": {
+      "plan_width_m": 4.0,
+      "plan_depth_m": 0.15,
+      "visible_height_m": 2.1,
+      "visible_bottom_z_m": 0.7,
+      "visible_top_z_m": 2.8,
+      "positions": {
+        "GuideLeft": {
+          "x": 13.4,
+          "y": 22.0,
+          "w": 4.0,
+          "d": 0.15
+        },
+        "GuideRight": {
+          "x": 47.6,
+          "y": 22.0,
+          "w": 4.0,
+          "d": 0.15
+        }
+      }
+    },
+    "camera_test": {
+      "view": "02_after_auth_human_view",
+      "camera_position_m": [
+        32.5,
+        9.0,
+        1.6
       ],
-      "plan_changed": false
-    }
-  ],
-  "phase_note": "3D制作与验证已完成。存在上述视觉审查点，未满足简报中无明显问题的条件，因此不标记SPATIAL BLOCKOUT ACCEPTED FOR ART DIRECTION。未改平面，也未展开材质/灯光/未来工业设计/游戏镜头适配。"
+      "image_px": [
+        1800,
+        1100
+      ],
+      "vertical_fov_deg": 38.0,
+      "horizontal_fov_deg": 58.8,
+      "horizontal_half_fov_deg": 29.4,
+      "nearest_panel_edge_bearing_abs_deg": {
+        "left": 49.27,
+        "right": 49.27
+      },
+      "both_panels_visible_without_turn": false,
+      "observed": "Neither panel appears in 02; each is visible in its corresponding same-eye-position head-turn view 02b or 02c."
+    },
+    "three_d_validation": {
+      "native_shapes": 302,
+      "new_entity_collisions": 0,
+      "inherited_wall_overlaps": 6,
+      "parameter_tests_passed": 4,
+      "source_file_unchanged_by_readback": true
+    },
+    "checks": [
+      {
+        "condition": 1,
+        "status": "PASS",
+        "evidence": "2D GuideWidth=4.0m and 3D GuideHeight=2.1m derive from the same saved plan."
+      },
+      {
+        "condition": 2,
+        "status": "PASS",
+        "evidence": "Both visible faces are 4.0m wide x 2.1m high."
+      },
+      {
+        "condition": 3,
+        "status": "FAIL",
+        "evidence": "02_after_auth_human_view shows neither panel; nearest panel edges are about 49 degrees off axis, outside the captured view's roughly 29 degree half-width."
+      },
+      {
+        "condition": 4,
+        "status": "PASS",
+        "evidence": "5.1m minimum clear width on each side; native 3D reports zero new collisions. Six shared-wall overlaps are inherited from the source plan."
+      },
+      {
+        "condition": 5,
+        "status": "PASS",
+        "evidence": "Source-plan comparison changes only GuideLeft and GuideRight footprints; all other 331 feature geometries are unchanged."
+      },
+      {
+        "condition": 6,
+        "status": "PASS",
+        "evidence": "Updated FCStd, A201-A203 SVG/PDF, validation reports, 3D blockout, and affected screenshots have been regenerated and hashed."
+      }
+    ],
+    "freeze_status": "NOT FROZEN - LOCK_AND_CLOSE condition 3 failed; review or a user-authorized presentation/viewpoint change is required."
+  }
 }
