@@ -22,9 +22,11 @@ def validate_geometry(overrides=None):
         assert all(abs(x-y*1000)<1e-4 for x,y in zip(actual,expected)),(s.Name,actual,expected)
     return checks
 checks=validate_geometry()
-sketches=[s for s in doc.Objects if s.TypeId=='Sketcher::SketchObject'];assert len(sketches)==250
+sketches=[s for s in doc.Objects if s.TypeId=='Sketcher::SketchObject'];feature_count=len(make_layout()[1]);assert len(sketches)==feature_count+2
 assert all(s.FullyConstrained and s.Shape.isValid() for s in sketches)
-assert not any(re.search(r'Floor2|2F|Lift|Stair|^WS_|Screen|Cabinet',s.Name) for s in doc.Objects)
+assert not any(re.search(r'Floor2|2F|Lift|Stair|Cabinet',s.Name) for s in doc.Objects)
+assert len([s for s in sketches if s.Name.startswith('Workstation_')])==10
+assert len([s for s in sketches if s.Name.startswith('Monitor_')])==20
 for code in ['A201','A202','A203']:
     p=doc.getObject(code);assert len(p.Views)==1
     s=p.Views[0];assert s.TypeId=='TechDraw::DrawViewSymbol' and s.Scale==10 and s.X.Value==297 and s.Y.Value==210 and s.LockPosition
@@ -33,7 +35,7 @@ for dim in gui['native_dimensions']:
     assert list(d.References2D[0][1])==['Vertex'+str(i) for i in dim['vertices']]
     assert not d.Arbitrary
 assert len([s for s in doc.CAD_Live.Views if s.TypeId=='TechDraw::DrawViewDimension'])==4
-assert len(doc.ViewPlan.Source)==248
+assert len(doc.ViewPlan.Source)==feature_count
 for key,(value,status,label) in PARAMETERS.items():assert abs(getattr(doc.Parameters,key).Value-value*1000)<1e-5,key
 tested=[]
 for key,value in [('StaffY',22.),('StaffX',23.75),('PublicWCWidth',8.5),('OuterWall',.35),('GateWide',1.3),('EnvelopeWidth',66.)]:
@@ -47,8 +49,8 @@ assert abs(doc.AreaReview.GrossArea.getValueAs('m^2').Value-2925)<1e-8
 assert abs(doc.AreaReview.StaffArea.getValueAs('m^2').Value-216)<1e-8
 assert abs(doc.AreaReview.PublicWCCombinedArea.getValueAs('m^2').Value-160)<1e-8
 App.closeDocument(doc.Name);assert hashlib.sha256(target.read_bytes()).hexdigest()==before
-report=dict(revision='v2-R1',saved_fcstd_sha256=before,fully_constrained_sketches=250,
-    native_shape_readback='all 248 features match metre layout',parameter_tests=tested,cad_errors=errors,
+report=dict(revision='v2-R2',saved_fcstd_sha256=before,fully_constrained_sketches=feature_count+2,
+    native_shape_readback=f'all {feature_count} features match metre layout',parameter_tests=tested,cad_errors=errors,
     actual_placement_verified=True,obstacle_fit_verified=True,geometric_checks=checks,
     toilet_code_compliance_verified=False,egress_verified=False,throughput_verified=False,file_unchanged_by_validation=True)
 (ROOT/'qa/saved_model_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -47,14 +47,22 @@ PARAMETERS = {
     'FixtureDepth': (.7, 'PROVISIONAL', '简化坐便器占位深'),
     'BasinWidth': (.6, 'PROVISIONAL', '简化洗面台占位宽'),
     'BasinDepth': (.5, 'PROVISIONAL', '简化洗面台占位深'),
-    'TableWidth': (1.8, 'PROVISIONAL', '异常处理工作台宽'),
-    'TableDepth': (.8, 'PROVISIONAL', '异常处理工作台深'),
+    'TableWidth': (1.8, 'PROVISIONAL', 'A–J监控/日志工位桌面宽'),
+    'TableDepth': (.8, 'PROVISIONAL', 'A–J监控/日志工位桌面深'),
     'ChairWidth': (.55, 'PROVISIONAL', '工作台座位占位'),
-    'GuideWidth': (2., 'PROVISIONAL', '墙边地图宽'),
-    'GuideDepth': (.15, 'PROVISIONAL', '墙边地图占位深'),
-    'StaffTableInset': (2.5, 'PROVISIONAL', '两工作台距工作人员区左右外边界'),
-    'StaffTableYInset': (2.5, 'PROVISIONAL', '工作台前端距工作人员区前边界'),
+    'GuideWidth': (2., 'PROVISIONAL', '分流通道中地图正面宽'),
+    'GuideDepth': (.15, 'PROVISIONAL', '地图占位厚度'),
+    'StaffTableYInset': (1.8, 'PROVISIONAL', '前排工位前端距工作人员区前边界'),
+    'TableGap': (.8, 'PROVISIONAL', '同排桌面之间间距，非指定通道'),
+    'TableRowPitch': (3.6, 'PROVISIONAL', '两排桌面前端纵向节距'),
     'ChairGap': (.45, 'PROVISIONAL', '座位与工作台图示间距'),
+    'ChairRetreat': (.6, 'PROVISIONAL', '座椅后额外退让区进深'),
+    'ChairZoneWidth': (.8, 'PROVISIONAL', '座椅后退让测试区宽'),
+    'StaffClearanceTest': (1.2, 'PROVISIONAL', '内部通路几何测试目标，非规范标准'),
+    'MonitorWidth': (.55, 'PROVISIONAL', '每块监控屏平面占位宽'),
+    'MonitorDepth': (.12, 'PROVISIONAL', '监控屏平面占位深'),
+    'MonitorGap': (.15, 'PROVISIONAL', '双屏横向间距'),
+    'MonitorFrontInset': (.10, 'PROVISIONAL', '屏幕距桌面前端偏移'),
     'StaffToiletXOffset': (.35, 'PROVISIONAL', '内部坐便器距左内墙偏移'),
     'StaffToiletRearGap': (.20, 'PROVISIONAL', '内部坐便器距后内墙余量'),
     'BasinMargin': (.15, 'PROVISIONAL', '内部/通用洗面台距侧后内墙余量'),
@@ -65,17 +73,18 @@ PARAMETERS = {
     'StallToiletRearGap': (.25, 'PROVISIONAL', '普通厕间坐便器后侧余量'),
     'PublicBasinY': (4.5, 'PROVISIONAL', '公共洗面台首个前端距节点前边界'),
     'PublicBasinPitch': (.95, 'PROVISIONAL', '公共洗面台纵向中心节距'),
-    'GuideYGap': (2.5, 'PROVISIONAL', '地图前端距公共厕所后侧边界'),
+    'GuideYInset': (2., 'PROVISIONAL', '地图前端距工作人员区前侧Y；正面朝-Y'),
 }
 COUNTS = {'GateCount': (2,'PROVISIONAL','每组认证通道数；修改数量须重建'),
           'StallCount': (4,'PROVISIONAL','每侧普通厕间数；另有一通用厕间'),
           'BasinCount': (3,'PROVISIONAL','每側公共洗面台数；修改数量须重建'),
-          'TableCount': (2,'PROVISIONAL','工作人员区工作台占位数')}
+          'WorkstationCount': (10,'已确认','A–J十个监控/日志工位，当前两排五个')}
 
 def make_layout(overrides=None):
     values = {k:v[0] for k,v in PARAMETERS.items()}
     values.update({k:v[0] for k,v in COUNTS.items()})
     if overrides: values.update(overrides)
+    assert values['WorkstationCount']==10, '当前权威要求必须保留A–J十个工位'
     def number(expr): return eval(str(expr), {'__builtins__':{}}, values)
     features=[]
     def add(kind,name,role,owner,**kwargs):
@@ -92,7 +101,7 @@ def make_layout(overrides=None):
     def wall(name,owner,x,y,w,d): return rect(name,'wall',owner,x,y,w,d)
     W='EnvelopeWidth';D='EnvelopeDepth';T='OuterWall';P='Partition'
     SX='StaffX';SY='StaffY'
-    WX=f'({SX})+(StaffWidth-StaffWCWidth)/2';WY='StaffY+(StaffDepth-StaffWCDepth)/2'
+    WX=f'({SX})+(StaffWidth-StaffWCWidth)/2';WY='StaffY+StaffDepth-StaffWCDepth'
     # Outer wall cut-outs are genuine openings. All wall strips lie inside 65x45.
     fronts=[(f'(EnvelopeWidth/10)*{i+.5}-FrontOpening/2',f'(EnvelopeWidth/10)*{i+.5}+FrontOpening/2') for i in range(10)]
     rears=[('EnvelopeWidth/2-RearOffset-RearSideOpening/2','EnvelopeWidth/2-RearOffset+RearSideOpening/2'),
@@ -132,10 +141,17 @@ def make_layout(overrides=None):
     enclosed('StaffWC','Staff',WX,WY,'StaffWCWidth','StaffWCDepth','StaffWCOpening')
     rect('StaffToilet','fixture','Staff',f'({WX})+Partition+StaffToiletXOffset',f'({WY})+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap','FixtureWidth','FixtureDepth')
     rect('StaffBasin','basin','Staff',f'({WX})+StaffWCWidth-Partition-BasinWidth-BasinMargin',f'({WY})+StaffWCDepth-Partition-BasinDepth-BasinMargin','BasinWidth','BasinDepth')
-    for i in range(int(values['TableCount'])):
-        tx=f'({SX})+StaffTableInset' if i==0 else f'({SX})+StaffWidth-StaffTableInset-TableWidth'
-        rect(f'StaffTable_{i}','table','Staff',tx,'StaffY+StaffTableYInset','TableWidth','TableDepth')
-        rect(f'StaffChair_{i}','chair','Staff',f'({tx})+(TableWidth-ChairWidth)/2','StaffY+StaffTableYInset+TableDepth+ChairGap','ChairWidth','ChairWidth')
+    row_span='5*TableWidth+4*TableGap'
+    for i,letter in enumerate('ABCDEFGHIJ'):
+        row,col=divmod(i,5)
+        tx=f'StaffX+(StaffWidth-({row_span}))/2+{col}*(TableWidth+TableGap)'
+        ty=f'StaffY+StaffTableYInset+{row}*TableRowPitch'
+        rect(f'Workstation_{letter}','table','Staff',tx,ty,'TableWidth','TableDepth')
+        rect(f'StaffChair_{letter}','chair','Staff',f'({tx})+(TableWidth-ChairWidth)/2',f'({ty})+TableDepth+ChairGap','ChairWidth','ChairWidth')
+        rect(f'ChairRetreat_{letter}','clearance','Staff',f'({tx})+(TableWidth-ChairZoneWidth)/2',f'({ty})+TableDepth+ChairGap+ChairWidth','ChairZoneWidth','ChairRetreat')
+        for screen in range(2):
+            mx=f'({tx})+(TableWidth-2*MonitorWidth-MonitorGap)/2+{screen}*(MonitorWidth+MonitorGap)'
+            rect(f'Monitor_{letter}_{screen+1}','monitor','Staff',mx,f'({ty})+MonitorFrontInset','MonitorWidth','MonitorDepth')
     # Public left node, mirrored to right. Cubicle sizes are clear inside faces.
     before=len(features); X='OuterWall';Y='PublicWCY';PW='PublicWCWidth';PD='PublicWCDepth'
     wall('PubL_Front','PublicL',X,Y,PW,P)
@@ -174,8 +190,8 @@ def make_layout(overrides=None):
         else:
             right['x1']=f'EnvelopeWidth-({item["x1"]})';right['x2']=f'EnvelopeWidth-({item["x2"]})'
         features.append(right)
-    rect('GuideLeft','guide','Guide','OuterWall','PublicWCY+PublicWCDepth+GuideYGap','GuideDepth','GuideWidth')
-    rect('GuideRight','guide','Guide','EnvelopeWidth-OuterWall-GuideDepth','PublicWCY+PublicWCDepth+GuideYGap','GuideDepth','GuideWidth')
+    rect('GuideLeft','guide','Guide','(OuterWall+PublicWCWidth+StaffX-GuideWidth)/2','StaffY+GuideYInset','GuideWidth','GuideDepth')
+    rect('GuideRight','guide','Guide','(StaffX+StaffWidth+EnvelopeWidth-OuterWall-PublicWCWidth-GuideWidth)/2','StaffY+GuideYInset','GuideWidth','GuideDepth')
     for f in list(features):
         if f['kind']=='rect' and f['role'] in ['fixture','basin']:
             circle(f['name']+'_Symbol',f['owner'],f'({f["x"]})+({f["w"]})/2',
@@ -208,7 +224,7 @@ def check_layout(values,features):
     min_bay=W/10-values['OuterWall']-values['Partition']/2
     assert gate_footprint<min_bay and gap>0 and right_gap>0 and front_hall>0 and rear_hall>0
     # Positive-area overlaps of solid obstacles must be absent (wall joints allowed).
-    obstacles=[f for f in rectangles if f['role'] in ['wall','gate','fixture','basin','table','chair']]
+    obstacles=[f for f in rectangles if f['role'] in ['wall','gate','fixture','basin','table','chair','guide']]
     conflicts=[]
     for i,a in enumerate(obstacles):
         av=a['values']
@@ -227,7 +243,45 @@ def check_layout(values,features):
             v=b['values'];dx=c['x']-max(v['x'],min(c['x'],v['x']+v['w']));dy=c['y']-max(v['y'],min(c['y'],v['y']+v['d']))
             if dx*dx+dy*dy < c['r']*c['r']-1e-8:turning_conflicts.append((f['name'],b['name']))
     assert not turning_conflicts,turning_conflicts
+    stations=[f for f in rectangles if f['role']=='table'];assert len(stations)==10
+    monitors=[f for f in rectangles if f['role']=='monitor'];assert len(monitors)==20
+    for f in monitors:
+        desk=next(s['values'] for s in stations if s['name']=='Workstation_'+f['name'].split('_')[1]);m=f['values']
+        assert m['x']>=desk['x'] and m['x']+m['w']<=desk['x']+desk['w']+1e-8 and m['y']>=desk['y'] and m['y']+m['d']<=desk['y']+desk['d']+1e-8
+    occupancy=values['TableDepth']+values['ChairGap']+values['ChairWidth']+values['ChairRetreat']
+    side_aisle=(values['StaffWidth']-(5*values['TableWidth']+4*values['TableGap']))/2-values['Partition']
+    row_aisle=values['TableRowPitch']-occupancy
+    wc_approach=values['StaffDepth']-values['StaffWCDepth']-values['StaffTableYInset']-values['TableRowPitch']-occupancy
+    front_lobby=values['StaffTableYInset']-values['Partition']
+    assert min(side_aisle,row_aisle,wc_approach,front_lobby)>=values['StaffClearanceTest']-1e-8, '工位/椅后退让/厕所通路冲突：需最小修正'
+    guide_bypass=min(gap,right_gap)/2-values['GuideWidth']/2
+    assert guide_bypass>=values['StaffClearanceTest'] and values['GuideYInset']>=0 and values['GuideYInset']+values['GuideDepth']<=values['StaffDepth']
+    # Check an actual reserved route through the right side and rear cross aisle.
+    route_width=values['StaffClearanceTest'];half=route_width/2
+    entry_x=staff_x+values['StaffWidth']/2
+    entry_y=values['StaffY']+values['Partition']+half
+    side_x=staff_x+values['StaffWidth']-values['Partition']-side_aisle/2
+    rear_y=values['StaffY']+values['StaffDepth']-values['StaffWCDepth']-half
+    route_rects=[dict(x=entry_x-half,y=entry_y-half,w=side_x-entry_x+route_width,d=route_width),
+                 dict(x=side_x-half,y=entry_y-half,w=route_width,d=rear_y-entry_y+route_width),
+                 dict(x=entry_x-half,y=rear_y-half,w=side_x-entry_x+route_width,d=route_width),
+                 dict(x=entry_x-values['StaffWCOpening']/2,y=rear_y,w=values['StaffWCOpening'],d=half+values['Partition'])]
+    for a in route_rects:
+        for f in obstacles:
+            b=f['values'];dx=min(a['x']+a['w'],b['x']+b['w'])-max(a['x'],b['x']);dy=min(a['y']+a['d'],b['y']+b['d'])-max(a['y'],b['y'])
+            assert dx<=1e-7 or dy<=1e-7,('reserved staff route',f['name'])
+    # Retreat rectangles are reserved empty space; they must not touch solid obstacles.
+    for f in [f for f in rectangles if f['role']=='clearance']:
+        a=f['values']
+        for b in obstacles:
+            z=b['values'];dx=min(a['x']+a['w'],z['x']+z['w'])-max(a['x'],z['x']);dy=min(a['y']+a['d'],z['y']+z['d'])-max(a['y'],z['y'])
+            assert dx<=1e-7 or dy<=1e-7,(f['name'],b['name'])
     return {'left_clear_gap_m':gap,'right_clear_gap_m':right_gap,'front_merge_depth_m':front_hall,'rear_clear_depth_m':rear_hall,
+            'workstations':10,'monitor_screens':20,'workstation_rows':[5,5],
+            'staff_side_aisle_m':side_aisle,'staff_row_aisle_after_retreat_m':row_aisle,'staff_wc_approach_after_retreat_m':wc_approach,
+            'staff_front_lobby_m':front_lobby,'chair_extra_retreat_m':values['ChairRetreat'],'map_minimum_bypass_width_m':guide_bypass,
+            'continuous_staff_wc_route':'entry lobby -> right side aisle -> rear cross aisle -> WC door',
+            'staff_route_reserved_rectangles_m':route_rects,'staff_wc_door_clear_m':values['StaffWCOpening'],
             'gate_footprint_m':gate_footprint,'minimum_bay_width_m':min_bay,
             'solid_obstacle_overlap_conflicts':conflicts,'turning_circle_obstacle_conflicts':turning_conflicts,'geometric_fit':'passed',
             'code_compliance_verified':False,'throughput_verified':False}

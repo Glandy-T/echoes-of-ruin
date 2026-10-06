@@ -1,8 +1,8 @@
 {
-  "revision": "v2-R1",
-  "source_main": "89fb844bf97fb125b85f2234988ba7e26168c8ed",
-  "spec_blob": "1244a2238e522a888d71199cf62f233b55a5e37f",
-  "brief_blob": "5c6119d3792a3b647e1aea1f888e31dc57391eb8",
+  "revision": "v2-R2",
+  "source_main": "40b2a29ba7cad16966f9f0aaec14a2fa4588e1d6",
+  "spec_blob": "e0543c128fc1271f0cb5bdd8d7ea3a7e77307551",
+  "brief_blob": "fe1c57e0679fb7e88592f53ada9d12c0749c1d86",
   "coordinate_system": "metres in layout; FreeCAD internal mm; O front-left; +X right; +Y rear",
   "parameters": {
     "EnvelopeWidth": {
@@ -254,13 +254,13 @@
     "TableWidth": {
       "value": 1.8,
       "status": "PROVISIONAL",
-      "label": "异常处理工作台宽",
+      "label": "A–J监控/日志工位桌面宽",
       "unit": "m"
     },
     "TableDepth": {
       "value": 0.8,
       "status": "PROVISIONAL",
-      "label": "异常处理工作台深",
+      "label": "A–J监控/日志工位桌面深",
       "unit": "m"
     },
     "ChairWidth": {
@@ -272,31 +272,79 @@
     "GuideWidth": {
       "value": 2.0,
       "status": "PROVISIONAL",
-      "label": "墙边地图宽",
+      "label": "分流通道中地图正面宽",
       "unit": "m"
     },
     "GuideDepth": {
       "value": 0.15,
       "status": "PROVISIONAL",
-      "label": "墙边地图占位深",
-      "unit": "m"
-    },
-    "StaffTableInset": {
-      "value": 2.5,
-      "status": "PROVISIONAL",
-      "label": "两工作台距工作人员区左右外边界",
+      "label": "地图占位厚度",
       "unit": "m"
     },
     "StaffTableYInset": {
-      "value": 2.5,
+      "value": 1.8,
       "status": "PROVISIONAL",
-      "label": "工作台前端距工作人员区前边界",
+      "label": "前排工位前端距工作人员区前边界",
+      "unit": "m"
+    },
+    "TableGap": {
+      "value": 0.8,
+      "status": "PROVISIONAL",
+      "label": "同排桌面之间间距，非指定通道",
+      "unit": "m"
+    },
+    "TableRowPitch": {
+      "value": 3.6,
+      "status": "PROVISIONAL",
+      "label": "两排桌面前端纵向节距",
       "unit": "m"
     },
     "ChairGap": {
       "value": 0.45,
       "status": "PROVISIONAL",
       "label": "座位与工作台图示间距",
+      "unit": "m"
+    },
+    "ChairRetreat": {
+      "value": 0.6,
+      "status": "PROVISIONAL",
+      "label": "座椅后额外退让区进深",
+      "unit": "m"
+    },
+    "ChairZoneWidth": {
+      "value": 0.8,
+      "status": "PROVISIONAL",
+      "label": "座椅后退让测试区宽",
+      "unit": "m"
+    },
+    "StaffClearanceTest": {
+      "value": 1.2,
+      "status": "PROVISIONAL",
+      "label": "内部通路几何测试目标，非规范标准",
+      "unit": "m"
+    },
+    "MonitorWidth": {
+      "value": 0.55,
+      "status": "PROVISIONAL",
+      "label": "每块监控屏平面占位宽",
+      "unit": "m"
+    },
+    "MonitorDepth": {
+      "value": 0.12,
+      "status": "PROVISIONAL",
+      "label": "监控屏平面占位深",
+      "unit": "m"
+    },
+    "MonitorGap": {
+      "value": 0.15,
+      "status": "PROVISIONAL",
+      "label": "双屏横向间距",
+      "unit": "m"
+    },
+    "MonitorFrontInset": {
+      "value": 0.1,
+      "status": "PROVISIONAL",
+      "label": "屏幕距桌面前端偏移",
       "unit": "m"
     },
     "StaffToiletXOffset": {
@@ -359,10 +407,10 @@
       "label": "公共洗面台纵向中心节距",
       "unit": "m"
     },
-    "GuideYGap": {
-      "value": 2.5,
+    "GuideYInset": {
+      "value": 2.0,
       "status": "PROVISIONAL",
-      "label": "地图前端距公共厕所后侧边界",
+      "label": "地图前端距工作人员区前侧Y；正面朝-Y",
       "unit": "m"
     },
     "GateCount": {
@@ -383,10 +431,10 @@
       "label": "每側公共洗面台数；修改数量须重建",
       "unit": "count"
     },
-    "TableCount": {
-      "value": 2,
-      "status": "PROVISIONAL",
-      "label": "工作人员区工作台占位数",
+    "WorkstationCount": {
+      "value": 10,
+      "status": "已确认",
+      "label": "A–J十个监控/日志工位，当前两排五个",
       "unit": "count"
     }
   },
@@ -2141,12 +2189,12 @@
       "role": "wall",
       "owner": "Staff",
       "x": "(StaffX)+(StaffWidth-StaffWCWidth)/2",
-      "y": "StaffY+(StaffDepth-StaffWCDepth)/2",
+      "y": "StaffY+StaffDepth-StaffWCDepth",
       "w": "(((StaffX)+(StaffWidth-StaffWCWidth)/2)+((StaffWCWidth)-(StaffWCOpening))/2)-((StaffX)+(StaffWidth-StaffWCWidth)/2)",
       "d": "Partition",
       "values": {
         "x": 31.0,
-        "y": 25.5,
+        "y": 30.0,
         "w": 1.0499999999999972,
         "d": 0.2
       }
@@ -2157,12 +2205,12 @@
       "role": "wall",
       "owner": "Staff",
       "x": "(((StaffX)+(StaffWidth-StaffWCWidth)/2)+((StaffWCWidth)-(StaffWCOpening))/2)+(StaffWCOpening)",
-      "y": "StaffY+(StaffDepth-StaffWCDepth)/2",
+      "y": "StaffY+StaffDepth-StaffWCDepth",
       "w": "((StaffX)+(StaffWidth-StaffWCWidth)/2)+(StaffWCWidth)-((((StaffX)+(StaffWidth-StaffWCWidth)/2)+((StaffWCWidth)-(StaffWCOpening))/2)+(StaffWCOpening))",
       "d": "Partition",
       "values": {
         "x": 32.949999999999996,
-        "y": 25.5,
+        "y": 30.0,
         "w": 1.0500000000000043,
         "d": 0.2
       }
@@ -2173,12 +2221,12 @@
       "role": "wall",
       "owner": "Staff",
       "x": "(StaffX)+(StaffWidth-StaffWCWidth)/2",
-      "y": "(StaffY+(StaffDepth-StaffWCDepth)/2)+(StaffWCDepth)-Partition",
+      "y": "(StaffY+StaffDepth-StaffWCDepth)+(StaffWCDepth)-Partition",
       "w": "StaffWCWidth",
       "d": "Partition",
       "values": {
         "x": 31.0,
-        "y": 28.3,
+        "y": 32.8,
         "w": 3.0,
         "d": 0.2
       }
@@ -2189,12 +2237,12 @@
       "role": "wall",
       "owner": "Staff",
       "x": "(StaffX)+(StaffWidth-StaffWCWidth)/2",
-      "y": "(StaffY+(StaffDepth-StaffWCDepth)/2)+Partition",
+      "y": "(StaffY+StaffDepth-StaffWCDepth)+Partition",
       "w": "Partition",
       "d": "(StaffWCDepth)-2*Partition",
       "values": {
         "x": 31.0,
-        "y": 25.7,
+        "y": 30.2,
         "w": 0.2,
         "d": 2.6
       }
@@ -2205,12 +2253,12 @@
       "role": "wall",
       "owner": "Staff",
       "x": "((StaffX)+(StaffWidth-StaffWCWidth)/2)+(StaffWCWidth)-Partition",
-      "y": "(StaffY+(StaffDepth-StaffWCDepth)/2)+Partition",
+      "y": "(StaffY+StaffDepth-StaffWCDepth)+Partition",
       "w": "Partition",
       "d": "(StaffWCDepth)-2*Partition",
       "values": {
         "x": 33.8,
-        "y": 25.7,
+        "y": 30.2,
         "w": 0.2,
         "d": 2.6
       }
@@ -2221,12 +2269,12 @@
       "role": "door",
       "owner": "Staff",
       "x": "((StaffX)+(StaffWidth-StaffWCWidth)/2)+((StaffWCWidth)-(StaffWCOpening))/2",
-      "y": "(StaffY+(StaffDepth-StaffWCDepth)/2)+Partition",
+      "y": "(StaffY+StaffDepth-StaffWCDepth)+Partition",
       "r": "StaffWCOpening",
       "angle": "0",
       "values": {
         "x": 32.05,
-        "y": 25.7,
+        "y": 30.2,
         "r": 0.9,
         "angle": 0
       }
@@ -2237,14 +2285,14 @@
       "role": "door",
       "owner": "Staff",
       "x1": "((StaffX)+(StaffWidth-StaffWCWidth)/2)+((StaffWCWidth)-(StaffWCOpening))/2",
-      "y1": "(StaffY+(StaffDepth-StaffWCDepth)/2)+Partition",
+      "y1": "(StaffY+StaffDepth-StaffWCDepth)+Partition",
       "x2": "(((StaffX)+(StaffWidth-StaffWCWidth)/2)+((StaffWCWidth)-(StaffWCOpening))/2)+(StaffWCOpening)*0",
-      "y2": "((StaffY+(StaffDepth-StaffWCDepth)/2)+Partition)+(StaffWCOpening)*1",
+      "y2": "((StaffY+StaffDepth-StaffWCDepth)+Partition)+(StaffWCOpening)*1",
       "values": {
         "x1": 32.05,
-        "y1": 25.7,
+        "y1": 30.2,
         "x2": 32.05,
-        "y2": 26.599999999999998
+        "y2": 31.099999999999998
       }
     },
     {
@@ -2253,12 +2301,12 @@
       "role": "fixture",
       "owner": "Staff",
       "x": "((StaffX)+(StaffWidth-StaffWCWidth)/2)+Partition+StaffToiletXOffset",
-      "y": "(StaffY+(StaffDepth-StaffWCDepth)/2)+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap",
+      "y": "(StaffY+StaffDepth-StaffWCDepth)+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap",
       "w": "FixtureWidth",
       "d": "FixtureDepth",
       "values": {
         "x": 31.55,
-        "y": 27.400000000000002,
+        "y": 31.899999999999995,
         "w": 0.5,
         "d": 0.7
       }
@@ -2269,78 +2317,814 @@
       "role": "basin",
       "owner": "Staff",
       "x": "((StaffX)+(StaffWidth-StaffWCWidth)/2)+StaffWCWidth-Partition-BasinWidth-BasinMargin",
-      "y": "(StaffY+(StaffDepth-StaffWCDepth)/2)+StaffWCDepth-Partition-BasinDepth-BasinMargin",
+      "y": "(StaffY+StaffDepth-StaffWCDepth)+StaffWCDepth-Partition-BasinDepth-BasinMargin",
       "w": "BasinWidth",
       "d": "BasinDepth",
       "values": {
         "x": 33.05,
-        "y": 27.650000000000002,
+        "y": 32.15,
         "w": 0.6,
         "d": 0.5
       }
     },
     {
       "kind": "rect",
-      "name": "StaffTable_0",
+      "name": "Workstation_A",
       "role": "table",
       "owner": "Staff",
-      "x": "(StaffX)+StaffTableInset",
-      "y": "StaffY+StaffTableYInset",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+0*TableRowPitch",
       "w": "TableWidth",
       "d": "TableDepth",
       "values": {
-        "x": 26.0,
-        "y": 23.5,
+        "x": 26.4,
+        "y": 22.8,
         "w": 1.8,
         "d": 0.8
       }
     },
     {
       "kind": "rect",
-      "name": "StaffChair_0",
+      "name": "StaffChair_A",
       "role": "chair",
       "owner": "Staff",
-      "x": "((StaffX)+StaffTableInset)+(TableWidth-ChairWidth)/2",
-      "y": "StaffY+StaffTableYInset+TableDepth+ChairGap",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap",
       "w": "ChairWidth",
       "d": "ChairWidth",
       "values": {
-        "x": 26.625,
-        "y": 24.75,
+        "x": 27.025,
+        "y": 24.05,
         "w": 0.55,
         "d": 0.55
       }
     },
     {
       "kind": "rect",
-      "name": "StaffTable_1",
+      "name": "ChairRetreat_A",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 26.9,
+        "y": 24.6,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_A_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 26.674999999999997,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_A_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 27.374999999999996,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_B",
       "role": "table",
       "owner": "Staff",
-      "x": "(StaffX)+StaffWidth-StaffTableInset-TableWidth",
-      "y": "StaffY+StaffTableYInset",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+0*TableRowPitch",
       "w": "TableWidth",
       "d": "TableDepth",
       "values": {
-        "x": 37.2,
-        "y": 23.5,
+        "x": 29.0,
+        "y": 22.8,
         "w": 1.8,
         "d": 0.8
       }
     },
     {
       "kind": "rect",
-      "name": "StaffChair_1",
+      "name": "StaffChair_B",
       "role": "chair",
       "owner": "Staff",
-      "x": "((StaffX)+StaffWidth-StaffTableInset-TableWidth)+(TableWidth-ChairWidth)/2",
-      "y": "StaffY+StaffTableYInset+TableDepth+ChairGap",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap",
       "w": "ChairWidth",
       "d": "ChairWidth",
       "values": {
-        "x": 37.825,
-        "y": 24.75,
+        "x": 29.625,
+        "y": 24.05,
         "w": 0.55,
         "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_B",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 29.5,
+        "y": 24.6,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_B_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 29.275,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_B_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 29.974999999999998,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_C",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+0*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 31.599999999999998,
+        "y": 22.8,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_C",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 32.224999999999994,
+        "y": 24.05,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_C",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 32.099999999999994,
+        "y": 24.6,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_C_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 31.874999999999996,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_C_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 32.574999999999996,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_D",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+0*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 34.2,
+        "y": 22.8,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_D",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 34.825,
+        "y": 24.05,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_D",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 34.7,
+        "y": 24.6,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_D_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 34.475,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_D_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 35.175000000000004,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_E",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+0*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 36.8,
+        "y": 22.8,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_E",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 37.425,
+        "y": 24.05,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_E",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 37.3,
+        "y": 24.6,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_E_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 37.074999999999996,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_E_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+0*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 37.775,
+        "y": 22.900000000000002,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_F",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+1*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 26.4,
+        "y": 26.400000000000002,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_F",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 27.025,
+        "y": 27.650000000000002,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_F",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 26.9,
+        "y": 28.200000000000003,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_F_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 26.674999999999997,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_F_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+0*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 27.374999999999996,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_G",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+1*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 29.0,
+        "y": 26.400000000000002,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_G",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 29.625,
+        "y": 27.650000000000002,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_G",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 29.5,
+        "y": 28.200000000000003,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_G_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 29.275,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_G_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+1*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 29.974999999999998,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_H",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+1*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 31.599999999999998,
+        "y": 26.400000000000002,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_H",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 32.224999999999994,
+        "y": 27.650000000000002,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_H",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 32.099999999999994,
+        "y": 28.200000000000003,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_H_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 31.874999999999996,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_H_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+2*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 32.574999999999996,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_I",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+1*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 34.2,
+        "y": 26.400000000000002,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_I",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 34.825,
+        "y": 27.650000000000002,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_I",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 34.7,
+        "y": 28.200000000000003,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_I_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 34.475,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_I_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+3*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 35.175000000000004,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Workstation_J",
+      "role": "table",
+      "owner": "Staff",
+      "x": "StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap)",
+      "y": "StaffY+StaffTableYInset+1*TableRowPitch",
+      "w": "TableWidth",
+      "d": "TableDepth",
+      "values": {
+        "x": 36.8,
+        "y": 26.400000000000002,
+        "w": 1.8,
+        "d": 0.8
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "StaffChair_J",
+      "role": "chair",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-ChairWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap",
+      "w": "ChairWidth",
+      "d": "ChairWidth",
+      "values": {
+        "x": 37.425,
+        "y": 27.650000000000002,
+        "w": 0.55,
+        "d": 0.55
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "ChairRetreat_J",
+      "role": "clearance",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-ChairZoneWidth)/2",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+TableDepth+ChairGap+ChairWidth",
+      "w": "ChairZoneWidth",
+      "d": "ChairRetreat",
+      "values": {
+        "x": 37.3,
+        "y": 28.200000000000003,
+        "w": 0.8,
+        "d": 0.6
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_J_1",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+0*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 37.074999999999996,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
+      }
+    },
+    {
+      "kind": "rect",
+      "name": "Monitor_J_2",
+      "role": "monitor",
+      "owner": "Staff",
+      "x": "(StaffX+(StaffWidth-(5*TableWidth+4*TableGap))/2+4*(TableWidth+TableGap))+(TableWidth-2*MonitorWidth-MonitorGap)/2+1*(MonitorWidth+MonitorGap)",
+      "y": "(StaffY+StaffTableYInset+1*TableRowPitch)+MonitorFrontInset",
+      "w": "MonitorWidth",
+      "d": "MonitorDepth",
+      "values": {
+        "x": 37.775,
+        "y": 26.500000000000004,
+        "w": 0.55,
+        "d": 0.12
       }
     },
     {
@@ -3688,15 +4472,15 @@
       "name": "GuideLeft",
       "role": "guide",
       "owner": "Guide",
-      "x": "OuterWall",
-      "y": "PublicWCY+PublicWCDepth+GuideYGap",
-      "w": "GuideDepth",
-      "d": "GuideWidth",
+      "x": "(OuterWall+PublicWCWidth+StaffX-GuideWidth)/2",
+      "y": "StaffY+GuideYInset",
+      "w": "GuideWidth",
+      "d": "GuideDepth",
       "values": {
-        "x": 0.3,
-        "y": 33.5,
-        "w": 0.15,
-        "d": 2.0
+        "x": 14.9,
+        "y": 23.0,
+        "w": 2.0,
+        "d": 0.15
       }
     },
     {
@@ -3704,15 +4488,15 @@
       "name": "GuideRight",
       "role": "guide",
       "owner": "Guide",
-      "x": "EnvelopeWidth-OuterWall-GuideDepth",
-      "y": "PublicWCY+PublicWCDepth+GuideYGap",
-      "w": "GuideDepth",
-      "d": "GuideWidth",
+      "x": "(StaffX+StaffWidth+EnvelopeWidth-OuterWall-PublicWCWidth-GuideWidth)/2",
+      "y": "StaffY+GuideYInset",
+      "w": "GuideWidth",
+      "d": "GuideDepth",
       "values": {
-        "x": 64.55,
-        "y": 33.5,
-        "w": 0.15,
-        "d": 2.0
+        "x": 48.1,
+        "y": 23.0,
+        "w": 2.0,
+        "d": 0.15
       }
     },
     {
@@ -3721,11 +4505,11 @@
       "role": "fixture",
       "owner": "Staff",
       "x": "(((StaffX)+(StaffWidth-StaffWCWidth)/2)+Partition+StaffToiletXOffset)+(FixtureWidth)/2",
-      "y": "((StaffY+(StaffDepth-StaffWCDepth)/2)+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap)+(FixtureDepth)/2",
+      "y": "((StaffY+StaffDepth-StaffWCDepth)+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap)+(FixtureDepth)/2",
       "r": "(FixtureWidth)*.32",
       "values": {
         "x": 31.8,
-        "y": 27.750000000000004,
+        "y": 32.24999999999999,
         "r": 0.16
       }
     },
@@ -3735,11 +4519,11 @@
       "role": "basin",
       "owner": "Staff",
       "x": "(((StaffX)+(StaffWidth-StaffWCWidth)/2)+StaffWCWidth-Partition-BasinWidth-BasinMargin)+(BasinWidth)/2",
-      "y": "((StaffY+(StaffDepth-StaffWCDepth)/2)+StaffWCDepth-Partition-BasinDepth-BasinMargin)+(BasinDepth)/2",
+      "y": "((StaffY+StaffDepth-StaffWCDepth)+StaffWCDepth-Partition-BasinDepth-BasinMargin)+(BasinDepth)/2",
       "r": "(BasinWidth)*.32",
       "values": {
         "x": 33.349999999999994,
-        "y": 27.900000000000002,
+        "y": 32.4,
         "r": 0.192
       }
     },
@@ -4321,6 +5105,46 @@
     "right_clear_gap_m": 15.200000000000003,
     "front_merge_depth_m": 12.7,
     "rear_clear_depth_m": 11.700000000000003,
+    "workstations": 10,
+    "monitor_screens": 20,
+    "workstation_rows": [
+      5,
+      5
+    ],
+    "staff_side_aisle_m": 2.7,
+    "staff_row_aisle_after_retreat_m": 1.2000000000000002,
+    "staff_wc_approach_after_retreat_m": 1.2000000000000002,
+    "staff_front_lobby_m": 1.6,
+    "chair_extra_retreat_m": 0.6,
+    "map_minimum_bypass_width_m": 6.6,
+    "continuous_staff_wc_route": "entry lobby -> right side aisle -> rear cross aisle -> WC door",
+    "staff_route_reserved_rectangles_m": [
+      {
+        "x": 31.9,
+        "y": 21.2,
+        "w": 8.649999999999995,
+        "d": 1.2
+      },
+      {
+        "x": 39.349999999999994,
+        "y": 21.2,
+        "w": 1.2,
+        "d": 8.799999999999997
+      },
+      {
+        "x": 31.9,
+        "y": 28.799999999999997,
+        "w": 8.649999999999995,
+        "d": 1.2
+      },
+      {
+        "x": 32.05,
+        "y": 29.4,
+        "w": 0.9,
+        "d": 0.8
+      }
+    ],
+    "staff_wc_door_clear_m": 0.9,
     "gate_footprint_m": 2.64,
     "minimum_bay_width_m": 6.1000000000000005,
     "solid_obstacle_overlap_conflicts": [],
@@ -4329,7 +5153,7 @@
     "code_compliance_verified": false,
     "throughput_verified": false
   },
-  "sketch_count": 250,
+  "sketch_count": 296,
   "fully_constrained": true,
   "pages": [
     {
@@ -4389,7 +5213,7 @@
           "k": "text",
           "x": 22,
           "y": 399,
-          "s": "管理设施 | 单层建筑方案 / 空间验证 | v2-R1",
+          "s": "管理设施 | 单层建筑方案 / 空间验证 | v2-R2",
           "size": 3.2,
           "anchor": "start",
           "color": "#111"
@@ -5495,7 +6319,7 @@
         {
           "k": "rect",
           "x": 276.6666666666667,
-          "y": 198.66666666666669,
+          "y": 168.66666666666669,
           "w": 6.999999999999981,
           "h": 1.3333333333333335,
           "lw": 0.13,
@@ -5505,7 +6329,7 @@
         {
           "k": "rect",
           "x": 289.66666666666663,
-          "y": 198.66666666666669,
+          "y": 168.66666666666669,
           "w": 7.000000000000028,
           "h": 1.3333333333333335,
           "lw": 0.13,
@@ -5515,7 +6339,7 @@
         {
           "k": "rect",
           "x": 276.6666666666667,
-          "y": 180.0,
+          "y": 150.0,
           "w": 20.0,
           "h": 1.3333333333333335,
           "lw": 0.13,
@@ -5525,7 +6349,7 @@
         {
           "k": "rect",
           "x": 276.6666666666667,
-          "y": 181.33333333333331,
+          "y": 151.33333333333337,
           "w": 1.3333333333333335,
           "h": 17.333333333333336,
           "lw": 0.13,
@@ -5535,7 +6359,7 @@
         {
           "k": "rect",
           "x": 295.3333333333333,
-          "y": 181.33333333333331,
+          "y": 151.33333333333337,
           "w": 1.3333333333333335,
           "h": 17.333333333333336,
           "lw": 0.13,
@@ -5545,7 +6369,7 @@
         {
           "k": "arc",
           "x": 283.66666666666663,
-          "y": 198.66666666666669,
+          "y": 168.66666666666669,
           "r": 6.0,
           "angle": 0,
           "lw": 0.12,
@@ -5554,9 +6378,9 @@
         {
           "k": "line",
           "x1": 283.66666666666663,
-          "y1": 198.66666666666669,
+          "y1": 168.66666666666669,
           "x2": 283.66666666666663,
-          "y2": 192.66666666666669,
+          "y2": 162.66666666666669,
           "lw": 0.12,
           "color": "#444",
           "dash": false
@@ -5564,7 +6388,7 @@
         {
           "k": "rect",
           "x": 280.33333333333337,
-          "y": 182.66666666666666,
+          "y": 152.6666666666667,
           "w": 3.3333333333333335,
           "h": 4.666666666666667,
           "lw": 0.12,
@@ -5574,7 +6398,7 @@
         {
           "k": "rect",
           "x": 290.3333333333333,
-          "y": 182.33333333333331,
+          "y": 152.33333333333334,
           "w": 4.0,
           "h": 3.3333333333333335,
           "lw": 0.12,
@@ -5583,8 +6407,8 @@
         },
         {
           "k": "rect",
-          "x": 243.33333333333334,
-          "y": 208.0,
+          "x": 246.0,
+          "y": 212.66666666666666,
           "w": 12.0,
           "h": 5.333333333333334,
           "lw": 0.12,
@@ -5593,8 +6417,8 @@
         },
         {
           "k": "rect",
-          "x": 247.5,
-          "y": 201.33333333333334,
+          "x": 250.16666666666666,
+          "y": 206.0,
           "w": 3.666666666666667,
           "h": 3.666666666666667,
           "lw": 0.12,
@@ -5603,8 +6427,39 @@
         },
         {
           "k": "rect",
-          "x": 318.0,
-          "y": 208.0,
+          "x": 249.33333333333334,
+          "y": 202.0,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 247.83333333333331,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 252.49999999999997,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 263.33333333333337,
+          "y": 212.66666666666666,
           "w": 12.0,
           "h": 5.333333333333334,
           "lw": 0.12,
@@ -5613,12 +6468,451 @@
         },
         {
           "k": "rect",
-          "x": 322.1666666666667,
-          "y": 201.33333333333334,
+          "x": 267.5,
+          "y": 206.0,
           "w": 3.666666666666667,
           "h": 3.666666666666667,
           "lw": 0.12,
           "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 266.6666666666667,
+          "y": 202.0,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 265.16666666666663,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 269.8333333333333,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 280.66666666666663,
+          "y": 212.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 284.8333333333333,
+          "y": 206.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 284.0,
+          "y": 202.0,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 282.5,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 287.16666666666663,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 298.0,
+          "y": 212.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 302.1666666666667,
+          "y": 206.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 301.33333333333337,
+          "y": 202.0,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 299.83333333333337,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 304.5,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 315.3333333333333,
+          "y": 212.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 319.5,
+          "y": 206.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 318.66666666666663,
+          "y": 202.0,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 317.16666666666663,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 321.83333333333337,
+          "y": 216.53333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 246.0,
+          "y": 188.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 250.16666666666666,
+          "y": 182.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 249.33333333333334,
+          "y": 177.99999999999997,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 247.83333333333331,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 252.49999999999997,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 263.33333333333337,
+          "y": 188.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 267.5,
+          "y": 182.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 266.6666666666667,
+          "y": 177.99999999999997,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 265.16666666666663,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 269.8333333333333,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 280.66666666666663,
+          "y": 188.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 284.8333333333333,
+          "y": 182.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 284.0,
+          "y": 177.99999999999997,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 282.5,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 287.16666666666663,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 298.0,
+          "y": 188.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 302.1666666666667,
+          "y": 182.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 301.33333333333337,
+          "y": 177.99999999999997,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 299.83333333333337,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 304.5,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 315.3333333333333,
+          "y": 188.66666666666666,
+          "w": 12.0,
+          "h": 5.333333333333334,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 319.5,
+          "y": 182.0,
+          "w": 3.666666666666667,
+          "h": 3.666666666666667,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 318.66666666666663,
+          "y": 177.99999999999997,
+          "w": 5.333333333333334,
+          "h": 4.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 317.16666666666663,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 321.83333333333337,
+          "y": 192.5333333333333,
+          "w": 3.666666666666667,
+          "h": 0.8,
+          "lw": 0.12,
+          "fill": "#555",
           "color": "#444"
         },
         {
@@ -6451,28 +7745,28 @@
         },
         {
           "k": "rect",
-          "x": 72.0,
-          "y": 133.33333333333334,
-          "w": 1.0,
-          "h": 13.333333333333334,
+          "x": 169.33333333333334,
+          "y": 215.66666666666669,
+          "w": 13.333333333333334,
+          "h": 1.0,
           "lw": 0.12,
-          "fill": "none",
+          "fill": "#555",
           "color": "#888"
         },
         {
           "k": "rect",
-          "x": 500.3333333333333,
-          "y": 133.33333333333334,
-          "w": 1.0,
-          "h": 13.333333333333334,
+          "x": 390.6666666666667,
+          "y": 215.66666666666669,
+          "w": 13.333333333333334,
+          "h": 1.0,
           "lw": 0.12,
-          "fill": "none",
+          "fill": "#555",
           "color": "#888"
         },
         {
           "k": "circle",
           "x": 282.0,
-          "y": 185.0,
+          "y": 155.00000000000006,
           "r": 1.0666666666666667,
           "lw": 0.1,
           "color": "#444",
@@ -6482,7 +7776,7 @@
         {
           "k": "circle",
           "x": 292.3333333333333,
-          "y": 184.0,
+          "y": 154.0,
           "r": 1.28,
           "lw": 0.1,
           "color": "#444",
@@ -7559,27 +8853,108 @@
         {
           "k": "text",
           "x": 286.6666666666667,
-          "y": 163.33333333333334,
+          "y": 173.66666666666669,
           "s": "工作人员 / 异常处理区",
-          "size": 3.8,
+          "size": 3.1,
           "anchor": "middle",
           "color": "#111"
         },
         {
           "k": "text",
           "x": 286.6666666666667,
-          "y": 173.33333333333334,
-          "s": "18.00 × 12.00 m",
-          "size": 3.2,
-          "anchor": "middle",
-          "color": "#111"
-        },
-        {
-          "k": "text",
-          "x": 286.6666666666667,
-          "y": 191.4,
+          "y": 161.33333333333331,
           "s": "内部厕所 P",
-          "size": 2.4,
+          "size": 2.2,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 252.0,
+          "y": 214.37333333333333,
+          "s": "A",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 269.33333333333337,
+          "y": 214.37333333333333,
+          "s": "B",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 286.6666666666667,
+          "y": 214.37333333333333,
+          "s": "C",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 304.0,
+          "y": 214.37333333333333,
+          "s": "D",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 321.3333333333333,
+          "y": 214.37333333333333,
+          "s": "E",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 252.0,
+          "y": 190.37333333333333,
+          "s": "F",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 269.33333333333337,
+          "y": 190.37333333333333,
+          "s": "G",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 286.6666666666667,
+          "y": 190.37333333333333,
+          "s": "H",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 304.0,
+          "y": 190.37333333333333,
+          "s": "I",
+          "size": 2.5,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 321.3333333333333,
+          "y": 190.37333333333333,
+          "s": "J",
+          "size": 2.5,
           "anchor": "middle",
           "color": "#111"
         },
@@ -7639,18 +9014,36 @@
         },
         {
           "k": "text",
-          "x": 78.33333333333333,
-          "y": 140.66666666666669,
-          "s": "地图",
+          "x": 176.0,
+          "y": 210.66666666666669,
+          "s": "地图 / 导视",
+          "size": 3,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 176.0,
+          "y": 221.33333333333334,
+          "s": "正面朝来人 ↓",
           "size": 2.5,
           "anchor": "middle",
           "color": "#666"
         },
         {
           "k": "text",
-          "x": 495.0,
-          "y": 140.66666666666669,
-          "s": "地图",
+          "x": 397.33333333333337,
+          "y": 210.66666666666669,
+          "s": "地图 / 导视",
+          "size": 3,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 397.33333333333337,
+          "y": 221.33333333333334,
+          "s": "正面朝来人 ↓",
           "size": 2.5,
           "anchor": "middle",
           "color": "#666"
@@ -8081,7 +9474,7 @@
           "k": "line",
           "x1": 135.0,
           "y1": 296.6666666666667,
-          "x2": 183.33333333333334,
+          "x2": 176.0,
           "y2": 263.33333333333337,
           "lw": 0.18,
           "color": "#a0a0a0",
@@ -8089,40 +9482,30 @@
         },
         {
           "k": "line",
-          "x1": 183.33333333333334,
+          "x1": 176.0,
           "y1": 263.33333333333337,
-          "x2": 183.33333333333334,
-          "y2": 123.33333333333334,
+          "x2": 176.0,
+          "y2": 224.66666666666666,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
         },
         {
           "k": "line",
-          "x1": 183.33333333333334,
-          "y1": 123.33333333333334,
-          "x2": 140.0,
-          "y2": 96.66666666666667,
+          "x1": 176.0,
+          "y1": 224.66666666666666,
+          "x2": 177.05473618492925,
+          "y2": 226.59734830282548,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
         },
         {
           "k": "line",
-          "x1": 140.0,
-          "y1": 96.66666666666667,
-          "x2": 142.19706559161983,
-          "y2": 96.7802570981307,
-          "lw": 0.18,
-          "color": "#a0a0a0",
-          "dash": false
-        },
-        {
-          "k": "line",
-          "x1": 140.0,
-          "y1": 96.66666666666667,
-          "x2": 141.09149655306695,
-          "y2": 98.57680678577913,
+          "x1": 176.0,
+          "y1": 224.66666666666666,
+          "x2": 174.94526381507075,
+          "y2": 226.59734830282548,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
@@ -8141,7 +9524,7 @@
           "k": "line",
           "x1": 438.33333333333337,
           "y1": 296.6666666666667,
-          "x2": 390.0,
+          "x2": 397.33333333333337,
           "y2": 263.33333333333337,
           "lw": 0.18,
           "color": "#a0a0a0",
@@ -8149,9 +9532,39 @@
         },
         {
           "k": "line",
-          "x1": 390.0,
+          "x1": 397.33333333333337,
           "y1": 263.33333333333337,
-          "x2": 390.0,
+          "x2": 397.33333333333337,
+          "y2": 224.66666666666666,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 397.33333333333337,
+          "y1": 224.66666666666666,
+          "x2": 398.3880695182626,
+          "y2": 226.59734830282548,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 397.33333333333337,
+          "y1": 224.66666666666666,
+          "x2": 396.2785971484041,
+          "y2": 226.59734830282548,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 188.0,
+          "y1": 223.33333333333334,
+          "x2": 188.0,
           "y2": 123.33333333333334,
           "lw": 0.18,
           "color": "#a0a0a0",
@@ -8159,10 +9572,50 @@
         },
         {
           "k": "line",
-          "x1": 390.0,
+          "x1": 188.0,
+          "y1": 123.33333333333334,
+          "x2": 140.0,
+          "y2": 90.0,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 140.0,
+          "y1": 90.0,
+          "x2": 142.18742100922458,
+          "y2": 90.23492409072489,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 140.0,
+          "y1": 90.0,
+          "x2": 140.98418680921108,
+          "y2": 91.96758133874432,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 385.33333333333337,
+          "y1": 223.33333333333334,
+          "x2": 385.33333333333337,
+          "y2": 123.33333333333334,
+          "lw": 0.18,
+          "color": "#a0a0a0",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 385.33333333333337,
           "y1": 123.33333333333334,
           "x2": 433.33333333333337,
-          "y2": 96.66666666666667,
+          "y2": 90.0,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
@@ -8170,9 +9623,9 @@
         {
           "k": "line",
           "x1": 433.33333333333337,
-          "y1": 96.66666666666667,
-          "x2": 432.2418367802664,
-          "y2": 98.57680678577913,
+          "y1": 90.0,
+          "x2": 432.34914652412226,
+          "y2": 91.96758133874432,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
@@ -8180,16 +9633,16 @@
         {
           "k": "line",
           "x1": 433.33333333333337,
-          "y1": 96.66666666666667,
-          "x2": 431.13626774171354,
-          "y2": 96.7802570981307,
+          "y1": 90.0,
+          "x2": 431.1459123241088,
+          "y2": 90.23492409072489,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
         },
         {
           "k": "line",
-          "x1": 390.0,
+          "x1": 385.33333333333337,
           "y1": 123.33333333333334,
           "x2": 286.6666666666667,
           "y2": 123.33333333333334,
@@ -8202,7 +9655,7 @@
           "x1": 286.6666666666667,
           "y1": 123.33333333333334,
           "x2": 286.6666666666667,
-          "y2": 96.66666666666667,
+          "y2": 90.0,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
@@ -8210,9 +9663,9 @@
         {
           "k": "line",
           "x1": 286.6666666666667,
-          "y1": 96.66666666666667,
+          "y1": 90.0,
           "x2": 287.72140285159594,
-          "y2": 98.5973483028255,
+          "y2": 91.93068163615882,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
@@ -8220,9 +9673,9 @@
         {
           "k": "line",
           "x1": 286.6666666666667,
-          "y1": 96.66666666666667,
+          "y1": 90.0,
           "x2": 285.61193048173743,
-          "y2": 98.5973483028255,
+          "y2": 91.93068163615882,
           "lw": 0.18,
           "color": "#a0a0a0",
           "dash": false
@@ -8334,7 +9787,7 @@
           "k": "text",
           "x": 22,
           "y": 399,
-          "s": "管理设施 | 单层建筑方案 / 空间验证 | v2-R1",
+          "s": "管理设施 | 单层建筑方案 / 空间验证 | v2-R2",
           "size": 3.2,
           "anchor": "start",
           "color": "#111"
@@ -8438,7 +9891,7 @@
         {
           "k": "rect",
           "x": 110.0,
-          "y": 154.0,
+          "y": 109.0,
           "w": 10.499999999999972,
           "h": 2.0,
           "lw": 0.13,
@@ -8448,7 +9901,7 @@
         {
           "k": "rect",
           "x": 129.49999999999994,
-          "y": 154.0,
+          "y": 109.0,
           "w": 10.500000000000043,
           "h": 2.0,
           "lw": 0.13,
@@ -8458,7 +9911,7 @@
         {
           "k": "rect",
           "x": 110.0,
-          "y": 126.0,
+          "y": 81.0,
           "w": 30.0,
           "h": 2.0,
           "lw": 0.13,
@@ -8468,7 +9921,7 @@
         {
           "k": "rect",
           "x": 110.0,
-          "y": 128.0,
+          "y": 83.00000000000003,
           "w": 2.0,
           "h": 26.0,
           "lw": 0.13,
@@ -8478,7 +9931,7 @@
         {
           "k": "rect",
           "x": 137.99999999999997,
-          "y": 128.0,
+          "y": 83.00000000000003,
           "w": 2.0,
           "h": 26.0,
           "lw": 0.13,
@@ -8488,7 +9941,7 @@
         {
           "k": "arc",
           "x": 120.49999999999997,
-          "y": 154.0,
+          "y": 109.0,
           "r": 9.0,
           "angle": 0,
           "lw": 0.12,
@@ -8497,9 +9950,9 @@
         {
           "k": "line",
           "x1": 120.49999999999997,
-          "y1": 154.0,
+          "y1": 109.0,
           "x2": 120.49999999999997,
-          "y2": 145.00000000000003,
+          "y2": 100.00000000000003,
           "lw": 0.12,
           "color": "#444",
           "dash": false
@@ -8507,7 +9960,7 @@
         {
           "k": "rect",
           "x": 115.5,
-          "y": 130.0,
+          "y": 85.00000000000006,
           "w": 5.0,
           "h": 7.0,
           "lw": 0.12,
@@ -8517,7 +9970,7 @@
         {
           "k": "rect",
           "x": 130.49999999999997,
-          "y": 129.49999999999997,
+          "y": 84.50000000000001,
           "w": 6.0,
           "h": 5.0,
           "lw": 0.12,
@@ -8526,8 +9979,8 @@
         },
         {
           "k": "rect",
-          "x": 60.0,
-          "y": 168.0,
+          "x": 63.999999999999986,
+          "y": 175.0,
           "w": 18.0,
           "h": 8.0,
           "lw": 0.12,
@@ -8536,8 +9989,8 @@
         },
         {
           "k": "rect",
-          "x": 66.25,
-          "y": 158.0,
+          "x": 70.24999999999999,
+          "y": 165.0,
           "w": 5.5,
           "h": 5.5,
           "lw": 0.12,
@@ -8546,8 +9999,39 @@
         },
         {
           "k": "rect",
-          "x": 172.00000000000003,
-          "y": 168.0,
+          "x": 68.99999999999999,
+          "y": 158.99999999999997,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 66.74999999999997,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 73.74999999999997,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 90.0,
+          "y": 175.0,
           "w": 18.0,
           "h": 8.0,
           "lw": 0.12,
@@ -8556,18 +10040,457 @@
         },
         {
           "k": "rect",
-          "x": 178.25000000000003,
-          "y": 158.0,
+          "x": 96.25,
+          "y": 165.0,
           "w": 5.5,
           "h": 5.5,
           "lw": 0.12,
           "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 95.0,
+          "y": 158.99999999999997,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 92.74999999999999,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 99.74999999999997,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 115.99999999999997,
+          "y": 175.0,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 122.24999999999994,
+          "y": 165.0,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 120.99999999999994,
+          "y": 158.99999999999997,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 118.74999999999997,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 125.74999999999996,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 142.00000000000003,
+          "y": 175.0,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 148.25000000000003,
+          "y": 165.0,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 147.00000000000003,
+          "y": 158.99999999999997,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 144.75,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 151.75000000000006,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 167.99999999999997,
+          "y": 175.0,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 174.24999999999997,
+          "y": 165.0,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 172.99999999999997,
+          "y": 158.99999999999997,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 170.74999999999994,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 177.75,
+          "y": 180.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 63.999999999999986,
+          "y": 138.99999999999997,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 70.24999999999999,
+          "y": 128.99999999999997,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 68.99999999999999,
+          "y": 122.99999999999996,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 66.74999999999997,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 73.74999999999997,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 90.0,
+          "y": 138.99999999999997,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 96.25,
+          "y": 128.99999999999997,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 95.0,
+          "y": 122.99999999999996,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 92.74999999999999,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 99.74999999999997,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 115.99999999999997,
+          "y": 138.99999999999997,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 122.24999999999994,
+          "y": 128.99999999999997,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 120.99999999999994,
+          "y": 122.99999999999996,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 118.74999999999997,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 125.74999999999996,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 142.00000000000003,
+          "y": 138.99999999999997,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 148.25000000000003,
+          "y": 128.99999999999997,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 147.00000000000003,
+          "y": 122.99999999999996,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 144.75,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 151.75000000000006,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 167.99999999999997,
+          "y": 138.99999999999997,
+          "w": 18.0,
+          "h": 8.0,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 174.24999999999997,
+          "y": 128.99999999999997,
+          "w": 5.5,
+          "h": 5.5,
+          "lw": 0.12,
+          "fill": "#dedede",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 172.99999999999997,
+          "y": 122.99999999999996,
+          "w": 8.0,
+          "h": 6.0,
+          "lw": 0.08,
+          "fill": "none",
+          "color": "#888",
+          "dash": true
+        },
+        {
+          "k": "rect",
+          "x": 170.74999999999994,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
+          "color": "#444"
+        },
+        {
+          "k": "rect",
+          "x": 177.75,
+          "y": 144.79999999999995,
+          "w": 5.5,
+          "h": 1.2,
+          "lw": 0.12,
+          "fill": "#555",
           "color": "#444"
         },
         {
           "k": "circle",
           "x": 118.0,
-          "y": 133.49999999999997,
+          "y": 88.50000000000007,
           "r": 1.6,
           "lw": 0.1,
           "color": "#444",
@@ -8577,7 +10500,7 @@
         {
           "k": "circle",
           "x": 133.49999999999994,
-          "y": 131.99999999999997,
+          "y": 87.00000000000001,
           "r": 1.92,
           "lw": 0.1,
           "color": "#444",
@@ -8704,45 +10627,243 @@
         },
         {
           "k": "text",
-          "x": 125.0,
-          "y": 101.0,
-          "s": "工作人员 / 异常处理",
-          "size": 3.6,
+          "x": 72.99999999999997,
+          "y": 177.56,
+          "s": "A",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 98.99999999999999,
+          "y": 177.56,
+          "s": "B",
+          "size": 3.0,
           "anchor": "middle",
           "color": "#111"
         },
         {
           "k": "text",
           "x": 125.0,
-          "y": 140.0,
+          "y": 177.56,
+          "s": "C",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 151.0,
+          "y": 177.56,
+          "s": "D",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 176.99999999999994,
+          "y": 177.56,
+          "s": "E",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 72.99999999999997,
+          "y": 141.55999999999997,
+          "s": "F",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 98.99999999999999,
+          "y": 141.55999999999997,
+          "s": "G",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 125.0,
+          "y": 141.55999999999997,
+          "s": "H",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 151.0,
+          "y": 141.55999999999997,
+          "s": "I",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 176.99999999999994,
+          "y": 141.55999999999997,
+          "s": "J",
+          "size": 3.0,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 125.0,
+          "y": 97.49999999999999,
           "s": "内部厕所",
-          "size": 3.1,
-          "anchor": "middle",
-          "color": "#111"
-        },
-        {
-          "k": "text",
-          "x": 125.0,
-          "y": 147.0,
-          "s": "3×3 m P",
-          "size": 2.7,
-          "anchor": "middle",
-          "color": "#111"
-        },
-        {
-          "k": "text",
-          "x": 125.0,
-          "y": 181.0,
-          "s": "门洞 1.20 P",
           "size": 2.8,
           "anchor": "middle",
           "color": "#111"
         },
         {
           "k": "text",
+          "x": 125.0,
+          "y": 117.49999999999999,
+          "s": "后侧横向通路 → 厕所",
+          "size": 2.7,
+          "anchor": "middle",
+          "color": "#777"
+        },
+        {
+          "k": "text",
+          "x": 85.0,
+          "y": 193.5,
+          "s": "工作人员 / 异常处理",
+          "size": 3,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "line",
+          "x1": 36.99999999999999,
+          "y1": 141.99999999999997,
+          "x2": 63.999999999999986,
+          "y2": 141.99999999999997,
+          "lw": 0.12,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 36.099999999999994,
+          "y1": 142.89999999999998,
+          "x2": 37.89999999999999,
+          "y2": 141.09999999999997,
+          "lw": 0.22,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 63.09999999999999,
+          "y1": 142.89999999999998,
+          "x2": 64.89999999999999,
+          "y2": 141.09999999999997,
+          "lw": 0.22,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "text",
+          "x": 50.499999999999986,
+          "y": 140.39999999999998,
+          "s": "2.70 P",
+          "size": 2.8,
+          "anchor": "middle",
+          "color": "#111"
+        },
+        {
+          "k": "line",
+          "x1": 205.0,
+          "y1": 146.99999999999997,
+          "x2": 205.0,
+          "y2": 158.99999999999997,
+          "lw": 0.12,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 204.1,
+          "y1": 147.89999999999998,
+          "x2": 205.9,
+          "y2": 146.09999999999997,
+          "lw": 0.22,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 204.1,
+          "y1": 159.89999999999998,
+          "x2": 205.9,
+          "y2": 158.09999999999997,
+          "lw": 0.22,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "text",
+          "x": 203.0,
+          "y": 153.99999999999997,
+          "s": "1.20 P",
+          "size": 2.8,
+          "anchor": "end",
+          "color": "#111"
+        },
+        {
+          "k": "line",
+          "x1": 205.0,
+          "y1": 111.0,
+          "x2": 205.0,
+          "y2": 122.99999999999996,
+          "lw": 0.12,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 204.1,
+          "y1": 111.9,
+          "x2": 205.9,
+          "y2": 110.1,
+          "lw": 0.22,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "line",
+          "x1": 204.1,
+          "y1": 123.89999999999996,
+          "x2": 205.9,
+          "y2": 122.09999999999995,
+          "lw": 0.22,
+          "color": "#111",
+          "dash": false
+        },
+        {
+          "k": "text",
+          "x": 203.0,
+          "y": 117.99999999999997,
+          "s": "1.20 P",
+          "size": 2.8,
+          "anchor": "end",
+          "color": "#111"
+        },
+        {
+          "k": "text",
           "x": 35,
           "y": 219,
-          "s": "墙体计入18×12 m边界；内部厕所外包3×3 m。",
+          "s": "十工位 A–J，双屏，2排×5；桌面1.80×0.80 m P。",
           "size": 2.9,
           "anchor": "start",
           "color": "#111"
@@ -8751,7 +10872,25 @@
           "k": "text",
           "x": 35,
           "y": 228,
-          "s": "工作台与座位仅为2处异常处理占位（P）。",
+          "s": "椅后另留0.60 m（虚线）；排间/厕所前净1.20/1.20 m。",
+          "size": 2.9,
+          "anchor": "start",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 35,
+          "y": 237,
+          "s": "侧通路2.70 m；前侧入门→侧通路→后横路→厕所。",
+          "size": 2.9,
+          "anchor": "start",
+          "color": "#111"
+        },
+        {
+          "k": "text",
+          "x": 35,
+          "y": 246,
+          "s": "工位编号前排A–E、后排F–J为本轮暂定落位。",
           "size": 2.9,
           "anchor": "start",
           "color": "#111"
@@ -9884,7 +12023,7 @@
           "k": "text",
           "x": 22,
           "y": 399,
-          "s": "管理设施 | 单层建筑方案 / 空间验证 | v2-R1",
+          "s": "管理设施 | 单层建筑方案 / 空间验证 | v2-R2",
           "size": 3.2,
           "anchor": "start",
           "color": "#111"
@@ -9911,7 +12050,7 @@
           "k": "text",
           "x": 28,
           "y": 68,
-          "s": "单层；A–J十入口；认证后共享大厅；中央工作人员与内部厕所；左右公共厕所；三后出口。",
+          "s": "单层；十入口→认证→共享大厅→两侧地图→三后出口；工作人员区有十个双屏工位。",
           "size": 3.3,
           "anchor": "start",
           "color": "#111"
@@ -9983,7 +12122,7 @@
           "k": "text",
           "x": 83,
           "y": 153,
-          "s": "内部厕所外包3×3 m，居中；工作人员门1.20；内部厕所门0.90；2处工作台。",
+          "s": "厕所3×3 m，靠后墙居中；10工位2×5；桌1.80×0.80；纵向节距3.60 m。",
           "size": 3.1,
           "anchor": "start",
           "color": "#111"
@@ -10028,7 +12167,7 @@
           "k": "text",
           "x": 28,
           "y": 195,
-          "s": "几何余量",
+          "s": "通路 / 导视",
           "size": 3.2,
           "anchor": "start",
           "color": "#111"
@@ -10037,7 +12176,7 @@
           "k": "text",
           "x": 83,
           "y": 195,
-          "s": "大厅左/右净间距15.20/15.20；前净深12.70；后净深11.70 m；仅是布局结果。",
+          "s": "椅后另留0.60；排间/厕所前1.20/1.20；侧路2.70；地图2×0.15 m，朝前，两旁≥6.60 m。",
           "size": 3.1,
           "anchor": "start",
           "color": "#111"
@@ -10157,7 +12296,6 @@
     "2F",
     "stairs",
     "lift",
-    "10 monitor workstations",
     "main screen"
   ],
   "unresolved": [

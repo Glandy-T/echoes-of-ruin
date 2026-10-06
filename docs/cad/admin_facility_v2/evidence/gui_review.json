@@ -1,8 +1,8 @@
 {
-  "revision": "v2-R1",
+  "revision": "v2-R2",
   "native_gui_opened": true,
-  "source_main": "89fb844bf97fb125b85f2234988ba7e26168c8ed",
-  "sketch_count": 250,
+  "source_main": "40b2a29ba7cad16966f9f0aaec14a2fa4588e1d6",
+  "sketch_count": 296,
   "fully_constrained": true,
   "native_dimensions": [
     {
@@ -91,6 +91,7 @@
     "admin_facility_v1",
     "admin_facility_v2",
     "redraw_gui_40b18ffc",
+    "redraw_gui_7482fee4",
     "redraw_gui_db882081"
   ],
   "publication_pdf_visual_review": "passed: all three A2 pages rendered and inspected"

@@ -18,7 +18,7 @@ def make_pages(v, features, checks):
         p={'code':code,'title':title,'scale':scale,'items':[]};pages.append(p)
         rect(p,12,12,570,396,.3);text(p,22,27,title,5);text(p,572,27,code,5,'end')
         line(p,12,34,582,34,.25);line(p,12,388,582,388,.25)
-        text(p,22,399,'管理设施 | 单层建筑方案 / 空间验证 | v2-R1',3.2)
+        text(p,22,399,'管理设施 | 单层建筑方案 / 空间验证 | v2-R2',3.2)
         text(p,572,399,scale+' | 米制尺寸 | 2026-10-06',3.2,'end');return p
     def dimh(p,x1,x2,y,label,from_y=None):
         line(p,x1,y,x2,y,.12)
@@ -40,10 +40,11 @@ def make_pages(v, features, checks):
         for f in subset if subset is not None else features:
             a=f['values'];role=f['role'];kind=f['kind']
             lw=.20 if role=='wall' and f['owner']=='Outer' else .13 if role=='wall' else .12
-            color='#222' if role=='wall' else '#444' if role not in ['testcircle','guide'] else '#888'
+            color='#222' if role=='wall' else '#444' if role not in ['testcircle','guide','clearance'] else '#888'
             if kind=='rect':
-                x,y=xy(a['x'],a['y']+a['d']);fill='#292929' if role=='wall' else '#dedede' if role in ['gate','table','chair'] else 'none'
+                x,y=xy(a['x'],a['y']+a['d']);fill='#292929' if role=='wall' else '#dedede' if role in ['gate','table','chair'] else '#555' if role in ['monitor','guide'] else 'none'
                 rect(p,x,y,a['w']*q,a['d']*q,lw,fill,color)
+                if role=='clearance':p['items'][-1]['dash']=True;p['items'][-1]['lw']=.08
             elif kind=='line':
                 x1,y1=xy(a['x1'],a['y1']);x2,y2=xy(a['x2'],a['y2']);line(p,x1,y1,x2,y2,lw,color)
             elif kind=='circle':
@@ -60,7 +61,12 @@ def make_pages(v, features, checks):
         for turn in [-.5,.5]:line(p,*b,b[0]-l*math.cos(ang+turn),b[1]-l*math.sin(ang+turn),.18,'#a0a0a0')
     W,D=v['EnvelopeWidth'],v['EnvelopeDepth'];sx=v['StaffX'];sy=v['StaffY'];t=v['OuterWall']
     sw,sd=v['StaffWidth'],v['StaffDepth'];sc=sx+sw/2;pw,pd=v['PublicWCWidth'],v['PublicWCDepth'];pwy=v['PublicWCY'];ae=t+v['AuthDepth']
-    wcx=sx+(sw-v['StaffWCWidth'])/2;wcy=sy+(sd-v['StaffWCDepth'])/2
+    wcx=sx+(sw-v['StaffWCWidth'])/2;wcy=sy+sd-v['StaffWCDepth']
+    stations=[f for f in features if f['role']=='table']
+    guides=[f for f in features if f['role']=='guide']
+    def station_labels(p,xy,size):
+        for f in stations:
+            a=f['values'];label(p,xy,a['x']+a['w']/2,a['y']+a['d']*.68,f['name'].split('_')[1],size)
     p=page('A201','管理设施单层建筑方案平面图','1:150（A2原尺寸）')
     xy,q=plan(p,70,70,150,(0,0,W,D))
     dimh(p,70,70+W*q,46,f'{W:.2f} m  验证基准',70);dimv(p,70,70+D*q,51,f'{D:.2f} m 基准',70)
@@ -74,26 +80,49 @@ def make_pages(v, features, checks):
     label(p,xy,W/2,-1.6,'正面 / A–J 连续入口',3.4)
     cx=W/20;ax,_=xy(cx-v['FrontOpening']/2,0);bx,_=xy(cx+v['FrontOpening']/2,0);dimh(p,ax,bx,381,f'{v["FrontOpening"]:.2f} P',370)
     label(p,xy,W/2,ae+(sy-ae)*.54,'共享汇流大厅',5);label(p,xy,W/2,ae+(sy-ae)*.35,'认证后共享 / 主流线绕行中央工作人员区',2.6,'#666')
-    label(p,xy,sc,sy+sd-2,'工作人员 / 异常处理区',3.8);label(p,xy,sc,sy+sd-3.5,f'{sw:.2f} × {sd:.2f} m',3.2);label(p,xy,sc,wcy+v['StaffWCDepth']*.43,'内部厕所 P',2.4)
+    label(p,xy,sc,wcy-.55,'工作人员 / 异常处理区',3.1);label(p,xy,sc,wcy+1.3,'内部厕所 P',2.2)
+    station_labels(p,xy,2.5)
     for cx in [t+pw*.5625,W-t-pw*.5625]:label(p,xy,cx,pwy+pd*.53,'公共厕所 P',2.9);label(p,xy,cx,pwy+pd*.44,f'{pw:g} × {pd:g} m',2.6,'#555')
     for cx in [t+v['Partition']+v['UniversalWidth']/2,W-t-v['Partition']-v['UniversalWidth']/2]:label(p,xy,cx,pwy+v['Partition']+.45,'通用 P',2.1)
-    for cx in [1.25,W-1.25]:label(p,xy,cx,pwy+pd+v['GuideYGap']+.9,'地图',2.5,'#666')
+    for f in guides:
+        a=f['values'];cx=a['x']+a['w']/2
+        label(p,xy,cx,a['y']+.9,'地图 / 导视',3)
+        label(p,xy,cx,a['y']-.7,'正面朝来人 ↓',2.5,'#666')
     a,_=xy(sx,sy+sd);b,_=xy(sx+sw,sy+sd);dimh(p,a,b,xy(0,sy+sd+1.2)[1],f'{sw:.2f} m 已确认')
     y1=xy(0,sy+sd)[1];y2=xy(0,sy)[1];dimv(p,y1,y2,b+8,f'{sd:.2f} 已确认',b)
     for left,right in [(t+v['PublicWCWidth'],sx),(sx+v['StaffWidth'],W-t-v['PublicWCWidth'])]:
         a,y=xy(left,pwy+pd*.7);b,_=xy(right,pwy+pd*.7);dimh(p,a,b,y,f'{right-left:.2f} m P 净间距')
     x=70+W*q+24;ys=[D,sy+sd,sy,ae,0];dims=[f'{D-sy-sd:.2f} P',f'{sd:.2f} 已确认',f'{sy-ae:.2f} P',f'{ae:.2f} P']
     for hi,lo,s in zip(ys,ys[1:],dims):dimv(p,xy(W,hi)[1],xy(W,lo)[1],x,s,70+W*q)
-    arrow(p,xy,[(9.75,2),(9.75,11),(17,16),(17,37),(10.5,41)]);arrow(p,xy,[(55.25,2),(55.25,11),(48,16),(48,37),(54.5,41)])
-    arrow(p,xy,[(48,sy+sd+4),(W/2,sy+sd+4),(W/2,D-4)]);arrow(p,xy,[(sc,sy-4),(sc,sy-1)])
+    gl,gr=[f['values'] for f in guides];lc=gl['x']+gl['w']/2;rc=gr['x']+gr['w']/2;my=gl['y']
+    arrow(p,xy,[(W*.15,2),(W*.15,11),(lc,16),(lc,my-1.2)])
+    arrow(p,xy,[(W*.85,2),(W*.85,11),(rc,16),(rc,my-1.2)])
+    # Pass beside physical map boards, then divide toward all three rear openings.
+    for cx,bypass,target in [(lc,lc+v['GuideWidth']/2+.8,W/2-v['RearOffset']),(rc,rc-v['GuideWidth']/2-.8,W/2+v['RearOffset'])]:
+        arrow(p,xy,[(bypass,my-1),(bypass,sy+sd+4),(target,D-3)])
+    arrow(p,xy,[(rc-v['GuideWidth']/2-.8,sy+sd+4),(W/2,sy+sd+4),(W/2,D-3)])
+    arrow(p,xy,[(sc,sy-4),(sc,sy-1)])
     label(p,xy,sc+2.7,sy-1.75,'异常分流',2.5,'#888');text(p,346,382,'P = PROVISIONAL / 暂定；待确认项见 A203',2.7)
 
     p=page('A202','管理设施局部放大平面图','详见各局部比例（A2原尺寸）')
     text(p,30,49,'01 工作人员 / 异常处理区',4);text(p,30,58,f'边界 {sw:g}×{sd:g} m 已确认；内部布局 P | 1:100',3)
     staff=[f for f in features if f['owner']=='Staff'];sxy,sq=plan(p,35,81,100,(sx,sy,sw,sd),staff)
     dimh(p,35,35+sw*sq,70,f'{sw:.2f} 已确认',81);dimv(p,81,81+sd*sq,25,f'{sd:.2f}',35)
-    label(p,sxy,sc,sy+sd-2,'工作人员 / 异常处理',3.6);label(p,sxy,sc,wcy+1.6,'内部厕所',3.1);label(p,sxy,sc,wcy+.9,f'{v["StaffWCWidth"]:g}×{v["StaffWCDepth"]:g} m P',2.7);label(p,sxy,sc,sy+2,f'门洞 {v["StaffOpening"]:.2f} P',2.8)
-    text(p,35,219,f'墙体计入{sw:g}×{sd:g} m边界；内部厕所外包{v["StaffWCWidth"]:g}×{v["StaffWCDepth"]:g} m。',2.9);text(p,35,228,f'工作台与座位仅为{v["TableCount"]}处异常处理占位（P）。',2.9)
+    station_labels(p,sxy,3.0)
+    label(p,sxy,sc,wcy+1.35,'内部厕所',2.8)
+    label(p,sxy,sc,wcy-.65,'后侧横向通路 → 厕所',2.7,'#777')
+    label(p,sxy,sc-4,sy+.75,'工作人员 / 异常处理',3)
+    row1=stations[0]['values'];row2=stations[5]['values']
+    retreat_end=row1['y']+v['TableDepth']+v['ChairGap']+v['ChairWidth']+v['ChairRetreat']
+    x1,y1=sxy(sx+v['Partition'],row2['y']);x2,_=sxy(row1['x'],row2['y'])
+    dimh(p,x1,x2,y1-5,f'{checks["staff_side_aisle_m"]:.2f} P')
+    dimv(p,sxy(0,row2['y'])[1],sxy(0,retreat_end)[1],sxy(sx+sw-1,0)[0],f'{checks["staff_row_aisle_after_retreat_m"]:.2f} P')
+    rear_end=row2['y']+v['TableDepth']+v['ChairGap']+v['ChairWidth']+v['ChairRetreat']
+    dimv(p,sxy(0,wcy)[1],sxy(0,rear_end)[1],sxy(sx+sw-1,0)[0],f'{checks["staff_wc_approach_after_retreat_m"]:.2f} P')
+    text(p,35,219,'十工位 A–J，双屏，2排×5；桌面1.80×0.80 m P。',2.9)
+    text(p,35,228,f'椅后另留{v["ChairRetreat"]:.2f} m（虚线）；排间/厕所前净{checks["staff_row_aisle_after_retreat_m"]:.2f}/{checks["staff_wc_approach_after_retreat_m"]:.2f} m。',2.9)
+    text(p,35,237,f'侧通路{checks["staff_side_aisle_m"]:.2f} m；前侧入门→侧通路→后横路→厕所。',2.9)
+    text(p,35,246,'工位编号前排A–E、后排F–J为本轮暂定落位。',2.9)
     text(p,272,49,'02 左公共厕所（右侧镜像）',4);text(p,272,58,f'外包 {pw:g}×{pd:g} m P | 1:75',3)
     public=[f for f in features if f['owner']=='PublicL'];pxy,pq=plan(p,285,81,75,(t,pwy,pw,pd),public)
     dimh(p,285,285+pw*pq,70,f'{pw:.2f} P',81);dimv(p,81,81+pd*pq,274,f'{pd:.2f} P',285)
@@ -119,15 +148,15 @@ def make_pages(v, features, checks):
 
     p=page('A203','参数与待确认事项（辅助审查页）','不按比例')
     text(p,28,53,'已确认 / 当前验证基准',4)
-    text(p,28,68,'单层；A–J十入口；认证后共享大厅；中央工作人员与内部厕所；左右公共厕所；三后出口。',3.3)
+    text(p,28,68,'单层；十入口→认证→共享大厅→两侧地图→三后出口；工作人员区有十个双屏工位。',3.3)
     text(p,28,82,f'工作人员区边界{sw:g}×{sd:g} m：用户确认。建筑外包{W:g}×{D:g} m：当前验证基准，最终外包待确认。',3.3)
     text(p,28,107,'本轮 PROVISIONAL 参数',4)
     rows=[('墙 / 门',f'外墙{t:.2f}；隔墙{v["Partition"]:.2f}；前开口{v["FrontOpening"]:.2f}；后开口{v["RearSideOpening"]:g} / {v["RearCenterOpening"]:g} / {v["RearSideOpening"]:g} m；门型及开启P。'),
           ('定位',f'工作人员X={sx:.2f}，Y={sy:.2f}；两公共厕所Y={pwy:.2f} m，均以外边界定位。'),
-          ('工作人员',f'内部厕所外包{v["StaffWCWidth"]:g}×{v["StaffWCDepth"]:g} m，居中；工作人员门{v["StaffOpening"]:.2f}；内部厕所门{v["StaffWCOpening"]:.2f}；{v["TableCount"]}处工作台。'),
+          ('工作人员',f'厕所{v["StaffWCWidth"]:g}×{v["StaffWCDepth"]:g} m，靠后墙居中；10工位2×5；桌1.80×0.80；纵向节距{v["TableRowPitch"]:.2f} m。'),
           ('公共厕所',f'每侧外包{pw:g}×{pd:g} m；{v["StallCount"]}普通+1通用；普通净{v["StallWidth"]:.2f}×{v["StallDepth"]:.2f}；通用净{v["UniversalWidth"]:.2f}×{v["UniversalDepth"]:.2f} m。'),
           ('认证组',f'每组{v["GateCount"]}通道，净宽{v["GateWide"]:.2f} / {v["GateStandard"]:.2f}；条宽{v["GateBarrier"]:.2f}、长{v["GateLength"]:.2f}；前端Y={v["GateY"]:.2f}；净深{v["AuthDepth"]:.2f} m。'),
-          ('几何余量',f'大厅左/右净间距{checks["left_clear_gap_m"]:.2f}/{checks["right_clear_gap_m"]:.2f}；前净深{checks["front_merge_depth_m"]:.2f}；后净深{checks["rear_clear_depth_m"]:.2f} m；仅是布局结果。')]
+          ('通路 / 导视',f'椅后另留{v["ChairRetreat"]:.2f}；排间/厕所前{checks["staff_row_aisle_after_retreat_m"]:.2f}/{checks["staff_wc_approach_after_retreat_m"]:.2f}；侧路{checks["staff_side_aisle_m"]:.2f}；地图{v["GuideWidth"]:g}×{v["GuideDepth"]:.2f} m，朝前，两旁≥{checks["map_minimum_bypass_width_m"]:.2f} m。')]
     for i,(a,b) in enumerate(rows):text(p,28,125+i*14,a,3.2);text(p,83,125+i*14,b,3.1)
     line(p,28,212,566,212,.2);text(p,28,230,'面积 / 参数修改',4)
     text(p,28,245,f'外包面积{W*D:g} m²；工作人员边界{sw*sd:g} m²（含内部厕所{v["StaffWCWidth"]*v["StaffWCDepth"]:g} m²）；两公共厕所合计{2*pw*pd:g} m²。',3.2)

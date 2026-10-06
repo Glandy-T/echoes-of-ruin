@@ -1,8 +1,8 @@
 {
-  "revision": "v2-R1",
-  "saved_fcstd_sha256": "4cf60179a7cea8f8807e7315779fb90dadfa9ded5d2c02d4ad313673a8324041",
-  "fully_constrained_sketches": 250,
-  "native_shape_readback": "all 248 features match metre layout",
+  "revision": "v2-R2",
+  "saved_fcstd_sha256": "1f4585dd547414f6d6e25de5f5f467ecbbd71320d8489bec4451415b4c0aa822",
+  "fully_constrained_sketches": 296,
+  "native_shape_readback": "all 294 features match metre layout",
   "parameter_tests": [
     {
       "parameter": "StaffY",
@@ -43,6 +43,46 @@
     "right_clear_gap_m": 15.200000000000003,
     "front_merge_depth_m": 12.7,
     "rear_clear_depth_m": 11.700000000000003,
+    "workstations": 10,
+    "monitor_screens": 20,
+    "workstation_rows": [
+      5,
+      5
+    ],
+    "staff_side_aisle_m": 2.7,
+    "staff_row_aisle_after_retreat_m": 1.2000000000000002,
+    "staff_wc_approach_after_retreat_m": 1.2000000000000002,
+    "staff_front_lobby_m": 1.6,
+    "chair_extra_retreat_m": 0.6,
+    "map_minimum_bypass_width_m": 6.6,
+    "continuous_staff_wc_route": "entry lobby -> right side aisle -> rear cross aisle -> WC door",
+    "staff_route_reserved_rectangles_m": [
+      {
+        "x": 31.9,
+        "y": 21.2,
+        "w": 8.649999999999995,
+        "d": 1.2
+      },
+      {
+        "x": 39.349999999999994,
+        "y": 21.2,
+        "w": 1.2,
+        "d": 8.799999999999997
+      },
+      {
+        "x": 31.9,
+        "y": 28.799999999999997,
+        "w": 8.649999999999995,
+        "d": 1.2
+      },
+      {
+        "x": 32.05,
+        "y": 29.4,
+        "w": 0.9,
+        "d": 0.8
+      }
+    ],
+    "staff_wc_door_clear_m": 0.9,
     "gate_footprint_m": 2.64,
     "minimum_bay_width_m": 6.1000000000000005,
     "solid_obstacle_overlap_conflicts": [],

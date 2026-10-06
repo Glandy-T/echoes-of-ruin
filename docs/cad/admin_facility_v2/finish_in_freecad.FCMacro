@@ -4,19 +4,21 @@ Run after build_freecad.py. Keep other open documents intact; open a unique
 review copy to prevent an older in-memory v2 from overwriting the redraw.
 """
 from pathlib import Path
-import shutil, json, traceback, math, time, uuid, sys
+import shutil, json, traceback, math, time, uuid, sys, importlib
 import FreeCAD as App
 import FreeCADGui as Gui
 import TechDrawGui
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT))
+import plan_layout
+importlib.reload(plan_layout)
 from plan_layout import PARAMETERS,COUNTS,make_layout
 qa=ROOT/'qa';qa.mkdir(exist_ok=True)
 report={}
 try:
     for previous in list(App.listDocuments().values()):
         own_review=previous.FileName and Path(previous.FileName).parent.resolve()==qa.resolve() and Path(previous.FileName).name.startswith('redraw_gui_')
-        own_finished=previous.FileName and Path(previous.FileName).parent.resolve()==ROOT.resolve() and previous.Label=='管理设施 v2-R1 | 单层建筑方案平面图'
+        own_finished=previous.FileName and Path(previous.FileName).parent.resolve()==ROOT.resolve() and hasattr(previous,'Parameters') and 'Revision' in previous.Parameters.PropertiesList and previous.Parameters.Revision=='v2-R2'
         if own_review or own_finished:
             App.closeDocument(previous.Name)
     target=ROOT/'admin_facility_v2.FCStd'
@@ -88,7 +90,7 @@ try:
     for d in dimensions:assert abs(doc.getObject(d['name']).getRawValue()-d['measured_mm'])<1e-5
     doc.saveAs(str(target))
     Gui.activeDocument().getObject('A201').doubleClicked();Gui.updateGui()
-    report=dict(revision='v2-R1',native_gui_opened=True,source_main='89fb844bf97fb125b85f2234988ba7e26168c8ed',
+    report=dict(revision='v2-R2',native_gui_opened=True,source_main='40b2a29ba7cad16966f9f0aaec14a2fa4588e1d6',
         sketch_count=len(sketches),fully_constrained=True,native_dimensions=dimensions,parameter_edit_tests=modifications,
         saved_after_gui_export=True,exported_pages=exports,visual_review='pending',
         preserved_other_documents=list(App.listDocuments().keys()))
