@@ -114,5 +114,9 @@
   "LOCK_AND_CLOSE.md": {
     "bytes": 3724,
     "sha256": "5c4af537c1e73b197b86a265d430c37f555e3a29f320c630ee6415fc1e620185"
+  },
+  "HANDOFF_20261007.md": {
+    "bytes": 2216,
+    "sha256": "1e1b69b00e70a1a4332ed66663ae696c77a94a881a0b87890040cfca044fe01b"
   }
 }
