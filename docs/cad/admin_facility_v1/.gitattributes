@@ -1,0 +1,8 @@
+# Preserve native CAD, reference images, and PDF bytes; normalize source text.
+*.FCStd -text
+*.png -text
+*.pdf -text
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.svg text eol=lf

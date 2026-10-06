@@ -1,0 +1,8 @@
+# Local FreeCAD profiles, caches, diagnostics, and backup versions.
+/qa/
+/*.FCBak
+/*.FCStd1
+/*.FCStd2
+/*.FCMacro
+/launch_review.py
+/__pycache__/
