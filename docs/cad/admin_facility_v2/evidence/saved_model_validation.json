@@ -1,15 +1,58 @@
 {
-  "saved_fcstd_sha256": "674fc277d5892f7d22a358b6240a6aa1b7b5e7606562c462218dd589cac86bdf",
-  "fully_constrained_sketches": 6,
-  "front_groups": 10,
-  "rear_exits": 3,
-  "toilet_nodes": 3,
-  "native_views": 2,
-  "native_dimensions": 4,
+  "revision": "v2-R1",
+  "saved_fcstd_sha256": "4cf60179a7cea8f8807e7315779fb90dadfa9ded5d2c02d4ad313673a8324041",
+  "fully_constrained_sketches": 250,
+  "native_shape_readback": "all 248 features match metre layout",
+  "parameter_tests": [
+    {
+      "parameter": "StaffY",
+      "test_value_m": 22.0,
+      "all_native_features_match_layout": true
+    },
+    {
+      "parameter": "StaffX",
+      "test_value_m": 23.75,
+      "all_native_features_match_layout": true
+    },
+    {
+      "parameter": "PublicWCWidth",
+      "test_value_m": 8.5,
+      "all_native_features_match_layout": true
+    },
+    {
+      "parameter": "OuterWall",
+      "test_value_m": 0.35,
+      "all_native_features_match_layout": true
+    },
+    {
+      "parameter": "GateWide",
+      "test_value_m": 1.3,
+      "all_native_features_match_layout": true
+    },
+    {
+      "parameter": "EnvelopeWidth",
+      "test_value_m": 66.0,
+      "all_native_features_match_layout": true
+    }
+  ],
   "cad_errors": [],
-  "parameter_recompute": "passed",
-  "source_ref": "d67e58a89410abfc42f48a28dcbe2228a1b12a90",
-  "actual_placement_verified": false,
-  "toilet_fit_verified": false,
-  "throughput_verified": false
+  "actual_placement_verified": true,
+  "obstacle_fit_verified": true,
+  "geometric_checks": {
+    "left_clear_gap_m": 15.2,
+    "right_clear_gap_m": 15.200000000000003,
+    "front_merge_depth_m": 12.7,
+    "rear_clear_depth_m": 11.700000000000003,
+    "gate_footprint_m": 2.64,
+    "minimum_bay_width_m": 6.1000000000000005,
+    "solid_obstacle_overlap_conflicts": [],
+    "turning_circle_obstacle_conflicts": [],
+    "geometric_fit": "passed",
+    "code_compliance_verified": false,
+    "throughput_verified": false
+  },
+  "toilet_code_compliance_verified": false,
+  "egress_verified": false,
+  "throughput_verified": false,
+  "file_unchanged_by_validation": true
 }

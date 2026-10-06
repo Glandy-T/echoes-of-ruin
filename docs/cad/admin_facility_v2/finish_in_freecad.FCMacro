@@ -1,0 +1,96 @@
+"""Finish and verify this generator-owned revision in the installed FreeCAD GUI.
+
+Run after build_freecad.py. Keep other open documents intact; open a unique
+review copy to prevent an older in-memory v2 from overwriting the redraw.
+"""
+from pathlib import Path
+import shutil, json, traceback, math, time, uuid, sys
+import FreeCAD as App
+import FreeCADGui as Gui
+import TechDrawGui
+ROOT=Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT))
+from plan_layout import PARAMETERS,COUNTS,make_layout
+qa=ROOT/'qa';qa.mkdir(exist_ok=True)
+report={}
+try:
+    for previous in list(App.listDocuments().values()):
+        own_review=previous.FileName and Path(previous.FileName).parent.resolve()==qa.resolve() and Path(previous.FileName).name.startswith('redraw_gui_')
+        own_finished=previous.FileName and Path(previous.FileName).parent.resolve()==ROOT.resolve() and previous.Label=='管理设施 v2-R1 | 单层建筑方案平面图'
+        if own_review or own_finished:
+            App.closeDocument(previous.Name)
+    target=ROOT/'admin_facility_v2.FCStd'
+    source=qa/('redraw_gui_'+uuid.uuid4().hex[:8]+'.FCStd');shutil.copy2(target,source)
+    doc=App.openDocument(str(source));App.setActiveDocument(doc.Name)
+    Gui.activateWorkbench('TechDrawWorkbench');doc.recompute()
+    live=doc.CAD_Live;Gui.activeDocument().getObject(live.Name).doubleClicked();Gui.updateGui()
+    TechDrawGui.exportPageAsPdf(live,str(qa/'projection_before_dimensions.pdf'))
+    dimensions=[]
+    for view,expected in [(doc.ViewPlan,(doc.Parameters.EnvelopeWidth.Value,doc.Parameters.EnvelopeDepth.Value)),(doc.ViewStaff,(doc.Parameters.StaffWidth.Value,doc.Parameters.StaffDepth.Value))]:
+        vertices=[]
+        for attempt in range(200):
+            Gui.updateGui()
+            if view.getVisibleVertexes():break
+            time.sleep(.1)
+        # TechDraw's public indexed topology is materialized after GUI projection.
+        for index in range(0,5000):
+            try:
+                shape=view.getVertexByIndex(index)
+                point=shape.Vertexes[0].Point
+                vertices.append((index,point.x,point.y))
+            except (ValueError,IndexError):break
+        assert vertices,'No GUI projection vertices for '+view.Name
+        xmin=min(x[1] for x in vertices);xmax=max(x[1] for x in vertices)
+        ymin=min(x[2] for x in vertices);ymax=max(x[2] for x in vertices)
+        # Indexed topology uses unscaled view coordinates in FreeCAD 1.1.4.
+        assert abs((xmax-xmin)-expected[0])<1e-5,(view.Name,'X extent',xmin,xmax,view.Scale,len(vertices))
+        assert abs((ymax-ymin)-expected[1])<1e-5,(view.Name,'Y extent',ymin,ymax,view.Scale,len(vertices))
+        nearest=lambda x,y:min(vertices,key=lambda a:(a[1]-x)**2+(a[2]-y)**2)[0]
+        a=nearest(xmin,ymin);b=nearest(xmax,ymin);c=nearest(xmin,ymax)
+        for suffix,typ,refs,px,py,value in [('W','DistanceX',[a,b],0,-expected[1]*view.Scale/2-10,expected[0]),('D','DistanceY',[a,c],-expected[0]*view.Scale/2-10,0,expected[1])]:
+            name=view.Name+'_'+suffix;dim=doc.getObject(name)
+            if dim is None:dim=doc.addObject('TechDraw::DrawViewDimension',name);live.addView(dim)
+            # TechDraw projection selections use Vertex0 (not model Vertex1).
+            dim.Type=typ;dim.References2D=[(view,['Vertex'+str(i) for i in refs])];dim.ShowUnits=True;dim.X=px;dim.Y=py;dim.LockPosition=True
+            doc.recompute();Gui.updateGui()
+            measured=dim.getRawValue()
+            numeric=measured.Value if hasattr(measured,'Value') else float(measured)
+            assert abs(numeric-value)<1e-5,(name,numeric,value)
+            dimensions.append(dict(name=name,type=typ,measured_mm=numeric,vertices=refs))
+    # Exercise real expressions in the live document; restore before saving.
+    modifications=[]
+    for key,delta,object_name,axis in [
+        ('StaffY',1000,'Staff_Back','y'),
+        ('StaffX',250,'Staff_Left','x'),
+        ('PublicWCWidth',500,'PubL_Right1','x'),
+        ('OuterWall',50,'Outer_Left','xmax'),
+        ('GateWide',100,'Gate_A_0','x'),
+    ]:
+        old=getattr(doc.Parameters,key).Value;new=old+delta
+        trial={k:getattr(doc.Parameters,k).Value/1000 for k in PARAMETERS};trial.update({k:getattr(doc.Parameters,k) for k in COUNTS});trial[key]=new/1000
+        _,test_features=make_layout(trial);v=next(f['values'] for f in test_features if f['name']==object_name)
+        expected=((v['x']+v['w']) if axis=='xmax' else v['x'] if axis=='x' else v['y'])*1000
+        setattr(doc.Parameters,key,new);doc.recompute()
+        bb=doc.getObject(object_name).Shape.BoundBox
+        got=bb.XMax if axis=='xmax' else bb.XMin if axis=='x' else bb.YMin
+        assert abs(got-expected)<1e-5,(key,got,expected)
+        modifications.append(dict(parameter=key,test_mm=new,object=object_name,actual_mm=got,passed=True))
+        setattr(doc.Parameters,key,old);doc.recompute()
+    for step in range(30):Gui.updateGui();time.sleep(.1)
+    exports=[]
+    for code in ['A201','A202','A203','CAD_Live']:
+        p=doc.getObject(code);Gui.activeDocument().getObject(p.Name).doubleClicked();Gui.updateGui()
+        name='freecad_A204_live.pdf' if code=='CAD_Live' else 'freecad_'+code+'.pdf'
+        TechDrawGui.exportPageAsPdf(p,str(qa/name));exports.append(name)
+    sketches=[s for s in doc.Objects if s.TypeId=='Sketcher::SketchObject']
+    assert all(s.FullyConstrained and s.Shape.isValid() for s in sketches)
+    doc.recompute()
+    for d in dimensions:assert abs(doc.getObject(d['name']).getRawValue()-d['measured_mm'])<1e-5
+    doc.saveAs(str(target))
+    Gui.activeDocument().getObject('A201').doubleClicked();Gui.updateGui()
+    report=dict(revision='v2-R1',native_gui_opened=True,source_main='89fb844bf97fb125b85f2234988ba7e26168c8ed',
+        sketch_count=len(sketches),fully_constrained=True,native_dimensions=dimensions,parameter_edit_tests=modifications,
+        saved_after_gui_export=True,exported_pages=exports,visual_review='pending',
+        preserved_other_documents=list(App.listDocuments().keys()))
+except Exception:report={'error':traceback.format_exc()}
+(qa/'gui_review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

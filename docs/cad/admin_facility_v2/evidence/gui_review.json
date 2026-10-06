@@ -1,17 +1,97 @@
 {
-  "document": "admin_facility_v2.FCStd",
+  "revision": "v2-R1",
   "native_gui_opened": true,
-  "source_commit": "d67e58a89410abfc42f48a28dcbe2228a1b12a90",
-  "snapshot_pages": 3,
-  "native_views": 2,
-  "native_dimensions": 4,
-  "saved_after_gui_export": true,
-  "visual_review": "all four native exports checked",
-  "evidence": [
-    "freecad_A201.png",
-    "freecad_A202.png",
-    "freecad_A203.png",
-    "freecad_A204_live.png"
+  "source_main": "89fb844bf97fb125b85f2234988ba7e26168c8ed",
+  "sketch_count": 250,
+  "fully_constrained": true,
+  "native_dimensions": [
+    {
+      "name": "ViewPlan_W",
+      "type": "DistanceX",
+      "measured_mm": 65000.00000000015,
+      "vertices": [
+        0,
+        101
+      ]
+    },
+    {
+      "name": "ViewPlan_D",
+      "type": "DistanceY",
+      "measured_mm": 44999.999999999745,
+      "vertices": [
+        0,
+        107
+      ]
+    },
+    {
+      "name": "ViewStaff_W",
+      "type": "DistanceX",
+      "measured_mm": 17999.99999999995,
+      "vertices": [
+        0,
+        5
+      ]
+    },
+    {
+      "name": "ViewStaff_D",
+      "type": "DistanceY",
+      "measured_mm": 11999.99999999994,
+      "vertices": [
+        0,
+        11
+      ]
+    }
   ],
-  "native_pdf_exports": "local diagnostic exports; CAD source contains all four pages"
+  "parameter_edit_tests": [
+    {
+      "parameter": "StaffY",
+      "test_mm": 22000.0,
+      "object": "Staff_Back",
+      "actual_mm": 33800.0,
+      "passed": true
+    },
+    {
+      "parameter": "StaffX",
+      "test_mm": 23750.0,
+      "object": "Staff_Left",
+      "actual_mm": 23750.0,
+      "passed": true
+    },
+    {
+      "parameter": "PublicWCWidth",
+      "test_mm": 8500.0,
+      "object": "PubL_Right1",
+      "actual_mm": 8600.000000000002,
+      "passed": true
+    },
+    {
+      "parameter": "OuterWall",
+      "test_mm": 350.0,
+      "object": "Outer_Left",
+      "actual_mm": 350.0,
+      "passed": true
+    },
+    {
+      "parameter": "GateWide",
+      "test_mm": 1300.0,
+      "object": "Gate_A_0",
+      "actual_mm": 1880.0,
+      "passed": true
+    }
+  ],
+  "saved_after_gui_export": true,
+  "exported_pages": [
+    "freecad_A201.pdf",
+    "freecad_A202.pdf",
+    "freecad_A203.pdf",
+    "freecad_A204_live.pdf"
+  ],
+  "visual_review": "passed: A201, A202, A203 and A204 GUI exports rendered and inspected",
+  "preserved_other_documents": [
+    "admin_facility_v1",
+    "admin_facility_v2",
+    "redraw_gui_40b18ffc",
+    "redraw_gui_db882081"
+  ],
+  "publication_pdf_visual_review": "passed: all three A2 pages rendered and inspected"
 }
