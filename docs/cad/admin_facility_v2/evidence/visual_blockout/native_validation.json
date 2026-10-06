@@ -1,0 +1,285 @@
+{
+  "native_3d_shapes_valid": 302,
+  "original_28_artifacts_unchanged": true,
+  "new_entity_collisions": [],
+  "inherited_wall_overlap_records": [
+    {
+      "objects": [
+        "B3_Staff_Back",
+        "B3_StaffWC_Back"
+      ],
+      "volume_m3": 5.22
+    },
+    {
+      "objects": [
+        "B3_StaffWC_Right",
+        "B3_StaffStall_1_Side"
+      ],
+      "volume_m3": 2.5520000000000045
+    },
+    {
+      "objects": [
+        "B3_PubL_Right1",
+        "B3_FrontStallL_1_Side"
+      ],
+      "volume_m3": 2.552
+    },
+    {
+      "objects": [
+        "B3_PubL_Right2",
+        "B3_StallL_3_Side"
+      ],
+      "volume_m3": 2.7839999999999914
+    },
+    {
+      "objects": [
+        "B3_PubR_Right1",
+        "B3_FrontStallR_1_Side"
+      ],
+      "volume_m3": 2.552
+    },
+    {
+      "objects": [
+        "B3_PubR_Right2",
+        "B3_StallR_3_Side"
+      ],
+      "volume_m3": 2.7839999999999914
+    }
+  ],
+  "intentional_furniture_join_records": [],
+  "parameter_tests": [
+    {
+      "parameter": "StaffX",
+      "trial_mm": 23500,
+      "XY_follow_native_plan": true
+    },
+    {
+      "parameter": "PublicWCWidth",
+      "trial_mm": 8500,
+      "XY_follow_native_plan": true
+    },
+    {
+      "parameter": "Partition",
+      "trial_mm": 250,
+      "XY_follow_native_plan": true
+    },
+    {
+      "parameter": "WallHeight",
+      "trial_mm": 6000,
+      "all_walls_and_lintels_follow": true
+    }
+  ],
+  "line_of_sight_tests": {
+    "3.25": {
+      "GuideLeft": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "GuideRight": {
+        "unobstructed": false,
+        "wall_occluders": [
+          "B3_Staff_FrontR"
+        ]
+      },
+      "rear_exits": [
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_PubL_Front",
+            "B3_PubL_Back",
+            "B3_FrontStallL_0_Side",
+            "B3_FrontStallL_1_BackL"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_Back",
+            "B3_Staff_Left"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_Back",
+            "B3_Staff_Left",
+            "B3_StaffWC_FrontR",
+            "B3_StaffWC_Right"
+          ]
+        }
+      ]
+    },
+    "16.25": {
+      "GuideLeft": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "GuideRight": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "rear_exits": [
+        {
+          "unobstructed": true,
+          "wall_occluders": []
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_Back",
+            "B3_Staff_Left"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontL",
+            "B3_Staff_Right"
+          ]
+        }
+      ]
+    },
+    "29.25": {
+      "GuideLeft": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "GuideRight": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "rear_exits": [
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontL",
+            "B3_Staff_Left"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontL",
+            "B3_Staff_Back",
+            "B3_StaffWC_FrontL",
+            "B3_StaffWC_Back"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontR",
+            "B3_Staff_Right"
+          ]
+        }
+      ]
+    },
+    "35.75": {
+      "GuideLeft": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "GuideRight": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "rear_exits": [
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontL",
+            "B3_Staff_Left"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontR",
+            "B3_Staff_Back",
+            "B3_StaffWC_FrontR",
+            "B3_StaffWC_Back"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontR",
+            "B3_Staff_Right"
+          ]
+        }
+      ]
+    },
+    "48.75": {
+      "GuideLeft": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "GuideRight": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "rear_exits": [
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_FrontR",
+            "B3_Staff_Left"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_Back",
+            "B3_Staff_Right"
+          ]
+        },
+        {
+          "unobstructed": true,
+          "wall_occluders": []
+        }
+      ]
+    },
+    "61.75": {
+      "GuideLeft": {
+        "unobstructed": false,
+        "wall_occluders": [
+          "B3_Staff_FrontL"
+        ]
+      },
+      "GuideRight": {
+        "unobstructed": true,
+        "wall_occluders": []
+      },
+      "rear_exits": [
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_Back",
+            "B3_Staff_Right",
+            "B3_StaffWC_FrontL",
+            "B3_StaffWC_Left"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_Staff_Back",
+            "B3_Staff_Right"
+          ]
+        },
+        {
+          "unobstructed": false,
+          "wall_occluders": [
+            "B3_PubR_Front",
+            "B3_PubR_Back",
+            "B3_FrontStallR_0_Side",
+            "B3_FrontStallR_1_BackL"
+          ]
+        }
+      ]
+    }
+  },
+  "source_file_unchanged_by_readback": true,
+  "fcstd_sha256": "9909f593009409d92cb0b367a3ed9bbbe3b35ffa1a310f83690b6fb59ecd4413",
+  "collision_note": "Positive-volume intersections tested in native OCC. Shared inherited wall strips are recorded separately; coplanar contact has zero volume."
+}

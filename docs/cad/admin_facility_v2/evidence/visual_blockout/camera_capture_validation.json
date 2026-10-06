@@ -1,0 +1,58 @@
+{
+  "01_front_entry_oblique": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 82000 -78000 36000\n  orientation 0.92411029 0.22631541 0.30789852  1.3438532\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 112238.59\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 82000 -78000 36000\n  orientation 0.92411029 0.22631541 0.30789852  1.3438532\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 112238.59\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "02_after_auth_human_view": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21000\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21000\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "02b_after_auth_look_left": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 0.40602556 0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 0.40602556 0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "02c_after_auth_look_right": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 -0.40602556 -0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 9000 1600\n  orientation 0.81871027 -0.40602556 -0.40602556  1.7695007\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 21480.457\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "02d_after_auth_entry_C": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 16250 9000 1600\n  orientation 0.99929613 0.026525103 0.026525103  1.5715004\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 16022.562\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 16250 9000 1600\n  orientation 0.99929613 0.026525103 0.026525103  1.5715004\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 16022.562\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "03_hall_to_rear_exits": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 12000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33000\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 12000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33000\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "04_staff_area_oblique": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 49000 11000 25000\n  orientation 0.66083479 0.27970093 0.69646591  1.0921484\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33230.258\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 49000 11000 25000\n  orientation 0.66083479 0.27970093 0.69646591  1.0921484\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 33230.258\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "05_public_wc_oblique": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 4300 23000 25000\n  orientation 1.0000058 0 0  0.11942822\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 25179.357\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 4300 23000 25000\n  orientation 1.0000058 0 0  0.11942822\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 25179.357\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "04b_staff_wc_overhead": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 31700 12000\n  orientation 1.00006 0 0  0.024993295\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 12003.749\n  heightAngle 0.43633232\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 31700 12000\n  orientation 1.00006 0 0  0.024993295\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 12003.749\n  heightAngle 0.43633232\n\n}\n"
+  },
+  "06_overall_birdseye": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 91000 -54000 91000\n  orientation 0.76707506 0.25569168 0.58840263  1.0308541\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 133368.84\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 91000 -54000 91000\n  orientation 0.76707506 0.25569168 0.58840263  1.0308541\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 133368.84\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "03b_rear_hall_human_view": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 9000\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 9000\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "03c_rear_hall_look_left": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 0.48686689 0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 0.48686689 0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "03d_rear_hall_look_right": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 -0.48686689 -0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 36000 1600\n  orientation 0.72520435 -0.48686689 -0.48686689  1.8867084\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 23769.729\n  heightAngle 0.66322511\n\n}\n"
+  },
+  "03e_rear_exits_overview": {
+    "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 -12000 28000\n  orientation 1.0000001 0 0  1.0335115\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 54708.316\n  heightAngle 0.66322511\n\n}\n",
+    "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 32500 -12000 28000\n  orientation 1.0000001 0 0  1.0335115\n  nearDistance 50\n  farDistance 500000\n  aspectRatio 1\n  focalDistance 54708.316\n  heightAngle 0.66322511\n\n}\n"
+  }
+}

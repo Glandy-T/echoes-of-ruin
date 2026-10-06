@@ -1,0 +1,89 @@
+"""Render normal-perspective native FreeCAD views, retaining a reusable model."""
+from pathlib import Path
+import sys,json,math,time,traceback
+import FreeCAD as App
+import FreeCADGui as Gui
+from pivy import coin
+
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT/'evidence/visual_blockout';OUT.mkdir(parents=True,exist_ok=True)
+report={}
+try:
+ for old in list(App.listDocuments().values()):
+  if old.FileName and Path(old.FileName).name=='admin_facility_3d_blockout_v1.FCStd':App.closeDocument(old.Name)
+ doc=App.openDocument(str(ROOT/'admin_facility_3d_blockout_v1.FCStd'));App.setActiveDocument(doc.Name)
+ palette={'wall':(.84,.85,.86),'floor':(.92,.92,.92),'gate':(.35,.41,.43),'table':(.49,.51,.53),'chair':(.28,.30,.32),'monitor':(.16,.18,.20),'fixture':(.91,.91,.91),'basin':(.76,.78,.79),'guide':(.38,.48,.53),'door':(.59,.61,.63),'reference':(.40,.43,.45)}
+ for o in doc.Objects:
+  if 'BlockRole' in o.PropertiesList:
+   o.ViewObject.ShapeColor=palette.get(o.BlockRole,(.7,.7,.7));o.ViewObject.LineColor=(.20,.22,.24);o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.LineWidth=1.
+ Gui.activateWorkbench('PartWorkbench');Gui.updateGui()
+ view=Gui.activeDocument().activeView();view.setCameraType('Perspective')
+ for i in range(20):Gui.updateGui();time.sleep(.1)
+ def show_mode(mode):
+  for o in doc.Objects:
+   if o.ViewObject:o.Visibility=o.Name.startswith('B3_') and o.Name!='B3_Roof'
+  # Open entries and rear exit panels for circulation/visibility review.
+  for o in doc.Block_SlidingDoors.Group:o.Visibility=False
+  hidden=[]
+  if mode=='staff':
+   # Front and right walls are removed only in this inspection screenshot.
+   names=['Staff_FrontL','Staff_FrontR','Staff_Right','Staff_Door_Leaf']
+   for name in names:
+    o=doc.getObject('B3_'+name)
+    if o:o.Visibility=False;hidden.append(o.Name)
+   doc.B3_Lintel_Staff_Door_Leaf.Visibility=False;hidden.append('B3_Lintel_Staff_Door_Leaf')
+  if mode=='wc':
+   for o in doc.Objects:
+    if 'BlockRole' in o.PropertiesList and o.PlanOwner!='PublicL' and o.Name!='B3_Floor':o.Visibility=False;hidden.append(o.Name)
+   # Keep all left private-room walls; high view looks through the open roof.
+  if mode=='bird':
+   for o in doc.Block_References.Group:o.Visibility=False
+  if mode=='human':doc.B3_Roof.Visibility=True
+  return hidden
+ def camera(pos,target,angle=38):
+  p=App.Vector(*[v*1000 for v in pos]);t=App.Vector(*[v*1000 for v in target]);z=p-t;z.normalize()
+  up=App.Vector(0,0,1);x=up.cross(z);x.normalize();y=z.cross(x);y.normalize()
+  rot=App.Rotation(x,y,z,'ZXY')
+  # Drive the actual Coin node, avoiding FreeCAD navigation camera transitions.
+  node=view.getCameraNode();node.orientation.setValue(coin.SbRotation(*rot.Q))
+  node.position.setValue(p.x,p.y,p.z);node.heightAngle.setValue(math.radians(angle))
+  node.nearDistance.setValue(50.);node.farDistance.setValue(500000.);node.focalDistance.setValue((p-t).Length)
+  return {'position_m':pos,'target_m':target,'vertical_fov_deg':angle,'approx_horizontal_fov_deg':math.degrees(2*math.atan(math.tan(math.radians(angle/2))*1800/1100)),'projection':'perspective','roof_hidden':True,'sliding_panels_hidden_as_open':True}
+ views=[
+  ('01_front_entry_oblique',(82,-78,36),(32.5,17,2.5),38,'full'),
+  ('02_after_auth_human_view',(32.5,9,1.6),(32.5,30,1.6),38,'human'),
+  ('02b_after_auth_look_left',(32.5,9,1.6),(15.4,22,1.6),38,'human'),
+  ('02c_after_auth_look_right',(32.5,9,1.6),(49.6,22,1.6),38,'human'),
+  ('02d_after_auth_entry_C',(16.25,9,1.6),(15.4,25,1.6),38,'human'),
+  ('03_hall_to_rear_exits',(32.5,12,1.6),(32.5,45,1.6),38,'human'),
+  ('04_staff_area_oblique',(49,11,25),(32.5,27,1),38,'staff'),
+  ('05_public_wc_oblique',(4.3,23,25),(4.3,26,0),38,'wc'),
+  ('04b_staff_wc_overhead',(32.5,31.7,12),(32.5,32,0),25,'staff'),
+  ('06_overall_birdseye',(91,-54,91),(32.5,24,0),38,'bird'),
+  ('03b_rear_hall_human_view',(32.5,36,1.6),(32.5,45,1.6),38,'human'),
+  ('03c_rear_hall_look_left',(32.5,36,1.6),(10.5,45,1.6),38,'human'),
+  ('03d_rear_hall_look_right',(32.5,36,1.6),(54.5,45,1.6),38,'human'),
+  ('03e_rear_exits_overview',(32.5,-12,28),(32.5,35,0),38,'full'),
+ ]
+ outputs=[]
+ for name,pos,target,angle,mode in views:
+  hidden=show_mode(mode)
+  for i in range(4):Gui.updateGui();time.sleep(.1)
+  # Capture directly after the actual Coin setters; do not yield to navigation
+  # event processing between setting the camera and saveImage.
+  config=camera(pos,target,angle)
+  node=view.getCameraNode();actual=tuple(node.position.getValue())
+  assert all(abs(a-b*1000)<.1 for a,b in zip(actual,pos)),(name,'camera position',actual,pos)
+  assert abs(node.heightAngle.getValue()-math.radians(angle))<1e-6
+  config['actual_camera_before_capture']=view.getCamera()
+  view.saveImage(str(OUT/(name+'.png')),1800,1100,'White')
+  config['actual_camera_after_capture']=view.getCamera()
+  config['roof_hidden']=mode!='human'
+  config.update(name=name,hidden_for_cutaway=hidden,width_px=1800,height_px=1100);outputs.append(config)
+ show_mode('bird');camera((91,-54,91),(32.5,24,0),38)
+ doc.recompute();doc.save()
+ report=json.loads((ROOT/'visual_blockout_validation.json').read_text(encoding='utf-8'))
+ report['native_freecad_gui_rendered']=True;report['views']=outputs;report['visual_review']='pending'
+ report['camera_note']='Main cameras use 38-degree vertical perspective (~59 degree horizontal at 1800x1100); staff WC detail uses a narrower 25-degree vertical field. Supplementary left/right views are rotations at the same eye position, not wide-angle composites. Human views include the 5.8m ceiling; inspection views hide it.'
+except Exception:report={'error':traceback.format_exc()}
+(ROOT/'visual_blockout_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

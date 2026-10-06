@@ -1,0 +1,94 @@
+{
+  "VISUAL_BLOCKOUT_PASS.md": {
+    "bytes": 5844,
+    "sha256": "c9062774c439bd8b969cd4d3132b8ba37a9f30c9119947ad0608b9e04657d503"
+  },
+  "build_visual_blockout.py": {
+    "bytes": 10746,
+    "sha256": "e71bf0de79174916deff1beb3e56eafdd5ab40df51512cd3d27703f1bf78a2b3"
+  },
+  "render_visual_blockout.FCMacro": {
+    "bytes": 5729,
+    "sha256": "e4f247cc0394d8d4aca97122dc8609b4dd31ff05a62351bfcd2768adf79a796d"
+  },
+  "validate_visual_blockout.py": {
+    "bytes": 4037,
+    "sha256": "b8f9b1c92c60b7751d3042d770c0f23ffd64575251d9defe6763efa2ed6b8463"
+  },
+  "admin_facility_3d_blockout_v1.FCStd": {
+    "bytes": 1084908,
+    "sha256": "9909f593009409d92cb0b367a3ed9bbbe3b35ffa1a310f83690b6fb59ecd4413"
+  },
+  "visual_blockout_validation.json": {
+    "bytes": 23583,
+    "sha256": "ab4819fa97013870b9a6a02a7137f307cefbc20db0f2bceed44163872e966dee"
+  },
+  "evidence/visual_blockout/01_front_entry_oblique.png": {
+    "bytes": 25394,
+    "sha256": "a8e415751e8444d7fb2ce66109687644a5f36d8b70377f97ffc323a8f4332944"
+  },
+  "evidence/visual_blockout/02_after_auth_human_view.png": {
+    "bytes": 10478,
+    "sha256": "efce99f7c3843afc9cced86a8fc79e379cdc93ee9a0d530f5a0af7034c22c13b"
+  },
+  "evidence/visual_blockout/02b_after_auth_look_left.png": {
+    "bytes": 12069,
+    "sha256": "49e69b637682ed907d62cbab14b1ae74f519cd854b552a1c7b5b088f9b77eb17"
+  },
+  "evidence/visual_blockout/02c_after_auth_look_right.png": {
+    "bytes": 11726,
+    "sha256": "1e658b6a28afbc051970feca90142b28fe3fd3338a155ba980798e2046fd7f2c"
+  },
+  "evidence/visual_blockout/02d_after_auth_entry_C.png": {
+    "bytes": 12919,
+    "sha256": "c0a6d2a20385d63c53bb72fec0b7d36a45f577eef506b49252143eb8d6abdcc3"
+  },
+  "evidence/visual_blockout/03_hall_to_rear_exits.png": {
+    "bytes": 10958,
+    "sha256": "a31f9357e1e600b7b362360c692e759b76d914ec666ff33ba3f2c6b2a10b92dd"
+  },
+  "evidence/visual_blockout/03b_rear_hall_human_view.png": {
+    "bytes": 9511,
+    "sha256": "5d3c550b3ed54f861b447d28a2cc0a2210d10c485d0585a83b71ce6625939ce0"
+  },
+  "evidence/visual_blockout/03c_rear_hall_look_left.png": {
+    "bytes": 11728,
+    "sha256": "6f02699691aa3481bd4905a0f9cf687e7c9be2d469a28817f90dbf131de84e0c"
+  },
+  "evidence/visual_blockout/03d_rear_hall_look_right.png": {
+    "bytes": 11696,
+    "sha256": "cbe200a0a5020eb94227ce63e89f2cf4249fce4503acb0f4eb64d87f9c0c0d47"
+  },
+  "evidence/visual_blockout/03e_rear_exits_overview.png": {
+    "bytes": 27784,
+    "sha256": "7a59aea60d06928b0ae140bbcb70410eaaadf5f79192b5699eb05778e2d74a50"
+  },
+  "evidence/visual_blockout/04_staff_area_oblique.png": {
+    "bytes": 52019,
+    "sha256": "f492e1cecaf6874d870637001172aa6cf10fdba0f83e392de72b294c5042c1ba"
+  },
+  "evidence/visual_blockout/04b_staff_wc_overhead.png": {
+    "bytes": 15074,
+    "sha256": "e11428d3c766718e66feb46d94ebd280272885ce8ec42b730dc6e2a760457d7f"
+  },
+  "evidence/visual_blockout/05_public_wc_oblique.png": {
+    "bytes": 18858,
+    "sha256": "1b2053293fcc6ddcdd82de3815bd6976fbd3fd16c232733fb7268348ccb0fc44"
+  },
+  "evidence/visual_blockout/06_overall_birdseye.png": {
+    "bytes": 44346,
+    "sha256": "6649bea487fc23bbe3f606e7f7b507a5346158733de434ec1630d7eea446da80"
+  },
+  "evidence/visual_blockout/camera_capture_validation.json": {
+    "bytes": 9262,
+    "sha256": "01ccc40ad71b0c0671a97ab03ad5254230ca7d9bcc62d9445facd747fe316485"
+  },
+  "evidence/visual_blockout/index.html": {
+    "bytes": 6634,
+    "sha256": "9bae240d63b48012d7ec27886fd9d77202e4f83d86e550b480f2e4ebded7a074"
+  },
+  "evidence/visual_blockout/native_validation.json": {
+    "bytes": 6241,
+    "sha256": "1d2a00810e2fb18e83d9919157242f68c4a83ef751cfcc2ca9c2ab8b3caf48f7"
+  }
+}
