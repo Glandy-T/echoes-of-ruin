@@ -46,10 +46,11 @@ for key,value in [('StaffY',22.),('StaffX',23.75),('PublicWCWidth',8.5),('OuterW
 validate_geometry()
 errors=[s.Name for s in doc.Objects if any('error' in str(q).lower() or 'invalid' in str(q).lower() for q in s.State)];assert not errors,errors
 assert abs(doc.AreaReview.GrossArea.getValueAs('m^2').Value-2925)<1e-8
-assert abs(doc.AreaReview.StaffArea.getValueAs('m^2').Value-216)<1e-8
+assert abs(doc.AreaReview.StaffArea.getValueAs('m^2').Value-280)<1e-8
+assert abs(doc.AreaReview.StaffWCIncludedArea.getValueAs('m^2').Value-18)<1e-8
 assert abs(doc.AreaReview.PublicWCCombinedArea.getValueAs('m^2').Value-160)<1e-8
 App.closeDocument(doc.Name);assert hashlib.sha256(target.read_bytes()).hexdigest()==before
-report=dict(revision='v2-R2',saved_fcstd_sha256=before,fully_constrained_sketches=feature_count+2,
+report=dict(revision='v2-FINAL',saved_fcstd_sha256=before,fully_constrained_sketches=feature_count+2,
     native_shape_readback=f'all {feature_count} features match metre layout',parameter_tests=tested,cad_errors=errors,
     actual_placement_verified=True,obstacle_fit_verified=True,geometric_checks=checks,
     toilet_code_compliance_verified=False,egress_verified=False,throughput_verified=False,file_unchanged_by_validation=True)

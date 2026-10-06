@@ -15,7 +15,7 @@ def color(value):
     if len(value)==4 and value.startswith('#'):value='#'+''.join(ch*2 for ch in value[1:])
     return HexColor(value)
 pdf=canvas.Canvas(str(target),pagesize=(594*mm,420*mm),pageCompression=1)
-pdf.setTitle('管理设施单层建筑方案平面图 v2-R2');pdf.setAuthor('Echoes of Ruin / FreeCAD');issues=[]
+pdf.setTitle('管理设施单层建筑方案平面图 v2-FINAL');pdf.setAuthor('Echoes of Ruin / FreeCAD');issues=[]
 for page in data['pages']:
     for a in page['items']:
         k=a['k'];pdf.setStrokeColor(color(a.get('color','#111')));pdf.setFillColor(color(a.get('color','#111')))
@@ -38,4 +38,4 @@ r=PdfReader(str(target));assert len(r.pages)==3
 for p,code in zip(r.pages,['A201','A202','A203']):
     content=p.extract_text();assert code in content and ('P' in content or 'TBD' in content)
     assert abs(float(p.mediabox.width)/mm-594)<.01 and abs(float(p.mediabox.height)/mm-420)<.01
-print(json.dumps(dict(pdf=str(target),revision='v2-R2',pages=3,page_size_mm=[594,420],text_bounds='passed',page_readback='passed'),ensure_ascii=False))
+print(json.dumps(dict(pdf=str(target),revision='v2-FINAL',pages=3,page_size_mm=[594,420],text_bounds='passed',page_readback='passed'),ensure_ascii=False))

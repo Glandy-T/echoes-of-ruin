@@ -1,8 +1,8 @@
 {
-  "revision": "v2-R2",
+  "revision": "v2-FINAL",
   "native_gui_opened": true,
-  "source_main": "40b2a29ba7cad16966f9f0aaec14a2fa4588e1d6",
-  "sketch_count": 296,
+  "source_main": "4b9a3609d0c76f301c0dd75429d30f0c5a7d4013",
+  "sketch_count": 335,
   "fully_constrained": true,
   "native_dimensions": [
     {
@@ -26,7 +26,7 @@
     {
       "name": "ViewStaff_W",
       "type": "DistanceX",
-      "measured_mm": 17999.99999999995,
+      "measured_mm": 20000.000000000127,
       "vertices": [
         0,
         5
@@ -35,7 +35,7 @@
     {
       "name": "ViewStaff_D",
       "type": "DistanceY",
-      "measured_mm": 11999.99999999994,
+      "measured_mm": 14000.00000000002,
       "vertices": [
         0,
         11
@@ -45,16 +45,16 @@
   "parameter_edit_tests": [
     {
       "parameter": "StaffY",
-      "test_mm": 22000.0,
+      "test_mm": 21000.0,
       "object": "Staff_Back",
-      "actual_mm": 33800.0,
+      "actual_mm": 34800.0,
       "passed": true
     },
     {
       "parameter": "StaffX",
-      "test_mm": 23750.0,
+      "test_mm": 22750.0,
       "object": "Staff_Left",
-      "actual_mm": 23750.0,
+      "actual_mm": 22750.0,
       "passed": true
     },
     {
@@ -92,7 +92,8 @@
     "admin_facility_v2",
     "redraw_gui_40b18ffc",
     "redraw_gui_7482fee4",
-    "redraw_gui_db882081"
+    "redraw_gui_db882081",
+    "redraw_gui_e2be0a8f"
   ],
   "publication_pdf_visual_review": "passed: all three A2 pages rendered and inspected"
 }

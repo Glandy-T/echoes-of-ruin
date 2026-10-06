@@ -8,8 +8,8 @@ import math
 PARAMETERS = {
     'EnvelopeWidth': (65., '基准', '当前外包宽'),
     'EnvelopeDepth': (45., '基准', '当前外包进深'),
-    'StaffWidth': (18., '用户确认', '工作人员区外边界宽'),
-    'StaffDepth': (12., '用户确认', '工作人员区外边界深'),
+    'StaffWidth': (20., 'PROVISIONAL', 'FINAL_PASS工作人员区测试外包宽'),
+    'StaffDepth': (14., 'PROVISIONAL', 'FINAL_PASS工作人员区测试外包深'),
     'OuterWall': (.30, 'PROVISIONAL', '外墙图示厚度，计入外包内'),
     'Partition': (.20, 'PROVISIONAL', '隔墙图示厚度，计入各区外边界内'),
     'AuthDepth': (8., 'PROVISIONAL', '认证区从前外墙内面起的进深'),
@@ -17,25 +17,31 @@ PARAMETERS = {
     'RearSideOpening': (6., 'PROVISIONAL', '左右后出口开口，历史草图测试值'),
     'RearCenterOpening': (8., 'PROVISIONAL', '中央后出口开口，历史草图测试值'),
     'RearOffset': (22., 'PROVISIONAL', '左右后出口中心距建筑中轴'),
-    'StaffY': (21., 'PROVISIONAL', '工作人员区外边界前侧Y'),
-    'StaffX': (23.5, 'PROVISIONAL', '工作人员区外边界左侧X，初始居中'),
+    'StaffY': (20., 'PROVISIONAL', '保持原中心Y=27 m的测试前边界'),
+    'StaffX': (22.5, 'PROVISIONAL', '保持建筑中轴X=32.5 m的测试左边界'),
     'StaffOpening': (1.2, 'PROVISIONAL', '工作人员区前侧门洞'),
-    'StaffWCWidth': (3., 'PROVISIONAL', '内部厕所外边界宽'),
-    'StaffWCDepth': (3., 'PROVISIONAL', '内部厕所外边界深'),
-    'StaffWCOpening': (.9, 'PROVISIONAL', '内部厕所前侧门洞'),
+    'StaffWCWidth': (4.5, 'PROVISIONAL', '工作人员卫生间测试外包宽'),
+    'StaffWCDepth': (4., 'PROVISIONAL', '工作人员卫生间测试外包深'),
+    'StaffWCOpening': (1., 'PROVISIONAL', '卫生间前侧门洞，外开测试'),
+    'StaffStallWidth': (1.95, 'PROVISIONAL', '工作人员独立隔间图示净宽'),
+    'StaffStallDepth': (2., 'PROVISIONAL', '工作人员独立隔间图示净深'),
+    'StaffStallOpening': (1., 'PROVISIONAL', '工作人员独立隔间门洞'),
+    'StaffStallDoorInset': (.10, 'PROVISIONAL', '两隔间门向共享中部偏移，避开洗手位'),
+    'DoorApproachDepth': (1., 'PROVISIONAL', '各平开门两侧接近空间测试深度，非规范认证'),
+    'StaffTurnDiameter': (1.2, 'PROVISIONAL', '工作人员卫生间正常转身空间测试圆，非轮椅认证'),
     'PublicWCWidth': (8., 'PROVISIONAL', '每侧公共厕所外边界宽'),
     'PublicWCDepth': (10., 'PROVISIONAL', '每侧公共厕所外边界深'),
     'PublicWCY': (21., 'PROVISIONAL', '公共厕所外边界前侧Y'),
     'PublicOpening': (1.2, 'PROVISIONAL', '公共厕所朝大厅的门洞'),
     'PublicDoorOffset': (4.4, 'PROVISIONAL', '公共厕所门洞起点距前边界'),
-    'UniversalWidth': (3., 'PROVISIONAL', '通用厕间图示净宽'),
-    'UniversalDepth': (3., 'PROVISIONAL', '通用厕间图示净深'),
-    'UniversalOpening': (1., 'PROVISIONAL', '通用厕间门洞'),
-    'UniversalDoorOffset': (.6, 'PROVISIONAL', '通用厕间门洞起点距前内面'),
+    'LargeWidth': (3., 'PROVISIONAL', '较大独立隔间图示净宽'),
+    'LargeDepth': (3., 'PROVISIONAL', '较大独立隔间图示净深'),
+    'LargeOpening': (1.1, 'PROVISIONAL', '较大独立隔间门洞'),
     'TurnDiameter': (1.5, 'PROVISIONAL', '空间测试圆直径，非合规认证'),
-    'StallWidth': (1.6, 'PROVISIONAL', '普通厕间图示净宽'),
-    'StallDepth': (2., 'PROVISIONAL', '普通厕间图示净深'),
-    'StallOpening': (.8, 'PROVISIONAL', '普通厕间门洞'),
+    'StallWidth': (1.75, 'PROVISIONAL', '公共后排普通独立隔间图示净宽'),
+    'PublicFrontStallWidth': (2.1, 'PROVISIONAL', '公共前排普通独立隔间图示净宽'),
+    'StallDepth': (2.2, 'PROVISIONAL', '公共普通独立隔间图示净深'),
+    'StallOpening': (1., 'PROVISIONAL', '公共普通独立隔间门洞'),
     'GateWide': (1.2, 'PROVISIONAL', '每组首条通道图示净宽'),
     'GateStandard': (.9, 'PROVISIONAL', '其他认证通道图示净宽'),
     'GateBarrier': (.18, 'PROVISIONAL', '闸机设备条宽'),
@@ -63,20 +69,22 @@ PARAMETERS = {
     'MonitorDepth': (.12, 'PROVISIONAL', '监控屏平面占位深'),
     'MonitorGap': (.15, 'PROVISIONAL', '双屏横向间距'),
     'MonitorFrontInset': (.10, 'PROVISIONAL', '屏幕距桌面前端偏移'),
-    'StaffToiletXOffset': (.35, 'PROVISIONAL', '内部坐便器距左内墙偏移'),
     'StaffToiletRearGap': (.20, 'PROVISIONAL', '内部坐便器距后内墙余量'),
     'BasinMargin': (.15, 'PROVISIONAL', '内部/通用洗面台距侧后内墙余量'),
-    'UniversalTurnX': (1.8, 'PROVISIONAL', '通用厕间测试圆心距左内面'),
-    'UniversalTurnY': (1.2, 'PROVISIONAL', '通用厕间测试圆心距前内面'),
-    'UniversalToiletXOffset': (.45, 'PROVISIONAL', '通用坐便器距左内面偏移'),
-    'UniversalToiletRearGap': (.45, 'PROVISIONAL', '通用坐便器距后内面余量'),
+    'LargeTurnX': (1.8, 'PROVISIONAL', '较大隔间测试圆心距左内面'),
+    'LargeTurnY': (1.2, 'PROVISIONAL', '较大隔间测试圆心距前内面'),
+    'LargeToiletXOffset': (.45, 'PROVISIONAL', '较大隔间坐便器距左内面偏移'),
+    'LargeToiletFrontGap': (.45, 'PROVISIONAL', '较大隔间坐便器距前内面余量'),
     'StallToiletRearGap': (.25, 'PROVISIONAL', '普通厕间坐便器后侧余量'),
-    'PublicBasinY': (4.5, 'PROVISIONAL', '公共洗面台首个前端距节点前边界'),
-    'PublicBasinPitch': (.95, 'PROVISIONAL', '公共洗面台纵向中心节距'),
+    'PublicBasinY': (3.55, 'PROVISIONAL', '共享洗手区首台距公共节点前边界'),
+    'PublicBasinPitch': (1.05, 'PROVISIONAL', '共享洗面台侧墙纵向节距'),
     'GuideYInset': (2., 'PROVISIONAL', '地图前端距工作人员区前侧Y；正面朝-Y'),
 }
 COUNTS = {'GateCount': (2,'PROVISIONAL','每组认证通道数；修改数量须重建'),
-          'StallCount': (4,'PROVISIONAL','每侧普通厕间数；另有一通用厕间'),
+          'StallCount': (4,'PROVISIONAL','每侧公共后排独立隔间数'),
+          'PublicFrontStallCount': (2,'PROVISIONAL','每侧公共前排普通独立隔间数；另有1较大隔间'),
+          'StaffStallCount': (2,'已确认','工作人员卫生间2个全封闭独立隔间'),
+          'StaffBasinCount': (2,'已确认','工作人员卫生间2个洗手位'),
           'BasinCount': (3,'PROVISIONAL','每側公共洗面台数；修改数量须重建'),
           'WorkstationCount': (10,'已确认','A–J十个监控/日志工位，当前两排五个')}
 
@@ -85,6 +93,7 @@ def make_layout(overrides=None):
     values.update({k:v[0] for k,v in COUNTS.items()})
     if overrides: values.update(overrides)
     assert values['WorkstationCount']==10, '当前权威要求必须保留A–J十个工位'
+    assert values['StaffStallCount']==2 and values['StaffBasinCount']==2
     def number(expr): return eval(str(expr), {'__builtins__':{}}, values)
     features=[]
     def add(kind,name,role,owner,**kwargs):
@@ -128,19 +137,30 @@ def make_layout(overrides=None):
         bay_right='EnvelopeWidth-OuterWall' if i==9 else f'EnvelopeWidth/10*{i+1}-Partition/2'
         rect(f'GateFence_{letter}_Left','gate','Auth'+letter,bay_left,'GateY+GateLength/2-GateFence/2',f'({left})-({bay_left})','GateFence')
         rect(f'GateFence_{letter}_Right','gate','Auth'+letter,f'({left})+({footprint})','GateY+GateLength/2-GateFence/2',f'({bay_right})-({left})-({footprint})','GateFence')
-    # Staff boundary is 18x12; wall is within that confirmed planning boundary.
-    def enclosed(name,owner,x,y,w,d,opening):
+    # FINAL_PASS provisional boundary; wall thickness is inside the envelope.
+    def enclosed(name,owner,x,y,w,d,opening,outward=False):
         a=f'({x})+(({w})-({opening}))/2';b=f'({a})+({opening})'
         wall(name+'_FrontL',owner,x,y,f'({a})-({x})',P)
         wall(name+'_FrontR',owner,b,y,f'({x})+({w})-({b})',P)
         wall(name+'_Back',owner,x,f'({y})+({d})-Partition',w,P)
         wall(name+'_Left',owner,x,f'({y})+Partition',P,f'({d})-2*Partition')
         wall(name+'_Right',owner,f'({x})+({w})-Partition',f'({y})+Partition',P,f'({d})-2*Partition')
-        door(name+'_Door',owner,a,f'({y})+Partition',opening,0,90)
+        door(name+'_Door',owner,a,y if outward else f'({y})+Partition',opening,270 if outward else 0,270 if outward else 90)
     enclosed('Staff','Staff',SX,SY,'StaffWidth','StaffDepth','StaffOpening')
-    enclosed('StaffWC','Staff',WX,WY,'StaffWCWidth','StaffWCDepth','StaffWCOpening')
-    rect('StaffToilet','fixture','Staff',f'({WX})+Partition+StaffToiletXOffset',f'({WY})+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap','FixtureWidth','FixtureDepth')
-    rect('StaffBasin','basin','Staff',f'({WX})+StaffWCWidth-Partition-BasinWidth-BasinMargin',f'({WY})+StaffWCDepth-Partition-BasinDepth-BasinMargin','BasinWidth','BasinDepth')
+    enclosed('StaffWC','Staff',WX,WY,'StaffWCWidth','StaffWCDepth','StaffWCOpening',True)
+    sfy=f'({WY})+StaffWCDepth-Partition-StaffStallDepth'
+    for i in range(2):
+        xx=f'({WX})+Partition+{i}*(StaffStallWidth+Partition)';shift=1 if i==0 else -1
+        hole=f'({xx})+(StaffStallWidth-StaffStallOpening)/2+{shift}*StaffStallDoorInset'
+        wall(f'StaffStall_{i}_FL','Staff',xx,f'({sfy})-Partition',f'({hole})-({xx})',P)
+        wall(f'StaffStall_{i}_FR','Staff',f'({hole})+StaffStallOpening',f'({sfy})-Partition',f'({xx})+StaffStallWidth-({hole})-StaffStallOpening',P)
+        wall(f'StaffStall_{i}_Side','Staff',f'({xx})+StaffStallWidth',f'({sfy})-Partition',P,'StaffStallDepth+Partition')
+        door(f'StaffStall_{i}_Door','Staff',hole,sfy,'StaffStallOpening',0,90)
+        rect(f'StaffStall_{i}_Toilet','fixture','Staff',f'({xx})+(StaffStallWidth-FixtureWidth)/2',f'({WY})+StaffWCDepth-Partition-FixtureDepth-StaffToiletRearGap','FixtureWidth','FixtureDepth')
+    for i in range(2):
+        bx=f'({WX})+Partition' if i==0 else f'({WX})+StaffWCWidth-Partition-BasinDepth'
+        rect(f'StaffBasin_{i}','basin','Staff',bx,f'({WY})+Partition+BasinMargin','BasinDepth','BasinWidth')
+    circle('StaffWC_Turn','Staff',f'({WX})+StaffWCWidth/2',f'({WY})+Partition+StaffTurnDiameter/2+BasinMargin','StaffTurnDiameter/2')
     row_span='5*TableWidth+4*TableGap'
     for i,letter in enumerate('ABCDEFGHIJ'):
         row,col=divmod(i,5)
@@ -162,14 +182,22 @@ def make_layout(overrides=None):
     wall('PubL_Right2','PublicL',hx,'PublicWCY+PublicDoorOffset+PublicOpening',P,'PublicWCDepth-Partition-PublicDoorOffset-PublicOpening')
     door('PubL_Entry','PublicL',hx,hy,'PublicOpening',90,180)
     ux='OuterWall+Partition';uy='PublicWCY+Partition'
-    wall('UniversalL_Back','PublicL',ux,'PublicWCY+Partition+UniversalDepth','UniversalWidth+Partition',P)
-    uxr='OuterWall+Partition+UniversalWidth'
-    wall('UniversalL_Right1','PublicL',uxr,uy,P,'UniversalDoorOffset')
-    wall('UniversalL_Right2','PublicL',uxr,'PublicWCY+Partition+UniversalDoorOffset+UniversalOpening',P,'UniversalDepth-UniversalDoorOffset-UniversalOpening')
-    door('UniversalL_Door','PublicL',uxr,'PublicWCY+Partition+UniversalDoorOffset','UniversalOpening',0,0)
-    circle('UniversalL_Turn','PublicL','OuterWall+Partition+UniversalTurnX','PublicWCY+Partition+UniversalTurnY','TurnDiameter/2')
-    rect('UniversalL_Toilet','fixture','PublicL','OuterWall+Partition+UniversalToiletXOffset','PublicWCY+Partition+UniversalDepth-FixtureDepth-UniversalToiletRearGap','FixtureWidth','FixtureDepth')
-    rect('UniversalL_Basin','basin','PublicL','OuterWall+Partition+UniversalWidth-BasinWidth-BasinMargin','PublicWCY+Partition+UniversalDepth-BasinDepth-BasinMargin','BasinWidth','BasinDepth')
+    # Front row: one larger room + two ordinary rooms, all fully enclosed.
+    def front_room(name,xx,width,depth,opening,large=False):
+        rear=f'PublicWCY+Partition+({depth})';hole=f'({xx})+(({width})-({opening}))/2'
+        wall(name+'_BackL','PublicL',xx,rear,f'({hole})-({xx})',P)
+        wall(name+'_BackR','PublicL',f'({hole})+({opening})',rear,f'({width})-(({opening})+({width}))/2',P)
+        wall(name+'_Side','PublicL',f'({xx})+({width})',uy,P,depth)
+        door(name+'_Door','PublicL',hole,rear,opening,270,270)
+        fx=f'({xx})+LargeToiletXOffset' if large else f'({xx})+(({width})-FixtureWidth)/2'
+        fy='PublicWCY+Partition+LargeToiletFrontGap' if large else 'PublicWCY+Partition+StallToiletRearGap'
+        rect(name+'_Toilet','fixture','PublicL',fx,fy,'FixtureWidth','FixtureDepth')
+    front_room('LargeL',ux,'LargeWidth','LargeDepth','LargeOpening',True)
+    circle('LargeL_Turn','PublicL','OuterWall+Partition+LargeTurnX','PublicWCY+Partition+LargeTurnY','TurnDiameter/2')
+    for i in range(int(values['PublicFrontStallCount'])):
+        xx=f'OuterWall+Partition+LargeWidth+Partition+{i}*(PublicFrontStallWidth+Partition)'
+        front_room(f'FrontStallL_{i}',xx,'PublicFrontStallWidth','StallDepth','StallOpening')
+    # Rear row faces the common wash/entry lobby; doors swing into each room.
     fy='PublicWCY+PublicWCDepth-Partition-StallDepth';front=f'({fy})-Partition'
     for i in range(int(values['StallCount'])):
         xx=f'OuterWall+Partition+{i}*(StallWidth+Partition)'
@@ -179,10 +207,11 @@ def make_layout(overrides=None):
         wall(f'StallL_{i}_Side','PublicL',f'({xx})+StallWidth',front,P,'StallDepth+Partition')
         door(f'StallL_{i}_Door','PublicL',hole,fy,'StallOpening',0,90)
         rect(f'StallL_{i}_Toilet','fixture','PublicL',f'({xx})+(StallWidth-FixtureWidth)/2','PublicWCY+PublicWCDepth-Partition-FixtureDepth-StallToiletRearGap','FixtureWidth','FixtureDepth')
-    for i in range(int(values['BasinCount'])):rect(f'PublicL_Basin_{i}','basin','PublicL','OuterWall+Partition',f'PublicWCY+PublicBasinY+{i}*PublicBasinPitch','BasinDepth','BasinWidth')
+    for i in range(int(values['BasinCount'])):
+        rect(f'PublicL_Basin_{i}','basin','PublicL','OuterWall+Partition',f'PublicWCY+PublicBasinY+{i}*PublicBasinPitch','BasinDepth','BasinWidth')
     left_features=features[before:]
     for item in left_features:
-        right=dict(item);right['name']=item['name'].replace('L_','R_').replace('PubL','PubR').replace('UniversalL','UniversalR').replace('StallL','StallR').replace('PublicL','PublicR');right['owner']='PublicR'
+        right=dict(item);right['name']=item['name'].replace('L_','R_').replace('PubL','PubR').replace('LargeL','LargeR').replace('StallL','StallR').replace('PublicL','PublicR');right['owner']='PublicR'
         if item['kind']=='rect':right['x']=f'EnvelopeWidth-({item["x"]})-({item["w"]})'
         elif item['kind'] in ['circle','arc']:
             right['x']=f'EnvelopeWidth-({item["x"]})'
@@ -243,6 +272,32 @@ def check_layout(values,features):
             v=b['values'];dx=c['x']-max(v['x'],min(c['x'],v['x']+v['w']));dy=c['y']-max(v['y'],min(c['y'],v['y']+v['d']))
             if dx*dx+dy*dy < c['r']*c['r']-1e-8:turning_conflicts.append((f['name'],b['name']))
     assert not turning_conflicts,turning_conflicts
+    door_conflicts=[];door_approach_conflicts=[];door_approaches=[]
+    for f in [f for f in features if f['kind']=='arc' and f['role']=='door']:
+        a=f['values'];ang=math.radians(a['angle']);pts=[(a['x'],a['y'])]+[(a['x']+a['r']*math.cos(ang+j*math.pi/2),a['y']+a['r']*math.sin(ang+j*math.pi/2)) for j in [0,1]]
+        xmin,xmax=min(p[0] for p in pts),max(p[0] for p in pts);ymin,ymax=min(p[1] for p in pts),max(p[1] for p in pts)
+        leaf=next(q['values'] for q in features if q['name']==f['name'].replace('_Swing','_Leaf'))
+        depth=values['DoorApproachDepth'];p=values['Partition'];angle=int(round(a['angle']))%360
+        if abs(leaf['x1']-leaf['x2'])<1e-8:
+            positive=angle in [0,90]
+            ys=[a['y'],a['y']-p-depth] if positive else [a['y']-depth,a['y']+p]
+            landings=[dict(x=xmin,y=y,w=a['r'],d=depth) for y in ys]
+        else:
+            positive=angle in [0,270]
+            xs=[a['x'],a['x']-p-depth] if positive else [a['x']-depth,a['x']+p]
+            landings=[dict(x=x,y=ymin,w=depth,d=a['r']) for x in xs]
+        for index,z in enumerate(landings):
+            door_approaches.append(dict(door=f['name'],side=index,**z))
+            for b in obstacles:
+                q=b['values'];dx=min(z['x']+z['w'],q['x']+q['w'])-max(z['x'],q['x']);dy=min(z['y']+z['d'],q['y']+q['d'])-max(z['y'],q['y'])
+                if dx>1e-7 and dy>1e-7:door_approach_conflicts.append((f['name'],index,b['name']))
+        for b in obstacles:
+            z=b['values'];xl=max(xmin,z['x']);xr=min(xmax,z['x']+z['w']);yl=max(ymin,z['y']);yr=min(ymax,z['y']+z['d'])
+            if xr-xl>1e-7 and yr-yl>1e-7:
+                dx=a['x']-max(xl,min(a['x'],xr));dy=a['y']-max(yl,min(a['y'],yr))
+                if dx*dx+dy*dy<a['r']*a['r']-1e-8:door_conflicts.append((f['name'],b['name']))
+    assert not door_conflicts,door_conflicts
+    assert not door_approach_conflicts,door_approach_conflicts
     stations=[f for f in rectangles if f['role']=='table'];assert len(stations)==10
     monitors=[f for f in rectangles if f['role']=='monitor'];assert len(monitors)==20
     for f in monitors:
@@ -261,11 +316,11 @@ def check_layout(values,features):
     entry_x=staff_x+values['StaffWidth']/2
     entry_y=values['StaffY']+values['Partition']+half
     side_x=staff_x+values['StaffWidth']-values['Partition']-side_aisle/2
-    rear_y=values['StaffY']+values['StaffDepth']-values['StaffWCDepth']-half
+    rear_y=values['StaffY']+values['StaffDepth']-values['StaffWCDepth']-wc_approach+half
     route_rects=[dict(x=entry_x-half,y=entry_y-half,w=side_x-entry_x+route_width,d=route_width),
                  dict(x=side_x-half,y=entry_y-half,w=route_width,d=rear_y-entry_y+route_width),
                  dict(x=entry_x-half,y=rear_y-half,w=side_x-entry_x+route_width,d=route_width),
-                 dict(x=entry_x-values['StaffWCOpening']/2,y=rear_y,w=values['StaffWCOpening'],d=half+values['Partition'])]
+                 dict(x=entry_x-values['StaffWCOpening']/2,y=rear_y,w=values['StaffWCOpening'],d=values['StaffY']+values['StaffDepth']-values['StaffWCDepth']+values['Partition']-rear_y)]
     for a in route_rects:
         for f in obstacles:
             b=f['values'];dx=min(a['x']+a['w'],b['x']+b['w'])-max(a['x'],b['x']);dy=min(a['y']+a['d'],b['y']+b['d'])-max(a['y'],b['y'])
@@ -276,7 +331,24 @@ def check_layout(values,features):
         for b in obstacles:
             z=b['values'];dx=min(a['x']+a['w'],z['x']+z['w'])-max(a['x'],z['x']);dy=min(a['y']+a['d'],z['y']+z['d'])-max(a['y'],z['y'])
             assert dx<=1e-7 or dy<=1e-7,(f['name'],b['name'])
+    staff_lobby=values['StaffWCDepth']-3*values['Partition']-values['StaffStallDepth']
+    staff_wash_gap=values['StaffWCWidth']-2*values['Partition']-2*values['BasinDepth']
+    assert staff_lobby>=1.2-1e-8 and staff_wash_gap>=1.2
+    assert 2*values['StaffStallWidth']+3*values['Partition']<=values['StaffWCWidth']+1e-8
+    assert len([f for f in rectangles if f['name'].startswith('StaffStall_') and f['role']=='fixture'])==2
+    assert len([f for f in rectangles if f['name'].startswith('StaffBasin_')])==2
+    public_lobby=values['PublicWCDepth']-2*values['Partition']-values['LargeDepth']-values['StallDepth']-2*values['Partition']
+    assert public_lobby>=values['PublicOpening']
     return {'left_clear_gap_m':gap,'right_clear_gap_m':right_gap,'front_merge_depth_m':front_hall,'rear_clear_depth_m':rear_hall,
+            'staff_wc_stalls':2,'staff_wc_basins':2,'staff_wc_stall_clear_size_m':[values['StaffStallWidth'],values['StaffStallDepth']],
+            'staff_wc_shared_lobby_depth_m':staff_lobby,'staff_wc_between_basins_clear_m':staff_wash_gap,
+            'staff_wc_turning_test_diameter_m':values['StaffTurnDiameter'],
+            'public_wc_rows_per_node':2,'public_wc_ordinary_stalls_per_node':values['StallCount']+values['PublicFrontStallCount'],
+            'public_wc_larger_stalls_per_node':1,'public_wc_shared_basins_per_node':values['BasinCount'],
+            'public_wc_shared_cross_lobby_depth_m':public_lobby,'privacy_design':'fully enclosed independent rooms; all gender; shared wash area',
+            'door_swing_obstacle_conflicts':door_conflicts,'stage_space_design':'FINAL_PASS checks passed; stage complete',
+            'door_approach_depth_m':values['DoorApproachDepth'],'door_approach_obstacle_conflicts':door_approach_conflicts,
+            'door_approach_reserved_rectangles_m':door_approaches,
             'workstations':10,'monitor_screens':20,'workstation_rows':[5,5],
             'staff_side_aisle_m':side_aisle,'staff_row_aisle_after_retreat_m':row_aisle,'staff_wc_approach_after_retreat_m':wc_approach,
             'staff_front_lobby_m':front_lobby,'chair_extra_retreat_m':values['ChairRetreat'],'map_minimum_bypass_width_m':guide_bypass,

@@ -18,7 +18,7 @@ report={}
 try:
     for previous in list(App.listDocuments().values()):
         own_review=previous.FileName and Path(previous.FileName).parent.resolve()==qa.resolve() and Path(previous.FileName).name.startswith('redraw_gui_')
-        own_finished=previous.FileName and Path(previous.FileName).parent.resolve()==ROOT.resolve() and hasattr(previous,'Parameters') and 'Revision' in previous.Parameters.PropertiesList and previous.Parameters.Revision=='v2-R2'
+        own_finished=previous.FileName and Path(previous.FileName).parent.resolve()==ROOT.resolve() and hasattr(previous,'Parameters') and 'Revision' in previous.Parameters.PropertiesList and previous.Parameters.Revision=='v2-FINAL'
         if own_review or own_finished:
             App.closeDocument(previous.Name)
     target=ROOT/'admin_facility_v2.FCStd'
@@ -89,8 +89,9 @@ try:
     doc.recompute()
     for d in dimensions:assert abs(doc.getObject(d['name']).getRawValue()-d['measured_mm'])<1e-5
     doc.saveAs(str(target))
+    doc.Label='管理设施 v2-FINAL | 本阶段空间设计收工';doc.save()
     Gui.activeDocument().getObject('A201').doubleClicked();Gui.updateGui()
-    report=dict(revision='v2-R2',native_gui_opened=True,source_main='40b2a29ba7cad16966f9f0aaec14a2fa4588e1d6',
+    report=dict(revision='v2-FINAL',native_gui_opened=True,source_main='4b9a3609d0c76f301c0dd75429d30f0c5a7d4013',
         sketch_count=len(sketches),fully_constrained=True,native_dimensions=dimensions,parameter_edit_tests=modifications,
         saved_after_gui_export=True,exported_pages=exports,visual_review='pending',
         preserved_other_documents=list(App.listDocuments().keys()))

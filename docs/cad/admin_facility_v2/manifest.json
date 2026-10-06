@@ -11,61 +11,65 @@
     "bytes": 7552,
     "sha256": "3bb55ae89782cc26e6322f9d666410c8b94a882c32892f0415bdf4d15dedaa49"
   },
+  "FINAL_PASS.md": {
+    "bytes": 4803,
+    "sha256": "df840783e161135b7c6920e018078e2b8f2eb2ed7d884881a94c34c029c6c5d2"
+  },
   "admin_facility_v2.FCStd": {
-    "bytes": 491010,
-    "sha256": "1f4585dd547414f6d6e25de5f5f467ecbbd71320d8489bec4451415b4c0aa822"
+    "bytes": 553251,
+    "sha256": "37ccf7af8692696735632603159091f97a12388c992f9399cf2a2f70a4c26c19"
   },
   "build_freecad.py": {
-    "bytes": 11790,
-    "sha256": "8974fd30431a63254d3ffdbc077df5f6ffe6e0df40d8e81142b731ac21bdd1cb"
+    "bytes": 12153,
+    "sha256": "237407b4f65ebfa692f25b7d55edb0220f16650e2e8baec0fd9c46c9ee73fc11"
   },
   "plan_layout.py": {
-    "bytes": 22093,
-    "sha256": "39b6d1d4525b1bd0c6f8b93ad405fa9f7d16131b68dbc2d6eb5a7842b14a37a2"
+    "bytes": 28062,
+    "sha256": "91e49007026c7d090c70d5eba4d3d8c4c6fa2cf6c5e5362bcad88572fb0d6e62"
   },
   "paper_drawings.py": {
-    "bytes": 16165,
-    "sha256": "0e8e58580f4fa4f5d915dc5eb5b8fdfd45725ad41f1d1a47c92717759da92851"
+    "bytes": 16436,
+    "sha256": "b48a67fb896c14a31698dfa677eca959a864094b06edb43235cfa978049c2e35"
   },
   "render_pdf.py": {
-    "bytes": 2673,
-    "sha256": "f059dabf2bed3e580422807661b648f555389816e079f68a7bcf7058f7ee38d8"
+    "bytes": 2679,
+    "sha256": "2fb2dd0a356171add1f87f62b34c7d63ee1ffb5b0e3dea5ce729334195f8e6b2"
   },
   "finish_in_freecad.FCMacro": {
-    "bytes": 6319,
-    "sha256": "ce3ea533698e805f6ad26aa0ab4b4f2df1712a66c42e0e334a7a32388b9b7d3d"
+    "bytes": 6404,
+    "sha256": "91aebea69b10320b9ae2abe64896c81ee487831a3e2423a7871f274d1282d7e4"
   },
   "validate_saved.py": {
-    "bytes": 4253,
-    "sha256": "05afb7ada5f69b58d7dc90a27beac5864267144a8183caba5088dad43620991f"
+    "bytes": 4335,
+    "sha256": "826b7db986d5c4a6d0821e69e12f2019783e139a956419bcdcae748cc8e32695"
   },
   "cad_validation.json": {
-    "bytes": 316235,
-    "sha256": "d966c3a5d91ecc00df7d4792bdbd017d3d508d444b56232a9d1bd090421bb9f6"
+    "bytes": 365353,
+    "sha256": "2e723ef48bc75f66e35dbbab194fd415b952a349d95b4d67d31ee4bce9ee4690"
   },
   "exports/A201_v2.svg": {
-    "bytes": 64625,
-    "sha256": "ba56c4a2815b67c371c703ea9e13e4d26e333655d7980a4ec733be35d80680ee"
+    "bytes": 70967,
+    "sha256": "67fce3b3e01066b3198b5f89d54514acecb2639f909f4ee7c1ad7c2cb24efcc4"
   },
   "exports/A202_v2.svg": {
-    "bytes": 30792,
-    "sha256": "e6f19605672b752d1746f95d0192849392bb8974253074764ff6020d3e405ede"
+    "bytes": 34136,
+    "sha256": "0720699dac87734b6ef4b4392dc4d66bb924e576cbcc51c3e91a772fc334fd47"
   },
   "exports/A203_v2.svg": {
-    "bytes": 6220,
-    "sha256": "c26f6054d1ef2f5f75b36d7e8ad51aeef1199d604fc38009950a13e8603c9542"
+    "bytes": 6458,
+    "sha256": "30070b12f8b29d44f56a3162b3d4af7dc7afc5f84d68bf7d1f15e3722bb4ac5c"
   },
   "exports/A2_blank_live.svg": {
-    "bytes": 646,
-    "sha256": "faffedb7793c11b6f8095e721a673d2ca0f4bf31aa6869cc58b2cd7515db2bd5"
+    "bytes": 649,
+    "sha256": "e3ec914375378ceca235a873b013fe064da61edbb00301d3552d42d80278a5ae"
   },
   "exports/A2_symbol_template.svg": {
     "bytes": 97,
     "sha256": "436db4e380062bf770010f9666741a2d44099961584d267f8a3f9e25505619de"
   },
   "exports/admin_facility_plans_v2.pdf": {
-    "bytes": 95529,
-    "sha256": "ea47b5bb1e04d08ca41f31b6f787470129306fc617fff42777b14e3a61f2e480"
+    "bytes": 94598,
+    "sha256": "d1fa3e8d3b3c843cd3b9c4fce88aec6c68dd81b2ea5e116bc89e3e0793a2aa36"
   },
   "sources/CRYO_FACILITY_LAYOUT.snapshot.md": {
     "bytes": 17408,
@@ -80,31 +84,31 @@
     "sha256": "2488bfc9b799317d785e8ebbe93995cea0661430e852306726bf5bd3147aaabc"
   },
   "evidence/freecad_A201.png": {
-    "bytes": 117427,
-    "sha256": "69b9b1b906de6c9fd522edb5ba62f911b1cbc3044c938ba1cd2e6fc32037aab7"
+    "bytes": 116854,
+    "sha256": "9b8a13a5640ece727e9390559ad8ca487ae1b7595939f50c8e0dd771dd4356fb"
   },
   "evidence/freecad_A202.png": {
-    "bytes": 156342,
-    "sha256": "3673d84bfaef3726dc8c0955349b500eadcfefac8b35d4367c1c2ab3b2bb5060"
+    "bytes": 163802,
+    "sha256": "5b612505f8e03728be896a8a77f9ad8b341f06ad9d0fe6afbd6cc3321779e84e"
   },
   "evidence/freecad_A203.png": {
-    "bytes": 183690,
-    "sha256": "3482ed73c118f171bbe5af426130e23f856b6fef394ac609d4e1a0565acb4d4a"
+    "bytes": 194359,
+    "sha256": "aebeb418a63415b782d5307c9d30d3a8b13999baf71a97a98e53c22e06eb69c1"
   },
   "evidence/freecad_A204_live.png": {
-    "bytes": 72314,
-    "sha256": "24472e82d884e4be6d3939598e5f05650fbe78fc7aaa0158556ee74da9b991c9"
+    "bytes": 80020,
+    "sha256": "ed7580fa762dfeff4db90ea87613b8e6e7b011427e0c00f38c5631f09930075e"
   },
   "evidence/gui_review.json": {
-    "bytes": 2122,
-    "sha256": "cc296425b9edd58137bc41c357e2fb0bfbf5c8cb2c01e2cd8ff2dbd759bb2642"
+    "bytes": 2153,
+    "sha256": "92221ef9d601752a0a9743bce456ae2243dba5185c4e352c5906003a5af86185"
   },
   "evidence/saved_model_validation.json": {
-    "bytes": 2624,
-    "sha256": "33ddada6b9ba02ceafc32186daa0a900854f5ab5753ac54b9f68ccc5dee96146"
+    "bytes": 9762,
+    "sha256": "8e3b164237b39e0ae06c70b44bf6bf4321693a27dbde1fc6ca14239b6fed5c0e"
   },
   "evidence/regeneration_validation.json": {
     "bytes": 297,
-    "sha256": "a9fa8fbbe774a33f5f63893d905a66fd87954d860a5df49feab01daecb932662"
+    "sha256": "b4da7f7a7c2ece0aa50e7cf41da0bd6e14bd65545d54dbe32d160bae405eabdc"
   }
 }
