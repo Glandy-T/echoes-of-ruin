@@ -1,0 +1,52 @@
+"""Only mark a verified 0E pair frozen; preserve geometry and native GUI metadata."""
+from pathlib import Path
+import json,traceback,hashlib,time
+import FreeCAD as A
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;B=ROOT.parent/'blockout_v3_trim';report={}
+status='STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE'
+def geometry(doc):
+ out={}
+ for o in doc.Objects:
+  if not hasattr(o,'Shape'):continue
+  s=o.Shape;b=s.BoundBox
+  out[o.Name]=[s.Volume,s.Area,len(s.Solids),b.XMin,b.YMin,b.ZMin,b.XMax,b.YMax,b.ZMax]+[v for pt in sorted((v.Point.x,v.Point.y,v.Point.z) for v in s.Vertexes) for v in pt]
+ return out
+def same(a,b):
+ assert a.keys()==b.keys()
+ for k in a:
+  assert len(a[k])==len(b[k]),k
+  assert all(abs(x-y)<=max(.00001,abs(x)*1e-10) for x,y in zip(a[k],b[k])),k
+try:
+ for p in [ROOT/'qa/final_validation.json',ROOT/'qa/cleanup_validation.json',B/'blockout_validation.json',B/'qa/render_validation.json',B/'qa/image_validation.json']:
+  r=json.loads(p.read_text(encoding='utf-8'));assert 'error' not in r,str(p)
+ assert json.loads((B/'blockout_validation.json').read_text(encoding='utf-8'))['visual_review']=='passed'
+ assert json.loads((B/'qa/image_validation.json').read_text(encoding='utf-8'))['visual_review']=='passed'
+ paths=[ROOT/'standard_floor_v3_trim.FCStd',B/'standard_floor_blockout_v3_trim.FCStd']
+ saved=[]
+ for path in paths:
+  doc=A.openDocument(str(path));before=geometry(doc)
+  if 'Stage' not in doc.Parameters.PropertiesList:doc.Parameters.addProperty('App::PropertyString','Stage','PROVENANCE')
+  doc.Parameters.Stage=status;doc.recompute()
+  same(before,geometry(doc))
+  if hasattr(doc,'A404'):
+   A.Gui.activeDocument().getObject('A404').doubleClicked()
+   for _ in range(30):A.Gui.updateGui();time.sleep(.1)
+   for o in doc.Objects:
+    if o.TypeId=='TechDraw::DrawViewDimension':o.touch()
+   doc.recompute()
+   for _ in range(20):A.Gui.updateGui();time.sleep(.1)
+   dims=json.loads((ROOT/'qa/gui_validation.json').read_text(encoding='utf-8'))['native_dimensions']
+   assert all(abs(doc.getObject('Dim_'+r['name']).getRawValue()-r['mm'])<.00001 for r in dims)
+  doc.save();A.closeDocument(doc.Name)
+  doc=A.openDocument(str(path));assert doc.Parameters.Stage==status
+  same(before,geometry(doc))
+  A.closeDocument(doc.Name);saved.append(dict(file=path.name,sha256=hashlib.sha256(path.read_bytes()).hexdigest(),geometry_volume_area_topology_and_vertices_unchanged=True,stage_readback_verified=True))
+ report=dict(stage=status,source_commit='8dbcec552f6a058145508c8e0bf701063067449f',saved_files=saved,
+  frozen_scope='Single-floor accepted XY geometry and spatial blockout. Heights/structural details provisional. No fire-code, capacity or whole-building approval.',
+  repairs=['Eight unused lift apron slabs removed (109.48 m2)','Four net personnel shaft voids and independent car floors retained','Protected gallery floors and both south wall repairs retained; all walls and routes unchanged'],
+  room_count=48,pod_count=960,layout_and_egress_topology_unchanged=True,
+  reopen_policy='Reopen only for an explicit stacking, structural or game-camera conflict; no further routine floor-layout adjustments.')
+except Exception:report=dict(error=traceback.format_exc())
+for r in [ROOT,B]:(r/'FREEZE_STATUS.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+QtCore.QTimer.singleShot(0,A.Gui.getMainWindow().close)

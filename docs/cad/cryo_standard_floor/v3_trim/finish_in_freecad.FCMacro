@@ -1,0 +1,61 @@
+"""Dedicated GUI process; preserve user's existing FreeCAD documents."""
+from pathlib import Path
+import json,time,math,traceback,sys
+import FreeCAD as App,FreeCADGui as Gui,TechDrawGui
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;QA=ROOT/'qa';sys.path.insert(0,str(ROOT));from layout import build_layout
+def stage(s):(QA/'gui_progress.txt').write_text(s,encoding='utf-8')
+report={}
+try:
+ stage('opening v3 native CAD');doc=App.openDocument(str(ROOT/'standard_floor_v3_trim.FCStd'));App.setActiveDocument(doc.Name);Gui.activateWorkbench('TechDrawWorkbench');doc.recompute();Gui.activeDocument().getObject('A404').doubleClicked()
+ for _ in range(12):Gui.updateGui();time.sleep(.1)
+ vertices=[];view=doc.NativePlan;data=build_layout();v=data['parameters']
+ for i in range(6000):
+  try:pt=view.getVertexByIndex(i).Vertexes[0].Point;vertices.append((i,pt.x,pt.y))
+  except (ValueError,IndexError):break
+ assert vertices
+ xmin=min(a[1] for a in vertices);ymin=min(a[2] for a in vertices);xmax=max(a[1] for a in vertices);ymax=max(a[2] for a in vertices)
+ assert abs(xmax-xmin-196200)<1e-4 and abs(ymax-ymin-77800)<1e-4
+ def target(x,y):return xmin+(x+v['ExternalReach'])*1000,ymin+(y-v['MaxSouth'])*1000
+ def near(pt):
+  a=min(vertices,key=lambda a:(a[1]-pt[0])**2+(a[2]-pt[1])**2);assert math.dist(a[1:],pt)<1e-4,(a,pt);return a[0]
+ stage('native projected dimension readback')
+ for o in list(doc.Objects):
+  if o.TypeId=='TechDraw::DrawViewDimension':doc.removeObject(o.Name)
+ dims=[]
+ for name,typ,coords,x,y,expected in [
+  ('MaximumEnvelope','DistanceX',[(-4.9,19.45),(191.3,19.45)],65,-122,196200),
+  ('MainWidth','DistanceX',[(0,4.2),(186.4,4.2)],-60,-107,186400),
+  ('MainDepth','DistanceY',[(83.4,4.2),(83.4,82)],-212,0,77800),
+  ('CoreWidth','DistanceX',[(83.4,33.3),(103,33.3)],0,132,19600),
+  ('TransferClear','DistanceX',[(87.6,37.5),(98.8,37.5)],0,115,11200),
+  ('PersonnelCorridor','DistanceY',[(.2,13.7),(.2,16.1)],-201,-62,2400),
+  ('StairFlight','DistanceY',[(-.6,41.2),(-.6,43)],-233,0,1800),
+  ('StairDoor','DistanceX',[(-2.4,45),(-.6,45)],-183,132,1800),
+  ('NorthStairDoor','DistanceX',[(92.3,74.7),(94.1,74.7)],43,97,1800),
+  ('MachineSpine','DistanceX',[(90.2,11.5),(96.2,11.5)],60,-141,6000),
+ ]:
+  refs=[near(target(*pt)) for pt in coords];dim=doc.addObject('TechDraw::DrawViewDimension','Dim_'+name);doc.A404.addView(dim);dim.Type=typ;dim.References2D=[(view,['Vertex'+str(i) for i in refs])];dim.ShowUnits=True;dim.X=x;dim.Y=y;dim.LockPosition=True
+  doc.recompute();Gui.updateGui();got=float(dim.getRawValue());assert abs(got-expected)<1e-4,(name,got,expected);dims.append(dict(name=name,mm=got))
+ stage('parameter trial/recompute/restore')
+ edits=[]
+ for key,trial in [('RoomWidth',21200),('TransferClear',11250),('FreightDoor',2600)]:
+  old=getattr(doc.Parameters,key).Value;setattr(doc.Parameters,key,trial);doc.recompute();Gui.updateGui();expected=build_layout({key:trial/1000})
+  got=[tuple(getattr(doc.getObject(w['id']).Shape.BoundBox,k)/1000 for k in ['XMin','YMin','XMax','YMax']) for w in data['walls']];wanted=[tuple(w[k] for k in ['x1','y1','x2','y2']) for w in expected['walls']]
+  assert len(got)==len(wanted),(key,len(got),len(wanted));delta=max(abs(a-b) for g,w in zip(got,wanted) for a,b in zip(g,w));assert delta<1e-6,(key,delta)
+  edits.append(dict(parameter=key,trial_mm=trial,all_wall_cells_readback=True,maximum_coordinate_error_m=delta));setattr(doc.Parameters,key,old);doc.recompute();Gui.updateGui()
+ old=doc.Parameters.StoreyHeight.Value;doc.Parameters.StoreyHeight=4000;doc.recompute();assert abs(doc.Parameters.Rise.Value-4000/24)<1e-5;edits.append(dict(parameter='StoreyHeight',trial_mm=4000,rise_mm=doc.Parameters.Rise.Value));doc.Parameters.StoreyHeight=old;doc.recompute()
+ for o in doc.Objects:
+  if o.TypeId=='Part::Extrusion':o.Visibility=True;o.ViewObject.ShapeColor=(.27,.27,.27);o.ViewObject.LineColor=(.27,.27,.27)
+  elif o.TypeId=='Sketcher::SketchObject':o.Visibility=False
+ stage('exporting native live A404');doc.recompute();Gui.updateGui()
+ for o in doc.Objects:
+  if o.TypeId=='TechDraw::DrawViewDimension':o.touch();o.Visibility=True
+ doc.recompute()
+ for _ in range(25):Gui.updateGui();time.sleep(.1)
+ assert all(abs(doc.getObject('Dim_'+d['name']).getRawValue()-d['mm'])<1e-4 for d in dims)
+ doc.save();TechDrawGui.exportPageAsPdf(doc.A404,str(ROOT/'exports'/'A404_native_live.pdf'));Gui.activeDocument().getObject('A401').doubleClicked();Gui.updateGui();doc.save()
+ report=dict(native_gui_opened=True,native_projection_vertices=len(vertices),native_dimensions=dims,parameter_edit_tests=edits,all_sketches_fully_constrained=all(o.FullyConstrained for o in doc.Objects if o.TypeId=='Sketcher::SketchObject'),all_restored_to_baseline=True,source_commit=doc.Parameters.SourceCommit,formal_3d_created=False,saved=True);App.closeDocument(doc.Name)
+except Exception:report=dict(error=traceback.format_exc())
+(QA/'gui_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');stage('complete' if 'error' not in report else 'failed')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

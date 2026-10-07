@@ -1,0 +1,405 @@
+{
+  "source_commit": "8dbcec552f6a058145508c8e0bf701063067449f",
+  "all_walls_identical_to_0E": true,
+  "prior_two_020m_wall_fixes_retained": true,
+  "added_wall_area_m2": 0.0,
+  "removed_wall_volume_mm3": 0,
+  "wall_patches_m": [
+    {
+      "x1": -2.6,
+      "x2": -2.4,
+      "y1": 28.0,
+      "y2": 28.2
+    },
+    {
+      "x1": 188.8,
+      "x2": 189.0,
+      "y1": 28.0,
+      "y2": 28.2
+    }
+  ],
+  "removed_floor_area_m2": 109.47999999999983,
+  "only_eight_unused_aprons_removed": true,
+  "four_nodes_mirror_equal": true,
+  "removed_apron_checks": [
+    {
+      "zone": "SW",
+      "bounds_m": {
+        "x1": -4.9,
+        "y1": 13.5,
+        "x2": -2.6000000000000005,
+        "y2": 19.45
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "SW",
+      "bounds_m": {
+        "x1": -4.9,
+        "y1": 22.25,
+        "x2": -2.6000000000000005,
+        "y2": 28.200000000000003
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "SE",
+      "bounds_m": {
+        "x1": 189.0,
+        "y1": 13.5,
+        "x2": 191.3,
+        "y2": 19.45
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "SE",
+      "bounds_m": {
+        "x1": 189.0,
+        "y1": 22.25,
+        "x2": 191.3,
+        "y2": 28.200000000000003
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "NW",
+      "bounds_m": {
+        "x1": -4.9,
+        "y1": 57.99999999999999,
+        "x2": -2.6000000000000005,
+        "y2": 63.94999999999999
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "NW",
+      "bounds_m": {
+        "x1": -4.9,
+        "y1": 66.74999999999999,
+        "x2": -2.6000000000000005,
+        "y2": 72.69999999999999
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "NE",
+      "bounds_m": {
+        "x1": 189.0,
+        "y1": 57.99999999999999,
+        "x2": 191.3,
+        "y2": 63.94999999999999
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    },
+    {
+      "zone": "NE",
+      "bounds_m": {
+        "x1": 189.0,
+        "y1": 66.74999999999999,
+        "x2": 191.3,
+        "y2": 72.69999999999999
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0
+    }
+  ],
+  "physical_node_floor_support_checks": [
+    {
+      "zone": "SW",
+      "role": "personnel_node_corridor",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "SW",
+      "role": "passenger_shaft_outer",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "SE",
+      "role": "personnel_node_corridor",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "SE",
+      "role": "passenger_shaft_outer",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "NW",
+      "role": "personnel_node_corridor",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "NW",
+      "role": "passenger_shaft_outer",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "NE",
+      "role": "personnel_node_corridor",
+      "floor_and_wall_support_continuous": true
+    },
+    {
+      "zone": "NE",
+      "role": "passenger_shaft_outer",
+      "floor_and_wall_support_continuous": true
+    }
+  ],
+  "frozen_collections_equal": [
+    "parameters",
+    "rooms",
+    "corridors",
+    "elevator_nodes",
+    "stairs",
+    "doors",
+    "references",
+    "freight_shafts",
+    "waiting_bays",
+    "transfer",
+    "plenums",
+    "machine_work_areas",
+    "routes",
+    "bounds",
+    "main_envelope_m",
+    "maximum_envelope_m"
+  ],
+  "all_48_rooms_960_pods_retained": true,
+  "personnel_shaft_checks": [
+    {
+      "zone": "SW",
+      "clear_void_m": {
+        "x1": -4.7,
+        "y1": 19.65,
+        "x2": -2.6,
+        "y2": 22.049999999999997
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0,
+      "independent_car_floor": "CarFloor_452"
+    },
+    {
+      "zone": "SE",
+      "clear_void_m": {
+        "x1": 189.0,
+        "y1": 19.65,
+        "x2": 191.1,
+        "y2": 22.049999999999997
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0,
+      "independent_car_floor": "CarFloor_453"
+    },
+    {
+      "zone": "NW",
+      "clear_void_m": {
+        "x1": -4.7,
+        "y1": 64.14999999999999,
+        "x2": -2.6,
+        "y2": 66.55
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0,
+      "independent_car_floor": "CarFloor_454"
+    },
+    {
+      "zone": "NE",
+      "clear_void_m": {
+        "x1": 189.0,
+        "y1": 64.14999999999999,
+        "x2": 191.1,
+        "y2": 66.55
+      },
+      "structural_and_walk_surface_overlap_mm3": 0.0,
+      "independent_car_floor": "CarFloor_455"
+    }
+  ],
+  "protected_gallery_floor_checks": [
+    {
+      "bounds_m": {
+        "x1": -2.4,
+        "y1": 28.0,
+        "x2": 0.0,
+        "y2": 41.199999999999996
+      },
+      "uncovered_slab_volume_mm3": 0
+    },
+    {
+      "bounds_m": {
+        "x1": -2.4,
+        "y1": 44.99999999999999,
+        "x2": 0.0,
+        "y2": 58.199999999999996
+      },
+      "uncovered_slab_volume_mm3": 0
+    },
+    {
+      "bounds_m": {
+        "x1": 186.4,
+        "y1": 28.0,
+        "x2": 188.8,
+        "y2": 41.199999999999996
+      },
+      "uncovered_slab_volume_mm3": 0
+    },
+    {
+      "bounds_m": {
+        "x1": 186.4,
+        "y1": 44.99999999999999,
+        "x2": 188.8,
+        "y2": 58.199999999999996
+      },
+      "uncovered_slab_volume_mm3": 0
+    }
+  ],
+  "actual_saved_slab_supported_personnel_path_edges": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    142,
+    144,
+    145,
+    147,
+    149
+  ],
+  "lift_edges_supported_by_structure_and_independent_car": [
+    0,
+    35,
+    70,
+    105
+  ],
+  "all_routes_unchanged": true,
+  "shaft_cut_policy": "Open exact 2.10x2.40m net shaft void; retain 0.20m enclosure-wall support. Independent car reference is separate geometry.",
+  "stage": "STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE",
+  "visual_review": "passed"
+}

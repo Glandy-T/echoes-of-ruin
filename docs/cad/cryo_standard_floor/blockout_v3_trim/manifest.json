@@ -1,0 +1,187 @@
+{
+  "revision": "standard_floor_blockout_v3_trim",
+  "source_commit": "8dbcec552f6a058145508c8e0bf701063067449f",
+  "stage": "STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2810,
+      "sha256": "b1fbe654d22d64170e7f9a2e752d64601bf8c7335a68ae10ddff12c5781393ed"
+    },
+    {
+      "path": "FREEZE_STATUS.json",
+      "bytes": 1358,
+      "sha256": "a1d0dbcf2ca1e01a74391632804ecd5b8fbd6048071c727f6749bbe96da77d60"
+    },
+    {
+      "path": "layout.py",
+      "bytes": 28647,
+      "sha256": "8184234fb47aac1609e5ba7abf43cd2123a2d572b26c6ab0e9dcb66a7fe39b12"
+    },
+    {
+      "path": "build_blockout.py",
+      "bytes": 12986,
+      "sha256": "c27193ba666e29712f5171cf8e393b5078b210395d0dd6f9d3a01b5fced387a6"
+    },
+    {
+      "path": "render_blockout.FCMacro",
+      "bytes": 4104,
+      "sha256": "718de4c8fc4edc90231f309be1a2e9ff0e7d50397246ffc1c1d1124ffe49e648"
+    },
+    {
+      "path": "validate_blockout.py",
+      "bytes": 4465,
+      "sha256": "7cf886f3f2ec4cba41c365264bc22df094b906b9d4ff46c75ddd7240e618030a"
+    },
+    {
+      "path": "check_cleanup.py",
+      "bytes": 7542,
+      "sha256": "01ffed130160e17d7af841552452aba20aa78322faa17b60cd172e36d84ba91c"
+    },
+    {
+      "path": "make_gallery.py",
+      "bytes": 3228,
+      "sha256": "c2cd2675fd485ebc612c4f52583a861a63ea5b5864d80c7f4a9ab05a0528348c"
+    },
+    {
+      "path": "package_blockout.py",
+      "bytes": 1897,
+      "sha256": "df0da2483f243b5946250270ec8bc1600f59fe41d141d368dbbf96079ef5af31"
+    },
+    {
+      "path": "cameras.json",
+      "bytes": 4156,
+      "sha256": "ba0bddf51e72f0d01eb4a94a82d2ae3424a9a15c23af2a6d0269986a3885d9ad"
+    },
+    {
+      "path": "standard_floor_blockout_v3_trim.FCStd",
+      "bytes": 1248973,
+      "sha256": "e4fbd5c0d4af9f702598a0d447f4766f78e6b765bbd5a633fc5760e5e65d8935"
+    },
+    {
+      "path": "blockout_validation.json",
+      "bytes": 17988,
+      "sha256": "e3a72c026b7c1df84bb2bcda1a7e0da30a9d2d85eae0d29ed4ec276368647762"
+    },
+    {
+      "path": "VIEW_GALLERY.html",
+      "bytes": 5594,
+      "sha256": "30ae8f2705e51518c9c339b125455ebfeb73b50549aa13d15a4580fa5fca000e"
+    },
+    {
+      "path": "VIEW_CONTACT_SHEET.png",
+      "bytes": 1854486,
+      "sha256": "2f6a08660b31a170dba09e11a1e9c35d124cd186b5ff704eab1f0d1f8df68a51"
+    },
+    {
+      "path": "sources/accepted_inset_layout.snapshot.json",
+      "bytes": 253010,
+      "sha256": "9c1829b876129ee26a21874b803b3c761af7b9bcddda3d025af8c6d61c57c715"
+    },
+    {
+      "path": "sources/STANDARD_FLOOR_ENGINEERING_BRIEF.snapshot.md",
+      "bytes": 34449,
+      "sha256": "6d1f9a46376a39cbcb0af5d661bef57e262fb7b9c607642dea6a023d206b2cbb"
+    },
+    {
+      "path": "qa/render_validation.json",
+      "bytes": 9917,
+      "sha256": "d111185f55e66f2c414e1079d2bef97ab7782e2df4d4b06a33969668234458b8"
+    },
+    {
+      "path": "qa/image_validation.json",
+      "bytes": 1468,
+      "sha256": "2e7a51796fba5894698d7a5edaf1ee58f9463f97933ae399a0f187ecaf0e605c"
+    },
+    {
+      "path": "qa/cleanup_validation.json",
+      "bytes": 7162,
+      "sha256": "e439caf730265c76d55ebcf7849d732da5b2b3abbf6402144fb8190fd2a4dd2f"
+    },
+    {
+      "path": "sources/before_cleanup_layout.snapshot.json",
+      "bytes": 242912,
+      "sha256": "c811e965d0b6fa5b9befcca43f7857b4cc79be5934bfd68569959eab00fc0028"
+    },
+    {
+      "path": "sources/before_cleanup_validation.snapshot.json",
+      "bytes": 99335,
+      "sha256": "7d4cd07fef971e4c7a0975a2b67ae4be188ab22cda3efe943e9870f6e1f600a5"
+    },
+    {
+      "path": "sources/accepted_frozen_validation.snapshot.json",
+      "bytes": 99343,
+      "sha256": "afa92c2e8af4b8f94881acb9e60fec99e3eeedd0a2a40888d3218cba00f2d8fe"
+    },
+    {
+      "path": "views/01_overall_open_top.png",
+      "bytes": 146327,
+      "sha256": "afd815a1f1cd4bce536bd3d96425fa6c3a29567f638589820daf4fc7752aaa19"
+    },
+    {
+      "path": "views/02_orthographic_top.png",
+      "bytes": 28970,
+      "sha256": "ce1e295851915bb6495c5dce5d7b5505a718f183f00ff0dd217f4124d36a4191"
+    },
+    {
+      "path": "views/03_personnel_corridor_eye.png",
+      "bytes": 17204,
+      "sha256": "dd7533a1fd5efbc22147e0493ab974083b27ea043c79561cb6757c4b039daac8"
+    },
+    {
+      "path": "views/04_freight_core_overview.png",
+      "bytes": 139779,
+      "sha256": "d0fc62e0d1bcbf534e2e2d729446e9a95a1146888ec3c3dd0fb2ba5302d17611"
+    },
+    {
+      "path": "views/04b_machine_work_eye.png",
+      "bytes": 13323,
+      "sha256": "50f22429613010629cb5c49384271906e9f02851abb4b53bee9f7e3e6a612af4"
+    },
+    {
+      "path": "views/05_north_stair_connection.png",
+      "bytes": 82983,
+      "sha256": "108b2cec358e7db8d448eac745d698bbab907df1789c9a0c1effa789f2a3374d"
+    },
+    {
+      "path": "views/05b_north_stair_eye.png",
+      "bytes": 16009,
+      "sha256": "35a9874c132ab206a9f3e7525f69a81e037ce47ca78f0eb3483a50a3b8b6af08"
+    },
+    {
+      "path": "views/05c_south_stair_connection.png",
+      "bytes": 79294,
+      "sha256": "a0ea06d1d8fc384ce7779deedd52cc0541c05b3236277f79826405916153169c"
+    },
+    {
+      "path": "views/06_room1_floor_relationship.png",
+      "bytes": 53336,
+      "sha256": "a034a5f52febe006552c9a83d7fd8f56eecb9720e1e4a679374cf8bfcbc650d0"
+    },
+    {
+      "path": "views/07_room1_eye.png",
+      "bytes": 23657,
+      "sha256": "4acbc2655f7a38a8f2eabcf210143acb15b35d6991415b9ac661865bb5595f39"
+    },
+    {
+      "path": "views/08_west_lift_stair_connection.png",
+      "bytes": 99286,
+      "sha256": "6cdaed89beda52cad4cd89dd7e28421dfbd2fe3d84475c7d5ac77f44ea5f4417"
+    },
+    {
+      "path": "views/09_east_lift_stair_connection.png",
+      "bytes": 85904,
+      "sha256": "bc46487f51604e6f80fd3a8cff8c19b3cd8f37b4495e8686b6505e6c07c8fa3a"
+    },
+    {
+      "path": "views/10_four_passenger_shaft_voids.png",
+      "bytes": 28885,
+      "sha256": "8ccfa90e7c8c8d6ecea37f225f8a82c2c99c3cfe1762c42272d178ca940b66c4"
+    }
+  ]
+}

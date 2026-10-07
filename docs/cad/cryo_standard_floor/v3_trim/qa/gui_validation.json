@@ -1,0 +1,76 @@
+{
+  "native_gui_opened": true,
+  "native_projection_vertices": 932,
+  "native_dimensions": [
+    {
+      "name": "MaximumEnvelope",
+      "mm": 196199.9999999971
+    },
+    {
+      "name": "MainWidth",
+      "mm": 186400.0
+    },
+    {
+      "name": "MainDepth",
+      "mm": 77800.00000000345
+    },
+    {
+      "name": "CoreWidth",
+      "mm": 19600.000000000364
+    },
+    {
+      "name": "TransferClear",
+      "mm": 11200.0
+    },
+    {
+      "name": "PersonnelCorridor",
+      "mm": 2399.999999999636
+    },
+    {
+      "name": "StairFlight",
+      "mm": 1799.9999999998408
+    },
+    {
+      "name": "StairDoor",
+      "mm": 1799.999999992721
+    },
+    {
+      "name": "NorthStairDoor",
+      "mm": 1799.9999999998408
+    },
+    {
+      "name": "MachineSpine",
+      "mm": 6000.0
+    }
+  ],
+  "parameter_edit_tests": [
+    {
+      "parameter": "RoomWidth",
+      "trial_mm": 21200,
+      "all_wall_cells_readback": true,
+      "maximum_coordinate_error_m": 5.684341886080802e-14
+    },
+    {
+      "parameter": "TransferClear",
+      "trial_mm": 11250,
+      "all_wall_cells_readback": true,
+      "maximum_coordinate_error_m": 2.842170943040401e-14
+    },
+    {
+      "parameter": "FreightDoor",
+      "trial_mm": 2600,
+      "all_wall_cells_readback": true,
+      "maximum_coordinate_error_m": 5.684341886080802e-14
+    },
+    {
+      "parameter": "StoreyHeight",
+      "trial_mm": 4000,
+      "rise_mm": 166.66666666666666
+    }
+  ],
+  "all_sketches_fully_constrained": true,
+  "all_restored_to_baseline": true,
+  "source_commit": "8dbcec552f6a058145508c8e0bf701063067449f",
+  "formal_3d_created": false,
+  "saved": true
+}
