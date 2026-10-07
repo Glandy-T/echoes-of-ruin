@@ -1,5 +1,21 @@
 # Room 1 工程图与空间验证
 
+最新3D交付：**v2 3D空间验证 / 2026-10-07**。任务依据`501140a`，阶段标记为`ROOM 1 SPATIAL BLOCKOUT ACCEPTED`，仅覆盖静态闭舱空间比例与几何；人体动作、开盖及最终美术身份仍待验证。
+
+继承v2全部平面与舱体，独立模型测试3.40 m墙高、1.40×2.40 m真实门洞。8张原生视角覆盖门口、纵向轴线、横向左右、舱间操作位、开顶斜俯视与俯视。90个有效实体，新增碰撞0，80个舱体分层的位置与形状不变，原v2全部交付文件哈希未改变。
+
+- [3D FreeCAD 可编辑文件](blockout_v2/room1_3d_blockout_v2.FCStd)
+- [3D验证结果与逐项空间判断](blockout_v2/README.md)
+- [离线视角索引](blockout_v2/VIEW_GALLERY.html)
+- [相机与验证数据](blockout_v2/visual_blockout_validation.json)
+- [3D交付包](blockout_v2/room1_3d_blockout_v2_delivery.zip)
+
+![Room 1 3D门口人视角](blockout_v2/evidence/visual_blockout/01_doorway_human_view.png)
+
+![Room 1 3D开顶斜俯视](blockout_v2/evidence/visual_blockout/05_room_isometric_open_top.png)
+
+0.70 m舱间位可容纳单人静态尺度柱，但剩余余量较紧，不能当作上下舱或转身已验证。3.50 m横向通道较宽敞；门后展开自然，3.40 m高度未见明显失衡。本轮未开始标准层。
+
 当前交付：**v2 / 2026-10-07 / PROVISIONAL，待设计审阅**。
 
 已依据[工程简报](ROOM1_ENGINEERING_BRIEF.md)提交`6ddc2ddf2eac0eef5aecc959120a24d041afe7da`完成v2。仅将房间外包宽20.00→21.00 m、中央纵向通道1.60→2.40 m、后墙人员门1.60→1.40 m。房间深度9.50 m、20舱四区各5、舱体分层形状、3.50 m横向通道与0.70 m舱间距沿用v1。

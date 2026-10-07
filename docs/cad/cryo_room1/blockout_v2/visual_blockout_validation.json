@@ -1,0 +1,572 @@
+{
+  "revision": "room1-v2-3d-blockout",
+  "task_source_commit": "501140a94cdd17f79dcc03b32abfc7c544014820",
+  "task_blob": "3d3331cf8cafb23a78ce58e3c57468fd612a1600",
+  "engineering_source_commit": "b8191893b746d127da957f61bcba63bfeda58b14",
+  "source_plan_sha256": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7",
+  "source_plan_unchanged": true,
+  "source_plan_parameters_frozen": true,
+  "envelope_m": [
+    21,
+    9.5
+  ],
+  "interior_clear_m": [
+    20.6,
+    9.1
+  ],
+  "wall_height_m": 3.4,
+  "door_clear_m": [
+    1.4,
+    2.4
+  ],
+  "pod_count": 20,
+  "quadrant_counts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "pod_envelope_m": [
+    1.05,
+    2.3,
+    1.0
+  ],
+  "pod_state": "closed",
+  "longitudinal_aisle_m": 2.4,
+  "cross_aisle_m": 3.5,
+  "pod_gap_m": 0.7,
+  "side_margin_m": 1.05,
+  "end_margin_m": 0.5,
+  "door_to_aisle_expansion_each_side_m": 0.5,
+  "height_parameters": {
+    "ClearHeight": {
+      "value_m": 3.4,
+      "status": "PROVISIONAL",
+      "purpose": "室内暂定净高 / 本轮视觉测试"
+    },
+    "DoorHeight": {
+      "value_m": 2.4,
+      "status": "PROVISIONAL",
+      "purpose": "后墙门洞暂定净高"
+    },
+    "FloorThickness": {
+      "value_m": 0.1,
+      "status": "PROVISIONAL",
+      "purpose": "地板显示厚度，位于Z=0以下"
+    },
+    "RoofThickness": {
+      "value_m": 0.15,
+      "status": "PROVISIONAL",
+      "purpose": "顶板显示厚度，默认隐藏"
+    },
+    "ReferenceHeight": {
+      "value_m": 1.68,
+      "status": "PROVISIONAL",
+      "purpose": "纯尺度参考柱高"
+    },
+    "ReferenceDiameter": {
+      "value_m": 0.45,
+      "status": "PROVISIONAL",
+      "purpose": "纯尺度参考柱直径"
+    }
+  },
+  "reference_column": {
+    "position_m": [
+      5.4,
+      4.25,
+      0
+    ],
+    "height_m": 1.68,
+    "diameter_m": 0.45,
+    "role": "scale only; not an actor or furniture"
+  },
+  "native_sketch_count": 92,
+  "fully_constrained": true,
+  "native_solid_count": 90,
+  "roof_default_hidden": true,
+  "render_status": "passed",
+  "visual_review": "completed: all eight latest native PNGs inspected; full overview fits frame; all human views use 1.60m eye height and visible 3.40m ceiling",
+  "native_freecad_gui_rendered": true,
+  "views": [
+    {
+      "name": "01_doorway_human_view",
+      "position_m": [
+        10.5,
+        10.8,
+        1.6
+      ],
+      "target_m": [
+        10.5,
+        4.75,
+        1.45
+      ],
+      "vertical_fov_deg": 44,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 10800 1600\n  orientation 0 0.69828868 0.71581626  3.1415927\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 6051.8594\n  heightAngle 0.76794487\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 10800 1600\n  orientation 0 0.69828868 0.71581626  3.1415927\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 6051.8594\n  heightAngle 0.76794487\n\n}\n",
+      "hidden_walls": [],
+      "horizontal_fov_deg": 71.3770194147022
+    },
+    {
+      "name": "02_entry_axis_human_view",
+      "position_m": [
+        10.5,
+        8.7,
+        1.6
+      ],
+      "target_m": [
+        10.5,
+        3.9,
+        1.3
+      ],
+      "vertical_fov_deg": 38,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 8700 1600\n  orientation 0 0.68469763 0.72882724  3.1415927\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 4809.3657\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 8700 1600\n  orientation 0 0.68469763 0.72882724  3.1415927\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 4809.3657\n  heightAngle 0.66322511\n\n}\n",
+      "hidden_walls": [],
+      "horizontal_fov_deg": 62.944766724853224
+    },
+    {
+      "name": "03_cross_aisle_left_right",
+      "position_m": [
+        10.5,
+        4.75,
+        1.6
+      ],
+      "target_m": [
+        1,
+        4.75,
+        1.5
+      ],
+      "vertical_fov_deg": 38,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 4750 1600\n  orientation 0.57531387 0.57531387 0.58140171  2.0883286\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 9500.5264\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 4750 1600\n  orientation 0.57531387 0.57531387 0.58140171  2.0883286\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 9500.5264\n  heightAngle 0.66322511\n\n}\n",
+      "hidden_walls": [],
+      "horizontal_fov_deg": 62.944766724853224
+    },
+    {
+      "name": "03b_cross_aisle_right",
+      "position_m": [
+        10.5,
+        4.75,
+        1.6
+      ],
+      "target_m": [
+        20,
+        4.75,
+        1.5
+      ],
+      "vertical_fov_deg": 38,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 4750 1600\n  orientation 0.57531387 -0.57531387 -0.58140171  2.0883286\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 9500.5264\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 4750 1600\n  orientation 0.57531387 -0.57531387 -0.58140171  2.0883286\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 9500.5264\n  heightAngle 0.66322511\n\n}\n",
+      "hidden_walls": [],
+      "horizontal_fov_deg": 62.944766724853224
+    },
+    {
+      "name": "04_pod_spacing_human_view",
+      "position_m": [
+        2.65,
+        0.9,
+        1.6
+      ],
+      "target_m": [
+        2.65,
+        4.75,
+        1.15
+      ],
+      "vertical_fov_deg": 38,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 2650 900 1600\n  orientation 1 0 0  1.4544412\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 3876.2095\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 2650 900 1600\n  orientation 1 0 0  1.4544412\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 3876.2095\n  heightAngle 0.66322511\n\n}\n",
+      "hidden_walls": [],
+      "horizontal_fov_deg": 62.944766724853224
+    },
+    {
+      "name": "04b_pod_spacing_look_down",
+      "position_m": [
+        2.65,
+        1.85,
+        1.6
+      ],
+      "target_m": [
+        2.65,
+        2.4,
+        0.35
+      ],
+      "vertical_fov_deg": 38,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 2650 1850 1600\n  orientation 1.0000002 0 0  0.41450673\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 1365.65\n  heightAngle 0.66322511\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 2650 1850 1600\n  orientation 1.0000002 0 0  0.41450673\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 1365.65\n  heightAngle 0.66322511\n\n}\n",
+      "hidden_walls": [],
+      "horizontal_fov_deg": 62.944766724853224
+    },
+    {
+      "name": "05_room_isometric_open_top",
+      "position_m": [
+        26,
+        -10,
+        60
+      ],
+      "target_m": [
+        10.5,
+        4.75,
+        0
+      ],
+      "orthographic_height_m": 26,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 26000 -10000 60000\n  orientation 0.3693631 0.15838656 0.9156881  0.87592292\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 63700.961\n  height 26000\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 26000 -10000 60000\n  orientation 0.3693631 0.15838656 0.9156881  0.87592292\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 63700.961\n  height 26000\n\n}\n",
+      "hidden_walls": []
+    },
+    {
+      "name": "06_room_top",
+      "position_m": [
+        10.5,
+        4.75,
+        40
+      ],
+      "target_m": [
+        10.5,
+        4.75,
+        0
+      ],
+      "orthographic_height_m": 13,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera_before_capture": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 4750 40000\n  orientation 0 0 1  0\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 40000\n  height 13000\n\n}\n",
+      "actual_camera_after_capture": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10500 4750 40000\n  orientation 0 0 1  0\n  nearDistance 20\n  farDistance 150000\n  aspectRatio 1\n  focalDistance 40000\n  height 13000\n\n}\n",
+      "hidden_walls": []
+    }
+  ],
+  "camera_note": "Human eye height 1.60m; ceiling shown in human views. Perspective 38deg vertical (~63deg horizontal), doorway 44deg (~71deg horizontal) at 16:9. Overview/top orthographic; only roof hidden, all walls retained. No geometry moved or carved for cameras.",
+  "neutral_grayscale": true,
+  "closed_pods": true,
+  "geometry_verification": {
+    "saved_readback_passed": true,
+    "fcstd_sha256": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973",
+    "v2_source_sha256": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7",
+    "source_file_unchanged": true,
+    "frozen_xy_parameters": true,
+    "unchanged_pod_layers": 80,
+    "pod_solids_identical_to_v2_without_translation": true,
+    "original_wall_xy_footprints_unchanged": true,
+    "auth_panel_shape_and_position_unchanged": true,
+    "native_sketch_count": 92,
+    "native_solid_count": 90,
+    "fully_constrained": true,
+    "invalid_objects": [],
+    "positive_volume_collisions": [],
+    "real_door_opening_verified": true,
+    "door_clear_m": [
+      1.4,
+      2.4
+    ],
+    "lintel_bottom_m": 2.4,
+    "static_scale_column_diameter_m": 0.45,
+    "static_scale_column_fits_at_pod_gap_and_entry_and_cross_center": true,
+    "gap_after_static_45cm_column_each_side_m": 0.125,
+    "door_after_static_45cm_column_each_side_m": 0.475,
+    "human_camera_positions": [
+      {
+        "name": "01_doorway_human_view",
+        "eye_height_m": 1.6,
+        "inside_any_solid": false
+      },
+      {
+        "name": "02_entry_axis_human_view",
+        "eye_height_m": 1.6,
+        "inside_any_solid": false
+      },
+      {
+        "name": "03_cross_aisle_left_right",
+        "eye_height_m": 1.6,
+        "inside_any_solid": false
+      },
+      {
+        "name": "03b_cross_aisle_right",
+        "eye_height_m": 1.6,
+        "inside_any_solid": false
+      },
+      {
+        "name": "04_pod_spacing_human_view",
+        "eye_height_m": 1.6,
+        "inside_any_solid": false
+      },
+      {
+        "name": "04b_pod_spacing_look_down",
+        "eye_height_m": 1.6,
+        "inside_any_solid": false
+      }
+    ],
+    "parameter_edit_tests": [
+      {
+        "parameter": "ClearHeight",
+        "trial_mm": 3500,
+        "measurements": [
+          {
+            "object": "Wall_Front",
+            "axis": "ZMax",
+            "measured_mm": 3500.0
+          },
+          {
+            "object": "DoorLintel",
+            "axis": "ZMax",
+            "measured_mm": 3500.0
+          },
+          {
+            "object": "Roof",
+            "axis": "ZMin",
+            "measured_mm": 3500.0
+          }
+        ],
+        "passed": true
+      },
+      {
+        "parameter": "DoorHeight",
+        "trial_mm": 2500,
+        "measurements": [
+          {
+            "object": "DoorLintel",
+            "axis": "ZMin",
+            "measured_mm": 2500.0
+          },
+          {
+            "object": "DoorLintel",
+            "axis": "ZLength",
+            "measured_mm": 900.0
+          }
+        ],
+        "passed": true
+      },
+      {
+        "parameter": "FloorThickness",
+        "trial_mm": 120,
+        "measurements": [
+          {
+            "object": "Floor",
+            "axis": "ZMin",
+            "measured_mm": -120.0
+          },
+          {
+            "object": "Floor",
+            "axis": "ZMax",
+            "measured_mm": 0.0
+          }
+        ],
+        "passed": true
+      },
+      {
+        "parameter": "RoofThickness",
+        "trial_mm": 200,
+        "measurements": [
+          {
+            "object": "Roof",
+            "axis": "ZMax",
+            "measured_mm": 3600.0
+          }
+        ],
+        "passed": true
+      },
+      {
+        "parameter": "ReferenceHeight",
+        "trial_mm": 1700,
+        "measurements": [
+          {
+            "object": "ReferenceColumn",
+            "axis": "ZMax",
+            "measured_mm": 1700.0
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "scope": "static closed-pod geometry; not ergonomic or opening sweep certification"
+  },
+  "acceptance_status": "ROOM 1 SPATIAL BLOCKOUT ACCEPTED",
+  "acceptance_scope": "static closed-pod spatial blockout only; not final dimensions, ergonomics, opening sweep, mechanical design or art identity approval",
+  "visual_judgments": [
+    {
+      "id": "room_proportion",
+      "question": "21×9.5m比例",
+      "observation": "四区与十字通道清楚，横向延展但未见明显失衡。",
+      "status": "passed",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "door_to_entry_axis",
+      "question": "1.4m门到2.4m入口轴线",
+      "observation": "两侧各展开0.50m，门口呈明确展开，单人进入未被舱体夹住。",
+      "status": "passed",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "pods_near_door",
+      "question": "门后左右舱",
+      "observation": "视觉上近，后墙端余量0.50m；内侧底座距中心线各1.20m，中央轴线保持连续。",
+      "status": "passed",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "cross_aisle",
+      "question": "3.5m横向通道",
+      "observation": "较宽敞，仍有主通道层级；未见明显过窄或宽度失衡。",
+      "status": "passed",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "pod_spacing",
+      "question": "0.7m舱间操作位",
+      "observation": "单人静态接近可容纳，但偏紧；直径0.45m柱两侧仅各余0.125m。上下舱、转身与辅助操作仍待动作验证。",
+      "status": "static_fit_passed_dynamic_use_pending",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "ceiling_height",
+      "question": "3.4m暂定净高",
+      "observation": "比1m舱体高，但与1.68m尺度柱比较未见明显压低或夸张大厅化；保持P测试值。",
+      "status": "passed_provisional",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "room_identity",
+      "question": "标准化生命保存室身份",
+      "observation": "低矮单层及统一分层支持标准设备感；中性灰模的重复闭舱排列仍可能带来临床或停尸间联想，最终美术辨识待后续验证。",
+      "status": "spatial_organization_passed_art_identity_pending",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    },
+    {
+      "id": "collisions",
+      "question": "新增实体碰撞",
+      "observation": "90个原生实体正体积碰撞0，门洞真实留空；80个原舱分层形状与坐标不变。",
+      "status": "passed",
+      "basis": "native view inspection and recorded geometry; qualitative spatial judgment"
+    }
+  ],
+  "image_validation": [
+    {
+      "name": "01_doorway_human_view",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        204
+      ]
+    },
+    {
+      "name": "02_entry_axis_human_view",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        202
+      ]
+    },
+    {
+      "name": "03_cross_aisle_left_right",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        204
+      ]
+    },
+    {
+      "name": "03b_cross_aisle_right",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        204
+      ]
+    },
+    {
+      "name": "04_pod_spacing_human_view",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        204
+      ]
+    },
+    {
+      "name": "04b_pod_spacing_look_down",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        206
+      ]
+    },
+    {
+      "name": "05_room_isometric_open_top",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        255
+      ]
+    },
+    {
+      "name": "06_room_top",
+      "size_px": [
+        1920,
+        1080
+      ],
+      "brightness_range": [
+        25,
+        255
+      ]
+    }
+  ],
+  "baseline_manifest_files_unchanged": 35,
+  "not_started": [
+    "standard floor",
+    "12 rooms per zone / 48 rooms per floor",
+    "whole building"
+  ],
+  "next_validation": [
+    "人体上下舱/转身/辅助操作",
+    "开盖机构与扫掠",
+    "背部服务系统的设备更换路径",
+    "生命保存设备的美术身份"
+  ]
+}

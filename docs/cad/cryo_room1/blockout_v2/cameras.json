@@ -1,0 +1,10 @@
+[
+ {"name":"01_doorway_human_view","position_m":[10.5,10.8,1.6],"target_m":[10.5,4.75,1.45],"vertical_fov_deg":44,"projection":"perspective","roof_visible":true},
+ {"name":"02_entry_axis_human_view","position_m":[10.5,8.7,1.6],"target_m":[10.5,3.9,1.3],"vertical_fov_deg":38,"projection":"perspective","roof_visible":true},
+ {"name":"03_cross_aisle_left_right","position_m":[10.5,4.75,1.6],"target_m":[1,4.75,1.5],"vertical_fov_deg":38,"projection":"perspective","roof_visible":true},
+ {"name":"03b_cross_aisle_right","position_m":[10.5,4.75,1.6],"target_m":[20,4.75,1.5],"vertical_fov_deg":38,"projection":"perspective","roof_visible":true},
+ {"name":"04_pod_spacing_human_view","position_m":[2.65,0.9,1.6],"target_m":[2.65,4.75,1.15],"vertical_fov_deg":38,"projection":"perspective","roof_visible":true},
+ {"name":"04b_pod_spacing_look_down","position_m":[2.65,1.85,1.6],"target_m":[2.65,2.4,0.35],"vertical_fov_deg":38,"projection":"perspective","roof_visible":true},
+ {"name":"05_room_isometric_open_top","position_m":[26,-10,60],"target_m":[10.5,4.75,0],"orthographic_height_m":26,"projection":"orthographic","roof_visible":false},
+ {"name":"06_room_top","position_m":[10.5,4.75,40],"target_m":[10.5,4.75,0],"orthographic_height_m":13,"projection":"orthographic","roof_visible":false}
+]

@@ -1,0 +1,62 @@
+"""Neutral native FreeCAD views; drive Coin directly for accurate eye height."""
+from pathlib import Path
+import json,math,time,traceback,hashlib
+import FreeCAD as A, FreeCADGui as Gui
+from pivy import coin
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;OUT=ROOT/'evidence/visual_blockout';QA=ROOT/'qa';report={}
+def stage(s):(QA/'render_progress.txt').write_text(s,encoding='utf-8')
+try:
+ stage('opening independent blockout')
+ preferences=A.ParamGet('User parameter:BaseApp/Preferences/View')
+ preferences.SetUnsigned('HeadlightColor',0xffffffff);preferences.SetUnsigned('ShadowLightColor',0xffffffff)
+ doc=A.openDocument(str(ROOT/'room1_3d_blockout_v2.FCStd'));A.setActiveDocument(doc.Name);Gui.activateWorkbench('PartWorkbench')
+ palette={'Base':.53,'Body':.69,'Lid':.81,'Window':.46}
+ for o in doc.Objects:
+  if o.TypeId in ['Part::Extrusion','Part::Cylinder']:
+   value=palette.get(o.Name.rsplit('_',1)[-1],.82)
+   if o.Name=='Floor':value=.88
+   elif o.Name=='Roof':value=.84
+   elif o.Name in ['ReferenceColumn','AuthPanel']:value=.38
+   o.ViewObject.ShapeColor=(value,value,value);o.ViewObject.LineColor=(.25,.25,.25)
+   material=A.Material();material.DiffuseColor=(value,value,value);material.AmbientColor=(.2,.2,.2)
+   material.SpecularColor=(0.,0.,0.);material.EmissiveColor=(0.,0.,0.);material.Shininess=0.;material.Transparency=0.
+   o.ViewObject.ShapeAppearance=[material]
+   o.ViewObject.Transparency=0;o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.LineWidth=1
+   o.Visibility=o.Name!='Roof'
+  elif o.TypeId=='Sketcher::SketchObject':o.Visibility=False
+ doc.recompute();Gui.updateGui();view=Gui.activeDocument().activeView()
+ def set_camera(config):
+  p=A.Vector(*[v*1000 for v in config['position_m']]);t=A.Vector(*[v*1000 for v in config['target_m']]);z=p-t;z.normalize()
+  if abs(z.z)>.9999:rot=A.Rotation()
+  else:
+   x=A.Vector(0,0,1).cross(z);x.normalize();y=z.cross(x);y.normalize();rot=A.Rotation(x,y,z,'ZXY')
+  node=view.getCameraNode();node.orientation.setValue(coin.SbRotation(*rot.Q));node.position.setValue(p.x,p.y,p.z)
+  node.nearDistance.setValue(20);node.farDistance.setValue(150000);node.focalDistance.setValue((p-t).Length)
+  if config['projection']=='perspective':node.heightAngle.setValue(math.radians(config['vertical_fov_deg']))
+  else:node.height.setValue(config['orthographic_height_m']*1000)
+  actual=tuple(node.position.getValue());assert all(abs(a-b)<.1 for a,b in zip(actual,[p.x,p.y,p.z]))
+  return view.getCamera()
+ outputs=[];configs=json.loads((ROOT/'cameras.json').read_text(encoding='utf-8'))
+ for config in configs:
+  stage('rendering '+config['name']);doc.Roof.Visibility=config['roof_visible']
+  view.setCameraType('Perspective' if config['projection']=='perspective' else 'Orthographic')
+  for _ in range(20):Gui.updateGui();time.sleep(.1)
+  actual=set_camera(config)
+  view.saveImage(str(OUT/(config['name']+'.png')),1920,1080,'White')
+  output=dict(config,width_px=1920,height_px=1080,actual_camera_before_capture=actual,actual_camera_after_capture=view.getCamera(),hidden_walls=[])
+  if config['projection']=='perspective':output['horizontal_fov_deg']=math.degrees(2*math.atan(math.tan(math.radians(config['vertical_fov_deg']/2))*1920/1080))
+  outputs.append(output)
+ # Save an open-top default with unchanged native geometry, no hidden walls.
+ doc.Roof.Visibility=False;view.setCameraType('Orthographic')
+ for _ in range(20):Gui.updateGui();time.sleep(.1)
+ set_camera(configs[-2]);doc.recompute();doc.save()
+ report=json.loads((ROOT/'visual_blockout_validation.json').read_text(encoding='utf-8'))
+ report.update(native_freecad_gui_rendered=True,render_status='passed',views=outputs,visual_review='pending',
+  camera_note='Human eye height 1.60m; ceiling shown in human views. Perspective 38deg vertical (~63deg horizontal), doorway 44deg (~71deg horizontal) at 16:9. Overview/top orthographic; only roof hidden, all walls retained. No geometry moved or carved for cameras.',
+  neutral_grayscale=True,closed_pods=True,roof_default_hidden=True)
+ A.closeDocument(doc.Name)
+except Exception:report=dict(error=traceback.format_exc())
+(ROOT/'visual_blockout_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+stage('complete' if 'error' not in report else 'failed')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

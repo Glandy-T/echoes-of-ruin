@@ -1,0 +1,86 @@
+{
+  ".gitattributes": {
+    "bytes": 8,
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  "README.md": {
+    "bytes": 5956,
+    "sha256": "2694b625a29853cba55b053365d87ae84f2ed2cf698d5bb36fd560f480f480c9"
+  },
+  "VIEW_GALLERY.html": {
+    "bytes": 5782,
+    "sha256": "de203807b8df7b9a21464f228c1cb1c7af2d70573d320d43464eb308f827f7ee"
+  },
+  "room1_3d_blockout_v2.FCStd": {
+    "bytes": 391002,
+    "sha256": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973"
+  },
+  "cameras.json": {
+    "bytes": 1292,
+    "sha256": "7acb2f00fd5798fb3982145e46ff34a016b98011998808756b803bd725029a8e"
+  },
+  "build_blockout.py": {
+    "bytes": 6326,
+    "sha256": "99fa5ce4714cad93976c57a16664a8be682dac7ffd20842f146291bc9757609d"
+  },
+  "render_blockout.FCMacro": {
+    "bytes": 4336,
+    "sha256": "2ffb18418627d88311cd70baaa09f9017fa0fb3be576d642bc6a370930b2da52"
+  },
+  "validate_blockout.py": {
+    "bytes": 6528,
+    "sha256": "c68e550e8ee4b3d9df85628c88489f1220ac9dd0337c631b9c80bb80e33af647"
+  },
+  "package_blockout.py": {
+    "bytes": 7980,
+    "sha256": "0b7061aa2141ed375c49d8ecb103c7afe5552cd7cb778252a62dc5f6695a7600"
+  },
+  "visual_blockout_validation.json": {
+    "bytes": 19655,
+    "sha256": "578d92d71df2ce52c0e8004999535cc5714f85e8cfd0831fe83dcd0aee557230"
+  },
+  "qa/saved_validation.json": {
+    "bytes": 3539,
+    "sha256": "bbd72f99413790db292b1898ccb293e8c60159f674c3394e8840e9fc81d45702"
+  },
+  "evidence/visual_blockout/01_doorway_human_view.png": {
+    "bytes": 20716,
+    "sha256": "a01f4aa08f7a55aa568f76e37ddd59cbb114bf8fb2bc15baf7819ee179e18b5c"
+  },
+  "evidence/visual_blockout/02_entry_axis_human_view.png": {
+    "bytes": 20262,
+    "sha256": "3a64b6fb6230e4093fd585c219c5704d1b331acdf3e44d4b814afa817c92445b"
+  },
+  "evidence/visual_blockout/03_cross_aisle_left_right.png": {
+    "bytes": 24347,
+    "sha256": "2cdb7d36e5a23b2795dc9f855950d539e198fb6711b1b8da67c717477fba1fa0"
+  },
+  "evidence/visual_blockout/03b_cross_aisle_right.png": {
+    "bytes": 23191,
+    "sha256": "274e89bc2f3b5d7191a6b4d53d672a8c48aa6c9fd1436040dea709a3db02fb59"
+  },
+  "evidence/visual_blockout/04_pod_spacing_human_view.png": {
+    "bytes": 22064,
+    "sha256": "7b6b7028effb5b32c87f8234163a205714dfa43c396d6b96b55cf22849107fbb"
+  },
+  "evidence/visual_blockout/04b_pod_spacing_look_down.png": {
+    "bytes": 25724,
+    "sha256": "2bdb158411f47f0f2dd55f9969d477602f65fccfbdb8adfb2b2d7cefeffeb3a3"
+  },
+  "evidence/visual_blockout/05_room_isometric_open_top.png": {
+    "bytes": 52084,
+    "sha256": "33bb57db32fc0ab0d8924b4de10345ade28ec3f0e5235d39683ec7119f671821"
+  },
+  "evidence/visual_blockout/06_room_top.png": {
+    "bytes": 16874,
+    "sha256": "38973c5ef8ccb63bd0da39a0721729c2495d1f83466930961195caabf91b3f1c"
+  },
+  "sources/ART_DIRECTION.snapshot.md": {
+    "bytes": 90509,
+    "sha256": "16d977bcd939dc83ac91850b4ce56aceefcfdfefcbde2e025b6d032f6cf2b3c6"
+  },
+  "sources/ROOM1_3D_BLOCKOUT_PASS.snapshot.md": {
+    "bytes": 4630,
+    "sha256": "e8ea1513e68fe059dd4d8c7bd75666abf5c2b45b2a777971cd70b1cd2e69b9ab"
+  }
+}

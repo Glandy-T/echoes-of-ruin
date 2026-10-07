@@ -1,0 +1,141 @@
+{
+  "saved_readback_passed": true,
+  "fcstd_sha256": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973",
+  "v2_source_sha256": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7",
+  "source_file_unchanged": true,
+  "frozen_xy_parameters": true,
+  "unchanged_pod_layers": 80,
+  "pod_solids_identical_to_v2_without_translation": true,
+  "original_wall_xy_footprints_unchanged": true,
+  "auth_panel_shape_and_position_unchanged": true,
+  "native_sketch_count": 92,
+  "native_solid_count": 90,
+  "fully_constrained": true,
+  "invalid_objects": [],
+  "positive_volume_collisions": [],
+  "real_door_opening_verified": true,
+  "door_clear_m": [
+    1.4,
+    2.4
+  ],
+  "lintel_bottom_m": 2.4,
+  "static_scale_column_diameter_m": 0.45,
+  "static_scale_column_fits_at_pod_gap_and_entry_and_cross_center": true,
+  "gap_after_static_45cm_column_each_side_m": 0.125,
+  "door_after_static_45cm_column_each_side_m": 0.475,
+  "human_camera_positions": [
+    {
+      "name": "01_doorway_human_view",
+      "eye_height_m": 1.6,
+      "inside_any_solid": false
+    },
+    {
+      "name": "02_entry_axis_human_view",
+      "eye_height_m": 1.6,
+      "inside_any_solid": false
+    },
+    {
+      "name": "03_cross_aisle_left_right",
+      "eye_height_m": 1.6,
+      "inside_any_solid": false
+    },
+    {
+      "name": "03b_cross_aisle_right",
+      "eye_height_m": 1.6,
+      "inside_any_solid": false
+    },
+    {
+      "name": "04_pod_spacing_human_view",
+      "eye_height_m": 1.6,
+      "inside_any_solid": false
+    },
+    {
+      "name": "04b_pod_spacing_look_down",
+      "eye_height_m": 1.6,
+      "inside_any_solid": false
+    }
+  ],
+  "parameter_edit_tests": [
+    {
+      "parameter": "ClearHeight",
+      "trial_mm": 3500,
+      "measurements": [
+        {
+          "object": "Wall_Front",
+          "axis": "ZMax",
+          "measured_mm": 3500.0
+        },
+        {
+          "object": "DoorLintel",
+          "axis": "ZMax",
+          "measured_mm": 3500.0
+        },
+        {
+          "object": "Roof",
+          "axis": "ZMin",
+          "measured_mm": 3500.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "DoorHeight",
+      "trial_mm": 2500,
+      "measurements": [
+        {
+          "object": "DoorLintel",
+          "axis": "ZMin",
+          "measured_mm": 2500.0
+        },
+        {
+          "object": "DoorLintel",
+          "axis": "ZLength",
+          "measured_mm": 900.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "FloorThickness",
+      "trial_mm": 120,
+      "measurements": [
+        {
+          "object": "Floor",
+          "axis": "ZMin",
+          "measured_mm": -120.0
+        },
+        {
+          "object": "Floor",
+          "axis": "ZMax",
+          "measured_mm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "RoofThickness",
+      "trial_mm": 200,
+      "measurements": [
+        {
+          "object": "Roof",
+          "axis": "ZMax",
+          "measured_mm": 3600.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "parameter": "ReferenceHeight",
+      "trial_mm": 1700,
+      "measurements": [
+        {
+          "object": "ReferenceColumn",
+          "axis": "ZMax",
+          "measured_mm": 1700.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "scope": "static closed-pod geometry; not ergonomic or opening sweep certification"
+}
