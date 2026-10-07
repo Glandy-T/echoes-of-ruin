@@ -1,0 +1,24 @@
+{
+  "final_file_reopened": true,
+  "all_parameters_restored": true,
+  "sketch_count": 322,
+  "wall_count": 248,
+  "maximum_wall_coordinate_error_m": 2.842170943040401e-14,
+  "native_dimension_count": 7,
+  "room1_source_files_unchanged": {
+    "v2/room1_engineering_v2.FCStd": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7",
+    "blockout_v2/room1_3d_blockout_v2.FCStd": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973"
+  },
+  "publication_visual_review": {
+    "pages": [
+      "A401",
+      "A402",
+      "A403"
+    ],
+    "actual_pdf_rendered": true,
+    "reviewed": true,
+    "text_overlap_or_clipping": false
+  },
+  "native_live_page_reviewed": true,
+  "stage": "2D_TOPOLOGY_VERIFIED / EVACUATION_DESIGN_OPEN"
+}

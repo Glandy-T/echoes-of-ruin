@@ -1,0 +1,68 @@
+"""Dedicated GUI helper: native readback, live dimensions, parameter trials, 2D export."""
+from pathlib import Path
+import json,time,math,traceback,sys
+import FreeCAD as App,FreeCADGui as Gui,TechDrawGui
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;QA=ROOT/'qa';sys.path.insert(0,str(ROOT))
+from layout import build_layout
+def stage(s):(QA/'gui_progress.txt').write_text(s,encoding='utf-8')
+report={}
+try:
+ stage('open editable native floor')
+ doc=App.openDocument(str(ROOT/'standard_floor_v1.FCStd'));App.setActiveDocument(doc.Name)
+ Gui.activateWorkbench('TechDrawWorkbench');doc.recompute();Gui.updateGui()
+ Gui.activeDocument().getObject('A404').doubleClicked();Gui.updateGui()
+ for _ in range(12):Gui.updateGui();time.sleep(.1)
+ stage('read live projection vertices')
+ vertices=[];view=doc.NativePlan
+ for i in range(5000):
+  try:
+   pt=view.getVertexByIndex(i).Vertexes[0].Point;vertices.append((i,pt.x,pt.y))
+  except (ValueError,IndexError):break
+ assert vertices
+ xmin=min(p[1] for p in vertices);xmax=max(p[1] for p in vertices);ymin=min(p[2] for p in vertices);ymax=max(p[2] for p in vertices)
+ assert abs(xmax-xmin-196400)<1e-4 and abs(ymax-ymin-70600)<1e-4,(xmin,xmax,ymin,ymax)
+ def target(x,y):return (xmin+(x+9.7)*1000,ymin+y*1000)
+ def near(pt):
+  a=min(vertices,key=lambda a:(a[1]-pt[0])**2+(a[2]-pt[1])**2);assert math.dist(a[1:],pt)<1e-4,(a,pt);return a[0]
+ stage('add true TechDraw dimensions')
+ for o in list(doc.Objects):
+  if o.TypeId=='TechDraw::DrawViewDimension':doc.removeObject(o.Name)
+ dims=[]
+ for name,typ,coords,x,y,expected in [
+  ('MaximumEnvelope','DistanceX',[(-9.7,0),(186.7,0)],0,-112,196400),
+  ('MainWidth','DistanceX',[(0,0),(177,0)],0,-95,177000),
+  ('MainDepth','DistanceY',[(0,0),(0,70.6)],-215,0,70600),
+  ('MachineSpine','DistanceX',[(83.4,33.3),(89.4,33.3)],0,100,6000),
+  ('MachineCross','DistanceY',[(0,33.3),(0,37.3)],-202,0,4000),
+  ('PersonnelCorridor','DistanceY',[(.2,9.5),(.2,11.9)],-180,-42,2400),
+  ('StairFlight','DistanceY',[(-7.7,33.4),(-7.7,35.2)],-232,0,1800),
+ ]:
+  refs=[near(target(*pt)) for pt in coords];dim=doc.addObject('TechDraw::DrawViewDimension','Dim_'+name);doc.A404.addView(dim);dim.Type=typ;dim.References2D=[(view,['Vertex'+str(i) for i in refs])];dim.ShowUnits=True;dim.X=x;dim.Y=y;dim.LockPosition=True
+  doc.recompute();Gui.updateGui();got=float(dim.getRawValue());assert abs(got-expected)<1e-4,(name,got,expected);dims.append(dict(name=name,mm=got))
+ stage('test native parameter expressions')
+ edits=[]
+ for key,trial in [('RoomWidth',21200),('MachineSpine',6200),('RoomDoor',1500)]:
+  old=getattr(doc.Parameters,key).Value;setattr(doc.Parameters,key,trial);doc.recompute();Gui.updateGui()
+  expected=build_layout({key:trial/1000})
+  got=[(doc.getObject(w['id']).Shape.BoundBox.XMin/1000,doc.getObject(w['id']).Shape.BoundBox.YMin/1000,doc.getObject(w['id']).Shape.BoundBox.XMax/1000,doc.getObject(w['id']).Shape.BoundBox.YMax/1000) for w in build_layout()['walls']]
+  wanted=[tuple(w[k] for k in ['x1','y1','x2','y2']) for w in expected['walls']]
+  assert len(got)==len(wanted),(key,len(got),len(wanted))
+  delta=max(abs(a-b) for g,w in zip(got,wanted) for a,b in zip(g,w));assert delta<1e-6,(key,delta)
+  assert all(o.Shape.isValid() for o in doc.Objects if o.TypeId=='Part::Extrusion')
+  edits.append(dict(parameter=key,trial_mm=trial,all_wall_cells_readback=True,maximum_coordinate_error_m=delta))
+  setattr(doc.Parameters,key,old);doc.recompute();Gui.updateGui()
+ old=doc.Parameters.StoreyHeight.Value;doc.Parameters.StoreyHeight=4000;doc.recompute();assert abs(doc.Parameters.Rise.Value-4000/24)<1e-5;edits.append(dict(parameter='StoreyHeight',trial_mm=4000,rise_mm=doc.Parameters.Rise.Value));doc.Parameters.StoreyHeight=old;doc.recompute()
+ for o in doc.Objects:
+  if o.TypeId=='Part::Extrusion':o.Visibility=True;o.ViewObject.ShapeColor=(.27,.27,.27);o.ViewObject.LineColor=(.27,.27,.27)
+  elif o.TypeId=='Sketcher::SketchObject':o.Visibility=False
+ stage('export native live page')
+ doc.recompute();Gui.updateGui();doc.save();TechDrawGui.exportPageAsPdf(doc.A404,str(ROOT/'exports'/'A404_native_live.pdf'))
+ # Original snapshots are inspected through the publication PDF. Open A401 when saved.
+ Gui.activeDocument().getObject('A401').doubleClicked();Gui.updateGui();doc.save()
+ report=dict(native_gui_opened=True,native_projection_vertices=len(vertices),native_dimensions=dims,parameter_edit_tests=edits,all_sketches_fully_constrained=all(o.FullyConstrained for o in doc.Objects if o.TypeId=='Sketcher::SketchObject'),all_restored_to_baseline=True,source_commit=doc.Parameters.SourceCommit,formal_3d_created=False,saved=True)
+ App.closeDocument(doc.Name)
+except Exception:report=dict(error=traceback.format_exc())
+(QA/'gui_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+stage('complete' if 'error' not in report else 'failed')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

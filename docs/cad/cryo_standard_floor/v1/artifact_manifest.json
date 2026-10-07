@@ -1,0 +1,157 @@
+{
+  "revision": "standard_floor_v1",
+  "source_commit": "71ba4633094de972cbd229a2e890946e740f04ab",
+  "stage": "2D_TOPOLOGY_VERIFIED / EVACUATION_DESIGN_OPEN",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7775,
+      "sha256": "8ec51fec5dd2420dfadf29c8fc54741c2090e7eb1d47cd2a516546001ce89d7d"
+    },
+    {
+      "path": "layout.py",
+      "bytes": 21780,
+      "sha256": "beb4ef012c22c30c030fdb82fe82c752b7dcade06a8824b98b245990f514c495"
+    },
+    {
+      "path": "drawings.py",
+      "bytes": 13504,
+      "sha256": "30c1c5453737e5a73cebc6a2354d9208c9add78af19014cb3c5e6e1005d65496"
+    },
+    {
+      "path": "build_freecad.py",
+      "bytes": 10112,
+      "sha256": "23afbc14733e8e7ef9b5e92eca18f97b30c08796616866d5354e0fc0455e2470"
+    },
+    {
+      "path": "export_pdf.py",
+      "bytes": 2572,
+      "sha256": "e09ca003b4a35a3eede2b083fbd098db6ad6686bff1a5a82e98e9009e5506a28"
+    },
+    {
+      "path": "finish_in_freecad.FCMacro",
+      "bytes": 4939,
+      "sha256": "5aa1b8293961210393522a648633f2e3e68656d50131556c9f633facf34a529a"
+    },
+    {
+      "path": "verify_saved.py",
+      "bytes": 2115,
+      "sha256": "2b93c90d871ebf0ce3d085d31541d53546b985f929fec859352144ce54c405fb"
+    },
+    {
+      "path": "package_artifacts.py",
+      "bytes": 1701,
+      "sha256": "90c9dd232652b05af52927e97c341f4eb3a76af5ce7277e208b90a92f14eb23b"
+    },
+    {
+      "path": "standard_floor_v1.FCStd",
+      "bytes": 967163,
+      "sha256": "34636ce546be832f789029abc3b923e608e5bf7489fb352cf9a60e5633ba1708"
+    },
+    {
+      "path": "floor_layout.json",
+      "bytes": 202069,
+      "sha256": "e91c4c45f33ddac71407cb63ee33831cc407f5ad8da1dfcdb7d3309041157a65"
+    },
+    {
+      "path": "floor_validation.json",
+      "bytes": 60553,
+      "sha256": "7fd1667d65e64a2e7b721f683f709b3c48e6ee5e076f2dd79cd77dc491569ae8"
+    },
+    {
+      "path": "sources/STANDARD_FLOOR_ENGINEERING_BRIEF.snapshot.md",
+      "bytes": 7763,
+      "sha256": "e3b53e24ee2086e2a6df88e5e7400a7dca03b0e93ffef23fadbf7fd22f7b08db"
+    },
+    {
+      "path": "sources/room1_v2_parameters.snapshot.json",
+      "bytes": 167418,
+      "sha256": "fd6f3c640ddc307e6f44f92317f2d74de69e4fa34c9ee0bc25fa6e4a88be9016"
+    },
+    {
+      "path": "sources/ROOM1_3D_VALIDATION.snapshot.md",
+      "bytes": 5956,
+      "sha256": "2694b625a29853cba55b053365d87ae84f2ed2cf698d5bb36fd560f480f480c9"
+    },
+    {
+      "path": "exports/A2_blank.svg",
+      "bytes": 92,
+      "sha256": "162cef1a4a25fe23c16c6ccf0b04973ffe30533f5286bb15c81cfd41c6f33948"
+    },
+    {
+      "path": "exports/A2_live.svg",
+      "bytes": 485,
+      "sha256": "982f1474d506d54f9968d21bba25476a53e266bc08d287e3f156df98cd9ae71f"
+    },
+    {
+      "path": "exports/A401_v1.svg",
+      "bytes": 81893,
+      "sha256": "02fc51fe52f0cdcbb3fd4f37c76bd4b514a67dc86eb7ab68623795f437d12650"
+    },
+    {
+      "path": "exports/A402_v1.svg",
+      "bytes": 26637,
+      "sha256": "11a45cbf4d55f04331988fb1491c0928803b512bc711d7cd47b5742983d9a68c"
+    },
+    {
+      "path": "exports/A403_v1.svg",
+      "bytes": 20990,
+      "sha256": "dd2102158a476a443a800588a41c6e68c1188712b87599be05da79159457c3d1"
+    },
+    {
+      "path": "exports/drawing_data.json",
+      "bytes": 229590,
+      "sha256": "a9908eda262f514f5900f6771594cd119e70849c1d5e4ea71d91a26c96bf0f88"
+    },
+    {
+      "path": "exports/standard_floor_v1.pdf",
+      "bytes": 98365,
+      "sha256": "0e7bed0094e1396a8c5badf0824c2977b9833241ed31f9bbbc45d69da98ba01d"
+    },
+    {
+      "path": "exports/A404_native_live.pdf",
+      "bytes": 251830,
+      "sha256": "dfb8776afdc5bf4c34bf76a14e8e06dc9b9fa72ae5a3dc564a54ecfacc0bec04"
+    },
+    {
+      "path": "qa/gui_validation.json",
+      "bytes": 1474,
+      "sha256": "93a48b734d13d6cd95f3ac61c5e676c90e89da75d20df337cdfb4489fae3b759"
+    },
+    {
+      "path": "qa/pdf_validation.json",
+      "bytes": 234,
+      "sha256": "3329748e526b7098d38e8bb289f295b9e834db693e43ce06c545c6e93eb730f7"
+    },
+    {
+      "path": "qa/final_validation.json",
+      "bytes": 776,
+      "sha256": "99953c68a7d1d6a303141f34ebf382f30867217c200af1a41d30ccd7c6bf6f3e"
+    },
+    {
+      "path": "qa/sheet-1.png",
+      "bytes": 147891,
+      "sha256": "2bdbb792f84037f956a2675c9f8566c728da3701e1c62d6b6921e1d7d99defcc"
+    },
+    {
+      "path": "qa/sheet-2.png",
+      "bytes": 119459,
+      "sha256": "56d739a84e3160ca84d994baeb70eba2639d0c0946d9f3892ec5c2ff90d19614"
+    },
+    {
+      "path": "qa/sheet-3.png",
+      "bytes": 149273,
+      "sha256": "f1e644838618b16711e2583a7bbd7f023d6c79997f9975ad6bc8325126de499a"
+    },
+    {
+      "path": "qa/native-A404-1.png",
+      "bytes": 51481,
+      "sha256": "98cf4b0a3c126f75852ffaccdfb5d6a87ed9786dcf80b10d3d675e60edee1c84"
+    }
+  ]
+}

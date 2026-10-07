@@ -1,0 +1,64 @@
+{
+  "native_gui_opened": true,
+  "native_projection_vertices": 922,
+  "native_dimensions": [
+    {
+      "name": "MaximumEnvelope",
+      "mm": 196400.0
+    },
+    {
+      "name": "MainWidth",
+      "mm": 177000.0
+    },
+    {
+      "name": "MainDepth",
+      "mm": 70599.99999999782
+    },
+    {
+      "name": "MachineSpine",
+      "mm": 6000.0000000057835
+    },
+    {
+      "name": "MachineCross",
+      "mm": 3999.9999999999786
+    },
+    {
+      "name": "PersonnelCorridor",
+      "mm": 2399.999999999636
+    },
+    {
+      "name": "StairFlight",
+      "mm": 1800.0
+    }
+  ],
+  "parameter_edit_tests": [
+    {
+      "parameter": "RoomWidth",
+      "trial_mm": 21200,
+      "all_wall_cells_readback": true,
+      "maximum_coordinate_error_m": 2.842170943040401e-14
+    },
+    {
+      "parameter": "MachineSpine",
+      "trial_mm": 6200,
+      "all_wall_cells_readback": true,
+      "maximum_coordinate_error_m": 2.842170943040401e-14
+    },
+    {
+      "parameter": "RoomDoor",
+      "trial_mm": 1500,
+      "all_wall_cells_readback": true,
+      "maximum_coordinate_error_m": 2.842170943040401e-14
+    },
+    {
+      "parameter": "StoreyHeight",
+      "trial_mm": 4000,
+      "rise_mm": 166.66666666666666
+    }
+  ],
+  "all_sketches_fully_constrained": true,
+  "all_restored_to_baseline": true,
+  "source_commit": "71ba4633094de972cbd229a2e890946e740f04ab",
+  "formal_3d_created": false,
+  "saved": true
+}
