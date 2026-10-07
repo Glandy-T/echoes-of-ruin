@@ -1,0 +1,18 @@
+{
+  "native_file_reopened": true,
+  "projection_ready_refreshed": true,
+  "native_dimensions_mm": {
+    "MaximumEnvelope": 187800.0000000029,
+    "MainWidth": 177999.99999999962,
+    "MainDepth": 94200.0,
+    "CoreWidth": 19600.00000000008,
+    "TransferClear": 11200.0,
+    "PersonnelCorridor": 2399.999999999636,
+    "StairFlight": 1799.9999999999545,
+    "StairDoor": 1799.999999999997,
+    "NorthStairDoor": 1800.0000000000823,
+    "MachineSpine": 6000.0
+  },
+  "all_native_values_match": true,
+  "all_dimensions_visible": true
+}
