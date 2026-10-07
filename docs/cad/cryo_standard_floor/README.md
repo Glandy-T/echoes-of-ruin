@@ -1,12 +1,14 @@
 # 标准休眠层工程交付
 
-当前依据提交`16898b0561e0ac3a96697ff501a4ba26380221ec`的0D：已接受平面只修正北南楼梯全内嵌，随后完成整层3D Blockout。
+当前依据提交 `b53aa9b8e38c7c423703dd946c2ba88d44b9ab37` 的0E，三项几何收尾修复及原生文件/视图复核已完成。
 
-- [北南楼梯内嵌工程验证](v3_inset/README.md) / [原生2D CAD](v3_inset/standard_floor_v3_inset.FCStd) / [三页A2工程图](v3_inset/exports/standard_floor_v3_inset.pdf)
-- [整层3D说明](blockout_v3/README.md) / [原生3D CAD](blockout_v3/standard_floor_blockout_v3.FCStd)
-- [十视角图册](blockout_v3/VIEW_GALLERY.html) / [拼图预览](blockout_v3/VIEW_CONTACT_SHEET.png)
-- [2D交付包](v3_inset/standard_floor_v3_inset_delivery.zip) / [3D交付包](blockout_v3/standard_floor_blockout_v3_delivery.zip)
+**STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE**
 
-48室/960舱，四区完整3×4、Room1外包21×9.5m；主体186.40×77.80m。北南楼梯各收回2.60m，完全内嵌；房间、人员梯、中央四货梯、Q与机器作业区不移动。北南路线各缩短2.60m，最远最近楼梯中心路径仍66.95m（由西东路径控制）。整层3D包含四代表室完整闭舱，其余真实简化舱外包，十个原生视角，顶板可隐藏。
+- [最终2D工程图与验证](v3_frozen/README.md) / [原生CAD](v3_frozen/standard_floor_v3_frozen.FCStd) / [四页A2图册](v3_frozen/exports/standard_floor_v3_frozen.pdf)
+- [最终整层3D](blockout_v3_frozen/README.md) / [原生灰模](blockout_v3_frozen/standard_floor_blockout_v3_frozen.FCStd)
+- [13视角图册](blockout_v3_frozen/VIEW_GALLERY.html) / [预览](blockout_v3_frozen/VIEW_CONTACT_SHEET.png)
+- [2D交付包](v3_frozen/standard_floor_v3_frozen_delivery.zip) / [3D交付包](blockout_v3_frozen/standard_floor_blockout_v3_frozen_delivery.zip)
 
-所有历史版本完整保留：[v1](v1/README.md)、[v2](v2/README.md)、[旧v3](v3/README.md)、[已接受v3_final](v3_final/README.md)。本轮不再重新解释平面排布。当前是几何/路径及单层灰模空间验证，疏散容量/时间、防火细节和最终游戏相机仍待完善。
+修复四个人员井道误铺楼板、补齐东西各两段保护廊地面、闭合南侧两处0.20m墙缝；其他平面和疏散拓扑保持。48室/960舱、主体186.40×77.80m保持。高度与结构做法仍为暂定灰模参数，冻结并不构成结构、消防或容量批准。下一阶段推进整栋楼；仅堆叠、结构或游戏相机发现明确冲突时重新打开本层布局。
+
+历史交付原字节保留：[v1](v1/README.md)、[v2](v2/README.md)、[旧v3](v3/README.md)、[已接受v3_final](v3_final/README.md)、[v3_inset](v3_inset/README.md)、[整层blockout_v3](blockout_v3/README.md)。

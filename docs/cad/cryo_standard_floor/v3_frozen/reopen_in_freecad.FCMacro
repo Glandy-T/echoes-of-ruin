@@ -1,0 +1,24 @@
+"""Reopen saved CAD, refresh projected dimensions after projection is ready, read all values."""
+from pathlib import Path
+import json,time,traceback,xml.etree.ElementTree as ET
+import FreeCAD as App,FreeCADGui as Gui,TechDrawGui
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;report={}
+try:
+ doc=App.openDocument(str(ROOT/'standard_floor_v3_frozen.FCStd'));Gui.activateWorkbench('TechDrawWorkbench')
+ for code in ['A401','A402','A403','A405']:
+  r=ET.fromstring((ROOT/'exports'/(code+'_v3_frozen.svg')).read_text(encoding='utf-8'));r.set('width','594');r.set('height','420');doc.getObject(code+'_Snapshot').Symbol=ET.tostring(r,encoding='unicode')
+ doc.recompute();Gui.activeDocument().getObject('A404').doubleClicked()
+ for _ in range(30):Gui.updateGui();time.sleep(.1)
+ doc.Dim_MachineSpine.X=60
+ for o in doc.Objects:
+  if o.TypeId=='TechDraw::DrawViewDimension':o.touch();o.Visibility=True
+ doc.recompute()
+ for _ in range(30):Gui.updateGui();time.sleep(.1)
+ dims=json.loads((ROOT/'qa/gui_validation.json').read_text(encoding='utf-8'))['native_dimensions'];vals={a['name']:float(doc.getObject('Dim_'+a['name']).getRawValue()) for a in dims}
+ assert all(abs(vals[a['name']]-a['mm'])<1e-4 for a in dims),vals
+ TechDrawGui.exportPageAsPdf(doc.A404,str(ROOT/'exports/A404_native_live.pdf'));doc.save();App.closeDocument(doc.Name)
+ report=dict(native_file_reopened=True,projection_ready_refreshed=True,native_dimensions_mm=vals,all_native_values_match=True,all_dimensions_visible=True)
+except Exception:report=dict(error=traceback.format_exc())
+(ROOT/'qa/reopen_gui_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

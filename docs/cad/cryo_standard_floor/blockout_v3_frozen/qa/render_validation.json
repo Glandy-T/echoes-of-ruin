@@ -1,0 +1,289 @@
+{
+  "native_freecad_gui_rendered": true,
+  "views": [
+    {
+      "name": "01_overall_open_top",
+      "label": "开顶整层斜俯视",
+      "position_m": [
+        226,
+        -126,
+        190
+      ],
+      "target_m": [
+        93.2,
+        43.1,
+        0
+      ],
+      "orthographic_height_m": 135,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 226000 -126000 190000\n  orientation 0.76524597 0.26456961 0.58685726  1.0647675\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 286933.19\n  height 135000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "02_orthographic_top",
+      "label": "正交俯视 / 48室真实门位",
+      "position_m": [
+        93.2,
+        43.1,
+        300
+      ],
+      "target_m": [
+        93.2,
+        43.1,
+        0
+      ],
+      "orthographic_height_m": 115,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 93200 43100 300000\n  orientation 0 0 1  0\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 300000\n  height 115000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "03_personnel_corridor_eye",
+      "label": "典型人员走廊 / 眼高1.60m",
+      "position_m": [
+        25.3,
+        14.9,
+        1.6
+      ],
+      "target_m": [
+        72.9,
+        14.9,
+        1.6
+      ],
+      "vertical_fov_deg": 44,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 25300 14900 1600\n  orientation 0.57735026 -0.57735026 -0.57735026  2.0943952\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 47600\n  heightAngle 0.76794487\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "04_freight_core_overview",
+      "label": "中央机器作业区 / 四货梯与Q",
+      "position_m": [
+        122,
+        17,
+        35
+      ],
+      "target_m": [
+        93.2,
+        43.1,
+        0
+      ],
+      "orthographic_height_m": 42,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 122000 17000 35000\n  orientation 0.67604208 0.29969043 0.67316622  1.1646994\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 52303.441\n  height 42000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "04b_machine_work_eye",
+      "label": "横向机器作业区 / 西侧绕行口",
+      "position_m": [
+        73,
+        43.1,
+        1.6
+      ],
+      "target_m": [
+        86,
+        46.5,
+        1.5
+      ],
+      "vertical_fov_deg": 44,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 73000 43100 1600\n  orientation 0.67401505 -0.52040499 -0.52429223  1.9485396\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 13437.634\n  heightAngle 0.76794487\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "05_north_stair_connection",
+      "label": "北楼梯完全内嵌 / 纵向机器臂连接",
+      "position_m": [
+        109,
+        64,
+        25
+      ],
+      "target_m": [
+        93.2,
+        73,
+        0
+      ],
+      "orthographic_height_m": 28,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 109000 64000 25000\n  orientation 0.4697288 0.27302271 0.83953184  1.2111222\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 30913.428\n  height 28000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "05b_north_stair_eye",
+      "label": "纵向机器臂看北楼梯 / 眼高1.60m",
+      "position_m": [
+        93.2,
+        62,
+        1.6
+      ],
+      "target_m": [
+        93.2,
+        75.8,
+        1.6
+      ],
+      "vertical_fov_deg": 44,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 93200 62000 1600\n  orientation 1 0 0  1.5707964\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 13800\n  heightAngle 0.76794487\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "05c_south_stair_connection",
+      "label": "南楼梯完全内嵌 / 镜像连接",
+      "position_m": [
+        109,
+        22,
+        25
+      ],
+      "target_m": [
+        93.2,
+        13,
+        0
+      ],
+      "orthographic_height_m": 28,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 109000 22000 25000\n  orientation 0.17692009 0.30438662 0.93597442  2.1451104\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 30913.428\n  height 28000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "06_room1_floor_relationship",
+      "label": "代表性Room1 / 与人员廊和相邻房间的尺度关系",
+      "position_m": [
+        27,
+        -8,
+        24
+      ],
+      "target_m": [
+        31.3,
+        20.85,
+        0
+      ],
+      "orthographic_height_m": 34,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 27000 -8000 24000\n  orientation 0.98526776 -0.073022187 -0.15464567  0.8938216\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 37773.172\n  height 34000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "07_room1_eye",
+      "label": "代表性Room1完整闭舱 / 眼高1.60m",
+      "position_m": [
+        31.3,
+        25.05,
+        1.6
+      ],
+      "target_m": [
+        31.3,
+        20.85,
+        1.4
+      ],
+      "vertical_fov_deg": 44,
+      "projection": "perspective",
+      "roof_visible": true,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nPerspectiveCamera {\n  viewportMapping ADJUST_CAMERA\n  position 31300 25050 1600\n  orientation 0 0.69008511 0.72372824  3.1415927\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 4204.7593\n  heightAngle 0.76794487\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "08_west_lift_stair_connection",
+      "label": "西侧人员电梯与消防楼梯 / 连续保护廊",
+      "position_m": [
+        -14,
+        13,
+        60
+      ],
+      "target_m": [
+        -1.2,
+        35,
+        0
+      ],
+      "orthographic_height_m": 40,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "car_floor_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position -14000 13000 60000\n  orientation 0.59416711 -0.160272 -0.78821176  0.65945524\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 65175.457\n  height 40000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "09_east_lift_stair_connection",
+      "label": "东侧镜像连接 / 南端墙缝闭合",
+      "position_m": [
+        200.4,
+        13,
+        60
+      ],
+      "target_m": [
+        187.6,
+        35,
+        0
+      ],
+      "orthographic_height_m": 40,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "car_floor_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 200400 13000 60000\n  orientation 0.59416711 0.160272 0.78821176  0.65945524\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 65175.457\n  height 40000\n\n}\n",
+      "all_walls_visible": true
+    },
+    {
+      "name": "10_four_passenger_shaft_voids",
+      "label": "四个人员井道开洞 / 轿厢参照隐藏",
+      "position_m": [
+        93.2,
+        43.1,
+        300
+      ],
+      "target_m": [
+        93.2,
+        43.1,
+        0
+      ],
+      "orthographic_height_m": 115,
+      "projection": "orthographic",
+      "roof_visible": false,
+      "car_floor_visible": false,
+      "width_px": 1920,
+      "height_px": 1080,
+      "actual_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 93200 43100 300000\n  orientation 0 0 1  0\n  nearDistance 10\n  farDistance 1000000\n  aspectRatio 1\n  focalDistance 300000\n  height 115000\n\n}\n",
+      "all_walls_visible": true
+    }
+  ],
+  "default_view": "01_overall_open_top",
+  "roof_default_hidden": true,
+  "all_walls_retained": true,
+  "neutral_grayscale": true,
+  "authored_materials": false,
+  "authored_lights": false,
+  "visual_review": "passed",
+  "stage": "STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE"
+}

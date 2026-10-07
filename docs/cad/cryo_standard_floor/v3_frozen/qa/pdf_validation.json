@@ -1,0 +1,16 @@
+{
+  "pages": 4,
+  "page_size_mm": [
+    594,
+    420
+  ],
+  "page_codes": [
+    "A401",
+    "A402",
+    "A403",
+    "A405"
+  ],
+  "embedded_font": "Windows SimSun TTC subset",
+  "text_bounds_failures": [],
+  "content_checks": true
+}

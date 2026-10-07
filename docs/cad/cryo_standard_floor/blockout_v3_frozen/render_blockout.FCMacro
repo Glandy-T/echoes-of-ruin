@@ -1,0 +1,51 @@
+"""Render actual native geometry from saved reproducible cameras; retain all walls."""
+from pathlib import Path
+import json,math,time,traceback
+import FreeCAD as A,FreeCADGui as Gui
+from pivy import coin
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;OUT=ROOT/'views';QA=ROOT/'qa';report={}
+def stage(s):(QA/'render_progress.txt').write_text(s,encoding='utf-8')
+try:
+ stage('opening native whole-floor blockout')
+ prefs=A.ParamGet('User parameter:BaseApp/Preferences/View');prefs.SetUnsigned('HeadlightColor',0xffffffff);prefs.SetUnsigned('ShadowLightColor',0xffffffff)
+ doc=A.openDocument(str(ROOT/'standard_floor_blockout_v3_frozen.FCStd'));A.setActiveDocument(doc.Name);Gui.activateWorkbench('PartWorkbench')
+ palette={'floor':.9,'wall':.78,'lintel':.78,'personnel_floor':.84,'machine_floor':.86,'lift_car_floor':.57,'lane_marking':.5,'waiting_bay':.64,'stair_tread':.62,'stair_mid_landing':.67,'stair_upper_landing':.67,'stair_wall_upper':.78,'pod_base':.53,'pod_body':.69,'pod_lid':.81,'pod_window':.46,'simple_pod':.68,'person_scale':.35,'ceiling':.86}
+ for o in doc.Objects:
+  if not hasattr(o,'Role') or not hasattr(o,'Shape'):continue
+  val=palette.get(o.Role,.8)
+  if hasattr(o.ViewObject,'ShapeColor'):
+   o.ViewObject.ShapeColor=(val,val,val);o.ViewObject.LineColor=(.27,.27,.27);o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.LineWidth=1
+   material=A.Material();material.DiffuseColor=(val,val,val);material.AmbientColor=(.2,.2,.2);material.SpecularColor=(0.,0.,0.);material.EmissiveColor=(0.,0.,0.);material.Shininess=0.;material.Transparency=0.;o.ViewObject.ShapeAppearance=[material]
+  o.Visibility=o.Role not in ['room_envelope','pod_template','pod_base','pod_body','pod_lid','pod_window','simple_pod','emergency_gate','ceiling']
+ # Templates themselves stay hidden; visible App::Link instances share geometry.
+ for o in doc.RoomPods.Group:o.Visibility=True
+ doc.recompute();Gui.updateGui();view=Gui.activeDocument().activeView()
+ def camera(c):
+  p=A.Vector(*[x*1000 for x in c['position_m']]);t=A.Vector(*[x*1000 for x in c['target_m']]);z=p-t;z.normalize()
+  if abs(z.z)>.9999:rot=A.Rotation()
+  else:x=A.Vector(0,0,1).cross(z);x.normalize();y=z.cross(x);y.normalize();rot=A.Rotation(x,y,z,'ZXY')
+  n=view.getCameraNode();n.orientation.setValue(coin.SbRotation(*rot.Q));n.position.setValue(p.x,p.y,p.z);n.nearDistance.setValue(10);n.farDistance.setValue(1000000);n.focalDistance.setValue((p-t).Length)
+  if c['projection']=='perspective':n.heightAngle.setValue(math.radians(c['vertical_fov_deg']))
+  else:n.height.setValue(c['orthographic_height_m']*1000)
+  assert all(abs(a-b)<.1 for a,b in zip(n.position.getValue(),[p.x,p.y,p.z]))
+  return view.getCamera()
+ outputs=[];configs=json.loads((ROOT/'cameras.json').read_text(encoding='utf-8'))
+ for c in configs:
+  stage('rendering '+c['name'])
+  for o in doc.Roofs.Group:o.Visibility=c['roof_visible']
+  for o in doc.LiftCars.Group:o.Visibility=c.get('car_floor_visible',True)
+  view.setCameraType('Perspective' if c['projection']=='perspective' else 'Orthographic')
+  for _ in range(12):Gui.updateGui();time.sleep(.1)
+  actual=camera(c)
+  for _ in range(4):Gui.updateGui();time.sleep(.1)
+  view.saveImage(str(OUT/(c['name']+'.png')),1920,1080,'White');outputs.append(dict(c,width_px=1920,height_px=1080,actual_camera=actual,all_walls_visible=True))
+ for o in doc.Roofs.Group:o.Visibility=False
+ for o in doc.LiftCars.Group:o.Visibility=True
+ view.setCameraType('Orthographic')
+ for _ in range(12):Gui.updateGui();time.sleep(.1)
+ camera(configs[0]);doc.recompute();doc.save();A.closeDocument(doc.Name)
+ report=dict(native_freecad_gui_rendered=True,views=outputs,default_view='01_overall_open_top',roof_default_hidden=True,all_walls_retained=True,neutral_grayscale=True,authored_materials=False,authored_lights=False,visual_review='pending')
+except Exception:report=dict(error=traceback.format_exc())
+(QA/'render_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');stage('complete' if 'error' not in report else 'failed')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

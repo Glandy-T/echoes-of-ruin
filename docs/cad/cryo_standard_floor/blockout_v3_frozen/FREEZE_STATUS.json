@@ -1,0 +1,28 @@
+{
+  "stage": "STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE",
+  "source_commit": "b53aa9b8e38c7c423703dd946c2ba88d44b9ab37",
+  "saved_files": [
+    {
+      "file": "standard_floor_v3_frozen.FCStd",
+      "sha256": "de098c7db29ee83696c54703960f6521d886adcacf47949521caaf4cec1d7414",
+      "geometry_volume_area_topology_and_vertices_unchanged": true,
+      "stage_readback_verified": true
+    },
+    {
+      "file": "standard_floor_blockout_v3_frozen.FCStd",
+      "sha256": "44642b2241330a7c7364f4f40d68cd8ff54f5e850b684a8b8a5a347686c4713d",
+      "geometry_volume_area_topology_and_vertices_unchanged": true,
+      "stage_readback_verified": true
+    }
+  ],
+  "frozen_scope": "Single-floor accepted XY geometry and spatial blockout. Heights/structural details provisional. No fire-code, capacity or whole-building approval.",
+  "repairs": [
+    "Four net personnel shaft voids opened; car floors remain independent",
+    "Four side-gallery floor segments continuous",
+    "Only two south 0.20m wall gaps closed"
+  ],
+  "room_count": 48,
+  "pod_count": 960,
+  "layout_and_egress_topology_unchanged": true,
+  "reopen_policy": "Reopen only for an explicit stacking, structural or game-camera conflict; no further routine floor-layout adjustments."
+}

@@ -1,0 +1,197 @@
+{
+  "revision": "standard_floor_v3_frozen",
+  "source_commit": "b53aa9b8e38c7c423703dd946c2ba88d44b9ab37",
+  "stage": "STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2595,
+      "sha256": "20aef3084eaf90072ce44d49645c2ed77f111fcb31b2bdec5e809ef2bd281532"
+    },
+    {
+      "path": "FREEZE_STATUS.json",
+      "bytes": 1302,
+      "sha256": "93f24c1862c20984afcc617178bd3d49f9a9396de7b61d566a11254145debf2a"
+    },
+    {
+      "path": "layout.py",
+      "bytes": 27537,
+      "sha256": "e9d924193f69a9cff0a58eab3600dfdc034f5b3abbb9362c31c2eea969ff12b2"
+    },
+    {
+      "path": "drawings.py",
+      "bytes": 18004,
+      "sha256": "0a30f8bdac81e2677047ca2ca6ffb9e568abea45adaab04ad97fbd3799a17f8d"
+    },
+    {
+      "path": "build_freecad.py",
+      "bytes": 13531,
+      "sha256": "0ac890365aa4276872dbae363590e5388735bf1435f2f23476968c9a5c5668aa"
+    },
+    {
+      "path": "export_pdf.py",
+      "bytes": 2635,
+      "sha256": "902fdf1250a0e223594ca0bc86706fde0a2d9aa724d233703314ff5ea59a979e"
+    },
+    {
+      "path": "finish_in_freecad.FCMacro",
+      "bytes": 5167,
+      "sha256": "993b4123bde7967e939e1cec421d97eef8d086f7a20f3c620b5e5c052345b7ef"
+    },
+    {
+      "path": "verify_saved.py",
+      "bytes": 3749,
+      "sha256": "fb81d9257c8dbe9dce4f3b1ed3199d96daeb65f342877559d86b411b466caea7"
+    },
+    {
+      "path": "package_artifacts.py",
+      "bytes": 2169,
+      "sha256": "1dd8c07d1959debf5bdf030202bb743a6d1c714c46a8cdcc274c7e4a20617da4"
+    },
+    {
+      "path": "reopen_in_freecad.FCMacro",
+      "bytes": 1753,
+      "sha256": "0bbca5107b12e481a7bf54f89be208825b73b2517cb906db88b9739961a07658"
+    },
+    {
+      "path": "mark_freeze.FCMacro",
+      "bytes": 3364,
+      "sha256": "3dbe3f0f014269574cb6affc0f4b8aed0066d6cea48648110b3c1e4aeaf69ee7"
+    },
+    {
+      "path": "standard_floor_v3_frozen.FCStd",
+      "bytes": 1018794,
+      "sha256": "de098c7db29ee83696c54703960f6521d886adcacf47949521caaf4cec1d7414"
+    },
+    {
+      "path": "floor_layout.json",
+      "bytes": 242912,
+      "sha256": "c811e965d0b6fa5b9befcca43f7857b4cc79be5934bfd68569959eab00fc0028"
+    },
+    {
+      "path": "floor_validation.json",
+      "bytes": 99335,
+      "sha256": "7d4cd07fef971e4c7a0975a2b67ae4be188ab22cda3efe943e9870f6e1f600a5"
+    },
+    {
+      "path": "sources/STANDARD_FLOOR_ENGINEERING_BRIEF.snapshot.md",
+      "bytes": 31719,
+      "sha256": "458f72b7a9a2a785993e8ca82031d83d6c02187fa7d978337933224018b752a1"
+    },
+    {
+      "path": "sources/before_cleanup_layout.snapshot.json",
+      "bytes": 240500,
+      "sha256": "cdd96d53ac05e3379d4f3d479df4f6c2be45f48fe67ae15bfc9a1f20dc8f4d49"
+    },
+    {
+      "path": "sources/room1_v2_parameters.snapshot.json",
+      "bytes": 167418,
+      "sha256": "fd6f3c640ddc307e6f44f92317f2d74de69e4fa34c9ee0bc25fa6e4a88be9016"
+    },
+    {
+      "path": "sources/standard_floor_v2_validation.snapshot.json",
+      "bytes": 109603,
+      "sha256": "f4c01107add07a88b3d1180faf037cbb379726900775663a23881352d160b8ca"
+    },
+    {
+      "path": "exports/A2_blank.svg",
+      "bytes": 92,
+      "sha256": "162cef1a4a25fe23c16c6ccf0b04973ffe30533f5286bb15c81cfd41c6f33948"
+    },
+    {
+      "path": "exports/A2_live.svg",
+      "bytes": 483,
+      "sha256": "d4ca64d60b6b1ca5a11756e9f5f34aa2c7e01b994bbdd662309f41cc2a194b4b"
+    },
+    {
+      "path": "exports/A401_v3_frozen.svg",
+      "bytes": 104880,
+      "sha256": "8fe5c8cfeabbab44131fa143e2074d6efcb702b02e8ceb532a54154c73fdfe5f"
+    },
+    {
+      "path": "exports/A402_v3_frozen.svg",
+      "bytes": 26865,
+      "sha256": "f992c65176a81dfde381c4ca30d16defee5f44ec1245e76337681eae65d33f05"
+    },
+    {
+      "path": "exports/A403_v3_frozen.svg",
+      "bytes": 37191,
+      "sha256": "cdd23141c59aa046ddf37dc44b1440c9f257529a3b415a898a7ee98e080a26f1"
+    },
+    {
+      "path": "exports/A405_v3_frozen.svg",
+      "bytes": 12773,
+      "sha256": "72995d733b2574a11dcffc129656c7e0e7da67c2ffb01dff72aecd6025bb86e5"
+    },
+    {
+      "path": "exports/drawing_data.json",
+      "bytes": 312365,
+      "sha256": "31072869b4e74bd3268b38aca6a5c56c8fb685e86ec7ed53c0848537fb932ff9"
+    },
+    {
+      "path": "exports/standard_floor_v3_frozen.pdf",
+      "bytes": 105610,
+      "sha256": "a8e75fba11215873190147117a59b6e648a964ac428463484cbc33a1c25e7889"
+    },
+    {
+      "path": "exports/A404_native_live.pdf",
+      "bytes": 268413,
+      "sha256": "182d1d1722a68c7bfbde6d28a0d8e92614d1d15358dad127bc6eb633832c108b"
+    },
+    {
+      "path": "qa/gui_validation.json",
+      "bytes": 1707,
+      "sha256": "916907388af5201998dc69e1dfe0e7fe4de82acba41f668828680c72477d250b"
+    },
+    {
+      "path": "qa/reopen_gui_validation.json",
+      "bytes": 551,
+      "sha256": "459e2bccd70b0011fac0b27a770ce18d35a25cf84ef4ffa19bb9b4c422bdea48"
+    },
+    {
+      "path": "qa/pdf_validation.json",
+      "bytes": 247,
+      "sha256": "8f0db9d89165083446dd5747058c0015c46047bcd0db46bd8ae48ee2b198d5aa"
+    },
+    {
+      "path": "qa/final_validation.json",
+      "bytes": 2685,
+      "sha256": "44f7ed1e173673b595ecfc060841dbabb7fcf4c92c87ca1c8bc0e098b94ec276"
+    },
+    {
+      "path": "qa/cleanup_validation.json",
+      "bytes": 4420,
+      "sha256": "35b21dc32cf2001702e68aa36a87a2a94bb79bfad67fb711ddd0d9e7f28daf9e"
+    },
+    {
+      "path": "qa/sheet-1.png",
+      "bytes": 107827,
+      "sha256": "05661d6188214708192812052ee5d12fe89fc8fe38b68615e534633bc2a53f7c"
+    },
+    {
+      "path": "qa/sheet-2.png",
+      "bytes": 76339,
+      "sha256": "df67ed4de8242230f4690ae2fe6b03b3cc11b5a2c69ee14f4a6a83d2e92e7cef"
+    },
+    {
+      "path": "qa/sheet-3.png",
+      "bytes": 103656,
+      "sha256": "c3988020ec07033a77a1544bc9f67b6f1b4f1443758837ef382696a7a8eda5bd"
+    },
+    {
+      "path": "qa/sheet-4.png",
+      "bytes": 69491,
+      "sha256": "86e27890c51d009cfef90b41b419a5b21f7f51731492798ab5a118fce8f6114d"
+    },
+    {
+      "path": "qa/native-A404-1.png",
+      "bytes": 42561,
+      "sha256": "f2b9c63c4c080bd7269c8d8544c91c628a16ad937c8e641c684671762a3ce46e"
+    }
+  ]
+}

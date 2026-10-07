@@ -1,0 +1,50 @@
+{
+  "final_file_reopened": true,
+  "all_parameters_restored": true,
+  "sketch_count": 353,
+  "wall_count": 242,
+  "native_dimension_count": 10,
+  "maximum_wall_coordinate_error_m": 5.684341886080802e-14,
+  "prior_files_unchanged": {
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\v3_inset\\standard_floor_v3_inset.FCStd": "bf9f88ea543203a3dc01f4977445a0375621645fed1c4f852cc436c0e943e5e6",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\blockout_v3\\standard_floor_blockout_v3.FCStd": "25b05fa76503e21526a1ea57e9d5c450e40c5ce1d01f3026297f3f41b198d507",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\v3_final\\standard_floor_v3_final.FCStd": "1503cedb8b64adb960bab3a877053b22a5ed0a891b7afcc483757450bf2aad1f",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\v3\\standard_floor_v3.FCStd": "e446f3e7c5cea955bc5e98d113c7fe500ae9550503d0f77037f0f5994f4f238a",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\v1\\standard_floor_v1.FCStd": "34636ce546be832f789029abc3b923e608e5bf7489fb352cf9a60e5633ba1708",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\v2\\standard_floor_v2.FCStd": "92f98d1b7f9b580de55cbbafe13feed4314043d0a8e5a0947f6d1d4d31da6e72",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_room1\\v2\\room1_engineering_v2.FCStd": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_room1\\blockout_v2\\room1_3d_blockout_v2.FCStd": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973"
+  },
+  "brief_snapshot_git_blob": "e7abfb7971e7e5aa8c6482e3008c092f466f09e9",
+  "native_gui_reopen_verified": {
+    "native_file_reopened": true,
+    "projection_ready_refreshed": true,
+    "native_dimensions_mm": {
+      "MaximumEnvelope": 196199.9999999971,
+      "MainWidth": 186400.0,
+      "MainDepth": 77800.00000000345,
+      "CoreWidth": 19600.000000000364,
+      "TransferClear": 11200.0,
+      "PersonnelCorridor": 2399.999999999636,
+      "StairFlight": 1799.9999999998408,
+      "StairDoor": 1799.999999992721,
+      "NorthStairDoor": 1799.9999999998408,
+      "MachineSpine": 6000.0
+    },
+    "all_native_values_match": true,
+    "all_dimensions_visible": true
+  },
+  "publication_visual_review": {
+    "pages": [
+      "A401",
+      "A402",
+      "A403",
+      "A405"
+    ],
+    "actual_pdf_rendered": true,
+    "reviewed": true,
+    "text_overlap_or_clipping": false
+  },
+  "native_live_page_reviewed": true,
+  "stage": "STANDARD FLOOR SPATIAL BLOCKOUT ACCEPTED / FROZEN FOR NEXT BUILDING STAGE"
+}

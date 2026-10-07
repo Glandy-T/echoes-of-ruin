@@ -1,0 +1,4609 @@
+{
+  "revision": "v3_inset",
+  "source_commit": "16898b0561e0ac3a96697ff501a4ba26380221ec",
+  "brief_blob": "29870c510e912c6af29e9066b2d8309515876c39",
+  "stage": "2D_TOPOLOGY_VERIFIED / EVACUATION_CAPACITY_OPEN",
+  "room_count": 48,
+  "pod_capacity": 960,
+  "rooms_per_zone": 12,
+  "capacity_per_zone": 240,
+  "room_personnel_doors": 64,
+  "middle_double_door_rooms": 16,
+  "original_regular_zone_m": [
+    83.4,
+    33.3
+  ],
+  "intact_rectangular_zones": true,
+  "individual_room_steps": 0,
+  "upper_half_shift_down_m": 4.2,
+  "lower_half_shift_up_m": 4.2,
+  "horizontal_zone_origins_unchanged": true,
+  "cross_blank_each_side_reduction_m": 4.2,
+  "previous_cross_lane_margin_each_side_m": 7.8,
+  "current_cross_lane_margin_each_side_m": 3.599999999999998,
+  "west_east_machine_work_clear_m": [
+    78.7,
+    11.199999999999996
+  ],
+  "machine_spine_side_work_strip_clear_m": 6.800000000000001,
+  "main_envelope_m": [
+    186.4,
+    77.79999999999998
+  ],
+  "maximum_envelope_m": [
+    196.20000000000002,
+    77.79999999999998
+  ],
+  "personnel_clear_m": 2.4,
+  "machine_spine_clear_m": 6,
+  "machine_cross_clear_m": 4,
+  "transfer_clear_m": [
+    11.2,
+    11.2
+  ],
+  "core_outer_m": [
+    19.6,
+    19.6
+  ],
+  "freight_cars": 4,
+  "freight_car_clear_m": [
+    3.2,
+    3.8
+  ],
+  "freight_shaft_outer_m": [
+    3.6,
+    4.2
+  ],
+  "freight_doors_m": 2.4,
+  "core_bypass_openings": 8,
+  "core_bypass_clear_m": 2.4,
+  "waiting_bays": 4,
+  "carrier_envelope_m": [
+    1.7,
+    3.1
+  ],
+  "turn_circle_diameter_m": 3.735533905932738,
+  "stair_count": 4,
+  "stair_entries": {
+    "West": 2,
+    "East": 2,
+    "North": 1,
+    "South": 1
+  },
+  "stair_extra_airlocks": 0,
+  "flight_clear_m": 1.8,
+  "landing_m": 1.8,
+  "stair_embedded_depth_m": {
+    "West": 4.7,
+    "East": 4.7,
+    "North": 7.3,
+    "South": 7.3
+  },
+  "stair_external_projection_m": {
+    "West": 2.6,
+    "East": 2.6,
+    "North": 0,
+    "South": 0
+  },
+  "stair_well_outer_m": [
+    7.3,
+    4.2
+  ],
+  "riser_count": 24,
+  "risers_per_flight": 12,
+  "riser_mm": 158.33333333333331,
+  "tread_mm": 300,
+  "flight_run_m": 3.3,
+  "passenger_nodes": 4,
+  "passenger_node_envelope_m": [
+    5.1,
+    14.7
+  ],
+  "passenger_car_clear_m": [
+    2.1,
+    2.4
+  ],
+  "passenger_relative_zone_positions_unchanged": true,
+  "passenger_one_per_zone_assumption_accepted": true,
+  "accepted_v3_final_plan_preserved": true,
+  "north_south_stairs_inset_shift_m": 2.6,
+  "west_east_stairs_unchanged": true,
+  "daily_routes": [
+    {
+      "room": "SW-01",
+      "length_m": 26.049999999999997,
+      "nodes": [
+        "SW-01",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-02",
+      "length_m": 46.85000000000001,
+      "nodes": [
+        "SW-02",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-03",
+      "length_m": 67.65,
+      "nodes": [
+        "SW-03",
+        "SW_C0_2",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-04",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "SW-04",
+        "SW_C0_3",
+        "SW_C0_2",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-05",
+      "length_m": 26.05,
+      "nodes": [
+        "SW-05",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-06",
+      "length_m": 46.85000000000001,
+      "nodes": [
+        "SW-06",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-07",
+      "length_m": 67.65,
+      "nodes": [
+        "SW-07",
+        "SW_C0_2",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-08",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "SW-08",
+        "SW_C0_3",
+        "SW_C0_2",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-09",
+      "length_m": 26.05,
+      "nodes": [
+        "SW-09",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-10",
+      "length_m": 46.85000000000001,
+      "nodes": [
+        "SW-10",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-11",
+      "length_m": 67.65,
+      "nodes": [
+        "SW-11",
+        "SW_C1_2",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SW-12",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "SW-12",
+        "SW_C1_3",
+        "SW_C1_2",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_Foyer",
+        "SW_Lift"
+      ]
+    },
+    {
+      "room": "SE-01",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "SE-01",
+        "SE_C0_0",
+        "SE_C0_1",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-02",
+      "length_m": 67.65,
+      "nodes": [
+        "SE-02",
+        "SE_C0_1",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-03",
+      "length_m": 46.85000000000002,
+      "nodes": [
+        "SE-03",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-04",
+      "length_m": 26.050000000000004,
+      "nodes": [
+        "SE-04",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-05",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "SE-05",
+        "SE_C0_0",
+        "SE_C0_1",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-06",
+      "length_m": 67.65,
+      "nodes": [
+        "SE-06",
+        "SE_C0_1",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-07",
+      "length_m": 46.85000000000002,
+      "nodes": [
+        "SE-07",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-08",
+      "length_m": 26.050000000000008,
+      "nodes": [
+        "SE-08",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-09",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "SE-09",
+        "SE_C1_0",
+        "SE_C1_1",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-10",
+      "length_m": 67.65,
+      "nodes": [
+        "SE-10",
+        "SE_C1_1",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-11",
+      "length_m": 46.85000000000002,
+      "nodes": [
+        "SE-11",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "SE-12",
+      "length_m": 26.050000000000008,
+      "nodes": [
+        "SE-12",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_Foyer",
+        "SE_Lift"
+      ]
+    },
+    {
+      "room": "NW-01",
+      "length_m": 26.049999999999997,
+      "nodes": [
+        "NW-01",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-02",
+      "length_m": 46.85,
+      "nodes": [
+        "NW-02",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-03",
+      "length_m": 67.64999999999999,
+      "nodes": [
+        "NW-03",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-04",
+      "length_m": 88.45,
+      "nodes": [
+        "NW-04",
+        "NW_C0_3",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-05",
+      "length_m": 26.04999999999999,
+      "nodes": [
+        "NW-05",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-06",
+      "length_m": 46.85,
+      "nodes": [
+        "NW-06",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-07",
+      "length_m": 67.64999999999999,
+      "nodes": [
+        "NW-07",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-08",
+      "length_m": 88.45,
+      "nodes": [
+        "NW-08",
+        "NW_C0_3",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-09",
+      "length_m": 26.050000000000004,
+      "nodes": [
+        "NW-09",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-10",
+      "length_m": 46.85000000000001,
+      "nodes": [
+        "NW-10",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-11",
+      "length_m": 67.65,
+      "nodes": [
+        "NW-11",
+        "NW_C1_2",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NW-12",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "NW-12",
+        "NW_C1_3",
+        "NW_C1_2",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_Foyer",
+        "NW_Lift"
+      ]
+    },
+    {
+      "room": "NE-01",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "NE-01",
+        "NE_C0_0",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-02",
+      "length_m": 67.65,
+      "nodes": [
+        "NE-02",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-03",
+      "length_m": 46.850000000000016,
+      "nodes": [
+        "NE-03",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-04",
+      "length_m": 26.050000000000004,
+      "nodes": [
+        "NE-04",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-05",
+      "length_m": 88.44999999999999,
+      "nodes": [
+        "NE-05",
+        "NE_C0_0",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-06",
+      "length_m": 67.64999999999999,
+      "nodes": [
+        "NE-06",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-07",
+      "length_m": 46.85000000000001,
+      "nodes": [
+        "NE-07",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-08",
+      "length_m": 26.049999999999997,
+      "nodes": [
+        "NE-08",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-09",
+      "length_m": 88.45000000000002,
+      "nodes": [
+        "NE-09",
+        "NE_C1_0",
+        "NE_C1_1",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-10",
+      "length_m": 67.65,
+      "nodes": [
+        "NE-10",
+        "NE_C1_1",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-11",
+      "length_m": 46.85000000000002,
+      "nodes": [
+        "NE-11",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    },
+    {
+      "room": "NE-12",
+      "length_m": 26.05000000000001,
+      "nodes": [
+        "NE-12",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_Foyer",
+        "NE_Lift"
+      ]
+    }
+  ],
+  "emergency_routes": [
+    {
+      "room": "SW-01",
+      "stair": "West",
+      "length_m": 46.14999999999999,
+      "nodes": [
+        "SW-01",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-01",
+      "stair": "South",
+      "length_m": 93.14999999999999,
+      "nodes": [
+        "SW-01",
+        "SW_C0_0",
+        "SW_C0_1",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-02",
+      "stair": "West",
+      "length_m": 66.95,
+      "nodes": [
+        "SW-02",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-02",
+      "stair": "South",
+      "length_m": 72.35000000000001,
+      "nodes": [
+        "SW-02",
+        "SW_C0_1",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-03",
+      "stair": "West",
+      "length_m": 87.74999999999999,
+      "nodes": [
+        "SW-03",
+        "SW_C0_2",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-03",
+      "stair": "South",
+      "length_m": 51.55,
+      "nodes": [
+        "SW-03",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-04",
+      "stair": "West",
+      "length_m": 108.55,
+      "nodes": [
+        "SW-04",
+        "SW_C0_3",
+        "SW_C0_2",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-04",
+      "stair": "South",
+      "length_m": 30.749999999999993,
+      "nodes": [
+        "SW-04",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-05",
+      "stair": "West",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SW-05",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-05",
+      "stair": "South",
+      "length_m": 93.15,
+      "nodes": [
+        "SW-05",
+        "SW_C0_0",
+        "SW_C0_1",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-06",
+      "stair": "West",
+      "length_m": 55.05,
+      "nodes": [
+        "SW-06",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-06",
+      "stair": "South",
+      "length_m": 72.35000000000001,
+      "nodes": [
+        "SW-06",
+        "SW_C0_1",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-07",
+      "stair": "West",
+      "length_m": 75.85,
+      "nodes": [
+        "SW-07",
+        "SW_C1_2",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-07",
+      "stair": "South",
+      "length_m": 51.550000000000004,
+      "nodes": [
+        "SW-07",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-08",
+      "stair": "West",
+      "length_m": 96.65,
+      "nodes": [
+        "SW-08",
+        "SW_C1_3",
+        "SW_C1_2",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-08",
+      "stair": "South",
+      "length_m": 30.75,
+      "nodes": [
+        "SW-08",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-09",
+      "stair": "West",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SW-09",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-09",
+      "stair": "South",
+      "length_m": 105.05,
+      "nodes": [
+        "SW-09",
+        "SW_C1_0",
+        "SW_C1_1",
+        "SW_C1_2",
+        "SW_C1_3",
+        "SW_C1_Inner",
+        "SW_C1_EvacSpine",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-10",
+      "stair": "West",
+      "length_m": 55.05,
+      "nodes": [
+        "SW-10",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-10",
+      "stair": "South",
+      "length_m": 84.25000000000001,
+      "nodes": [
+        "SW-10",
+        "SW_C1_1",
+        "SW_C1_2",
+        "SW_C1_3",
+        "SW_C1_Inner",
+        "SW_C1_EvacSpine",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-11",
+      "stair": "West",
+      "length_m": 75.85,
+      "nodes": [
+        "SW-11",
+        "SW_C1_2",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-11",
+      "stair": "South",
+      "length_m": 63.45,
+      "nodes": [
+        "SW-11",
+        "SW_C1_2",
+        "SW_C1_3",
+        "SW_C1_Inner",
+        "SW_C1_EvacSpine",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-12",
+      "stair": "West",
+      "length_m": 96.65,
+      "nodes": [
+        "SW-12",
+        "SW_C1_3",
+        "SW_C1_2",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-12",
+      "stair": "South",
+      "length_m": 42.65,
+      "nodes": [
+        "SW-12",
+        "SW_C1_3",
+        "SW_C1_Inner",
+        "SW_C1_EvacSpine",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-01",
+      "stair": "East",
+      "length_m": 108.55000000000001,
+      "nodes": [
+        "SE-01",
+        "SE_C0_0",
+        "SE_C0_1",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-01",
+      "stair": "South",
+      "length_m": 30.749999999999993,
+      "nodes": [
+        "SE-01",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-02",
+      "stair": "East",
+      "length_m": 87.75,
+      "nodes": [
+        "SE-02",
+        "SE_C0_1",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-02",
+      "stair": "South",
+      "length_m": 51.55000000000001,
+      "nodes": [
+        "SE-02",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-03",
+      "stair": "East",
+      "length_m": 66.95000000000002,
+      "nodes": [
+        "SE-03",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-03",
+      "stair": "South",
+      "length_m": 72.35,
+      "nodes": [
+        "SE-03",
+        "SE_C0_2",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-04",
+      "stair": "East",
+      "length_m": 46.14999999999999,
+      "nodes": [
+        "SE-04",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-04",
+      "stair": "South",
+      "length_m": 93.15,
+      "nodes": [
+        "SE-04",
+        "SE_C0_3",
+        "SE_C0_2",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-05",
+      "stair": "East",
+      "length_m": 96.65,
+      "nodes": [
+        "SE-05",
+        "SE_C1_0",
+        "SE_C1_1",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-05",
+      "stair": "South",
+      "length_m": 30.75,
+      "nodes": [
+        "SE-05",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-06",
+      "stair": "East",
+      "length_m": 75.85,
+      "nodes": [
+        "SE-06",
+        "SE_C1_1",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-06",
+      "stair": "South",
+      "length_m": 51.55000000000001,
+      "nodes": [
+        "SE-06",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-07",
+      "stair": "East",
+      "length_m": 55.05000000000001,
+      "nodes": [
+        "SE-07",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-07",
+      "stair": "South",
+      "length_m": 72.35,
+      "nodes": [
+        "SE-07",
+        "SE_C0_2",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-08",
+      "stair": "East",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SE-08",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-08",
+      "stair": "South",
+      "length_m": 93.15,
+      "nodes": [
+        "SE-08",
+        "SE_C0_3",
+        "SE_C0_2",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-09",
+      "stair": "East",
+      "length_m": 96.65,
+      "nodes": [
+        "SE-09",
+        "SE_C1_0",
+        "SE_C1_1",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-09",
+      "stair": "South",
+      "length_m": 42.65,
+      "nodes": [
+        "SE-09",
+        "SE_C1_0",
+        "SE_C1_Inner",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-10",
+      "stair": "East",
+      "length_m": 75.85,
+      "nodes": [
+        "SE-10",
+        "SE_C1_1",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-10",
+      "stair": "South",
+      "length_m": 63.45000000000002,
+      "nodes": [
+        "SE-10",
+        "SE_C1_1",
+        "SE_C1_0",
+        "SE_C1_Inner",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-11",
+      "stair": "East",
+      "length_m": 55.05000000000001,
+      "nodes": [
+        "SE-11",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-11",
+      "stair": "South",
+      "length_m": 84.25,
+      "nodes": [
+        "SE-11",
+        "SE_C1_2",
+        "SE_C1_1",
+        "SE_C1_0",
+        "SE_C1_Inner",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-12",
+      "stair": "East",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SE-12",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-12",
+      "stair": "South",
+      "length_m": 105.05000000000001,
+      "nodes": [
+        "SE-12",
+        "SE_C1_3",
+        "SE_C1_2",
+        "SE_C1_1",
+        "SE_C1_0",
+        "SE_C1_Inner",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-01",
+      "stair": "West",
+      "length_m": 34.25000000000001,
+      "nodes": [
+        "NW-01",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-01",
+      "stair": "North",
+      "length_m": 105.05,
+      "nodes": [
+        "NW-01",
+        "NW_C0_0",
+        "NW_C0_1",
+        "NW_C0_2",
+        "NW_C0_3",
+        "NW_C0_Inner",
+        "NW_C0_EvacSpine",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-02",
+      "stair": "West",
+      "length_m": 55.050000000000004,
+      "nodes": [
+        "NW-02",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-02",
+      "stair": "North",
+      "length_m": 84.24999999999999,
+      "nodes": [
+        "NW-02",
+        "NW_C0_1",
+        "NW_C0_2",
+        "NW_C0_3",
+        "NW_C0_Inner",
+        "NW_C0_EvacSpine",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-03",
+      "stair": "West",
+      "length_m": 75.85000000000001,
+      "nodes": [
+        "NW-03",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-03",
+      "stair": "North",
+      "length_m": 63.44999999999999,
+      "nodes": [
+        "NW-03",
+        "NW_C0_2",
+        "NW_C0_3",
+        "NW_C0_Inner",
+        "NW_C0_EvacSpine",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-04",
+      "stair": "West",
+      "length_m": 96.65000000000002,
+      "nodes": [
+        "NW-04",
+        "NW_C0_3",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-04",
+      "stair": "North",
+      "length_m": 42.649999999999984,
+      "nodes": [
+        "NW-04",
+        "NW_C0_3",
+        "NW_C0_Inner",
+        "NW_C0_EvacSpine",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-05",
+      "stair": "West",
+      "length_m": 34.25,
+      "nodes": [
+        "NW-05",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-05",
+      "stair": "North",
+      "length_m": 93.14999999999999,
+      "nodes": [
+        "NW-05",
+        "NW_C1_0",
+        "NW_C1_1",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-06",
+      "stair": "West",
+      "length_m": 55.050000000000004,
+      "nodes": [
+        "NW-06",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-06",
+      "stair": "North",
+      "length_m": 72.35,
+      "nodes": [
+        "NW-06",
+        "NW_C1_1",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-07",
+      "stair": "West",
+      "length_m": 75.85000000000001,
+      "nodes": [
+        "NW-07",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-07",
+      "stair": "North",
+      "length_m": 51.54999999999999,
+      "nodes": [
+        "NW-07",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-08",
+      "stair": "West",
+      "length_m": 96.64999999999999,
+      "nodes": [
+        "NW-08",
+        "NW_C0_3",
+        "NW_C0_2",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-08",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NW-08",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-09",
+      "stair": "West",
+      "length_m": 46.150000000000006,
+      "nodes": [
+        "NW-09",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-09",
+      "stair": "North",
+      "length_m": 93.14999999999999,
+      "nodes": [
+        "NW-09",
+        "NW_C1_0",
+        "NW_C1_1",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-10",
+      "stair": "West",
+      "length_m": 66.95,
+      "nodes": [
+        "NW-10",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-10",
+      "stair": "North",
+      "length_m": 72.35,
+      "nodes": [
+        "NW-10",
+        "NW_C1_1",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-11",
+      "stair": "West",
+      "length_m": 87.75,
+      "nodes": [
+        "NW-11",
+        "NW_C1_2",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-11",
+      "stair": "North",
+      "length_m": 51.54999999999999,
+      "nodes": [
+        "NW-11",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-12",
+      "stair": "West",
+      "length_m": 108.55000000000001,
+      "nodes": [
+        "NW-12",
+        "NW_C1_3",
+        "NW_C1_2",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-12",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NW-12",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-01",
+      "stair": "East",
+      "length_m": 96.65,
+      "nodes": [
+        "NE-01",
+        "NE_C0_0",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-01",
+      "stair": "North",
+      "length_m": 42.649999999999984,
+      "nodes": [
+        "NE-01",
+        "NE_C0_0",
+        "NE_C0_Inner",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-02",
+      "stair": "East",
+      "length_m": 75.85,
+      "nodes": [
+        "NE-02",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-02",
+      "stair": "North",
+      "length_m": 63.449999999999996,
+      "nodes": [
+        "NE-02",
+        "NE_C0_1",
+        "NE_C0_0",
+        "NE_C0_Inner",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-03",
+      "stair": "East",
+      "length_m": 55.05000000000002,
+      "nodes": [
+        "NE-03",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-03",
+      "stair": "North",
+      "length_m": 84.24999999999999,
+      "nodes": [
+        "NE-03",
+        "NE_C0_2",
+        "NE_C0_1",
+        "NE_C0_0",
+        "NE_C0_Inner",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-04",
+      "stair": "East",
+      "length_m": 34.25000000000001,
+      "nodes": [
+        "NE-04",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-04",
+      "stair": "North",
+      "length_m": 105.05,
+      "nodes": [
+        "NE-04",
+        "NE_C0_3",
+        "NE_C0_2",
+        "NE_C0_1",
+        "NE_C0_0",
+        "NE_C0_Inner",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-05",
+      "stair": "East",
+      "length_m": 96.65,
+      "nodes": [
+        "NE-05",
+        "NE_C0_0",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-05",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NE-05",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-06",
+      "stair": "East",
+      "length_m": 75.85,
+      "nodes": [
+        "NE-06",
+        "NE_C0_1",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-06",
+      "stair": "North",
+      "length_m": 51.55,
+      "nodes": [
+        "NE-06",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-07",
+      "stair": "East",
+      "length_m": 55.05000000000001,
+      "nodes": [
+        "NE-07",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-07",
+      "stair": "North",
+      "length_m": 72.34999999999998,
+      "nodes": [
+        "NE-07",
+        "NE_C1_2",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-08",
+      "stair": "East",
+      "length_m": 34.25,
+      "nodes": [
+        "NE-08",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-08",
+      "stair": "North",
+      "length_m": 93.14999999999999,
+      "nodes": [
+        "NE-08",
+        "NE_C1_3",
+        "NE_C1_2",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-09",
+      "stair": "East",
+      "length_m": 108.55000000000001,
+      "nodes": [
+        "NE-09",
+        "NE_C1_0",
+        "NE_C1_1",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-09",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NE-09",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-10",
+      "stair": "East",
+      "length_m": 87.75,
+      "nodes": [
+        "NE-10",
+        "NE_C1_1",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-10",
+      "stair": "North",
+      "length_m": 51.55,
+      "nodes": [
+        "NE-10",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-11",
+      "stair": "East",
+      "length_m": 66.95000000000002,
+      "nodes": [
+        "NE-11",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-11",
+      "stair": "North",
+      "length_m": 72.34999999999998,
+      "nodes": [
+        "NE-11",
+        "NE_C1_2",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-12",
+      "stair": "East",
+      "length_m": 46.150000000000006,
+      "nodes": [
+        "NE-12",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-12",
+      "stair": "North",
+      "length_m": 93.14999999999999,
+      "nodes": [
+        "NE-12",
+        "NE_C1_3",
+        "NE_C1_2",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    }
+  ],
+  "nearest_stair_routes": [
+    {
+      "room": "SW-01",
+      "stair": "West",
+      "length_m": 46.14999999999999,
+      "nodes": [
+        "SW-01",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-02",
+      "stair": "West",
+      "length_m": 66.95,
+      "nodes": [
+        "SW-02",
+        "SW_C0_1",
+        "SW_C0_0",
+        "SW_C0_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-03",
+      "stair": "South",
+      "length_m": 51.55,
+      "nodes": [
+        "SW-03",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-04",
+      "stair": "South",
+      "length_m": 30.749999999999993,
+      "nodes": [
+        "SW-04",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-05",
+      "stair": "West",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SW-05",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-06",
+      "stair": "West",
+      "length_m": 55.05,
+      "nodes": [
+        "SW-06",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-07",
+      "stair": "South",
+      "length_m": 51.550000000000004,
+      "nodes": [
+        "SW-07",
+        "SW_C0_2",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-08",
+      "stair": "South",
+      "length_m": 30.75,
+      "nodes": [
+        "SW-08",
+        "SW_C0_3",
+        "SW_C0_Inner",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-09",
+      "stair": "West",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SW-09",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-10",
+      "stair": "West",
+      "length_m": 55.05,
+      "nodes": [
+        "SW-10",
+        "SW_C1_1",
+        "SW_C1_0",
+        "SW_C1_Outer",
+        "SW_StairApproach",
+        "SW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-11",
+      "stair": "South",
+      "length_m": 63.45,
+      "nodes": [
+        "SW-11",
+        "SW_C1_2",
+        "SW_C1_3",
+        "SW_C1_Inner",
+        "SW_C1_EvacSpine",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SW-12",
+      "stair": "South",
+      "length_m": 42.65,
+      "nodes": [
+        "SW-12",
+        "SW_C1_3",
+        "SW_C1_Inner",
+        "SW_C1_EvacSpine",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-01",
+      "stair": "South",
+      "length_m": 30.749999999999993,
+      "nodes": [
+        "SE-01",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-02",
+      "stair": "South",
+      "length_m": 51.55000000000001,
+      "nodes": [
+        "SE-02",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-03",
+      "stair": "East",
+      "length_m": 66.95000000000002,
+      "nodes": [
+        "SE-03",
+        "SE_C0_2",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-04",
+      "stair": "East",
+      "length_m": 46.14999999999999,
+      "nodes": [
+        "SE-04",
+        "SE_C0_3",
+        "SE_C0_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-05",
+      "stair": "South",
+      "length_m": 30.75,
+      "nodes": [
+        "SE-05",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-06",
+      "stair": "South",
+      "length_m": 51.55000000000001,
+      "nodes": [
+        "SE-06",
+        "SE_C0_1",
+        "SE_C0_0",
+        "SE_C0_Inner",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-07",
+      "stair": "East",
+      "length_m": 55.05000000000001,
+      "nodes": [
+        "SE-07",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-08",
+      "stair": "East",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SE-08",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-09",
+      "stair": "South",
+      "length_m": 42.65,
+      "nodes": [
+        "SE-09",
+        "SE_C1_0",
+        "SE_C1_Inner",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-10",
+      "stair": "South",
+      "length_m": 63.45000000000002,
+      "nodes": [
+        "SE-10",
+        "SE_C1_1",
+        "SE_C1_0",
+        "SE_C1_Inner",
+        "SE_C1_EvacSpine",
+        "SW_C0_EvacSpine",
+        "SE_C0_EvacSpine",
+        "South_StairEntry",
+        "South_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-11",
+      "stair": "East",
+      "length_m": 55.05000000000001,
+      "nodes": [
+        "SE-11",
+        "SE_C1_2",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "SE-12",
+      "stair": "East",
+      "length_m": 34.24999999999999,
+      "nodes": [
+        "SE-12",
+        "SE_C1_3",
+        "SE_C1_Outer",
+        "SE_StairApproach",
+        "SE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-01",
+      "stair": "West",
+      "length_m": 34.25000000000001,
+      "nodes": [
+        "NW-01",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-02",
+      "stair": "West",
+      "length_m": 55.050000000000004,
+      "nodes": [
+        "NW-02",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-03",
+      "stair": "North",
+      "length_m": 63.44999999999999,
+      "nodes": [
+        "NW-03",
+        "NW_C0_2",
+        "NW_C0_3",
+        "NW_C0_Inner",
+        "NW_C0_EvacSpine",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-04",
+      "stair": "North",
+      "length_m": 42.649999999999984,
+      "nodes": [
+        "NW-04",
+        "NW_C0_3",
+        "NW_C0_Inner",
+        "NW_C0_EvacSpine",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-05",
+      "stair": "West",
+      "length_m": 34.25,
+      "nodes": [
+        "NW-05",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-06",
+      "stair": "West",
+      "length_m": 55.050000000000004,
+      "nodes": [
+        "NW-06",
+        "NW_C0_1",
+        "NW_C0_0",
+        "NW_C0_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-07",
+      "stair": "North",
+      "length_m": 51.54999999999999,
+      "nodes": [
+        "NW-07",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-08",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NW-08",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-09",
+      "stair": "West",
+      "length_m": 46.150000000000006,
+      "nodes": [
+        "NW-09",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-10",
+      "stair": "West",
+      "length_m": 66.95,
+      "nodes": [
+        "NW-10",
+        "NW_C1_1",
+        "NW_C1_0",
+        "NW_C1_Outer",
+        "NW_StairApproach",
+        "NW_StairLandingCorner",
+        "West_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-11",
+      "stair": "North",
+      "length_m": 51.54999999999999,
+      "nodes": [
+        "NW-11",
+        "NW_C1_2",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NW-12",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NW-12",
+        "NW_C1_3",
+        "NW_C1_Inner",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-01",
+      "stair": "North",
+      "length_m": 42.649999999999984,
+      "nodes": [
+        "NE-01",
+        "NE_C0_0",
+        "NE_C0_Inner",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-02",
+      "stair": "North",
+      "length_m": 63.449999999999996,
+      "nodes": [
+        "NE-02",
+        "NE_C0_1",
+        "NE_C0_0",
+        "NE_C0_Inner",
+        "NE_C0_EvacSpine",
+        "NW_C1_EvacSpine",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-03",
+      "stair": "East",
+      "length_m": 55.05000000000002,
+      "nodes": [
+        "NE-03",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-04",
+      "stair": "East",
+      "length_m": 34.25000000000001,
+      "nodes": [
+        "NE-04",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-05",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NE-05",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-06",
+      "stair": "North",
+      "length_m": 51.55,
+      "nodes": [
+        "NE-06",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-07",
+      "stair": "East",
+      "length_m": 55.05000000000001,
+      "nodes": [
+        "NE-07",
+        "NE_C0_2",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-08",
+      "stair": "East",
+      "length_m": 34.25,
+      "nodes": [
+        "NE-08",
+        "NE_C0_3",
+        "NE_C0_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-09",
+      "stair": "North",
+      "length_m": 30.749999999999986,
+      "nodes": [
+        "NE-09",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-10",
+      "stair": "North",
+      "length_m": 51.55,
+      "nodes": [
+        "NE-10",
+        "NE_C1_1",
+        "NE_C1_0",
+        "NE_C1_Inner",
+        "NE_C1_EvacSpine",
+        "North_StairEntry",
+        "North_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-11",
+      "stair": "East",
+      "length_m": 66.95000000000002,
+      "nodes": [
+        "NE-11",
+        "NE_C1_2",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    },
+    {
+      "room": "NE-12",
+      "stair": "East",
+      "length_m": 46.150000000000006,
+      "nodes": [
+        "NE-12",
+        "NE_C1_3",
+        "NE_C1_Outer",
+        "NE_StairApproach",
+        "NE_StairLandingCorner",
+        "East_StairLanding"
+      ]
+    }
+  ],
+  "worst_room": {
+    "room": "SE-03",
+    "stair": "East",
+    "length_m": 66.95000000000002,
+    "nodes": [
+      "SE-03",
+      "SE_C0_2",
+      "SE_C0_3",
+      "SE_C0_Outer",
+      "SE_StairApproach",
+      "SE_StairLandingCorner",
+      "East_StairLanding"
+    ]
+  },
+  "worst_room_ids": [
+    "SW-02",
+    "SE-03",
+    "NW-10",
+    "NE-11"
+  ],
+  "maximum_center_to_nearest_stair_m": 66.95000000000002,
+  "conservative_pod_operation_to_nearest_stair_m": 77.70000000000002,
+  "v2_center_max_m": 112.75,
+  "v2_pod_operation_max_m": 123.5,
+  "improvement_m": 45.79999999999998,
+  "improvement_percent": 40.620842572062074,
+  "central_core_excluded_from_all_personnel_egress": true,
+  "two_distinct_escape_directions_for_all_rooms": true,
+  "evacuation_spine_directed_outward_only": true,
+  "continuous_machine_work_zones_defined": true,
+  "lanes_are_nonpartitioning_floor_markings": true,
+  "emergency_mode": {
+    "robot_stop_required": true,
+    "personnel_core_barriers_closed": true,
+    "normal_personnel_fire_doors_closed": true
+  },
+  "freight_routes": [
+    {
+      "entry": "NorthSpineEnd",
+      "car": "FN",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "NorthSpineEnd",
+        "North_RobotIsolation",
+        "N_PlenumCenter",
+        "N_BypassOuter_-1",
+        "N_BypassInner_-1",
+        "TransferCenter",
+        "FN_Approach",
+        "FN"
+      ]
+    },
+    {
+      "entry": "NorthSpineEnd",
+      "car": "FS",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "NorthSpineEnd",
+        "North_RobotIsolation",
+        "N_PlenumCenter",
+        "N_BypassOuter_-1",
+        "N_BypassInner_-1",
+        "TransferCenter",
+        "FS_Approach",
+        "FS"
+      ]
+    },
+    {
+      "entry": "NorthSpineEnd",
+      "car": "FW",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "NorthSpineEnd",
+        "North_RobotIsolation",
+        "N_PlenumCenter",
+        "N_BypassOuter_-1",
+        "N_BypassInner_-1",
+        "TransferCenter",
+        "FW_Approach",
+        "FW"
+      ]
+    },
+    {
+      "entry": "NorthSpineEnd",
+      "car": "FE",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "NorthSpineEnd",
+        "North_RobotIsolation",
+        "N_PlenumCenter",
+        "N_BypassOuter_-1",
+        "N_BypassInner_-1",
+        "TransferCenter",
+        "FE_Approach",
+        "FE"
+      ]
+    },
+    {
+      "entry": "SouthSpineEnd",
+      "car": "FN",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "SouthSpineEnd",
+        "South_RobotIsolation",
+        "S_PlenumCenter",
+        "S_BypassOuter_-1",
+        "S_BypassInner_-1",
+        "TransferCenter",
+        "FN_Approach",
+        "FN"
+      ]
+    },
+    {
+      "entry": "SouthSpineEnd",
+      "car": "FS",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "SouthSpineEnd",
+        "South_RobotIsolation",
+        "S_PlenumCenter",
+        "S_BypassOuter_-1",
+        "S_BypassInner_-1",
+        "TransferCenter",
+        "FS_Approach",
+        "FS"
+      ]
+    },
+    {
+      "entry": "SouthSpineEnd",
+      "car": "FW",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "SouthSpineEnd",
+        "South_RobotIsolation",
+        "S_PlenumCenter",
+        "S_BypassOuter_-1",
+        "S_BypassInner_-1",
+        "TransferCenter",
+        "FW_Approach",
+        "FW"
+      ]
+    },
+    {
+      "entry": "SouthSpineEnd",
+      "car": "FE",
+      "length_m": 43.10000000000001,
+      "nodes": [
+        "SouthSpineEnd",
+        "South_RobotIsolation",
+        "S_PlenumCenter",
+        "S_BypassOuter_-1",
+        "S_BypassInner_-1",
+        "TransferCenter",
+        "FE_Approach",
+        "FE"
+      ]
+    },
+    {
+      "entry": "W_CrossEnd",
+      "car": "FN",
+      "length_m": 99.80000000000001,
+      "nodes": [
+        "W_CrossEnd",
+        "W_PlenumCenter",
+        "W_BypassOuter_-1",
+        "W_BypassInner_-1",
+        "TransferCenter",
+        "FN_Approach",
+        "FN"
+      ]
+    },
+    {
+      "entry": "W_CrossEnd",
+      "car": "FS",
+      "length_m": 99.80000000000001,
+      "nodes": [
+        "W_CrossEnd",
+        "W_PlenumCenter",
+        "W_BypassOuter_-1",
+        "W_BypassInner_-1",
+        "TransferCenter",
+        "FS_Approach",
+        "FS"
+      ]
+    },
+    {
+      "entry": "W_CrossEnd",
+      "car": "FW",
+      "length_m": 99.8,
+      "nodes": [
+        "W_CrossEnd",
+        "W_PlenumCenter",
+        "W_BypassOuter_-1",
+        "W_BypassInner_-1",
+        "TransferCenter",
+        "FW_Approach",
+        "FW"
+      ]
+    },
+    {
+      "entry": "W_CrossEnd",
+      "car": "FE",
+      "length_m": 99.8,
+      "nodes": [
+        "W_CrossEnd",
+        "W_PlenumCenter",
+        "W_BypassOuter_-1",
+        "W_BypassInner_-1",
+        "TransferCenter",
+        "FE_Approach",
+        "FE"
+      ]
+    },
+    {
+      "entry": "E_CrossEnd",
+      "car": "FN",
+      "length_m": 99.80000000000004,
+      "nodes": [
+        "E_CrossEnd",
+        "E_PlenumCenter",
+        "E_BypassOuter_-1",
+        "E_BypassInner_-1",
+        "TransferCenter",
+        "FN_Approach",
+        "FN"
+      ]
+    },
+    {
+      "entry": "E_CrossEnd",
+      "car": "FS",
+      "length_m": 99.80000000000004,
+      "nodes": [
+        "E_CrossEnd",
+        "E_PlenumCenter",
+        "E_BypassOuter_-1",
+        "E_BypassInner_-1",
+        "TransferCenter",
+        "FS_Approach",
+        "FS"
+      ]
+    },
+    {
+      "entry": "E_CrossEnd",
+      "car": "FW",
+      "length_m": 99.80000000000003,
+      "nodes": [
+        "E_CrossEnd",
+        "E_PlenumCenter",
+        "E_BypassOuter_-1",
+        "E_BypassInner_-1",
+        "TransferCenter",
+        "FW_Approach",
+        "FW"
+      ]
+    },
+    {
+      "entry": "E_CrossEnd",
+      "car": "FE",
+      "length_m": 99.80000000000003,
+      "nodes": [
+        "E_CrossEnd",
+        "E_PlenumCenter",
+        "E_BypassOuter_-1",
+        "E_BypassInner_-1",
+        "TransferCenter",
+        "FE_Approach",
+        "FE"
+      ]
+    }
+  ],
+  "single_car_fault_tests": [
+    {
+      "disabled": "FN",
+      "remaining_accessible_routes": [
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FS",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FW",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FE",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FS",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FW",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FE",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FS",
+          "length_m": 99.80000000000001,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FW",
+          "length_m": 99.8,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FE",
+          "length_m": 99.8,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FS",
+          "length_m": 99.80000000000004,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FW",
+          "length_m": 99.80000000000003,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FE",
+          "length_m": 99.80000000000003,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": "FS",
+      "remaining_accessible_routes": [
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FN",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FW",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FE",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FN",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FW",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FE",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FN",
+          "length_m": 99.80000000000001,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FW",
+          "length_m": 99.8,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FE",
+          "length_m": 99.8,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FN",
+          "length_m": 99.80000000000004,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FW",
+          "length_m": 99.80000000000003,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FE",
+          "length_m": 99.80000000000003,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": "FW",
+      "remaining_accessible_routes": [
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FN",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FS",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FE",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FN",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FS",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FE",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FN",
+          "length_m": 99.80000000000001,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FS",
+          "length_m": 99.80000000000001,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FE",
+          "length_m": 99.8,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FN",
+          "length_m": 99.80000000000004,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FS",
+          "length_m": 99.80000000000004,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FE",
+          "length_m": 99.80000000000003,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FE_Approach",
+            "FE"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": "FE",
+      "remaining_accessible_routes": [
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FN",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FS",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "NorthSpineEnd",
+          "car": "FW",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "NorthSpineEnd",
+            "North_RobotIsolation",
+            "N_PlenumCenter",
+            "N_BypassOuter_-1",
+            "N_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FN",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FS",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "SouthSpineEnd",
+          "car": "FW",
+          "length_m": 43.10000000000001,
+          "nodes": [
+            "SouthSpineEnd",
+            "South_RobotIsolation",
+            "S_PlenumCenter",
+            "S_BypassOuter_-1",
+            "S_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FN",
+          "length_m": 99.80000000000001,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FS",
+          "length_m": 99.80000000000001,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "W_CrossEnd",
+          "car": "FW",
+          "length_m": 99.8,
+          "nodes": [
+            "W_CrossEnd",
+            "W_PlenumCenter",
+            "W_BypassOuter_-1",
+            "W_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FN",
+          "length_m": 99.80000000000004,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FN_Approach",
+            "FN"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FS",
+          "length_m": 99.80000000000004,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FS_Approach",
+            "FS"
+          ]
+        },
+        {
+          "entry": "E_CrossEnd",
+          "car": "FW",
+          "length_m": 99.80000000000003,
+          "nodes": [
+            "E_CrossEnd",
+            "E_PlenumCenter",
+            "E_BypassOuter_-1",
+            "E_BypassInner_-1",
+            "TransferCenter",
+            "FW_Approach",
+            "FW"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No evacuation capacity/time or fire-code approval",
+    "Door-leaf sweep and fire specification unresolved",
+    "Carrier is provisional holonomic platform; actual steering and scheduling unresolved",
+    "Future high-reliability passenger lift assumption accepted; later whole-building peak calculation only"
+  ],
+  "native_fully_constrained_sketch_count": 355,
+  "native_plan_hatch_solids": 244,
+  "exact_wall_collisions": [],
+  "clear_room_interiors": 48,
+  "clear_stair_landings": 8,
+  "native_opening_checks": [
+    {
+      "id": "D001",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D002",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D003",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D004",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D005",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D006",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D007",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D008",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D009",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D010",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D011",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D012",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D013",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D014",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D015",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D016",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D017",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D018",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D019",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D020",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D021",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D022",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D023",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D024",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D025",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D026",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D027",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D028",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D029",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D030",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D031",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D032",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D033",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D034",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D035",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D036",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D037",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D038",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D039",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D040",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D041",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D042",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D043",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D044",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D045",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D046",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D047",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D048",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D049",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D050",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D051",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D052",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D053",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D054",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D055",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D056",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D057",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D058",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D059",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D060",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D061",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D062",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D063",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D064",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D065",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D066",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D067",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D068",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D069",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D070",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D071",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D072",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D073",
+      "kind": "room",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D074",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D075",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D076",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D077",
+      "kind": "stair",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D078",
+      "kind": "stair",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D079",
+      "kind": "stair",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D080",
+      "kind": "stair",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D081",
+      "kind": "stair",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D082",
+      "kind": "stair",
+      "width_m": 1.8,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D083",
+      "kind": "personnel_exclusion",
+      "width_m": 19.6,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D084",
+      "kind": "personnel_exclusion",
+      "width_m": 19.6,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D085",
+      "kind": "freight",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D086",
+      "kind": "freight",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D087",
+      "kind": "freight",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D088",
+      "kind": "freight",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D089",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D090",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D091",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D092",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D093",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D094",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D095",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "id": "D096",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "wall_overlap_mm3": 0
+    }
+  ],
+  "door_count": 86,
+  "machine_portal_count": 8,
+  "route_450mm_capsule_count": 192,
+  "carrier_axis_sweep_count": 38,
+  "turn_circle_checks": [
+    {
+      "node": "TransferCenter",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "N_PlenumCenter",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "N_BypassOuter_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "N_BypassInner_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "N_BypassOuter_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "N_BypassInner_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "FN_Approach",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "S_PlenumCenter",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "S_BypassOuter_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "S_BypassInner_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "S_BypassOuter_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "S_BypassInner_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "FS_Approach",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "W_PlenumCenter",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "W_BypassOuter_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "W_BypassInner_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "W_BypassOuter_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "W_BypassInner_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "FW_Approach",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "E_PlenumCenter",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "E_BypassOuter_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "E_BypassInner_-1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "E_BypassOuter_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "E_BypassInner_1",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "FE_Approach",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "NorthSpineEnd",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "SouthSpineEnd",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "South_RobotIsolation",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "North_RobotIsolation",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "W_CrossEnd",
+      "wall_overlap_mm3": 0
+    },
+    {
+      "node": "E_CrossEnd",
+      "wall_overlap_mm3": 0
+    }
+  ],
+  "waiting_circle_sweeps": [
+    {
+      "edge": 188,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "edge": 189,
+      "wall_overlap_mm3": 0.0
+    },
+    {
+      "edge": 190,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "edge": 191,
+      "wall_overlap_mm3": 0.0
+    },
+    {
+      "edge": 192,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "edge": 193,
+      "wall_overlap_mm3": 0.0
+    },
+    {
+      "edge": 194,
+      "wall_overlap_mm3": 0
+    },
+    {
+      "edge": 195,
+      "wall_overlap_mm3": 0.0
+    }
+  ],
+  "all_four_wait_bays_occupied_clear_of_transit": true,
+  "closed_car_geometry_tests": [
+    {
+      "closed_car": "FN",
+      "remaining_routes": 12,
+      "closed_door_obstruction_clear": true
+    },
+    {
+      "closed_car": "FS",
+      "remaining_routes": 12,
+      "closed_door_obstruction_clear": true
+    },
+    {
+      "closed_car": "FW",
+      "remaining_routes": 12,
+      "closed_door_obstruction_clear": true
+    },
+    {
+      "closed_car": "FE",
+      "remaining_routes": 12,
+      "closed_door_obstruction_clear": true
+    }
+  ],
+  "physical_emergency_barriers": 2,
+  "personnel_edges_clear_of_closed_core_barriers": 150,
+  "central_logistics_zone_personnel_overlap_mm3": 0,
+  "built_floor_area_m2": 14822.120000000003
+}
