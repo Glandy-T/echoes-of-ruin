@@ -1,0 +1,13 @@
+"""Refresh live dimensions after the projection has finished loading."""
+from pathlib import Path
+import FreeCAD as App,FreeCADGui as Gui,time
+ROOT=Path(__file__).resolve().parent
+doc=App.ActiveDocument
+if doc is None or doc.getObject('NativePlan') is None:
+ doc=App.openDocument(str(ROOT/'standard_floor_v3_inset.FCStd'));App.setActiveDocument(doc.Name)
+Gui.activateWorkbench('TechDrawWorkbench');Gui.activeDocument().getObject('A404').doubleClicked()
+for _ in range(20):Gui.updateGui();time.sleep(.1)
+for o in doc.Objects:
+ if o.TypeId=='TechDraw::DrawViewDimension':o.touch();o.Visibility=True
+doc.recompute()
+for _ in range(30):Gui.updateGui();time.sleep(.1)

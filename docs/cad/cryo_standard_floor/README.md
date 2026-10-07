@@ -1,12 +1,12 @@
 # 标准休眠层工程交付
 
-当前：**v3 final（按最新0C整体上下收拢）**，依据提交`26fe8f09b927298335b610c93741de7ee144a3f6`。
+当前依据提交`16898b0561e0ac3a96697ff501a4ba26380221ec`的0D：已接受平面只修正北南楼梯全内嵌，随后完成整层3D Blockout。
 
-- [本版说明与验证](v3_final/README.md)
-- [可编辑FreeCAD源文件](v3_final/standard_floor_v3_final.FCStd)
-- [三页A2工程图](v3_final/exports/standard_floor_v3_final.pdf)
-- [完整交付包](v3_final/standard_floor_v3_final_delivery.zip)
+- [北南楼梯内嵌工程验证](v3_inset/README.md) / [原生2D CAD](v3_inset/standard_floor_v3_inset.FCStd) / [三页A2工程图](v3_inset/exports/standard_floor_v3_inset.pdf)
+- [整层3D说明](blockout_v3/README.md) / [原生3D CAD](blockout_v3/standard_floor_blockout_v3.FCStd)
+- [十视角图册](blockout_v3/VIEW_GALLERY.html) / [拼图预览](blockout_v3/VIEW_CONTACT_SHEET.png)
+- [2D交付包](v3_inset/standard_floor_v3_inset_delivery.zip) / [3D交付包](blockout_v3/standard_floor_blockout_v3_delivery.zip)
 
-四个完整3×4分区保持v2网格，只上下各平移4.20m；主体186.40×77.80m，48室/960舱。中央剩余空间全部明确为连续机器作业区。四向楼梯、核心禁入、紧急纵段向外疏散均保留并验证。当前只完成二维几何与路径，容量/时间及消防细节仍待完善。
+48室/960舱，四区完整3×4、Room1外包21×9.5m；主体186.40×77.80m。北南楼梯各收回2.60m，完全内嵌；房间、人员梯、中央四货梯、Q与机器作业区不移动。北南路线各缩短2.60m，最远最近楼梯中心路径仍66.95m（由西东路径控制）。整层3D包含四代表室完整闭舱，其余真实简化舱外包，十个原生视角，顶板可隐藏。
 
-历史版本完整保留：[v1](v1/README.md)、[v2](v2/README.md)、[旧v3](v3/README.md)。旧v3内列错台方案不被最新简报采用，不应继续作为设计基准。
+所有历史版本完整保留：[v1](v1/README.md)、[v2](v2/README.md)、[旧v3](v3/README.md)、[已接受v3_final](v3_final/README.md)。本轮不再重新解释平面排布。当前是几何/路径及单层灰模空间验证，疏散容量/时间、防火细节和最终游戏相机仍待完善。

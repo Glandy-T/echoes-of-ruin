@@ -1,0 +1,905 @@
+{
+  "source_commit": "16898b0561e0ac3a96697ff501a4ba26380221ec",
+  "plan_json_sha256": "cdd96d53ac05e3379d4f3d479df4f6c2be45f48fe67ae15bfc9a1f20dc8f4d49",
+  "room1_source_sha256": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973",
+  "room_count": 48,
+  "pod_count": 960,
+  "full_pod_rooms": [
+    "SW-06",
+    "SE-06",
+    "NW-06",
+    "NE-06"
+  ],
+  "simple_pod_rooms": 44,
+  "pods_per_room": 20,
+  "door_clear_height_m": 2.4,
+  "room_clear_height_m": 3.4,
+  "storey_height_m": 3.8,
+  "slab_thickness_m": 0.1,
+  "main_envelope_m": [
+    186.4,
+    77.79999999999998
+  ],
+  "maximum_envelope_m": [
+    196.20000000000002,
+    77.79999999999998
+  ],
+  "walls": 244,
+  "lintels": 94,
+  "native_object_count": 731,
+  "exact_accepted_plan_wall_coordinates": true,
+  "all_native_shapes_valid": true,
+  "stairs": 4,
+  "stair_treads": 88,
+  "riser_count_per_stair": 24,
+  "flight_run_m": 3.3,
+  "stair_embedded_m": {
+    "West": 4.7,
+    "East": 4.7,
+    "North": 7.3,
+    "South": 7.3
+  },
+  "roof_default_hidden": true,
+  "all_walls_retained_in_all_views": true,
+  "pod_template_envelopes": [
+    {
+      "id": "P01",
+      "x1": 1.25,
+      "y1": 0.7,
+      "x2": 2.3,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P02",
+      "x1": 3.0,
+      "y1": 0.7,
+      "x2": 4.05,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P03",
+      "x1": 4.75,
+      "y1": 0.7,
+      "x2": 5.8,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P04",
+      "x1": 6.5,
+      "y1": 0.7,
+      "x2": 7.55,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P05",
+      "x1": 8.25,
+      "y1": 0.7,
+      "x2": 9.3,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P06",
+      "x1": 11.7,
+      "y1": 0.7,
+      "x2": 12.75,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P07",
+      "x1": 13.45,
+      "y1": 0.7,
+      "x2": 14.5,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P08",
+      "x1": 15.2,
+      "y1": 0.7,
+      "x2": 16.25,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P09",
+      "x1": 16.95,
+      "y1": 0.7,
+      "x2": 18.0,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P10",
+      "x1": 18.7,
+      "y1": 0.7,
+      "x2": 19.75,
+      "y2": 3.0,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P11",
+      "x1": 1.25,
+      "y1": 6.5,
+      "x2": 2.3,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P12",
+      "x1": 3.0,
+      "y1": 6.5,
+      "x2": 4.05,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P13",
+      "x1": 4.75,
+      "y1": 6.5,
+      "x2": 5.8,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P14",
+      "x1": 6.5,
+      "y1": 6.5,
+      "x2": 7.55,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P15",
+      "x1": 8.25,
+      "y1": 6.5,
+      "x2": 9.3,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P16",
+      "x1": 11.7,
+      "y1": 6.5,
+      "x2": 12.75,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P17",
+      "x1": 13.45,
+      "y1": 6.5,
+      "x2": 14.5,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P18",
+      "x1": 15.2,
+      "y1": 6.5,
+      "x2": 16.25,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P19",
+      "x1": 16.95,
+      "y1": 6.5,
+      "x2": 18.0,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    },
+    {
+      "id": "P20",
+      "x1": 18.7,
+      "y1": 6.5,
+      "x2": 19.75,
+      "y2": 8.8,
+      "z1": 0.0,
+      "z2": 1.0
+    }
+  ],
+  "render_status": "passed",
+  "limitations": [
+    "Single storey only",
+    "Vertical dimensions/slabs/door heights are provisional spatial-test values",
+    "No structural, fire-code, evacuation capacity/time or actual robot motion approval",
+    "No authored materials, lighting, facade detail or final pixel artwork"
+  ],
+  "native_file_reopened": true,
+  "wall_xy_maximum_error_mm": 2.9103830456733704e-11,
+  "all_doors_and_bypass_full_height_clear": [
+    {
+      "id": "D001",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D002",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D003",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D004",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D005",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D006",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D007",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D008",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D009",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D010",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D011",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D012",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D013",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D014",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D015",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D016",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D017",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D018",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D019",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D020",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D021",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D022",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D023",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D024",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D025",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D026",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D027",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D028",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D029",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D030",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D031",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D032",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D033",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D034",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D035",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D036",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D037",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D038",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D039",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D040",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D041",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D042",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D043",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D044",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D045",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D046",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D047",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D048",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D049",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D050",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D051",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D052",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D053",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D054",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D055",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D056",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D057",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D058",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D059",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D060",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D061",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D062",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D063",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D064",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D065",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D066",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D067",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D068",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D069",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D070",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D071",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D072",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D073",
+      "kind": "room",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D074",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D075",
+      "kind": "emergency",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D076",
+      "kind": "elevator",
+      "width_m": 1.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D077",
+      "kind": "stair",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D078",
+      "kind": "stair",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D079",
+      "kind": "stair",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D080",
+      "kind": "stair",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D081",
+      "kind": "stair",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D082",
+      "kind": "stair",
+      "width_m": 1.8,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D085",
+      "kind": "freight",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D086",
+      "kind": "freight",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D087",
+      "kind": "freight",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D088",
+      "kind": "freight",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D089",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D090",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D091",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D092",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D093",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D094",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D095",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    },
+    {
+      "id": "D096",
+      "kind": "machine_portal",
+      "width_m": 2.4,
+      "clear_height_m": 2.4,
+      "structural_overlap_mm3": 0
+    }
+  ],
+  "personnel_corridors_full_height_clear": 8,
+  "self_contained_linked_templates": true,
+  "all_48_room_pod_envelopes_inside_room_net_bounds": true,
+  "full_pod_rooms_verified": 4,
+  "simple_pod_rooms_verified": 44,
+  "stair_treads_inside_wells": true,
+  "source_cad_unchanged": true,
+  "visual_review": "passed",
+  "latest_native_views_reviewed": 10,
+  "visual_note": "All native walls retained. Main ceilings shown in eye views, hidden in overview views. Stair wells continue upward without a roof cap at the +3.80m landing. No blank captures or framing clipping in complete overview."
+}

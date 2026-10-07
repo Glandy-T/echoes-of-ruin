@@ -1,0 +1,62 @@
+{
+  "images": [
+    {
+      "name": "01_overall_open_top",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "02_orthographic_top",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "03_personnel_corridor_eye",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "04_freight_core_overview",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "04b_machine_work_eye",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "05_north_stair_connection",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "05b_north_stair_eye",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "05c_south_stair_connection",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "06_room1_floor_relationship",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "07_room1_eye",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "contact_sheet_size_px": [
+    1600,
+    2550
+  ],
+  "native_capture": true,
+  "visual_review": "passed",
+  "latest_native_views_reviewed": 10,
+  "visual_note": "All native walls retained. Main ceilings shown in eye views, hidden in overview views. Stair wells continue upward without a roof cap at the +3.80m landing. No blank captures or framing clipping in complete overview."
+}

@@ -1,0 +1,564 @@
+{
+  "accepted_plan_unchanged_except_north_south_stairs": true,
+  "all_fixed_collections_checked": true,
+  "stairs": [
+    {
+      "side": "West",
+      "shift_y_m": 0,
+      "old_bounds_m": {
+        "x1": -2.6,
+        "y1": 40.99999999999999,
+        "x2": 4.700000000000001,
+        "y2": 45.199999999999996
+      },
+      "new_bounds_m": {
+        "x1": -2.6,
+        "y1": 40.99999999999999,
+        "x2": 4.700000000000001,
+        "y2": 45.199999999999996
+      }
+    },
+    {
+      "side": "East",
+      "shift_y_m": 0,
+      "old_bounds_m": {
+        "x1": 181.7,
+        "y1": 40.99999999999999,
+        "x2": 189.0,
+        "y2": 45.199999999999996
+      },
+      "new_bounds_m": {
+        "x1": 181.7,
+        "y1": 40.99999999999999,
+        "x2": 189.0,
+        "y2": 45.199999999999996
+      }
+    },
+    {
+      "side": "North",
+      "shift_y_m": -2.6,
+      "old_bounds_m": {
+        "x1": 91.10000000000001,
+        "y1": 77.29999999999998,
+        "x2": 95.30000000000001,
+        "y2": 84.59999999999998
+      },
+      "new_bounds_m": {
+        "x1": 91.10000000000001,
+        "y1": 74.69999999999999,
+        "x2": 95.30000000000001,
+        "y2": 81.99999999999999
+      }
+    },
+    {
+      "side": "South",
+      "shift_y_m": 2.6,
+      "old_bounds_m": {
+        "x1": 91.10000000000001,
+        "y1": 1.6,
+        "x2": 95.30000000000001,
+        "y2": 8.9
+      },
+      "new_bounds_m": {
+        "x1": 91.10000000000001,
+        "y1": 4.2,
+        "x2": 95.30000000000001,
+        "y2": 11.5
+      }
+    }
+  ],
+  "north_south_stairs_fully_within_main_envelope": true,
+  "main_envelope_m": [
+    186.4,
+    77.79999999999998
+  ],
+  "maximum_envelope_m": [
+    196.20000000000002,
+    77.79999999999998
+  ],
+  "path_comparisons": [
+    {
+      "room": "SW-01",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-01",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-02",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-02",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-03",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-03",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-04",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-04",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-05",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-05",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-06",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-06",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-07",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-07",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-08",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-08",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-09",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-09",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-10",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-10",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-11",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-11",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SW-12",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "SW-12",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-01",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-01",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-02",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-02",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-03",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-03",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-04",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-04",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-05",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-05",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-06",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-06",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-07",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-07",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-08",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-08",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-09",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-09",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-10",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-10",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-11",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-11",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "SE-12",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "SE-12",
+      "stair": "South",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-01",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-01",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-02",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-02",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-03",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-03",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-04",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-04",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-05",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-05",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-06",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-06",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-07",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-07",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-08",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-08",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-09",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-09",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-10",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-10",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-11",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-11",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NW-12",
+      "stair": "West",
+      "path_change_m": 0
+    },
+    {
+      "room": "NW-12",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-01",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-01",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-02",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-02",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-03",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-03",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-04",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-04",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-05",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-05",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-06",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-06",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-07",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-07",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-08",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-08",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-09",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-09",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-10",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-10",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-11",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-11",
+      "stair": "North",
+      "path_change_m": -2.6
+    },
+    {
+      "room": "NE-12",
+      "stair": "East",
+      "path_change_m": 0
+    },
+    {
+      "room": "NE-12",
+      "stair": "North",
+      "path_change_m": -2.6
+    }
+  ],
+  "previous_maximum_center_m": 66.95000000000002,
+  "current_maximum_center_m": 66.95000000000002,
+  "note": "All 48 north/south route options shorten 2.60m. West/east routes remain identical. Global nearest-stair maximum stays 66.95m because the governing rooms still choose unchanged side stairs."
+}

@@ -1,0 +1,137 @@
+{
+  "revision": "standard_floor_blockout_v3",
+  "source_commit": "16898b0561e0ac3a96697ff501a4ba26380221ec",
+  "scope": "Single-floor spatial blockout; accepted plan frozen except fully inset N/S stairs",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5276,
+      "sha256": "e4492ed10d3cd5aee8dde73f9b9a6927b3a5a2c8bb53cbd1eedf49b638fb9660"
+    },
+    {
+      "path": "build_blockout.py",
+      "bytes": 12807,
+      "sha256": "b1fcef771afdcdd28974cecc00e14a4ee5ecf59a8c289bcf65891d977ff393d5"
+    },
+    {
+      "path": "render_blockout.FCMacro",
+      "bytes": 3977,
+      "sha256": "0e0759f5a98d80fc0282f84f7b53471ecd9fe1fd4ad2f859fbd9c6a8fddc30cf"
+    },
+    {
+      "path": "validate_blockout.py",
+      "bytes": 4461,
+      "sha256": "64a0e12e8ee4a1a7e3995e3a6cca5c25f36cc292d8cf016c2a1ca05e93049ae9"
+    },
+    {
+      "path": "make_gallery.py",
+      "bytes": 2989,
+      "sha256": "faac9be69aad736a06d1a60a227025e18f483aafe4f4cb9a9095e3f21e142604"
+    },
+    {
+      "path": "package_blockout.py",
+      "bytes": 1427,
+      "sha256": "d577fd2921e2e61a3a1547d47ec439ee19cca0233498bb01867f189f378c8c3d"
+    },
+    {
+      "path": "cameras.json",
+      "bytes": 2108,
+      "sha256": "8c68e77299351c1bd95106c751817b8602620616151831bf809614591556b9f1"
+    },
+    {
+      "path": "standard_floor_blockout_v3.FCStd",
+      "bytes": 1220095,
+      "sha256": "25b05fa76503e21526a1ea57e9d5c450e40c5ce1d01f3026297f3f41b198d507"
+    },
+    {
+      "path": "blockout_validation.json",
+      "bytes": 19079,
+      "sha256": "3dd45366e7a8dce3b70a1d7ee4160c58cddad4b540acc03697c73f9315c07644"
+    },
+    {
+      "path": "VIEW_GALLERY.html",
+      "bytes": 4172,
+      "sha256": "12ee4c72ce637957e70cb27111031baf43413401b0faea8975c9a7f452b6e9d3"
+    },
+    {
+      "path": "VIEW_CONTACT_SHEET.png",
+      "bytes": 1311659,
+      "sha256": "557d46c47700f555aeb2af1c05d55759ec74ebc73fcea55efa4c200efafceb21"
+    },
+    {
+      "path": "sources/accepted_inset_layout.snapshot.json",
+      "bytes": 240500,
+      "sha256": "cdd96d53ac05e3379d4f3d479df4f6c2be45f48fe67ae15bfc9a1f20dc8f4d49"
+    },
+    {
+      "path": "sources/STANDARD_FLOOR_ENGINEERING_BRIEF.snapshot.md",
+      "bytes": 27996,
+      "sha256": "0fa4da1d87e3e2fb7d10ac77e54fe6886ba61fe646832b6a330d5a6e5949f4e5"
+    },
+    {
+      "path": "qa/render_validation.json",
+      "bytes": 8026,
+      "sha256": "3c3c4c712e9c19a6fbc6f60084a9677122713796630402f27aea310cc7128d4f"
+    },
+    {
+      "path": "qa/image_validation.json",
+      "bytes": 1410,
+      "sha256": "3bb8a88637e8fc78b352c8858e4b7fcc6ed0e3712998d19dd27718085fd9c983"
+    },
+    {
+      "path": "views/01_overall_open_top.png",
+      "bytes": 144948,
+      "sha256": "057864d7f803566dad7d27061dca09bbd178e39d37ce568f68e8fded1c243907"
+    },
+    {
+      "path": "views/02_orthographic_top.png",
+      "bytes": 28670,
+      "sha256": "c03998ac23326eb5347f9bb61261d7b7a886625820bb40f0c7bee8f5c66df9db"
+    },
+    {
+      "path": "views/03_personnel_corridor_eye.png",
+      "bytes": 17200,
+      "sha256": "85387e69b10bdaefdbe750d02796ff002aa1114267147459d262f33b15373d8c"
+    },
+    {
+      "path": "views/04_freight_core_overview.png",
+      "bytes": 138205,
+      "sha256": "82e664082e272088144f00c0c55341c03b09984ae1e1822fe5f2f50d6c29259b"
+    },
+    {
+      "path": "views/04b_machine_work_eye.png",
+      "bytes": 16998,
+      "sha256": "ab87cf005cb1dbf2c026d2b73373a32a80fac1e818be5405a59b9ef0a5484418"
+    },
+    {
+      "path": "views/05_north_stair_connection.png",
+      "bytes": 77289,
+      "sha256": "4a7ac6127fa4580af4547c0d3eea207e6b8fcb1bef94bddf285a6a3a31094daf"
+    },
+    {
+      "path": "views/05b_north_stair_eye.png",
+      "bytes": 15967,
+      "sha256": "3a74d0d4e4ccefe5a0a435cafa4118c95beb564842a7d532ad9191afd56fa17a"
+    },
+    {
+      "path": "views/05c_south_stair_connection.png",
+      "bytes": 77150,
+      "sha256": "f68d6e3e4df0cc319cea44af90be5c81ca18d59c8fbefe2497126e8fdc8de3ea"
+    },
+    {
+      "path": "views/06_room1_floor_relationship.png",
+      "bytes": 52248,
+      "sha256": "177b0f7d3b3c8008252e2c02cd37fc22f1a559852d167a8b489187ed05faa202"
+    },
+    {
+      "path": "views/07_room1_eye.png",
+      "bytes": 23542,
+      "sha256": "36931259c20b20770c5cb79b0d0c8a31b4244e6d98610be5817e570dcb0f494b"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "source_v2_room_grid_preserved": true,
+  "whole_zone_coordinate_checks": [
+    {
+      "collection": "rooms",
+      "id": "SW-01",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-02",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-03",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-04",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-05",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-06",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-07",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-08",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-09",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-10",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-11",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SW-12",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-01",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-02",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-03",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-04",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 8.881784197001252e-16
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-05",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-06",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-07",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-08",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-09",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-10",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-11",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "SE-12",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-01",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-02",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-03",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-04",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-05",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-06",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-07",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-08",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-09",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-10",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-11",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NW-12",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-01",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-02",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-03",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-04",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-05",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-06",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-07",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-08",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-09",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-10",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-11",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "rooms",
+      "id": "NE-12",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "SW-C1",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "SW-C2",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "SE-C1",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "SE-C2",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "NW-C1",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "NW-C2",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "NE-C1",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "corridors",
+      "id": "NE-C2",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "elevator_nodes",
+      "id": "SW_ElevatorNode",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "elevator_nodes",
+      "id": "SE_ElevatorNode",
+      "shift_y_m": 4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "elevator_nodes",
+      "id": "NW_ElevatorNode",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    },
+    {
+      "collection": "elevator_nodes",
+      "id": "NE_ElevatorNode",
+      "shift_y_m": -4.2,
+      "maximum_coordinate_error_m": 2.6645352591003757e-15
+    }
+  ],
+  "all_four_freight_shafts_q_and_plenums_same_world_coordinates": true,
+  "selected_shift_each_half_m": 4.2,
+  "upper_half_shift_down_m": 4.2,
+  "lower_half_shift_up_m": 4.2,
+  "total_main_depth_reduction_m": 8.4,
+  "candidate_native_occ_tests": [
+    {
+      "shift_each_half_m": 0,
+      "main_depth_m": 86.2,
+      "all_fixed_core_plenum_reservations_clear": true,
+      "overlap_rooms": []
+    },
+    {
+      "shift_each_half_m": 2,
+      "main_depth_m": 82.2,
+      "all_fixed_core_plenum_reservations_clear": true,
+      "overlap_rooms": []
+    },
+    {
+      "shift_each_half_m": 4,
+      "main_depth_m": 78.2,
+      "all_fixed_core_plenum_reservations_clear": true,
+      "overlap_rooms": []
+    },
+    {
+      "shift_each_half_m": 4.2,
+      "main_depth_m": 77.8,
+      "all_fixed_core_plenum_reservations_clear": true,
+      "overlap_rooms": []
+    },
+    {
+      "shift_each_half_m": 4.3,
+      "main_depth_m": 77.60000000000001,
+      "all_fixed_core_plenum_reservations_clear": false,
+      "overlap_rooms": [
+        {
+          "room": "SW-12",
+          "reserved_work_overlap_m2": 0.3999999999999999
+        },
+        {
+          "room": "SE-09",
+          "reserved_work_overlap_m2": 0.4
+        },
+        {
+          "room": "NW-04",
+          "reserved_work_overlap_m2": 0.3999999999999418
+        },
+        {
+          "room": "NE-01",
+          "reserved_work_overlap_m2": 0.3999999999999418
+        }
+      ]
+    },
+    {
+      "shift_each_half_m": 4.4,
+      "main_depth_m": 77.4,
+      "all_fixed_core_plenum_reservations_clear": false,
+      "overlap_rooms": [
+        {
+          "room": "SW-12",
+          "reserved_work_overlap_m2": 0.800000000000029
+        },
+        {
+          "room": "SE-09",
+          "reserved_work_overlap_m2": 0.800000000000029
+        },
+        {
+          "room": "NW-04",
+          "reserved_work_overlap_m2": 0.7999999999999416
+        },
+        {
+          "room": "NE-01",
+          "reserved_work_overlap_m2": 0.7999999999999416
+        }
+      ]
+    },
+    {
+      "shift_each_half_m": 4.5,
+      "main_depth_m": 77.2,
+      "all_fixed_core_plenum_reservations_clear": false,
+      "overlap_rooms": [
+        {
+          "room": "SW-12",
+          "reserved_work_overlap_m2": 1.200000000000029
+        },
+        {
+          "room": "SE-09",
+          "reserved_work_overlap_m2": 1.2000000000000288
+        },
+        {
+          "room": "NW-04",
+          "reserved_work_overlap_m2": 1.1999999999999418
+        },
+        {
+          "room": "NE-01",
+          "reserved_work_overlap_m2": 1.1999999999999416
+        }
+      ]
+    }
+  ],
+  "reason": "4.20m is the contact boundary for full unchanged 4m-deep east/west turning reservations; larger shifts invade those working reservations. No individual room or X displacement.",
+  "minimum_q_footprint_to_room_outer_face_m": 1.9499999999999855,
+  "minimum_working_turn_circle_to_room_outer_face_m": 0.3322330470336237,
+  "cross_lane_center_clear_width_m": 4,
+  "cross_work_zone_clear_depth_m": 11.2,
+  "old_geometric_lane_side_margin_m": 7.8,
+  "new_geometric_lane_side_margin_m": 3.6,
+  "old_side_margin_function": "Undefined outside 4m lane",
+  "new_side_margin_function": "Continuous machine operations / ground marking only",
+  "west_east_work_zone_clear_m": [
+    78.7,
+    11.2
+  ],
+  "west_work_zone_x_m": [
+    4.7,
+    83.4
+  ],
+  "east_work_zone_x_m": [
+    103,
+    181.7
+  ],
+  "work_zone_y_m": [
+    37.5,
+    48.7
+  ],
+  "north_south_main_lane_clear_m": 6,
+  "each_spine_lateral_work_strip_m": 6.8,
+  "emergency_core_isolation_full_width_m": 19.6
+}

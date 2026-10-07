@@ -1,0 +1,12 @@
+[
+ {"name":"01_overall_open_top","label":"开顶整层斜俯视","position_m":[226,-126,190],"target_m":[93.2,43.1,0],"orthographic_height_m":135,"projection":"orthographic","roof_visible":false},
+ {"name":"02_orthographic_top","label":"正交俯视 / 48室真实门位","position_m":[93.2,43.1,300],"target_m":[93.2,43.1,0],"orthographic_height_m":115,"projection":"orthographic","roof_visible":false},
+ {"name":"03_personnel_corridor_eye","label":"典型人员走廊 / 眼高1.60m","position_m":[25.3,14.9,1.6],"target_m":[72.9,14.9,1.6],"vertical_fov_deg":44,"projection":"perspective","roof_visible":true},
+ {"name":"04_freight_core_overview","label":"中央机器作业区 / 四货梯与Q","position_m":[122,17,35],"target_m":[93.2,43.1,0],"orthographic_height_m":42,"projection":"orthographic","roof_visible":false},
+ {"name":"04b_machine_work_eye","label":"横向机器作业区 / 西侧绕行口","position_m":[73,43.1,1.6],"target_m":[86,46.5,1.5],"vertical_fov_deg":44,"projection":"perspective","roof_visible":true},
+ {"name":"05_north_stair_connection","label":"北楼梯完全内嵌 / 纵向机器臂连接","position_m":[109,64,25],"target_m":[93.2,73,0],"orthographic_height_m":28,"projection":"orthographic","roof_visible":false},
+ {"name":"05b_north_stair_eye","label":"纵向机器臂看北楼梯 / 眼高1.60m","position_m":[93.2,62,1.6],"target_m":[93.2,75.8,1.6],"vertical_fov_deg":44,"projection":"perspective","roof_visible":true},
+ {"name":"05c_south_stair_connection","label":"南楼梯完全内嵌 / 镜像连接","position_m":[109,22,25],"target_m":[93.2,13,0],"orthographic_height_m":28,"projection":"orthographic","roof_visible":false},
+ {"name":"06_room1_floor_relationship","label":"代表性Room1 / 与人员廊和相邻房间的尺度关系","position_m":[27,-8,24],"target_m":[31.3,20.85,0],"orthographic_height_m":34,"projection":"orthographic","roof_visible":false},
+ {"name":"07_room1_eye","label":"代表性Room1完整闭舱 / 眼高1.60m","position_m":[31.3,25.05,1.6],"target_m":[31.3,20.85,1.4],"vertical_fov_deg":44,"projection":"perspective","roof_visible":true}
+]
