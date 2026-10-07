@@ -1,0 +1,2 @@
+# Preserve delivered artifact bytes so the SHA-256 manifest remains valid.
+* -text

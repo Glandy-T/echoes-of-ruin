@@ -1,0 +1,9 @@
+{
+  "saved_geometry_unchanged": true,
+  "views": [
+    "room1_isometric.png",
+    "room1_top.png"
+  ],
+  "isometric_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 30207.266 -15457.253 20857.26\n  orientation 0.74290609 0.30772209 0.59447283  1.2171158\n  nearDistance 26082.695\n  farDistance 43935.094\n  aspectRatio 1\n  focalDistance 35000\n  height 18000\n\n}\n",
+  "top_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 10000 4750 35000\n  orientation 0 0 1  0\n  nearDistance 33666.301\n  farDistance 35035\n  aspectRatio 1\n  focalDistance 35000\n  height 15000\n\n}\n"
+}

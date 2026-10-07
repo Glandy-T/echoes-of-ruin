@@ -1,0 +1,17 @@
+{
+  "saved_readback_passed": true,
+  "native_sketch_count": 89,
+  "fully_constrained": true,
+  "native_solid_count": 86,
+  "pod_envelope_readback": true,
+  "positive_volume_collisions": [],
+  "native_dimensions_mm": {
+    "Dim_OuterWidth": 20000,
+    "Dim_OuterDepth": 9500,
+    "Dim_DoorOpening": 1600,
+    "Dim_LongAisle": 1600,
+    "Dim_CrossAisle": 3500
+  },
+  "invalid_objects": [],
+  "fcstd_sha256": "211086984aeae98c5382b46b5fe7a38121c3b44e09bab5ccd6a47c0773ed3c58"
+}

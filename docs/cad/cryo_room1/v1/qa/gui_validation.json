@@ -1,0 +1,86 @@
+{
+  "native_gui_opened": true,
+  "native_dimensions": [
+    {
+      "name": "OuterWidth",
+      "mm": 20000.0,
+      "type": "DistanceX"
+    },
+    {
+      "name": "OuterDepth",
+      "mm": 9500.0,
+      "type": "DistanceY"
+    },
+    {
+      "name": "DoorOpening",
+      "mm": 1600.0,
+      "type": "DistanceX"
+    },
+    {
+      "name": "LongAisle",
+      "mm": 1599.9999999999989,
+      "type": "DistanceX"
+    },
+    {
+      "name": "CrossAisle",
+      "mm": 3500.0,
+      "type": "DistanceY"
+    }
+  ],
+  "projection_vertices": 660,
+  "parameter_edit_tests": [
+    {
+      "parameter": "RoomWidth",
+      "trial_mm": 20500,
+      "object": "Wall_Right",
+      "axis": "XMax",
+      "measured_mm": 20500.0,
+      "passed": true
+    },
+    {
+      "parameter": "RoomDepth",
+      "trial_mm": 9700,
+      "object": "Wall_RearLeft",
+      "axis": "YMax",
+      "measured_mm": 9700.0,
+      "passed": true
+    },
+    {
+      "parameter": "PodWidth",
+      "trial_mm": 1100,
+      "object": "P01_Base",
+      "axis": "XLength",
+      "measured_mm": 1100.0,
+      "passed": true
+    },
+    {
+      "parameter": "Gap",
+      "trial_mm": 800,
+      "object": "P01_Base",
+      "axis": "XMin",
+      "measured_mm": 750.0,
+      "passed": true
+    },
+    {
+      "parameter": "PodHeight",
+      "trial_mm": 1100,
+      "object": "P01_Window",
+      "axis": "ZMax",
+      "measured_mm": 1100.0,
+      "passed": true
+    }
+  ],
+  "native_fully_constrained_sketches": true,
+  "exported_pages": [
+    "A301",
+    "A302",
+    "A303",
+    "A304"
+  ],
+  "native_3d_views": [
+    "room1_isometric.png",
+    "room1_top.png"
+  ],
+  "visual_review": "completed: A301-A303 publication and native PDFs, A304 native dimensions, orthographic top and isometric views inspected",
+  "saved": true
+}
