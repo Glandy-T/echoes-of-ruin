@@ -1,0 +1,41 @@
+{
+  "final_file_reopened": true,
+  "all_parameters_restored": true,
+  "sketch_count": 378,
+  "wall_count": 286,
+  "native_dimension_count": 8,
+  "maximum_wall_coordinate_error_m": 5.684341886080802e-14,
+  "prior_files_unchanged": {
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_standard_floor\\v1\\standard_floor_v1.FCStd": "34636ce546be832f789029abc3b923e608e5bf7489fb352cf9a60e5633ba1708",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_room1\\v2\\room1_engineering_v2.FCStd": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7",
+    "E:\\卒業制作\\echoes-of-ruin\\docs\\cad\\cryo_room1\\blockout_v2\\room1_3d_blockout_v2.FCStd": "4bb0db7b42de97693a02557bd29d38e498a224254843335fa20dd1e0593b3973"
+  },
+  "brief_snapshot_git_blob": "de2e56eb49dca0c4dd3184c44cef93640affded6",
+  "publication_visual_review": {
+    "pages": [
+      "A401",
+      "A402",
+      "A403"
+    ],
+    "actual_pdf_rendered": true,
+    "reviewed": true,
+    "text_overlap_or_clipping": false
+  },
+  "native_live_page_reviewed": true,
+  "native_gui_reopen_verified": {
+    "native_file_reopened": true,
+    "projection_ready_refreshed": true,
+    "native_dimensions_mm": {
+      "MaximumEnvelope": 196200.00000000003,
+      "MainWidth": 186400.00000000146,
+      "MainDepth": 86200.0,
+      "CoreWidth": 19599.999999995445,
+      "TransferClear": 11200.0,
+      "PersonnelCorridor": 2400.000000001455,
+      "StairFlight": 1799.9999999999545,
+      "StairDoor": 1799.999999992721
+    },
+    "all_eight_values_match": true
+  },
+  "stage": "2D_TOPOLOGY_VERIFIED / EVACUATION_DESIGN_OPEN"
+}
