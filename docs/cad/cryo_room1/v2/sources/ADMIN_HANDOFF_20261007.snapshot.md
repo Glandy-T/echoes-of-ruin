@@ -1,0 +1,28 @@
+# 管理设施 CAD 交接（2026-10-07）
+
+## 当前版本
+
+- GitHub `main` 当前基准：`0cd3e24f56b158c218ace77ef60813fad5511463`，基于封盘说明提交 `c1ab4d25e5945b579517f8ceb956dcdd7502223f`。
+- 按 `LOCK_AND_CLOSE.md` 只放大两块地图，其他平面空间和位置保持不变。
+- 地图平面宽度为 4.0 m，位置分别为 `GuideLeft (13.4, 22.0)`、`GuideRight (47.6, 22.0)`，深度 0.15 m；3D 可视高度 2.1 m（底标高 0.70 m）。两侧最小绕行净宽均为 5.1 m。
+
+## 验证结果
+
+- 2D FreeCAD：333 个布局要素完成原生回读，335 个草图完全约束；A201/A202/A203 已重建并导出 SVG、PDF，尺寸读回为 65×45 m 和 20×14 m。
+- 3D FreeCAD：302 个有效实体，223 个平面投影与 2D 源足迹吻合；参数联动测试通过，新增实体碰撞为 0。报告中的 6 处墙体交叠来自原平面共享墙。
+- 2D `.FCStd` 与 3D 报告中的源计划 SHA-256 一致；`manifest.json` 和 `visual_blockout_manifest.json` 的工件哈希检查通过。
+
+## 尚未封盘
+
+`LOCK_AND_CLOSE.md` 条件 3 未通过：`02_after_auth_human_view` 中没有同时看到两块地图。画面使用约 58.8° 水平视角；地图最近边缘约在视轴左右 49.27°，分别超出画面约 29.4° 的半视角。左、右地图分别可在同一眼位转头的 `02b_after_auth_look_left` 和 `02c_after_auth_look_right` 中看到。
+
+因此状态保持 **NOT FROZEN**。下一步先确认是否调整“02 必须同时看见两块”的视图要求，或是否授权修改地图布置；在此之前不要移动地图或其他冻结空间，也不要把项目标记为 `ADMIN FACILITY SPATIAL DESIGN FROZEN`。其他仍标为 P/TBD 的尺寸、消防规范、疏散合规和吞吐量未由本轮验证。
+
+## 打开文件
+
+- `admin_facility_v2.FCStd`：用 FreeCAD 1.1.4 打开；在模型树双击 `A201`、`A202` 或 `A203` 查看工程图页。
+- `admin_facility_3d_blockout_v1.FCStd`：用 FreeCAD 打开查看 3D 体块。
+- `exports/admin_facility_plans_v2.pdf`：用任意 PDF 阅读器查看三页图纸。
+
+本轮在隔离 Git 副本中完成并推送；原本地 `G:\卒業制作\echoes-of-ruin` 工作目录未被本轮重置或清理。
+

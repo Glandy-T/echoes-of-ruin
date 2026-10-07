@@ -1,0 +1,26 @@
+{
+  "repository": "Glandy-T/echoes-of-ruin",
+  "revision": "6ddc2ddf2eac0eef5aecc959120a24d041afe7da",
+  "files": [
+    {
+      "name": "ROOM1_ENGINEERING_BRIEF.md",
+      "blob_sha": "9365a2e97c60461b188f0853970441bdebbf3cfc",
+      "url": "https://github.com/Glandy-T/echoes-of-ruin/blob/6ddc2ddf2eac0eef5aecc959120a24d041afe7da/docs/cad/cryo_room1/ROOM1_ENGINEERING_BRIEF.md"
+    },
+    {
+      "name": "CRYO_FACILITY_LAYOUT.md",
+      "blob_sha": "e0543c128fc1271f0cb5bdd8d7ea3a7e77307551",
+      "url": "https://github.com/Glandy-T/echoes-of-ruin/blob/fcc0863e925a7063eaae074f54cba030a677b315/docs/CRYO_FACILITY_LAYOUT.md"
+    },
+    {
+      "name": "HANDOFF_20261007.md",
+      "blob_sha": "4f33b85209e404425b1897c986099924db5f239f",
+      "url": "https://github.com/Glandy-T/echoes-of-ruin/blob/fcc0863e925a7063eaae074f54cba030a677b315/docs/cad/admin_facility_v2/HANDOFF_20261007.md"
+    }
+  ],
+  "art_direction": {
+    "blob_sha": "493c1817eee18ab6199ca0c0ae374c82c564bd74",
+    "url": "https://github.com/Glandy-T/echoes-of-ruin/blob/main/docs/ART_DIRECTION.md"
+  },
+  "note": "草稿为用户提供的概念参考；非按比例；单室测试使用最新简报参数。"
+}

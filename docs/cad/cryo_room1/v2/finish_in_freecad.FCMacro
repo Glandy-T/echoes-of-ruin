@@ -1,0 +1,108 @@
+"""Open/readback/export in a dedicated FreeCAD GUI process; preserve other docs."""
+from pathlib import Path
+import json,traceback,time,math
+import FreeCAD as App, FreeCADGui as Gui, Part, TechDrawGui
+from pivy import coin
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;QA=ROOT/'qa';report={}
+def stage(s):(QA/'gui_progress.txt').write_text(s,encoding='utf-8')
+try:
+ stage('opening native document')
+ doc=App.openDocument(str(ROOT/'room1_engineering_v2.FCStd'));App.setActiveDocument(doc.Name)
+ assert doc.Parameters.SourceCommit=='6ddc2ddf2eac0eef5aecc959120a24d041afe7da'
+ stage('activating TechDraw')
+ Gui.activateWorkbench('TechDrawWorkbench');doc.recompute();Gui.updateGui()
+ view=doc.NativePlan;Gui.activeDocument().getObject('A304').doubleClicked();Gui.updateGui()
+ stage('reading native projection vertices')
+ for _ in range(15):Gui.updateGui();time.sleep(.1)
+ vertices=[]
+ for i in range(5000):
+  try:
+   pt=view.getVertexByIndex(i).Vertexes[0].Point;vertices.append((i,pt.x,pt.y))
+  except (ValueError,IndexError):break
+ assert vertices,'No projection vertices'
+ xmin=min(a[1] for a in vertices);xmax=max(a[1] for a in vertices);ymin=min(a[2] for a in vertices);ymax=max(a[2] for a in vertices)
+ assert abs(xmax-xmin-21000)<1e-5 and abs(ymax-ymin-9500)<1e-5
+ near=lambda x,y:min(vertices,key=lambda a:(a[1]-x)**2+(a[2]-y)**2)[0]
+ dims=[]
+ stage('adding native dimensions')
+ for o in list(doc.Objects):
+  if o.TypeId=='TechDraw::DrawViewDimension' and o.Name.startswith('Dim_'):doc.removeObject(o.Name)
+ doc.recompute()
+ for name,typ,coords,x,y,expected in [
+  ('OuterWidth','DistanceX',[(xmin,ymin),(xmax,ymin)],0,-112,21000),
+  ('OuterDepth','DistanceY',[(xmin,ymin),(xmin,ymax)],-225,0,9500),
+  ('DoorOpening','DistanceX',[(xmin+9800,ymax),(xmin+11200,ymax)],0,109,1400),
+  ('LongAisle','DistanceX',[(xmin+9300,ymin+2880),(xmin+11700,ymin+2880)],0,0,2400),
+  ('CrossAisle','DistanceY',[(xmin+1370,ymin+3000),(xmin+1370,ymin+6500)],185,0,3500),
+ ]:
+  refs=[near(*p) for p in coords]
+  # Corner facets shift some vertices; endpoints must be exact to measure.
+  for ref,pt in zip(refs,coords):
+   a=next(a for a in vertices if a[0]==ref);assert math.dist(a[1:],pt)<1e-5,(name,a,pt)
+  dim=doc.addObject('TechDraw::DrawViewDimension','Dim_'+name);doc.A304.addView(dim)
+  dim.Type=typ;dim.References2D=[(view,['Vertex'+str(i) for i in refs])];dim.ShowUnits=True;dim.X=x;dim.Y=y;dim.LockPosition=True
+  doc.recompute();Gui.updateGui();got=float(dim.getRawValue());assert abs(got-expected)<1e-5,(name,got,expected)
+  dims.append(dict(name=name,mm=got,type=typ))
+ # Real parametric edit/recompute tests in native document, then restore.
+ edits=[]
+ stage('testing parameter expressions')
+ for key,trial,object_name,axis,expected in [
+  ('RoomWidth',21500,'Wall_Right','XMax',21500),
+  ('RoomDepth',9700,'Wall_RearLeft','YMax',9700),
+  ('PodWidth',1100,'P01_Base','XLength',1100),
+  ('Gap',800,'P01_Base','XMin',850),
+  ('PodHeight',1100,'P01_Window','ZMax',1100),
+  ('LongAisle',2600,'P01_Base','XMin',1150),
+  ('DoorWidth',1500,'Wall_RearLeft','XLength',9750),
+ ]:
+  old=getattr(doc.Parameters,key).Value;setattr(doc.Parameters,key,trial);doc.recompute();Gui.updateGui()
+  got=getattr(doc.getObject(object_name).Shape.BoundBox,axis);assert abs(got-expected)<1e-5,(key,got,expected)
+  edits.append(dict(parameter=key,trial_mm=trial,object=object_name,axis=axis,measured_mm=got,passed=True))
+  setattr(doc.Parameters,key,old);doc.recompute();Gui.updateGui()
+ # Display native 3D objects; publication geometry itself is untouched.
+ colors={'Base':(.48,.53,.56),'Body':(.70,.73,.75),'Lid':(.82,.84,.85),'Window':(.43,.63,.69)}
+ for o in doc.Objects:
+  if o.TypeId=='Part::Extrusion':
+   o.Visibility=True;o.ViewObject.LineColor=(.2,.23,.25)
+   kind=o.Name.rsplit('_',1)[-1];o.ViewObject.ShapeColor=colors.get(kind,(.73,.75,.77))
+   if kind=='Window':o.ViewObject.Transparency=45
+  elif o.TypeId=='Sketcher::SketchObject':o.Visibility=False
+ doc.recompute();doc.save()
+ exports=[]
+ stage('exporting native TechDraw pages')
+ for code in ['A301','A302','A303','A304']:
+  page=doc.getObject(code);Gui.activeDocument().getObject(code).doubleClicked();Gui.updateGui()
+  for _ in range(5):Gui.updateGui();time.sleep(.1)
+  TechDrawGui.exportPageAsPdf(page,str(QA/('freecad_'+code+'.pdf')));exports.append(code)
+ Gui.activateWorkbench('PartWorkbench')
+ stage('rendering native 3D views')
+ preview=App.newDocument('Room1_RenderPreview')
+ for o in doc.Objects:
+  if o.TypeId=='Part::Extrusion':
+   copy=preview.addObject('Part::Feature',o.Name);copy.Shape=o.Shape.copy();copy.ViewObject.ShapeColor=o.ViewObject.ShapeColor
+   copy.ViewObject.LineColor=o.ViewObject.LineColor;copy.ViewObject.Transparency=o.ViewObject.Transparency
+ preview.recompute();Gui.updateGui()
+ av=Gui.activeDocument().activeView();av.viewAxonometric();av.fitAll();Gui.updateGui()
+ for _ in range(20):Gui.updateGui();time.sleep(.1)
+ cn=av.getCameraNode();direction=av.getCameraOrientation().multVec(App.Vector(0,0,1))
+ pos=App.Vector(10500,4750,650)+direction*35000
+ cn.position.setValue(pos.x,pos.y,pos.z);cn.focalDistance.setValue(35000)
+ cn.nearDistance.setValue(100);cn.farDistance.setValue(100000);cn.height.setValue(18000)
+ for _ in range(10):Gui.updateGui();time.sleep(.1)
+ av.saveImage(str(QA/'room1_isometric.png'),1800,1100,'White')
+ av.viewTop();av.fitAll();Gui.updateGui()
+ for _ in range(20):Gui.updateGui();time.sleep(.1)
+ cn=av.getCameraNode();cn.position.setValue(10500,4750,35000);cn.focalDistance.setValue(35000)
+ cn.nearDistance.setValue(100);cn.farDistance.setValue(100000);cn.height.setValue(15000)
+ for _ in range(10):Gui.updateGui();time.sleep(.1)
+ av.saveImage(str(QA/'room1_top.png'),1800,1100,'White')
+ App.closeDocument(preview.Name);App.setActiveDocument(doc.Name);doc.recompute();doc.save()
+ report=dict(native_gui_opened=True,native_dimensions=dims,projection_vertices=len(vertices),parameter_edit_tests=edits,
+  native_fully_constrained_sketches=all(o.FullyConstrained for o in doc.Objects if o.TypeId=='Sketcher::SketchObject'),
+  exported_pages=exports,native_3d_views=['room1_isometric.png','room1_top.png'],visual_review='pending',saved=True)
+except Exception:report=dict(error=traceback.format_exc())
+(QA/'gui_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+if 'error' not in report:
+ (QA/'render_validation.json').write_text(json.dumps(dict(views=['room1_isometric.png','room1_top.png'],source='native exact shapes in dedicated preview document'),indent=2),encoding='utf-8')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

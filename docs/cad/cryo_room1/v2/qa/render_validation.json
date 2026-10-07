@@ -1,0 +1,7 @@
+{
+  "views": [
+    "room1_isometric.png",
+    "room1_top.png"
+  ],
+  "source": "native exact shapes in dedicated preview document"
+}

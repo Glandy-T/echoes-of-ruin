@@ -1,0 +1,39 @@
+"""Render exact saved shapes without editing the engineering file."""
+from pathlib import Path
+import json,time,traceback
+import FreeCAD as App, FreeCADGui as Gui
+from pivy import coin
+from PySide import QtCore
+ROOT=Path(__file__).resolve().parent;QA=ROOT/'qa';result={}
+try:
+ source=App.openDocument(str(ROOT/'room1_engineering_v2.FCStd'))
+ Gui.activateWorkbench('PartWorkbench');preview=App.newDocument('Room1_RenderOnly')
+ for o in source.Objects:
+  if o.TypeId=='Part::Extrusion':
+   c=preview.addObject('Part::Feature',o.Name);c.Shape=o.Shape.copy();c.ViewObject.ShapeColor=o.ViewObject.ShapeColor
+   c.ViewObject.Transparency=o.ViewObject.Transparency;c.ViewObject.LineColor=o.ViewObject.LineColor
+ preview.recompute();av=Gui.activeDocument().activeView()
+ av.setCameraType('Orthographic');av.viewAxonometric();av.fitAll()
+ for _ in range(25):Gui.updateGui();time.sleep(.1)
+ # fitAll in a hidden GUI can give an insufficient near/far range. Place the
+ # orthographic camera explicitly outside the room with generous clipping.
+ cn=av.getCameraNode();rot=av.getCameraOrientation()
+ direction=rot.multVec(App.Vector(0,0,1));pos=App.Vector(10500,4750,650)+direction*35000
+ cn.position.setValue(pos.x,pos.y,pos.z);cn.focalDistance.setValue(35000)
+ cn.nearDistance.setValue(100);cn.farDistance.setValue(100000);cn.height.setValue(18000)
+ for _ in range(10):Gui.updateGui();time.sleep(.1)
+ iso_camera=av.getCamera();av.saveImage(str(QA/'room1_isometric.png'),1800,1100,'White')
+ av.viewTop()
+ for _ in range(25):Gui.updateGui();time.sleep(.1)
+ av.fitAll()
+ for _ in range(25):Gui.updateGui();time.sleep(.1)
+ cn=av.getCameraNode();cn.position.setValue(10500,4750,35000);cn.focalDistance.setValue(35000)
+ cn.nearDistance.setValue(100);cn.farDistance.setValue(100000);cn.height.setValue(15000)
+ for _ in range(10):Gui.updateGui();time.sleep(.1)
+ top_camera=av.getCamera();av.saveImage(str(QA/'room1_top.png'),1800,1100,'White')
+ assert iso_camera!=top_camera
+ result=dict(saved_geometry_unchanged=True,views=['room1_isometric.png','room1_top.png'],isometric_camera=iso_camera,top_camera=top_camera)
+ App.closeDocument(preview.Name);App.closeDocument(source.Name)
+except Exception:result=dict(error=traceback.format_exc())
+(QA/'render_validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+QtCore.QTimer.singleShot(0,Gui.getMainWindow().close)

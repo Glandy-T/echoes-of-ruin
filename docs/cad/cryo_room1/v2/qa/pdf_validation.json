@@ -1,0 +1,7 @@
+{
+  "pages": 3,
+  "A2_size_passed": true,
+  "text_bounds_passed": true,
+  "text_readback_passed": true,
+  "visual_review": "all three latest publication pages rendered and inspected; no clipping or text/geometry overlap"
+}

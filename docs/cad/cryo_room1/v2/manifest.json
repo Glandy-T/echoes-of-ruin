@@ -1,0 +1,142 @@
+{
+  ".gitattributes": {
+    "bytes": 83,
+    "sha256": "3134af3a8058041f27370f1c15aeb59f2838c064cc3e065130ee4f683d8fd388"
+  },
+  "README.md": {
+    "bytes": 3867,
+    "sha256": "e9f2306cc26214198b24645c0b47f05f136d0dfad053b3448199891c109b5124"
+  },
+  "room1_engineering_v2.FCStd": {
+    "bytes": 388751,
+    "sha256": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7"
+  },
+  "cad_validation.json": {
+    "bytes": 167418,
+    "sha256": "fd6f3c640ddc307e6f44f92317f2d74de69e4fa34c9ee0bc25fa6e4a88be9016"
+  },
+  "layout.py": {
+    "bytes": 3775,
+    "sha256": "9d5025bffb59c7fa1953f17a08591eaa06a4a7c0b454a04316ee0bcb79ad672a"
+  },
+  "drawings.py": {
+    "bytes": 13615,
+    "sha256": "6d734447dedb83171ca84fc1667b721f6529341ab5220d5cbd49176eb0646bb0"
+  },
+  "build_freecad.py": {
+    "bytes": 10638,
+    "sha256": "917d8e0a1502eac931ec1eb8726ea914dbd107287584120fc4e538e48e95361d"
+  },
+  "render_pdf.py": {
+    "bytes": 2619,
+    "sha256": "c031f537daa67ed72c0a6b52a289deab2b0d70a237627ddb9399fa40421dc4ab"
+  },
+  "validate_saved.py": {
+    "bytes": 3549,
+    "sha256": "77f3836f6d792a4a0204f2cd2ece792c9fe5368f7f0857105561cf79b736a3dd"
+  },
+  "finish_in_freecad.FCMacro": {
+    "bytes": 6588,
+    "sha256": "096763ef73ee86d15b2dce281ff195273994658edd5f82dfd8ec8123708b92c5"
+  },
+  "render_views.FCMacro": {
+    "bytes": 2379,
+    "sha256": "48b919bd4065bbfdc9b65f116a5171b443baf5cb0a796ba15567b1418502cb4f"
+  },
+  "package_outputs.py": {
+    "bytes": 3366,
+    "sha256": "38b7b67462aed219d65b94b95c419c370010fbc4dd0d82ab5e6d64eb6bbf9ee0"
+  },
+  "sources/ADMIN_HANDOFF_20261007.snapshot.md": {
+    "bytes": 2217,
+    "sha256": "3481a58f9d3a8f901764bfe49f1d2c9bad37106259674a754430f287c512759a"
+  },
+  "sources/ART_DIRECTION.snapshot.md": {
+    "bytes": 90509,
+    "sha256": "16d977bcd939dc83ac91850b4ce56aceefcfdfefcbde2e025b6d032f6cf2b3c6"
+  },
+  "sources/CRYO_FACILITY_LAYOUT.snapshot.md": {
+    "bytes": 17409,
+    "sha256": "37bf0beb681c3333ddf38dc563a630cbc57c6de11cc480f5441ddda056725ac2"
+  },
+  "sources/ROOM1_ENGINEERING_BRIEF.snapshot.md": {
+    "bytes": 7011,
+    "sha256": "65404686edd95ec3e123c32ca68a2574d135e88f3e975334ad009ee7d0e997d2"
+  },
+  "sources/source_manifest.json": {
+    "bytes": 1210,
+    "sha256": "82f168b6f5526ff5b6e9ae4c9bc65dc5f1dad803ab64dd8d3efdc2a9a94a1b8d"
+  },
+  "sources/user_pod_facility_draft.jpg": {
+    "bytes": 612498,
+    "sha256": "2f1a2de720033952a00b174d71ef414f87f8470e194c56d13d73dbcc9dad128a"
+  },
+  "sources/user_room1_draft.jpg": {
+    "bytes": 403328,
+    "sha256": "ec3f75d263fe958bcf78b71f9f1f03f19a54b03dd9f4930b36181fee51431d7f"
+  },
+  "exports/A2_blank.svg": {
+    "bytes": 92,
+    "sha256": "162cef1a4a25fe23c16c6ccf0b04973ffe30533f5286bb15c81cfd41c6f33948"
+  },
+  "exports/A2_live.svg": {
+    "bytes": 470,
+    "sha256": "d901f648079a43e2b529d7f1748d1ded9218c30eb1959e45c0ede5afa0304139"
+  },
+  "exports/A301_v2.svg": {
+    "bytes": 39770,
+    "sha256": "fa314f84710dfa3f7b01d81f2bcbba84d42baa4d80a1e73185edfaa5dda322ec"
+  },
+  "exports/A302_v2.svg": {
+    "bytes": 10691,
+    "sha256": "4dc10570657ee94bd214ead6363bfb50aedbb296287b88c23fe3f89fef327c5e"
+  },
+  "exports/A303_v2.svg": {
+    "bytes": 12075,
+    "sha256": "f364e8d4805b1ab7006165cdae83f054b0f8900134807d54cc08840ec940a331"
+  },
+  "exports/room1_engineering_v2.pdf": {
+    "bytes": 94575,
+    "sha256": "e8b4c27a9aedbabe26ac462b2c485731290379573b717f0438ab5f9cf0e8599b"
+  },
+  "qa/gui_validation.json": {
+    "bytes": 2221,
+    "sha256": "09bf2a358883ef013e5a9c95b119bdc5385fcee7e97cb0adc9414621f3fbf281"
+  },
+  "qa/saved_validation.json": {
+    "bytes": 997,
+    "sha256": "0f5c53ebb3351b163e3ce0ab3d40b4ffd9e5375228a6ba4ce161c5d591c79fba"
+  },
+  "qa/pdf_validation.json": {
+    "bytes": 228,
+    "sha256": "90db06c237497698a3f5dc86c540ef4783247195eaa3459f50a53c101f2712c6"
+  },
+  "qa/render_validation.json": {
+    "bytes": 138,
+    "sha256": "1816506039ace8b3fb2eb0be2130e6ddedcfe854b0711964759b7ac8e8cd1b98"
+  },
+  "qa/room1_isometric.png": {
+    "bytes": 52961,
+    "sha256": "cbf17addaded52d0eb413bc6f63554d536ca8948c7a99f727e4fab272a1b9e16"
+  },
+  "qa/room1_top.png": {
+    "bytes": 15008,
+    "sha256": "839669cc6bffa1d0ddf2d7ae0257b271ef4036f5f29999663743eda8a914713c"
+  },
+  "qa/freecad_A301.pdf": {
+    "bytes": 1714462,
+    "sha256": "794fdb90656b79566678a7aee0437d1397e71cbf57466997346008da97354749"
+  },
+  "qa/freecad_A302.pdf": {
+    "bytes": 1857860,
+    "sha256": "2d9d13d87e6fbdbad3923a568519f63f0cc5dddff90cd29ea10acd8ecabed4c5"
+  },
+  "qa/freecad_A303.pdf": {
+    "bytes": 3036150,
+    "sha256": "98ff76f11a53d9544b7b84a78a9a2d0afcbe959c54f76c96a74b5b49e31c9850"
+  },
+  "qa/freecad_A304.pdf": {
+    "bytes": 216697,
+    "sha256": "6b533cb76431f360964e128fd0d731c711f7326ee70cd337c3fe448b662eccf7"
+  }
+}

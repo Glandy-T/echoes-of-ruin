@@ -1,0 +1,36 @@
+{
+  "saved_readback_passed": true,
+  "native_sketch_count": 89,
+  "fully_constrained": true,
+  "native_solid_count": 86,
+  "baseline_comparison": {
+    "changed_parameters": {
+      "RoomWidth": {
+        "v1_mm": 20000.0,
+        "v2_mm": 21000.0
+      },
+      "LongAisle": {
+        "v1_mm": 1600.0,
+        "v2_mm": 2400.0
+      },
+      "DoorWidth": {
+        "v1_mm": 1600.0,
+        "v2_mm": 1400.0
+      }
+    },
+    "unchanged_pod_layers": 80,
+    "pod_shapes_identical_after_translation": true,
+    "v1_file_unchanged_sha256": "211086984aeae98c5382b46b5fe7a38121c3b44e09bab5ccd6a47c0773ed3c58"
+  },
+  "pod_envelope_readback": true,
+  "positive_volume_collisions": [],
+  "native_dimensions_mm": {
+    "Dim_OuterWidth": 21000,
+    "Dim_OuterDepth": 9500,
+    "Dim_DoorOpening": 1400,
+    "Dim_LongAisle": 2400,
+    "Dim_CrossAisle": 3500
+  },
+  "invalid_objects": [],
+  "fcstd_sha256": "d7c78d10c9c7ad39abcae5946de28f69b88b2abc461a52de8734ba1ede183bd7"
+}
