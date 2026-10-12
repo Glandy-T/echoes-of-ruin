@@ -1,0 +1,99 @@
+{
+  "status": "PASS_STATIC",
+  "blender_version": "5.0.1",
+  "checks": [
+    {
+      "check": "one connected pod envelope, original position and size",
+      "pass": true,
+      "details": {
+        "min_m": [
+          1.25,
+          6.5,
+          0.0
+        ],
+        "size_m": [
+          1.0499999523162842,
+          2.299999952316284,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "wall shell within existing wall envelope; no room intrusion",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "floor art never raises walking surface above Z=0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "six individual floor sheets",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "architectural structure exists separately from textures",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all meshes use one explicitly active finite UV layer",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "rendered wall UV density actually 64 texels/m",
+      "pass": true,
+      "details": [
+        64.00000269107385,
+        64.00000130169892
+      ]
+    },
+    {
+      "check": "two original packed Closest textures with relative paths",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "three-level shading marked as Blender-only trial",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "saved scene restored to A and normal materials",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "A_target_camera.png actual PNG dimensions",
+      "pass": true,
+      "details": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "check": "B_untextured_architecture.png actual PNG dimensions",
+      "pass": true,
+      "details": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "check": "C_material_close.png actual PNG dimensions",
+      "pass": true,
+      "details": [
+        1600,
+        1000
+      ]
+    }
+  ],
+  "limits": [
+    "file and numerical checks only",
+    "final artwork awaits user review",
+    "no Godot runtime or movement verification"
+  ]
+}

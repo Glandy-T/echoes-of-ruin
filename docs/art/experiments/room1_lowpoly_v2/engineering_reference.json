@@ -1,0 +1,12 @@
+{
+  "authority_commit": "2412522ebd92b1e5efc9525992001cbf2bdf2e94",
+  "source": "docs/cad/cryo_room1/v2/cad_validation.json; only numerical spatial data used",
+  "room_envelope_m": [21.0, 9.5],
+  "wall_thickness_m": 0.2,
+  "wall_height_m_provisional": 3.4,
+  "interior_left_x": 0.2,
+  "interior_rear_y": 9.3,
+  "crop": {"min_x": 0.2, "min_y": 5.5, "width": 4.5, "depth": 3.8, "floor_top_z": 0},
+  "pod": {"id": "P11", "x": 1.25, "y": 6.5, "w": 1.05, "d": 2.3, "h": 1.0, "long_axis": "Y"},
+  "engineering_data_not_art_design": true
+}

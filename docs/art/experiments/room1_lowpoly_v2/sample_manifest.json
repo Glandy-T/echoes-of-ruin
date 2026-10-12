@@ -1,0 +1,37 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "authority_commit": "2412522ebd92b1e5efc9525992001cbf2bdf2e94",
+  "textures": {
+    "wall": [
+      96,
+      192
+    ],
+    "floor": [
+      96,
+      120
+    ]
+  },
+  "texel_density_provisional": 64,
+  "shading_trial": "EEVEE Diffuse -> ShaderToRGB -> constant 3-level ramp -> pixel color multiply -> Emission; not portable to Godot",
+  "render_resolution": [
+    1600,
+    1000
+  ],
+  "camera_A_same_as_v1": true,
+  "mesh_count": 34,
+  "triangle_count": 1028,
+  "original_designs": [
+    "6 modular floor sheets",
+    "upper wall cassettes",
+    "flush joints and cleanable lower strips",
+    "recessed corner L return"
+  ],
+  "not_validated": [
+    "final art acceptance",
+    "Godot runtime",
+    "global pixel grid",
+    "motion stability",
+    "boarding",
+    "final cryopod design"
+  ]
+}
