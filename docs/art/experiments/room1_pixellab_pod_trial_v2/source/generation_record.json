@@ -42,5 +42,10 @@
   "scope": "One complete unchanged v4.1 pod; no room expansion; geometry and motion unchanged",
   "final_usage": 49,
   "verified_consumed": 30,
-  "status": "Three complete Pro edits; maps downloaded and exact labels finished in Aseprite; full-pod render review pending"
+  "status": "Complete full-pod renders reviewed by user on 2026-10-13: overall pixel-art tone accepted; specific design details remain pending",
+  "user_review": {
+    "date": "2026-10-13",
+    "accepted": "Overall visual tone of low-poly form plus pixel surface artwork",
+    "pending": "Specific design correspondence, markings, screen, window and other detail decisions; production parameters and Godot runtime not approved by this review"
+  }
 }
