@@ -1,0 +1,37 @@
+{
+  "image_size": [
+    400,
+    272
+  ],
+  "section_m": [
+    5,
+    3.4
+  ],
+  "trial_density_texels_m": 80,
+  "palette": {
+    "base": "#d3d6c9",
+    "light": "#e7e7d4",
+    "shade": "#c1c8bc",
+    "warm": "#d9d5c3",
+    "coat": "#cad0c0",
+    "worn": "#b5bead",
+    "deposit": "#9da998",
+    "metal": "#a6b2a9",
+    "metal_light": "#d4dcce",
+    "metal_mid": "#889d93",
+    "metal_dark": "#627970",
+    "gasket": "#475f59",
+    "lamp": "#d5e4e5",
+    "white": "#edf3ef"
+  },
+  "strip_pixels_y": [
+    18,
+    35
+  ],
+  "strip_center_m": 3.0625,
+  "strip_visible_height_m": 0.225,
+  "protection_band_height_m": 0.25,
+  "status": "user chose 20-25cm continuous diffuser and suggested softly blue light; pale gray cyan-white trial, exact color not yet approved",
+  "v1_feedback": "light too thin, technology and history insufficient; strengthen structured material details and localized age",
+  "input": "original authored guide only; no Pixel Canals image/model/texture supplied to AI"
+}

@@ -1,0 +1,54 @@
+{
+  "source": "room1_wall_pixel_v1.blend",
+  "source_object_count": 137,
+  "source_geometry_transforms_visibility_unchanged": true,
+  "source_uv_layers_unchanged": true,
+  "all_nonwall_objects_unchanged": true,
+  "floor_pods_door_lights_and_source_cameras_unchanged": true,
+  "new_objects": [],
+  "wall_material_changes": [
+    {
+      "object": "Wall_rear_left",
+      "texture": "rear",
+      "interior_face_indices": [
+        3
+      ]
+    },
+    {
+      "object": "Wall_rear_right",
+      "texture": "rear",
+      "interior_face_indices": [
+        3
+      ]
+    },
+    {
+      "object": "Wall_rear_door_header",
+      "texture": "rear",
+      "interior_face_indices": [
+        3
+      ]
+    },
+    {
+      "object": "Wall_front",
+      "texture": "front",
+      "interior_face_indices": [
+        1
+      ]
+    },
+    {
+      "object": "Wall_left",
+      "texture": "left",
+      "interior_face_indices": [
+        2
+      ]
+    },
+    {
+      "object": "Wall_right",
+      "texture": "right",
+      "interior_face_indices": [
+        0
+      ]
+    }
+  ],
+  "scope": "Structural readback and review images only; not Godot runtime/lighting validation."
+}

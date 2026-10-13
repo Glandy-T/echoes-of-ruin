@@ -1,0 +1,235 @@
+{
+  "maps": {
+    "rear": {
+      "dimensions": [
+        1680,
+        272
+      ],
+      "horizontal_length_m": 21.0,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        18,
+        35
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        16,
+        1663
+      ],
+      "surround_connection_pixels": [
+        520,
+        1155
+      ],
+      "material_age_patches": [
+        [
+          "chalk",
+          178,
+          70,
+          false
+        ],
+        [
+          "abraded",
+          588,
+          151,
+          false
+        ],
+        [
+          "small_loss",
+          1504,
+          68,
+          true
+        ],
+        [
+          "warm_age",
+          88,
+          178,
+          false
+        ],
+        [
+          "lower_wear",
+          1256,
+          217,
+          true
+        ],
+        [
+          "fade",
+          975,
+          177,
+          false
+        ]
+      ],
+      "aging": "AI native material history arranged individually; true corner and old contact finish"
+    },
+    "front": {
+      "dimensions": [
+        1680,
+        272
+      ],
+      "horizontal_length_m": 21.0,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        18,
+        35
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        16,
+        1663
+      ],
+      "surround_connection_pixels": [
+        491,
+        1196
+      ],
+      "material_age_patches": [
+        [
+          "abraded",
+          227,
+          143,
+          true
+        ],
+        [
+          "small_loss",
+          899,
+          81,
+          false
+        ],
+        [
+          "lower_wear",
+          1055,
+          213,
+          false
+        ],
+        [
+          "fade",
+          1464,
+          177,
+          true
+        ]
+      ],
+      "aging": "AI native material history arranged individually; true corner and old contact finish"
+    },
+    "left": {
+      "dimensions": [
+        728,
+        272
+      ],
+      "horizontal_length_m": 9.1,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        18,
+        35
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        0,
+        727
+      ],
+      "surround_connection_pixels": [
+        307
+      ],
+      "material_age_patches": [
+        [
+          "small_loss",
+          85,
+          80,
+          true
+        ],
+        [
+          "chalk",
+          333,
+          108,
+          true
+        ],
+        [
+          "lower_wear",
+          562,
+          216,
+          true
+        ]
+      ],
+      "aging": "AI native material history arranged individually; true corner and old contact finish"
+    },
+    "right": {
+      "dimensions": [
+        728,
+        272
+      ],
+      "horizontal_length_m": 9.1,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        18,
+        35
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        0,
+        727
+      ],
+      "surround_connection_pixels": [
+        421
+      ],
+      "material_age_patches": [
+        [
+          "chalk",
+          79,
+          67,
+          false
+        ],
+        [
+          "abraded",
+          351,
+          140,
+          true
+        ],
+        [
+          "warm_age",
+          627,
+          188,
+          true
+        ]
+      ],
+      "aging": "AI native material history arranged individually; true corner and old contact finish"
+    }
+  },
+  "density_texels_per_m": 80,
+  "density_status": "wall candidate only, not project standard",
+  "palette": [
+    "#d3d6c9",
+    "#e7e7d4",
+    "#c1c8bc",
+    "#d7d8c9",
+    "#d0d3c4",
+    "#d9d5c3",
+    "#cad0c0",
+    "#b5bead",
+    "#b9beac",
+    "#abb4a2",
+    "#9da998",
+    "#929f90",
+    "#a6b2a9",
+    "#d4dcce",
+    "#889d93",
+    "#627970",
+    "#475f59",
+    "#afbab0",
+    "#b4c0b5",
+    "#c8d1c3",
+    "#7a8d83",
+    "#c6c5b2",
+    "#b7b7a2",
+    "#a9ac98",
+    "#ccdde4",
+    "#e5eced",
+    "#dce5e8",
+    "#b8cbd4",
+    "#d2d6c6",
+    "#d9dccc"
+  ],
+  "source": "PixelLab Pro v2 material, original integrated trim and local age finish",
+  "lamp_center_m": 3.0625,
+  "lamp_visible_height_m": 0.225,
+  "protection_band_height_m": 0.25,
+  "lamp_color_trial": "#CCDDE4 pale gray blue-white; white comparison in Blender",
+  "color_status": "soft blue direction suggested by user; exact tint awaits comparison review",
+  "no_text": true
+}
