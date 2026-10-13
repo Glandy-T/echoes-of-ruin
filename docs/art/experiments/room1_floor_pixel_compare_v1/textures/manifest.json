@@ -1,0 +1,66 @@
+{
+  "dimensions": [
+    1680,
+    760
+  ],
+  "outer_floor_m": [
+    21,
+    9.5
+  ],
+  "density_texels_m": 80,
+  "density_status": "trial only, not a project pixel specification",
+  "palette_reference": {
+    "base": "#5A6C73",
+    "light": "#7D9298",
+    "shade": "#415763",
+    "deep": "#253943"
+  },
+  "A": "uniform hue, same fine matte material and actual perimeter/contact finish",
+  "B": "same material/details; existing circulation receives mild tonal separation",
+  "B_nominal_aisle_rgb": [
+    100,
+    119,
+    125
+  ],
+  "B_nominal_pod_zone_rgb": [
+    84,
+    103,
+    111
+  ],
+  "circulation_rects_m": [
+    {
+      "x_min": 9.3,
+      "x_max": 11.7,
+      "y_min": 0.2,
+      "y_max": 9.3
+    },
+    {
+      "x_min": 0.2,
+      "x_max": 20.8,
+      "y_min": 3.0,
+      "y_max": 6.5
+    }
+  ],
+  "transition_width_m": 0.3,
+  "transition_tone_levels": 5,
+  "geometry": "unchanged continuous floor; no route mesh or height offset",
+  "raw_finish": "discarded AI generic scratches; retained low-contrast native material, organized near source base",
+  "localized_contacts": [
+    {
+      "pod": "P03",
+      "xy_m": [
+        5.84,
+        1.0
+      ]
+    },
+    {
+      "pod": "P14",
+      "xy_m": [
+        6.45,
+        7.1
+      ]
+    }
+  ],
+  "contact_history_status": "illustrative candidate, not confirmed past events",
+  "random_dirt_or_damage_placement": false
+}

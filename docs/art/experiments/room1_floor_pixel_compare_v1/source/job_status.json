@@ -1,0 +1,27 @@
+{
+  "id": "efb5b4c2-8b67-4774-bb13-0b28dff69bce",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 25.0
+  },
+  "result_keys": [
+    "seed",
+    "type",
+    "action",
+    "images",
+    "progress",
+    "billing_usage",
+    "generation_id",
+    "usage_cost_usd",
+    "billing_charged",
+    "generation_mode",
+    "quantized_images",
+    "generation_started_at",
+    "original_image_n_colors",
+    "quantized_image_n_colors"
+  ],
+  "saved_images": [
+    "floor_pro_00.png"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "variants": [
+    {
+      "source_object_count": 137,
+      "source_geometry_transforms_visibility_unchanged": true,
+      "source_uv_layers_unchanged": true,
+      "all_nonfloor_objects_unchanged": true,
+      "floor_top_face_indices": [
+        5
+      ],
+      "new_objects": [],
+      "variant": "A_uniform",
+      "source": "room1_wall_pixel_v2.blend",
+      "texture": "floor_A_albedo.png",
+      "output": "floor_A_uniform_v1.blend",
+      "scope": "Floor top-face material and appended planar UV only; structural checks do not validate final art, lighting, or Godot presentation."
+    },
+    {
+      "source_object_count": 137,
+      "source_geometry_transforms_visibility_unchanged": true,
+      "source_uv_layers_unchanged": true,
+      "all_nonfloor_objects_unchanged": true,
+      "floor_top_face_indices": [
+        5
+      ],
+      "new_objects": [],
+      "variant": "B_tonal_zones",
+      "source": "room1_wall_pixel_v2.blend",
+      "texture": "floor_B_albedo.png",
+      "output": "floor_B_tonal_zones_v1.blend",
+      "scope": "Floor top-face material and appended planar UV only; structural checks do not validate final art, lighting, or Godot presentation."
+    }
+  ]
+}

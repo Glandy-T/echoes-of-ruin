@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 地板 A/B 贴图比较</title>
+<style>
+  body{margin:0;background:#242c2e;color:#e4e7dd;font:16px/1.65 system-ui,sans-serif}
+  main{max-width:1500px;margin:auto;padding:26px}
+  h1{font-size:27px}h2{font-size:20px;margin-top:32px}
+  p{color:#bec8c7}a{color:#a4cbd2}
+  nav{display:flex;gap:18px;flex-wrap:wrap}
+  .pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  figure{margin:0}figcaption{padding:8px 0}img{display:block;width:100%}
+  .note{padding:12px 16px;background:#303b3e;border-left:3px solid #bdd3d5}
+  @media(max-width:800px){.pair{grid-template-columns:1fr}}
+</style>
+<main>
+  <h1>Room 1 / 地板 A-B 比较</h1>
+  <p>同一块连续哑光耐磨地坪。A 保持统一蓝灰材料；B 仅以克制的色调变化提示既有十字通行关系。两者都没有新增道路、地砖网格、几何高度或额外设备。</p>
+  <nav>
+    <a href="floor_A_uniform_v1.blend">A · Blender 工程</a>
+    <a href="floor_B_tonal_zones_v1.blend">B · Blender 工程</a>
+    <a href="editable/floor_A_uniform_v1.aseprite">A · 分层母版</a>
+    <a href="editable/floor_B_tonal_zones_v1.aseprite">B · 分层母版</a>
+    <a href="README.md">制作说明</a>
+  </nav>
+
+  <h2>总览</h2>
+  <div class="pair">
+    <figure><a href="evidence/A_uniform_overview.png"><img src="evidence/A_uniform_overview.png"></a><figcaption>A：统一蓝灰地坪</figcaption></figure>
+    <figure><a href="evidence/B_tonal_zones_overview.png"><img src="evidence/B_tonal_zones_overview.png"></a><figcaption>B：克制色调分区</figcaption></figure>
+  </div>
+
+  <h2>低角度</h2>
+  <div class="pair">
+    <figure><a href="evidence/A_uniform_low_angle.png"><img src="evidence/A_uniform_low_angle.png"></a><figcaption>A：统一蓝灰地坪</figcaption></figure>
+    <figure><a href="evidence/B_tonal_zones_low_angle.png"><img src="evidence/B_tonal_zones_low_angle.png"></a><figcaption>B：克制色调分区</figcaption></figure>
+  </div>
+
+  <h2>平面核对</h2>
+  <div class="pair">
+    <figure><a href="evidence/A_uniform_top_plan.png"><img src="evidence/A_uniform_top_plan.png"></a><figcaption>A：不强调通道</figcaption></figure>
+    <figure><a href="evidence/B_tonal_zones_top_plan.png"><img src="evidence/B_tonal_zones_top_plan.png"></a><figcaption>B：只用色调表达既有通道关系</figcaption></figure>
+  </div>
+
+  <h2>地板贴图本身</h2>
+  <div class="pair">
+    <figure><a href="textures/floor_A_albedo.png"><img src="evidence_floor_A_plan.png" style="image-rendering:pixelated"></a><figcaption>A：统一底色，共用材质与收边</figcaption></figure>
+    <figure><a href="textures/floor_B_albedo.png"><img src="evidence_floor_B_plan.png" style="image-rendering:pixelated"></a><figcaption>B：同一材质，只改变分区色调</figcaption></figure>
+  </div>
+  <p class="note">两版待审；墙面 v2 暂时沿用、尚未获得视觉认可。比较只检查地板的色彩与功能可读性；像素显示规格、最终照明和 Godot 内的呈现仍待后续验证。</p>
+</main>

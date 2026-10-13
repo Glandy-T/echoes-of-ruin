@@ -1,0 +1,25 @@
+{
+  "size": [
+    400,
+    400
+  ],
+  "material_section_m": [
+    5,
+    5
+  ],
+  "trial_density_texels_per_m": 80,
+  "palette": {
+    "base": "#5a6c73",
+    "light": "#7d9298",
+    "shade": "#415763",
+    "deep": "#253943",
+    "soft_light": "#607279",
+    "soft_shade": "#56686f",
+    "midtone": "#5c6e75"
+  },
+  "surface": "user selected continuous matte hard-wearing floor",
+  "comparison": "A uniform color; B same material plus soft existing circulation tone zoning",
+  "input": "original authored material guide only; no external Pixel Canals asset",
+  "aging": "not in AI tile; limited location-specific room-edge/contact finish later",
+  "material_composition": "exact future composite chemistry TBD; visual finish only"
+}
