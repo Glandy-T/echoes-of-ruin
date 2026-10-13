@@ -1,0 +1,92 @@
+{
+  "purpose": "Room 1 full-room low-poly staging input. Spatial dimensions and pod placement only; do not reuse FreeCAD geometry or its placeholder pod design.",
+  "coordinate_system": {
+    "origin": "outer front-left corner of room envelope",
+    "units": "m",
+    "axes": { "x": "left to right", "y": "front to rear door", "z": "up" }
+  },
+  "sources": [
+    "docs/cad/cryo_room1/ROOM1_ENGINEERING_BRIEF.md",
+    "docs/cad/cryo_room1/v2/layout.py",
+    "docs/cad/cryo_room1/v2/cad_validation.json",
+    "docs/cad/cryo_room1/ROOM1_3D_BLOCKOUT_PASS.md",
+    "docs/cad/cryo_room1/blockout_v2/build_blockout.py",
+    "docs/cad/cryo_room1/blockout_v2/qa/saved_validation.json"
+  ],
+  "status": {
+    "space_layout": "v2 static engineering fit passed; dimensions marked PROVISIONAL unless noted",
+    "art_scope": "Use Room 1 pod reference v4.1 as the visual candidate, not FreeCAD pod geometry",
+    "door_appearance": "TBD: only a real centered opening and simple placeholder door are authorized for this staging pass",
+    "character_position": "TBD: the inherited 1.68 m reference column is a scale check, not a confirmed character position"
+  },
+  "room": {
+    "outer_envelope_m": { "width_x": 21.0, "depth_y": 9.5 },
+    "wall_thickness_m": 0.2,
+    "interior_clear_m": { "width_x": 20.6, "depth_y": 9.1 },
+    "visible_clear_height_m": 3.4,
+    "height_status": "PROVISIONAL; tested for spatial feeling only"
+  },
+  "door": {
+    "wall": "rear (+Y)",
+    "opening_rect_xy_m": { "x_min": 9.8, "x_max": 11.2, "y_min": 9.3, "y_max": 9.5 },
+    "clear_width_m": 1.4,
+    "clear_height_m": 2.4,
+    "position": "centered on room X axis",
+    "functional_logic": "automatic upward-opening stated in engineering brief",
+    "appearance": "TBD / simple placeholder only"
+  },
+  "circulation": {
+    "longitudinal_entry_axis": { "rect_xy_m": { "x_min": 9.3, "x_max": 11.7, "y_min": 0.2, "y_max": 9.3 }, "clear_width_m": 2.4 },
+    "cross_aisle": { "rect_xy_m": { "x_min": 0.2, "x_max": 20.8, "y_min": 3.0, "y_max": 6.5 }, "clear_width_m": 3.5 },
+    "pod_long_side_operation_gap_m": 0.7,
+    "side_wall_margin_each_m": 1.05,
+    "front_wall_margin_m": 0.5,
+    "rear_entrance_buffer_m": 0.5,
+    "rear_buffer_definition": "rear wall inner face to rear pod end; not an independent turning vestibule"
+  },
+  "pod_envelope": {
+    "size_m": { "width_x": 1.05, "length_y": 2.3, "height_z": 1.0 },
+    "long_axis": "+Y / front-to-rear",
+    "model_source": "docs/art/experiments/room1_pod_reference_v4_1; scale and placement must remain inside this envelope"
+  },
+  "pods": [
+    { "id": "P01", "min_xy_m": [1.25, 0.7], "center_xy_m": [1.775, 1.85], "head": "front (-Y)" },
+    { "id": "P02", "min_xy_m": [3.0, 0.7], "center_xy_m": [3.525, 1.85], "head": "front (-Y)" },
+    { "id": "P03", "min_xy_m": [4.75, 0.7], "center_xy_m": [5.275, 1.85], "head": "front (-Y)" },
+    { "id": "P04", "min_xy_m": [6.5, 0.7], "center_xy_m": [7.025, 1.85], "head": "front (-Y)" },
+    { "id": "P05", "min_xy_m": [8.25, 0.7], "center_xy_m": [8.775, 1.85], "head": "front (-Y)" },
+    { "id": "P06", "min_xy_m": [11.7, 0.7], "center_xy_m": [12.225, 1.85], "head": "front (-Y)" },
+    { "id": "P07", "min_xy_m": [13.45, 0.7], "center_xy_m": [13.975, 1.85], "head": "front (-Y)" },
+    { "id": "P08", "min_xy_m": [15.2, 0.7], "center_xy_m": [15.725, 1.85], "head": "front (-Y)" },
+    { "id": "P09", "min_xy_m": [16.95, 0.7], "center_xy_m": [17.475, 1.85], "head": "front (-Y)" },
+    { "id": "P10", "min_xy_m": [18.7, 0.7], "center_xy_m": [19.225, 1.85], "head": "front (-Y)" },
+    { "id": "P11", "min_xy_m": [1.25, 6.5], "center_xy_m": [1.775, 7.65], "head": "rear (+Y)" },
+    { "id": "P12", "min_xy_m": [3.0, 6.5], "center_xy_m": [3.525, 7.65], "head": "rear (+Y)" },
+    { "id": "P13", "min_xy_m": [4.75, 6.5], "center_xy_m": [5.275, 7.65], "head": "rear (+Y)" },
+    { "id": "P14", "min_xy_m": [6.5, 6.5], "center_xy_m": [7.025, 7.65], "head": "rear (+Y)" },
+    { "id": "P15", "min_xy_m": [8.25, 6.5], "center_xy_m": [8.775, 7.65], "head": "rear (+Y)" },
+    { "id": "P16", "min_xy_m": [11.7, 6.5], "center_xy_m": [12.225, 7.65], "head": "rear (+Y)" },
+    { "id": "P17", "min_xy_m": [13.45, 6.5], "center_xy_m": [13.975, 7.65], "head": "rear (+Y)" },
+    { "id": "P18", "min_xy_m": [15.2, 6.5], "center_xy_m": [15.725, 7.65], "head": "rear (+Y)" },
+    { "id": "P19", "min_xy_m": [16.95, 6.5], "center_xy_m": [17.475, 7.65], "head": "rear (+Y)" },
+    { "id": "P20", "min_xy_m": [18.7, 6.5], "center_xy_m": [19.225, 7.65], "head": "rear (+Y)" }
+  ],
+  "reference_scale_only": {
+    "object": "ReferenceColumn",
+    "base_xy_m": [5.4, 4.25],
+    "height_m": 1.68,
+    "diameter_m": 0.45,
+    "meaning": "Non-character scale column; hide or replace only after a character position is decided."
+  },
+  "fixed_scope": {
+    "keep": ["20 pods", "rear centered door opening", "door-side wall authentication panel placeholder", "walls", "floor"],
+    "exclude": ["extra doors", "tables", "workbenches", "medical carts", "storage", "freestanding terminals", "decorative equipment", "pipes", "fire or MEP detail"]
+  },
+  "unverified": [
+    "lid-opening sweep and adjacent-pod clearance",
+    "human turning and boarding ergonomics",
+    "final door form and panel design",
+    "final character location",
+    "final room clear height, fire and MEP requirements"
+  ]
+}
