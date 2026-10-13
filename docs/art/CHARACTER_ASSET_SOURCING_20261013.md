@@ -15,7 +15,35 @@
 本轮反馈：用户表示免费几何发型包中没有想要的普通黑长发；白袍不错。
 头发改按普通黑长直发筛选，不能用卷曲、翘起或明显风格化的发型代替。
 
+后续用户又否定写实发片过于精细，明确要求从现成低模角色里寻找普通黑长直发，先看原素材。
+因此 hamza 写实发片也不再作为优先试用方案。白袍继续保留；本轮没有生成、购买或下载新资产。
+
 ## 当前候选
+
+### 完整角色候选 A：anime girl blender
+
+- 作者：godzilla213213。
+- [作者商品页](https://www.cgtrader.com/3d-models/character/woman/anime-girl-blender)。
+- [作者原图](https://img-new.cgtrader.com/items/3207300/bdbd9f1692/anime-girl-blender-3d-model-low-poly-animated-rigged-blend.jpg)。
+- 页面当前标价 USD 2，Blender 原生文件约 9.53 MB，Royalty Free License。
+- 已目视原预览：深棕色直垂长发，到腰附近；少量大块发束、少量刘海，脸部可见。
+  本轮看的是头发来源，不采纳原角色的脸部、体型、校服或整体二次元设定。
+- 相比写实发片，预览中没有密集细发丝效果；是否实际采用纯几何发束仍须源文件确认。
+- 作者标注全角色约 10,000 polygons、rigged、animated、UV mapping；这是全角色数据，不是头发面数。
+- 页面下方另写 Unwrapped UVs: No，与 UV Mapping 标签存在矛盾，不能据此认定已完成 UV 展开。
+- 页面有 Plugins Used 标签，具体插件及必要性未说明。头发是否独立对象、UV、权重与骨架质量均未验证。
+- 原图不是纯黑发；若后续选定，需要改色。尚未采购，未修改原素材。
+
+### 完整角色候选 B：Long hair variants
+
+- 作者：Jan Bláha（swifterik）。
+- [作者模型页](https://sketchfab.com/3d-models/long-hair-variants-e667cad434c84cb6bd567c62ed54de48)。
+- [作者原预览](https://media.sketchfab.com/models/e667cad434c84cb6bd567c62ed54de48/thumbnails/3b29725e638b4a0f97e175140337367a/8dd58486747943febdf4be0e0d02cea5.jpeg)。
+- 已在作者页面实际查看原角色预览；重点是最左侧的长发人物，深棕色、脸部露出，发束非常简洁。
+- 它的前侧两束头发很长、厚度明显、末端略弯；仅作为更简化的备选，不称为完全符合普通黑长直。
+- 页面标注免费可下载、CC BY 4.0、5.6k triangles / 3.2k vertices。
+  面数是整套三个角色的页面总数，不是单个角色或单独头发面数。
+- 页面有 blend 标签，但未进入下载或读取源文件；具体格式、头发是否独立对象、UV 与绑定均待验证。
 
 ### 已否定发型候选：female stylised hair lowpoly（免费）
 
@@ -28,7 +56,7 @@
 - 页面技术区同时出现平台的 No UV overlaps 和作者填写的 Overlapping，UV 状态矛盾，需查源文件。
 - 作者写约 1,000 面，实际各款面数、骨架和权重均待导入验证。
 
-### 普通黑长直发待审候选：Female Long Straight Hair FREE
+### 因过于精细而暂不采用：Female Long Straight Hair FREE
 
 - 作者：hamza khaloui。
 - [作者商品页](https://www.artstation.com/marketplace/p/bjlDX/female-long-straight-hair-free)。
@@ -37,7 +65,7 @@
 - 本次页面价格 **USD 1**；标题中的 FREE 与实际标价不一致。
 - 预览中为长直发、侧向刘海，脸部可见，可作为发型轮廓候选。
 - 作者称为模块化 hair cards，提供 Blender、FBX、OBJ、纹理等文件。
-- 当前素材偏写实；需调整发长、刘海与侧面轮廓，简化细丝感并适配像素材质。
+- 当前素材偏写实，用户认为过于精细、不适合作为后续像素化的优先素材，本轮停止推进。
 - 面数、骨架、权重、透明边缘在 Godot 中的表现：**未下载验证，TBD**。
 
 ### 用户认可外观的白色长衫：Low Poly Medieval Female - Linen Chemise
