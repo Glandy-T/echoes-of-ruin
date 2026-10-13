@@ -1,0 +1,51 @@
+{
+  "source": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\assets\\characters\\work\\player_basemesh_v2\\body_165cm_review_v2.blend",
+  "target": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\assets\\characters\\work\\player_basemesh_v2_1\\body_165cm_validated_v2_1.blend",
+  "body": "Body_165cm_CC0_pistachio",
+  "rig": "Body_Rig_original",
+  "repair": {
+    "heel_groups_merged_into": [
+      "foot.L",
+      "foot.R"
+    ],
+    "removed_non_bone_groups": [
+      "heel.L",
+      "heel.R"
+    ],
+    "max_influences_kept": 4,
+    "normalization": "per vertex after retaining strongest four valid deform groups"
+  },
+  "before": {
+    "vertex_groups_without_deform_bone": [
+      "heel.L",
+      "heel.R"
+    ],
+    "unweighted_vertices": 0,
+    "max_influences": 7,
+    "vertices_over_4": 14,
+    "vertices_under_normalized": 94,
+    "vertices_over_normalized": 2,
+    "key_1_value": 1.0,
+    "uv_layer": "UVMap",
+    "evaluated_world_dimensions_m": [
+      1.1158447265625,
+      0.2942201495170593,
+      1.649999976158142
+    ]
+  },
+  "after": {
+    "vertex_groups_without_deform_bone": [],
+    "unweighted_vertices": 0,
+    "max_influences": 4,
+    "vertices_over_4": 0,
+    "vertices_under_normalized": 0,
+    "vertices_over_normalized": 0,
+    "key_1_value": 1.0,
+    "uv_layer": "UVMap",
+    "evaluated_world_dimensions_m": [
+      1.1158447265625,
+      0.2942201495170593,
+      1.649999976158142
+    ]
+  }
+}
