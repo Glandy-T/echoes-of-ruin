@@ -1,0 +1,28 @@
+[
+  {
+    "file": "lid_edit01_rejected.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 16,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "f5626b61ca7b3feee810c645f0505207594473bae86c06b32ea7ca8dbb3ef97f"
+  },
+  {
+    "file": "lid_edit02.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 34,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "eaedc246a8f806b3f36c70d02574576cd714af63c3a909c82be3d3fa374b0c72"
+  }
+]

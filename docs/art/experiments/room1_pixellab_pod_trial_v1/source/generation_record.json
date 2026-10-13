@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-13",
+  "service": "PixelLab Web Creator",
+  "url": "https://www.pixellab.ai/create",
+  "tool": "AI edit",
+  "mode": "Pro",
+  "account_tier_observed": "Tier 1: Pixel Apprentice",
+  "starting_generation_usage": "0 / 2000",
+  "ui_cost": 10,
+  "input": "lid_planar_color_GUIDE.png",
+  "input_size": [
+    128,
+    256
+  ],
+  "remove_background": false,
+  "prompt": "Refine this flat 128x256 raw albedo texture for the opaque lid of a clean standardized cryosleep pod. Preserve the exact canvas, broad vertical color bands, their boundaries and the gray block at the bottom. Keep the central area quiet ivory gray, shoulders cool light gray, and bottom area muted slate gray. Add only a few intentional crisp pixel clusters with very low contrast, using six to eight closely related colors. No gradients, directional highlights, shadows, random noise, rust, dirt, seams, screws, vents, machinery, text, symbols, glass or new objects. This is a straight-on surface color map to wrap onto existing geometry, not a picture or rendering of a pod. Do not alter the layout or add perspective. Fill all pixels; keep opaque.",
+  "scope": "Only lid exterior material in versioned copies; original pod geometry, motion, glazing and screen unchanged",
+  "status": "Two completed web edits; raw downloads preserved; awaiting user visual review",
+  "requests": [
+    {
+      "model": "Pro",
+      "ui_cost": 10,
+      "file": "lid_edit01_rejected.png",
+      "input": "lid_planar_color_GUIDE.png",
+      "prompt": "Refine this flat 128x256 raw albedo texture for the opaque lid of a clean standardized cryosleep pod. Preserve the exact canvas, broad vertical color bands, their boundaries and the gray block at the bottom. Keep the central area quiet ivory gray, shoulders cool light gray, and bottom area muted slate gray. Add only a few intentional crisp pixel clusters with very low contrast, using six to eight closely related colors. No gradients, directional highlights, shadows, random noise, rust, dirt, seams, screws, vents, machinery, text, symbols, glass or new objects. This is a straight-on surface color map to wrap onto existing geometry, not a picture or rendering of a pod. Do not alter the layout or add perspective. Fill all pixels; keep opaque.",
+      "observation": "Broad color bands retained, but unwanted seams and fastener-like dots invented; rejected"
+    },
+    {
+      "model": "Pro Flash BETA",
+      "ui_cost": 9,
+      "file": "lid_edit02.png",
+      "input": "lid_planar_color_GUIDE.png",
+      "observation": "Broad color bands retained; no first-output seams/fasteners observed; sparse gray clusters still read as arbitrary flecks rather than final surface design",
+      "prompt": "Edit this abstract color swatch very minimally. Keep the exact image size and all existing flat color bands and the bottom gray rectangle in exactly the same positions. Inside those same colors add ONLY a few small low-contrast hard-edged pixel clusters. The large ivory central band must remain one continuous blank unbroken painted surface. Absolutely no horizontal or vertical drawn lines, no outlines, rectangles, seams, edges, fasteners, bolts, screws, grooves, vents, text or symbols. Do not depict manufactured panels, any object, pod, wall, metal plate or machinery. Preserve the image as abstract flat colors. No lighting, gradients or shadows. All pixels opaque."
+    }
+  ],
+  "final_generation_usage_observed": "19 / 2000",
+  "verified_consumption": 19,
+  "upload_succeeded": true,
+  "download_note": "Flash output saved in Downloads with a temporary filename; fully decoded as 128x256 RGBA PNG and copied byte-for-byte into the artifact directory"
+}
