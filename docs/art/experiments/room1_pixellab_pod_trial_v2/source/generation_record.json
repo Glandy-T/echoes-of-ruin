@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-13",
+  "service": "PixelLab Web Creator",
+  "url": "https://www.pixellab.ai/create",
+  "initial_usage": 19,
+  "requests": [
+    {
+      "output": "raw/lid_pro.png",
+      "input": "guides/lid_layout.png",
+      "model": "Pro",
+      "ui_cost": 10,
+      "size": [
+        128,
+        256
+      ],
+      "prompt": "Finish this existing 128x256 pixel-art surface texture for a clean standardized cryosleep pod. This is an unfolded opaque canopy color map, NOT a picture of an object. Keep the exact canvas and existing layout: the light central long access skin, cool-gray bevel bands on each side, the existing crosswise end joints and the small printed label near the bottom. Develop it into polished game pixel art: clear stepped edge highlights and contact-dark lines, ivory coated shell contrasted against slate structural edges, restrained small fastener marks at the existing panel corners, subtle material differences, finely placed 1-2 pixel wear nicks only along exposed edges and joints. Give the large central panel controlled broad two-tone shading with clean pixel clusters. Preserve quiet areas between detailed regions. All visible surface details are hand-painted albedo, crisply clustered at native pixel size. Keep the color family ivory, desaturated teal-gray, charcoal and restrained cool slate. Rich purposeful surface information, not random spots or texture noise. Do not add more panel subdivisions, hardware silhouettes, windows, perspective, cast shadows, photoreal gradients, glow, neon, dirty patches or rust. No text generation needed. Keep all pixels opaque and preserve the image aspect ratio."
+    },
+    {
+      "output": "raw/shell_side_pro.png",
+      "input": "guides/shell_side_layout.png",
+      "model": "Pro",
+      "ui_cost": 10,
+      "size": [
+        256,
+        80
+      ],
+      "prompt": "Polish this 256x80 native pixel-art surface map of a standardized cryosleep pod long side. Preserve the entire straight-on map and exact horizontal band positions. Top cool-gray shoulder, ivory casing, a continuous narrow charcoal lid seal in the middle, lower coated body, and dark structural plinth at the bottom. Keep the two existing end joints and the small inspection and printed identification patches in their present locations. Refine the existing surfaces with rich deliberate pixel-art detail: clear light pixels on upper edges, darker pixels in seams and the lower lip, subtle warm-ivory versus cool slate material contrast, painted corner fasteners, edge-localized fine wear, orderly compact print-like marks in the existing label areas. Coated surface is mostly clean and calm; small controlled two-tone pixel clusters convey the finish, no scattered stain blobs. Readable architecture-level texture craftsmanship, all details painted onto the existing flat surface. Use a cohesive limited palette of ivory, slate-blue-gray, desaturated teal and charcoal. No extra horizontal bands, no repeated rectangular panel grid, no new vents or machinery, no physical protrusions, no perspective, no surrounding object, no neon, rust, dirt clouds, realistic gradients or cast shadows. Keep the source geometry interpretation and 256x80 aspect ratio unchanged and all pixels opaque."
+    },
+    {
+      "output": "raw/shell_end_pro.png",
+      "input": "guides/shell_end_layout.png",
+      "model": "Pro",
+      "ui_cost": 10,
+      "size": [
+        128,
+        80
+      ],
+      "prompt": "Finish this 128x80 pixel-art texture map for the narrow end casing of a clean standardized hibernation facility pod. Keep the exact existing layout: cool slate top bevel zone, broad ivory end face, one existing chamfered inset identification skin in its middle and a dark structural lower skirt. Keep the inset boundaries, corner marks and horizontal material divisions where they are. Add purposeful crisp native pixel clusters: upper edge highlights, thin contact shadows on the existing inset, two or three closely related ivory tones in the large face, small controlled 1px wear accents at physical corners and subtle coated-surface versus structural-metal distinction. Strong readable pixel drawing with medium structural contrast, not empty solid colors and not random spots. Desaturated ivory/slate/charcoal palette matching the input. Details remain painted and flat. Do not add windows, screens, buttons, machinery, vents, cables, new panel subdivisions, perspective, external background, neon, rust, stains, smooth gradients or cast shadows. Preserve the canvas size and 128x80 aspect ratio. All pixels opaque."
+    }
+  ],
+  "reference_images": "Only project-authored surface guides; no Pixel Canals image/model/texture uploaded",
+  "scope": "One complete unchanged v4.1 pod; no room expansion; geometry and motion unchanged",
+  "final_usage": 49,
+  "verified_consumed": 30,
+  "status": "Three complete Pro edits; maps downloaded and exact labels finished in Aseprite; full-pod render review pending"
+}

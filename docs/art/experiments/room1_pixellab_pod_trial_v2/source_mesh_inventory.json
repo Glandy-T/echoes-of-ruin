@@ -1,0 +1,83 @@
+{
+  "meshes": [
+    {
+      "object": "Foot_info_display_surface",
+      "mesh": "Foot_info_display_surface_mesh",
+      "vertices": 4,
+      "polygons": 1,
+      "material_slots": [
+        "Info_display_BLANK_no_final_UI"
+      ],
+      "uv_layers": [
+        "UV_SCREEN_0_1"
+      ]
+    },
+    {
+      "object": "ONE_PIECE_COVER_head_window",
+      "mesh": "ONE_PIECE_COVER_head_window_mesh",
+      "vertices": 216,
+      "polygons": 198,
+      "material_slots": [
+        "Frame_neutral_grey",
+        "Head_window_review_region",
+        "Interior_neutral_grey",
+        "Head_window_review_region"
+      ],
+      "uv_layers": [
+        "UV_PAINT_candidate"
+      ]
+    },
+    {
+      "object": "Reference_led_fixed_shell",
+      "mesh": "Fixed_low_basin_mesh",
+      "vertices": 232,
+      "polygons": 187,
+      "material_slots": [
+        "Shell_neutral_grey",
+        "Interior_neutral_grey",
+        "Frame_neutral_grey"
+      ],
+      "uv_layers": [
+        "UVMap",
+        "UV_PAINT_candidate"
+      ]
+    },
+    {
+      "object": "Review_floor",
+      "mesh": "Cube.002",
+      "vertices": 8,
+      "polygons": 6,
+      "material_slots": [
+        "Review_floor"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ]
+    },
+    {
+      "object": "Sleeping_surface",
+      "mesh": "Cube.001",
+      "vertices": 24,
+      "polygons": 26,
+      "material_slots": [
+        "Mattress_placeholder"
+      ],
+      "uv_layers": [
+        "UVMap",
+        "UV_PAINT_candidate"
+      ]
+    }
+  ],
+  "cameras": [
+    "Camera_display_close",
+    "Camera_foot_end",
+    "Camera_motion_opposite_side",
+    "Camera_oblique",
+    "Camera_reference_comparison",
+    "Camera_side"
+  ],
+  "lights": [
+    "Fill",
+    "Key"
+  ]
+}
