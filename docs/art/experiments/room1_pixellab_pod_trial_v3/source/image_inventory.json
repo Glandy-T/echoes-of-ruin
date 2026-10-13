@@ -1,0 +1,171 @@
+[
+  {
+    "file": "raw/lid_pro.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 20,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "314999b3893ef7b3106ca93e72ce40ec9ab361e9a8bd33ab9463c30a59d7e6e8"
+  },
+  {
+    "file": "raw/shell_end_pro.png",
+    "size": [
+      128,
+      80
+    ],
+    "rgba_colors": 16,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "b1906d1564471758cda21136ec89d57d734097b7839f0a86c9113ec0848cb081"
+  },
+  {
+    "file": "raw/shell_side_pro.png",
+    "size": [
+      256,
+      80
+    ],
+    "rgba_colors": 30,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "8e8125d85f1f96caa0288b00d630033b974855f494b9b4f47515811b50495641"
+  },
+  {
+    "file": "textures/display.png",
+    "size": [
+      128,
+      48
+    ],
+    "rgba_colors": 7,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "36e27c5e8248703f6bf1e172056ee38ae71cd68e014f0e3a722eb2ed3494abbc"
+  },
+  {
+    "file": "textures/glass.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 8,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "b20a1d96460fcb23f61acefcf3bc359e1c0476c7e88bbb84be9c8a2d8eb2c0ff"
+  },
+  {
+    "file": "textures/interior.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 5,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "bc0a82bdaaeb0501f8df97ecc38a58e3eb367531cfd8a92d0631fc39f838061c"
+  },
+  {
+    "file": "textures/lid.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 22,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "f40d286ee664ca870c3bd23679f03b86fc7ae14e06edfa13638ec7959c1cc2ca"
+  },
+  {
+    "file": "textures/mattress.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 6,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "fbb9d8acee5bfff85330cb92536adbfc74731a1ec109a4423e1acf6af424c8f5"
+  },
+  {
+    "file": "textures/shell_end.png",
+    "size": [
+      128,
+      80
+    ],
+    "rgba_colors": 17,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "1196e7042221e84a4cbbd039eed469919634b604edaada61993b6299d8030bed"
+  },
+  {
+    "file": "textures/shell_side.png",
+    "size": [
+      256,
+      80
+    ],
+    "rgba_colors": 32,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "45a880df0ec6ea932ab63255b35d9a66d04e1dfa2842594637e2f8f3c60f636e"
+  },
+  {
+    "file": "guides/lid_layout.png",
+    "size": [
+      128,
+      256
+    ],
+    "rgba_colors": 8,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "483d674f1f7fe1c33a052a3db6eb571619fa2ebb917e51876aa9828099bd0458"
+  },
+  {
+    "file": "guides/shell_end_layout.png",
+    "size": [
+      128,
+      80
+    ],
+    "rgba_colors": 7,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "cf1f436269ba01156c45732393c4e8b6a1b23c600b3048141c68814f1fda3f5c"
+  },
+  {
+    "file": "guides/shell_side_layout.png",
+    "size": [
+      256,
+      80
+    ],
+    "rgba_colors": 9,
+    "alpha_range": [
+      255,
+      255
+    ],
+    "sha256": "069c9206dbf8098df0e5d20a06cb9de9fd022a8fb4e134669fe5b6d06a722892"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "status": "user selected uniform A direction; new finish awaiting review",
+  "floor_dimensions": [
+    1680,
+    760
+  ],
+  "wall_maps": {
+    "rear": {
+      "width": 1680,
+      "length": 21.0,
+      "corners": [
+        16,
+        1663
+      ],
+      "contacts": [
+        142,
+        1162
+      ],
+      "door": [
+        784,
+        896
+      ]
+    },
+    "front": {
+      "width": 1680,
+      "length": 21.0,
+      "corners": [
+        16,
+        1663
+      ],
+      "contacts": [
+        282,
+        1402
+      ],
+      "door": []
+    },
+    "left": {
+      "width": 728,
+      "length": 9.1,
+      "corners": [
+        0,
+        727
+      ],
+      "contacts": [
+        190
+      ],
+      "door": []
+    },
+    "right": {
+      "width": 728,
+      "length": 9.1,
+      "corners": [
+        0,
+        727
+      ],
+      "contacts": [
+        600
+      ],
+      "door": []
+    }
+  },
+  "density_texels_m": 80,
+  "density_status": "inherited trial only",
+  "floor_uniform": true,
+  "route_zoning": false,
+  "random_dirt": false,
+  "visible_scratches": false,
+  "wall_rejected_ai_age_patch_layer_used": false,
+  "new_paid_generation_requests": 0,
+  "authorship": "existing PixelLab faint native material; manually authored deterministic tonal/edge layers",
+  "floor_broad_tone_nominal_channel_delta": [
+    -7.5,
+    7.5
+  ],
+  "wall_broad_tone_nominal_channel_delta": [
+    -6,
+    6
+  ],
+  "contact_history": "illustrative placement, not confirmed historical events",
+  "light_diffuser_width_m": 0.225,
+  "light_tint": "#CCDDE4",
+  "light_mask_unchanged": true
+}

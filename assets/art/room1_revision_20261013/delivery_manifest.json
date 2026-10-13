@@ -1,0 +1,27 @@
+{
+  "asset_revision": "2026-10-13 night / school handoff 2026-10-14",
+  "godot_version_used": "4.6.2",
+  "scope": "static models and pixel textures; no collision, gameplay or final art approval",
+  "files": [
+    {
+      "file": "pod_closed_v3.glb",
+      "bytes": 85976,
+      "sha256": "0476f9bb70adda6115ce3ec60f1512dad473cf5f4a07670d12aec01128a981d8"
+    },
+    {
+      "file": "pod_open_v3.glb",
+      "bytes": 86196,
+      "sha256": "1792433aea27f1f45d1b0226bb9ceaa73a695bf14fed2c31763606b54008099f"
+    },
+    {
+      "file": "room1_layout_review_r1.glb",
+      "bytes": 1437132,
+      "sha256": "605be9dde58ed35e7081089149463a2c0231d41ef058e46a0a378a03db371efd"
+    },
+    {
+      "file": "room1_shell_full_r1.glb",
+      "bytes": 239188,
+      "sha256": "c7584c6ad86af4b652601a6fac824be13f5361bf3c6cc4d34e37e14207157da0"
+    }
+  ]
+}

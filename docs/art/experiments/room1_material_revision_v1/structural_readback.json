@@ -1,0 +1,60 @@
+{
+  "source": "floor_A_uniform_v1.blend",
+  "source_object_count": 137,
+  "geometry_transforms_visibility_and_uv_unchanged": true,
+  "cameras_and_lights_unchanged": true,
+  "all_other_objects_unchanged": true,
+  "new_objects": [],
+  "floor_and_wall_changes": [
+    {
+      "object": "Floor_continuous_no_tile_seams",
+      "material_slots": [
+        1
+      ],
+      "texture_key": "floor"
+    },
+    {
+      "object": "Wall_rear_left",
+      "material_slots": [
+        2
+      ],
+      "texture_key": "rear"
+    },
+    {
+      "object": "Wall_rear_right",
+      "material_slots": [
+        2
+      ],
+      "texture_key": "rear"
+    },
+    {
+      "object": "Wall_rear_door_header",
+      "material_slots": [
+        2
+      ],
+      "texture_key": "rear"
+    },
+    {
+      "object": "Wall_front",
+      "material_slots": [
+        2
+      ],
+      "texture_key": "front"
+    },
+    {
+      "object": "Wall_left",
+      "material_slots": [
+        2
+      ],
+      "texture_key": "left"
+    },
+    {
+      "object": "Wall_right",
+      "material_slots": [
+        2
+      ],
+      "texture_key": "right"
+    }
+  ],
+  "scope": "Generation guard and rendered review only, not art approval or Godot runtime validation."
+}

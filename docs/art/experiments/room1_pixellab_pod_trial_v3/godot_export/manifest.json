@@ -1,0 +1,95 @@
+{
+  "source_blend": "room1_pixellab_pod_trial_v3.blend",
+  "target": "Godot 4.6 glTF/GLB import candidate",
+  "units": "Blender meters; source horizontal origin retained at pod center",
+  "material_conversion": "v3 review-only emission materials replaced in export copy with Principled Base Color materials; no lighting baked",
+  "texture_sampling": "glTF sampler verifies magFilter 9728 (NEAREST) and minFilter 9984 (NEAREST_MIPMAP_NEAREST); Godot import should still explicitly set BaseMaterial3D texture_filter to NEAREST",
+  "texture_embedding": "GLB embeds source v3 texture images",
+  "uv_policy": "export-only mesh pieces are separated per required surface map and each has exactly one actual TEXCOORD_0; Blender source has additional UV layers that are intentionally not exported",
+  "animation": "No animation GLB supplied. closed uses source frame 1; open uses existing source frame 60 (45-degree review terminal pose).",
+  "source_unchanged": true,
+  "exports": [
+    {
+      "file": "pod_closed_v3.glb",
+      "state": "closed",
+      "bytes": 85976,
+      "nodes": [
+        "pod_v3_lid",
+        "pod_v3_interior",
+        "pod_v3_glass",
+        "pod_v3_shell_side",
+        "pod_v3_shell_end",
+        "pod_v3_interior.001",
+        "pod_v3_mattress",
+        "pod_v3_display"
+      ],
+      "mesh_count": 8,
+      "primitive_count": 8,
+      "material_count": 7,
+      "texture_count": 7,
+      "samplers": [
+        {
+          "magFilter": 9728,
+          "minFilter": 9984,
+          "wrapS": 33071,
+          "wrapT": 33071
+        }
+      ],
+      "all_primitives_use_only_texcoord_0": true,
+      "embedded_images": true,
+      "bounds_m": {
+        "min_m": [
+          -0.525,
+          -1.147,
+          0.0
+        ],
+        "max_m": [
+          0.525,
+          1.147,
+          0.665
+        ]
+      }
+    },
+    {
+      "file": "pod_open_v3.glb",
+      "state": "open",
+      "bytes": 86196,
+      "nodes": [
+        "pod_v3_lid",
+        "pod_v3_interior",
+        "pod_v3_glass",
+        "pod_v3_shell_side",
+        "pod_v3_shell_end",
+        "pod_v3_interior.001",
+        "pod_v3_mattress",
+        "pod_v3_display"
+      ],
+      "mesh_count": 8,
+      "primitive_count": 8,
+      "material_count": 7,
+      "texture_count": 7,
+      "samplers": [
+        {
+          "magFilter": 9728,
+          "minFilter": 9984,
+          "wrapS": 33071,
+          "wrapT": 33071
+        }
+      ],
+      "all_primitives_use_only_texcoord_0": true,
+      "embedded_images": true,
+      "bounds_m": {
+        "min_m": [
+          -0.525,
+          -1.147,
+          0.0
+        ],
+        "max_m": [
+          1.054899,
+          1.147,
+          1.08528
+        ]
+      }
+    }
+  ]
+}

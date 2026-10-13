@@ -1,0 +1,32 @@
+{
+  "file": "room1_shell_full_r1.glb",
+  "bytes": 239188,
+  "export_object_names": [
+    "Floor_continuous_no_tile_seams",
+    "MAIN_DOOR_PLACEHOLDER_NOT_APPROVED",
+    "Roof_hidden_for_cutaway",
+    "Wall_front",
+    "Wall_left",
+    "Wall_rear_door_header",
+    "Wall_rear_left",
+    "Wall_rear_right",
+    "Wall_right"
+  ],
+  "meshes": 9,
+  "materials": 8,
+  "embedded_images": true,
+  "images": 11,
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "cameras": 0,
+  "animations": 0,
+  "texture_coordinate_attributes": [
+    "TEXCOORD_0"
+  ]
+}

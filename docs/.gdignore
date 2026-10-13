@@ -1,0 +1,2 @@
+# Source documents, Blender masters and art experiments are not runtime imports.
+# Runtime GLBs for the current revision live under assets/art/room1_revision_20261013/.

@@ -1,0 +1,3 @@
+godot_import_workspace/
+*.log
+__pycache__/

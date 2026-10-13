@@ -1,0 +1,208 @@
+{
+  "source": "existing engineering_layout.json positions only",
+  "count": 20,
+  "root": "pod center on ground plane",
+  "scope": "reference for replacing gray pods, not automatically applied",
+  "placements": [
+    {
+      "id": "P01",
+      "position_godot_m": [
+        1.775,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P02",
+      "position_godot_m": [
+        3.525,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P03",
+      "position_godot_m": [
+        5.275,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P04",
+      "position_godot_m": [
+        7.025,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P05",
+      "position_godot_m": [
+        8.775,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P06",
+      "position_godot_m": [
+        12.225,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P07",
+      "position_godot_m": [
+        13.975,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P08",
+      "position_godot_m": [
+        15.725,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P09",
+      "position_godot_m": [
+        17.475,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P10",
+      "position_godot_m": [
+        19.225,
+        0,
+        -1.85
+      ],
+      "rotation_y_radians": 3.141592653589793,
+      "head": "front (-Y)"
+    },
+    {
+      "id": "P11",
+      "position_godot_m": [
+        1.775,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P12",
+      "position_godot_m": [
+        3.525,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P13",
+      "position_godot_m": [
+        5.275,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P14",
+      "position_godot_m": [
+        7.025,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P15",
+      "position_godot_m": [
+        8.775,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P16",
+      "position_godot_m": [
+        12.225,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P17",
+      "position_godot_m": [
+        13.975,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P18",
+      "position_godot_m": [
+        15.725,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P19",
+      "position_godot_m": [
+        17.475,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    },
+    {
+      "id": "P20",
+      "position_godot_m": [
+        19.225,
+        0,
+        -7.65
+      ],
+      "rotation_y_radians": 0,
+      "head": "rear (+Y)"
+    }
+  ]
+}

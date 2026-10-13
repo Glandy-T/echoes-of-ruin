@@ -1,0 +1,353 @@
+{
+  "source": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_pod_reference_v4_1\\room1_pod_reference_v4_1.blend",
+  "scope": "v3 label/display texture revision only; source geometry, transforms, motion, source UVs, cameras and lights unchanged",
+  "result": "pass",
+  "unchanged_fields": [
+    "object transforms",
+    "mesh topology",
+    "object visibility",
+    "camera lens/type",
+    "light type/energy",
+    "render resolution"
+  ],
+  "snapshot": {
+    "objects": {
+      "Camera_display_close": {
+        "type": "CAMERA",
+        "location": [
+          1.25,
+          -3.34649992,
+          1.87197495
+        ],
+        "rotation": [
+          1.10986125,
+          2e-08,
+          0.49782234
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Camera_foot_end": {
+        "type": "CAMERA",
+        "location": [
+          0.0,
+          -6.1500001,
+          0.73500001
+        ],
+        "rotation": [
+          1.50422812,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Camera_motion_opposite_side": {
+        "type": "CAMERA",
+        "location": [
+          -3.88000011,
+          -5.0,
+          3.74000001
+        ],
+        "rotation": [
+          1.08266461,
+          -5e-08,
+          -0.67474097
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Camera_oblique": {
+        "type": "CAMERA",
+        "location": [
+          4.11999989,
+          -5.0,
+          3.74000001
+        ],
+        "rotation": [
+          1.08266461,
+          5e-08,
+          0.67474097
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Camera_reference_comparison": {
+        "type": "CAMERA",
+        "location": [
+          3.67499995,
+          -6.9000001,
+          1.74199998
+        ],
+        "rotation": [
+          1.39604795,
+          5e-08,
+          0.48939303
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Camera_side": {
+        "type": "CAMERA",
+        "location": [
+          6.0,
+          0.0,
+          0.33500001
+        ],
+        "rotation": [
+          1.57079637,
+          -0.0,
+          1.57079637
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Fill": {
+        "type": "LIGHT",
+        "location": [
+          3.0,
+          2.0,
+          4.0
+        ],
+        "rotation": [
+          0.77247059,
+          -8e-08,
+          2.15879917
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "Foot_info_display_surface": {
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false,
+        "vertices": 4,
+        "edges": 4,
+        "polygons": 1
+      },
+      "Key": {
+        "type": "LIGHT",
+        "location": [
+          -3.0,
+          -4.0,
+          6.0
+        ],
+        "rotation": [
+          0.72007072,
+          -4e-08,
+          -0.6435011
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      },
+      "ONE_PIECE_COVER_head_window": {
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false,
+        "vertices": 216,
+        "edges": 412,
+        "polygons": 198
+      },
+      "Reference_led_fixed_shell": {
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false,
+        "vertices": 232,
+        "edges": 408,
+        "polygons": 187
+      },
+      "Review_floor": {
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          -0.025
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false,
+        "vertices": 8,
+        "edges": 12,
+        "polygons": 6
+      },
+      "Sleeping_surface": {
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.23
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false,
+        "vertices": 24,
+        "edges": 48,
+        "polygons": 26
+      },
+      "Whole_lid_motion": {
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.0,
+          0.55000001
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden_viewport": false,
+        "hidden_render": false
+      }
+    },
+    "cameras": {
+      "Camera_display_close": {
+        "lens": 50.0,
+        "type": "ORTHO"
+      },
+      "Camera_foot_end": {
+        "lens": 50.0,
+        "type": "ORTHO"
+      },
+      "Camera_motion_opposite_side": {
+        "lens": 50.0,
+        "type": "ORTHO"
+      },
+      "Camera_oblique": {
+        "lens": 50.0,
+        "type": "ORTHO"
+      },
+      "Camera_reference_comparison": {
+        "lens": 50.0,
+        "type": "ORTHO"
+      },
+      "Camera_side": {
+        "lens": 50.0,
+        "type": "ORTHO"
+      }
+    },
+    "lights": {
+      "Fill": {
+        "type": "AREA",
+        "energy": 250.0
+      },
+      "Key": {
+        "type": "AREA",
+        "energy": 460.0
+      }
+    },
+    "render_resolution": [
+      1440,
+      1000,
+      100
+    ]
+  }
+}
