@@ -1,6 +1,7 @@
 # 主角衣发素材候选与制作方向
 
-2026-10-13。候选已看作者实物预览，尚未购买或下载源模型，也未被用户批准。
+2026-10-13。候选已看作者实物预览，尚未购买或下载源模型。
+用户认可白袍外观；头发仍待选定，完整组合尚未批准。
 
 ## 当前决定
 
@@ -11,37 +12,41 @@
 角色要求仍是：165 cm、自然比例、长发、白色长衣、赤脚，无绘制五官但保留面部体积。
 身体、头发、衣服保持独立可编辑网格和 UV。先确认静态外观，再处理动作与最终像素贴图。
 
+本轮反馈：用户表示免费几何发型包中没有想要的普通黑长发；白袍不错。
+头发改按普通黑长直发筛选，不能用卷曲、翘起或明显风格化的发型代替。
+
 ## 当前候选
 
-### 长发优先候选：female stylised hair lowpoly（免费）
+### 已否定发型候选：female stylised hair lowpoly（免费）
 
 - 作者：Asam-mk。
 - [作者商品页](https://www.cgtrader.com/free-3d-models/character/woman/female-stylised-hair-lowpoly)。
 - [实际预览](https://img-new.cgtrader.com/items/5976740/8e7b3b2e6b/female-stylised-hair-lowpoly-3d-model-8e7b3b2e6b.webp)。
 - 页面标为免费，提供 Blender、FBX、OBJ；许可标签为 Royalty Free License (no AI)，不是 CC0。
-- 实际预览上排第三款为露额头与面部的较长发型，有明确发束和侧面起伏。
-  相比下面的写实发片，几何发束更接近当前希望的简化体积，但须延长、减弱发尾卷曲并适配头型。
+- 上轮推荐了预览上排第三款，用户否定其与普通黑长发需求的匹配程度；不继续以此为首选。
 - 页面描述称十款，首张图显示八款；准确包含数量未下载复核。
 - 页面技术区同时出现平台的 No UV overlaps 和作者填写的 Overlapping，UV 状态矛盾，需查源文件。
 - 作者写约 1,000 面，实际各款面数、骨架和权重均待导入验证。
 
-### 长发备选：Female Long Straight Hair FREE
+### 普通黑长直发待审候选：Female Long Straight Hair FREE
 
 - 作者：hamza khaloui。
 - [作者商品页](https://www.artstation.com/marketplace/p/bjlDX/female-long-straight-hair-free)。
 - [实际预览](https://cdna.artstation.com/p/marketplace/presentation_assets/003/092/948/large/file.jpg?1697019469)。
+- [纯黑版本正面预览](https://cdna.artstation.com/p/marketplace/presentation_assets/003/092/930/large/file.jpg?1697019407)。
 - 本次页面价格 **USD 1**；标题中的 FREE 与实际标价不一致。
 - 预览中为长直发、侧向刘海，脸部可见，可作为发型轮廓候选。
 - 作者称为模块化 hair cards，提供 Blender、FBX、OBJ、纹理等文件。
 - 当前素材偏写实；需调整发长、刘海与侧面轮廓，简化细丝感并适配像素材质。
 - 面数、骨架、权重、透明边缘在 Godot 中的表现：**未下载验证，TBD**。
 
-### 白色长衫：Low Poly Medieval Female - Linen Chemise
+### 用户认可外观的白色长衫：Low Poly Medieval Female - Linen Chemise
 
 - 作者：Tatiana Smith。
 - [作者商品页](https://www.artstation.com/marketplace/p/epppn/low-poly-medieval-female-linen-chemise-game-ready-npc-clothing-unreal-unity)。
 - [实际预览](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/261/725/large/file.jpg?1774581643)。
 - 本次页面价格 **USD 5**。
+- 用户反馈“这个白袍倒是不错”：记录为外观候选认可，不等于已授权购买或确认技术质量。
 - 预览为浅色、长袖、长下摆服装；需要去掉下摆花边，按原角色调整衣长、领口与宽松度。
 - 作者提供手工重拓扑 FBX、Marvelous Designer ZPRJ 和纹理。
 - 页面两处面数分别为 1,034 与 1,010，故仅记为约一千面，准确值待导入。
