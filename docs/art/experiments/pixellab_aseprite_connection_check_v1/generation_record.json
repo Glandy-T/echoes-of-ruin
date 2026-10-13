@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "service": "PixelLab Aseprite extension",
+  "plugin_version": "0.4.129",
+  "local_subscription_tier": 1,
+  "tool": "Create texture",
+  "native_canvas": [16, 16],
+  "prompt": "clean matte cool gray coated metal, subtle pixel shading, seamless texture",
+  "shading": "basic shading",
+  "detail": "low detail",
+  "init_image": "No",
+  "target_palette": "No",
+  "output_method": "New frame",
+  "ui_generation_cost": 1,
+  "status": "Succeeded: plugin displayed Finished and returned pixels to new frame 2 in Aseprite",
+  "returned_seed": 31093108,
+  "returned_frame": 2,
+  "result_received_in_aseprite": true,
+  "editable_test_document_saved": false,
+  "save_note": "Generated test remains in the open Aseprite Sprite document. Further clicks were stopped by concurrent user input; evidence screenshot saved, existing project masters unchanged.",
+  "scope": "One standalone connectivity check; existing pod textures and Blender models unchanged"
+}
