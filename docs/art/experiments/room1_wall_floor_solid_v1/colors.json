@@ -1,0 +1,22 @@
+{
+  "status": "temporary solid-color architecture trial",
+  "source": "accepted pod v2 lid dominant ivory / slate colors",
+  "colors": {
+    "wall": [
+      211,
+      212,
+      198
+    ],
+    "floor": [
+      90,
+      108,
+      115
+    ]
+  },
+  "dimensions": [
+    32,
+    32
+  ],
+  "pixel_density": "not meaningful for constant maps; no global parameter locked",
+  "authorship": "deterministic original solid maps; not AI output"
+}

@@ -1,0 +1,11 @@
+{
+  "description": "A completely uniform solid cool ivory gray color swatch for a continuous matte cryogenic facility wall. Flat material albedo only, fills the entire image edge to edge. No panels, no seams, no joints, no borders, no objects, no speckles, no dirt, no texture pattern, no lighting gradient. Single color RGB 178 188 190.",
+  "image_size": {
+    "width": 32,
+    "height": 32
+  },
+  "detail": "low detail",
+  "no_background": false,
+  "seed": 20261013,
+  "enhance_prompt": false
+}

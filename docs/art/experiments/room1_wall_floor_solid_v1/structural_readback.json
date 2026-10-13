@@ -1,0 +1,53 @@
+{
+  "source": "room1_full_lowpoly_v1_1.blend",
+  "geometry_transforms_uvs_unchanged": true,
+  "object_count": 136,
+  "material_changes": [
+    {
+      "object": "Floor_continuous_no_tile_seams",
+      "old_material": "ARCH_floor_flat_review_only",
+      "new_material": "TRIAL_SOLID_floor_slate"
+    },
+    {
+      "object": "Roof_hidden_for_cutaway",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    },
+    {
+      "object": "Wall_front",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    },
+    {
+      "object": "Wall_left",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    },
+    {
+      "object": "Wall_rear_door_header",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    },
+    {
+      "object": "Wall_rear_left",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    },
+    {
+      "object": "Wall_rear_right",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    },
+    {
+      "object": "Wall_right",
+      "old_material": "ARCH_wall_flat_review_only",
+      "new_material": "TRIAL_SOLID_wall_ivory"
+    }
+  ],
+  "render_settings": [
+    1920,
+    1080,
+    100
+  ],
+  "scope": "structural comparison only; no Godot runtime test or artistic approval"
+}
