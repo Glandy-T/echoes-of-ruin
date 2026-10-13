@@ -1,0 +1,90 @@
+{
+  "note": "File readback and descriptive edge differences only; this does not establish visually seamless tiling or art acceptance.",
+  "images": [
+    {
+      "file": "floor_attempt01_pixen.png",
+      "size": [
+        128,
+        128
+      ],
+      "unique_rgba_colors": 49,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_mean_channel_difference_0_255": {
+        "left_right": 12.188,
+        "top_bottom": 10.318
+      },
+      "sha256": "77a63ac09982981fd2a0a1243d9cfdc30c5c750d5ea68fca333b54703b67871e"
+    },
+    {
+      "file": "floor_attempt02_pro_flash.png",
+      "size": [
+        64,
+        64
+      ],
+      "unique_rgba_colors": 44,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_mean_channel_difference_0_255": {
+        "left_right": 1.807,
+        "top_bottom": 1.01
+      },
+      "sha256": "5aa3429571c5422191c5394f320b4562eb0f9a9d651947342f209637e7e4e438"
+    },
+    {
+      "file": "wall_attempt01_rejected.png",
+      "size": [
+        128,
+        128
+      ],
+      "unique_rgba_colors": 56,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_mean_channel_difference_0_255": {
+        "left_right": 54.497,
+        "top_bottom": 35.393
+      },
+      "sha256": "e2a105469a4c973f2b8c210992d8546b8bf2ed17c1922001545e702c879a010b"
+    },
+    {
+      "file": "wall_attempt02_rejected.png",
+      "size": [
+        128,
+        128
+      ],
+      "unique_rgba_colors": 51,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_mean_channel_difference_0_255": {
+        "left_right": 23.529,
+        "top_bottom": 37.37
+      },
+      "sha256": "c71332990ec5cbc708d8eaa7c401a6423cec9c397e6e97aa8647e2b249d9c9ac"
+    },
+    {
+      "file": "wall_attempt03_pro.png",
+      "size": [
+        256,
+        256
+      ],
+      "unique_rgba_colors": 9,
+      "alpha_range": [
+        255,
+        255
+      ],
+      "edge_mean_channel_difference_0_255": {
+        "left_right": 1.542,
+        "top_bottom": 1.346
+      },
+      "sha256": "dcf1dc2f8c2ece112035b85c6cb0fb2b6dec72f5d258b33109924c63f80e27b8"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 · PixelLab 网页贴图试验 v1</title>
+<style>body{margin:0;padding:28px;background:#242b2f;color:#e6ecee;font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.65}main{max-width:1600px;margin:auto}h1{font-size:25px;margin:0 0 8px}h2{font-size:20px;margin-top:34px}p{color:#bbc7cd}figure{margin:0}img{width:100%;display:block}figcaption{padding:10px 0 22px}a{color:#acd0e5}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.raw{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.raw img{width:256px;max-width:100%;image-rendering:pixelated}.note{border-left:2px solid #718c95;padding-left:16px}@media(max-width:800px){.grid,.raw{grid-template-columns:1fr}}</style>
+<main><h1>Room 1 · PixelLab 网页贴图试验 v1</h1>
+<p>墙面采用 Pro 候选，地面采用 Pro Flash 候选。5次生成请求消耗18次免费试用额度。基础材质仍待审查，未形成最终像素美术。</p>
+<div class="grid"><figure><a href="evidence/01_gray_baseline.png"><img src="evidence/01_gray_baseline.png" alt="Room 1 v1.1 灰模基准"></a><figcaption>灰模基准 · 原镜头与灯光</figcaption></figure><figure><a href="evidence/02_textured_full.png"><img src="evidence/02_textured_full.png" alt="墙面与地面实际试贴效果"></a><figcaption>实际试贴 · 同一镜头与灯光</figcaption></figure></div>
+<figure><a href="evidence/03_textured_low.png"><img src="evidence/03_textured_low.png" alt="低角度下的像素材质"></a><figcaption>较低候选镜头 · 观察前后遮挡及整体颗粒</figcaption></figure>
+<figure><a href="evidence/04_surface_close.png"><img src="evidence/04_surface_close.png" alt="墙地面材质近景与灰模休眠舱"></a><figcaption>材质近景 · 墙面灰斑和地面小亮点仍有重复节奏；舱体尚未贴图</figcaption></figure>
+<h2>采用的原图</h2><div class="grid raw"><figure><img src="textures/wall_attempt03_pro.png" alt="Pro 的四个浅灰墙面候选"><figcaption>Pro · 原始256×256候选图<br>每个候选128×128；试贴使用左上内部区域</figcaption></figure><figure><img src="textures/floor_attempt02_pro_flash.png" alt="Pro Flash深蓝灰地面"><figcaption>Pro Flash · 原始64×64<br>44种RGBA颜色，未严格遵守提示中的4至6色</figcaption></figure></div>
+<h2>未采用的对照</h2><div class="raw"><figure><img src="textures/wall_attempt01_rejected.png" alt="机械墙板失败样本"><figcaption>Pixen 墙面1 · 加入管线与机械板</figcaption></figure><figure><img src="textures/wall_attempt02_rejected.png" alt="带边框与云纹的失败样本"><figcaption>Pixen 墙面2 · 边框与云状明暗</figcaption></figure><figure><img src="textures/floor_attempt01_pixen.png" alt="裂纹状地面失败样本"><figcaption>Pixen 地面1 · 裂纹与斜向高光过强</figcaption></figure></div>
+<p class="note">这轮已跑通网页生成与Blender试贴。底图上传受Chrome扩展文件访问权限限制，因此尚未检验对UV与遮罩的精确保留。现有结果能作基础材料候选，下一步仍需舱体色块、明暗、标识与游戏显示验证。</p>
+<p><a href="room1_pixellab_texture_trial_v1.blend">Blender工程</a> · <a href="README.md">观察与限制</a> · <a href="source/generation_record.json">提示词和参数</a> · <a href="evidence/pixellab_web_result.jpg">网页生成截图</a></p>
+</main></html>

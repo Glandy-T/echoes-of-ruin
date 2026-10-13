@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-13",
+  "service": "PixelLab Web Creator",
+  "url": "https://www.pixellab.ai/create",
+  "base_commit": "c68827a61ae455e6351341001cbdd054d1f1e2db",
+  "account": "existing signed-in trial account; no credentials recorded",
+  "initial_remaining_trial_generations": 18,
+  "requests": [
+    {
+      "file": "wall_attempt01_rejected.png",
+      "model": "Pixen",
+      "ui_cost": 1,
+      "requested_size": [
+        128,
+        128
+      ],
+      "transparent": false,
+      "detail": "Low detail",
+      "outline": "Lineless",
+      "prompt": "Flat 2D pixel-art base-color material texture for a clean standardized cryogenic preservation facility wall. Fill the entire square edge to edge with pale cool neutral gray matte coated metal. Broad calm color areas with only sparse, subtle blocky variations in 4 to 6 close gray shades. Crisp deliberate pixel clusters at native resolution, restrained low contrast, very low detail density. Uniform ambient color, no baked directional lighting. This is one continuous material surface, not a picture of a room or an object. No perspective, no borders, no panel seams, no tile grid, no pipes, no mechanical decorations, no bolts, no text, no logos, no neon, no rust, no random noise, no cast shadows, no shiny specular highlights. Opposite edges should repeat seamlessly.",
+      "observation": "Invented pipes, vents and mechanical panels; unsuitable for the current wall design."
+    },
+    {
+      "file": "wall_attempt02_rejected.png",
+      "model": "Pixen",
+      "ui_cost": 1,
+      "requested_size": [
+        128,
+        128
+      ],
+      "transparent": false,
+      "detail": "Low detail",
+      "outline": "Lineless",
+      "prompt": "A seamless square pixel-art color swatch of pale cool gray satin painted polymer. Almost plain, quiet and uniform, with a few broad very faint irregular pixel clusters using four closely related gray colors. Flat diffuse surface color only. Very clean, smooth manufactured coating. Fill all 128 by 128 pixels to every edge. Abstract material swatch, viewed straight on. Soft low-contrast pixel clusters, no outlines. No recognizable objects, no scenery, no geometric panel pattern. The left and right edges and top and bottom edges match for repeating.",
+      "observation": "Frame and conspicuous cloudy highlights; unsuitable as a direct repeating wall texture."
+    },
+    {
+      "file": "wall_attempt03_pro.png",
+      "model": "Pro",
+      "ui_cost": 10,
+      "requested_size": [
+        128,
+        128
+      ],
+      "downloaded_size": [
+        256,
+        256
+      ],
+      "output_layout": "2x2 grid of four 128px variants",
+      "transparent": false,
+      "reference_images": [],
+      "prompt": "Create ONLY a flat seamless 128x128 pixel-art albedo texture of pale cool-gray matte painted coating. This is raw texture image data that will cover the surfaces of an existing 3D model. All four edges are filled with the same material; no surrounding background, no frame or border. Use a nearly uniform light gray base with 4 close neutral gray shades and a few very subtle irregular hard-edged pixel clusters. Calm, clean, understated, low contrast. No geometry, panel shapes, pipes, screws, tiles, metal plates, scenery or objects. No directional lighting, cast shadows, reflected highlights or gradients. No noise or cloud pattern. Opposite edges match. Keep most of the image visually quiet.",
+      "observation": "Quiet light-gray variants, 9 unique RGBA colors across the raw image. Sparse grain is still present. Top-left variant interior selected by material UV addressing."
+    },
+    {
+      "file": "floor_attempt01_pixen.png",
+      "model": "Pixen",
+      "ui_cost": 1,
+      "requested_size": [
+        128,
+        128
+      ],
+      "transparent": false,
+      "detail": "Low detail",
+      "outline": "Lineless",
+      "prompt": "Raw 128x128 pixel-art albedo image of a dark charcoal cool-gray matte sealed synthetic floor coating. The same continuous material fills every pixel to all four edges. Nearly uniform dark gray base, only a few tiny subdued irregular clusters in four close gray tones. Flat diffuse color without lighting or gradients. Low contrast, calm, clean, smooth manufactured coating. Fine restrained wear, no decorative pattern. It is flat texture image data for applying to an existing model. No border, no frame, no surrounding background, no perspective, no objects, no tiles or seams. All edges repeat continuously.",
+      "observation": "Prominent diagonal crack-like ridges and highlights; not consistent with the clean facility floor."
+    },
+    {
+      "file": "floor_attempt02_pro_flash.png",
+      "model": "Pro Flash BETA",
+      "ui_cost": 5,
+      "requested_size": [
+        64,
+        64
+      ],
+      "transparent": false,
+      "reference_images": [],
+      "prompt": "Only a flat seamless pixel-art base-color texture of clean dark blue-gray matte polymer coating. Fill the entire image edge to edge. A nearly uniform charcoal blue-gray surface with very sparse tiny low-contrast pixel flecks. Use 4 to 6 closely related colors. Quiet, smooth, clean manufactured surface. This is raw color texture data for an existing 3D floor. No perspective or directional lighting. No cracks, scratches, diagonal streaks, rock texture, marble veins, tile pattern, panel divisions, frame or border. No objects, text or symbols. Opposite edges match.",
+      "downloaded_size": [
+        64,
+        64
+      ],
+      "observation": "Quiet blue-gray coating, 44 distinct RGBA colors; selected for the trial, not approved final art."
+    }
+  ],
+  "local_guide": "wall_color_layout_GUIDE.png; flat color guide prepared, not uploaded",
+  "upload_limitation": "Chrome extension fileChooser.setFiles blocked local upload because Allow access to file URLs was disabled. No browser permission changed; no guide used for these generations.",
+  "raw_image_policy": "Downloaded AI images preserved without repainting. Pro variant grid addressed via Blender material nodes.",
+  "trial_parameters": "sRGB base color, Closest sampling, approximately32 texels/m; production palette and density remain TBD",
+  "final_used_trial_generations": 40,
+  "initial_used_trial_generations": 22,
+  "verified_consumed_trial_generations": 18,
+  "reference_upload_succeeded": false
+}
