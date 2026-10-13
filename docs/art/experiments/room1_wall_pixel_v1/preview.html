@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 墙面像素候选 v1</title>
+<style>body{margin:0;background:#242c2e;color:#e4e7dd;font:16px/1.65 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:26px}h1{font-size:27px}h2{font-size:20px;margin-top:30px}p{color:#bec8c7}a{color:#a4cbd2}nav{display:flex;gap:18px;flex-wrap:wrap}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}figcaption{padding:8px 0}img{display:block;width:100%}.pixel{image-rendering:pixelated}.swatches{display:flex;gap:12px;margin:18px 0}.swatches span{padding:7px 13px;color:#344039;border-radius:3px}@media(max-width:800px){.pair{grid-template-columns:1fr}}</style>
+<main><h1>Room 1 / 墙面像素贴图候选 v1</h1>
+<p>哑光矿物／陶瓷复合墙面 · 下沿金属保护带 · 上部连续低亮灯带。墙角与下沿保留有限的长期老化，文字标识下一轮确认。</p>
+<div class="swatches"><span style="background:#d3d6c9">主色 #D3D6C9</span><span style="background:#e7e7d4">亮部 #E7E7D4</span><span style="background:#c1c8bc">暗部 #C1C8BC</span></div>
+<nav><a href="room1_wall_pixel_v1.blend">Blender 工程</a><a href="editable/rear_wall_pixel_v1.aseprite">后墙分层母版</a><a href="editable/right_wall_pixel_v1.aseprite">右墙分层母版</a><a href="README.md">制作说明</a><a href="../../ROOM1_WALL_TEXTURE_BRIEF.md">已确认 Brief</a></nav>
+<h2>同镜头对比</h2><div class="pair"><figure><a href="evidence/00_solid_wall_baseline.png"><img src="evidence/00_solid_wall_baseline.png"></a><figcaption>原纯色墙面</figcaption></figure><figure><a href="evidence/01_wall_overview.png"><img src="evidence/01_wall_overview.png"></a><figcaption>本轮墙面：材质＋保护带＋连续灯带</figcaption></figure></div>
+<h2>低角度</h2><a href="evidence/02_wall_low_angle.png"><img src="evidence/02_wall_low_angle.png"></a>
+<h2>正面材质近景</h2><a href="evidence/03_wall_detail.png"><img src="evidence/03_wall_detail.png"></a>
+<h2>原生像素材料 / 最近邻3倍</h2><a href="evidence_wall_material_nearest3x.png"><img class="pixel" src="evidence_wall_material_nearest3x.png"></a>
+<h2>后墙连续展开图</h2><a href="evidence_wall_elevation.png"><img class="pixel" src="evidence_wall_elevation.png"></a>
+<p>地板、舱体、门与房间几何沿用。灯带已分离发光遮罩；当前保留原审查灯光，最终应急环境照明仍待后续实现。PixelLab Pro 原创底图编辑实际使用15次订阅额度，已保留原始结果和可编辑源文件。</p></main></html>

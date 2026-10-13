@@ -1,0 +1,104 @@
+{
+  "maps": {
+    "rear": {
+      "dimensions": [
+        1680,
+        272
+      ],
+      "horizontal_length_m": 21.0,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        25,
+        28
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        16,
+        1663
+      ],
+      "aging": "true corner deposits, limited old protection-band contact scuffs, no tiled border wear"
+    },
+    "front": {
+      "dimensions": [
+        1680,
+        272
+      ],
+      "horizontal_length_m": 21.0,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        25,
+        28
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        16,
+        1663
+      ],
+      "aging": "true corner deposits, limited old protection-band contact scuffs, no tiled border wear"
+    },
+    "left": {
+      "dimensions": [
+        728,
+        272
+      ],
+      "horizontal_length_m": 9.1,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        25,
+        28
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        0,
+        727
+      ],
+      "aging": "true corner deposits, limited old protection-band contact scuffs, no tiled border wear"
+    },
+    "right": {
+      "dimensions": [
+        728,
+        272
+      ],
+      "horizontal_length_m": 9.1,
+      "world_height_m": 3.4,
+      "light_rows_top_origin": [
+        25,
+        28
+      ],
+      "protection_band_top_origin": 252,
+      "true_corner_pixels": [
+        0,
+        727
+      ],
+      "aging": "true corner deposits, limited old protection-band contact scuffs, no tiled border wear"
+    }
+  },
+  "density_texels_per_m": 80,
+  "density_status": "wall candidate only, not global project standard",
+  "palette": [
+    "#d3d6c9",
+    "#e7e7d4",
+    "#c1c8bc",
+    "#cbd1c3",
+    "#d9dccc",
+    "#d0d3c6",
+    "#d6d9cc",
+    "#d3d7ca",
+    "#b9c2b6",
+    "#b1bab0",
+    "#a2ada4",
+    "#8c9a90",
+    "#6e8177",
+    "#abb19e",
+    "#e0e3d2",
+    "#f1f1e7",
+    "#bfc6b9",
+    "#7f8e85"
+  ],
+  "source": "PixelLab Pro wall edit, authored continuous trim and localized age finish",
+  "lamp_center_m": 3.0625,
+  "lamp_visible_height_m": 0.05,
+  "protection_band_height_m": 0.25,
+  "ai_finish": "palette organization, removal of fake tile-end borders, restoration of continuous diffuser; no additional generation",
+  "no_text": true
+}

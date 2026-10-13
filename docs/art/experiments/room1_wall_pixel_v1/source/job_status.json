@@ -1,0 +1,27 @@
+{
+  "id": "55662067-82e9-42b4-96b1-9cfe45207b38",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 15.0
+  },
+  "result_keys": [
+    "seed",
+    "type",
+    "action",
+    "images",
+    "progress",
+    "billing_usage",
+    "generation_id",
+    "usage_cost_usd",
+    "billing_charged",
+    "generation_mode",
+    "quantized_images",
+    "generation_started_at",
+    "original_image_n_colors",
+    "quantized_image_n_colors"
+  ],
+  "saved_images": [
+    "wall_pro_00.png"
+  ]
+}

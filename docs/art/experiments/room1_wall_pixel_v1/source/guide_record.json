@@ -1,0 +1,33 @@
+{
+  "image_size": [
+    400,
+    272
+  ],
+  "section_m": [
+    5,
+    3.4
+  ],
+  "trial_density_texels_m": 80,
+  "palette": {
+    "base": "#d3d6c9",
+    "light": "#e7e7d4",
+    "shade": "#c1c8bc",
+    "quiet": "#cbd0c2",
+    "soft": "#d9dccc",
+    "steel": "#b1bab0",
+    "steel_dark": "#939f96",
+    "joint": "#7f8e85",
+    "dust": "#aab2a1",
+    "lamp": "#eeeeDF",
+    "lamp_edge": "#dce0d1"
+  },
+  "strip_pixels_y": [
+    25,
+    28
+  ],
+  "strip_center_m": 3.0625,
+  "strip_visible_height_m": 0.05,
+  "protection_band_height_m": 0.25,
+  "status": "user-confirmed direction; native resolution and exact trim dimensions are review choices",
+  "input": "original project pixel guide, no Pixel Canals images/model/textures supplied to AI"
+}
