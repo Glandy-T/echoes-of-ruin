@@ -1,0 +1,30 @@
+{
+  "object": "Foot_info_display_surface",
+  "template_pixels": [
+    512,
+    212
+  ],
+  "faces": [
+    {
+      "material": 0,
+      "uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}
