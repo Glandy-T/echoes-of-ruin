@@ -4,6 +4,7 @@ extends "res://scripts/dev/room1_lighting_shadow_test_r2.gd"
 @export_range(0.0, 2.0) var continuous_baked_energy := 1.2
 var baked_receivers: Array[ShaderMaterial] = []
 var continuous_ready := false
+@export_file("*.glb") var baked_geometry_path := "res://assets/art/room1_continuous_bake_r3/room1_baked_uv2_r3.glb"
 
 func _build_strip_lights() -> void:
 	# No point or spot lights for the ribbon in this version.
@@ -15,7 +16,7 @@ func _ready() -> void:
 	if chunks:
 		chunks.queue_free()
 	$Shell.find_child("Floor_continuous_no_tile_seams", true, false).visible = true
-	var copy := (load("res://assets/art/room1_continuous_bake_r3/room1_baked_uv2_r3.glb") as PackedScene).instantiate()
+	var copy := (load(baked_geometry_path) as PackedScene).instantiate()
 	add_child(copy)
 	copy.visible = false
 	var original_mapping: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/art/room1_continuous_bake_r3/mesh_mapping.json"))

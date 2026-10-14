@@ -1,0 +1,15 @@
+{
+  "changed_uv_vertices": 4,
+  "left_wall_v_before": [
+    1.0,
+    2.0
+  ],
+  "left_wall_v_after": [
+    0.0,
+    1.0
+  ],
+  "uv2_bit_identical": true,
+  "geometry_unchanged": true,
+  "textures_unchanged": true,
+  "scope": "Bake conversion V sign error fixed; solid material surface untouched; old asset preserved."
+}

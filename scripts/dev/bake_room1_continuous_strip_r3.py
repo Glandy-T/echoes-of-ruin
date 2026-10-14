@@ -20,9 +20,15 @@ for obj in list(bpy.data.objects):
     obj.name = 'Bake_Shell_' + original_name
     mapping[obj.name] = {'group': 'Shell', 'mesh': original_name}
     if original_name == 'Wall_left':
-        for uv in obj.data.uv_layers[0].data:
-            uv.uv.x += 4.75 / 9.1
-            uv.uv.y -= 0.5
+        # Blender flips glTF V: the Godot V offset -0.5 is Blender +0.5.
+        # Correct only the wall texture surface, leaving solid-face UVs alone.
+        for polygon in obj.data.polygons:
+            material = obj.data.materials[polygon.material_index]
+            if material and 'MATERIAL_REVISION' in material.name:
+                for loop_index in polygon.loop_indices:
+                    uv = obj.data.uv_layers[0].data[loop_index]
+                    uv.uv.x += 4.75 / 9.1
+                    uv.uv.y += 0.5
     receivers.append(obj)
 
 placement = json.loads((SOURCE / 'pod_placement_godot.json').read_text(encoding='utf-8'))
