@@ -1,0 +1,24 @@
+{
+	"checks": {
+		"3_lit_17_unlit": true,
+		"glass_alpha_depth_prepass": true,
+		"individual_light_groups_switch_off": true,
+		"left_wall_uv_in_0_1": true,
+		"old_point_bulbs_and_directional_fill_disabled": true,
+		"per_pod_materials_independent": true
+	},
+	"engine": "4.6.2-stable (official)",
+	"powered_screens": [
+		"P02",
+		"P12",
+		"P17"
+	],
+	"powered_windows": [
+		"P02",
+		"P12",
+		"P17"
+	],
+	"scope": "Lighting and glass candidate. Continuous strip is analytical fill, no GI or actual line-light shadows. Lit IDs are temporary.",
+	"strip_light_energy": 0.24,
+	"strip_surface_energy": 0.38
+}
