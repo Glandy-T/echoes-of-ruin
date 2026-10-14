@@ -1,0 +1,17 @@
+{
+	"automatic_timed_handoff_passed": true,
+	"capsule_shadow_follows_pose": true,
+	"hero_pod": "P12",
+	"lit_screens": 3,
+	"lit_windows": 3,
+	"movement_and_floor_collision_passed": true,
+	"open_lid_degrees": -44.9999944220499,
+	"placeholder_character": true,
+	"post_exit_position": "(2.65, 0.000877, -4.740003)",
+	"red_screens": [
+		"P02",
+		"P17"
+	],
+	"replay_and_skip_reset_passed": true,
+	"static_bake_pose": "P12 open"
+}

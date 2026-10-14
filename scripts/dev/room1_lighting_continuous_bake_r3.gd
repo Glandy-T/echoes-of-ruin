@@ -5,6 +5,7 @@ extends "res://scripts/dev/room1_lighting_shadow_test_r2.gd"
 var baked_receivers: Array[ShaderMaterial] = []
 var continuous_ready := false
 @export_file("*.glb") var baked_geometry_path := "res://assets/art/room1_continuous_bake_r3/room1_baked_uv2_r3.glb"
+@export_file("*.exr") var irradiance_path := "res://assets/art/room1_continuous_bake_r3/strip_irradiance_denoised.exr"
 
 func _build_strip_lights() -> void:
 	# No point or spot lights for the ribbon in this version.
@@ -25,7 +26,7 @@ func _ready() -> void:
 		var record: Dictionary = original_mapping[key].duplicate()
 		record.mesh = str(record.mesh).replace(".", "_")
 		mapping[key.replace(".", "_")] = record
-	var irradiance := load("res://assets/art/room1_continuous_bake_r3/strip_irradiance_denoised.exr") as Texture2D
+	var irradiance := load(irradiance_path) as Texture2D
 	assert(irradiance != null and irradiance.get_width() == 2048)
 	for node: MeshInstance3D in copy.find_children("*", "MeshInstance3D", true, false):
 		if not mapping.has(str(node.name)):

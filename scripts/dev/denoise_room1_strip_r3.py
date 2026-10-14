@@ -1,9 +1,10 @@
 """Blender 5 native compositor denoising of linear HDR lightmap, not pixel art."""
 import bpy
+import os
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[2]
-folder = root / 'assets/art/room1_continuous_bake_r3'
+folder = root / os.environ.get('ROOM1_BAKE_OUTPUT', 'assets/art/room1_continuous_bake_r3')
 scene = bpy.context.scene
 scene.render.engine = 'BLENDER_EEVEE'
 scene.render.resolution_x = 16
