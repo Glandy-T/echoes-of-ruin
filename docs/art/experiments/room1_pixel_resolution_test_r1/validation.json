@@ -1,0 +1,21 @@
+{
+	"camera_sync": true,
+	"engine": "4.6.2-stable (official)",
+	"modes": {
+		"0": {
+			"native_size": "(1280, 720)",
+			"presentation_size": "(1280.0, 720.0)"
+		},
+		"1": {
+			"native_size": "(640, 360)",
+			"presentation_size": "(1280.0, 720.0)"
+		},
+		"2": {
+			"native_size": "(426, 240)",
+			"presentation_size": "(1278.0, 720.0)"
+		}
+	},
+	"nearest_presentation": true,
+	"physics_block_in_low_resolution": true,
+	"scope": "Rendering comparison only; UI at full resolution; no project settings or assets changed; pixel density not approved."
+}
