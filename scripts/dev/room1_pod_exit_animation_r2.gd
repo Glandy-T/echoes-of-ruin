@@ -1,11 +1,14 @@
 @tool
 extends "res://scripts/dev/room1_pod_exit_animation_r1.gd"
 var interior_window_materials: Dictionary = {}
+func _window_effect_pods() -> PackedStringArray:
+	return PackedStringArray(["P02", "P17"])
+
 func _ready() -> void:
 	super._ready()
 	if Engine.is_editor_hint():
 		return
-	for id in ["P02", "P17"]:
+	for id in _window_effect_pods():
 		room_glass_shaders[id].shader = preload("res://scripts/dev/room1_glass_chamber_transmission_r2.gdshader")
 		room_glass_shaders[id].set_shader_parameter("chamber_light_position", window_proxies[id].global_position)
 		var materials: Array[ShaderMaterial] = []
