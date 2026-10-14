@@ -1,0 +1,81 @@
+{
+	"camera": {
+		"distance_m": 8.0,
+		"height_m": 2.20000004768372,
+		"horizontal_fov": 50.0,
+		"pitch_degrees": 9.75242494165379,
+		"projection": "perspective"
+	},
+	"checks": {
+		"focus_stays_centered": true,
+		"height_locked": true,
+		"normalized_diagonal_marker_movement": true,
+		"rotation_locked": true,
+		"target_y_and_rotation_ignored": true,
+		"xz_follow": true
+	},
+	"engine": "4.6.2-stable (official)",
+	"samples": [
+		{
+			"camera": [
+				10.5,
+				2.20000004768372,
+				3.25
+			],
+			"focus_screen_px": [
+				640.0,
+				360.0
+			],
+			"name": "01_center"
+		},
+		{
+			"camera": [
+				7.5,
+				2.20000004768372,
+				3.25
+			],
+			"focus_screen_px": [
+				640.0,
+				360.0
+			],
+			"name": "02_left"
+		},
+		{
+			"camera": [
+				13.5,
+				2.20000004768372,
+				3.25
+			],
+			"focus_screen_px": [
+				640.0,
+				360.0
+			],
+			"name": "03_right"
+		},
+		{
+			"camera": [
+				10.5,
+				2.20000004768372,
+				4.44999980926514
+			],
+			"focus_screen_px": [
+				640.0,
+				360.0
+			],
+			"name": "04_front"
+		},
+		{
+			"camera": [
+				10.5,
+				2.20000004768372,
+				2.05000019073486
+			],
+			"focus_screen_px": [
+				640.0,
+				360.0
+			],
+			"name": "05_back"
+		}
+	],
+	"scope": "Camera only; no physics, lighting revision or protagonist art"
+}

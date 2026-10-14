@@ -64,3 +64,9 @@
 - 四份GLB已在本工程实际导入、实例化，最近邻与UV0读回、20舱位置／朝向、剖切与静态姿态切换均检查通过；保存了5张真实Godot截图。未新增玩法或改原主场景／Viewport。
 - 近景显示贴图与屏幕；各舱仍复制01，前排端面编号存在倒向／镜像表现，后续逐面UV和标识检查。灯光只是试排，Godot受控色阶Shader未实现。
 - 操作与验证见 [Godot搭建说明](experiments/room1_godot_review_r1/README.md) 和 [读回](experiments/room1_godot_review_r1/validation.json)。
+
+## 摄像机单项试验（2026-10-14）
+
+用户明确按单项推进，本轮仅做摄像机：参照提供的低俯角截图，以主角位置为构图中心，只跟随左右／前后平移，固定世界高度与朝向。新场景 `scenes/dev/room1_camera_follow_test_r1.tscn` 使用1.65m胶囊比例标记，WASD／方向键平移、R复位、T隐藏标记、H隐藏说明；约9.75°俯角、2.2m高度、8m距离、水平FOV50°均为待审候选。
+
+镜头的X/Z跟随、高度／朝向锁定和画面中心读回均通过，并保存6张真实Godot截图。原灯光与20舱沿用；未实现主角模型、碰撞、重力或跳跃。前排舱的前景遮挡与人物画面尺度待用户实际移动审图。见 [摄像机试验说明](experiments/room1_camera_follow_test_r1/README.md)。
