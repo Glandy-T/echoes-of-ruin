@@ -1,0 +1,15 @@
+{
+	"baseline_10hz": {
+		"maximum_step_m": 0.200000762939453,
+		"reversed_frames": 0,
+		"stationary_frames": 75
+	},
+	"collision_preserved": true,
+	"interpolated_10hz": {
+		"maximum_step_m": 0.0333337783813477,
+		"reversed_frames": 0,
+		"stationary_frames": 0
+	},
+	"scope": "Render interpolation only. Low-resolution perspective aliasing remains. Default native resolution.",
+	"teleport_resets_history": true
+}
