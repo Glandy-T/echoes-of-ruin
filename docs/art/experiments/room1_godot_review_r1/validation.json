@@ -1,0 +1,61 @@
+{
+	"checks": {
+		"cutaway_hidden": [
+			"Wall_front",
+			"Wall_left",
+			"Roof_hidden_for_cutaway"
+		],
+		"full_shell_toggle": true,
+		"placements_match_manifest": true,
+		"pod_count": 20,
+		"static_pose_toggle_keeps_20_pods": true
+	},
+	"engine": "4.6.2-stable (official)",
+	"models": [
+		{
+			"file": "room1_shell_full_r1.glb",
+			"filters": [
+				0
+			],
+			"meshes": 9,
+			"textured_surfaces": 15,
+			"uv0_surfaces": 16
+		},
+		{
+			"file": "room1_layout_review_r1.glb",
+			"filters": [
+				0
+			],
+			"meshes": 86,
+			"textured_surfaces": 10,
+			"uv0_surfaces": 191
+		},
+		{
+			"file": "pod_closed_v3.glb",
+			"filters": [
+				0
+			],
+			"meshes": 8,
+			"textured_surfaces": 8,
+			"uv0_surfaces": 8
+		},
+		{
+			"file": "pod_open_v3.glb",
+			"filters": [
+				0
+			],
+			"meshes": 8,
+			"textured_surfaces": 8,
+			"uv0_surfaces": 8
+		}
+	],
+	"renderer": "gl_compatibility",
+	"scope": "Godot import, placement, sampling and rendered review. No gameplay, collision or art approval. Wall/floor r1 rejected as too clean on 2026-10-14.",
+	"screenshots": [
+		"01_overview.png",
+		"02_pod_closed.png",
+		"03_pod_open_static.png",
+		"04_door_wall.png",
+		"05_lights_off.png"
+	]
+}
