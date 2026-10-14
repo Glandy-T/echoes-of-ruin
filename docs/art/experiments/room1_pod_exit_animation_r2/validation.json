@@ -1,0 +1,9 @@
+{
+	"P02_window_blue_difference": 0.121607029472652,
+	"P17_window_blue_difference": 0.217732713908368,
+	"game_P02_blue_difference": 0.0520566451380081,
+	"glass_transmission_follows_window_switch": true,
+	"method": "Local interior irradiance plus transparent glass transmitted-radiance approximation; existing shadowed spill retained",
+	"three_lit_pods_preserved": true,
+	"window_materials_only_P02_P17": true
+}
