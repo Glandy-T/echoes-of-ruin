@@ -1,0 +1,12 @@
+{
+	"blur_passes": 4,
+	"engine": "4.6.2-stable (official)",
+	"readback": {
+		"all_glow": 0.00508285454405142,
+		"new_vs_r3": 0.0132560012548804,
+		"outside_screen_boundary": 0.00175418097048129,
+		"wide_halo": 0.00508285454405142
+	},
+	"scope": "Screen-only two-scale Gaussian bloom with depth occluders and synchronized camera; glass seam deferred; local only; art review pending.",
+	"screen_power_controls_halo": true
+}

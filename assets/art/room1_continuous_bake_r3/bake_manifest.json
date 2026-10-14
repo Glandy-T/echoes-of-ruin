@@ -1,0 +1,12 @@
+{
+  "blender": "5.0.1",
+  "receiver_meshes": 129,
+  "emitting_ribbons": 4,
+  "light_objects": 0,
+  "ribbon_width_m": 0.06,
+  "ribbon_energy": 20.0,
+  "samples": 64,
+  "atlas_size": 2048,
+  "type": "diffuse direct and indirect irradiance without albedo",
+  "scope": "Static room and pod shadows; dynamic shadows not implemented."
+}

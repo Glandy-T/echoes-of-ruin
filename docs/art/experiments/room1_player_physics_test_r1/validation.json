@@ -1,0 +1,47 @@
+{
+	"character_height": 1.65,
+	"character_radius": 0.22,
+	"engine": "4.6.2-stable (official)",
+	"physics_checks": {
+		"camera_height_and_rotation_locked": true,
+		"free_walk": "(11.45001, 0.000871, -4.749994)",
+		"front_pod_block": {
+			"contacts": [
+				"Solid_Floor_continuous_no_tile_seams",
+				"Solid_P02"
+			],
+			"position": "(3.525, 0.000276, -3.218204)"
+		},
+		"gap_pass_and_front_wall": {
+			"contacts": [
+				"Solid_Floor_continuous_no_tile_seams",
+				"Solid_Wall_front"
+			],
+			"position": "(4.4, -0.0004, -0.422226)"
+		},
+		"gravity_and_floor": 0.000859204679727554,
+		"left_wall_block": "(0.420874, 0.000873, -4.75)",
+		"rear_pod_block": {
+			"contacts": [
+				"Solid_Floor_continuous_no_tile_seams",
+				"Solid_P12"
+			],
+			"position": "(3.525, 0.000276, -6.281796)"
+		},
+		"slide_along_pod": {
+			"contacts": [
+				"Solid_Floor_continuous_no_tile_seams",
+				"Solid_P02"
+			],
+			"position": "(4.002201, 0.000867, -3.216454)"
+		}
+	},
+	"pod_colliders": 20,
+	"scope": "Capsule CharacterBody3D with gravity and convex pod collision. Analytical capsule shadow on continuous-strip baked light; equipment lights use native shadows. Placeholder only; local review.",
+	"shadow_readback": {
+		"center_actor_shadow": 0.000697719452541536,
+		"moved_actor_shadow": 0.000698966077822748
+	},
+	"shell_colliders": 9,
+	"strip_point_or_spot_lights": 0
+}

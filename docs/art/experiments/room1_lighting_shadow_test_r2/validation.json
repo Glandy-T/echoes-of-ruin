@@ -1,0 +1,20 @@
+{
+	"ambient": 0.025,
+	"analytical_fill_disabled": true,
+	"backers_hidden": true,
+	"engine": "4.6.2-stable (official)",
+	"light_energy": 0.35,
+	"lit_ids": [
+		"P02",
+		"P12",
+		"P17"
+	],
+	"readback": {
+		"actual_strip_contribution": 0.0731853748304798,
+		"center_strip_shadows": 0.0388619288110948,
+		"left_strip_shadows": 0.042249606352236
+	},
+	"scope": "Room lighting candidate, overlapping shadowed positional lights approximate a strip; local only, art review pending.",
+	"strip_omnis": 6,
+	"strip_spots": 8
+}

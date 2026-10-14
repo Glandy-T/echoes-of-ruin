@@ -1,0 +1,17 @@
+{
+	"engine": "4.6.2-stable (official)",
+	"glass_emission": false,
+	"glow_intensity": 0.4,
+	"glow_threshold": 0.5,
+	"old_window_backer_hidden": true,
+	"readback": {
+		"interior_light_mean_difference": 0.0446956862253473,
+		"screen_glow_mean_difference": 0.00773008250664988,
+		"window_glow_mean_difference": 0.00504245574408095
+	},
+	"renderer": "gl_compatibility",
+	"scope": "Closeup fluorescence candidate; not art approval.",
+	"screen_core_energy": 2.0,
+	"single_powered_pod": "P12",
+	"window_interior_light_energy": 0.16
+}

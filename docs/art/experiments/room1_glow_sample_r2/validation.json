@@ -1,0 +1,10 @@
+{
+	"actual_shader_overrides": true,
+	"engine": "4.6.2-stable (official)",
+	"readback": {
+		"interior_visible_light": 0.0247079111935831,
+		"pixel_reflections": 0.041188388284504,
+		"screen_glow": 0.0074047783063769
+	},
+	"scope": "Pixel marks coexist with transparency; screen emission edge attenuated. Art review pending. Local only, per user."
+}

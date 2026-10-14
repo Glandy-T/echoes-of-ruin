@@ -1,0 +1,21 @@
+{
+	"ambient_energy": 0.025,
+	"baked_energy": 1.2,
+	"baked_meshes_with_uv2": 129,
+	"engine": "4.6.2-stable (official)",
+	"lit_ids": [
+		"P02",
+		"P12",
+		"P17"
+	],
+	"readback": {
+		"continuous_strip_contribution": 0.0422867382570533,
+		"strip_only_vs_off": 0.0422833012480301
+	},
+	"scope": "Four continuous emitting surfaces baked with static geometry occlusion; dynamic shadow not implemented; local only; art review pending.",
+	"strip_point_or_spot_lights": 0,
+	"wall_gradient": {
+		"lower_wall": 0.13585074278846,
+		"upper_wall": 0.163231892858059
+	}
+}

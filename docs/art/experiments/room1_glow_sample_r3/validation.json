@@ -1,0 +1,10 @@
+{
+	"engine": "4.6.2-stable (official)",
+	"readback": {
+		"content_emission": 0.00494481074661555,
+		"gentler_spill": 0.0181159003453877,
+		"glow": 0.00698078691556321,
+		"local_light": 0.00348118096525813
+	},
+	"scope": "Screen content emission and gentler local spill; glass seam deferred. Local only, art review pending."
+}
