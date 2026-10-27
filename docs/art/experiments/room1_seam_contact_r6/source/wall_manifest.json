@@ -1,0 +1,135 @@
+{
+  "density_texels_per_m": 80,
+  "walls": {
+    "left": {
+      "size": [
+        728,
+        272
+      ],
+      "source_raster_sha256": "89c06287951b4e2058834d70ad5a89e0774bd16ff6c2c6969dc96c7e0dd1579c",
+      "joint_centers_px": [
+        48,
+        176,
+        304,
+        432,
+        560,
+        688
+      ]
+    },
+    "right": {
+      "size": [
+        728,
+        272
+      ],
+      "source_raster_sha256": "46b1325d7cf972fbd3f58beda509109ad291b33fb4a74c0dd35a3924f5a85805",
+      "joint_centers_px": [
+        48,
+        176,
+        304,
+        432,
+        560,
+        688
+      ]
+    },
+    "front": {
+      "size": [
+        1648,
+        272
+      ],
+      "source_raster_sha256": "35729bee1f7823e08ba9d481aacb875cb71d4fd6b82f00ac0c69e87e2187c748",
+      "joint_centers_px": [
+        48,
+        176,
+        304,
+        432,
+        560,
+        688,
+        816,
+        944,
+        1072,
+        1200,
+        1328,
+        1456,
+        1584
+      ]
+    },
+    "rear": {
+      "size": [
+        1648,
+        272
+      ],
+      "source_raster_sha256": "27f3121586ad5abf4ad4d0cc829414ba87045ff1680efc6fb4f53242c1b6368b",
+      "joint_centers_px": [
+        48,
+        176,
+        304,
+        432,
+        560,
+        688,
+        816,
+        944,
+        1072,
+        1200,
+        1328,
+        1456,
+        1584
+      ]
+    }
+  },
+  "variants": {
+    "top_deposit": 4,
+    "lower_accumulation": 4,
+    "joint_film": 4,
+    "base_contact": 4,
+    "composed_panel_variants": 8,
+    "assignment": {
+      "left": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1
+      ],
+      "right": [
+        3,
+        1,
+        0,
+        2,
+        3,
+        0
+      ],
+      "front": [
+        1,
+        3,
+        0,
+        2,
+        1,
+        0,
+        3,
+        2,
+        0,
+        1,
+        3,
+        2,
+        1
+      ],
+      "rear": [
+        2,
+        0,
+        3,
+        1,
+        2,
+        3,
+        0,
+        1,
+        3,
+        2,
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "continuity": "First and last two columns are the same base/structure profile on all four wall maps."
+}

@@ -1,0 +1,48 @@
+{
+  "left": {
+    "changed_pixels": 2998,
+    "changes_only_in_seam_shoulders": true,
+    "two_pixel_seal_core_exact": true,
+    "old_film_reaches_core_neighbor": true,
+    "diffuser_exact": true,
+    "aseprite_reopen_exact": true,
+    "sha256": "95e675365941a3bcdfcdf87c421acdd9390636fbaf5c2d9b210a707e061e0ab5"
+  },
+  "right": {
+    "changed_pixels": 3009,
+    "changes_only_in_seam_shoulders": true,
+    "two_pixel_seal_core_exact": true,
+    "old_film_reaches_core_neighbor": true,
+    "diffuser_exact": true,
+    "aseprite_reopen_exact": true,
+    "sha256": "05797fb31aed931fbb64fcb093e812644c5ad629cca29434a6e9780864cdf40c"
+  },
+  "front": {
+    "changed_pixels": 6472,
+    "changes_only_in_seam_shoulders": true,
+    "two_pixel_seal_core_exact": true,
+    "old_film_reaches_core_neighbor": true,
+    "diffuser_exact": true,
+    "aseprite_reopen_exact": true,
+    "sha256": "08220a8365874bf99a0cc9c3f57588d8c9126e89417ac68a12c65263c91e8dff"
+  },
+  "rear": {
+    "changed_pixels": 6496,
+    "changes_only_in_seam_shoulders": true,
+    "two_pixel_seal_core_exact": true,
+    "old_film_reaches_core_neighbor": true,
+    "diffuser_exact": true,
+    "aseprite_reopen_exact": true,
+    "sha256": "70dc41aea21c1996bbedd273b13e39a0d353dd5d7790eb0f52ec33ddd83bd956"
+  },
+  "runtime": {
+    "r5_baselines_exact": true,
+    "r6_n_roundtrip_exact": true,
+    "size": [
+      1280,
+      720
+    ],
+    "seams_checked": 38,
+    "new_gi_bake": false
+  }
+}

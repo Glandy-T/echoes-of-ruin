@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>Room 1 接缝接触修正 r6</title><style>body{background:#171D21;color:#D9DDD5;font:16px/1.7 system-ui;max-width:1450px;margin:auto;padding:30px}a{color:#B3D9DE}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}img{max-width:100%;display:block}figure{margin:0 0 20px}figcaption{padding:8px}</style><h1>接缝旧化接触修正 · r6</h1><p>原因：旧图保护了整条8px接缝，连亮倒角也被清空旧化，形成干净隔离边。现只保护中央2px密封芯，旧化连接到相邻肩部。全室38条接缝统一处理；接缝以外像素、地坪、舱体、模型、UV和灯光保持。</p><p><a href="README.md">制作与验证说明</a> · <a href="source/quality_check.json">逐像素检查</a> · <a href="editable/">四墙分层Aseprite</a></p>
+<figure><a href="evidence/seam_pixels_before_after.png"><img src="evidence/seam_pixels_before_after.png"></a><figcaption>原生贴图最近邻放大：左r5／右r6，旧化不再隔着亮边悬浮。</figcaption></figure>
+<h2>right · 同机位原照明</h2><div class="grid">
+<figure><a href="evidence/game_right_r5.png"><img src="evidence/game_right_r5.png"></a><figcaption>r5</figcaption></figure>
+<figure><a href="evidence/game_right_r6.png"><img src="evidence/game_right_r6.png"></a><figcaption>r6</figcaption></figure>
+</div>
+<h2>left · 同机位原照明</h2><div class="grid">
+<figure><a href="evidence/game_left_r5.png"><img src="evidence/game_left_r5.png"></a><figcaption>r5</figcaption></figure>
+<figure><a href="evidence/game_left_r6.png"><img src="evidence/game_left_r6.png"></a><figcaption>r6</figcaption></figure>
+</div>
+<h2>center · 同机位原照明</h2><div class="grid">
+<figure><a href="evidence/game_center_r5.png"><img src="evidence/game_center_r5.png"></a><figcaption>r5</figcaption></figure>
+<figure><a href="evidence/game_center_r6.png"><img src="evidence/game_center_r6.png"></a><figcaption>r6</figcaption></figure>
+</div>
+<h2>前墙／转角技术检查</h2><p>前墙仅在技术图中临时解除剖切隐藏，拍后恢复；游戏截图保持原剖切。</p><div class="grid">
+<figure><a href="evidence/front_wall.png"><img src="evidence/front_wall.png"></a><figcaption>front_wall</figcaption></figure>
+<figure><a href="evidence/corner_front_left.png"><img src="evidence/corner_front_left.png"></a><figcaption>corner_front_left</figcaption></figure>
+<figure><a href="evidence/corner_rear_right.png"><img src="evidence/corner_rear_right.png"></a><figcaption>corner_rear_right</figcaption></figure>
+</div><p>正常游戏图不提亮，新固有色反射未重新烘焙。旧r5全部保留。</p></html>
