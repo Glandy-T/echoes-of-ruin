@@ -292,3 +292,15 @@ r2消除了UV2串图，但64样本降噪形成墙角横向明暗波纹，上轮�
 用户明确否定r8偏黄绿的沉积配色。当前入口改为`scenes/dev/room1_floor_palette_r9.tscn`，F切r8旧色／r9冷灰蓝，I比较配套光照，N颜色图。沉积亮部和原漏液偏暖浅边改为低饱和冷灰蓝；全部十层alpha、20舱轮廓、分布与主地坪材料RGB保持。墙图、模型、UV、灯光和曝光不改。
 
 新7层／10层Aseprite、打包Blender、配套EXR与[同光照颜色对照](experiments/room1_floor_palette_r9/preview.html)已另存；r8只作被指出颜色问题的历史。13张实际Godot截图包括同机位同r8光照旧／新色、新GI、Base Color总览与N/F/I恢复。母版重开与PNG一致，配套烘焙颜色源hash匹配；旧r8基线与回切逐像素一致。见[r9源与限制](experiments/room1_floor_palette_r9/README.md)。冷色修正仍需用户审图，不把技术核验当成最终自然度通过。
+
+### 单舱体积／透明头窗与像素旧化 v4（2026-10-27，候选待审）
+
+用户明确要求打开后不再像纸片，补足体积，同时把合理旧化纳入本轮像素返修。当前只返修一个舱：保留原外部轮廓、整片盖、头部玻璃、脚端大屏及45°侧滑终态。增加贴合实际盖内面轮廓的内衬厚板、沿原开口边界的密封肩、窗周框沿和浅凹显示器背壳；修复两片竖直内壁退化的XY UV。头窗原有约8.6–11.7mm厚度，不重复加壳。
+
+入口：`scenes/dev/room1_pod_volume_review_v4.tscn`，F6运行。V旧／新，O闭合／打开，1–6机位，G内腔光，T玻璃，R反光，H说明。[对照页](experiments/room1_pod_volume_v4/preview.html)、[Blender工程](experiments/room1_pod_volume_v4/room1_pod_volume_v4.blend)、[复现／来源说明](experiments/room1_pod_volume_v4/README.md)。八份分层Aseprite在实验editable目录，闭合／打开静态GLB在`assets/art/room1_pod_volume_v4/`。
+
+新玻璃将显式alpha反光与透明底色分开，无自发光；真实舱内光照亮内部几何。像素旧化沿接合、凹槽、涂层边角和接触带分布，大面保持完整。长侧不重复UNIT01，端／盖12仅为单舱P12样本编号；屏幕是NAME/SYS占位与状态条，实际名字和运行数据尚未接入。
+
+八母版重开PNG一致、两GLB内嵌八图一致、保存后Blender几何／父级／截面UV读回通过。16张实际Godot对照均1280×720，玻璃显隐／内光／反光控制有效，往返恢复精确一致。审图使用独立单舱布光，不是整室新GI或游戏镜头变化；裸GLB不能替代附带Shader的透明玻璃效果。
+
+**后续先审此单舱，再推广。** 本轮没有替换20舱、修改墙地／布局／人物／project.godot，没有新整室烘焙或完整运行时开盖动画，也没有新PixelLab额度消耗。地面r9仍是用户觉得不自然而暂时搁置的候选，不得视为美术通过。旧版源与实验均保留。

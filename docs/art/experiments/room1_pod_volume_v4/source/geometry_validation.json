@@ -1,0 +1,280 @@
+{
+  "source_blend": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_pod_volume_v4\\room1_pod_volume_v4.blend",
+  "motion_parent_frame60": {
+    "location_m": [
+      0.611543,
+      0.0,
+      0.641924
+    ],
+    "rotation_y_deg": 45.0
+  },
+  "frame_world_bounds": {
+    "1": {
+      "ONE_PIECE_COVER_head_window": {
+        "min_m": [
+          -0.515,
+          -0.926,
+          0.353334
+        ],
+        "max_m": [
+          0.515,
+          0.99,
+          0.662
+        ]
+      },
+      "pod_v4_window_frame": {
+        "min_m": [
+          -0.447,
+          0.452,
+          0.473
+        ],
+        "max_m": [
+          0.447,
+          0.822,
+          0.66
+        ]
+      },
+      "pod_v4_window_inner_seal": {
+        "min_m": [
+          -0.400065,
+          0.471425,
+          0.465445
+        ],
+        "max_m": [
+          0.400065,
+          0.802575,
+          0.6307
+        ]
+      },
+      "pod_v4_display_housing": {
+        "min_m": [
+          -0.247,
+          -1.112031,
+          0.460639
+        ],
+        "max_m": [
+          0.247,
+          -0.946445,
+          0.656033
+        ]
+      },
+      "pod_v4_lid_inner_backing": {
+        "min_m": [
+          -0.250613,
+          -0.707047,
+          0.617244
+        ],
+        "max_m": [
+          0.250613,
+          0.332821,
+          0.645285
+        ]
+      },
+      "pod_v4_basin_seal_lip": {
+        "min_m": [
+          -0.465,
+          -1.02,
+          0.305
+        ],
+        "max_m": [
+          0.465,
+          1.02,
+          0.343
+        ]
+      }
+    },
+    "60": {
+      "ONE_PIECE_COVER_head_window": {
+        "min_m": [
+          0.10832,
+          -0.926,
+          0.1387
+        ],
+        "max_m": [
+          1.054899,
+          0.99,
+          1.08528
+        ]
+      },
+      "pod_v4_window_frame": {
+        "min_m": [
+          0.241019,
+          0.452,
+          0.2714
+        ],
+        "max_m": [
+          1.005402,
+          0.822,
+          1.035782
+        ]
+      },
+      "pod_v4_window_inner_seal": {
+        "min_m": [
+          0.268865,
+          0.471425,
+          0.299246
+        ],
+        "max_m": [
+          0.951495,
+          0.802575,
+          0.981876
+        ]
+      },
+      "pod_v4_display_housing": {
+        "min_m": [
+          -0.247,
+          -1.112031,
+          0.460639
+        ],
+        "max_m": [
+          0.247,
+          -0.946445,
+          0.656033
+        ]
+      },
+      "pod_v4_lid_inner_backing": {
+        "min_m": [
+          0.481882,
+          -0.707047,
+          0.512263
+        ],
+        "max_m": [
+          0.85613,
+          0.332821,
+          0.88651
+        ]
+      },
+      "pod_v4_basin_seal_lip": {
+        "min_m": [
+          -0.465,
+          -1.02,
+          0.305
+        ],
+        "max_m": [
+          0.465,
+          1.02,
+          0.343
+        ]
+      }
+    }
+  },
+  "new_geometry": {
+    "pod_v4_window_frame": {
+      "parent": "Whole_lid_motion",
+      "boundary_edges": 0,
+      "uv_bounds": [
+        [
+          0.08,
+          0.35
+        ],
+        [
+          0.92,
+          0.47
+        ]
+      ]
+    },
+    "pod_v4_window_inner_seal": {
+      "parent": "Whole_lid_motion",
+      "boundary_edges": 0,
+      "uv_bounds": [
+        [
+          0.08,
+          0.35
+        ],
+        [
+          0.92,
+          0.47
+        ]
+      ]
+    },
+    "pod_v4_display_housing": {
+      "parent": "Reference_led_fixed_shell",
+      "boundary_edges": 0,
+      "uv_bounds": [
+        [
+          0.08,
+          0.35
+        ],
+        [
+          0.92,
+          0.47
+        ]
+      ]
+    },
+    "pod_v4_lid_inner_backing": {
+      "parent": "Whole_lid_motion",
+      "boundary_edges": 0,
+      "uv_bounds": [
+        [
+          0.08,
+          0.35
+        ],
+        [
+          0.92,
+          0.47
+        ]
+      ]
+    },
+    "pod_v4_basin_seal_lip": {
+      "parent": "Reference_led_fixed_shell",
+      "boundary_edges": 0,
+      "uv_bounds": [
+        [
+          0.08,
+          0.35
+        ],
+        [
+          0.92,
+          0.47
+        ]
+      ]
+    }
+  },
+  "source_fit_checks": {
+    "lid_backing": {
+      "source_face": 117,
+      "source_xy_bounds_m": [
+        [
+          -0.266609,
+          -0.740234
+        ],
+        [
+          0.266609,
+          0.366007
+        ]
+      ],
+      "panel_top_xy_bounds_m": [
+        [
+          -0.250613,
+          -0.707047
+        ],
+        [
+          0.250613,
+          0.33282
+        ]
+      ],
+      "all_top_vertices_inside_source_xy": true,
+      "mean_top_vertex_distance_to_source_m": 0.036855,
+      "normal_offsets_m": [
+        -0.001,
+        -0.001,
+        -0.001,
+        -0.001
+      ],
+      "top_embedded_opposite_inward_normal_1mm": true
+    },
+    "basin_lip": {
+      "source_rim_vertex_count": 8,
+      "outer_edge_to_source_min_m": 0.000535,
+      "outer_edge_to_source_max_m": 0.000537
+    }
+  },
+  "assertions": {
+    "lid_children_follow_existing_motion": true,
+    "new_meshes_closed_manifold": true,
+    "section_uv_non_degenerate_atlas_band": true,
+    "backing_top_inside_actual_inner_face": true,
+    "backing_embedded_1mm_into_cover": true,
+    "basin_outer_edge_embedded_within_3mm": true
+  }
+}

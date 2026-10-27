@@ -1,0 +1,106 @@
+{
+  "source_blend": "../../room1_pixellab_pod_trial_v3/room1_pixellab_pod_trial_v3.blend",
+  "probe": "inspect_original.py",
+  "read_only": true,
+  "coordinate_system": "Blender X width, Y length, Z height. Godot conversion is X, Z, -Y.",
+  "frame_states": {
+    "1": {
+      "Whole_lid_motion": {
+        "location_m": [0.0, 0.0, 0.55],
+        "rotation_euler_rad": [0.0, 0.0, 0.0]
+      },
+      "ONE_PIECE_COVER_head_window_world_bounds_m": {
+        "min": [-0.515, -0.926, 0.353334],
+        "max": [0.515, 0.99, 0.662]
+      }
+    },
+    "60": {
+      "Whole_lid_motion": {
+        "location_m": [0.611543, 0.0, 0.641924],
+        "rotation_euler_rad": [0.0, 0.785398, 0.0],
+        "rotation_y_degrees": 45.0
+      },
+      "ONE_PIECE_COVER_head_window_world_bounds_m": {
+        "min": [0.10832, -0.926, 0.1387],
+        "max": [1.054899, 0.99, 1.08528]
+      }
+    }
+  },
+  "parenting": {
+    "ONE_PIECE_COVER_head_window_parent": "Whole_lid_motion",
+    "Whole_lid_motion_action": "Whole_lid_motionAction.001",
+    "interpretation": "The existing frame-60 terminal pose is driven by the parent Empty, preserving the requested lift, side-slide, and 45-degree rotation when this parent relationship is retained."
+  },
+  "mesh_summary_frame_1": {
+    "Reference_led_fixed_shell": {
+      "vertices": 232,
+      "edges": 408,
+      "polygons": 187,
+      "edge_face_counts": {"two_face": 404, "one_face_boundary": 4},
+      "world_bounds_m": {"min": [-0.525, -1.147, 0.0], "max": [0.525, 1.147, 0.665]},
+      "note": "The only four boundary edges form the deliberate foot display aperture, not a general shell opening."
+    },
+    "ONE_PIECE_COVER_head_window": {
+      "vertices": 216,
+      "edges": 412,
+      "polygons": 198,
+      "edge_face_counts": {"two_face": 412, "one_face_boundary": 0},
+      "world_bounds_m": {"min": [-0.515, -0.926, 0.353334], "max": [0.515, 0.99, 0.662]},
+      "note": "Closed manifold. Do not apply whole-object Solidify."
+    },
+    "Sleeping_surface": {
+      "vertices": 24,
+      "edges": 48,
+      "polygons": 26,
+      "edge_face_counts": {"two_face": 48, "one_face_boundary": 0},
+      "world_bounds_m": {"min": [-0.44, -0.955, 0.21], "max": [0.44, 0.955, 0.25]},
+      "note": "Closed 0.04m-thick bed component."
+    },
+    "Foot_info_display_surface": {
+      "vertices": 4,
+      "edges": 4,
+      "polygons": 1,
+      "edge_face_counts": {"one_face_boundary": 4},
+      "world_bounds_m": {"min": [-0.235, -1.103807, 0.492993], "max": [0.235, -0.982916, 0.645998]},
+      "note": "This is the actual zero-thickness element: a single plane covering the foot aperture."
+    }
+  },
+  "foot_display_aperture_local_m": {
+    "boundary_edges": [
+      [[0.235, -1.103807, 0.492993], [-0.235, -1.103807, 0.492993]],
+      [[0.235, -0.982916, 0.645998], [0.235, -1.103807, 0.492993]],
+      [[-0.235, -0.982916, 0.645998], [0.235, -0.982916, 0.645998]],
+      [[-0.235, -1.103807, 0.492993], [-0.235, -0.982916, 0.645998]]
+    ],
+    "display_width_m": 0.47,
+    "display_sloped_height_m": 0.194996
+  },
+  "head_window": {
+    "glass_face_count": 10,
+    "outer_face_indices": [58, 59, 60, 61, 62],
+    "inner_face_indices": [148, 149, 150, 151, 152],
+    "local_bounds_m": {"min": [-0.447, 0.45132, -0.071402], "max": [0.447, 0.822357, 0.106]},
+    "measured_center_top_separation_m": 0.011738,
+    "measured_side_separation_m": 0.008558,
+    "note": "The window already has outer and inner faces with opposite normals. Its thin-shell geometry should be retained; its paper-like appearance cannot be assigned to a missing glass volume."
+  },
+  "head_window_uv": {
+    "layer": "UV_TRIAL_V3_GLASS_XY",
+    "mapping": "U=(X+0.575)/1.15; V=(Y+1.15)/2.30",
+    "uv_bounds": {"min": [0.111304, 0.696226], "max": [0.888696, 0.857547]}
+  },
+  "minimal_geometry_implication": {
+    "keep": [
+      "Existing closed fixed shell, cover, and bed volume",
+      "Existing parent Empty and its frame-60 motion"
+    ],
+    "add_only": [
+      "A shallow physical foot-display housing behind/around the existing display plane",
+      "A narrow, separately UVed physical head-window frame or seal shoulder if stronger edge readability is required"
+    ],
+    "avoid": [
+      "Whole-object Solidify on the already closed cover, shell, bed, or head-window thin shell",
+      "Reusing full planar interior UV for narrow new section faces"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "materials": {
+    "lid": {
+      "material": "POD_V4_lid",
+      "texture": "lid.png",
+      "uv_layer": "UV_TRIAL_V3_LID_XY"
+    },
+    "shell_side": {
+      "material": "POD_V4_shell_side",
+      "texture": "shell_side.png",
+      "uv_layer": "UV_TRIAL_V3_SHELL_SIDE"
+    },
+    "shell_end": {
+      "material": "POD_V4_shell_end",
+      "texture": "shell_end.png",
+      "uv_layer": "UV_TRIAL_V3_SHELL_END"
+    },
+    "interior": {
+      "material": "POD_V4_interior",
+      "texture": "interior.png",
+      "uv_layer": "UV_TRIAL_V3_INTERIOR_XY"
+    },
+    "mattress": {
+      "material": "POD_V4_mattress",
+      "texture": "mattress.png",
+      "uv_layer": "UV_TRIAL_V3_MATTRESS_XY"
+    },
+    "glass": {
+      "material": "POD_V4_glass",
+      "texture": "glass.png",
+      "uv_layer": "UV_TRIAL_V3_GLASS_XY"
+    },
+    "display": {
+      "material": "POD_V4_display",
+      "texture": "display.png",
+      "uv_layer": "UV_SCREEN_0_1"
+    },
+    "section": {
+      "material": "POD_V4_section",
+      "texture": "section.png",
+      "uv_layer": "UV_POD_V4_SECTION"
+    }
+  },
+  "components": {
+    "ONE_PIECE_COVER_head_window": {
+      "texture_keys": [
+        "lid",
+        "interior",
+        "glass"
+      ],
+      "uv_layers": [
+        "UV_TRIAL_V3_LID_XY",
+        "UV_TRIAL_V3_INTERIOR_XY",
+        "UV_TRIAL_V3_GLASS_XY"
+      ],
+      "notes": "Existing GLASS_UV range retained; source pane is an 8.6\u201311.7mm two-sided shell."
+    },
+    "Reference_led_fixed_shell": {
+      "texture_keys": [
+        "shell_side",
+        "shell_end",
+        "interior",
+        "section"
+      ],
+      "uv_layers": [
+        "UV_TRIAL_V3_SHELL_SIDE",
+        "UV_TRIAL_V3_SHELL_END",
+        "UV_TRIAL_V3_INTERIOR_XY",
+        "UV_POD_V4_SECTION"
+      ],
+      "notes": "Existing source geometry; only material replacement and export splitting."
+    },
+    "Sleeping_surface": {
+      "texture_keys": [
+        "mattress"
+      ],
+      "uv_layers": [
+        "UV_TRIAL_V3_MATTRESS_XY"
+      ],
+      "notes": "Existing source geometry; only material replacement and export splitting."
+    },
+    "Foot_info_display_surface": {
+      "texture_keys": [
+        "display"
+      ],
+      "uv_layers": [
+        "UV_SCREEN_0_1"
+      ],
+      "notes": "Existing source geometry; only material replacement and export splitting."
+    },
+    "pod_v4_window_frame": {
+      "texture_keys": [
+        "section"
+      ],
+      "uv_layers": [
+        "UV_POD_V4_SECTION"
+      ],
+      "notes": "New physically closed section component; section uses the narrow 8px V atlas band."
+    },
+    "pod_v4_window_inner_seal": {
+      "texture_keys": [
+        "section"
+      ],
+      "uv_layers": [
+        "UV_POD_V4_SECTION"
+      ],
+      "notes": "New physically closed section component; section uses the narrow 8px V atlas band."
+    },
+    "pod_v4_display_housing": {
+      "texture_keys": [
+        "section"
+      ],
+      "uv_layers": [
+        "UV_POD_V4_SECTION"
+      ],
+      "notes": "New physically closed section component; section uses the narrow 8px V atlas band."
+    },
+    "pod_v4_lid_inner_backing": {
+      "texture_keys": [
+        "section"
+      ],
+      "uv_layers": [
+        "UV_POD_V4_SECTION"
+      ],
+      "notes": "New physically closed section component; section uses the narrow 8px V atlas band."
+    },
+    "pod_v4_basin_seal_lip": {
+      "texture_keys": [
+        "section"
+      ],
+      "uv_layers": [
+        "UV_POD_V4_SECTION"
+      ],
+      "notes": "New physically closed section component; section uses the narrow 8px V atlas band."
+    }
+  },
+  "export_policy": "Each GLB primitive is material-split and retains exactly its named active UV as TEXCOORD_0."
+}

@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/dev/room1_pod_volume_review_v4.gd" id="1"]
+[node name="PodVolumeReviewV4" type="Node3D"]
+script = ExtResource("1")

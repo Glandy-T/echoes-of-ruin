@@ -1,0 +1,230 @@
+{
+  "source": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_pixellab_pod_trial_v3\\room1_pixellab_pod_trial_v3.blend",
+  "additions": {
+    "window_rim_width_m": 0.042,
+    "window_rim_depth_m": 0.018,
+    "inner_seal_depth_m": 0.014,
+    "display_housing_depth_m": 0.038,
+    "lid_inner_backing_depth_m": 0.028,
+    "basin_lip_radial_inset_m": 0.02,
+    "basin_lip_vertical_drop_m": 0.025
+  },
+  "existing_glass_preserved": {
+    "outer_faces": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "inner_faces": [
+      148,
+      149,
+      150,
+      151,
+      152
+    ],
+    "uv": "UV_TRIAL_V3_GLASS_XY"
+  },
+  "source_uv_repair": {
+    "fixed_shell_polygon_reclassified_to_section": [
+      85,
+      86
+    ],
+    "reason": "original planar XY UV creates 24 zero-area fan triangles on the two constant-Y vertical interior faces; replacement uses X\u00d7Z section UV."
+  },
+  "source_fit": {
+    "lid_inner_backing": {
+      "source_face": 117,
+      "source_vertices_m": [
+        [
+          -0.266609,
+          -0.740234,
+          0.094243
+        ],
+        [
+          -0.266597,
+          0.366007,
+          0.094286
+        ],
+        [
+          0.266597,
+          0.366007,
+          0.094286
+        ],
+        [
+          0.266609,
+          -0.740234,
+          0.094243
+        ]
+      ],
+      "top_vertices_m": [
+        [
+          -0.250613,
+          -0.707047,
+          0.095244
+        ],
+        [
+          -0.250601,
+          0.33282,
+          0.095285
+        ],
+        [
+          0.250601,
+          0.33282,
+          0.095285
+        ],
+        [
+          0.250613,
+          -0.707047,
+          0.095244
+        ]
+      ],
+      "inset_factor": 0.94,
+      "inward_depth_m": 0.028
+    },
+    "basin_seal_lip": {
+      "source_rim_vertex_indices": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "outer_embed_m": 0.002,
+      "radial_inset_m": 0.02,
+      "inner_drop_m": 0.025
+    },
+    "head_end_shell_end_uv_flipped_faces": 45
+  },
+  "new_meshes": {
+    "pod_v4_window_frame": {
+      "vertices": 48,
+      "polygons": 48,
+      "boundary_edges": 0,
+      "uv_area_min": 0.1008,
+      "uv_area_max": 0.1008
+    },
+    "pod_v4_window_inner_seal": {
+      "vertices": 48,
+      "polygons": 48,
+      "boundary_edges": 0,
+      "uv_area_min": 0.1008,
+      "uv_area_max": 0.1008
+    },
+    "pod_v4_display_housing": {
+      "vertices": 16,
+      "polygons": 17,
+      "boundary_edges": 0,
+      "uv_area_min": 0.1008,
+      "uv_area_max": 0.1008
+    },
+    "pod_v4_lid_inner_backing": {
+      "vertices": 8,
+      "polygons": 6,
+      "boundary_edges": 0,
+      "uv_area_min": 0.1008,
+      "uv_area_max": 0.1008
+    },
+    "pod_v4_basin_seal_lip": {
+      "vertices": 32,
+      "polygons": 32,
+      "boundary_edges": 0,
+      "uv_area_min": 0.1008,
+      "uv_area_max": 0.1008
+    }
+  },
+  "exports": [
+    {
+      "file": "pod_closed_v4.glb",
+      "frame": 1,
+      "bounds_m": {
+        "min_m": [
+          -0.525,
+          -1.147,
+          0.0
+        ],
+        "max_m": [
+          0.525,
+          1.147,
+          0.665
+        ]
+      },
+      "objects": [
+        "pod_v4_display",
+        "pod_v4_lid",
+        "pod_v4_interior",
+        "pod_v4_glass",
+        "pod_v4_section",
+        "pod_v4_section.001",
+        "pod_v4_section.002",
+        "pod_v4_section.003",
+        "pod_v4_section.004",
+        "pod_v4_shell_side",
+        "pod_v4_shell_end",
+        "pod_v4_interior.001",
+        "pod_v4_section.005",
+        "pod_v4_mattress"
+      ],
+      "primitive_count": 14,
+      "material_names": [
+        "POD_V4_display",
+        "POD_V4_lid",
+        "POD_V4_interior",
+        "POD_V4_glass",
+        "POD_V4_section",
+        "POD_V4_shell_side",
+        "POD_V4_shell_end",
+        "POD_V4_mattress"
+      ],
+      "embedded_images": true
+    },
+    {
+      "file": "pod_open_v4.glb",
+      "frame": 60,
+      "bounds_m": {
+        "min_m": [
+          -0.525,
+          -1.147,
+          0.0
+        ],
+        "max_m": [
+          1.054899,
+          1.147,
+          1.08528
+        ]
+      },
+      "objects": [
+        "pod_v4_display",
+        "pod_v4_lid",
+        "pod_v4_interior",
+        "pod_v4_glass",
+        "pod_v4_section",
+        "pod_v4_section.001",
+        "pod_v4_section.002",
+        "pod_v4_section.003",
+        "pod_v4_section.004",
+        "pod_v4_shell_side",
+        "pod_v4_shell_end",
+        "pod_v4_interior.001",
+        "pod_v4_section.005",
+        "pod_v4_mattress"
+      ],
+      "primitive_count": 14,
+      "material_names": [
+        "POD_V4_display",
+        "POD_V4_lid",
+        "POD_V4_interior",
+        "POD_V4_glass",
+        "POD_V4_section",
+        "POD_V4_shell_side",
+        "POD_V4_shell_end",
+        "POD_V4_mattress"
+      ],
+      "embedded_images": true
+    }
+  ]
+}

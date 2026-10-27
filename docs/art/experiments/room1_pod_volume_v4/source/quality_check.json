@@ -1,0 +1,286 @@
+{
+  "editable_readback": {
+    "lid": {
+      "size": [
+        128,
+        256
+      ],
+      "exact": true
+    },
+    "shell_side": {
+      "size": [
+        256,
+        80
+      ],
+      "exact": true
+    },
+    "shell_end": {
+      "size": [
+        128,
+        80
+      ],
+      "exact": true
+    },
+    "interior": {
+      "size": [
+        128,
+        256
+      ],
+      "exact": true
+    },
+    "mattress": {
+      "size": [
+        128,
+        256
+      ],
+      "exact": true
+    },
+    "glass": {
+      "size": [
+        128,
+        256
+      ],
+      "exact": true
+    },
+    "display": {
+      "size": [
+        128,
+        48
+      ],
+      "exact": true
+    },
+    "section": {
+      "size": [
+        128,
+        64
+      ],
+      "exact": true
+    }
+  },
+  "glb_embedded_textures": {
+    "closed": [
+      {
+        "image": "display",
+        "matches": [
+          "display"
+        ]
+      },
+      {
+        "image": "lid",
+        "matches": [
+          "lid"
+        ]
+      },
+      {
+        "image": "interior",
+        "matches": [
+          "interior"
+        ]
+      },
+      {
+        "image": "glass",
+        "matches": [
+          "glass"
+        ]
+      },
+      {
+        "image": "section",
+        "matches": [
+          "section"
+        ]
+      },
+      {
+        "image": "shell_side",
+        "matches": [
+          "shell_side"
+        ]
+      },
+      {
+        "image": "shell_end",
+        "matches": [
+          "shell_end"
+        ]
+      },
+      {
+        "image": "mattress",
+        "matches": [
+          "mattress"
+        ]
+      }
+    ],
+    "open": [
+      {
+        "image": "display",
+        "matches": [
+          "display"
+        ]
+      },
+      {
+        "image": "lid",
+        "matches": [
+          "lid"
+        ]
+      },
+      {
+        "image": "interior",
+        "matches": [
+          "interior"
+        ]
+      },
+      {
+        "image": "glass",
+        "matches": [
+          "glass"
+        ]
+      },
+      {
+        "image": "section",
+        "matches": [
+          "section"
+        ]
+      },
+      {
+        "image": "shell_side",
+        "matches": [
+          "shell_side"
+        ]
+      },
+      {
+        "image": "shell_end",
+        "matches": [
+          "shell_end"
+        ]
+      },
+      {
+        "image": "mattress",
+        "matches": [
+          "mattress"
+        ]
+      }
+    ]
+  },
+  "screenshots": {
+    "new_closed": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "003bdc8ec72d21c87b856dc0d09b88b4f8c8326149e47cabc202f6228bc00b84"
+    },
+    "new_display_close": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "769bbbe9da11606b28db876bb53d74c5afab6fe4a0eb4e359aaae489d73333fb"
+    },
+    "new_glass_no_reflection_control": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "f37d694854f09de3f01660724dafae033a9d97443aa32e7046b0665ce8123870"
+    },
+    "new_glass_powered": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "80d555ed075f4d54fd73d5b3a127a88df169d71653216ff2c60e1eb7ff0985d4"
+    },
+    "new_glass_removed_control": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "bd264a05a87dd5678839c6cf1de27c3b40c9859072c71c4a29d86e8178698d1f"
+    },
+    "new_glass_restored": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "80d555ed075f4d54fd73d5b3a127a88df169d71653216ff2c60e1eb7ff0985d4"
+    },
+    "new_glass_unpowered": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "7534b24cafa3474a8f703b8bfe877402794ca55e0a1f2efd1aa02700f236502b"
+    },
+    "new_open": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "47068b0c580b540162f6101c515e9fe0e073e326872339901df4896473b85869"
+    },
+    "new_open_view_1": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "2cd683b49d6a2968752d9e50d338b3521784f02b8e9bfa2b6d6a2ecc8ec0bb8f"
+    },
+    "new_open_view_2": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "0359225a44e4f3fd3e948bb52bc85004f363feb5793ee4e322c3b2081e3bb752"
+    },
+    "new_open_view_4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "b8fb86b7d7ed3f4dd47b1e75d2c5dbb60a7bf18526a388008cd4163da4c924d3"
+    },
+    "new_open_view_5": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "b446f4cb77ed1287cacd8c686af6ef0204dacb19dd6eb2483b458462b2deb5b6"
+    },
+    "old_closed": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "8881786ae9d524e37ced313feae768c751f85e45caed3bca6f69d4880d0f10eb"
+    },
+    "old_display_close": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "446c83087aa2caf4e5b6eb11287ddc5dd1051f76e0c7afb7fecdb592bb225572"
+    },
+    "old_glass_powered": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "d618abdb4d0a9f3f7b314b1d2211176915abb87a9c922b3d70445a54b390aeaa"
+    },
+    "old_open": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "5b40c9674b3c8e6591a11cc55591b85e888f63528ac85bddabec1a3b4543986c"
+    }
+  },
+  "glass_restore_exact": true,
+  "glass_control_changed": {
+    "new_glass_removed_control": true,
+    "new_glass_unpowered": true,
+    "new_glass_no_reflection_control": true
+  },
+  "glass_texture_alpha_range": [
+    24,
+    104
+  ]
+}

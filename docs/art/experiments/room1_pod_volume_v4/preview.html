@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Room 1 · 单舱 v4</title>
+<style>body{margin:0;background:#192128;color:#e0e5e7;font:16px/1.6 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{font-size:26px}h2{font-size:20px;margin-top:36px}p{max-width:1000px;color:#c1cbd0}a{color:#9bcddc}section{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;background:#253039;border:1px solid #3a4a54}img{display:block;width:100%;image-rendering:pixelated}figcaption{padding:10px 14px}small{color:#aab9c1}nav a{margin-right:20px}@media(max-width:800px){section{grid-template-columns:1fr}main{padding:16px}}</style>
+<main><h1>Room 1 · 休眠舱 v4</h1>
+<p>单舱候选：实体截面、透明头窗与沿结构旧化。保留外部轮廓和45°开盖终态。以下均为实际Godot输出1280×720；旧新共用独立审图灯光和机位。整室没有替换或重烘焙。</p>
+<nav><a href="room1_pod_volume_v4.blend">Blender工程</a><a href="editable/">八份分层Aseprite</a><a href="README.md">来源、导入与限制</a><a href="source/quality_check.json">交付核验</a></nav>
+<h2>闭合 · 同机位</h2><section>
+<figure><a href="evidence/old_closed.png"><img src="evidence/old_closed.png"></a><figcaption>旧 v3 · 保留对照</figcaption></figure>
+<figure><a href="evidence/new_closed.png"><img src="evidence/new_closed.png"></a><figcaption>新 v4 · 窗周实体框沿、浅凹屏壳、结构积旧</figcaption></figure></section>
+<h2>打开 · 同机位</h2><section>
+<figure><a href="evidence/old_open.png"><img src="evidence/old_open.png"></a><figcaption>旧 v3 · 原开盖终态</figcaption></figure>
+<figure><a href="evidence/new_open.png"><img src="evidence/new_open.png"></a><figcaption>新 v4 · 盖内衬与舱口密封肩</figcaption></figure></section>
+<h2>实体截面复核</h2><section>
+<figure><a href="evidence/new_open_view_1.png"><img src="evidence/new_open_view_1.png"></a><figcaption>长侧观察 · 内衬及舱口厚度</figcaption></figure>
+<figure><a href="evidence/new_open_view_2.png"><img src="evidence/new_open_view_2.png"></a><figcaption>低机位 · 盖内侧与边框</figcaption></figure>
+<figure><a href="evidence/new_open_view_4.png"><img src="evidence/new_open_view_4.png"></a><figcaption>低角度构图检查 · 非Room 1镜头变更</figcaption></figure>
+<figure><a href="evidence/new_open_view_5.png"><img src="evidence/new_open_view_5.png"></a><figcaption>头侧反向检查</figcaption></figure></section>
+<h2>透明玻璃 · 同机位控制</h2><p>新玻璃无自发光：内部亮度来自真实舱内光；局部像素反光由独立alpha控制。隐藏玻璃图仅用于验证内部几何是否真实可见。</p><section>
+<figure><a href="evidence/old_glass_powered.png"><img src="evidence/old_glass_powered.png"></a><figcaption>旧玻璃 · RGB反光/透光与旧舱内效果</figcaption></figure>
+<figure><a href="evidence/new_glass_powered.png"><img src="evidence/new_glass_powered.png"></a><figcaption>新玻璃 · 可透见床面，保留局部反光</figcaption></figure>
+<figure><a href="evidence/new_glass_removed_control.png"><img src="evidence/new_glass_removed_control.png"></a><figcaption>隐藏玻璃控制 · 其余条件相同</figcaption></figure>
+<figure><a href="evidence/new_glass_unpowered.png"><img src="evidence/new_glass_unpowered.png"></a><figcaption>舱内灯熄灭 · 玻璃仍存在</figcaption></figure></section>
+<h2>显示屏 · 同机位</h2><section>
+<figure><a href="evidence/old_display_close.png"><img src="evidence/old_display_close.png"></a><figcaption>旧单面屏面</figcaption></figure>
+<figure><a href="evidence/new_display_close.png"><img src="evidence/new_display_close.png"></a><figcaption>新浅凹背壳 · NAME/SYS和状态条仍为占位</figcaption></figure></section>
+<p><small>八份可编辑母版已重开导出核验；两份GLB内嵌图与最终PNG一致。最终美术取舍待用户审查。本轮未改房间、墙地、灯光、主场景或人物；未生成新的AI素材。</small></p></main></html>

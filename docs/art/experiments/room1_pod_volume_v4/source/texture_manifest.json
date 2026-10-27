@@ -1,0 +1,145 @@
+{
+  "scope": "Existing pod design retained; clear glass alpha independent of RGB, cool-gray seam/contact aging, sample P12 numbering. No new AI call.",
+  "textures": [
+    {
+      "key": "lid",
+      "size": [
+        128,
+        256
+      ],
+      "layers": [
+        "v3_design_pixel_planes",
+        "seam_and_recess_aging",
+        "coating_contact_chips",
+        "sample_id_12_or_placeholder_UI"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shell_side",
+      "size": [
+        256,
+        80
+      ],
+      "layers": [
+        "v3_design_pixel_planes",
+        "seam_and_recess_aging",
+        "coating_contact_chips",
+        "sample_id_12_or_placeholder_UI"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "key": "shell_end",
+      "size": [
+        128,
+        80
+      ],
+      "layers": [
+        "v3_design_pixel_planes",
+        "seam_and_recess_aging",
+        "coating_contact_chips",
+        "sample_id_12_or_placeholder_UI"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "key": "interior",
+      "size": [
+        128,
+        256
+      ],
+      "layers": [
+        "v3_design_pixel_planes",
+        "seam_and_recess_aging",
+        "coating_contact_chips",
+        "sample_id_12_or_placeholder_UI"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "key": "mattress",
+      "size": [
+        128,
+        256
+      ],
+      "layers": [
+        "v3_design_pixel_planes",
+        "seam_and_recess_aging",
+        "coating_contact_chips",
+        "sample_id_12_or_placeholder_UI"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "key": "glass",
+      "size": [
+        128,
+        256
+      ],
+      "layers": [
+        "clear_glass_tint",
+        "localized_pixel_reflections"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        24,
+        104
+      ]
+    },
+    {
+      "key": "display",
+      "size": [
+        128,
+        48
+      ],
+      "layers": [
+        "v3_design_pixel_planes",
+        "seam_and_recess_aging",
+        "coating_contact_chips",
+        "sample_id_12_or_placeholder_UI"
+      ],
+      "source_v3_hidden": true,
+      "alpha_range": [
+        255,
+        255
+      ]
+    },
+    {
+      "key": "section",
+      "size": [
+        128,
+        64
+      ],
+      "layers": [
+        "section_material_planes",
+        "edge_retained_film"
+      ],
+      "source_v3_hidden": false,
+      "alpha_range": [
+        255,
+        255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "active_material_images": {
+    "lid": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        256
+      ]
+    },
+    "shell_side": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        256,
+        80
+      ]
+    },
+    "shell_end": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        80
+      ]
+    },
+    "interior": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        256
+      ]
+    },
+    "mattress": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        256
+      ]
+    },
+    "glass": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        256
+      ]
+    },
+    "display": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        48
+      ]
+    },
+    "section": {
+      "packed": true,
+      "exact_png_bytes": true,
+      "size": [
+        128,
+        64
+      ]
+    }
+  },
+  "frame60_rotation_y": 0.785398
+}
