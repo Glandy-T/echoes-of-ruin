@@ -1,0 +1,21 @@
+{
+  "left_inner_uv2_area": 0.006163112353533506,
+  "other_uv_islands_overlap": [
+    [
+      "Bake_P13_pod_v3_shell_side surface 0",
+      3.3237735697966286e-05
+    ],
+    [
+      "Bake_P02_pod_v3_shell_side surface 0",
+      3.3234235889523234e-05
+    ],
+    [
+      "Bake_P20_pod_v3_shell_side surface 0",
+      3.3234235889523234e-05
+    ],
+    [
+      "Bake_P11_pod_v3_shell_side surface 0",
+      3.323423539569603e-05
+    ]
+  ]
+}
