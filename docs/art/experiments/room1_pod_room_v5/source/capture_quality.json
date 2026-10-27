@@ -1,0 +1,146 @@
+{
+  "files": {
+    "base_color_closed.png": "23c31dae17deffc3698921046f4949c3b3fd68360a7c498364f820697a5bb671",
+    "base_color_open.png": "23d9d430dd3d18e3bf91c594c5738d4e7d510b927e3d8b2d80749a400a2d21fa",
+    "glass_hidden_control.png": "588e3081c3416442a6e5c6e337505cf6468847638511df13be8bba5620939d89",
+    "glass_no_reflection_control.png": "2528d032cee8a3656a6fc7e3d2e024e640020b7b3dd545a11976833073317577",
+    "glass_powered.png": "16f75b20282ecdb47289b939ff387d5c1e1a72725955b5ec631c51042f0464f1",
+    "glass_restored.png": "16f75b20282ecdb47289b939ff387d5c1e1a72725955b5ec631c51042f0464f1",
+    "glass_unpowered.png": "79357d34fcb766c80a30311c28a15ac84ba7740ab4e2edbe753708d1e5f51193",
+    "new_close_closed.png": "842169e1e4da0077a7ce37627acc0c297d5abe2b47e59c4ecd4624b710d27c87",
+    "new_close_open.png": "0bf62ebaf2c123a7d8184a32b507a41914c3ab6fe6ef4c384bd971b5ae31b26e",
+    "new_game_closed.png": "f0d69043371e3e9fcb8886134f46ecd7a23c844963e584927aa721efbb471189",
+    "new_game_offset_closed.png": "7a9780bfa0e58faa8ca48b5985cea7283ac5d445bf8740f0508d254bbcdc0fa6",
+    "new_game_offset_open.png": "3cb21eefa389b0bfdebb6157b9a673ed70f3f0be1efdcedbb1cb5659b3921114",
+    "new_game_open.png": "9ac22271a4a8e0328fb7004c6439caef6f4bacd2404644dc8c1982a8ce54968d",
+    "new_side_closed.png": "d0d197c31f41eb61eba905fe5320cf0e9a64cdb86d3152ef0cafee40a9d94d8d",
+    "new_side_closed_restored.png": "d0d197c31f41eb61eba905fe5320cf0e9a64cdb86d3152ef0cafee40a9d94d8d",
+    "new_side_open.png": "3f0b4641879021af2f974a910b48c9565fbc65f7fd3305350ce568fb6e777d8d",
+    "new_side_open_restored.png": "3f0b4641879021af2f974a910b48c9565fbc65f7fd3305350ce568fb6e777d8d",
+    "old_close_open.png": "bf56d6c59bcb9ef0581c406a979896feadf1f8a165111fb586ace74b4c49609c",
+    "old_game_open.png": "2eee471d4bf8cf998c4a278233479547b5e3678aa0489823e7aa951551f1470a",
+    "old_game_restored.png": "149eb9fbb3a4f3e2d3f7620b952bea7accb5cc07208bd500ee3de9ebe3d6c9bd",
+    "original_r9_baseline.png": "b4e025cae187eba771ae9bb6ecfb53a0e5bbca91d1b86f47cd2869b3bcd6947a",
+    "strip_off_control.png": "6b2b2dc64c37a03b9764b47f5dee4ab8f66af50ef09159d925bb1fb9c5bf1f08",
+    "strip_restored.png": "2c727282c8a5c80e439e389767c5e2caeaf05b9f5f92d8367550fb0b9cdb3729"
+  },
+  "controls": {
+    "glass_hidden": {
+      "changed_pixels": 142089,
+      "max_channel_difference": 99
+    },
+    "glass_inner_light_off": {
+      "changed_pixels": 102739,
+      "max_channel_difference": 219
+    },
+    "glass_reflection_off": {
+      "changed_pixels": 29943,
+      "max_channel_difference": 74
+    },
+    "glass_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "closed_base_color_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "open_base_color_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "strip_light_off": {
+      "changed_pixels": 870591,
+      "max_channel_difference": 51
+    },
+    "strip_light_restore": {
+      "changed_pixels": 211,
+      "max_channel_difference": 8
+    },
+    "original_room_baseline": {
+      "changed_pixels": 1,
+      "max_channel_difference": 7
+    },
+    "old_pod_restore": {
+      "changed_pixels": 246,
+      "max_channel_difference": 1
+    }
+  },
+  "runtime": {
+    "ambient_energy": 0.025000000372529,
+    "baked_energy": 1.2,
+    "p12_position": [
+      3.52500009536743,
+      0.0,
+      -7.65000009536743
+    ],
+    "pixel_size": [
+      1280,
+      720
+    ],
+    "pod_maps": [
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "shader": "res://scripts/dev/room1_window_interior_lighting_r2.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/closed_irradiance.exr",
+        "shader": "res://scripts/dev/room1_window_interior_lighting_r2.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "shader": "res://scripts/dev/room1_window_interior_lighting_r2.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "shader": "res://scripts/dev/room1_exit_shadow_receiver_r1.gdshader"
+      },
+      {
+        "bound": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "expected": "res://assets/art/room1_pod_room_v5/open_irradiance.exr",
+        "shader": "res://scripts/dev/room1_window_interior_lighting_r2.gdshader"
+      }
+    ],
+    "strip_proxy_light_count": 0
+  },
+  "scope": "23 actual Godot screenshots; original room comparison may include TIME-driven P02/P17 red-screen changes, reported without claiming bit-exact restoration."
+}

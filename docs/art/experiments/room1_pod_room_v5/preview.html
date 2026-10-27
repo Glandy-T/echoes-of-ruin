@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Room 1 · 单舱实际光照 v5</title>
+<style>body{margin:0;background:#182026;color:#e0e5e7;font:16px/1.6 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{font-size:26px}h2{font-size:20px;margin-top:36px}p{max-width:1100px;color:#c1cbd0}a{color:#9bcddc}section{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;background:#253039;border:1px solid #3a4a54}img{display:block;width:100%;image-rendering:pixelated}figcaption{padding:10px 14px}small{color:#aab9c1}nav a{margin-right:20px}@media(max-width:800px){section{grid-template-columns:1fr}main{padding:16px}}</style>
+<main><h1>Room 1 · 单舱 v4 放回实际房间</h1>
+<p>只替换原位P12，其余19舱、墙地、灯带亮度和环境参数保持。新舱两种姿态分别有独立UV2及房间受光；截图没有提亮。当前是局部检查，闭盖对周围地面的全室静态投影尚未重烘焙。</p>
+<nav><a href="README.md">导入、来源与限制</a><a href="source/capture_quality.json">截图与控制核验</a><a href="../room1_pod_volume_v4/preview.html">上一轮单舱源与贴图</a></nav>
+<h2>游戏镜头 · 新舱闭合 / 打开</h2><p>保持原镜头角度与50° FOV，只将审图人物临时向旁移动到通道中，避免挡住P12。<a href="evidence/new_game_closed.png">原站位闭合</a> / <a href="evidence/new_game_open.png">原站位打开</a> 也保留。</p><section>
+<figure><a href="evidence/new_game_offset_closed.png"><img src="evidence/new_game_offset_closed.png"></a><figcaption>新v4 · 闭合，P12位于人物左侧</figcaption></figure>
+<figure><a href="evidence/new_game_offset_open.png"><img src="evidence/new_game_offset_open.png"></a><figcaption>新v4 · 45°打开，同一旁移站位</figcaption></figure></section>
+<h2>近景 · 相同机位和房间照明</h2><section>
+<figure><a href="evidence/new_close_closed.png"><img src="evidence/new_close_closed.png"></a><figcaption>闭合 · 外壳旧化、屏幕与头窗</figcaption></figure>
+<figure><a href="evidence/new_close_open.png"><img src="evidence/new_close_open.png"></a><figcaption>打开 · 盖内衬、舱口和内腔</figcaption></figure>
+<figure><a href="evidence/old_close_open.png"><img src="evidence/old_close_open.png"></a><figcaption>旧v3打开 · 同机位对照</figcaption></figure>
+<figure><a href="evidence/new_side_open.png"><img src="evidence/new_side_open.png"></a><figcaption>新v4打开 · 低机位检查截面</figcaption></figure></section>
+<h2>玻璃与内腔 · 条件分离</h2><section>
+<figure><a href="evidence/glass_powered.png"><img src="evidence/glass_powered.png"></a><figcaption>玻璃存在 · 正常舱内光</figcaption></figure>
+<figure><a href="evidence/glass_hidden_control.png"><img src="evidence/glass_hidden_control.png"></a><figcaption>只隐藏玻璃 · 检查透见的是否为真实内腔</figcaption></figure>
+<figure><a href="evidence/glass_unpowered.png"><img src="evidence/glass_unpowered.png"></a><figcaption>只关舱内光 · 玻璃仍存在</figcaption></figure>
+<figure><a href="evidence/glass_no_reflection_control.png"><img src="evidence/glass_no_reflection_control.png"></a><figcaption>只关像素反光 · 透明底色保留</figcaption></figure></section>
+<h2>旧化诊断 · 不作为正式照明</h2><section>
+<figure><a href="evidence/base_color_closed.png"><img src="evidence/base_color_closed.png"></a><figcaption>闭合固有色 · 检查像素旧化位置</figcaption></figure>
+<figure><a href="evidence/base_color_open.png"><img src="evidence/base_color_open.png"></a><figcaption>打开固有色 · 检查内侧纹理与截面</figcaption></figure></section>
+<p><small>所有图为实际Godot GL Compatibility输出1280×720。开关姿态为静态对比，不是新动画或碰撞验收；没有批量替换20舱，没有改动主场景或重新批准地面。</small></p></main></html>

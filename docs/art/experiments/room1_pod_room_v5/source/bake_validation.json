@@ -1,0 +1,123 @@
+{
+  "version": "room1_pod_room_v5",
+  "poses": [
+    {
+      "pose": "closed",
+      "source_room": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_floor_palette_r9\\room1_floor_palette_r9_packed.blend",
+      "glb": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\room1_pod_room_v5\\pod_closed_v5.glb",
+      "irradiance": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\room1_pod_room_v5\\closed_irradiance.exr",
+      "packed_blend": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_pod_room_v5\\room1_pod_closed_room_v5_packed.blend",
+      "p12_blender_world": [
+        3.5250000953674316,
+        7.650000095367432,
+        0.0
+      ],
+      "godot_parent_transform": [
+        3.525,
+        0,
+        -7.65
+      ],
+      "old_p12_removed": {
+        "old_p12_count": 8,
+        "old_p12_names": [
+          "Bake_P12_pod_v3_display",
+          "Bake_P12_pod_v3_glass",
+          "Bake_P12_pod_v3_interior",
+          "Bake_P12_pod_v3_interior.001",
+          "Bake_P12_pod_v3_lid",
+          "Bake_P12_pod_v3_mattress",
+          "Bake_P12_pod_v3_shell_end",
+          "Bake_P12_pod_v3_shell_side"
+        ],
+        "old_hidden_render": [
+          "Bake_P12_pod_v3_display",
+          "Bake_P12_pod_v3_glass"
+        ]
+      },
+      "excluded_from_bake": [
+        "pod_v4_display",
+        "pod_v4_glass"
+      ],
+      "uv2": {
+        "receiver_triangle_count": 1192,
+        "candidate_triangle_pairs": 3033,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1192,
+        "uv_non_degenerate_triangle_count": 1192,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "emitter_hashes": {
+        "ContinuousRibbon_0": "2be759f8f4835f5b81aa6f2e89e838971ddeac0e9db895d5b00f910e1d3fc0bc",
+        "ContinuousRibbon_1": "cb99d2177f46ecebfc800f4970446f22295971eda33294d2c27146835dcd429a",
+        "ContinuousRibbon_2": "617263a702df5ae3f6981fed51a640b12509b4cf5d3322f8a4cdc07224d2a31a",
+        "ContinuousRibbon_3": "a5bc3bb76efe7429454184c2f6ba752ed4cf7f26b062d33596dbd4aa243e6a55"
+      },
+      "glb_primitives": 8,
+      "cycles_device": "GPU",
+      "samples": 1024,
+      "scope": "P12 v4 only; r9 room, 19 v3 pods and four original ribbon emitters were retained as bake context. Existing r9 whole-room irradiance was not changed."
+    },
+    {
+      "pose": "open",
+      "source_room": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_floor_palette_r9\\room1_floor_palette_r9_packed.blend",
+      "glb": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\room1_pod_room_v5\\pod_open_v5.glb",
+      "irradiance": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\room1_pod_room_v5\\open_irradiance.exr",
+      "packed_blend": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_pod_room_v5\\room1_pod_open_room_v5_packed.blend",
+      "p12_blender_world": [
+        3.5250000953674316,
+        7.650000095367432,
+        0.0
+      ],
+      "godot_parent_transform": [
+        3.525,
+        0,
+        -7.65
+      ],
+      "old_p12_removed": {
+        "old_p12_count": 8,
+        "old_p12_names": [
+          "Bake_P12_pod_v3_display",
+          "Bake_P12_pod_v3_glass",
+          "Bake_P12_pod_v3_interior",
+          "Bake_P12_pod_v3_interior.001",
+          "Bake_P12_pod_v3_lid",
+          "Bake_P12_pod_v3_mattress",
+          "Bake_P12_pod_v3_shell_end",
+          "Bake_P12_pod_v3_shell_side"
+        ],
+        "old_hidden_render": [
+          "Bake_P12_pod_v3_display",
+          "Bake_P12_pod_v3_glass"
+        ]
+      },
+      "excluded_from_bake": [
+        "pod_v4_display",
+        "pod_v4_glass"
+      ],
+      "uv2": {
+        "receiver_triangle_count": 1192,
+        "candidate_triangle_pairs": 2878,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1192,
+        "uv_non_degenerate_triangle_count": 1192,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "emitter_hashes": {
+        "ContinuousRibbon_0": "2be759f8f4835f5b81aa6f2e89e838971ddeac0e9db895d5b00f910e1d3fc0bc",
+        "ContinuousRibbon_1": "cb99d2177f46ecebfc800f4970446f22295971eda33294d2c27146835dcd429a",
+        "ContinuousRibbon_2": "617263a702df5ae3f6981fed51a640b12509b4cf5d3322f8a4cdc07224d2a31a",
+        "ContinuousRibbon_3": "a5bc3bb76efe7429454184c2f6ba752ed4cf7f26b062d33596dbd4aa243e6a55"
+      },
+      "glb_primitives": 8,
+      "cycles_device": "GPU",
+      "samples": 1024,
+      "scope": "P12 v4 only; r9 room, 19 v3 pods and four original ribbon emitters were retained as bake context. Existing r9 whole-room irradiance was not changed."
+    }
+  ]
+}

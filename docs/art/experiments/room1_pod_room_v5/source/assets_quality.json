@@ -1,0 +1,32 @@
+[
+  {
+    "pose": "closed",
+    "glb_sha256": "350181c39d440df528591f33bd3aff644593d99cde020d2093d9d0e1cc1194f4",
+    "unchanged_v4_maps": [
+      "interior",
+      "lid",
+      "section",
+      "shell_side",
+      "shell_end",
+      "mattress",
+      "display",
+      "glass"
+    ],
+    "primitives_with_uv0_uv2": 8
+  },
+  {
+    "pose": "open",
+    "glb_sha256": "ad2d59b7757641ed4c417513d354bfaba8c722f233694af6ffba774ba8eed1f9",
+    "unchanged_v4_maps": [
+      "interior",
+      "lid",
+      "section",
+      "shell_side",
+      "shell_end",
+      "mattress",
+      "display",
+      "glass"
+    ],
+    "primitives_with_uv0_uv2": 8
+  }
+]

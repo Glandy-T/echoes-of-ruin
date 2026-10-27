@@ -1,0 +1,50 @@
+[
+  {
+    "pose": "closed",
+    "source": "room1_pod_closed_room_v5_packed.blend",
+    "active_packed_color_maps": [
+      "interior.001",
+      "lid.001",
+      "section",
+      "shell_side.001",
+      "shell_end.001",
+      "mattress.001"
+    ],
+    "packed_final_exr_sha256": "1d35c6aebc657863e52c73e43cf45f300264a6d52b8eaa364a7ae054870dd97d",
+    "receiver_uv_layers": [
+      "UVMap",
+      "LightmapUV"
+    ],
+    "p12_blender_origin": [
+      3.5250000953674316,
+      7.650000095367432,
+      0.0
+    ],
+    "original_ribbon_emitters": 4,
+    "new_glass_screen_visible_for_review": true
+  },
+  {
+    "pose": "open",
+    "source": "room1_pod_open_room_v5_packed.blend",
+    "active_packed_color_maps": [
+      "interior.001",
+      "lid.001",
+      "section",
+      "shell_side.001",
+      "shell_end.001",
+      "mattress.001"
+    ],
+    "packed_final_exr_sha256": "8149a8a0a431079eae38f16fef80371ebb0c31d6b13f0ca2467de97a48a68531",
+    "receiver_uv_layers": [
+      "UVMap",
+      "LightmapUV"
+    ],
+    "p12_blender_origin": [
+      3.5250000953674316,
+      7.650000095367432,
+      0.0
+    ],
+    "original_ribbon_emitters": 4,
+    "new_glass_screen_visible_for_review": true
+  }
+]

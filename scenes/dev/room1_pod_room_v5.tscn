@@ -1,0 +1,5 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://scenes/dev/room1_floor_palette_r9.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/room1_pod_room_v5.gd" id="2"]
+[node name="Room1PodRoomV5" instance=ExtResource("1")]
+script = ExtResource("2")

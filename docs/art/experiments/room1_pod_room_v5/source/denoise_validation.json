@@ -1,0 +1,33 @@
+{
+  "scope": "Denoised irradiance, not pixel color maps. Same compositor method as original r9; linear 32-bit ZIP EXR. Raw retained locally, excluded from delivery.",
+  "poses": [
+    {
+      "pose": "closed",
+      "final_sha256": "1d35c6aebc657863e52c73e43cf45f300264a6d52b8eaa364a7ae054870dd97d",
+      "raw_sha256": "665b4553eca820f6ae8431d129b4e11ae71c4f4e32cf86bd612b7fe3abf5918d",
+      "size": [
+        2048,
+        2048
+      ],
+      "finite": true,
+      "rgb_range": [
+        0.0,
+        0.3768177032470703
+      ]
+    },
+    {
+      "pose": "open",
+      "final_sha256": "8149a8a0a431079eae38f16fef80371ebb0c31d6b13f0ca2467de97a48a68531",
+      "raw_sha256": "4e3796ccc145c27242ba33825a02bb24781a6497174e4e4a950a5f46356c703e",
+      "size": [
+        2048,
+        2048
+      ],
+      "finite": true,
+      "rgb_range": [
+        0.0,
+        0.3985338807106018
+      ]
+    }
+  ]
+}
