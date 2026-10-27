@@ -189,3 +189,12 @@ M循环旧／墙／地／两者，J回到观察位置，H隐藏说明；WASD沿�
 129个接收网格在临时合并副本上统一按连续平面展开，UV2传回原独立网格；17,908个几何有效三角无UV退化、越界或正面积重叠，左右墙内部对角边连续。GLB读回169个网格节点的位置、UV0、法线及节点变换保持。实际Godot同机位图确认黑块消失，没有新三角明暗切缝；当前材质小样8图已刷新。未推进全室贴图返修或玩法。
 
 学校拉取main后，继续打开 `scenes/dev/room1_surface_sample_r1.tscn` 或现有出仓r3即可；不用另换场景入口。旧烘焙留存，`legacy_lightmap_for_review`仅作错误基线对照。可编辑打包Blender、正式重建入口、导出记录及4张对照图见[本次修复](experiments/room1_left_wall_uv2_fix_r2/README.md)和[预览](experiments/room1_left_wall_uv2_fix_r2/preview.html)。本轮无PixelLab生成消耗。
+
+
+## 墙角采样质量与全室巡检 r3（2026-10-27）
+
+r2消除了UV2串图，但64样本降噪形成墙角横向明暗波纹，上轮验图遗漏。新 `assets/art/room1_corner_quality_r3/` 保持r2的GLB／UV／映射完全相同，只按1024固定采样重烘；原灯带参数、颜色图、镜头和布局保持。当前出仓r3、材质小样及8张截图已切换到新数据。
+
+两个同机位对照之外，巡检6个游戏机位、4墙角、门洞和双向总览共13镜头；前墙技术检查实际解除仅投影模式，两个总览均完整覆盖20舱。未复现墙角波纹、旧黑块或明显三角光照切割。记录保留既有独立美术待办：隐藏前墙UV0／材质尚未统一，灯带有窄竖向接头，不能声称整场景美术通过。
+
+用户要求以后避免同类问题。已补充根AGENTS和[光照交付检查](ROOM1_LIGHTMAP_QA.md)，要求全场景实际审图、raw／denoised检查和UV／数据配套检查，不再以单点变好为完成标准。新打包Blender、生成入口、对照和13镜头见[r3说明](experiments/room1_corner_quality_r3/README.md)及[预览](experiments/room1_corner_quality_r3/preview.html)。无PixelLab生成消耗。

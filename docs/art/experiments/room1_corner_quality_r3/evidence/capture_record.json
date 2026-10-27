@@ -1,0 +1,186 @@
+[
+  {
+    "bake_geometry": "res://assets/art/room1_open_hero_uv2_r2/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.54799628257751,
+      2.20000004768372,
+      3.25
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "01_r2_baseline.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_open_hero_uv2_r2/strip_irradiance_denoised.exr",
+    "sample_mode": 0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_open_hero_uv2_r2/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.54799628257751,
+      2.20000004768372,
+      3.25
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "01_r2_sample.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_open_hero_uv2_r2/strip_irradiance_denoised.exr",
+    "sample_mode": 3,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_open_hero_uv2_r2/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.52500009536743,
+      2.20000004768372,
+      4.53999996185303
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "02_r2_baseline.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_open_hero_uv2_r2/strip_irradiance_denoised.exr",
+    "sample_mode": 0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_open_hero_uv2_r2/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.52500009536743,
+      2.20000004768372,
+      4.53999996185303
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "02_r2_sample.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_open_hero_uv2_r2/strip_irradiance_denoised.exr",
+    "sample_mode": 3,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.54799628257751,
+      2.20000004768372,
+      3.25
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "01_r3_baseline.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "sample_mode": 0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.54799628257751,
+      2.20000004768372,
+      3.25
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "01_r3_sample.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "sample_mode": 3,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.52500009536743,
+      2.20000004768372,
+      4.53999996185303
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "02_r3_baseline.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "sample_mode": 0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "bake_geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.52500009536743,
+      2.20000004768372,
+      4.53999996185303
+    ],
+    "corner_crop": [
+      170,
+      35,
+      350,
+      400
+    ],
+    "file": "02_r3_sample.png",
+    "fov": 50.0,
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "sample_mode": 3,
+    "size": [
+      1280,
+      720
+    ]
+  }
+]

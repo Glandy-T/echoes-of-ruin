@@ -12,3 +12,10 @@
 ## 空间与美术资料
 
 Room 1 当前以 `docs/cad/cryo_room1/ROOM1_ENGINEERING_BRIEF.md` 和 `docs/CRYO_FACILITY_LAYOUT.md` 为主要空间依据；美术方向参阅 `docs/ART_DIRECTION.md`。版本化交付记录在 `docs/cad/cryo_room1/README.md`。
+
+## 光照与UV交付补充（用户于2026-10-27要求全场景检查）
+
+- 后续Room 1烘焙、UV和材料修改须执行 [docs/art/ROOM1_LIGHTMAP_QA.md](docs/art/ROOM1_LIGHTMAP_QA.md)。不能只修报错点，或仅凭UV／哈希检查通过就宣告画面完成。
+- 交付前同时检查图集重叠／退化／越界、连续面共享边、扩边与留白、GLB／光照／映射版本匹配，以及raw和denoised实际效果。采样数不是跨场景通用的质量保证。
+- 实际游戏镜头覆盖全室，并补查四角、墙脚、门洞、灯槽、地面和全部舱体。技术巡检需真正显示被剖切隐藏／仅投影的墙，画框外或被挡住的对象不算覆盖；技术相机不得保存进游戏镜头。
+- 出现新增同类伪影需继续修复，保留修前／后同机位证据与版本化源工程。分开报告光照专题通过、其他已知美术缺陷和用户最终审查，不以局部变好替代整体验证。

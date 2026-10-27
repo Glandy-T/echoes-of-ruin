@@ -1,0 +1,202 @@
+{
+  "captures": [
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.52500009536743,
+        2.20000004768372,
+        4.53999996185303
+      ],
+      "file": "01_game.png",
+      "fov": 50.0,
+      "kind": "Unchanged gameplay camera; left/center/right in both pod rows",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        10.5,
+        2.20000004768372,
+        4.53999996185303
+      ],
+      "file": "02_game.png",
+      "fov": 50.0,
+      "kind": "Unchanged gameplay camera; left/center/right in both pod rows",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        17.4750003814697,
+        2.20000004768372,
+        4.53999996185303
+      ],
+      "file": "03_game.png",
+      "fov": 50.0,
+      "kind": "Unchanged gameplay camera; left/center/right in both pod rows",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.54799628257751,
+        2.20000004768372,
+        1.0
+      ],
+      "file": "04_game.png",
+      "fov": 50.0,
+      "kind": "Unchanged gameplay camera; left/center/right in both pod rows",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        10.5,
+        2.20000004768372,
+        1.0
+      ],
+      "file": "05_game.png",
+      "fov": 50.0,
+      "kind": "Unchanged gameplay camera; left/center/right in both pod rows",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        17.4520034790039,
+        2.20000004768372,
+        1.0
+      ],
+      "file": "06_game.png",
+      "fov": 50.0,
+      "kind": "Unchanged gameplay camera; left/center/right in both pod rows",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (0.707107, 0.0, -0.707107), Y: (-0.123091, 0.984732, -0.123092), Z: (0.696311, 0.174078, 0.696311)]",
+      "camera_position": [
+        3.79999995231628,
+        2.40000009536743,
+        -5.69999980926514
+      ],
+      "file": "07_rear_left.png",
+      "fov": 55.0,
+      "kind": "Temporary technical inspection camera; no saved camera/layout changes",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (0.707107, 0.0, 0.707107), Y: (0.123091, 0.984732, -0.123092), Z: (-0.69631, 0.174078, 0.696311)]",
+      "camera_position": [
+        17.2000007629395,
+        2.40000009536743,
+        -5.69999980926514
+      ],
+      "file": "08_rear_right.png",
+      "fov": 55.0,
+      "kind": "Temporary technical inspection camera; no saved camera/layout changes",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (-0.707107, 0.0, -0.707107), Y: (-0.123092, 0.984732, 0.123092), Z: (0.696311, 0.174078, -0.696311)]",
+      "camera_position": [
+        3.79999995231628,
+        2.40000009536743,
+        -3.79999995231628
+      ],
+      "file": "09_front_left.png",
+      "fov": 55.0,
+      "kind": "Temporary technical inspection camera; no saved camera/layout changes",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (-0.707107, 0.0, 0.707107), Y: (0.123091, 0.984732, 0.123092), Z: (-0.69631, 0.174078, -0.696311)]",
+      "camera_position": [
+        17.2000007629395,
+        2.40000009536743,
+        -3.79999995231628
+      ],
+      "file": "10_front_right.png",
+      "fov": 55.0,
+      "kind": "Temporary technical inspection camera; no saved camera/layout changes",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.991122, -0.132955), Z: (0.0, 0.132955, 0.991122)]",
+      "camera_position": [
+        10.5,
+        2.0,
+        -5.19999980926514
+      ],
+      "file": "11_door.png",
+      "fov": 55.0,
+      "kind": "Temporary technical inspection camera; no saved camera/layout changes",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.242536, -0.970142), Z: (0.0, 0.970142, 0.242536)]",
+      "camera_position": [
+        10.5,
+        15.0,
+        -1.0
+      ],
+      "file": "12_overview_front.png",
+      "fov": 70.0,
+      "kind": "Temporary technical overview; all20pods and floor coverage, not a proposed gameplay camera",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.242535, 0.970143), Z: (-0.0, 0.970143, -0.242535)]",
+      "camera_position": [
+        10.5,
+        15.0,
+        -8.5
+      ],
+      "file": "13_overview_rear.png",
+      "fov": 70.0,
+      "kind": "Temporary technical overview; all20pods and floor coverage, not a proposed gameplay camera",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+  "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+  "scope": "Six game views, four corner views, door, two overview cameras. Front cutaway wall shown only for technical front-corner inspection."
+}

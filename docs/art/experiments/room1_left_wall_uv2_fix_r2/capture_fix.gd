@@ -10,6 +10,8 @@ func render_fix() -> void:
 	for legacy in [true, false]:
 		var room: Node = load("res://scenes/dev/room1_surface_sample_r1.tscn").instantiate()
 		room.legacy_lightmap_for_review = legacy
+		if not legacy:
+			room.lightmap_bake_override = "res://assets/art/room1_open_hero_uv2_r2"
 		get_root().add_child(room)
 		for frame in 15:
 			await process_frame

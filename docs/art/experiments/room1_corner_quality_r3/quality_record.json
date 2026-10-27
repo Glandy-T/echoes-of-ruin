@@ -1,0 +1,29 @@
+{
+  "status": "PASS_targeted_lightmap_regression",
+  "not_final_art_approval": true,
+  "same_camera_views": 2,
+  "gameplay_survey_views": 6,
+  "corner_views": 4,
+  "door_views": 1,
+  "overview_views": 2,
+  "samples": 1024,
+  "geometry_uv2_mapping_byte_identical_to_r2": true,
+  "observed": [
+    "r2 corner horizontal denoise waves absent in reviewed r3 frames",
+    "old lower-left black patch absent",
+    "no broad UV-triangle lighting cuts in reviewed walls/pods",
+    "all20pods and floor covered by inside-above overview",
+    "front shadow-only wall explicitly rendered for technical corner review"
+  ],
+  "remaining_existing_art_findings": [
+    "Hidden front cutaway wall has incomplete UV0/material appearance: midheight protection strip and dark lower half; not art-approved",
+    "Visible narrow joins in upper light strip are existing material/segment continuity details, not the repaired baked-wall noise"
+  ],
+  "file_sha256": {
+    "room1_baked_uv2_r3.glb": "8c52dac27ce1584da4d524db772ad76e7075dddbb5f97924c4cc9998392ed63e",
+    "mesh_mapping.json": "d91e27b761a387f344c4104a8e127732f2bfc1f2bd6c557c73fe930152dd124a",
+    "uv2_layout_record.json": "7962997d516afc297298e45038c8997b5c7a7f807f6749671a95243ef3e8904f",
+    "strip_irradiance_denoised.exr": "e5187716193561eba96058da6edf43216ab0a7d8f8fdad06f0f32b0bddfc2c28"
+  },
+  "review": "Parent and independent visual validator inspected actual Godot images. Hashes confirm scope, not visual quality."
+}

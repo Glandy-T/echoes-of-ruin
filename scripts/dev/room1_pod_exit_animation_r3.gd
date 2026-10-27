@@ -2,9 +2,12 @@
 extends "res://scripts/dev/room1_pod_exit_animation_r2.gd"
 
 @export var legacy_lightmap_for_review: bool = false
+@export_dir var lightmap_bake_override: String = ""
 
 func _ready() -> void:
-	open_hero_bake_root = "res://assets/art/room1_open_hero_bake_r1" if legacy_lightmap_for_review else "res://assets/art/room1_open_hero_uv2_r2"
+	open_hero_bake_root = "res://assets/art/room1_open_hero_bake_r1" if legacy_lightmap_for_review else "res://assets/art/room1_corner_quality_r3"
+	if not lightmap_bake_override.is_empty():
+		open_hero_bake_root = lightmap_bake_override
 	super._ready()
 
 func _window_effect_pods() -> PackedStringArray:
