@@ -1,0 +1,225 @@
+{
+  "authority": "User accepted wall aging and requested a seamless fully aged floor, plus conspicuous leak traces around several random pods.",
+  "authorship": "Project-authored continuous coating fields, real-perimeter/base contact and pod-anchored residue masks. No third-party images or AI calls.",
+  "size": [
+    1648,
+    728
+  ],
+  "density_trial_texels_m": 80,
+  "world_mapping": {
+    "x": [
+      0.2,
+      20.8
+    ],
+    "z": [
+      -9.3,
+      -0.2
+    ],
+    "u": "(x-.2)/20.6",
+    "v": "(z+9.3)/9.1",
+    "image_top": "rear wall"
+  },
+  "pod_layout_source": "scenes/dev/room1_pod_exit_animation_r3.tscn",
+  "pod_count": 20,
+  "selection_seed": 20261027,
+  "selection_rule": "One pod in each of four row/side groups; excludes hero P12 and special red-screen P02/P17 to avoid asserting a causal story.",
+  "selected_pods": [
+    "P03",
+    "P06",
+    "P13",
+    "P18"
+  ],
+  "leaks": [
+    {
+      "pod": "P03",
+      "world_center": [
+        5.275,
+        0,
+        -1.85
+      ],
+      "world_floor_uv": [
+        0.24635922330097088,
+        0.8186813186813189
+      ],
+      "pixel_center": [
+        406.0,
+        596.0000000000001
+      ],
+      "pixel_bounds": [
+        336,
+        464,
+        495,
+        698
+      ],
+      "flow_side": 1,
+      "toward_aisle": -1,
+      "variant": 0,
+      "meaning": "Static old leak residue/crust around this pod base; fluid composition and gameplay significance not established."
+    },
+    {
+      "pod": "P06",
+      "world_center": [
+        12.225,
+        0,
+        -1.85
+      ],
+      "world_floor_uv": [
+        0.5837378640776699,
+        0.8186813186813189
+      ],
+      "pixel_center": [
+        962.0,
+        596.0000000000001
+      ],
+      "pixel_bounds": [
+        872,
+        473,
+        1047,
+        704
+      ],
+      "flow_side": -1,
+      "toward_aisle": -1,
+      "variant": 1,
+      "meaning": "Static old leak residue/crust around this pod base; fluid composition and gameplay significance not established."
+    },
+    {
+      "pod": "P13",
+      "world_center": [
+        5.275,
+        0,
+        -7.65
+      ],
+      "world_floor_uv": [
+        0.24635922330097088,
+        0.18131868131868137
+      ],
+      "pixel_center": [
+        406.0,
+        132.00000000000003
+      ],
+      "pixel_bounds": [
+        335,
+        25,
+        495,
+        272
+      ],
+      "flow_side": 1,
+      "toward_aisle": 1,
+      "variant": 2,
+      "meaning": "Static old leak residue/crust around this pod base; fluid composition and gameplay significance not established."
+    },
+    {
+      "pod": "P18",
+      "world_center": [
+        15.725,
+        0,
+        -7.65
+      ],
+      "world_floor_uv": [
+        0.7536407766990291,
+        0.18131868131868137
+      ],
+      "pixel_center": [
+        1242.0,
+        132.00000000000003
+      ],
+      "pixel_bounds": [
+        1152,
+        29,
+        1310,
+        259
+      ],
+      "flow_side": -1,
+      "toward_aisle": 1,
+      "variant": 3,
+      "meaning": "Static old leak residue/crust around this pod base; fluid composition and gameplay significance not established."
+    }
+  ],
+  "floor_seams_routes_new_geometry": false,
+  "liquid_simulation": false,
+  "new_generation_usage": 0,
+  "pod_plan_bounds": "1.05x2.3m nominal footprint; runtime r5 readback measures approximately 1.05x2.294m on all four closed leak pods, consistent with placement.",
+  "original_floor_reference_sha256": "67a075182a3d8ebe67b9b3a6a2974b0744555baa4cff17847d2862498f7b906d",
+  "runtime_pod_aabb_readback": [
+    {
+      "origin": [
+        5.27500009536743,
+        0.0,
+        -1.85000002384186
+      ],
+      "pod": "P03",
+      "world_aabb": {
+        "position": [
+          4.75,
+          0.0,
+          -2.99699997901917
+        ],
+        "size": [
+          1.05000019073486,
+          0.665000021457672,
+          2.29399991035461
+        ]
+      }
+    },
+    {
+      "origin": [
+        12.2250003814697,
+        0.0,
+        -1.85000002384186
+      ],
+      "pod": "P06",
+      "world_aabb": {
+        "position": [
+          11.7000007629395,
+          0.0,
+          -2.99699997901917
+        ],
+        "size": [
+          1.04999923706055,
+          0.665000021457672,
+          2.29399991035461
+        ]
+      }
+    },
+    {
+      "origin": [
+        5.27500009536743,
+        0.0,
+        -7.65000009536743
+      ],
+      "pod": "P13",
+      "world_aabb": {
+        "position": [
+          4.75,
+          0.0,
+          -8.79699993133545
+        ],
+        "size": [
+          1.05000019073486,
+          0.665000021457672,
+          2.29399967193604
+        ]
+      }
+    },
+    {
+      "origin": [
+        15.7250003814697,
+        0.0,
+        -7.65000009536743
+      ],
+      "pod": "P18",
+      "world_aabb": {
+        "position": [
+          15.2000007629395,
+          0.0,
+          -8.79699993133545
+        ],
+        "size": [
+          1.04999923706055,
+          0.665000021457672,
+          2.29399967193604
+        ]
+      }
+    }
+  ]
+}

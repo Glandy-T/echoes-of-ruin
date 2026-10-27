@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/room1_wall_age_r4.tscn" id="1_r4"]
+[ext_resource type="Script" path="res://scripts/dev/room1_surface_full_r5.gd" id="2_r5"]
+
+[node name="Room1SurfaceFullR5" instance=ExtResource("1_r4")]
+script = ExtResource("2_r5")
+lightmap_bake_override = "res://assets/art/room1_wall_finish_r4"

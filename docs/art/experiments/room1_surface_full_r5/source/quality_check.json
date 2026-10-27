@@ -1,0 +1,77 @@
+{
+  "floor_aged": {
+    "size": [
+      1648,
+      728
+    ],
+    "aseprite_reopen_exact": true,
+    "sha256": "6e2644eaaf6323a99e22983a754b3cee86cb8eeb922c140618b9fadb02feb3bb"
+  },
+  "floor_with_leaks": {
+    "size": [
+      1648,
+      728
+    ],
+    "aseprite_reopen_exact": true,
+    "sha256": "9e5017f82659a0f756bf985c4d3e5103e002eb86f49f2bad682158f1fb9bf9b3"
+  },
+  "wall_left": {
+    "size": [
+      728,
+      272
+    ],
+    "aseprite_reopen_exact": true,
+    "sha256": "83e150ea8670a1439a9d0ba079377c77c0f9eeed4da23c0aea43d80bd4975ac2"
+  },
+  "wall_right": {
+    "size": [
+      728,
+      272
+    ],
+    "aseprite_reopen_exact": true,
+    "sha256": "a3955a88c7e4db69031d9ce403b0fe037b0fcc8c854598d8e515cee50443fc1e"
+  },
+  "wall_front": {
+    "size": [
+      1648,
+      272
+    ],
+    "aseprite_reopen_exact": true,
+    "sha256": "4096203d4a47d6dbb3ed74df34534da3b139705f45d96ca69b181e3d23dd8386"
+  },
+  "wall_rear": {
+    "size": [
+      1648,
+      272
+    ],
+    "aseprite_reopen_exact": true,
+    "sha256": "87780f90a38a689e95339bcf799538f806dea15fe45e510bc9b0eca33f113429"
+  },
+  "wall_corner_and_diffuser": {
+    "all_end_columns_equal": true,
+    "diffuser_rgb": [
+      204,
+      221,
+      228
+    ],
+    "diffuser_rows": [
+      18,
+      35
+    ]
+  },
+  "r4_and_n_roundtrip_exact": true,
+  "actual_capture_count": {
+    "comparison": 19,
+    "survey": 14,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "scope": {
+    "geometry_uv2_hdr_camera_lights_changed": false,
+    "formal_main_changed": false,
+    "new_albedo_bounce_rebaked": false,
+    "new_ai_calls": 0
+  }
+}
