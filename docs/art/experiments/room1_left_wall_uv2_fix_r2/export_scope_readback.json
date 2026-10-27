@@ -1,0 +1,12 @@
+{
+  "old": "assets\\art\\room1_open_hero_bake_r1\\room1_baked_uv2_r3.glb",
+  "new": "assets\\art\\room1_open_hero_uv2_r2\\room1_baked_uv2_r3.glb",
+  "old_mesh_nodes": 169,
+  "new_mesh_nodes": 169,
+  "new_or_missing_nodes": [],
+  "changed_position_or_uv0_triangles_exact": [],
+  "changed_normals_beyond_1e6": [],
+  "maximum_normal_component_difference": 0.0,
+  "changed_node_transforms": [],
+  "precision": "Positions and color UV0 compared exactly per triangle corner. Normals tolerate 1e-6 for Blender reimport normalization; maximum difference reported. UV2 intentionally replaced."
+}

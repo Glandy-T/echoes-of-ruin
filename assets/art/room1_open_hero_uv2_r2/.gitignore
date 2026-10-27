@@ -1,0 +1,5 @@
+strip_irradiance.exr
+strip_irradiance.exr.import
+*.log
+*.err
+__pycache__/

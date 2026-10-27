@@ -21,7 +21,8 @@ func render_review() -> void:
 	DirAccess.make_dir_recursive_absolute(OUT)
 	var camera := room.get_node("ReviewCamera") as Camera3D
 	var record := {"source_scene": "room1_pod_exit_animation_r3.tscn",
-		"review_scene": "room1_surface_sample_r1.tscn", "views": []}
+		"review_scene": "room1_surface_sample_r1.tscn", "bake_geometry":room.baked_geometry_path,
+		"irradiance":room.irradiance_path, "views": []}
 	var positions := [Vector3(3.525, 0, -4.75), Vector3(3.525, 0, -3.35)]
 	var modes := ["baseline", "wall_only", "floor_only", "wall_floor"]
 	for view in positions.size():

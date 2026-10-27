@@ -9,13 +9,14 @@ var hero_origin := Vector3.ZERO
 var bloom_actor: MeshInstance3D
 var exit_previous_pose := Transform3D.IDENTITY
 var exit_current_pose := Transform3D.IDENTITY
+var open_hero_bake_root: String = "res://assets/art/room1_open_hero_bake_r1"
 
 func set_pixel_mode(_index: int) -> void:
 	super.set_pixel_mode(0)
 
 func _ready() -> void:
-	baked_geometry_path = "res://assets/art/room1_open_hero_bake_r1/room1_baked_uv2_r3.glb"
-	irradiance_path = "res://assets/art/room1_open_hero_bake_r1/strip_irradiance_denoised.exr"
+	baked_geometry_path = open_hero_bake_root + "/room1_baked_uv2_r3.glb"
+	irradiance_path = open_hero_bake_root + "/strip_irradiance_denoised.exr"
 	super._ready()
 	if Engine.is_editor_hint():
 		return

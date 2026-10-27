@@ -1,0 +1,126 @@
+{
+  "mesh_objects": 169,
+  "emitters": 4,
+  "images": [
+    {
+      "name": "ContinuousStripIrradiance",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "display",
+      "size": [
+        128,
+        48
+      ],
+      "packed": true
+    },
+    {
+      "name": "floor_albedo",
+      "size": [
+        1680,
+        760
+      ],
+      "packed": true
+    },
+    {
+      "name": "floor_solid",
+      "size": [
+        32,
+        32
+      ],
+      "packed": true
+    },
+    {
+      "name": "front_albedo",
+      "size": [
+        1680,
+        272
+      ],
+      "packed": true
+    },
+    {
+      "name": "glass",
+      "size": [
+        128,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "interior",
+      "size": [
+        128,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "left_albedo",
+      "size": [
+        728,
+        272
+      ],
+      "packed": true
+    },
+    {
+      "name": "lid",
+      "size": [
+        128,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "mattress",
+      "size": [
+        128,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "rear_albedo",
+      "size": [
+        1680,
+        272
+      ],
+      "packed": true
+    },
+    {
+      "name": "right_albedo",
+      "size": [
+        728,
+        272
+      ],
+      "packed": true
+    },
+    {
+      "name": "shell_end",
+      "size": [
+        128,
+        80
+      ],
+      "packed": true
+    },
+    {
+      "name": "shell_side",
+      "size": [
+        256,
+        80
+      ],
+      "packed": true
+    },
+    {
+      "name": "wall_solid",
+      "size": [
+        32,
+        32
+      ],
+      "packed": true
+    }
+  ]
+}

@@ -6,6 +6,7 @@ func _initialize() -> void:
 
 func capture_channels() -> void:
 	var room: Node = load("res://scenes/dev/room1_surface_sample_r1.tscn").instantiate()
+	room.legacy_lightmap_for_review = true
 	get_root().add_child(room)
 	for frame in 10:
 		await process_frame

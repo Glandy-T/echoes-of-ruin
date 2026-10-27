@@ -20,7 +20,8 @@ func _ready() -> void:
 	var copy := (load(baked_geometry_path) as PackedScene).instantiate()
 	add_child(copy)
 	copy.visible = false
-	var original_mapping: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/art/room1_continuous_bake_r3/mesh_mapping.json"))
+	var mapping_path := baked_geometry_path.get_base_dir() + "/mesh_mapping.json"
+	var original_mapping: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(mapping_path))
 	var mapping := {}
 	for key: String in original_mapping:
 		var record: Dictionary = original_mapping[key].duplicate()

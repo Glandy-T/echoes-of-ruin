@@ -1,0 +1,2632 @@
+{
+  "receiver_triangle_count": 17908,
+  "candidate_triangle_pairs": 58561,
+  "positive_area_overlap_count": 0,
+  "positive_area_overlaps": [],
+  "geometry_non_degenerate_triangle_count": 17908,
+  "uv_non_degenerate_triangle_count": 17908,
+  "uv_degenerate_triangle_count": 0,
+  "out_of_atlas_vertex_count": 0,
+  "out_of_atlas_vertices": [],
+  "layout_version": "room1_open_hero_uv2_r2",
+  "atlas_size_px": 2048,
+  "projection": "Single temporary mesh Smart Project; continuous planar charts; transfer UV2 by corner source IDs",
+  "pack_operator": "uv.smart_project in single-mesh EDIT mode, margin 0.006",
+  "pack_in_one": true,
+  "shared_uv_edges_before": 9934,
+  "shared_uv_edges_after": 9054,
+  "planar_wall_diagonals_continuous": {
+    "Bake_Shell_Wall_left": true,
+    "Bake_Shell_Wall_right": true
+  },
+  "uv_area_degenerate_epsilon": 1e-12,
+  "overlap_area_epsilon": 1e-08,
+  "smart_project_island_margin_fraction": 0.006,
+  "margin_note": "Smart Project margin is a packing control, not a measured final pixel gap.",
+  "bake_dilation_margin_px": 4,
+  "uv0_preserved": true,
+  "uv0_hashes_before": {
+    "Bake_P01_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P01_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P01_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P01_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P01_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P01_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P02_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P02_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P02_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P02_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P02_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P02_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P03_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P03_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P03_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P03_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P03_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P03_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P04_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P04_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P04_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P04_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P04_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P04_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P05_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P05_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P05_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P05_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P05_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P05_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P06_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P06_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P06_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P06_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P06_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P06_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P07_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P07_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P07_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P07_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P07_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P07_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P08_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P08_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P08_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P08_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P08_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P08_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P09_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P09_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P09_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P09_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P09_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P09_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P10_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P10_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P10_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P10_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P10_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P10_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P11_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P11_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P11_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P11_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P11_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P11_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P12_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P12_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P12_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P12_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P12_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P12_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P13_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P13_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P13_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P13_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P13_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P13_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P14_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P14_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P14_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P14_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P14_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P14_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P15_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P15_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P15_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P15_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P15_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P15_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P16_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P16_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P16_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P16_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P16_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P16_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P17_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P17_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P17_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P17_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P17_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P17_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P18_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P18_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P18_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P18_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P18_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P18_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P19_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P19_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P19_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P19_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P19_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P19_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P20_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P20_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P20_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P20_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P20_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P20_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_Shell_Floor_continuous_no_tile_seams": "592566e46254f6904bf27d0381e385f4de7e772d46b1c916c46c0c4fce02df10",
+    "Bake_Shell_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED": "48bf85b42cbf437334d9ed5a9cf42fd14d8e345f98a2721504bd776f3d0ff29a",
+    "Bake_Shell_Roof_hidden_for_cutaway": "cdec438bbf74fa4458e187e86d788c15d9b61a4848f405eb0250db7d08776ec8",
+    "Bake_Shell_Wall_front": "0e11c6b29db29c713aac58302f5a2c598583608f607714bb0b996bdc2b2bdcd1",
+    "Bake_Shell_Wall_left": "2237a815c40486e98f0a6a677cff96c2c6def212a42b3cda1863a5b4eaa1baec",
+    "Bake_Shell_Wall_rear_door_header": "1833fbc2394a86bb5cd1f447e93a5a229c17e11427210d0270c72f996a2cc686",
+    "Bake_Shell_Wall_rear_left": "b45945156c3de79979b72d96a8566ce160a9574c590f453a441e05f1ea3ed2bc",
+    "Bake_Shell_Wall_rear_right": "f953620bc4de2ab26c31d437151272def47afe3042cd15bbe8240ef4bbb5583c",
+    "Bake_Shell_Wall_right": "ba1fa28843a28a7c1a0d49a4608f4f8f1b15f03c536e13c2944bb8f9a92f1ba3"
+  },
+  "uv0_hashes_after": {
+    "Bake_P01_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P01_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P01_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P01_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P01_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P01_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P02_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P02_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P02_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P02_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P02_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P02_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P03_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P03_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P03_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P03_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P03_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P03_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P04_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P04_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P04_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P04_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P04_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P04_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P05_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P05_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P05_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P05_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P05_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P05_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P06_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P06_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P06_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P06_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P06_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P06_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P07_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P07_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P07_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P07_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P07_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P07_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P08_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P08_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P08_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P08_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P08_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P08_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P09_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P09_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P09_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P09_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P09_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P09_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P10_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P10_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P10_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P10_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P10_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P10_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P11_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P11_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P11_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P11_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P11_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P11_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P12_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P12_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P12_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P12_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P12_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P12_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P13_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P13_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P13_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P13_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P13_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P13_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P14_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P14_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P14_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P14_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P14_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P14_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P15_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P15_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P15_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P15_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P15_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P15_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P16_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P16_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P16_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P16_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P16_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P16_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P17_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P17_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P17_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P17_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P17_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P17_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P18_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P18_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P18_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P18_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P18_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P18_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P19_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P19_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P19_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P19_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P19_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P19_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_P20_pod_v3_interior": "18e2a0d7751c7b3825a648e6dea6046fa1aa10eb97b7345fa4ceaa44ebea8f29",
+    "Bake_P20_pod_v3_interior.001": "6da3ba353f128aef5b679ac864667df8f4282ca89d203071c981dab973f8429f",
+    "Bake_P20_pod_v3_lid": "e00e9d1134d2bc5969c8bcc5777d73c2936028d293814b83f892b31e93da6dfb",
+    "Bake_P20_pod_v3_mattress": "b717aff8c234f5706e28737cf2f7bb50d0d0f8788e9a4e47361ca01b20d6e8a4",
+    "Bake_P20_pod_v3_shell_end": "55ec7790287e7c2d50768c34dd99341136eba66be1dd11f99234356a29ff8884",
+    "Bake_P20_pod_v3_shell_side": "653c09f86f66cd07a04b923775b7fabc8252ed0241cebcb621233c058cec3f3f",
+    "Bake_Shell_Floor_continuous_no_tile_seams": "592566e46254f6904bf27d0381e385f4de7e772d46b1c916c46c0c4fce02df10",
+    "Bake_Shell_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED": "48bf85b42cbf437334d9ed5a9cf42fd14d8e345f98a2721504bd776f3d0ff29a",
+    "Bake_Shell_Roof_hidden_for_cutaway": "cdec438bbf74fa4458e187e86d788c15d9b61a4848f405eb0250db7d08776ec8",
+    "Bake_Shell_Wall_front": "0e11c6b29db29c713aac58302f5a2c598583608f607714bb0b996bdc2b2bdcd1",
+    "Bake_Shell_Wall_left": "2237a815c40486e98f0a6a677cff96c2c6def212a42b3cda1863a5b4eaa1baec",
+    "Bake_Shell_Wall_rear_door_header": "1833fbc2394a86bb5cd1f447e93a5a229c17e11427210d0270c72f996a2cc686",
+    "Bake_Shell_Wall_rear_left": "b45945156c3de79979b72d96a8566ce160a9574c590f453a441e05f1ea3ed2bc",
+    "Bake_Shell_Wall_rear_right": "f953620bc4de2ab26c31d437151272def47afe3042cd15bbe8240ef4bbb5583c",
+    "Bake_Shell_Wall_right": "ba1fa28843a28a7c1a0d49a4608f4f8f1b15f03c536e13c2944bb8f9a92f1ba3"
+  },
+  "uv2_before_projection": {
+    "global_range": [
+      0.002680315403267741,
+      0.0026802420616149902,
+      0.9973196387290955,
+      0.9879471659660339
+    ],
+    "per_object": {
+      "Bake_P01_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.021828440949320793,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P01_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.2895374894142151,
+          0.39072591066360474,
+          0.9111741781234741,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P01_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.0026803193613886833,
+          0.2967578172683716,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P01_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.041702352464199066,
+          0.33771151304244995,
+          0.9973026514053345,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P01_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19785350561141968,
+          0.013494789600372314,
+          0.7926051616668701,
+          0.981637716293335
+        ]
+      },
+      "Bake_P01_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.34823763370513916,
+          0.08462512493133545,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P02_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.028583742678165436,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P02_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.04136224463582039,
+          0.46210747957229614,
+          0.9111742377281189,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P02_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.01619686931371689,
+          0.3038734197616577,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P02_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.05298818647861481,
+          0.3487321734428406,
+          0.9973026514053345,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P02_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.21675321459770203,
+          0.024361252784729004,
+          0.7926051020622253,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P02_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3445875942707062,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P03_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.0026803200598806143,
+          0.25594526529312134,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P03_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.06111881509423256,
+          0.43410825729370117,
+          0.9111741781234741,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P03_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.029713422060012817,
+          0.31005382537841797,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P03_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.06427401304244995,
+          0.359752893447876,
+          0.9973026514053345,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P03_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.22083896398544312,
+          0.02840977907180786,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P03_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3464144170284271,
+          0.03005826473236084,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P04_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.008534066379070282,
+          0.26035547256469727,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P04_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.002680319594219327,
+          0.4925670623779297,
+          0.9111741781234741,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P04_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.043229974806308746,
+          0.2513401508331299,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P04_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.07555984705686569,
+          0.2513401508331299,
+          0.9973026514053345,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P04_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.18917520344257355,
+          0.04609411954879761,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P04_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3482412099838257,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P05_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.014387811534106731,
+          0.26336050033569336,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P05_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.36422622203826904,
+          0.4611548185348511,
+          0.9111741781234741,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P05_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.05674652382731438,
+          0.2575181722640991,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P05_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.08684567362070084,
+          0.2513401508331299,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P05_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19272828102111816,
+          0.0026803016662597656,
+          0.7926051020622253,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P05_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.35006803274154663,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P06_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.0026803184300661087,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P06_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.3828984200954437,
+          0.39383256435394287,
+          0.9111742377281189,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P06_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.022436892613768578,
+          0.2513401508331299,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P06_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.09813150763511658,
+          0.25412631034851074,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P06_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19628137350082397,
+          0.0026803016662597656,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P06_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3518948554992676,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P07_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.008346936665475368,
+          0.25457853078842163,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P07_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.04136224463582039,
+          0.4925670623779297,
+          0.9111742377281189,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P07_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.08377964049577713,
+          0.2579200267791748,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P07_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.04136224463582039,
+          0.25969868898391724,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P07_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.1998344510793686,
+          0.019212186336517334,
+          0.7926051020622253,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P07_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3507615327835083,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P08_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.014013562351465225,
+          0.2578169107437134,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P08_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.06111881509423256,
+          0.4975067973136902,
+          0.9111741781234741,
+          0.6536751985549927
+        ]
+      },
+      "Bake_P08_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.09729619324207306,
+          0.2710797190666199,
+          0.9859603047370911,
+          0.7407921552658081
+        ]
+      },
+      "Bake_P08_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.0469345897436142,
+          0.26527100801467896,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P08_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.2033875435590744,
+          0.0026803016662597656,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P08_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3545353412628174,
+          0.013224124908447266,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P09_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.002680319594219327,
+          0.26105523109436035,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P09_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.002680319594219327,
+          0.4975067973136902,
+          0.9111741781234741,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P09_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.04136224091053009,
+          0.2822304368019104,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P09_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.06922397017478943,
+          0.2513401508331299,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P09_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.18917520344257355,
+          0.02877110242843628,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P09_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.35737526416778564,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P10_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.008210229687392712,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P10_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.10937454551458359,
+          0.4975067973136902,
+          0.9111741781234741,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P10_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.055247530341148376,
+          0.2513401508331299,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P10_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.09202007949352264,
+          0.27641570568084717,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P10_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19271792471408844,
+          0.02840977907180786,
+          0.7926051020622253,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P10_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3592020869255066,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879470467567444
+        ]
+      },
+      "Bake_P11_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.002680319594219327,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P11_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.11874952167272568,
+          0.45670443773269653,
+          0.9111742377281189,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P11_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.002680316101759672,
+          0.2575177550315857,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P11_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.1545606553554535,
+          0.2819880247116089,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P11_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.18917520344257355,
+          0.0547715425491333,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P11_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.36102890968322754,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879470467567444
+        ]
+      },
+      "Bake_P12_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.013551803305745125,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P12_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.13749948143959045,
+          0.4440079927444458,
+          0.9111741781234741,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P12_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.002680319594219327,
+          0.2636953592300415,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P12_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.002680319594219327,
+          0.2513401508331299,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P12_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.1931529939174652,
+          0.10187160968780518,
+          0.7926051616668701,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P12_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3628557026386261,
+          0.010897934436798096,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P13_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.024423284456133842,
+          0.2595345973968506,
+          0.9916596412658691,
+          0.7469043731689453
+        ]
+      },
+      "Bake_P13_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.15624943375587463,
+          0.4975067973136902,
+          0.9111741781234741,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P13_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.02254561148583889,
+          0.2513401508331299,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P13_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.17713230848312378,
+          0.2626991271972656,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P13_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19713079929351807,
+          0.1180756688117981,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P13_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.36468252539634705,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P14_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.0026803186628967524,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469046115875244
+        ]
+      },
+      "Bake_P14_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.1828419715166092,
+          0.4975067973136902,
+          0.9111741781234741,
+          0.6626507043838501
+        ]
+      },
+      "Bake_P14_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.035789139568805695,
+          0.25437653064727783,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P14_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.18841813504695892,
+          0.2513401508331299,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P14_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.18917520344257355,
+          0.0026803016662597656,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P14_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3665093183517456,
+          0.027333199977874756,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P15_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.0026803198270499706,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469046711921692
+        ]
+      },
+      "Bake_P15_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.20159192383289337,
+          0.43410825729370117,
+          0.9111741781234741,
+          0.6776158809661865
+        ]
+      },
+      "Bake_P15_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.04903266206383705,
+          0.2604491710662842,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P15_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.19970397651195526,
+          0.2910107374191284,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P15_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19260498881340027,
+          0.0026803016662597656,
+          0.7926051020622253,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P15_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.36833614110946655,
+          0.035550832748413086,
+          0.6535956859588623,
+          0.9879471659660339
+        ]
+      },
+      "Bake_P16_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.009183991700410843,
+          0.25440847873687744,
+          0.9916596412658691,
+          0.7469046115875244
+        ]
+      },
+      "Bake_P16_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.2516198456287384,
+          0.3833564519882202,
+          0.9111742377281189,
+          0.692581057548523
+        ]
+      },
+      "Bake_P16_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.0026803186628967524,
+          0.2513401508331299,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P16_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.2109898030757904,
+          0.3098497986793518,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P16_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.18917520344257355,
+          0.017819523811340332,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P16_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3445875942707062,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P17_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.002680318895727396,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469046711921692
+        ]
+      },
+      "Bake_P17_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.27022457122802734,
+          0.2513401508331299,
+          0.9174081683158875,
+          0.7038049101829529
+        ]
+      },
+      "Bake_P17_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.01624475046992302,
+          0.2513401508331299,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P17_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.002680319594219327,
+          0.3154221177101135,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P17_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19387364387512207,
+          0.0026803016662597656,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P17_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3463951051235199,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P18_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.0026803172659128904,
+          0.2513401508331299,
+          0.9916596412658691,
+          0.7469046711921692
+        ]
+      },
+      "Bake_P18_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.04136224463582039,
+          0.2550814151763916,
+          0.9174083471298218,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P18_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.0026803200598806143,
+          0.2618180513381958,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P18_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.020037570968270302,
+          0.32099449634552,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P18_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19857211410999298,
+          0.009562313556671143,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P18_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3482026159763336,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P19_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.002680315403267741,
+          0.25508713722229004,
+          0.9916596412658691,
+          0.7469046711921692
+        ]
+      },
+      "Bake_P19_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.06111881509423256,
+          0.270046591758728,
+          0.917408287525177,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P19_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.014868566766381264,
+          0.27127623558044434,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P19_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.05475207418203354,
+          0.32656681537628174,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P19_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.18917520344257355,
+          0.023326396942138672,
+          0.7926051020622253,
+          0.981637716293335
+        ]
+      },
+      "Bake_P19_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3445875942707062,
+          0.0684213638305664,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_P20_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.012254375964403152,
+          0.2588341236114502,
+          0.9916596412658691,
+          0.7469046711921692
+        ]
+      },
+      "Bake_P20_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.002680319594219327,
+          0.28501176834106445,
+          0.917408287525177,
+          0.6536752581596375
+        ]
+      },
+      "Bake_P20_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.02705681510269642,
+          0.27925074100494385,
+          0.9859603047370911,
+          0.7407920360565186
+        ]
+      },
+      "Bake_P20_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.08946657925844193,
+          0.2513401508331299,
+          0.9973196387290955,
+          0.7467597723007202
+        ]
+      },
+      "Bake_P20_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.19282524287700653,
+          0.0026802420616149902,
+          0.7926051020622253,
+          0.9816376566886902
+        ]
+      },
+      "Bake_P20_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.3480343222618103,
+          0.0026803016662597656,
+          0.6535956859588623,
+          0.9879471063613892
+        ]
+      },
+      "Bake_Shell_Floor_continuous_no_tile_seams": {
+        "loops": 36,
+        "range": [
+          0.002680322155356407,
+          0.0026803016662597656,
+          0.5999477505683899,
+          0.5723025798797607
+        ]
+      },
+      "Bake_Shell_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED": {
+        "loops": 36,
+        "range": [
+          0.1734669953584671,
+          0.2483983039855957,
+          0.7535139918327332,
+          0.7557483315467834
+        ]
+      },
+      "Bake_Shell_Roof_hidden_for_cutaway": {
+        "loops": 36,
+        "range": [
+          0.2815612256526947,
+          0.0026803016662597656,
+          0.5864037275314331,
+          0.5723026394844055
+        ]
+      },
+      "Bake_Shell_Wall_front": {
+        "loops": 36,
+        "range": [
+          0.002680319594219327,
+          0.0026803016662597656,
+          0.6540688276290894,
+          0.6008147597312927
+        ]
+      },
+      "Bake_Shell_Wall_left": {
+        "loops": 36,
+        "range": [
+          0.3391297161579132,
+          0.24576067924499512,
+          0.6458854675292969,
+          0.5666571259498596
+        ]
+      },
+      "Bake_Shell_Wall_rear_door_header": {
+        "loops": 36,
+        "range": [
+          0.16528362035751343,
+          0.36821651458740234,
+          0.7392581105232239,
+          0.7109001874923706
+        ]
+      },
+      "Bake_Shell_Wall_rear_left": {
+        "loops": 36,
+        "range": [
+          0.10937454551458359,
+          0.24576067924499512,
+          0.6622521877288818,
+          0.4427417516708374
+        ]
+      },
+      "Bake_Shell_Wall_rear_right": {
+        "loops": 36,
+        "range": [
+          0.21606874465942383,
+          0.3044278621673584,
+          0.5988141298294067,
+          0.6631284356117249
+        ]
+      },
+      "Bake_Shell_Wall_right": {
+        "loops": 36,
+        "range": [
+          0.32276293635368347,
+          0.24576067924499512,
+          0.6377021074295044,
+          0.5666571259498596
+        ]
+      }
+    }
+  },
+  "uv2_after_pack": {
+    "global_range": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "per_object": {
+      "Bake_P01_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.01834678277373314,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.981643557548523
+        ]
+      },
+      "Bake_P01_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.08394584059715271,
+          0.05909225717186928,
+          0.7654650807380676,
+          0.6212291121482849
+        ]
+      },
+      "Bake_P01_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.245177969622091e-07,
+          6.021969056746457e-08,
+          0.9447848200798035,
+          0.97235506772995
+        ]
+      },
+      "Bake_P01_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.06034896895289421,
+          0.054835930466651917,
+          0.990868091583252,
+          0.9908462166786194
+        ]
+      },
+      "Bake_P01_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.2310816543958936e-07,
+          6.021969056746457e-08,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P01_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          1.0713229414704983e-07,
+          6.021969056746457e-08,
+          0.9999998211860657,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P02_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          7.752994690690684e-08,
+          6.021969056746457e-08,
+          0.9817177057266235,
+          0.981643795967102
+        ]
+      },
+      "Bake_P02_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.06034895405173302,
+          0.06894094496965408,
+          0.7654650211334229,
+          0.6310769319534302
+        ]
+      },
+      "Bake_P02_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.235780331398928e-07,
+          0.01008023414760828,
+          0.9447848200798035,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P02_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          1.0995156429771669e-07,
+          0.04569662734866142,
+          0.990868091583252,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P02_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.009105724282562733,
+          6.021969056746457e-08,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P02_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.0,
+          0.015046612359583378,
+          0.9999997019767761,
+          0.9999997615814209
+        ]
+      },
+      "Bake_P03_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.009422963485121727,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.9816436767578125
+        ]
+      },
+      "Bake_P03_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.11653074622154236,
+          0.1280330866575241,
+          0.7654650211334229,
+          0.6409249305725098
+        ]
+      },
+      "Bake_P03_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.235780331398928e-07,
+          6.021969056746457e-08,
+          0.9447848796844482,
+          0.97235506772995
+        ]
+      },
+      "Bake_P03_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.06383389234542847,
+          0.13859303295612335,
+          0.9908595085144043,
+          0.9908459782600403
+        ]
+      },
+      "Bake_P03_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.1230095253722538e-07,
+          6.021969056746457e-08,
+          0.9633362889289856,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P03_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.018346797674894333,
+          6.021969056746457e-08,
+          1.0,
+          0.9999997615814209
+        ]
+      },
+      "Bake_P04_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.235780331398928e-07,
+          0.027851847931742668,
+          0.9817175269126892,
+          0.981643795967102
+        ]
+      },
+      "Bake_P04_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.05296861380338669,
+          0.031703077256679535,
+          0.7654651403427124,
+          0.650772750377655
+        ]
+      },
+      "Bake_P04_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.207587700946533e-07,
+          6.021969056746457e-08,
+          0.9447848796844482,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P04_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.031026815995573997,
+          0.009139361791312695,
+          0.9908682703971863,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P04_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.01878572814166546,
+          6.021969056746457e-08,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P04_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.08394584059715271,
+          6.021969056746457e-08,
+          0.9999999403953552,
+          0.9999997615814209
+        ]
+      },
+      "Bake_P05_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.009390393272042274,
+          6.021969056746457e-08,
+          0.9817175269126892,
+          0.981643557548523
+        ]
+      },
+      "Bake_P05_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.0635623037815094,
+          0.06270206719636917,
+          0.7654650211334229,
+          0.6113811135292053
+        ]
+      },
+      "Bake_P05_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.2310816543958936e-07,
+          6.021969056746457e-08,
+          0.9447847604751587,
+          0.97235506772995
+        ]
+      },
+      "Bake_P05_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          8.081909896873185e-08,
+          6.021969056746457e-08,
+          0.9908682107925415,
+          0.9908462166786194
+        ]
+      },
+      "Bake_P05_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.1840937474971724e-07,
+          0.020447595044970512,
+          0.9633361101150513,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P05_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          1.2122865200581145e-07,
+          0.009266605600714684,
+          0.999993085861206,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P06_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          2.7534878199730883e-07,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.9816436767578125
+        ]
+      },
+      "Bake_P06_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          1.2122865200581145e-07,
+          0.07878963649272919,
+          0.7654650211334229,
+          0.6606207489967346
+        ]
+      },
+      "Bake_P06_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.235780331398928e-07,
+          6.021969056746457e-08,
+          0.9447848796844482,
+          0.97235506772995
+        ]
+      },
+      "Bake_P06_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          1.4096353595505207e-07,
+          0.06270206719636917,
+          0.9908662438392639,
+          0.9999703764915466
+        ]
+      },
+      "Bake_P06_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          9.632508835011322e-08,
+          6.021969056746457e-08,
+          0.9633355140686035,
+          0.9630810022354126
+        ]
+      },
+      "Bake_P06_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.01782139576971531,
+          0.03821336850523949,
+          0.9999929666519165,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P07_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.320358506973207e-07,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.9816436767578125
+        ]
+      },
+      "Bake_P07_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.1483118236064911,
+          0.08863832801580429,
+          0.7654650211334229,
+          0.6704686880111694
+        ]
+      },
+      "Bake_P07_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.009247888810932636,
+          6.021969056746457e-08,
+          0.9447848796844482,
+          0.97235506772995
+        ]
+      },
+      "Bake_P07_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.009141955524682999,
+          0.0,
+          0.9908682703971863,
+          0.9999703764915466
+        ]
+      },
+      "Bake_P07_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.3673464138719282e-07,
+          0.010223858058452606,
+          0.963336169719696,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P07_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.10087970644235611,
+          0.0348370298743248,
+          0.9999929666519165,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P08_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.1840937474971724e-07,
+          0.01184027548879385,
+          0.981717586517334,
+          0.981643557548523
+        ]
+      },
+      "Bake_P08_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.010593833401799202,
+          0.0498836413025856,
+          0.7654650807380676,
+          0.6803165674209595
+        ]
+      },
+      "Bake_P08_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.018495652824640274,
+          6.021969056746457e-08,
+          0.9447847604751587,
+          0.97235506772995
+        ]
+      },
+      "Bake_P08_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.018346799537539482,
+          0.011393565684556961,
+          0.9908663034439087,
+          0.9999704957008362
+        ]
+      },
+      "Bake_P08_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.4472256282260787e-07,
+          0.039909034967422485,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P08_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.03297805041074753,
+          0.019106263294816017,
+          0.9999999403953552,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P09_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.009251991286873817,
+          6.021969056746457e-08,
+          0.9817175269126892,
+          0.9816410541534424
+        ]
+      },
+      "Bake_P09_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.1589055210351944,
+          0.019790418446063995,
+          0.7654650807380676,
+          0.6901645064353943
+        ]
+      },
+      "Bake_P09_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.028792668133974075,
+          6.021969056746457e-08,
+          0.9447848200798035,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P09_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.03647670894861221,
+          0.0779012143611908,
+          0.9908663630485535,
+          0.9999704957008362
+        ]
+      },
+      "Bake_P09_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.1934912436117884e-07,
+          6.021969056746457e-08,
+          0.9633356332778931,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P09_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.04434672370553017,
+          6.021969056746457e-08,
+          0.9999998211860657,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P10_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.1840937474971724e-07,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.981643557548523
+        ]
+      },
+      "Bake_P10_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.018346797674894333,
+          0.03411156311631203,
+          0.7654650807380676,
+          0.6015332937240601
+        ]
+      },
+      "Bake_P10_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.235780331398928e-07,
+          0.018736815080046654,
+          0.9447848796844482,
+          0.97235506772995
+        ]
+      },
+      "Bake_P10_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          1.235780331398928e-07,
+          0.06397522985935211,
+          0.990868091583252,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P10_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.009216113947331905,
+          0.010375069454312325,
+          0.9633355140686035,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P10_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.01824404112994671,
+          0.017418544739484787,
+          0.9999998211860657,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P11_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.009259173646569252,
+          0.027646619826555252,
+          0.981717586517334,
+          0.9816410541534424
+        ]
+      },
+      "Bake_P11_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.01867469772696495,
+          6.021969056746457e-08,
+          0.7654650211334229,
+          0.7590999007225037
+        ]
+      },
+      "Bake_P11_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.009247850626707077,
+          0.009367233142256737,
+          0.963312566280365,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P11_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.017154527828097343,
+          0.0464128814637661,
+          0.990866482257843,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P11_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.7902370075262297e-07,
+          0.009260824881494045,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P11_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.017821406945586205,
+          0.05559951439499855,
+          0.9999930262565613,
+          1.0
+        ]
+      },
+      "Bake_P12_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.235780331398928e-07,
+          0.00950561836361885,
+          0.9816933870315552,
+          0.9816710352897644
+        ]
+      },
+      "Bake_P12_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.06488711386919022,
+          0.02954612858593464,
+          0.7654650211334229,
+          0.719708263874054
+        ]
+      },
+      "Bake_P12_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.018346797674894333,
+          0.06498409062623978,
+          0.9410222172737122,
+          0.9630400538444519
+        ]
+      },
+      "Bake_P12_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.05485113710165024,
+          0.01827872358262539,
+          0.9908681511878967,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P12_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.235780331398928e-07,
+          6.021969056746457e-08,
+          0.9633355736732483,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P12_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.018346799537539482,
+          6.021969056746457e-08,
+          0.9999929070472717,
+          1.0
+        ]
+      },
+      "Bake_P13_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          8.59877573589074e-08,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.9816436767578125
+        ]
+      },
+      "Bake_P13_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.04434673488140106,
+          6.021969056746457e-08,
+          0.7654650211334229,
+          0.7295562624931335
+        ]
+      },
+      "Bake_P13_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.009520630352199078,
+          6.021969056746457e-08,
+          0.9633126854896545,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P13_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          1.245177969622091e-07,
+          0.014272728934884071,
+          0.9908663630485535,
+          0.9999704957008362
+        ]
+      },
+      "Bake_P13_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.235780331398928e-07,
+          0.019631920382380486,
+          0.9633355736732483,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P13_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          1.235780331398928e-07,
+          0.009668632410466671,
+          0.9999999403953552,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P14_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          9.350581819944637e-08,
+          6.021969056746457e-08,
+          0.9817176461219788,
+          0.9816409349441528
+        ]
+      },
+      "Bake_P14_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.15304166078567505,
+          0.009848750196397305,
+          0.7654650807380676,
+          0.7000124454498291
+        ]
+      },
+      "Bake_P14_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.027743317186832428,
+          0.028805185109376907,
+          0.944784939289093,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P14_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.009138474240899086,
+          0.022787069901823997,
+          0.9908664226531982,
+          0.9999704957008362
+        ]
+      },
+      "Bake_P14_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.254575465736707e-07,
+          0.028077611699700356,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P14_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.00917107705026865,
+          6.021969056746457e-08,
+          1.0,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P15_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.018850503489375114,
+          6.021969056746457e-08,
+          0.9817176461219788,
+          0.9816409349441528
+        ]
+      },
+      "Bake_P15_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.018346799537539482,
+          0.10470782965421677,
+          0.7654650211334229,
+          0.7394040822982788
+        ]
+      },
+      "Bake_P15_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.04623875394463539,
+          0.018734406679868698,
+          0.963312566280365,
+          0.972355306148529
+        ]
+      },
+      "Bake_P15_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          1.235780331398928e-07,
+          0.03418063744902611,
+          0.990866482257843,
+          0.9999704957008362
+        ]
+      },
+      "Bake_P15_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.009301419369876385,
+          6.021969056746457e-08,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P15_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.018341826274991035,
+          0.029005777090787888,
+          0.9999999403953552,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P16_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.018341338261961937,
+          6.021969056746457e-08,
+          0.9817177057266235,
+          0.9816409349441528
+        ]
+      },
+      "Bake_P16_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          1.235780331398928e-07,
+          0.1575792133808136,
+          0.7654649615287781,
+          0.5818373560905457
+        ]
+      },
+      "Bake_P16_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.01903659477829933,
+          6.021969056746457e-08,
+          0.9633126258850098,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P16_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.06399298459291458,
+          0.036557387560606,
+          0.9908680319786072,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P16_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          9.256606148255742e-08,
+          6.021969056746457e-08,
+          0.963336169719696,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P16_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          1.2310816543958936e-07,
+          6.021969056746457e-08,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "Bake_P17_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.0196362865144692e-07,
+          6.021969056746457e-08,
+          0.981717586517334,
+          0.9816410541534424
+        ]
+      },
+      "Bake_P17_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.064887136220932,
+          0.019790418446063995,
+          0.7654648423194885,
+          0.7627661824226379
+        ]
+      },
+      "Bake_P17_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.019041137769818306,
+          6.021969056746457e-08,
+          0.963312566280365,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P17_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.027357572689652443,
+          6.021969056746457e-08,
+          0.9908595681190491,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P17_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.037729330360889435,
+          6.021969056746457e-08,
+          0.9633355736732483,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P17_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.03297805041074753,
+          0.019790418446063995,
+          0.9999986290931702,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P18_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.018518323078751564,
+          0.009926432743668556,
+          0.9817175269126892,
+          0.9816409349441528
+        ]
+      },
+      "Bake_P18_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          1.235780331398928e-07,
+          0.06270206719636917,
+          0.7654648423194885,
+          0.7627661824226379
+        ]
+      },
+      "Bake_P18_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.018346795812249184,
+          6.021969056746457e-08,
+          0.9633126258850098,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P18_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.009119254536926746,
+          6.021969056746457e-08,
+          0.9908595681190491,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P18_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.04716164618730545,
+          6.021969056746457e-08,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P18_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          0.046212486922740936,
+          0.009136953391134739,
+          0.9999998807907104,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P19_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          1.0666241223589168e-07,
+          0.01009799912571907,
+          0.981717586517334,
+          0.9816409349441528
+        ]
+      },
+      "Bake_P19_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.03178123012185097,
+          0.03939487785100937,
+          0.7654649615287781,
+          0.7492519617080688
+        ]
+      },
+      "Bake_P19_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          1.2592742848482885e-07,
+          0.009322249330580235,
+          0.9447848200798035,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P19_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          0.07332581281661987,
+          0.05696764588356018,
+          0.9908662438392639,
+          0.9908460974693298
+        ]
+      },
+      "Bake_P19_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          1.235780331398928e-07,
+          6.021969056746457e-08,
+          0.963336169719696,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P19_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          1.245177969622091e-07,
+          0.019790418446063995,
+          0.9999984502792358,
+          0.9999998807907104
+        ]
+      },
+      "Bake_P20_pod_v3_interior": {
+        "loops": 666,
+        "range": [
+          0.009250504896044731,
+          6.021969056746457e-08,
+          0.9817176461219788,
+          0.9816410541534424
+        ]
+      },
+      "Bake_P20_pod_v3_interior.001": {
+        "loops": 138,
+        "range": [
+          0.04237492382526398,
+          6.021969056746457e-08,
+          0.7654649615287781,
+          0.5719894766807556
+        ]
+      },
+      "Bake_P20_pod_v3_lid": {
+        "loops": 558,
+        "range": [
+          0.08566443622112274,
+          0.01864437758922577,
+          0.9633126854896545,
+          0.9723551869392395
+        ]
+      },
+      "Bake_P20_pod_v3_mattress": {
+        "loops": 132,
+        "range": [
+          1.329756003087823e-07,
+          0.06836114823818207,
+          0.9908596277236938,
+          0.9908459782600403
+        ]
+      },
+      "Bake_P20_pod_v3_shell_end": {
+        "loops": 690,
+        "range": [
+          0.027904048562049866,
+          0.02081427350640297,
+          0.9633363485336304,
+          0.9630812406539917
+        ]
+      },
+      "Bake_P20_pod_v3_shell_side": {
+        "loops": 486,
+        "range": [
+          1.245177969622091e-07,
+          0.018533211201429367,
+          0.9999998211860657,
+          0.9999998807907104
+        ]
+      },
+      "Bake_Shell_Floor_continuous_no_tile_seams": {
+        "loops": 36,
+        "range": [
+          1.2404791505105095e-07,
+          6.021969056746457e-08,
+          0.2503358721733093,
+          0.2168409824371338
+        ]
+      },
+      "Bake_Shell_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED": {
+        "loops": 36,
+        "range": [
+          0.03564268723130226,
+          0.23005566000938416,
+          0.2869643568992615,
+          0.367544025182724
+        ]
+      },
+      "Bake_Shell_Roof_hidden_for_cutaway": {
+        "loops": 36,
+        "range": [
+          0.06316284090280533,
+          6.021969056746457e-08,
+          0.17824901640415192,
+          0.2508115768432617
+        ]
+      },
+      "Bake_Shell_Wall_front": {
+        "loops": 36,
+        "range": [
+          1.245177969622091e-07,
+          6.021969056746457e-08,
+          0.2773492634296417,
+          0.2392427772283554
+        ]
+      },
+      "Bake_Shell_Wall_left": {
+        "loops": 36,
+        "range": [
+          1.2404791505105095e-07,
+          0.19084800779819489,
+          0.2096329927444458,
+          0.27632588148117065
+        ]
+      },
+      "Bake_Shell_Wall_rear_door_header": {
+        "loops": 36,
+        "range": [
+          0.018346795812249184,
+          0.2375633716583252,
+          0.2758699655532837,
+          0.37850117683410645
+        ]
+      },
+      "Bake_Shell_Wall_rear_left": {
+        "loops": 36,
+        "range": [
+          0.04621250182390213,
+          0.06270206719636917,
+          0.27763959765434265,
+          0.2444816529750824
+        ]
+      },
+      "Bake_Shell_Wall_rear_right": {
+        "loops": 36,
+        "range": [
+          0.04621249809861183,
+          6.021969056746457e-08,
+          0.277639776468277,
+          0.250080943107605
+        ]
+      },
+      "Bake_Shell_Wall_right": {
+        "loops": 36,
+        "range": [
+          0.04621250927448273,
+          0.19608573615550995,
+          0.24018850922584534,
+          0.27215060591697693
+        ]
+      }
+    }
+  }
+}

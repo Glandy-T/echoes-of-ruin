@@ -1,4 +1,6 @@
 {
+  "bake_geometry": "res://assets/art/room1_open_hero_uv2_r2/room1_baked_uv2_r3.glb",
+  "irradiance": "res://assets/art/room1_open_hero_uv2_r2/strip_irradiance_denoised.exr",
   "review_scene": "room1_surface_sample_r1.tscn",
   "scope": "Review renders only. UV2 baked lighting and inherited capsule shadows retained; no gameplay tests or art approval.",
   "selected_materials": {
