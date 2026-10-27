@@ -1,0 +1,14 @@
+{
+  "roi": [
+    400,
+    30,
+    100,
+    10
+  ],
+  "mean_rgb": {
+    "on": 255.0,
+    "off": 22.333333333333332,
+    "restored": 255.0
+  },
+  "scope": "Actual rendering of existing strip on/off control; no game state saved"
+}

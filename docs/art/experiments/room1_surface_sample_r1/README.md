@@ -51,3 +51,6 @@
 
 
 2026-10-27后续：墙角低采样波纹由高采样r3修正；默认入口和本目录8图已更新。见[同机位与全室13镜头](../room1_corner_quality_r3/preview.html)，后续执行[光照交付规则](../../ROOM1_LIGHTMAP_QA.md)。
+
+
+后续r4已修复前墙UV0和灯带／灯槽接头，默认入口及本目录8图已更新。见[完整修复与整室复查](../room1_wall_finish_r4/preview.html)。

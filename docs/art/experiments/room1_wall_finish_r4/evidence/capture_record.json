@@ -1,0 +1,172 @@
+[
+  {
+    "basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.54799628257751,
+      2.20000004768372,
+      3.25
+    ],
+    "file": "01_r3_left_game.png",
+    "fov": 50.0,
+    "geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "kind": "Original gameplay camera, sample materials",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      10.5,
+      2.20000004768372,
+      4.53999996185303
+    ],
+    "file": "02_r3_center_game.png",
+    "fov": 50.0,
+    "geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "kind": "Original center gameplay camera, header diffuser joins",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (-0.707107, 0.0, -0.707107), Y: (-0.123092, 0.984732, 0.123092), Z: (0.696311, 0.174078, -0.696311)]",
+    "camera_position": [
+      3.79999995231628,
+      2.40000009536743,
+      -3.79999995231628
+    ],
+    "file": "03_r3_front_corner.png",
+    "fov": 55.0,
+    "geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "kind": "Temporary inspection camera; front cutaway wall rendered",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.987364, 0.158466), Z: (-0.0, 0.158466, -0.987364)]",
+    "camera_position": [
+      10.5,
+      3.0,
+      -8.30000019073486
+    ],
+    "file": "04_r3_front_wide.png",
+    "fov": 100.0,
+    "geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "kind": "Temporary full-front inspection, not proposed gameplay camera",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]",
+    "camera_position": [
+      10.5,
+      3.03999996185303,
+      -7.30000019073486
+    ],
+    "file": "05_r3_diffuser_close.png",
+    "fov": 70.0,
+    "geometry": "res://assets/art/room1_corner_quality_r3/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_corner_quality_r3/strip_irradiance_denoised.exr",
+    "kind": "Temporary close inspection of rear/header emitting face",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      3.54799628257751,
+      2.20000004768372,
+      3.25
+    ],
+    "file": "01_r4_left_game.png",
+    "fov": 50.0,
+    "geometry": "res://assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+    "kind": "Original gameplay camera, sample materials",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+    "camera_position": [
+      10.5,
+      2.20000004768372,
+      4.53999996185303
+    ],
+    "file": "02_r4_center_game.png",
+    "fov": 50.0,
+    "geometry": "res://assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+    "kind": "Original center gameplay camera, header diffuser joins",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (-0.707107, 0.0, -0.707107), Y: (-0.123092, 0.984732, 0.123092), Z: (0.696311, 0.174078, -0.696311)]",
+    "camera_position": [
+      3.79999995231628,
+      2.40000009536743,
+      -3.79999995231628
+    ],
+    "file": "03_r4_front_corner.png",
+    "fov": 55.0,
+    "geometry": "res://assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+    "kind": "Temporary inspection camera; front cutaway wall rendered",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.987364, 0.158466), Z: (-0.0, 0.158466, -0.987364)]",
+    "camera_position": [
+      10.5,
+      3.0,
+      -8.30000019073486
+    ],
+    "file": "04_r4_front_wide.png",
+    "fov": 100.0,
+    "geometry": "res://assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+    "kind": "Temporary full-front inspection, not proposed gameplay camera",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]",
+    "camera_position": [
+      10.5,
+      3.03999996185303,
+      -7.30000019073486
+    ],
+    "file": "05_r4_diffuser_close.png",
+    "fov": 70.0,
+    "geometry": "res://assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb",
+    "irradiance": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+    "kind": "Temporary close inspection of rear/header emitting face",
+    "size": [
+      1280,
+      720
+    ]
+  }
+]

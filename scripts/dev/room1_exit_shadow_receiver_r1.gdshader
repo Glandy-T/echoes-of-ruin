@@ -4,6 +4,9 @@ uniform sampler2D emission_map : source_color, filter_nearest, repeat_disable;
 uniform sampler2D strip_irradiance : filter_linear, repeat_disable;
 uniform vec4 base_color : source_color = vec4(1.0);
 uniform float has_emission_map = 0.0;
+// Self-emitting diffuser pixels must not be brightened differently per UV2 chart.
+uniform float uniform_strip_emission = 0.0;
+uniform float diffuser_radiance_scale = 1.0;
 uniform float strip_surface_energy = 0.7;
 uniform float baked_energy = 1.2;
 uniform vec3 actor_feet = vec3(10.5, 0.0, -4.75);
@@ -86,5 +89,8 @@ void fragment() {
 	ROUGHNESS = 0.95;
 	SPECULAR = 0.08;
 	EMISSION = color * texture(strip_irradiance, UV2).rgb * baked_energy * actor_visibility();
-	EMISSION += texture(emission_map, UV).rgb * has_emission_map * strip_surface_energy;
+	vec3 diffuser = texture(emission_map, UV).rgb * has_emission_map;
+	float diffuser_mask = uniform_strip_emission * step(0.00001, max(diffuser.r, max(diffuser.g, diffuser.b)));
+	EMISSION *= 1.0 - diffuser_mask;
+	EMISSION += diffuser * strip_surface_energy * mix(1.0, diffuser_radiance_scale, uniform_strip_emission);
 }

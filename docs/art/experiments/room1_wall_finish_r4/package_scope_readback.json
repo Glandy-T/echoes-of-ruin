@@ -1,0 +1,16 @@
+{
+  "changed_front_uv0_corners": 6,
+  "declared_uv2_corners": 53724,
+  "changed_bytes": 329796,
+  "changed_bytes_outside_declared_uv_attributes": 0,
+  "positions_normals_nodes_images_preserved_exactly": true,
+  "other_uv0_preserved_exactly": true,
+  "mesh_mapping_preserved_exactly": true,
+  "uv2_formulas_verified_exact_float32": true,
+  "layout_valid_triangles": 17908,
+  "sha256": {
+    "room1_baked_uv2_r3.glb": "20bfbfa79607956e4fcebd3f0ebde198f9c6ba6e12b0387256f4f747d36ccd44",
+    "strip_irradiance_denoised.exr": "119ef19c6c35276e8149e61f974fd6a8810cbafe4230225714ca1eb619c76ffd",
+    "mesh_mapping.json": "d91e27b761a387f344c4104a8e127732f2bfc1f2bd6c557c73fe930152dd124a"
+  }
+}

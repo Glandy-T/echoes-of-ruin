@@ -1,0 +1,76 @@
+{
+  "changed_uv0_corners": 6,
+  "surface": "Bake_Shell_Wall_front / MATERIAL_REVISION inner face",
+  "offset_gltf": [
+    0.5,
+    -0.5
+  ],
+  "before": [
+    [
+      -0.5,
+      1.5
+    ],
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5
+    ],
+    [
+      -0.5,
+      1.5
+    ],
+    [
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      1.5
+    ]
+  ],
+  "after": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "scope": "Only front inner UV0 and UV2 attributes modified; positions/normals/nodes/images unchanged. Re-bake required.",
+  "changed_uv2_corners": 53724,
+  "rear_inner_corners_unified": 18,
+  "other_uv2_affine_gltf": {
+    "scale": 0.875,
+    "offset": [
+      0.005,
+      0.005
+    ]
+  },
+  "rear_continuous_chart_gltf": [
+    0.02,
+    0.89,
+    0.63,
+    0.98876
+  ]
+}

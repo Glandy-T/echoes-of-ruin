@@ -1,0 +1,29 @@
+{
+  "status": "PASS_requested_repairs_and_full_room_regression",
+  "final_art_approval": false,
+  "repairs": [
+    "Front inner UV0 restored0..1; base protection band at floor",
+    "Rear wall/header share continuous UV2; lamp rim has no chart brightness step",
+    "Emitting diffuser uses uniform self-emission without reapplying chart GI"
+  ],
+  "reviewed": [
+    "10 same-camera r3/r4 comparison renders",
+    "13 r4 fullroom survey renders:6game,4corners,door,2inside-above overviews",
+    "raw1024 lightmap render",
+    "current material sample8renders"
+  ],
+  "observed": [
+    "Front lower-half black clamp removed",
+    "No header diffuser/rim brightness discontinuity in close/center game view",
+    "No old lower-left black patch",
+    "No repeated wall-corner waves",
+    "No broad triangle lighting cuts",
+    "All20pods and floor covered"
+  ],
+  "validation": "Parent and independent final validator reviewed actual native renders; source/file checks separate",
+  "native_pixel_profile": "diffuser_screen_readback.json: same camera assembly profile max3-column meanRGB range49.47 ->1.13; auxiliary evidence only",
+  "geometry_scope": "package_scope_readback.json:0 changed bytes outside front UV0 and declared UV2 attributes; positions/normals/nodes/images unchanged",
+  "remaining_of_these_two_requested_fixes": [],
+  "limits": "Saved runtime renders and data readback; not a claim of final game art approval or complete gameplay validation.",
+  "existing_strip_control": "Actual on/off/restored rendering verified; diffuser ROI meanRGB255 ->22.33 ->255"
+}

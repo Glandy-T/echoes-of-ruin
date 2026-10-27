@@ -1,0 +1,23 @@
+{
+  "scope": "Actual same-camera screenshot samples; visual review remains required",
+  "rows_inclusive": [
+    15,
+    64
+  ],
+  "column_centers": [
+    450,
+    640,
+    830
+  ],
+  "column_average_width": 5,
+  "r3": {
+    "max_horizontal_mean_rgb_range": 49.46666666666667,
+    "row_of_max_range": 45,
+    "units": "8bit RGB values averaged across 5 pixels and RGB channels"
+  },
+  "r4": {
+    "max_horizontal_mean_rgb_range": 1.1333333333333329,
+    "row_of_max_range": 15,
+    "units": "8bit RGB values averaged across 5 pixels and RGB channels"
+  }
+}
