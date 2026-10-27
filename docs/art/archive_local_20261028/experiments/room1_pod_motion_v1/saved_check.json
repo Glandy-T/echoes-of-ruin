@@ -1,0 +1,54 @@
+{
+  "status": "PASS_FILE_AND_SAMPLED_GEOMETRY",
+  "blender_version": "5.0.1",
+  "checks": [
+    {
+      "check": "closed external size matches 1.05 x 2.30 x 1.00 m",
+      "pass": true,
+      "value": [
+        1.0499999523162842,
+        2.299999952316284,
+        1.0
+      ]
+    },
+    {
+      "check": "lid is one connected closed mesh",
+      "pass": true,
+      "value": {
+        "connected_components": 1,
+        "nonmanifold_edges": 0
+      }
+    },
+    {
+      "check": "head-window material belongs to same rigid lid",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "lift-first stage is 0.12m with no lateral movement or roll",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "stowed stage is whole rigid cover rotated down one side",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "180 sampled states have no body/bed surface intersections",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "sweep remains clear of floor and next closed pod boundary",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "not_proven": [
+    "production mechanism",
+    "person boarding/turning",
+    "adjacent simultaneous opening",
+    "final silhouette approval"
+  ]
+}

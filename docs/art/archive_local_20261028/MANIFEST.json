@@ -868,6 +868,118 @@
       "sha256": "b52b7fef33212cb10cfd7e858235bf89e567ac5fa0a18c9fbbb22dc0921ff284",
       "bytes": 300420,
       "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.gitignore",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/.gitignore",
+      "sha256": "a9fc8dcfb44d554fddee0cc9035a884d7ebc1d0e8fcbea9ca9b0e216dca72966",
+      "bytes": 48,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/build_pod_motion.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/build_pod_motion.py",
+      "sha256": "2376408d46f6be58dc912110b100e508578e7ba44048b630f691ee9f7d1f3d5e",
+      "bytes": 12038,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/check_saved.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/check_saved.py",
+      "sha256": "780a4a910d2904738f1d5b005e2924d951685024c2daf3365662f5bce41eb3c7",
+      "bytes": 2919,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/motion_measurements.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/motion_measurements.json",
+      "sha256": "a7198dba1abddddba8c37d5b14eb4e4461906e72f7d73b98901ffb8269e8a07b",
+      "bytes": 945,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/motion_poses.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/motion_poses.json",
+      "sha256": "9ffde9b1fe957c152c4c2040fd7b1f98b91dabf8631c658a766a1bd45acd4936",
+      "bytes": 12150,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/package_preview.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/package_preview.py",
+      "sha256": "db4906c9956730638cbe27fd7db2cd9e2d620b4a37a5e84f5973d09702eb6bef",
+      "bytes": 734,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/README.md",
+      "sha256": "652618f8de0238f1657741bd4850f973c96151c6199a07e58524f99ee415a502",
+      "bytes": 5434,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/render_preview.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/render_preview.py",
+      "sha256": "51c02ccadc349fef446abf4c9bf136f0dc2ae24dc3b41583393111a3914e995d",
+      "bytes": 594,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/room1_pod_whole_lid_motion_v1.blend",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/room1_pod_whole_lid_motion_v1.blend",
+      "sha256": "c9e32896dc6e5717972336cab3d11d1a445b72654bf954ab6e0da3bc0334c5c8",
+      "bytes": 106402,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/saved_check.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/saved_check.json",
+      "sha256": "82eb4ea93abc12e62ba522ddf6acab78ee412257f72f4ab00aebfd775323ba0e",
+      "bytes": 1301,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/evidence/01_closed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/evidence/01_closed.png",
+      "sha256": "57b411428a10f3ed60d93085c81ac4e1f97c9bf2c5857d2aa70064b49764ddb4",
+      "bytes": 1382991,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/evidence/02_lifted.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/evidence/02_lifted.png",
+      "sha256": "2eabbde345543e4d3b264851f7e5468c750ca950d4faf6227f394e72d4ee2f87",
+      "bytes": 1406240,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/evidence/03_side_slide.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/evidence/03_side_slide.png",
+      "sha256": "f2cbb73fb20a691a748e621d293b8ddb3b18043dfe3c3169111a61bfe45b807b",
+      "bytes": 1443984,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/evidence/04_stowed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/evidence/04_stowed.png",
+      "sha256": "55acdf003eec0e5636aaeedec3898b4be3d15105adf1d6a845bc16a935e931de",
+      "bytes": 1446161,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/evidence/05_stowed_clearance.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/evidence/05_stowed_clearance.png",
+      "sha256": "19c9892ad1bf116309db39674eb493def3e4034154a09969fad9268e97c23622",
+      "bytes": 1351428,
+      "reason": "present_in_upload_worktree_but_not_tracked"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/evidence/whole_lid_motion.gif",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_motion_v1/evidence/whole_lid_motion.gif",
+      "sha256": "729f53d0c3f22d6a8d2faf60a58c1591d84d5b3574c02ef25d735363cf003e0e",
+      "bytes": 2000653,
+      "reason": "present_in_upload_worktree_but_not_tracked"
     }
   ],
   "omitted": [
