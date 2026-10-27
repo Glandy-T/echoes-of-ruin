@@ -1,0 +1,1764 @@
+{
+  "created_at": "2026-10-28T00:09:23.2055449+09:00",
+  "archive_root": "docs/art/archive_local_20261028",
+  "rules": [
+    "Only files missing from or differing from upload worktree SHA256 were copied.",
+    "pixellab_direct_api_check_v1 excluded entirely due possible account data.",
+    ".godot, __pycache__, .preview_frames, movie_frames, *.import, *.log, *.blend1, *.pyc, raw bake caches, and local upload scripts excluded.",
+    "No source was moved, deleted, or overwritten."
+  ],
+  "copied_files": [
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv_review_r4/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv_review_r4/README.md",
+      "sha256": "3bda95ea38c9acfe075f75a4c78953a33c271f7b4f596c0df94baea16dacef29",
+      "bytes": 1938,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/bake_joined_receivers.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/bake_joined_receivers.py",
+      "sha256": "3de845262b00006c649dff26fe7f5fe6e85d11c20cdfb3eef2bbedf745982d07",
+      "bytes": 4477,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_compare_uv2.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_compare_uv2.py",
+      "sha256": "b353f01c12d04bca31ab3951221e67aad7fd7507fef389b7934fc77cf6b868e8",
+      "bytes": 1779,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_flip_u.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_flip_u.png",
+      "sha256": "4e7ac88365a5d0c27be1a05f10ba5ec5e34f0e717d18d17875c483057e30eae4",
+      "bytes": 140614,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_flip_uv.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_flip_uv.png",
+      "sha256": "dc7aed4cd725b2770cc74564aadc57ccd133a5d4d6eb3a24e1964c46dcdeeea5",
+      "bytes": 139177,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_flip_v.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_flip_v.png",
+      "sha256": "2eec6d9bd978f38921a6f92721489c2b213d6cdcf5039c33f11ae64cd89eebda",
+      "bytes": 137686,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_layout.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_layout.py",
+      "sha256": "4335c265f39f3055038c984781dd7a231539d48a83a65a48d7f681ebe6b0b9fb",
+      "bytes": 679,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_orientation.gd",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_orientation.gd",
+      "sha256": "b3ca4429f6cb19a67c5ba91d8789e945e888bbee8aa73fadc77851c1fa6591a1",
+      "bytes": 1107,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_raw.gd",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_raw.gd",
+      "sha256": "d20d399e16b20207b7796b3a401a1ee1ea12ea425214c35815d948ae4aa35635",
+      "bytes": 1220,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_raw.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_raw.png",
+      "sha256": "0304b6a821f420d49415eef1f3aea690d757109b3a48a783e69cef43f67f6899",
+      "bytes": 574071,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_source_uv2.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_source_uv2.json",
+      "sha256": "dd408efda71625acc659fcc25a713dd722e529997dea7262ad9bceb4c49b7adf",
+      "bytes": 7821288,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/probe_uv2_export.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/probe_uv2_export.py",
+      "sha256": "d268bbdd9963794dd7c913d9e05473485ca6a75223b7537fd0683e81828bc30c",
+      "bytes": 908,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_left_wall_uv2_fix_r2/room1_open_hero_uv2_r2_joined_packed.blend",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_left_wall_uv2_fix_r2/room1_open_hero_uv2_r2_joined_packed.blend",
+      "sha256": "c94ee93996619d6302986e3267514eff948c910a3fc189f79c5dc8d974331ead",
+      "bytes": 6431852,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_lowpoly_v1/sample_manifest.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_lowpoly_v1/sample_manifest.json",
+      "sha256": "bfdc1858be5f8d20181adffbeed1108801099e76b4fc4424cc09ed02984fcbde",
+      "bytes": 3948,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_lowpoly_v1/self_check.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_lowpoly_v1/self_check.json",
+      "sha256": "ce660a8b0699680e1b445cdbbb0e1801d93a7a4c5ca08af73dcb9bcbc50602d2",
+      "bytes": 2382,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_lowpoly_v1/textures/P11_right_side_UV.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_lowpoly_v1/textures/P11_right_side_UV.svg",
+      "sha256": "2860d6add9e3c7c7f91957ee614f2dc945f077b3a042c2463f7fd932d323f44c",
+      "bytes": 273,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/nearest_pixel_import.gd",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/nearest_pixel_import.gd",
+      "sha256": "a2c0d133f76343fde2fb851684eb5484fa00939dfdd7f40bc1f2bee3d4dcf768",
+      "bytes": 628,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/nearest_pixel_import.gd.uid",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/nearest_pixel_import.gd.uid",
+      "sha256": "32689a98338c6ef64d9b70e1bd9666cfda0f0c8016f79a947a1ad39755f77b6c",
+      "bytes": 20,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_display.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_display.png",
+      "sha256": "3b77ae2c30076bd355f03e24755e525ce958c2a0b0122d746e4d5c28dbf1eb44",
+      "bytes": 523,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_glass.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_glass.png",
+      "sha256": "b20a1d96460fcb23f61acefcf3bc359e1c0476c7e88bbb84be9c8a2d8eb2c0ff",
+      "bytes": 933,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_interior.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_interior.png",
+      "sha256": "bc0a82bdaaeb0501f8df97ecc38a58e3eb367531cfd8a92d0631fc39f838061c",
+      "bytes": 799,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_lid.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_lid.png",
+      "sha256": "f40d286ee664ca870c3bd23679f03b86fc7ae14e06edfa13638ec7959c1cc2ca",
+      "bytes": 5069,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_mattress.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_mattress.png",
+      "sha256": "fbb9d8acee5bfff85330cb92536adbfc74731a1ec109a4423e1acf6af424c8f5",
+      "bytes": 994,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_shell_end.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_shell_end.png",
+      "sha256": "1196e7042221e84a4cbbd039eed469919634b604edaada61993b6299d8030bed",
+      "bytes": 1553,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_shell_side.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3_shell_side.png",
+      "sha256": "dd8b1978637787cb354698c86359dfdf1c91fa7f131a5a160c97f16de391fede",
+      "bytes": 6119,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3.glb",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_closed_v3.glb",
+      "sha256": "0476f9bb70adda6115ce3ec60f1512dad473cf5f4a07670d12aec01128a981d8",
+      "bytes": 85976,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_display.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_display.png",
+      "sha256": "3b77ae2c30076bd355f03e24755e525ce958c2a0b0122d746e4d5c28dbf1eb44",
+      "bytes": 523,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_glass.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_glass.png",
+      "sha256": "b20a1d96460fcb23f61acefcf3bc359e1c0476c7e88bbb84be9c8a2d8eb2c0ff",
+      "bytes": 933,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_interior.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_interior.png",
+      "sha256": "bc0a82bdaaeb0501f8df97ecc38a58e3eb367531cfd8a92d0631fc39f838061c",
+      "bytes": 799,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_lid.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_lid.png",
+      "sha256": "f40d286ee664ca870c3bd23679f03b86fc7ae14e06edfa13638ec7959c1cc2ca",
+      "bytes": 5069,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_mattress.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_mattress.png",
+      "sha256": "fbb9d8acee5bfff85330cb92536adbfc74731a1ec109a4423e1acf6af424c8f5",
+      "bytes": 994,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_shell_end.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_shell_end.png",
+      "sha256": "1196e7042221e84a4cbbd039eed469919634b604edaada61993b6299d8030bed",
+      "bytes": 1553,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_shell_side.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3_shell_side.png",
+      "sha256": "dd8b1978637787cb354698c86359dfdf1c91fa7f131a5a160c97f16de391fede",
+      "bytes": 6119,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3.glb",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/pod_open_v3.glb",
+      "sha256": "1792433aea27f1f45d1b0226bb9ceaa73a695bf14fed2c31763606b54008099f",
+      "bytes": 86196,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_floor_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_floor_albedo.png",
+      "sha256": "13b7a743c6b049abcf72b7aa922e66e93c12aba6a984a9f2a6158b95fbcc9ff9",
+      "bytes": 177203,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_floor_solid.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_floor_solid.png",
+      "sha256": "3af188fd91ce2f992b2ae42b92ca08d3c602f31dac6bb88f97e52dbd79ae7172",
+      "bytes": 116,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_front_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_front_albedo.png",
+      "sha256": "5ffeb2396a4e61a8db7505cbfd9580c2cd8591a2473107fd9ed65a969c85384f",
+      "bytes": 10549,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_front_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_front_emissive_color.png",
+      "sha256": "bc89933fa92c530a72e66fb049e39432530f6fcf8e2be4e2753ac81d6f4f9b1c",
+      "bytes": 1469,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_left_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_left_albedo.png",
+      "sha256": "e3a6124e85c21ab3d8600628c918788cfe07d42936c649fe97a6d64e59f968f3",
+      "bytes": 6669,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_left_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_left_emissive_color.png",
+      "sha256": "7a3d5809e3636bf7f80bdcc34b878d5fcb64ea031d362e3c73f73bb36befc8e7",
+      "bytes": 712,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_rear_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_rear_albedo.png",
+      "sha256": "c5165e60f6f3f99d00aae8279b04fc673c2d46a2ef73635d9a41e23308c79208",
+      "bytes": 10456,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_rear_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_rear_emissive_color.png",
+      "sha256": "bc89933fa92c530a72e66fb049e39432530f6fcf8e2be4e2753ac81d6f4f9b1c",
+      "bytes": 1469,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_right_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_right_albedo.png",
+      "sha256": "d2b091d11a85016fb53aaacf411541d39980458a4a823a9c47e7a3e32c2487eb",
+      "bytes": 6229,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_right_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_right_emissive_color.png",
+      "sha256": "7a3d5809e3636bf7f80bdcc34b878d5fcb64ea031d362e3c73f73bb36befc8e7",
+      "bytes": 712,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_wall_solid.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1_wall_solid.png",
+      "sha256": "c80863499bf6865f31167223e16c35d11d3b7573cd9c6708a0f6c482bce7aaef",
+      "bytes": 116,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1.glb",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_layout_review_r1.glb",
+      "sha256": "605be9dde58ed35e7081089149463a2c0231d41ef058e46a0a378a03db371efd",
+      "bytes": 1437132,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_floor_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_floor_albedo.png",
+      "sha256": "13b7a743c6b049abcf72b7aa922e66e93c12aba6a984a9f2a6158b95fbcc9ff9",
+      "bytes": 177203,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_floor_solid.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_floor_solid.png",
+      "sha256": "3af188fd91ce2f992b2ae42b92ca08d3c602f31dac6bb88f97e52dbd79ae7172",
+      "bytes": 116,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_front_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_front_albedo.png",
+      "sha256": "5ffeb2396a4e61a8db7505cbfd9580c2cd8591a2473107fd9ed65a969c85384f",
+      "bytes": 10549,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_front_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_front_emissive_color.png",
+      "sha256": "bc89933fa92c530a72e66fb049e39432530f6fcf8e2be4e2753ac81d6f4f9b1c",
+      "bytes": 1469,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_left_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_left_albedo.png",
+      "sha256": "e3a6124e85c21ab3d8600628c918788cfe07d42936c649fe97a6d64e59f968f3",
+      "bytes": 6669,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_left_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_left_emissive_color.png",
+      "sha256": "7a3d5809e3636bf7f80bdcc34b878d5fcb64ea031d362e3c73f73bb36befc8e7",
+      "bytes": 712,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_rear_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_rear_albedo.png",
+      "sha256": "c5165e60f6f3f99d00aae8279b04fc673c2d46a2ef73635d9a41e23308c79208",
+      "bytes": 10456,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_rear_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_rear_emissive_color.png",
+      "sha256": "bc89933fa92c530a72e66fb049e39432530f6fcf8e2be4e2753ac81d6f4f9b1c",
+      "bytes": 1469,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_right_albedo.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_right_albedo.png",
+      "sha256": "d2b091d11a85016fb53aaacf411541d39980458a4a823a9c47e7a3e32c2487eb",
+      "bytes": 6229,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_right_emissive_color.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_right_emissive_color.png",
+      "sha256": "7a3d5809e3636bf7f80bdcc34b878d5fcb64ea031d362e3c73f73bb36befc8e7",
+      "bytes": 712,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_wall_solid.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1_wall_solid.png",
+      "sha256": "c80863499bf6865f31167223e16c35d11d3b7573cd9c6708a0f6c482bce7aaef",
+      "bytes": 116,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1.glb",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/assets/art/room1_revision_20261013/room1_shell_full_r1.glb",
+      "sha256": "c7584c6ad86af4b652601a6fac824be13f5361bf3c6cc4d34e37e14207157da0",
+      "bytes": 239188,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/import_readback.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/import_readback.json",
+      "sha256": "b2a558c44db80622709dbd9d4ff64547eb5535f1092949655e6c761bed9dd5e3",
+      "bytes": 899,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/project.godot",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/project.godot",
+      "sha256": "c072c3a0b2fe3e10aa73d945bdcd98bf5ec486d8d6b1d8f11de3b4ad6b657f1e",
+      "bytes": 196,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/read_imported_resources.gd",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/read_imported_resources.gd",
+      "sha256": "160ef8eee1fdcd655a9f1558607f6088d7f02886e6105ef0afa746cf0ed27fa4",
+      "bytes": 1628,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/read_imported_resources.gd.uid",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_material_revision_v1/godot_import_workspace/read_imported_resources.gd.uid",
+      "sha256": "1f63ab23068509e7da1d7a8ddf04a8134f37360f33995091b1bff2ebad8f44a9",
+      "bytes": 20,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pixel_motion_test_r2/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pixel_motion_test_r2/README.md",
+      "sha256": "94e18c3e528b479574c082ca36367770d51fa36324b944a061156af19bbbe8d7",
+      "bytes": 2029,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pixel_resolution_test_r1/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pixel_resolution_test_r1/README.md",
+      "sha256": "ad64a510fff660018362b7c2ea85f60e2642ea205a568e35afbda58b1906101e",
+      "bytes": 1820,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_player_physics_test_r1/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_player_physics_test_r1/README.md",
+      "sha256": "9e9af045ca7459fae1aeeb3ca600e82bdff312cd3c9697a4afc6f9f941c52c03",
+      "bytes": 3607,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/.gitignore",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/.gitignore",
+      "sha256": "6267d57883289ef86c7009fc6d6bdc8473743fb610cbe2ab4b821a435a690fc7",
+      "bytes": 19,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/capture.gd",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/capture.gd",
+      "sha256": "5fb25f8ece6bef732cc02dc279d4c28431cdcd6e65cc6a4057319fc1d90978d2",
+      "bytes": 3526,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/game_closed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/game_closed.png",
+      "sha256": "f972afdb8b606ce790227f406cd65588d3b83b3f80f6fb097f8fea4906e3e320",
+      "bytes": 331202,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/game_open.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/game_open.png",
+      "sha256": "37f5bbd864fceb396364a8881be5e68f453bf84591704a878ab73be4363acccf",
+      "bytes": 334972,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/glass_hidden_control.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/glass_hidden_control.png",
+      "sha256": "a948896a76b6c65b6150dbaf80ec8153566d4c5747999be1041d6317ded27f16",
+      "bytes": 298475,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/inner_light_off_control.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/inner_light_off_control.png",
+      "sha256": "79357d34fcb766c80a30311c28a15ac84ba7740ab4e2edbe753708d1e5f51193",
+      "bytes": 259314,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/new_closed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/new_closed.png",
+      "sha256": "0a61c2193a21e2c0293c11c51a418d4aaf6b8204c0eeca8ba6d99dcaaa8e9950",
+      "bytes": 321977,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/new_glass.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/new_glass.png",
+      "sha256": "112ce3d74ec57de76a07cb96be88f06ab0c561636704fab0cf8bd8cba82519f7",
+      "bytes": 301594,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/new_open.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/new_open.png",
+      "sha256": "7a4b519a4db46c6cbc2b3ecbca1908cb50bb7307b4f5210616d2a8c7dbbdfc16",
+      "bytes": 335456,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/old_closed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/old_closed.png",
+      "sha256": "3606a91e1bdc0aa269c3b0b8868f90039bca336205000f65c2b94e348710cfd6",
+      "bytes": 322751,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/old_glass.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/old_glass.png",
+      "sha256": "403e24c83fab5d41dc501bd5d581207b9be0b4dd32c6dc323a08e4802999f7ec",
+      "bytes": 298243,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/old_open.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/old_open.png",
+      "sha256": "14b89b22f7898f7beee3eef7bbc8dac913ad6621589cfda032a981d54d28ed57",
+      "bytes": 343124,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_chamber_v6/evidence/reflection_off_control.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_chamber_v6/evidence/reflection_off_control.png",
+      "sha256": "0fcb70fa809999faf043a24f5fdd915c6323fcbe2c830b9a31cadba6cc1429b1",
+      "bytes": 300301,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_exit_animation_r1/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_exit_animation_r1/README.md",
+      "sha256": "02d0b0b91de150ea87d76ac6a99d7e4ff0bfcbd8e44e6eb6a0bfb240b6113a52",
+      "bytes": 2828,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_exit_animation_r2/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_exit_animation_r2/README.md",
+      "sha256": "eb7fb88dfe0073d2cabf8cfb83558fefed2630c0dbd866730be90d3b7f55682a",
+      "bytes": 1370,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_exit_animation_r3/README.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_exit_animation_r3/README.md",
+      "sha256": "006c1af81e05763cd120f880b19aaebb926c9db91d6804fa0e911dff0d60804d",
+      "bytes": 1367,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.gitignore",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/.gitignore",
+      "sha256": "a9fc8dcfb44d554fddee0cc9035a884d7ebc1d0e8fcbea9ca9b0e216dca72966",
+      "bytes": 48,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/build_pod.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/build_pod.py",
+      "sha256": "4d10a9c23af84ee838086347c2fd66196c1133b6c6cc17d08c0c535eeec21387",
+      "bytes": 15851,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/check_saved.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/check_saved.py",
+      "sha256": "269e05f75a48768b86f1f17e242aa41cd5cd5066e765317d644ad610083c0c26",
+      "bytes": 5649,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/01_closed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/01_closed.png",
+      "sha256": "75fd60b4ad82f462c104955c4e233b3bf11ae61f838d6616bb667aeafd5c8142",
+      "bytes": 1375355,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/02_lifted.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/02_lifted.png",
+      "sha256": "4b2987e327afd23e117532011812ff9f9fa3cc52728cbd74d207a31a86b6e179",
+      "bytes": 1396386,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/03_side_slide.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/03_side_slide.png",
+      "sha256": "6bfe13017221a97deb1996c005d7c596ae88e2a0575356e629d72aca8291a986",
+      "bytes": 1440539,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/04_stowed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/04_stowed.png",
+      "sha256": "af6870a0631c285b02e6cc918f072c097f4cd9724c84a70850becaf1d8a20e5c",
+      "bytes": 1433724,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/05_stowed_clearance.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/05_stowed_clearance.png",
+      "sha256": "29d7a707e531489ad7ced7c070e5bf75116aa3694c13e0b0d49bff9be2e56ce4",
+      "bytes": 1385795,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/06_uv_checker_closed.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/06_uv_checker_closed.png",
+      "sha256": "a24225fe96f31fdd65ade90e5ebc00797427017f90b6e16adfa00f0479e79045",
+      "bytes": 1677553,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/evidence/07_uv_checker_open.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/evidence/07_uv_checker_open.png",
+      "sha256": "7cd48ee7aba32d88c3f1fd7c82886531ac644455d4a7f253b8e5c9f1d6872fde",
+      "bytes": 1733058,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/motion_measurements.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/motion_measurements.json",
+      "sha256": "bd18f7207cdbcff31abb8f5971bcfaac6f3b1fa90bdb38d6aad6bc65f69bf050",
+      "bytes": 946,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/motion_poses.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/motion_poses.json",
+      "sha256": "9ffde9b1fe957c152c4c2040fd7b1f98b91dabf8631c658a766a1bd45acd4936",
+      "bytes": 12150,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/package_preview.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/package_preview.py",
+      "sha256": "1ab05ab8a383ab2aa08aa9284fc35893254d12fe5b4e0ac0ed166cb41877fc87",
+      "bytes": 1472,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/render_preview.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/render_preview.py",
+      "sha256": "15b2018e936a5b70285ae454aab788bdddfbcfd2c8f3400a361ad2f4b090c185",
+      "bytes": 585,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/room1_pod_form_uv_v2.blend",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/room1_pod_form_uv_v2.blend",
+      "sha256": "d54ea65200a7752aca0196580e50fae6d4fcf5c0916504de61d9f8d7209d6c18",
+      "bytes": 122449,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/saved_check.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/saved_check.json",
+      "sha256": "7f0d9b8908b2de437a9f07ebea220b9552c52688e590e9cbf79ec970939f6ad7",
+      "bytes": 4005,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/uv/ONE_RIGID_LID_with_head_window.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/uv/ONE_RIGID_LID_with_head_window.svg",
+      "sha256": "3668a754aafda9e2223c3878005a2fca8df0b9e9174b5d5e35ecdbecc0c98d14",
+      "bytes": 29334,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/uv/Original_continuous_shell.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/uv/Original_continuous_shell.svg",
+      "sha256": "8925638c07cc4de3c6f0713682654e47bd9af42de3b3b7da58ff0347de6a8a04",
+      "bytes": 31125,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/uv/Plain_interior_support.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/uv/Plain_interior_support.svg",
+      "sha256": "be5874353b10ed2542e40fa97ae6eaab5dd7cad060e481633e43130c90ca8731",
+      "bytes": 4933,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/uv/uv_layouts.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_form_uv_v2/uv/uv_layouts.json",
+      "sha256": "fbfa2da769e8e63238c4c89d3bd2e966f39fb1d0c705266745f6f2804ea8ffb3",
+      "bytes": 219837,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.reference_review/01_side_silhouette.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/.reference_review/01_side_silhouette.png",
+      "sha256": "80dc576885b5bd49a8bc142784b6ba27f6ab8d290e334429c5895b301867e1b2",
+      "bytes": 1363361,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.reference_review/02_end_profile.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/.reference_review/02_end_profile.png",
+      "sha256": "fa5553e4d65874bc43d60a25535240a096d3ea99cc61026ff8ca4af23ea2d5ac",
+      "bytes": 1469210,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.reference_review/03_oblique_shell_and_cover.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/.reference_review/03_oblique_shell_and_cover.png",
+      "sha256": "478c20c56539516ccaa11c81218cfbfe3fed7565e5922e5ec49d662ef23e8c9a",
+      "bytes": 1363866,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.reference_review/MEASURED_SILHOUETTE.md",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/.reference_review/MEASURED_SILHOUETTE.md",
+      "sha256": "ef3884574f6946bb01de562965153b5f8a6afc30914c713901e36ae7e0b0d45e",
+      "bytes": 2162,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.reference_review/render_reference_views.py",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/.reference_review/render_reference_views.py",
+      "sha256": "d422674c1f7dc5460accb53144ebb5483152e3b84be7e4d786d7110eca4a15ec",
+      "bytes": 4629,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/motion_poses.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/motion_poses.json",
+      "sha256": "249b831c965c45d5c552abe3d76aa585a047f719958b4aeaff7de364fea63bac",
+      "bytes": 11726,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/uv/ONE_PIECE_COVER_head_window.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/uv/ONE_PIECE_COVER_head_window.json",
+      "sha256": "e36a17c657fc6349e7207c28bba94a21d4154fbf8d83fe050a47ed08c8f32f09",
+      "bytes": 81968,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/uv/ONE_PIECE_COVER_head_window.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/uv/ONE_PIECE_COVER_head_window.svg",
+      "sha256": "9caca105cfa2066594c13550dff74abbaf55c337a5e6fa92f27c6ef711c002ca",
+      "bytes": 26978,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/uv/Reference_led_fixed_shell.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/uv/Reference_led_fixed_shell.json",
+      "sha256": "2204523c8f09717f29322e5d91b74eb8bc9e11d152ebc1b983b89d93e494603c",
+      "bytes": 77277,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/uv/Reference_led_fixed_shell.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/uv/Reference_led_fixed_shell.svg",
+      "sha256": "9781ad61291c50f57bbf25df5dee9f642d0a505cf6d2ab9a664c612fa615ae71",
+      "bytes": 25060,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/uv/Sleeping_surface.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/uv/Sleeping_surface.json",
+      "sha256": "dfcd1915de5d59250aa28253a4df51acb003b0e202055864acf24b06390a9534",
+      "bytes": 9908,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/uv/Sleeping_surface.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4/uv/Sleeping_surface.svg",
+      "sha256": "6e6de38048f39ef356111c381a11de6489dbbd3b348a8ac3b7bfa7773c19de47",
+      "bytes": 3475,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/motion_poses.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/motion_poses.json",
+      "sha256": "89ec1d13711a8be300e01abac5aa02ebe5dae6eca49360fd63003a956c639f46",
+      "bytes": 12132,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/Foot_info_display_surface.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/Foot_info_display_surface.json",
+      "sha256": "d5a684c3926b51d589ca17e025ce3925261d8023e74f95fb4514f642c193d1a3",
+      "bytes": 389,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/Foot_info_display_surface.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/Foot_info_display_surface.svg",
+      "sha256": "165a4c87850e474590cf3e370a9cf513d1fc49f817fadd72108b98765604bec6",
+      "bytes": 270,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/ONE_PIECE_COVER_head_window.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/ONE_PIECE_COVER_head_window.json",
+      "sha256": "e36a17c657fc6349e7207c28bba94a21d4154fbf8d83fe050a47ed08c8f32f09",
+      "bytes": 81968,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/ONE_PIECE_COVER_head_window.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/ONE_PIECE_COVER_head_window.svg",
+      "sha256": "9d335f84d74b694be0b212f8b1a2df6ffab3bc176711d8e99f08dfb29737950c",
+      "bytes": 26978,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/Reference_led_fixed_shell.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/Reference_led_fixed_shell.json",
+      "sha256": "ee3e8809515c571f525a1c2a5d53a5ec0607dd7cf64e7281b375a296b45d24f1",
+      "bytes": 80071,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/Reference_led_fixed_shell.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/Reference_led_fixed_shell.svg",
+      "sha256": "c7eaf132f4755a2e94bb157fa8cf594d489d3f38c7306eafde1a0a316a1a066f",
+      "bytes": 25970,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/Sleeping_surface.json",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/Sleeping_surface.json",
+      "sha256": "dfcd1915de5d59250aa28253a4df51acb003b0e202055864acf24b06390a9534",
+      "bytes": 9908,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/uv/Sleeping_surface.svg",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_pod_reference_v4_1/uv/Sleeping_surface.svg",
+      "sha256": "b3a918406a430f224ad5255195084b97e33b5d1cdd6f944409767f614856ff7c",
+      "bytes": 3475,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "docs/art/experiments/room1_surface_full_room_r1/evidence/04_native_strength.png",
+      "archived_as": "docs/art/archive_local_20261028/experiments/room1_surface_full_room_r1/evidence/04_native_strength.png",
+      "sha256": "b52b7fef33212cb10cfd7e858235bf89e567ac5fa0a18c9fbbb22dc0921ff284",
+      "bytes": 300420,
+      "reason": "missing_from_upload"
+    }
+  ],
+  "omitted": [
+    {
+      "source": "docs/art/experiments/pixellab_direct_api_check_v1",
+      "reason": "explicit_account_data_exclusion"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/.gdignore",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/editor/filesystem_cache10",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/editor/pod_closed_v3.glb-1183c7d9ce2223d6fa953d9789e656f4.scn-folding-ffda793c917d806e02fc2a257b18cab6.cfg",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/editor/pod_open_v3.glb-d09e063ba8798ce43e82bc98037c147d.scn-folding-a7e91e5860dab3f6240bd5303e74972f.cfg",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/editor/project_metadata.cfg",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/editor/room1_layout_review_r1.glb-16c9214dc65bbbdec9a10c9889a226b5.scn-folding-4d4dcd8c6e048c6d117104728ecac288.cfg",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/editor/room1_shell_full_r1.glb-1b44df01729098993bc40afcc272f40b.scn-folding-12b5f9b3803f02f631166c5bb1c05760.cfg",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/global_script_class_cache.cfg",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_display.png-1e372fcf88fdab827a1a177ce1136592.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_display.png-1e372fcf88fdab827a1a177ce1136592.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_glass.png-76a9e636d408cabc5f79f69ca8b9facf.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_glass.png-76a9e636d408cabc5f79f69ca8b9facf.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_interior.png-ba1f762107c31a2ecd7cee5112aa8231.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_interior.png-ba1f762107c31a2ecd7cee5112aa8231.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_lid.png-ea3933b6f25dff779ede0184b3cd5da3.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_lid.png-ea3933b6f25dff779ede0184b3cd5da3.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_mattress.png-26286308171ee6a430b6a02e7597b967.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_mattress.png-26286308171ee6a430b6a02e7597b967.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_shell_end.png-1c880e6addfb985242a1ad843b808013.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_shell_end.png-1c880e6addfb985242a1ad843b808013.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_shell_side.png-39e6cec9f6143dfcbe97f1bd959fe7d2.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3_shell_side.png-39e6cec9f6143dfcbe97f1bd959fe7d2.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3.glb-1183c7d9ce2223d6fa953d9789e656f4.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_closed_v3.glb-1183c7d9ce2223d6fa953d9789e656f4.scn",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_display.png-032d79e2c659d2c324308a1af22f8655.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_display.png-032d79e2c659d2c324308a1af22f8655.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_glass.png-d47a8c087b57c261ab5f88b920db9e45.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_glass.png-d47a8c087b57c261ab5f88b920db9e45.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_interior.png-b9dd1e61a41d985e48ebf27464d9f5d3.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_interior.png-b9dd1e61a41d985e48ebf27464d9f5d3.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_lid.png-55872ffd9c9c5712108bc0cfaed274be.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_lid.png-55872ffd9c9c5712108bc0cfaed274be.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_mattress.png-e01a644d2b1968aa62841fc1b7647160.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_mattress.png-e01a644d2b1968aa62841fc1b7647160.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_shell_end.png-dadfc1e98aea7d081786e4e8f83129b5.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_shell_end.png-dadfc1e98aea7d081786e4e8f83129b5.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_shell_side.png-5c82f84f17f46cdc853c20947d2dc949.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3_shell_side.png-5c82f84f17f46cdc853c20947d2dc949.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3.glb-d09e063ba8798ce43e82bc98037c147d.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/pod_open_v3.glb-d09e063ba8798ce43e82bc98037c147d.scn",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_floor_albedo.png-242a596ad5f1e9ac4bbcd67c26501407.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_floor_albedo.png-242a596ad5f1e9ac4bbcd67c26501407.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_floor_solid.png-01b15a07b74cca8ed62a673a68a8f946.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_floor_solid.png-01b15a07b74cca8ed62a673a68a8f946.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_front_albedo.png-1b774a58b560a40cb74ac1c88dca43e9.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_front_albedo.png-1b774a58b560a40cb74ac1c88dca43e9.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_front_emissive_color.png-14003d44eceb469e0c718f07c2a13be1.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_front_emissive_color.png-14003d44eceb469e0c718f07c2a13be1.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_left_albedo.png-1498b0af134ae725ab136328b0a7e76b.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_left_albedo.png-1498b0af134ae725ab136328b0a7e76b.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_left_emissive_color.png-3fcc2d1f6a69985c71c90a324437e88a.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_left_emissive_color.png-3fcc2d1f6a69985c71c90a324437e88a.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_rear_albedo.png-babd8121c0cc34e6c14279afe6d89766.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_rear_albedo.png-babd8121c0cc34e6c14279afe6d89766.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_rear_emissive_color.png-097c239640dd87bc1322f5c3968d8293.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_rear_emissive_color.png-097c239640dd87bc1322f5c3968d8293.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_right_albedo.png-735fb3cde590011bdbdfb5949f0c7b46.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_right_albedo.png-735fb3cde590011bdbdfb5949f0c7b46.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_right_emissive_color.png-ab8facd97c87b3baff2d34a58e583493.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_right_emissive_color.png-ab8facd97c87b3baff2d34a58e583493.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_wall_solid.png-c228e2e28839b3ade212517b5ff459a8.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1_wall_solid.png-c228e2e28839b3ade212517b5ff459a8.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1.glb-16c9214dc65bbbdec9a10c9889a226b5.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_layout_review_r1.glb-16c9214dc65bbbdec9a10c9889a226b5.scn",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_floor_albedo.png-14b458d578987a585eac5ddf8f5a0262.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_floor_albedo.png-14b458d578987a585eac5ddf8f5a0262.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_floor_solid.png-ffe860c16ed17cc3fe3796dfa5bafe04.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_floor_solid.png-ffe860c16ed17cc3fe3796dfa5bafe04.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_front_albedo.png-61c92b8aa491f3129f2f42e48ae13216.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_front_albedo.png-61c92b8aa491f3129f2f42e48ae13216.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_front_emissive_color.png-ebed2b9782703aee59b6f11d03f6bd2e.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_front_emissive_color.png-ebed2b9782703aee59b6f11d03f6bd2e.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_left_albedo.png-a1c06e96ac9ff7405f1fc6d038b599ad.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_left_albedo.png-a1c06e96ac9ff7405f1fc6d038b599ad.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_left_emissive_color.png-c6b16b8973da8dd7978d158c9e34f993.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_left_emissive_color.png-c6b16b8973da8dd7978d158c9e34f993.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_rear_albedo.png-768e412f1494203371f07b5315e2e1da.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_rear_albedo.png-768e412f1494203371f07b5315e2e1da.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_rear_emissive_color.png-41af9bb840c893bb4913e4b6f172c7ac.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_rear_emissive_color.png-41af9bb840c893bb4913e4b6f172c7ac.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_right_albedo.png-c9876a5585e2aa8e7138ecfa66aea869.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_right_albedo.png-c9876a5585e2aa8e7138ecfa66aea869.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_right_emissive_color.png-72580e2cdc044d5033b6fcdde1ebc869.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_right_emissive_color.png-72580e2cdc044d5033b6fcdde1ebc869.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_wall_solid.png-3b4cb3c1819c62531884104da3a6de86.ctex",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1_wall_solid.png-3b4cb3c1819c62531884104da3a6de86.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1.glb-1b44df01729098993bc40afcc272f40b.md5",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/imported/room1_shell_full_r1.glb-1b44df01729098993bc40afcc272f40b.scn",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_material_revision_v1/godot_import_workspace/.godot/uid_cache.bin",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/001.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/004.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/007.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/010.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/013.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/016.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/019.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/022.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/025.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/028.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/031.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/034.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/037.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/040.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/043.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/046.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/049.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/052.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/055.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/058.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/061.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/064.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/067.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/070.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/073.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/076.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/079.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/082.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/085.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/088.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/091.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/094.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/097.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/100.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/103.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_form_uv_v2/.preview_frames/106.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/001.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/004.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/007.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/010.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/013.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/016.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/019.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/022.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/025.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/028.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/031.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/034.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/037.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/040.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/043.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/046.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/049.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/052.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/055.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/058.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/061.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/064.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/067.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/070.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/073.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/076.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/079.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/082.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/085.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/088.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/091.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/094.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/097.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/100.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/103.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_motion_v1/.preview_frames/106.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/__pycache__/model_tools.cpython-311.pyc",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/001.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/004.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/007.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/010.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/013.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/016.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/019.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/022.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/025.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/028.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/031.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/034.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/037.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/040.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/043.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/046.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/049.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/052.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/055.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/058.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/061.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/064.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/067.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/070.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/073.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/076.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/079.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/082.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/085.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/088.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/091.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/094.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/097.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/100.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/103.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4/.preview_frames/106.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/001.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/004.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/007.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/010.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/013.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/016.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/019.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/022.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/025.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/028.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/031.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/034.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/037.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/040.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/043.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/046.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/049.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/052.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/055.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/058.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_pod_reference_v4_1/.preview_frames/060.png",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    },
+    {
+      "source": "docs/art/experiments/room1_surface_full_r5/source/upload_delivery.py",
+      "reason": "excluded_generated_cache_or_local_upload_script"
+    }
+  ],
+  "summary": {
+    "copied_files": 123,
+    "omitted_entries": 221,
+    "copied_bytes": 36914632.0
+  }
+}

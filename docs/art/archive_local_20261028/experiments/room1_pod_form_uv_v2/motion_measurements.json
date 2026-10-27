@@ -1,0 +1,26 @@
+{
+  "status": "MOTION_CANDIDATE_NOT_APPROVED",
+  "body_external_closed_size_m": [
+    1.05,
+    2.3,
+    1.0
+  ],
+  "lift_m": 0.12,
+  "side_stow_demonstration": "+X / side assignment TBD",
+  "sample_count": 180,
+  "maximum_swept_x_m": 0.8554269671440125,
+  "swept_protrusion_beyond_body_m": 0.33042696714401243,
+  "remaining_of_0p70m_gap_at_max_sweep": 0.36957303285598764,
+  "final_stowed_max_x_m": 0.7899999618530273,
+  "minimum_ground_clearance_m": 0.029999960213899612,
+  "maximum_opening_height_m": 1.1468875408172607,
+  "surface_intersection_frames": [],
+  "method": "world mesh BVH surface intersections sampled every half frame; no mechanical or human validation",
+  "limits": [
+    "not a physical rail mechanism",
+    "no swept volume continuous proof",
+    "no human boarding/turning validation",
+    "no neighboring lid simultaneous-opening validation",
+    "resting geometry/artwork awaits user review"
+  ]
+}

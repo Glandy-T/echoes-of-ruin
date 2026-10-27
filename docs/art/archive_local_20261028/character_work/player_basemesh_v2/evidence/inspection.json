@@ -1,0 +1,70 @@
+{
+  "source_page": "https://opengameart.org/content/human-basemeshes",
+  "source_author": "pistachio",
+  "license": "CC0",
+  "source_archive_sha256": "b873af7825484ad2a58da186650045f55883589109a2ba9f2c440c7a7fa96fb7",
+  "source_blend_sha256": "4cd0e968c3b4fe388489b3800dfdc9c42696050c98a13de7b2e203ec12d4ccd0",
+  "github_main_checked": "4c201289a5cb1f730897017d2186765f8d1ca470",
+  "art_direction_version": "0.44",
+  "blender_version": "5.0.1",
+  "load_warning": "Error: ShapeKey KEKey.000 has an invalid 'from' pointer (0000000000000000), it will be deleted",
+  "original_shape_values": {
+    "Basis": 0.0,
+    "Key 1": 1.0
+  },
+  "height_m": 1.649999976158142,
+  "uniform_scale": 0.9051137447686372,
+  "bounds_m": [
+    [
+      -0.5579223036766052,
+      0.5579224228858948
+    ],
+    [
+      -0.16511599719524384,
+      0.1291041523218155
+    ],
+    [
+      0.0,
+      1.649999976158142
+    ]
+  ],
+  "topology": {
+    "vertices": 581,
+    "edges": 1159,
+    "faces": 580,
+    "triangles": 1158,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "zero_area_faces": 0
+  },
+  "uv_layer": "UVMap",
+  "uv_loops": 2318,
+  "uv_range": [
+    [
+      0.019297868013381958,
+      0.9807021617889404
+    ],
+    [
+      0.008300647139549255,
+      0.9950466752052307
+    ]
+  ],
+  "rig_bones": 59,
+  "unweighted_vertices": [],
+  "subdivision_preview_level": 1,
+  "changes": [
+    "isolate female mesh and its rig",
+    "uniform scaling and ground placement",
+    "retain one optional subdivision level matching source viewport",
+    "neutral clay review material"
+  ],
+  "limitations": [
+    "No anatomy edits",
+    "No hair or garment yet",
+    "No animation/deformation test",
+    "No Godot runtime test",
+    "Source preview likeness and protagonist approval remain separate"
+  ],
+  "preview_triangles": 4636
+}

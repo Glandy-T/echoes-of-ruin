@@ -1,0 +1,361 @@
+{
+  "source": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\assets\\characters\\work\\player_basemesh_v2\\body_165cm_review_v2.blend",
+  "blender_version": "5.0.1",
+  "target_scene": "01_BODY_MASTER_165cm",
+  "target_body": "Body_165cm_CC0_pistachio",
+  "target_rig": "Body_Rig_original",
+  "base_mesh": {
+    "vertices": 581,
+    "triangles": 1158,
+    "shape_key_Key_1_value": 1.0,
+    "raw_object_dimensions_m": [
+      1.240136,
+      0.390736,
+      1.86382
+    ]
+  },
+  "uv": {
+    "layer": "UVMap",
+    "triangles": 1158,
+    "zero_area_triangles": 0,
+    "zero_area_samples": [],
+    "outside_0_1_triangles": 0,
+    "outside_samples": [],
+    "identical_uv_stack_groups": 0,
+    "identical_uv_stack_pairs": 0,
+    "opposite_winding_exact_pairs_likely_mirrors": 0,
+    "partial_non_identical_overlap_pairs": 48,
+    "partial_overlap_samples": [
+      {
+        "triangles": [
+          914,
+          922
+        ],
+        "uv_overlap_area": 4.304629811525962e-07
+      },
+      {
+        "triangles": [
+          465,
+          511
+        ],
+        "uv_overlap_area": 7.918620253954956e-08
+      },
+      {
+        "triangles": [
+          950,
+          959
+        ],
+        "uv_overlap_area": 4.961752674455255e-07
+      },
+      {
+        "triangles": [
+          4,
+          1030
+        ],
+        "uv_overlap_area": 3.101572937147523e-05
+      },
+      {
+        "triangles": [
+          401,
+          409
+        ],
+        "uv_overlap_area": 4.304264533032745e-07
+      },
+      {
+        "triangles": [
+          1030,
+          1039
+        ],
+        "uv_overlap_area": 1.3869269595845335e-06
+      },
+      {
+        "triangles": [
+          437,
+          444
+        ],
+        "uv_overlap_area": 4.961734900903528e-07
+      },
+      {
+        "triangles": [
+          400,
+          511
+        ],
+        "uv_overlap_area": 3.877467158039036e-07
+      },
+      {
+        "triangles": [
+          935,
+          967
+        ],
+        "uv_overlap_area": 2.7954567029253585e-08
+      },
+      {
+        "triangles": [
+          464,
+          511
+        ],
+        "uv_overlap_area": 1.532107082705342e-05
+      },
+      {
+        "triangles": [
+          688,
+          1009
+        ],
+        "uv_overlap_area": 4.8702362139309285e-06
+      },
+      {
+        "triangles": [
+          914,
+          923
+        ],
+        "uv_overlap_area": 1.7821244018412577e-05
+      }
+    ],
+    "uv_to_object_area_ratio": {
+      "min": 0.010513037919016883,
+      "median": 0.2270000160619197,
+      "p95": 0.5277625103025019,
+      "max": 1.9912278196754574
+    }
+  },
+  "rig": {
+    "bone_count": 59,
+    "deform_bone_count": 59,
+    "roots": [
+      "hips"
+    ],
+    "missing_deform_bone_for_vertex_group": [
+      "heel.L",
+      "heel.R"
+    ],
+    "vertex_groups_with_nonzero_assignments": {
+      "hips": 28,
+      "spine": 30,
+      "chest": 33,
+      "neck": 27,
+      "head": 29,
+      "shoulder.L": 34,
+      "upper_arm.L": 17,
+      "forearm.L": 19,
+      "hand.L": 19,
+      "palm.01.L": 13,
+      "f_index.01.L": 14,
+      "f_index.02.L": 12,
+      "f_index.03.L": 12,
+      "thumb.01.L": 19,
+      "thumb.02.L": 12,
+      "thumb.03.L": 7,
+      "palm.02.L": 3,
+      "f_middle.01.L": 14,
+      "f_middle.02.L": 11,
+      "f_middle.03.L": 10,
+      "palm.03.L": 7,
+      "f_ring.01.L": 20,
+      "f_ring.02.L": 11,
+      "f_ring.03.L": 10,
+      "palm.04.L": 13,
+      "f_pinky.01.L": 14,
+      "f_pinky.02.L": 11,
+      "f_pinky.03.L": 11,
+      "shoulder.R": 33,
+      "upper_arm.R": 17,
+      "forearm.R": 19,
+      "hand.R": 19,
+      "palm.01.R": 13,
+      "f_index.01.R": 14,
+      "f_index.02.R": 12,
+      "f_index.03.R": 12,
+      "thumb.01.R": 19,
+      "thumb.02.R": 12,
+      "thumb.03.R": 7,
+      "palm.02.R": 3,
+      "f_middle.01.R": 14,
+      "f_middle.02.R": 11,
+      "f_middle.03.R": 10,
+      "palm.03.R": 7,
+      "f_ring.01.R": 20,
+      "f_ring.02.R": 11,
+      "f_ring.03.R": 10,
+      "palm.04.R": 13,
+      "f_pinky.01.R": 14,
+      "f_pinky.02.R": 11,
+      "f_pinky.03.R": 11,
+      "thigh.L": 23,
+      "shin.L": 25,
+      "foot.L": 86,
+      "toe.L": 78,
+      "heel.L": 5,
+      "thigh.R": 23,
+      "shin.R": 25,
+      "foot.R": 86,
+      "toe.R": 78,
+      "heel.R": 5
+    },
+    "unweighted_vertices": 0,
+    "unweighted_samples": [],
+    "influences_per_vertex": {
+      "min": 1,
+      "max": 7,
+      "mean": 2.0585197934595527,
+      "over_four": 14,
+      "over_four_samples": [
+        56,
+        60,
+        62,
+        184,
+        185,
+        187,
+        267,
+        269,
+        306,
+        310,
+        312,
+        442,
+        443,
+        445
+      ]
+    },
+    "under_normalized": 94,
+    "under_normalized_samples": [
+      {
+        "vertex": 6,
+        "sum": 0.9934410713613033
+      },
+      {
+        "vertex": 10,
+        "sum": 0.9940375089645386
+      },
+      {
+        "vertex": 11,
+        "sum": 0.9961063861846924
+      },
+      {
+        "vertex": 25,
+        "sum": 0.9901458621025085
+      },
+      {
+        "vertex": 28,
+        "sum": 0.9978078603744507
+      },
+      {
+        "vertex": 29,
+        "sum": 0.9843993186950684
+      },
+      {
+        "vertex": 30,
+        "sum": 0.9913983345031738
+      },
+      {
+        "vertex": 38,
+        "sum": 0.994149923324585
+      },
+      {
+        "vertex": 53,
+        "sum": 0.9759375862777233
+      },
+      {
+        "vertex": 54,
+        "sum": 0.9748483300209045
+      }
+    ],
+    "over_normalized": 2,
+    "over_normalized_samples": [
+      {
+        "vertex": 125,
+        "sum": 1.001400351524353
+      },
+      {
+        "vertex": 375,
+        "sum": 1.0014002323150635
+      }
+    ],
+    "unconnected_child_bones": [
+      {
+        "bone": "neck",
+        "gap": 0.051442101102451177
+      },
+      {
+        "bone": "shoulder.L",
+        "gap": 0.14154737253649857
+      },
+      {
+        "bone": "upper_arm.L",
+        "gap": 0.02516570253115212
+      },
+      {
+        "bone": "palm.01.L",
+        "gap": 0.056179146744879845
+      },
+      {
+        "bone": "thumb.01.L",
+        "gap": 0.08226505732521588
+      },
+      {
+        "bone": "palm.02.L",
+        "gap": 0.05351072072427592
+      },
+      {
+        "bone": "palm.03.L",
+        "gap": 0.057065363499938494
+      },
+      {
+        "bone": "palm.04.L",
+        "gap": 0.06113095793666525
+      },
+      {
+        "bone": "shoulder.R",
+        "gap": 0.14154737253649857
+      },
+      {
+        "bone": "upper_arm.R",
+        "gap": 0.02516570253115212
+      },
+      {
+        "bone": "palm.01.R",
+        "gap": 0.056179146744879845
+      },
+      {
+        "bone": "thumb.01.R",
+        "gap": 0.08226505732521588
+      },
+      {
+        "bone": "palm.02.R",
+        "gap": 0.05351072072427592
+      },
+      {
+        "bone": "palm.03.R",
+        "gap": 0.057065363499938494
+      },
+      {
+        "bone": "palm.04.R",
+        "gap": 0.06113095793666525
+      },
+      {
+        "bone": "thigh.L",
+        "gap": 0.1763277631294516
+      },
+      {
+        "bone": "thigh.R",
+        "gap": 0.1763277631294516
+      }
+    ],
+    "constraints": {}
+  },
+  "evaluated_dimensions_m": {
+    "rest": [
+      1.115845,
+      0.29422,
+      1.65
+    ],
+    "shoulder_elbow": [
+      1.386578,
+      0.266458,
+      1.65
+    ],
+    "hip_knee": [
+      1.115845,
+      0.479466,
+      1.607666
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "static draft for visual review",
+  "body_height_m": 1.65,
+  "body_source": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\assets\\characters\\work\\player_character_assembled_v5\\body\\body_uv_ready_v5.blend",
+  "robe_vertices_pushed_clear_of_body": 141,
+  "scope": "Source-derived body, hair, robe remain separate. No garment or hair rig yet. Not an animation/runtime pass."
+}

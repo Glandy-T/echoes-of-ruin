@@ -1,0 +1,395 @@
+{
+  "validator": "validate.py",
+  "input_blend": "hair_front_locks_v4.blend",
+  "input_blend_sha256": "23a492807f0665a727dbe6dc963ae8e6426de8cdbff9d361acbca0b98220e6c4",
+  "source_blend_sha256": "99a84de7fd2c00f7bd1f3d691bdfe970b732be9e370033453fe593a52309c82a",
+  "scene": "SOURCE_SCALE_HAIR_REVIEW__STATIC",
+  "scope": "Static source-scale hair review only; no fitting, rig, animation, Godot, or texture acceptance is asserted.",
+  "checks": {
+    "exact_object_names": {
+      "Hair_Back_SOURCE_UNCHANGED": 1,
+      "Hair_Front.L": 1,
+      "Hair_Front.R": 1
+    },
+    "back_geometry_source_comparison": {
+      "source_object": "Plain.001",
+      "expected_translation": [
+        -0.6,
+        0.0,
+        0.0
+      ],
+      "source_vertices": 119,
+      "edited_back_vertices": 119,
+      "source_triangles": 236,
+      "edited_back_triangles": 236,
+      "identical_polygon_topology": true,
+      "maximum_world_coordinate_error": 2.9802322387695312e-08,
+      "source_topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 1,
+        "winding_conflicts": 0,
+        "degenerate_triangles": 0,
+        "closed_manifold": false
+      },
+      "edited_back_topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 1,
+        "winding_conflicts": 0,
+        "degenerate_triangles": 0,
+        "closed_manifold": false
+      },
+      "pass": true
+    },
+    "global_armature_objects_in_review_scene": []
+  },
+  "objects": {
+    "Hair_Back_SOURCE_UNCHANGED": {
+      "vertices": 119,
+      "polygons": 138,
+      "triangles": 236,
+      "connected_components": 1,
+      "topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 1,
+        "winding_conflicts": 0,
+        "degenerate_triangles": 0,
+        "closed_manifold": false
+      },
+      "uv_layers": [
+        "UV_Source_Preserved",
+        "UV_Pixel_Draft"
+      ],
+      "uv_pixel_draft": {
+        "layer_present": true,
+        "finite": true,
+        "within_unit_square": true,
+        "active": "UV_Pixel_Draft",
+        "active_render": "UV_Pixel_Draft",
+        "uv_loops": 512
+      },
+      "zero_length_polygon_normals": 0,
+      "parent": null,
+      "has_armature_modifier": false,
+      "find_armature": null,
+      "has_animation_data": false
+    },
+    "Hair_Front.L": {
+      "vertices": 48,
+      "polygons": 44,
+      "triangles": 92,
+      "connected_components": 1,
+      "topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "winding_conflicts": 0,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      "uv_layers": [
+        "UV_Pixel_Draft"
+      ],
+      "uv_pixel_draft": {
+        "layer_present": true,
+        "finite": true,
+        "within_unit_square": true,
+        "active": "UV_Pixel_Draft",
+        "active_render": "UV_Pixel_Draft",
+        "uv_loops": 180
+      },
+      "zero_length_polygon_normals": 0,
+      "parent": null,
+      "has_armature_modifier": false,
+      "find_armature": null,
+      "has_animation_data": false
+    },
+    "Hair_Front.R": {
+      "vertices": 48,
+      "polygons": 44,
+      "triangles": 92,
+      "connected_components": 1,
+      "topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "winding_conflicts": 0,
+        "degenerate_triangles": 0,
+        "closed_manifold": true
+      },
+      "uv_layers": [
+        "UV_Pixel_Draft"
+      ],
+      "uv_pixel_draft": {
+        "layer_present": true,
+        "finite": true,
+        "within_unit_square": true,
+        "active": "UV_Pixel_Draft",
+        "active_render": "UV_Pixel_Draft",
+        "uv_loops": 180
+      },
+      "zero_length_polygon_normals": 0,
+      "parent": null,
+      "has_armature_modifier": false,
+      "find_armature": null,
+      "has_animation_data": false
+    }
+  },
+  "geometry_cross_object": [
+    {
+      "objects": [
+        "Hair_Back_SOURCE_UNCHANGED",
+        "Hair_Front.L"
+      ],
+      "candidate_triangle_pairs": 24,
+      "intersecting_triangle_pairs": 24,
+      "sample_intersections": [
+        [
+          78,
+          2
+        ],
+        [
+          78,
+          3
+        ],
+        [
+          78,
+          4
+        ],
+        [
+          78,
+          5
+        ],
+        [
+          78,
+          6
+        ],
+        [
+          88,
+          20
+        ],
+        [
+          88,
+          19
+        ],
+        [
+          88,
+          33
+        ],
+        [
+          117,
+          35
+        ],
+        [
+          107,
+          2
+        ],
+        [
+          107,
+          6
+        ],
+        [
+          107,
+          13
+        ],
+        [
+          107,
+          12
+        ],
+        [
+          107,
+          19
+        ],
+        [
+          107,
+          15
+        ],
+        [
+          107,
+          14
+        ],
+        [
+          107,
+          25
+        ],
+        [
+          116,
+          35
+        ],
+        [
+          116,
+          24
+        ],
+        [
+          116,
+          25
+        ]
+      ],
+      "a_vertices_inside_b": 1,
+      "b_vertices_inside_a": 12,
+      "a_fully_inside_b": false,
+      "b_fully_inside_a": false
+    },
+    {
+      "objects": [
+        "Hair_Back_SOURCE_UNCHANGED",
+        "Hair_Front.R"
+      ],
+      "candidate_triangle_pairs": 24,
+      "intersecting_triangle_pairs": 24,
+      "sample_intersections": [
+        [
+          195,
+          2
+        ],
+        [
+          195,
+          3
+        ],
+        [
+          195,
+          4
+        ],
+        [
+          195,
+          5
+        ],
+        [
+          195,
+          7
+        ],
+        [
+          235,
+          34
+        ],
+        [
+          206,
+          21
+        ],
+        [
+          206,
+          18
+        ],
+        [
+          206,
+          32
+        ],
+        [
+          234,
+          34
+        ],
+        [
+          234,
+          24
+        ],
+        [
+          234,
+          25
+        ],
+        [
+          225,
+          3
+        ],
+        [
+          225,
+          7
+        ],
+        [
+          225,
+          13
+        ],
+        [
+          225,
+          12
+        ],
+        [
+          225,
+          18
+        ],
+        [
+          225,
+          15
+        ],
+        [
+          225,
+          14
+        ],
+        [
+          225,
+          24
+        ]
+      ],
+      "a_vertices_inside_b": 1,
+      "b_vertices_inside_a": 12,
+      "a_fully_inside_b": false,
+      "b_fully_inside_a": false
+    },
+    {
+      "objects": [
+        "Hair_Front.L",
+        "Hair_Front.R"
+      ],
+      "candidate_triangle_pairs": 0,
+      "intersecting_triangle_pairs": 0,
+      "sample_intersections": [],
+      "a_vertices_inside_b": 0,
+      "b_vertices_inside_a": 0,
+      "a_fully_inside_b": false,
+      "b_fully_inside_a": false
+    }
+  ],
+  "uv_within_object": [
+    {
+      "object": "Hair_Back_SOURCE_UNCHANGED",
+      "uv_degenerate_triangles": 0,
+      "positive_area_overlapping_triangle_pairs": 0,
+      "fully_contained_triangle_pairs": 0,
+      "sample_overlaps": []
+    },
+    {
+      "object": "Hair_Front.L",
+      "uv_degenerate_triangles": 0,
+      "positive_area_overlapping_triangle_pairs": 0,
+      "fully_contained_triangle_pairs": 0,
+      "sample_overlaps": []
+    },
+    {
+      "object": "Hair_Front.R",
+      "uv_degenerate_triangles": 0,
+      "positive_area_overlapping_triangle_pairs": 0,
+      "fully_contained_triangle_pairs": 0,
+      "sample_overlaps": []
+    }
+  ],
+  "uv_cross_object": [
+    {
+      "objects": [
+        "Hair_Back_SOURCE_UNCHANGED",
+        "Hair_Front.L"
+      ],
+      "positive_area_overlapping_triangle_pairs": 0,
+      "fully_contained_triangle_pairs": 0,
+      "sample_overlaps": []
+    },
+    {
+      "objects": [
+        "Hair_Back_SOURCE_UNCHANGED",
+        "Hair_Front.R"
+      ],
+      "positive_area_overlapping_triangle_pairs": 0,
+      "fully_contained_triangle_pairs": 0,
+      "sample_overlaps": []
+    },
+    {
+      "objects": [
+        "Hair_Front.L",
+        "Hair_Front.R"
+      ],
+      "positive_area_overlapping_triangle_pairs": 0,
+      "fully_contained_triangle_pairs": 0,
+      "sample_overlaps": []
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    "Hair_Back_SOURCE_UNCHANGED retains the original Plain.001 topology issue: one nonmanifold edge. Retained in this shape-review draft; repair is deferred before production fitting/rigging."
+  ],
+  "status": "pass"
+}

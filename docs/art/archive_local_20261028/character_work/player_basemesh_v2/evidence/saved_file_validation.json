@@ -1,0 +1,16 @@
+{
+  "reopen_passed": true,
+  "height_m": 1.649999976158142,
+  "foot_z_m": 0.0,
+  "preview_triangles": 4636,
+  "bones": 59,
+  "base_vertices": 581,
+  "uv_layers": [
+    "UVMap"
+  ],
+  "shape_keys": {
+    "Basis": 0.0,
+    "Key 1": 1.0
+  },
+  "armature_target": "Body_Rig_original"
+}

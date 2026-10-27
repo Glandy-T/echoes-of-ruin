@@ -1,0 +1,189 @@
+{
+  "status": "REVIEW_REQUIRED / technical sample only",
+  "authority_commit": "766411e0926511fb77635e5307039927dc960874",
+  "source_pod": {
+    "id": "P11",
+    "row": 1,
+    "side": 0,
+    "col": 0,
+    "x": 1.2500000000000007,
+    "y": 6.5,
+    "w": 1.05,
+    "d": 2.3,
+    "h": 1.0,
+    "head": "rear"
+  },
+  "room_envelope_m": [
+    21,
+    9.5
+  ],
+  "local_floor_crop_m": [
+    0.2,
+    5.5,
+    4.5,
+    3.8
+  ],
+  "wall_height_m": 3.4,
+  "texel_density_provisional": {
+    "wall_floor_body": 32,
+    "label_side": 64
+  },
+  "texture_sizes": {
+    "floor_test_128": [
+      128,
+      128
+    ],
+    "P11_label_256x32": [
+      256,
+      32
+    ],
+    "pod_test_128": [
+      128,
+      128
+    ],
+    "wall_test_128": [
+      128,
+      128
+    ]
+  },
+  "camera": {
+    "projection": "ORTHO",
+    "ortho_scale": 6.199999809265137,
+    "position": [
+      6.949999809265137,
+      -1.5,
+      6.5
+    ],
+    "rotation_radians": [
+      1.0977445840835571,
+      9.035860060180312e-09,
+      0.46364766359329224
+    ],
+    "depression_degrees": 27.10387121694066
+  },
+  "meshes": {
+    "Local_floor_crop": {
+      "world_location": [
+        0.20000000298023224,
+        5.5,
+        -0.10000000149011612
+      ],
+      "dimensions_m": [
+        4.5,
+        3.799999952316284,
+        0.10000000149011612
+      ],
+      "polygon_count": 6,
+      "uv_layers": 1
+    },
+    "Local_left_wall_0p20m": {
+      "world_location": [
+        0.0,
+        5.5,
+        0.0
+      ],
+      "dimensions_m": [
+        0.20000000298023224,
+        4.0,
+        3.4000000953674316
+      ],
+      "polygon_count": 6,
+      "uv_layers": 1
+    },
+    "Local_rear_wall_0p20m": {
+      "world_location": [
+        0.20000000298023224,
+        9.300000190734863,
+        0.0
+      ],
+      "dimensions_m": [
+        4.5,
+        0.20000000298023224,
+        3.4000000953674316
+      ],
+      "polygon_count": 6,
+      "uv_layers": 1
+    },
+    "P11_Base_inherited": {
+      "world_location": [
+        1.25,
+        6.5,
+        0.0
+      ],
+      "dimensions_m": [
+        1.0499999523162842,
+        2.299999952316284,
+        0.20000000298023224
+      ],
+      "polygon_count": 10,
+      "uv_layers": 1
+    },
+    "P11_Body_inherited": {
+      "world_location": [
+        1.2899999618530273,
+        6.539999961853027,
+        0.23999999463558197
+      ],
+      "dimensions_m": [
+        0.9700000286102295,
+        2.2200000286102295,
+        0.4000000059604645
+      ],
+      "polygon_count": 10,
+      "uv_layers": 1
+    },
+    "P11_Lid_inherited": {
+      "world_location": [
+        1.309999942779541,
+        6.559999942779541,
+        0.6800000071525574
+      ],
+      "dimensions_m": [
+        0.9300000071525574,
+        2.180000066757202,
+        0.30000001192092896
+      ],
+      "polygon_count": 10,
+      "uv_layers": 1
+    },
+    "P11_Head_zone_inherited": {
+      "world_location": [
+        1.409999966621399,
+        8.119999885559082,
+        0.9800000190734863
+      ],
+      "dimensions_m": [
+        0.7300000190734863,
+        0.5,
+        0.019999999552965164
+      ],
+      "polygon_count": 10,
+      "uv_layers": 1
+    },
+    "Scale_column_1p68m_NOT_CHARACTER": {
+      "world_location": [
+        2.6500000953674316,
+        7.650000095367432,
+        0.8399999737739563
+      ],
+      "dimensions_m": [
+        0.30000001192092896,
+        0.30000001192092896,
+        1.6799999475479126
+      ],
+      "polygon_count": 10,
+      "uv_layers": 2
+    }
+  },
+  "render_resolution": [
+    1600,
+    1000
+  ],
+  "limitations": [
+    "not final pod design or palette",
+    "opaque observation-zone placeholder",
+    "static scale column only",
+    "no gameplay or Godot migration",
+    "no lid opening, boarding or collision sweep validation"
+  ]
+}

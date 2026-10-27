@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/room1_pod_standard_v8_review.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/dev/room1_sprite_player_review_r1.gd" id="2_script"]
+
+[node name="Room1SpritePlayerReviewR1" instance=ExtResource("1_base")]
+script = ExtResource("2_script")

@@ -1,0 +1,78 @@
+{
+  "status": "pass",
+  "method": "Basis-only clone; preserve author charts and seam cuts; complete foot/shoulder patch ABF plus harmonic disk repair; average scale and pack; transfer loop UV only",
+  "source": "G:\\卒業制作\\echoes-of-ruin\\assets\\characters\\work\\player_basemesh_v2_1\\body_165cm_validated_v2_1.blend",
+  "source_sha256": "9a9d0e01a2c8a1bd23b3b7cf3839329ad93be153d2939936cebe4c884f28751a",
+  "output": "G:\\卒業制作\\echoes-of-ruin\\assets\\characters\\work\\player_character_assembled_v5\\body\\body_uv_ready_v5.blend",
+  "output_sha256": "5bc5ba1b658e3f75ed5a45da63bd00590889e69a7fcc74a8cc8b24de6beb9292",
+  "blender_version": "5.0.1",
+  "scene": "01_BODY_MASTER_165cm",
+  "source_seams_transferred_to_clone": 223,
+  "reprojected_anatomical_patches": {
+    "foot_polygons": 190,
+    "shoulder_patch_polygons": 18,
+    "total_reprojected_polygons": 208,
+    "harmonic_upper_foot_charts": [
+      {
+        "polygons": 25,
+        "vertices": 48,
+        "boundary_vertices": 44,
+        "interior_vertices": 4
+      },
+      {
+        "polygons": 25,
+        "vertices": 48,
+        "boundary_vertices": 44,
+        "interior_vertices": 4
+      }
+    ],
+    "harmonic_shoulder_chart": {
+      "polygons": 18,
+      "vertices": 30,
+      "boundary_vertices": 22,
+      "interior_vertices": 8
+    }
+  },
+  "uv_layers": [
+    "UV_Original_Preserved",
+    "UV_Body_Pixel"
+  ],
+  "active_uv": "UV_Body_Pixel",
+  "active_render_uv": "UV_Body_Pixel",
+  "uv_audit": {
+    "triangles": 1158,
+    "zero_area_triangles": 0,
+    "outside_unit_square_triangles": 0,
+    "positive_area_self_overlap_pairs": 0,
+    "same_polygon_overlap_pairs": 0,
+    "cross_polygon_overlap_pairs": 0,
+    "same_island_overlap_pairs": 0,
+    "different_island_overlap_pairs": 0,
+    "overlap_pairs_by_island": {},
+    "affected_polygons": [],
+    "affected_polygon_geometry": {},
+    "largest_overlap_area": 0.0,
+    "candidate_pairs_tested": 11215,
+    "samples": []
+  },
+  "uv_islands": {
+    "uv_island_count": 8,
+    "largest_island_polygons": [
+      174,
+      99,
+      99,
+      70,
+      70,
+      25,
+      25,
+      18
+    ],
+    "single_polygon_islands": 0
+  },
+  "checker_render": "body_uv_checker.png",
+  "uv_layout": "uv_body_pixel.svg",
+  "protected_body_rig_weights": "unchanged",
+  "key_1_value": 1.0,
+  "rig_bones": 59,
+  "scope_limit": "Body UV preparation and checker render only; texture resolution, global pixel density, final pixel painting, animation, clothing/hair fitting, and runtime acceptance remain TBD."
+}

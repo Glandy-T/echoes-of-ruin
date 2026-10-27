@@ -1,0 +1,71 @@
+{
+  "Hair_BackShell": {
+    "vertices": 117,
+    "triangles": 192,
+    "boundary_edges": 40,
+    "non_manifold_edges": 40,
+    "zero_area_faces": 0,
+    "uv_layer": "UVMap",
+    "uv_range": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "material_slots": [
+      "Hair_review_dark_blue_black"
+    ],
+    "head_weighted_vertices": 117,
+    "head_weight_sum_check": true
+  },
+  "Hair_Temple_L": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "uv_layer": "UVMap",
+    "uv_range": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "material_slots": [
+      "Hair_review_dark_blue_black"
+    ],
+    "head_weighted_vertices": 8,
+    "head_weight_sum_check": true
+  },
+  "Hair_Temple_R": {
+    "vertices": 8,
+    "triangles": 12,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "uv_layer": "UVMap",
+    "uv_range": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "material_slots": [
+      "Hair_review_dark_blue_black"
+    ],
+    "head_weighted_vertices": 8,
+    "head_weight_sum_check": true
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "check": "closed external size 1.05 x 2.30 x 1.00 m",
+      "pass": true,
+      "value": [
+        1.0499999523162842,
+        2.299999952316284,
+        1.0
+      ]
+    },
+    {
+      "check": "Original_continuous_shell closed mesh",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "Original_continuous_shell one connected component",
+      "pass": true,
+      "value": 1
+    },
+    {
+      "check": "Original_continuous_shell active unique UV within 0-1",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "Original_continuous_shell no positive-area UV triangle overlap",
+      "pass": true,
+      "value": []
+    },
+    {
+      "check": "Original_continuous_shell no collapsed UV triangles",
+      "pass": true,
+      "value": 0
+    },
+    {
+      "check": "ONE_RIGID_LID_with_head_window closed mesh",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "ONE_RIGID_LID_with_head_window one connected component",
+      "pass": true,
+      "value": 1
+    },
+    {
+      "check": "ONE_RIGID_LID_with_head_window active unique UV within 0-1",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "ONE_RIGID_LID_with_head_window no positive-area UV triangle overlap",
+      "pass": false,
+      "value": [
+        [
+          10,
+          195,
+          1.5284720053521106e-07
+        ],
+        [
+          10,
+          200,
+          1.5284720053521106e-07
+        ],
+        [
+          12,
+          195,
+          1.5268088021658244e-07
+        ],
+        [
+          12,
+          200,
+          1.5268088021658244e-07
+        ],
+        [
+          195,
+          200,
+          3.0577407961196457e-07
+        ]
+      ]
+    },
+    {
+      "check": "ONE_RIGID_LID_with_head_window no collapsed UV triangles",
+      "pass": true,
+      "value": 0
+    },
+    {
+      "check": "Plain_interior_support closed mesh",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "Plain_interior_support one connected component",
+      "pass": true,
+      "value": 1
+    },
+    {
+      "check": "Plain_interior_support active unique UV within 0-1",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "Plain_interior_support no positive-area UV triangle overlap",
+      "pass": true,
+      "value": []
+    },
+    {
+      "check": "Plain_interior_support no collapsed UV triangles",
+      "pass": true,
+      "value": 0
+    },
+    {
+      "check": "lift first 0.12m without lateral roll",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "whole lid stowed 90 degrees",
+      "pass": true,
+      "value": null
+    },
+    {
+      "check": "sampled opening clearance",
+      "pass": true,
+      "value": null
+    }
+  ],
+  "mesh_statistics": {
+    "Original_continuous_shell": {
+      "vertices": 252,
+      "triangles": 500,
+      "uv_seams": 120,
+      "uv_overlap_pairs": 0,
+      "area_weighted_p95_anisotropy": 1.10503478901646,
+      "max_anisotropy": 1.1715822468519752
+    },
+    "ONE_RIGID_LID_with_head_window": {
+      "vertices": 234,
+      "triangles": 464,
+      "uv_seams": 76,
+      "uv_overlap_pairs": 5,
+      "area_weighted_p95_anisotropy": 1.1413268603566253,
+      "max_anisotropy": 44.03450478428804
+    },
+    "Plain_interior_support": {
+      "vertices": 56,
+      "triangles": 108,
+      "uv_seams": 57,
+      "uv_overlap_pairs": 0,
+      "area_weighted_p95_anisotropy": 1.0002291711398894,
+      "max_anisotropy": 1.0002623568520617
+    }
+  },
+  "total_asset_triangles": 1072,
+  "UV_scope": "one separate 0-1 map per shell, lid, sleeping surface; no intentional overlaps",
+  "limits": [
+    "curved surfaces have local distortion",
+    "paint resolution and density not approved",
+    "not human/mechanical validation",
+    "final silhouette awaits review"
+  ]
+}

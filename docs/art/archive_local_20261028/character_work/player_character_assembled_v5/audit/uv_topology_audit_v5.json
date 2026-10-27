@@ -1,0 +1,330 @@
+{
+  "input": "G:\\卒業制作\\echoes-of-ruin\\assets\\characters\\work\\player_character_assembled_v5\\character_fitting_draft_v5.blend",
+  "scope": "Read-only active-UV and source-hair topology audit; no repair or fitting claim.",
+  "objects": {
+    "Body_165cm_CC0_pistachio": {
+      "vertices": 581,
+      "polygons": 580,
+      "uv": {
+        "active_layer": "UV_Body_Pixel",
+        "active_render_layer": "UV_Body_Pixel",
+        "triangles": 1158,
+        "zero_area_triangle_count": 0,
+        "zero_area_triangle_samples": [],
+        "out_of_unit_square_triangle_count": 0,
+        "out_of_unit_square_triangle_samples": [],
+        "positive_area_overlap_pair_count": 0,
+        "contained_overlap_pair_count": 0,
+        "overlap_samples": [],
+        "candidate_pair_count": 18371,
+        "islands": {
+          "count": 8,
+          "polygon_counts_desc": [
+            174,
+            99,
+            99,
+            70,
+            70,
+            25,
+            25,
+            18
+          ],
+          "single_polygon_islands": 0
+        }
+      }
+    },
+    "Hair_Back_Fitted": {
+      "vertices": 119,
+      "polygons": 138,
+      "uv": {
+        "active_layer": "UV_Pixel_Draft",
+        "active_render_layer": "UV_Pixel_Draft",
+        "triangles": 236,
+        "zero_area_triangle_count": 0,
+        "zero_area_triangle_samples": [],
+        "out_of_unit_square_triangle_count": 0,
+        "out_of_unit_square_triangle_samples": [],
+        "positive_area_overlap_pair_count": 0,
+        "contained_overlap_pair_count": 0,
+        "overlap_samples": [],
+        "candidate_pair_count": 1275,
+        "islands": {
+          "count": 15,
+          "polygon_counts_desc": [
+            37,
+            24,
+            20,
+            14,
+            11,
+            9,
+            6,
+            5,
+            3,
+            3,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "single_polygon_islands": 4
+        }
+      }
+    },
+    "Hair_Front.L": {
+      "vertices": 48,
+      "polygons": 44,
+      "uv": {
+        "active_layer": "UV_Pixel_Draft",
+        "active_render_layer": "UV_Pixel_Draft",
+        "triangles": 92,
+        "zero_area_triangle_count": 0,
+        "zero_area_triangle_samples": [],
+        "out_of_unit_square_triangle_count": 0,
+        "out_of_unit_square_triangle_samples": [],
+        "positive_area_overlap_pair_count": 0,
+        "contained_overlap_pair_count": 0,
+        "overlap_samples": [],
+        "candidate_pair_count": 651,
+        "islands": {
+          "count": 4,
+          "polygon_counts_desc": [
+            21,
+            21,
+            1,
+            1
+          ],
+          "single_polygon_islands": 2
+        }
+      }
+    },
+    "Hair_Front.R": {
+      "vertices": 48,
+      "polygons": 44,
+      "uv": {
+        "active_layer": "UV_Pixel_Draft",
+        "active_render_layer": "UV_Pixel_Draft",
+        "triangles": 92,
+        "zero_area_triangle_count": 0,
+        "zero_area_triangle_samples": [],
+        "out_of_unit_square_triangle_count": 0,
+        "out_of_unit_square_triangle_samples": [],
+        "positive_area_overlap_pair_count": 0,
+        "contained_overlap_pair_count": 0,
+        "overlap_samples": [],
+        "candidate_pair_count": 639,
+        "islands": {
+          "count": 4,
+          "polygon_counts_desc": [
+            21,
+            21,
+            1,
+            1
+          ],
+          "single_polygon_islands": 2
+        }
+      }
+    },
+    "Robe_White_Fitted": {
+      "vertices": 1560,
+      "polygons": 2999,
+      "uv": {
+        "active_layer": "UV_Robe_Source_Reduced",
+        "active_render_layer": "UV_Robe_Source_Reduced",
+        "triangles": 2999,
+        "zero_area_triangle_count": 0,
+        "zero_area_triangle_samples": [],
+        "out_of_unit_square_triangle_count": 0,
+        "out_of_unit_square_triangle_samples": [],
+        "positive_area_overlap_pair_count": 5,
+        "contained_overlap_pair_count": 1,
+        "overlap_samples": [
+          {
+            "triangles": [
+              2244,
+              2246
+            ],
+            "polygons": [
+              2244,
+              2246
+            ],
+            "area": 1.3382475066991972e-07,
+            "a_fully_in_b": false,
+            "b_fully_in_a": false
+          },
+          {
+            "triangles": [
+              2244,
+              2247
+            ],
+            "polygons": [
+              2244,
+              2247
+            ],
+            "area": 1.3382475066991972e-07,
+            "a_fully_in_b": false,
+            "b_fully_in_a": false
+          },
+          {
+            "triangles": [
+              2245,
+              2246
+            ],
+            "polygons": [
+              2245,
+              2246
+            ],
+            "area": 7.596996248748766e-08,
+            "a_fully_in_b": false,
+            "b_fully_in_a": false
+          },
+          {
+            "triangles": [
+              2245,
+              2247
+            ],
+            "polygons": [
+              2245,
+              2247
+            ],
+            "area": 7.596996248748766e-08,
+            "a_fully_in_b": false,
+            "b_fully_in_a": false
+          },
+          {
+            "triangles": [
+              2246,
+              2247
+            ],
+            "polygons": [
+              2246,
+              2247
+            ],
+            "area": 2.0979471315740739e-07,
+            "a_fully_in_b": true,
+            "b_fully_in_a": false
+          }
+        ],
+        "candidate_pair_count": 56949,
+        "islands": {
+          "count": 4,
+          "polygon_counts_desc": [
+            1006,
+            970,
+            513,
+            510
+          ],
+          "single_polygon_islands": 0
+        }
+      }
+    }
+  },
+  "source_hair_nonmanifold": {
+    "object": "Hair_Back_Fitted",
+    "nonmanifold_edge_count": 1,
+    "edges": [
+      {
+        "edge_vertices": [
+          102,
+          103
+        ],
+        "adjoining_polygon_indices": [
+          38,
+          61,
+          107,
+          130
+        ],
+        "edge_vertex_coordinates_object_space": [
+          [
+            0.0,
+            -0.023470643907785416,
+            1.6346746683120728
+          ],
+          [
+            0.0,
+            -0.02451997436583042,
+            1.6340166330337524
+          ]
+        ],
+        "adjoining_polygons": [
+          {
+            "index": 38,
+            "vertices": [
+              101,
+              35,
+              102,
+              103
+            ],
+            "normal_object_space": [
+              -0.5011343955993652,
+              -0.4732147455215454,
+              -0.7245219945907593
+            ],
+            "center_object_space": [
+              0.010809646919369698,
+              0.00968191958963871,
+              1.6048728227615356
+            ]
+          },
+          {
+            "index": 61,
+            "vertices": [
+              42,
+              49,
+              103,
+              102
+            ],
+            "normal_object_space": [
+              -0.525361180305481,
+              -0.16590000689029694,
+              -0.8345493674278259
+            ],
+            "center_object_space": [
+              0.011756802909076214,
+              -0.059966959059238434,
+              1.634095311164856
+            ]
+          },
+          {
+            "index": 107,
+            "vertices": [
+              101,
+              103,
+              102,
+              100
+            ],
+            "normal_object_space": [
+              0.5011343955993652,
+              -0.4732147455215454,
+              -0.7245219945907593
+            ],
+            "center_object_space": [
+              -0.010809646919369698,
+              0.00968191958963871,
+              1.6048728227615356
+            ]
+          },
+          {
+            "index": 130,
+            "vertices": [
+              111,
+              102,
+              103,
+              49
+            ],
+            "normal_object_space": [
+              0.525361180305481,
+              -0.16590000689029694,
+              -0.8345493674278259
+            ],
+            "center_object_space": [
+              -0.011756802909076214,
+              -0.059966959059238434,
+              1.634095311164856
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

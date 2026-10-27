@@ -1,0 +1,43 @@
+{
+  "engine": "4.6.2-stable (official)",
+  "models": [
+    {
+      "file": "room1_shell_full_r1.glb",
+      "filters": [
+        0
+      ],
+      "mesh_instances": 9,
+      "surfaces": 16,
+      "textured_surfaces": 15
+    },
+    {
+      "file": "room1_layout_review_r1.glb",
+      "filters": [
+        0
+      ],
+      "mesh_instances": 86,
+      "surfaces": 191,
+      "textured_surfaces": 10
+    },
+    {
+      "file": "pod_closed_v3.glb",
+      "filters": [
+        0
+      ],
+      "mesh_instances": 8,
+      "surfaces": 8,
+      "textured_surfaces": 8
+    },
+    {
+      "file": "pod_open_v3.glb",
+      "filters": [
+        0
+      ],
+      "mesh_instances": 8,
+      "surfaces": 8,
+      "textured_surfaces": 8
+    }
+  ],
+  "scope": "File import only. No gameplay, collision, animation or rendered art approval.",
+  "status": "actual imported PackedScene resources loaded and instantiated"
+}

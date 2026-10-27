@@ -1,0 +1,102 @@
+{
+  "status": "PASS_STATIC",
+  "blender_version": "5.0.1",
+  "checks": [
+    {
+      "check": "P11 world origin and union size",
+      "pass": true,
+      "details": {
+        "min_m": [
+          1.25,
+          6.5,
+          0.0
+        ],
+        "dimensions_m": [
+          1.0499999523162842,
+          2.3000001907348633,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "local scope: 3 shell, 4 pod layers, 1 scale marker",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all meshes have finite UV coordinates",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "body label occupies one long side material slot",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all 4 image textures use Closest, are packed and have portable paths",
+      "pass": true,
+      "details": [
+        {
+          "image": "floor_test_128",
+          "path": "//textures\\floor_test_128.png",
+          "packed": true,
+          "sampling": "Closest"
+        },
+        {
+          "image": "P11_label_256x32",
+          "path": "//textures\\P11_label_256x32.png",
+          "packed": true,
+          "sampling": "Closest"
+        },
+        {
+          "image": "pod_test_128",
+          "path": "//textures\\pod_test_128.png",
+          "packed": true,
+          "sampling": "Closest"
+        },
+        {
+          "image": "wall_test_128",
+          "path": "//textures\\wall_test_128.png",
+          "packed": true,
+          "sampling": "Closest"
+        }
+      ]
+    },
+    {
+      "check": "review camera restored, clay override cleared, marker restored",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "A_target_camera.png actual PNG size",
+      "pass": true,
+      "details": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "check": "B_geometry_without_textures.png actual PNG size",
+      "pass": true,
+      "details": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "check": "C_pixel_texture_close.png actual PNG size",
+      "pass": true,
+      "details": [
+        1600,
+        1000
+      ]
+    }
+  ],
+  "not_validated": [
+    "final art acceptance",
+    "interactive boarding or turning",
+    "Godot runtime",
+    "global pixel grid or temporal stability"
+  ]
+}

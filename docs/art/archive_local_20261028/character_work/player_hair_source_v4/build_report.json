@@ -1,0 +1,37 @@
+{
+  "blender": "5.0.1",
+  "source_object": "Plain.001",
+  "source_shape_preserved": true,
+  "scope": "Static source-character review. Not yet fitted to the 165cm pistachio body; no rig or animation.",
+  "reference_body_display_change": "Downloaded blue hoodie displayed rust to match user screenshot; not a proposed player outfit.",
+  "hair_objects": [
+    {
+      "name": "Hair_Back_SOURCE_UNCHANGED",
+      "vertices": 119,
+      "faces": 138,
+      "triangles": 236,
+      "uv_layers": [
+        "UV_Source_Preserved",
+        "UV_Pixel_Draft"
+      ]
+    },
+    {
+      "name": "Hair_Front.L",
+      "vertices": 48,
+      "faces": 44,
+      "triangles": 92,
+      "uv_layers": [
+        "UV_Pixel_Draft"
+      ]
+    },
+    {
+      "name": "Hair_Front.R",
+      "vertices": 48,
+      "faces": 44,
+      "triangles": 92,
+      "uv_layers": [
+        "UV_Pixel_Draft"
+      ]
+    }
+  ]
+}

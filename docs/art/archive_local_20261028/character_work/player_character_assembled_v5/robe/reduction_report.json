@@ -1,0 +1,33 @@
+{
+  "source": {
+    "vertices": 34924,
+    "faces": 67938,
+    "triangles": 67938,
+    "boundary_edges": 1898,
+    "nonmanifold_nonboundary_edges": 0,
+    "degenerate_faces": 0
+  },
+  "without_belt_before_reduction": {
+    "vertices": 31790,
+    "faces": 63202,
+    "triangles": 63202,
+    "boundary_edges": 382,
+    "nonmanifold_nonboundary_edges": 0,
+    "degenerate_faces": 0
+  },
+  "reduced": {
+    "vertices": 1560,
+    "faces": 2999,
+    "triangles": 2999,
+    "boundary_edges": 125,
+    "nonmanifold_nonboundary_edges": 0,
+    "degenerate_faces": 0
+  },
+  "belt_components_removed": [
+    4,
+    5
+  ],
+  "smooth_iterations": 6,
+  "reduction_target_triangles": 3000,
+  "scope": "Source-scale static study only. Source UV has not yet been verified after reduction; no fitted rig, texture or runtime acceptance."
+}

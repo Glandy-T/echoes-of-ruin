@@ -1,0 +1,1125 @@
+{
+  "created_at": "2026-10-28T00:13:09.6182385+09:00",
+  "archive_root": "docs/art/archive_local_20261028/character_work",
+  "rules": [
+    "Only source files missing from or SHA256-different from the upload worktree were copied.",
+    ".godot, __pycache__, cache dirs, logs, imports, blend1, tmp, pyc, raw bake caches, local upload scripts and credential/cookie/token/account name patterns were excluded.",
+    "No source was moved, deleted, or overwritten.",
+    "All copied individual files are below 100MB."
+  ],
+  "copied_files": [
+    {
+      "source": "assets/characters/work/player_basemesh_v2/evidence/inspection.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2/evidence/inspection.json",
+      "sha256": "820d460ad19f040db5b179d2946b62796ebe2084b59042c531befef964d09412",
+      "bytes": 1904,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/evidence/saved_file_validation.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2/evidence/saved_file_validation.json",
+      "sha256": "73235371a9bdff2d4b6553e507b2788660cedf101f07ea62f6d2c02c92f3f74f",
+      "bytes": 296,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/evidence/source_inventory.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2/evidence/source_inventory.json",
+      "sha256": "dc05584d728c5f9f7ab2213c4403a579a21d6211addc8fa51cb080f232657358",
+      "bytes": 50249,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/source/ART_DIRECTION.snapshot.md",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2/source/ART_DIRECTION.snapshot.md",
+      "sha256": "9ba5faa6b9c054686d0b4cb64d2f7070ed9bcc2249d4d7b163e3faf6ac02d60e",
+      "bytes": 93724,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/source/CHARACTER_DESIGN.snapshot.md",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2/source/CHARACTER_DESIGN.snapshot.md",
+      "sha256": "19fafc55fda2f328077f45a94cd7224e68e28365629dd9e7bdab09e8dbea614c",
+      "bytes": 4031,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2_1/repair_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2_1/repair_report.json",
+      "sha256": "fb8cfb89be4fa942c37ce0db933328c5203ebcbdecb9b2650808e4f4210771d8",
+      "bytes": 1472,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2_1/validation_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_basemesh_v2_1/validation_report.json",
+      "sha256": "2a7c408a18740e878757544d55431cce276a0c49925b2a6845eab9c5d353e2af",
+      "bytes": 14834,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/01_assembled_threequarter.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/01_assembled_threequarter.png",
+      "sha256": "73df2bae72c1afd0c2e69ea29315d8f32cbd0bb06ca21e584124e6b60657988e",
+      "bytes": 1165375,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/02_assembled_front.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/02_assembled_front.png",
+      "sha256": "217640357137336e7501d11accecb36a9f36f56642066f10996e2e45a242c285",
+      "bytes": 1155656,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/03_assembled_side.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/03_assembled_side.png",
+      "sha256": "88c47c0010019875df3666111efada394d5ad9a9543a0d1fd54ad2548693c53e",
+      "bytes": 1143907,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/04_assembled_back.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/04_assembled_back.png",
+      "sha256": "3b022bd78f2216592c24cfa8551fa5eb927aa7eeef4749ef880b7bfabea31978",
+      "bytes": 1139182,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/05_assembled_game_angle.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/05_assembled_game_angle.png",
+      "sha256": "0f9fa1c8aa9e9a70263ad243959eea878b8114e0c55352ed5997cd482de81efa",
+      "bytes": 1152518,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/06_head_closeup.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/06_head_closeup.png",
+      "sha256": "dfeed6cd84221e0967749f8bff67c54a935d10e7fc9512a08d010d649f92910b",
+      "bytes": 1222943,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/10_rig_rest.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/10_rig_rest.png",
+      "sha256": "2290e0d20379902fee2b932ea2b867bef20c1717a331f0f088eb22b55a85117e",
+      "bytes": 1165005,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/11_rig_arms.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/11_rig_arms.png",
+      "sha256": "2f2b49f67e8c17e4f86e0bd69bec58ed343bf269eabd1cd3bdd8bec89aceedc3",
+      "bytes": 1172278,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/12_rig_step.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/12_rig_step.png",
+      "sha256": "3f61146435cd197a5238b52ac7b244d08e20d025b771268b0ba051e236c62a54",
+      "bytes": 1164957,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/13_rig_head_hair.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/13_rig_head_hair.png",
+      "sha256": "280a0027550c533a9834b0a3e7c779856e5e9172476ed11fc54aedb72a5db8ef",
+      "bytes": 1163131,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/14_rig_crouch.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/14_rig_crouch.png",
+      "sha256": "217c6570e15d8e739d1317f242daa410399d92b342c5a93cb5ec42562ac87ea8",
+      "bytes": 1166196,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/15_rig_side.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/15_rig_side.png",
+      "sha256": "7f9887e44667d9c1cc14727ad283707710d05af0e227cf4198a9d35cca0f5cdc",
+      "bytes": 1143949,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/assemble_character.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/assemble_character.py",
+      "sha256": "874169f00519645cde0150443c819ccc549746e1d3cfea47a56ef22fcd7fced3",
+      "bytes": 7196,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/character_fitting_draft_v5.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/character_fitting_draft_v5.blend",
+      "sha256": "0943dcb522bdfdfac844654fff170bd8fa03e2424443d4cf229590a2fd4ea6a6",
+      "bytes": 1584495,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/character_rig_trial_v5.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/character_rig_trial_v5.blend",
+      "sha256": "ab14022f5e472b73cfbb84d4a5b85ffddf9fe5e5dd982f30c9880e96d27cd491",
+      "bytes": 1584246,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/fitting_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/fitting_report.json",
+      "sha256": "204e249a18e9107acfadf9f7f07665bd2ea56c05d929d8161e7a6dc1e18216fa",
+      "bytes": 398,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/rig_character.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/rig_character.py",
+      "sha256": "53fc559fb52addd5d06f6482c8c1e3a8bc3abcad9167d5f63b2649abbfa959a9",
+      "bytes": 7082,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/rig_trial_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/rig_trial_report.json",
+      "sha256": "3fb8bea3b110a3a7d140023e43959b30fab98bab0bc41207bbeb4df3614ac8af",
+      "bytes": 2315,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/audit/audit_uv_and_hair_topology.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/audit/audit_uv_and_hair_topology.py",
+      "sha256": "64ceecc293be52bc9e881461de41c157d0afa320e85167e05be192f499e286bf",
+      "bytes": 8075,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/audit/uv_topology_audit_v5.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/audit/uv_topology_audit_v5.json",
+      "sha256": "329acc9a058059515c47f104372c89d3249da139b2cd9120fd721572c641bf14",
+      "bytes": 8661,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/body_uv_checker.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/body_uv_checker.png",
+      "sha256": "b340417c134964c19177de4e0c61162812e97f0af9e047807b30a326ed7fbdd5",
+      "bytes": 736535,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/body_uv_ready_v5.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/body_uv_ready_v5.blend",
+      "sha256": "5bc5ba1b658e3f75ed5a45da63bd00590889e69a7fcc74a8cc8b24de6beb9292",
+      "bytes": 1013088,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/bounded_validation_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/bounded_validation_report.json",
+      "sha256": "94c679c67d0329801c701d96ad512028261254a3fb7181d1673b47e5485c46a2",
+      "bytes": 2613,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/independent_validation_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/independent_validation_report.json",
+      "sha256": "9aafad11f938ffe5895e10a0b82bb044db0ed1b121cf7354f0fec4240393c588",
+      "bytes": 1282,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/prepare_body_anatomy.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/prepare_body_anatomy.py",
+      "sha256": "aef5102e7b103c543defbfb5653ac1705f25165e07d6ec5590dcbac57ea3acd2",
+      "bytes": 25732,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/prepare_body.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/prepare_body.py",
+      "sha256": "f0512a0b4caed9ad78ff6cd17b35212a1e8af5dfdeee1d2d3b0618f6da67337d",
+      "bytes": 505,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/uv_body_pixel.svg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/uv_body_pixel.svg",
+      "sha256": "d62572cca66c241894dac78b16eeaddfe4bbefd3e6bfa1268b86ad355ae39228",
+      "bytes": 158704,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/validate_body.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/body/validate_body.py",
+      "sha256": "ca4a202bc64e2332439bc7990802066636df9040284c20993d65cfd40ea14cbc",
+      "bytes": 2164,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/01_original_source.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/01_original_source.png",
+      "sha256": "1420cf98de95608260415f7237404ca4404a0b44c7f41883fd90c6ea5bf1c851",
+      "bytes": 1076646,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/02_reduced_offwhite.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/02_reduced_offwhite.png",
+      "sha256": "ed02dbed10eb3a361e9025cebf777cef8ba5aa8d195ac0f7836fd106de12f1b1",
+      "bytes": 994223,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/03_reduced_front.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/03_reduced_front.png",
+      "sha256": "82e04deb749e71bf4048a9d2694aaadaa2e437c5dbd89c2a4c06af13e3b1d1ce",
+      "bytes": 989338,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/04_reduced_side.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/04_reduced_side.png",
+      "sha256": "9141dc51de1ef9879106cedecf5bd3b54eba6ed272a1b99ff0e717a51a618718",
+      "bytes": 966434,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/inspect_robe.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/inspect_robe.py",
+      "sha256": "99f29e1fbaac707a6872e66a74d9d37ad4312c4a16e95f8f28046bdc0bf49778",
+      "bytes": 4730,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/prepare_robe.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/prepare_robe.py",
+      "sha256": "7b3f03f8f66f3fa0dfc72364869777994788c9065f7d59d1697a4a53e19f5f15",
+      "bytes": 5656,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/reduction_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/reduction_report.json",
+      "sha256": "05867c2f1b6c4e679e6d2748d442bd4f23fb2a8eb3f3b48a2ea3d713c716100e",
+      "bytes": 851,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/robe_reduced_study_v5.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/robe_reduced_study_v5.blend",
+      "sha256": "ae918c34136119a93b572993d268a98b80bcaa661dedb4076ef2eaa0a344fe6e",
+      "bytes": 2167803,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/robe_source_inspected.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/robe_source_inspected.blend",
+      "sha256": "07f9cea82e751db4585a0fbe9080de57320a6543f155894fc31b2e07d4c2caa4",
+      "bytes": 2064645,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source_audit.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source_audit.json",
+      "sha256": "4eedcbea70b409e45ce79ac7f86322788de0d280efd23e66deae0d4680cd3f99",
+      "bytes": 480624,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/robe-free.zip",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/robe-free.zip",
+      "sha256": "e09bdef8de50fb5419720052ab3fc5b262d678c666d93694a6cf395360cfcc8f",
+      "bytes": 13715432,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/source/model.zip",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original/source/model.zip",
+      "sha256": "8fc0316c8f84e31c21475a75d9d62dad09969178c6c18b2d59ca360d54f746f4",
+      "bytes": 7782852,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_albedo.jpeg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original/textures/Robe_albedo.jpeg",
+      "sha256": "788fc821abe9f86aa2e3793141f36bf84d4c9cc990dbd338c58c993e2359ea81",
+      "bytes": 330788,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_AO.jpeg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original/textures/Robe_AO.jpeg",
+      "sha256": "6bd558779ff3bf7a0bbfbeaa1555a604653c03b38840fe6052e6f49334c1d8b1",
+      "bytes": 1472557,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_metallic.jpeg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original/textures/Robe_metallic.jpeg",
+      "sha256": "fbbf6bfade895926d9a39a4ccc287c30585c38c9c94896c733a6dbb126f2e0ad",
+      "bytes": 49484,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_normal.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original/textures/Robe_normal.png",
+      "sha256": "c245d52679973398858fa63d41082189f706dab00b9e1f7f4f7221d349e4abfe",
+      "bytes": 4029507,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_roughness.jpeg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original/textures/Robe_roughness.jpeg",
+      "sha256": "343fe4a487efcbb2dd36f6cac77c0ecb6510a0c3949dd6e7fa561c2c8b96bfaa",
+      "bytes": 49484,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/model.dae",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original_unpacked/model/model.dae",
+      "sha256": "414e43b56a2598623de710e80c39f3f7af24ee6a8c8b7ed86f21d9bfe3661a64",
+      "bytes": 5914255,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_albedo.jpg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_albedo.jpg",
+      "sha256": "788fc821abe9f86aa2e3793141f36bf84d4c9cc990dbd338c58c993e2359ea81",
+      "bytes": 330788,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_AO.jpg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_AO.jpg",
+      "sha256": "6bd558779ff3bf7a0bbfbeaa1555a604653c03b38840fe6052e6f49334c1d8b1",
+      "bytes": 1472557,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_metallic.jpg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_metallic.jpg",
+      "sha256": "fbbf6bfade895926d9a39a4ccc287c30585c38c9c94896c733a6dbb126f2e0ad",
+      "bytes": 49484,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_normal.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_normal.png",
+      "sha256": "2935ed273ca66d3282025f295428ecc40b015fbafa1974b19058f10506aa44c7",
+      "bytes": 4035420,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_roughness.jpg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_roughness.jpg",
+      "sha256": "343fe4a487efcbb2dd36f6cac77c0ecb6510a0c3949dd6e7fa561c2c8b96bfaa",
+      "bytes": 49484,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/build_character_v3.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/build_character_v3.py",
+      "sha256": "d8278e3a025c2dbef35a2e838b38ee1efce573c83dd1b1f89a930a8cc20f6d2c",
+      "bytes": 13827,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/make_hair.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/make_hair.py",
+      "sha256": "7238a04d33ca3f9aca47dcaf7a51667b66da487b5698bf3fd0017d0364d670d9",
+      "bytes": 7606,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/player_character_v3.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/player_character_v3.blend",
+      "sha256": "8584e5cccc59cd824a9c6a16c2a32ddfce102bcaa05ad54b26ab859bc7b8d63a",
+      "bytes": 1572868,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/STATUS.md",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/STATUS.md",
+      "sha256": "a82f91adbd404da59834c96feee3f5fea07456c354d14819abf165965773c535",
+      "bytes": 855,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/audit_body.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/audit_body.py",
+      "sha256": "faf85f42c8d0792a702e974e7a3ca2f594fad85ac8c57ca765f83fe395a5e0ec",
+      "bytes": 10686,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/audit_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/audit_report.json",
+      "sha256": "b95e505399283bf4fa5e2850a8a2ede4967bf08c4a540e0343f375932d86de0e",
+      "bytes": 7706,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/inventory.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/inventory.json",
+      "sha256": "1d5350ed61e4ca4c14453d6454581ff25a05f1a0bd77b48923dd08079c6ecdd4",
+      "bytes": 14493,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_hip_knee.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/pose_hip_knee.png",
+      "sha256": "db51e52a4eec6ce3a5be6a14580af5baa33c85ae96289cdfdde9ebba653d4574",
+      "bytes": 420043,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_rest.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/pose_rest.png",
+      "sha256": "9f3387a9371cb638af384d040b7ba46dbe9ad80da2f355e7081f8c98ae8ba5a1",
+      "bytes": 420347,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_shoulder_elbow.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/pose_shoulder_elbow.png",
+      "sha256": "4cba3089f11b6166666e2eefe17233112149e5297573dbf97814a0720ec1c6d5",
+      "bytes": 420204,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_uv_checker_rest.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/pose_uv_checker_rest.png",
+      "sha256": "c37ddd3fc9932f59c7e251d4cf25054b8272bc56f18892a35a643b612f38d1d1",
+      "bytes": 668059,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/uv_layout.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/body_audit/uv_layout.png",
+      "sha256": "37b5ccb9174b65bea112f7a0b22eebbce5a6a2a60827bf23f6a6f919ce042df9",
+      "bytes": 581838,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/evidence/01_character.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/evidence/01_character.png",
+      "sha256": "0dec3e58a0c515b2a11bf47b49728f6e4ae37afeea44914e9bc2be48597663e7",
+      "bytes": 991498,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_back.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/hair_dev/hair_back.png",
+      "sha256": "58c1323a04395075715f5100bd9b78a4fc3f3c4514fe0aebe81b2aebdf7e5c5e",
+      "bytes": 1088468,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_front.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/hair_dev/hair_front.png",
+      "sha256": "90cd248dc7fe73ca7647f05d61c2adc49e080e573b460a79a52a0e9d250ca857",
+      "bytes": 1104769,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_review.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/hair_dev/hair_review.blend",
+      "sha256": "1365c19cbbbec10d6d98ac003fd1502d8b18e78c90813b0009161babe8c7d45f",
+      "bytes": 1550548,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_side.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/hair_dev/hair_side.png",
+      "sha256": "bf5178ee4b6bfae3d3911cb7223a43405e73688819ab86cfbb52613a636dd032",
+      "bytes": 1087057,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_validation.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/hair_dev/hair_validation.json",
+      "sha256": "c02fecf7f613726ac10b4523c3efe6c59a11527923e96c6af446729091ee248d",
+      "bytes": 1319,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/render_hair_review.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_character_v3/hair_dev/render_hair_review.py",
+      "sha256": "35cf03106d21c5380af660980f9c94513f036f8c89be42a49bc88cfaf47eb45e",
+      "bytes": 3507,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/build_report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/build_report.json",
+      "sha256": "3c8e0672916ab20cbb020b11532eeff239523a8592a2b5157fede93343045c74",
+      "bytes": 924,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/inspect_target.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/inspect_target.py",
+      "sha256": "6ffad1f68c5fddf02981a4b6d56286f7992f2be63d99673e9a2f889d965290dc",
+      "bytes": 975,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/target_measurements.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/target_measurements.json",
+      "sha256": "36bfe33d477eb8afc946efebd9dffa44120376c43635732dc61ff2aab5ee0aa8",
+      "bytes": 26565,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/audit_source/source_inventory.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/audit_source/source_inventory.json",
+      "sha256": "00c7d0be23e1188f5be2c62c14c8bec9f5f0108575d5fb2076d113c2e4f59186",
+      "bytes": 62278,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/source/ATTRIBUTION.md",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/source/ATTRIBUTION.md",
+      "sha256": "13ae35c95868af32cae25309a2edb493a5e1273fc254f465112101706cc1d58a",
+      "bytes": 1187,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/validation/report.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/validation/report.json",
+      "sha256": "56a1e8d1e89f3fc86ad1ae083d67bdb9b148311cc99e3ebffd9f5209236e9f94",
+      "bytes": 8802,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/validation/uv_pixel_draft.svg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_hair_source_v4/validation/uv_pixel_draft.svg",
+      "sha256": "968804d0d71650ab9652cef95b03889cdd6f23a7fefabdbdd3a0c58e3846ab08",
+      "bytes": 59489,
+      "reason": "sha256_differs_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/asset_manifest.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/asset_manifest.json",
+      "sha256": "685b51d81d09c47744c275ea3ea07dbfaabe1cbe88a5b036ebe0e27293daf9e2",
+      "bytes": 7584,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/build_character.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/build_character.py",
+      "sha256": "7b4dbd8e5ce300b0c9fbd02af125cf2042e13d028b9acda21cbfbae8117aa79e",
+      "bytes": 23356,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1_cloth_draft.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/player_lowpoly_v1_cloth_draft.png",
+      "sha256": "2aeb30871d484969635225605498376f3610f03020466610f7cfd10cbf46ecb9",
+      "bytes": 2018,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1_hair_draft.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/player_lowpoly_v1_hair_draft.png",
+      "sha256": "e1d478d09897a9e5385561484c6491a27a9fd7aee5a601dbff4d14f8f073cbe2",
+      "bytes": 1242,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1_skin_draft.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/player_lowpoly_v1_skin_draft.png",
+      "sha256": "a65aa434762b5472effe844dbf9341aeb3c49734f100e7e856015f712c0cba34",
+      "bytes": 794,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1.blend",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/player_lowpoly_v1.blend",
+      "sha256": "90b7330b86d36b12aac2db149392a1636473aff476205cfb7e946389c1338290",
+      "bytes": 183730,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1.glb",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/player_lowpoly_v1.glb",
+      "sha256": "c97340e67718b54120697661a2ee8545c618885369dfa19a6ab080fa7e754c6a",
+      "bytes": 140608,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/README.md",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/README.md",
+      "sha256": "fdb2f162fc9dac3edc2534672770ddf9ee3f58f5bfe55f3c9a71a1514ceab4e3",
+      "bytes": 3541,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/texture_authoring.py",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/texture_authoring.py",
+      "sha256": "eb4e4db3c94a860e8432ac387edaad9ada9fab1a1fef6c02dcbe4ac10cce137d",
+      "bytes": 5174,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/texture_sources.json",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/texture_sources.json",
+      "sha256": "0bdc3ab806be5e7ac042148ff15cb3ea4e37bd43802b48ac8f333bf2bff84058",
+      "bytes": 24888,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/evidence/A_character_hero.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/evidence/A_character_hero.png",
+      "sha256": "2aab89dcf3721c1a9f41185846603bcf0c7587caad0f9f2faf12c5574177137d",
+      "bytes": 308714,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/evidence/B_front_side_back.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/evidence/B_front_side_back.png",
+      "sha256": "ceb7b3d057de1cf638d471f758722ae50c32a83bd3e0ddd4aeeb0bcecaa0818f",
+      "bytes": 437875,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/evidence/C_room1_fit.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/evidence/C_room1_fit.png",
+      "sha256": "bde7d0373cc63c52a578b081d68760fcaeb6220242ecfc194f63c76a5b58f0d7",
+      "bytes": 422790,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/references/standing_front.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/references/standing_front.png",
+      "sha256": "890b35eaf0b33c0537f7a2e760d44ece1688208c4bd47e3715d51165681044de",
+      "bytes": 7584,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/references/standing_side.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/references/standing_side.png",
+      "sha256": "1ae5851ce904fac9ee1767def1b52a31bbb55246f76a366407bb5df6c9130ea7",
+      "bytes": 6508,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/textures/cloth_draft.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/textures/cloth_draft.png",
+      "sha256": "2aeb30871d484969635225605498376f3610f03020466610f7cfd10cbf46ecb9",
+      "bytes": 2018,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/textures/hair_draft.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/textures/hair_draft.png",
+      "sha256": "e1d478d09897a9e5385561484c6491a27a9fd7aee5a601dbff4d14f8f073cbe2",
+      "bytes": 1242,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/textures/skin_draft.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/textures/skin_draft.png",
+      "sha256": "a65aa434762b5472effe844dbf9341aeb3c49734f100e7e856015f712c0cba34",
+      "bytes": 794,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/uv_guides/cloth_actual_uv.svg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/uv_guides/cloth_actual_uv.svg",
+      "sha256": "64798b08ef06244d1fb0d00ee858772ca12ad31f4efd48a141fd5b25c2aa2183",
+      "bytes": 58435,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/uv_guides/hair_actual_uv.svg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/uv_guides/hair_actual_uv.svg",
+      "sha256": "2c5d0bab18496aadc06376bbfb00f57f0df5b858361d2ad93c3cd6e3de418326",
+      "bytes": 75897,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/uv_guides/skin_actual_uv.svg",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_lowpoly_v1/uv_guides/skin_actual_uv.svg",
+      "sha256": "01a6c4ccfed3062f17e45bf6b7fc12c4b42194ed839a54bf998e132ee8880db7",
+      "bytes": 98800,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/details.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_master_stand_right_v3/details.png",
+      "sha256": "9d5fbe807c3fd22aab7b3bb733b5104131179f9a5d756eed05e63af552e593df",
+      "bytes": 353,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/far_body.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_master_stand_right_v3/far_body.png",
+      "sha256": "a4f70e35f75a55d602ce45a2cc4b4dfa3d4f15cd9d125f180937f5da679ad0ed",
+      "bytes": 403,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/gown.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_master_stand_right_v3/gown.png",
+      "sha256": "51d3a8fe6207ba8ec83ac13804437484a935ec9d5825c6ef5aa1ff8b071c7e03",
+      "bytes": 568,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/hair_back.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_master_stand_right_v3/hair_back.png",
+      "sha256": "cdd9430ce2018b30f86676dae5226783dac86adf4cbb3f23c28991c4ca76cb9d",
+      "bytes": 546,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/hair_front.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_master_stand_right_v3/hair_front.png",
+      "sha256": "02e0b870b54e0367330b44c1c1861f09f1fad20b820563b563d8680d0da515be",
+      "bytes": 416,
+      "reason": "missing_from_upload"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/near_body.png",
+      "archived_as": "docs/art/archive_local_20261028/character_work/player_master_stand_right_v3/near_body.png",
+      "sha256": "309f2a942d0fe673ccbf1c66b2a3928cece74def1938197cc586b63efcc5a458",
+      "bytes": 465,
+      "reason": "missing_from_upload"
+    }
+  ],
+  "omitted": [
+    {
+      "source": "assets/characters/work/player_basemesh_v2/upload_path.tmp",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/evidence/body_165cm_basecage.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/evidence/body_165cm_review.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2/evidence/body_uv.svg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2_1/body_165cm_validated_v2_1.blend1",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2_1/pose_hip_knee.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2_1/pose_rest.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_basemesh_v2_1/pose_shoulder_elbow.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/01_assembled_threequarter.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/02_assembled_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/03_assembled_side.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/04_assembled_back.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/05_assembled_game_angle.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/06_head_closeup.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/10_rig_rest.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/11_rig_arms.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/12_rig_step.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/13_rig_head_hair.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/14_rig_crouch.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/15_rig_side.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/body_uv_checker.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/body/uv_body_pixel.svg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/01_original_source.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/02_reduced_offwhite.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/03_reduced_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/04_reduced_side.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_albedo.jpeg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_AO.jpeg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_metallic.jpeg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_normal.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original/textures/Robe_roughness.jpeg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/model.dae.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_albedo.jpg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_AO.jpg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_metallic.jpg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_normal.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/source/original_unpacked/model/textures/Robe_roughness.jpg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/robe/__pycache__/inspect_robe.cpython-311.pyc",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_assembled_v5/__pycache__/assemble_character.cpython-311.pyc",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_hip_knee.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_rest.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_shoulder_elbow.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/pose_uv_checker_rest.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/body_audit/uv_layout.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/evidence/01_character.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_back.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_review.blend1",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/hair_dev/hair_side.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_character_v3/__pycache__/make_hair.cpython-311.pyc",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/00_comparison.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/01_source_original.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/02_front_locks.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/03_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/04_side.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/05_back.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/06_hair_isolated.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/audit_source/source_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/audit_source/source_three_quarter.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_hair_source_v4/validation/uv_pixel_draft.svg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1_cloth_draft.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1_hair_draft.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1_skin_draft.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/player_lowpoly_v1.glb.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/evidence/A_character_hero.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/evidence/B_front_side_back.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/evidence/C_room1_fit.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/references/standing_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/references/standing_side.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/textures/cloth_draft.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/textures/hair_draft.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/textures/skin_draft.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/uv_guides/cloth_actual_uv.svg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/uv_guides/hair_actual_uv.svg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/uv_guides/skin_actual_uv.svg.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_lowpoly_v1/__pycache__/texture_authoring.cpython-311.pyc",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/details.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/far_body.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/gown.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/hair_back.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/hair_front.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    },
+    {
+      "source": "assets/characters/work/player_master_stand_right_v3/near_body.png.import",
+      "reason": "excluded_cache_temp_or_sensitive_pattern"
+    }
+  ],
+  "summary": {
+    "files_over_100mb": 0,
+    "copied_bytes": 79240001.0,
+    "omitted_entries": 82,
+    "copied_files": 111
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "status": "STATIC_CANDIDATE_NOT_APPROVED",
+  "blender_version": "5.0.1",
+  "height_m": 1.65,
+  "orientation": "+Z up; front -Y; ground at 0",
+  "parts": [
+    {
+      "name": "BODY_Head_faceless_volume",
+      "category": "body",
+      "vertices": 160,
+      "base_triangles": 316,
+      "texture": "skin",
+      "uv_region": "head",
+      "uv_pixels": [
+        4,
+        4,
+        68,
+        38
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Neck",
+      "category": "body",
+      "vertices": 36,
+      "base_triangles": 68,
+      "texture": "skin",
+      "uv_region": "neck",
+      "uv_pixels": [
+        74,
+        4,
+        98,
+        24
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Torso_under_garment",
+      "category": "body",
+      "vertices": 112,
+      "base_triangles": 220,
+      "texture": "skin",
+      "uv_region": "torso",
+      "uv_pixels": [
+        4,
+        44,
+        60,
+        90
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Arm_L",
+      "category": "body",
+      "vertices": 60,
+      "base_triangles": 116,
+      "texture": "skin",
+      "uv_region": "arm",
+      "uv_pixels": [
+        66,
+        44,
+        82,
+        100
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Hand_L_simplified",
+      "category": "body",
+      "vertices": 60,
+      "base_triangles": 116,
+      "texture": "skin",
+      "uv_region": "hand",
+      "uv_pixels": [
+        4,
+        98,
+        20,
+        124
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Leg_L",
+      "category": "body",
+      "vertices": 96,
+      "base_triangles": 188,
+      "texture": "skin",
+      "uv_region": "leg",
+      "uv_pixels": [
+        86,
+        44,
+        108,
+        120
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Foot_L_bare",
+      "category": "body",
+      "vertices": 72,
+      "base_triangles": 140,
+      "texture": "skin",
+      "uv_region": "foot",
+      "uv_pixels": [
+        24,
+        98,
+        52,
+        124
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Arm_R",
+      "category": "body",
+      "vertices": 60,
+      "base_triangles": 116,
+      "texture": "skin",
+      "uv_region": "arm",
+      "uv_pixels": [
+        66,
+        44,
+        82,
+        100
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Hand_R_simplified",
+      "category": "body",
+      "vertices": 60,
+      "base_triangles": 116,
+      "texture": "skin",
+      "uv_region": "hand",
+      "uv_pixels": [
+        4,
+        98,
+        20,
+        124
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Leg_R",
+      "category": "body",
+      "vertices": 96,
+      "base_triangles": 188,
+      "texture": "skin",
+      "uv_region": "leg",
+      "uv_pixels": [
+        86,
+        44,
+        108,
+        120
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "BODY_Foot_R_bare",
+      "category": "body",
+      "vertices": 72,
+      "base_triangles": 140,
+      "texture": "skin",
+      "uv_region": "foot",
+      "uv_pixels": [
+        24,
+        98,
+        52,
+        124
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "CLOTH_Long_gown_open_hem",
+      "category": "clothing",
+      "vertices": 288,
+      "base_triangles": 528,
+      "texture": "cloth",
+      "uv_region": "gown",
+      "uv_pixels": [
+        4,
+        4,
+        124,
+        148
+      ],
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "CLOTH_Sleeve_L_open_cuff",
+      "category": "clothing",
+      "vertices": 96,
+      "base_triangles": 168,
+      "texture": "cloth",
+      "uv_region": "sleeve_L",
+      "uv_pixels": [
+        4,
+        156,
+        60,
+        232
+      ],
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "CLOTH_Sleeve_R_open_cuff",
+      "category": "clothing",
+      "vertices": 96,
+      "base_triangles": 168,
+      "texture": "cloth",
+      "uv_region": "sleeve_R",
+      "uv_pixels": [
+        68,
+        156,
+        124,
+        232
+      ],
+      "modifiers": [
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "CLOTH_Neck_binding",
+      "category": "clothing",
+      "vertices": 48,
+      "base_triangles": 48,
+      "texture": "cloth",
+      "uv_region": "collar",
+      "uv_pixels": [
+        4,
+        238,
+        60,
+        252
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Crown",
+      "category": "hair",
+      "vertices": 168,
+      "base_triangles": 310,
+      "texture": "hair",
+      "uv_region": "cap",
+      "uv_pixels": [
+        4,
+        4,
+        60,
+        40
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Back_long_mass",
+      "category": "hair",
+      "vertices": 182,
+      "base_triangles": 360,
+      "texture": "hair",
+      "uv_region": "back",
+      "uv_pixels": [
+        4,
+        48,
+        92,
+        116
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Side_lock_L",
+      "category": "hair",
+      "vertices": 60,
+      "base_triangles": 116,
+      "texture": "hair",
+      "uv_region": "lock_L",
+      "uv_pixels": [
+        98,
+        44,
+        108,
+        116
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Side_lock_R",
+      "category": "hair",
+      "vertices": 60,
+      "base_triangles": 116,
+      "texture": "hair",
+      "uv_region": "lock_R",
+      "uv_pixels": [
+        114,
+        44,
+        124,
+        116
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Fringe_piece_1",
+      "category": "hair",
+      "vertices": 40,
+      "base_triangles": 76,
+      "texture": "hair",
+      "uv_region": "fringe",
+      "uv_pixels": [
+        68,
+        4,
+        124,
+        36
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Fringe_piece_2",
+      "category": "hair",
+      "vertices": 40,
+      "base_triangles": 76,
+      "texture": "hair",
+      "uv_region": "fringe",
+      "uv_pixels": [
+        68,
+        4,
+        124,
+        36
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Fringe_piece_3",
+      "category": "hair",
+      "vertices": 40,
+      "base_triangles": 76,
+      "texture": "hair",
+      "uv_region": "fringe",
+      "uv_pixels": [
+        68,
+        4,
+        124,
+        36
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "HAIR_Fringe_piece_4",
+      "category": "hair",
+      "vertices": 40,
+      "base_triangles": 76,
+      "texture": "hair",
+      "uv_region": "fringe",
+      "uv_pixels": [
+        68,
+        4,
+        124,
+        36
+      ],
+      "modifiers": []
+    }
+  ],
+  "texture_dimensions": {
+    "cloth": [
+      128,
+      256
+    ],
+    "hair": [
+      128,
+      128
+    ],
+    "skin": [
+      128,
+      128
+    ]
+  },
+  "triangles_before_cloth_thickness": 3842,
+  "render_method": "Native Blender EEVEE, full-resolution geometry edges, nearest surface textures; no AI image or postpaint",
+  "limits": [
+    "no skeleton/weights/animation",
+    "no Godot import/runtime test",
+    "hair and cloth deformation not verified",
+    "GLB contains portable rough diffuse baseline, not Blender-only stepped-light nodes"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "output": "G:\\卒業制作\\echoes-of-ruin\\assets\\characters\\work\\player_character_assembled_v5\\body\\body_uv_ready_v5.blend",
+  "checks": {
+    "source_body_rig_weights_unchanged": true,
+    "preserved_original_uv_present": true,
+    "active_uv": true,
+    "active_render_uv": true,
+    "zero_area_triangles": true,
+    "outside_unit_square_triangles": true,
+    "positive_area_self_overlap_pairs": true,
+    "broad_islands_no_face_shards": true
+  },
+  "uv_audit": {
+    "triangles": 1158,
+    "zero_area_triangles": 0,
+    "outside_unit_square_triangles": 0,
+    "positive_area_self_overlap_pairs": 0,
+    "same_polygon_overlap_pairs": 0,
+    "cross_polygon_overlap_pairs": 0,
+    "same_island_overlap_pairs": 0,
+    "different_island_overlap_pairs": 0,
+    "overlap_pairs_by_island": {},
+    "affected_polygons": [],
+    "affected_polygon_geometry": {},
+    "largest_overlap_area": 0.0,
+    "candidate_pairs_tested": 11215,
+    "samples": []
+  },
+  "uv_islands": {
+    "uv_island_count": 8,
+    "largest_island_polygons": [
+      174,
+      99,
+      99,
+      70,
+      70,
+      25,
+      25,
+      18
+    ],
+    "single_polygon_islands": 0
+  },
+  "shape_key_Key_1_value": 1.0,
+  "rig_bone_count": 59
+}

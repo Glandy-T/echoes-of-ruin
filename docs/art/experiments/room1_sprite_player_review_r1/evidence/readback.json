@@ -1,0 +1,27 @@
+{
+	"actor_capsule_layer": 0,
+	"billboard": 2,
+	"collision_height_m": 1.64999997615814,
+	"idle_after_stop": {
+		"frame": 2,
+		"hframes": 4,
+		"texture": "res://assets/characters/idle.png",
+		"walking": false
+	},
+	"pixel_size": 0.017187500372529,
+	"scene": "res://scenes/dev/room1_sprite_player_review_r1.tscn",
+	"sprite_position_y": 0.962500035762787,
+	"texture_filter": 0,
+	"visible_height_m": 1.65,
+	"walk": {
+		"end": "(1.908334, 0.000871, -4.75)",
+		"start": "(3.525, 0.000833, -4.75)",
+		"state": {
+			"distance_m": 1.61666655540466,
+			"frame": 4,
+			"hframes": 6,
+			"texture": "res://assets/characters/walk.png",
+			"walking": true
+		}
+	}
+}
