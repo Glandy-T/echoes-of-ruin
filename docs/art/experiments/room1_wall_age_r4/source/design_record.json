@@ -1,0 +1,26 @@
+{
+  "authority": "User accepted r3 joints and explicitly requested a visible middle aging strength, not the former extreme restraint.",
+  "reference_observation": "Chrome Viewer Final Render and Base Color revisited: connected gray clusters anchored to trim/joints, stepped contours, quieter central planes. No exact pixel/UV/shader inference.",
+  "adaptation": "Smaller/shallower edge coverage than the outdoor reference, clearer gray values than r3. Dry retention and seal/metal old-contact interpretation; no copied water damage.",
+  "authorship": "Project-authored deterministic pixel contours, no random distribution or third-party image inputs.",
+  "layers": [
+    "upper_recess_deposit",
+    "lower_wall_accumulation",
+    "joint_edge_old_film",
+    "metal_old_contact"
+  ],
+  "size": [
+    256,
+    272
+  ],
+  "upper_profile_depth_px_max": 22,
+  "lower_profile_depth_px_max": 35,
+  "contour_micro_steps_px": 2,
+  "density_trial_texels_m": 80,
+  "changed_pixels": 10983,
+  "changed_fraction": 0.15772920496323528,
+  "joints_and_diffuser_exact": true,
+  "floor_geometry_uv_lighting_camera": "Unchanged from r3.",
+  "new_generation_usage": 0,
+  "baseline_sha256": "60655bea489fccd0395186b513f923d01eaa4fbff25e0a29702108e8965168d2"
+}

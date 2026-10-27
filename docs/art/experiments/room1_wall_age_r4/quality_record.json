@@ -1,0 +1,54 @@
+{
+  "status": "Middle-strength aging candidate for user review.",
+  "size": [
+    256,
+    272
+  ],
+  "actual_aseprite_export_matches_png": true,
+  "layers": [
+    {
+      "name": "R3_exact_visible_base__joint_master_preserved_in_r3",
+      "visible": true
+    },
+    {
+      "name": "R4_upper_recess_deposit",
+      "visible": true
+    },
+    {
+      "name": "R4_lower_wall_accumulation",
+      "visible": true
+    },
+    {
+      "name": "R4_joint_edge_old_film",
+      "visible": true
+    },
+    {
+      "name": "R4_metal_old_contact",
+      "visible": true
+    }
+  ],
+  "approved_r3_joint_pixels_unchanged": true,
+  "diffuser_pixels_unchanged": true,
+  "changed_pixels": 10983,
+  "changed_fraction": 0.15772920496323528,
+  "new_generation_usage": 0,
+  "geometry_uv_floor_lighting_camera": "Unchanged from r3.",
+  "actual_comparison_captures": 9,
+  "actual_survey_captures": 13,
+  "capture_size": [
+    1280,
+    720
+  ],
+  "baseline_and_N_restoration": {
+    "game_r3_lit.png": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "game_r3_after_n_roundtrip.png": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    }
+  },
+  "same_camera_before_after": true,
+  "local_preview_links_resolve": true
+}
