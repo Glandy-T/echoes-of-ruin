@@ -21,3 +21,11 @@
 - [r4修前后与13镜头](experiments/room1_wall_finish_r4/preview.html)；范围证据 `package_scope_readback.json` 验证GLB除声明的UV属性外逐字节不变，实际画面仍单独审查。
 
 旧候选用于复现错误，不作为当前默认交付入口。以后改模型／开盖姿态／灯光时，须建立相应的新版本并完整执行上述检查，不能只重放本次固定姿态脚本。
+
+## 当前墙地配套实例 r7（2026-10-27）
+
+当前表面候选入口为`scenes/dev/room1_surface_lighting_r7.tscn`，在r6墙／r5地坪和固定漏液上使用新烘焙。脚本`bake_room1_surface_lighting_r7.py`从r4源保留几何／UV2／四发光面，只改变七个墙地材质的颜色输入，按现行Godot世界投影采样。DIRECT＋INDIRECT、COLOR关闭，避免接收面固有色重复相乘。
+
+运行数据在`assets/art/room1_surface_lighting_r7/`；GLB、网格映射和UV2布局与r4字节相同，配套EXR新生成。重新打开Blender源后的几何／UV哈希一致，仍为129接收网格／17908有效三角／零退化越界重叠。导入参数与r4一致，包括禁网格压缩和线性HDR。
+
+实际25张比较＋17张巡检覆盖前后六机位、四角、真实前墙、门头、四漏液、总览、raw／denoised和灯开关。N／I恢复与Base Color保持精确一致；灯带恢复只有P17动态红屏424像素时间变化，屏幕范围外精确恢复，不把动态内容写成全图一致。见[配套记录与源](experiments/room1_surface_lighting_r7/README.md)。本条说明当前贴图的配套烘焙已完成，r5/r6“未重新烘焙”说明保留为当时状态。

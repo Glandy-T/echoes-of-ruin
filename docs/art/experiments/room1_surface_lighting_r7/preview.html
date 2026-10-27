@@ -1,0 +1,52 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Room 1 配套烘焙 r7</title><style>body{margin:0;background:#171D21;color:#D9DDD5;font:16px/1.7 system-ui}main{max-width:1500px;margin:auto;padding:30px}p{max-width:1100px}a{color:#B3D9DE}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0 0 20px}img{width:100%;height:auto;display:block}figcaption{padding:8px}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><main><p>Echoes of Ruin / 終末残響 · 2026-10-27</p><h1>当前墙地与配套光照 · r7</h1><p>r6四墙与r5连续旧地坪／固定漏液接入Blender母版，重烘配套间接光。模型、UV、原灯带、光强、镜头和贴图设计保持。不是新增提亮方案；旧新光照差别很小，重点是颜色图与烘焙源对应、整室回归。</p><p><a href="README.md">制作／导入说明</a> · <a href="room1_surface_lighting_r7_packed.blend">最新打包 Blender 工程</a> · <a href="quality_check.json">精确校验记录</a></p><h2>同机位比较：左旧r4光照，右配套r7</h2>
+<h3>left_front</h3><div class="grid">
+<figure><a href="evidence/game_left_front_r4.png"><img loading="lazy" src="evidence/game_left_front_r4.png"></a><figcaption>r4 · 同一套当前颜色图，原照明参数</figcaption></figure>
+<figure><a href="evidence/game_left_front_r7.png"><img loading="lazy" src="evidence/game_left_front_r7.png"></a><figcaption>r7 · 同一套当前颜色图，原照明参数</figcaption></figure>
+</div>
+<h3>center_front</h3><div class="grid">
+<figure><a href="evidence/game_center_front_r4.png"><img loading="lazy" src="evidence/game_center_front_r4.png"></a><figcaption>r4 · 同一套当前颜色图，原照明参数</figcaption></figure>
+<figure><a href="evidence/game_center_front_r7.png"><img loading="lazy" src="evidence/game_center_front_r7.png"></a><figcaption>r7 · 同一套当前颜色图，原照明参数</figcaption></figure>
+</div>
+<h3>right_front</h3><div class="grid">
+<figure><a href="evidence/game_right_front_r4.png"><img loading="lazy" src="evidence/game_right_front_r4.png"></a><figcaption>r4 · 同一套当前颜色图，原照明参数</figcaption></figure>
+<figure><a href="evidence/game_right_front_r7.png"><img loading="lazy" src="evidence/game_right_front_r7.png"></a><figcaption>r7 · 同一套当前颜色图，原照明参数</figcaption></figure>
+</div>
+<h3>left_back</h3><div class="grid">
+<figure><a href="evidence/game_left_back_r4.png"><img loading="lazy" src="evidence/game_left_back_r4.png"></a><figcaption>r4 · 同一套当前颜色图，原照明参数</figcaption></figure>
+<figure><a href="evidence/game_left_back_r7.png"><img loading="lazy" src="evidence/game_left_back_r7.png"></a><figcaption>r7 · 同一套当前颜色图，原照明参数</figcaption></figure>
+</div>
+<h3>center_back</h3><div class="grid">
+<figure><a href="evidence/game_center_back_r4.png"><img loading="lazy" src="evidence/game_center_back_r4.png"></a><figcaption>r4 · 同一套当前颜色图，原照明参数</figcaption></figure>
+<figure><a href="evidence/game_center_back_r7.png"><img loading="lazy" src="evidence/game_center_back_r7.png"></a><figcaption>r7 · 同一套当前颜色图，原照明参数</figcaption></figure>
+</div>
+<h3>right_back</h3><div class="grid">
+<figure><a href="evidence/game_right_back_r4.png"><img loading="lazy" src="evidence/game_right_back_r4.png"></a><figcaption>r4 · 同一套当前颜色图，原照明参数</figcaption></figure>
+<figure><a href="evidence/game_right_back_r7.png"><img loading="lazy" src="evidence/game_right_back_r7.png"></a><figcaption>r7 · 同一套当前颜色图，原照明参数</figcaption></figure>
+</div>
+<h2>原始1024样本 / 降噪后</h2><p>只处理线性光照图，不降噪原生像素颜色图。以下截图没有提亮。</p><div class="grid">
+<figure><a href="evidence/raw_left_corner.png"><img loading="lazy" src="evidence/raw_left_corner.png"></a><figcaption>raw 1024</figcaption></figure>
+<figure><a href="evidence/denoised_left_corner.png"><img loading="lazy" src="evidence/denoised_left_corner.png"></a><figcaption>denoised</figcaption></figure>
+</div><h2>四处既有漏液</h2><div class="grid">
+<figure><a href="evidence/leak_P03_r7.png"><img loading="lazy" src="evidence/leak_P03_r7.png"></a><figcaption>P03</figcaption></figure>
+<figure><a href="evidence/leak_P06_r7.png"><img loading="lazy" src="evidence/leak_P06_r7.png"></a><figcaption>P06</figcaption></figure>
+<figure><a href="evidence/leak_P13_r7.png"><img loading="lazy" src="evidence/leak_P13_r7.png"></a><figcaption>P13</figcaption></figure>
+<figure><a href="evidence/leak_P18_r7.png"><img loading="lazy" src="evidence/leak_P18_r7.png"></a><figcaption>P18</figcaption></figure>
+</div><h2>整室巡检与灯带开关</h2><p>前墙和转角技术图临时显示剖切墙，拍后恢复。游戏镜头不改。灯带恢复仅P17动态红屏有时间差，屏幕范围外逐像素一致。</p><div class="grid">
+<figure><a href="survey/game_left_front.png"><img loading="lazy" src="survey/game_left_front.png"></a><figcaption>game_left_front</figcaption></figure>
+<figure><a href="survey/game_center_front.png"><img loading="lazy" src="survey/game_center_front.png"></a><figcaption>game_center_front</figcaption></figure>
+<figure><a href="survey/game_right_front.png"><img loading="lazy" src="survey/game_right_front.png"></a><figcaption>game_right_front</figcaption></figure>
+<figure><a href="survey/game_left_back.png"><img loading="lazy" src="survey/game_left_back.png"></a><figcaption>game_left_back</figcaption></figure>
+<figure><a href="survey/game_center_back.png"><img loading="lazy" src="survey/game_center_back.png"></a><figcaption>game_center_back</figcaption></figure>
+<figure><a href="survey/game_right_back.png"><img loading="lazy" src="survey/game_right_back.png"></a><figcaption>game_right_back</figcaption></figure>
+<figure><a href="survey/corner_front_left.png"><img loading="lazy" src="survey/corner_front_left.png"></a><figcaption>corner_front_left</figcaption></figure>
+<figure><a href="survey/corner_front_right.png"><img loading="lazy" src="survey/corner_front_right.png"></a><figcaption>corner_front_right</figcaption></figure>
+<figure><a href="survey/corner_rear_left.png"><img loading="lazy" src="survey/corner_rear_left.png"></a><figcaption>corner_rear_left</figcaption></figure>
+<figure><a href="survey/corner_rear_right.png"><img loading="lazy" src="survey/corner_rear_right.png"></a><figcaption>corner_rear_right</figcaption></figure>
+<figure><a href="survey/front_wall_actual.png"><img loading="lazy" src="survey/front_wall_actual.png"></a><figcaption>front_wall_actual</figcaption></figure>
+<figure><a href="survey/door_header.png"><img loading="lazy" src="survey/door_header.png"></a><figcaption>door_header</figcaption></figure>
+<figure><a href="survey/overview_front.png"><img loading="lazy" src="survey/overview_front.png"></a><figcaption>overview_front</figcaption></figure>
+<figure><a href="survey/overview_rear.png"><img loading="lazy" src="survey/overview_rear.png"></a><figcaption>overview_rear</figcaption></figure>
+<figure><a href="survey/strip_on.png"><img loading="lazy" src="survey/strip_on.png"></a><figcaption>strip_on</figcaption></figure>
+<figure><a href="survey/strip_off.png"><img loading="lazy" src="survey/strip_off.png"></a><figcaption>strip_off</figcaption></figure>
+<figure><a href="survey/strip_on_restored.png"><img loading="lazy" src="survey/strip_on_restored.png"></a><figcaption>strip_on_restored</figcaption></figure>
+</div><p>本轮完成配套烘焙与导入检查，仍等待整体美术审图。没有为主门、人物、玻璃或剧情痕迹新增设计。</p></main></html>

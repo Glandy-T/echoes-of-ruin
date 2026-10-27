@@ -1,0 +1,44 @@
+{
+  "base_color_old_new_exact": true,
+  "n_roundtrip_exact": true,
+  "i_roundtrip_exact": true,
+  "old_gi_matches_r6_exact": true,
+  "glb_mapping_uv2_record_exact_r4": true,
+  "albedo_source_hashes_match": true,
+  "godot_import_params_exact_r4": true,
+  "lamp_restoration": {
+    "changed_pixels": 424,
+    "bbox": [
+      968,
+      376,
+      1019,
+      404
+    ],
+    "outside_p17_screen_exact": true,
+    "reason": "P17 animated red display changes with time; strip and room restore exactly outside this screen rectangle."
+  },
+  "captures": {
+    "comparison": 25,
+    "survey": 17,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "source_hdr_stats": {
+    "raw_min": 0.0,
+    "raw_max": 17.05004119873047,
+    "new_min": 0.0,
+    "new_max": 21.8813419342041,
+    "old_max": 21.845436096191406,
+    "finite_nonnegative": true,
+    "valid_pixel_count": 581830,
+    "changed_pixels": 542923,
+    "mean_abs_delta_valid": 0.0009843454463407397,
+    "mean_old_valid": 0.20782896876335144,
+    "mean_new_valid": 0.20697259902954102,
+    "p99_abs_delta": 0.0066569619625806604
+  },
+  "geometry_uv_unchanged": true,
+  "scope": "New indirect irradiance from latest albedo; no albedo art edits, geometry, emitter, camera or exposure change."
+}

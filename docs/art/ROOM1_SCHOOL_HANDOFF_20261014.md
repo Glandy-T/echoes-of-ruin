@@ -268,3 +268,13 @@ r2消除了UV2串图，但64样本降噪形成墙角横向明暗波纹，上轮�
 ### 接缝接触修正 r6（2026-10-27）
 
 最新候选入口为 `scenes/dev/room1_seam_contact_r6.tscn`，继承r5，仅修正四墙38条接缝的旧化空边。V比较旧r5／新r6；M/N/J沿用。r5将完整8px接缝轮廓从旧化里挖空，造成脏膜与黑缝隔着干净亮边；r6只保留2px密封芯，让旧化贴到肩部。四份新母版与源层保存在[独立实验](experiments/room1_seam_contact_r6/README.md)，地面与漏液、模型、UV、镜头及照明都保持r5。已逐像素核对改变只在接缝肩部，当前独立r5场景回退和N恢复一致；前墙技术图单独解除剖切检查后恢复。
+
+### 当前墙地配套烘焙 r7（2026-10-27，最新候选）
+
+**学校拉取main后优先F6运行`scenes/dev/room1_surface_lighting_r7.tscn`。** 当前r6四墙、r5统一旧地坪与四漏液均保持，补齐Blender源材质和对应漫反射反弹烘焙。I对比旧r4／新r7光照，V接缝旧／新，M/N/J与WASD沿用。正式游戏入口未替换。
+
+[打包Blender工程](experiments/room1_surface_lighting_r7/room1_surface_lighting_r7_packed.blend)包含最新完整墙地颜色图和世界坐标节点，不再只保存旧平色母版。[对照及导入说明](experiments/room1_surface_lighting_r7/README.md)、[实际截图](experiments/room1_surface_lighting_r7/preview.html)、[机器校验](experiments/room1_surface_lighting_r7/quality_check.json)。可编辑像素源仍沿用r6四墙／r5地面Aseprite，无重画。
+
+运行包`assets/art/room1_surface_lighting_r7/`包含新EXR、原样GLB、映射／manifest，依赖已有Shader和颜色图；不要只拖裸GLB当成完整材质效果。GLB网格、UV和嵌入旧颜色不重写，Godot场景负责绑定当前颜色图。当前新颜色图的配套烘焙已完成，前面r5/r6“未重烘焙”仅是历史状态。
+
+本轮固定1024样本、2048线性HDR、原四条灯带与原亮度；几何／UV与灯光不改，实际画面变化很小。25张比较＋17张全室巡检，N／I与Base Color回归通过，开关灯恢复只在动态红屏有时间差、其余像素一致。没有发现新增墙角黑块、三角切割或灯槽断头。整体美术仍待用户审图；主门外观、人物、玻璃与舱体细节仍不是本轮新增定案。
