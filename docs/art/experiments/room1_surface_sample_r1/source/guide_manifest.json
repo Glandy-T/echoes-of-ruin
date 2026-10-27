@@ -1,0 +1,25 @@
+{
+  "authorship": "original manually specified pixel polygons; no random generator and no third-party image input",
+  "floor_size": [
+    128,
+    128
+  ],
+  "wall_size": [
+    128,
+    136
+  ],
+  "physical_sample_m": {
+    "wall": [
+      3.2,
+      3.4
+    ],
+    "floor": [
+      3.2,
+      3.2
+    ]
+  },
+  "native_density_texels_m": 40,
+  "status": "local trial only; not project standard",
+  "wall_structure": "crop of existing project-authored trim/diffuser at inherited positions",
+  "source_reference_images_submitted": false
+}

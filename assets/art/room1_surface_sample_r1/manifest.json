@@ -1,0 +1,17 @@
+{
+  "base_commit": "071baf0164e3dd569f3d84c7f8f4a287b9ebc3d6",
+  "status": "awaiting user art review",
+  "scope": "two localized albedo regions only",
+  "files": [
+    {
+      "file": "floor_sample.png",
+      "bytes": 1113,
+      "sha256": "c88490e73f9124d7d53041a701483f1d9f7e7ccb2d06c01751319af96c42979f"
+    },
+    {
+      "file": "wall_sample.png",
+      "bytes": 1759,
+      "sha256": "da36707e2e749a53fe97f7b3360fc3ee58167d7aa008daa384e19e328d66aff5"
+    }
+  ]
+}

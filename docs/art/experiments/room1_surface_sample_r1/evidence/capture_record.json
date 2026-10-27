@@ -1,0 +1,107 @@
+{
+  "review_scene": "room1_surface_sample_r1.tscn",
+  "scope": "Review renders only. UV2 baked lighting and inherited capsule shadows retained; no gameplay tests or art approval.",
+  "selected_materials": {
+    "Floor_continuous_no_tile_seams": 1,
+    "Wall_left": 1
+  },
+  "source_scene": "room1_pod_exit_animation_r3.tscn",
+  "views": [
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.54799628257751,
+        2.20000004768372,
+        3.25
+      ],
+      "fov": 50.0,
+      "player_position": [
+        3.52500009536743,
+        0.0,
+        -4.75
+      ],
+      "shots": [
+        {
+          "file": "01_baseline.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        },
+        {
+          "file": "01_wall_only.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        },
+        {
+          "file": "01_floor_only.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        },
+        {
+          "file": "01_wall_floor.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        }
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.52500009536743,
+        2.20000004768372,
+        4.53999996185303
+      ],
+      "fov": 50.0,
+      "player_position": [
+        3.52500009536743,
+        0.0,
+        -3.34999990463257
+      ],
+      "shots": [
+        {
+          "file": "02_baseline.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        },
+        {
+          "file": "02_wall_only.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        },
+        {
+          "file": "02_floor_only.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        },
+        {
+          "file": "02_wall_floor.png",
+          "save_error": 0,
+          "size": [
+            1280,
+            720
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "saved PixelLab edits of original project guides only",
+  "floor": "coherent native shape retained; palette centered #5A6C73, channel range +/-12",
+  "wall": "native 3x3 mode plus small-island cleanup; broad connected shape kept, centered #D3D6C9 +/-12",
+  "wall_structure": "exact original project trims/diffuser crop x240..496; no new wall seam",
+  "new_contact_history": "faint illustrative band finish, not a confirmed past event",
+  "sample_wall_godot_world_yz": {
+    "z": [
+      -6.4,
+      -3.2
+    ],
+    "height": [
+      0,
+      3.4
+    ],
+    "plane_x": 0.2
+  },
+  "sample_floor_godot_xz": {
+    "x": [
+      0.2,
+      3.4
+    ],
+    "z": [
+      -6.4,
+      -3.2
+    ]
+  },
+  "native_texels_m": 40,
+  "density_scope": "single trial only; no project-wide density or render-resolution change",
+  "new_generation_usage": {
+    "floor": 10,
+    "wall": 10,
+    "total": 20
+  },
+  "wall2_old_age_patch_used": false,
+  "reference_images_submitted": false
+}
