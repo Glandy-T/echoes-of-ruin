@@ -1,0 +1,234 @@
+{
+  "remote_commit": "91380e58501f9780ac2284a0873bce307b5a8b5b",
+  "removed": [
+    {
+      "path": "docs/art/experiments/pixellab_aseprite_connection_check_v1",
+      "bytes": 204252
+    },
+    {
+      "path": "docs/art/experiments/room1_camera_bounds_test_r2",
+      "bytes": 2114347
+    },
+    {
+      "path": "docs/art/experiments/room1_camera_follow_test_r1",
+      "bytes": 1563674
+    },
+    {
+      "path": "docs/art/experiments/room1_corner_quality_r3",
+      "bytes": 11336266
+    },
+    {
+      "path": "docs/art/experiments/room1_floor_pixel_compare_v1",
+      "bytes": 13135225
+    },
+    {
+      "path": "docs/art/experiments/room1_full_lowpoly_v1",
+      "bytes": 5377645
+    },
+    {
+      "path": "docs/art/experiments/room1_full_lowpoly_v1_1",
+      "bytes": 5323138
+    },
+    {
+      "path": "docs/art/experiments/room1_glow_sample_r1",
+      "bytes": 976755
+    },
+    {
+      "path": "docs/art/experiments/room1_glow_sample_r2",
+      "bytes": 1034109
+    },
+    {
+      "path": "docs/art/experiments/room1_glow_sample_r3",
+      "bytes": 937779
+    },
+    {
+      "path": "docs/art/experiments/room1_glow_sample_r4",
+      "bytes": 1026683
+    },
+    {
+      "path": "docs/art/experiments/room1_godot_review_r1",
+      "bytes": 878850
+    },
+    {
+      "path": "docs/art/experiments/room1_left_wall_dark_patch_diagnosis_v1",
+      "bytes": 2084096
+    },
+    {
+      "path": "docs/art/experiments/room1_left_wall_uv2_fix_r2",
+      "bytes": 22055536
+    },
+    {
+      "path": "docs/art/experiments/room1_left_wall_uv_review_r4",
+      "bytes": 1755811
+    },
+    {
+      "path": "docs/art/experiments/room1_lighting_continuous_bake_r3",
+      "bytes": 2067156
+    },
+    {
+      "path": "docs/art/experiments/room1_lighting_shadow_test_r2",
+      "bytes": 2588042
+    },
+    {
+      "path": "docs/art/experiments/room1_lighting_test_r1",
+      "bytes": 1047341
+    },
+    {
+      "path": "docs/art/experiments/room1_lowpoly_v1",
+      "bytes": 5342379
+    },
+    {
+      "path": "docs/art/experiments/room1_lowpoly_v2",
+      "bytes": 4370201
+    },
+    {
+      "path": "docs/art/experiments/room1_material_revision_v1",
+      "bytes": 21383970
+    },
+    {
+      "path": "docs/art/experiments/room1_pixel_motion_test_r2",
+      "bytes": 484499
+    },
+    {
+      "path": "docs/art/experiments/room1_pixel_resolution_test_r1",
+      "bytes": 1071840
+    },
+    {
+      "path": "docs/art/experiments/room1_pixellab_pod_trial_v1",
+      "bytes": 8262709
+    },
+    {
+      "path": "docs/art/experiments/room1_pixellab_pod_trial_v2",
+      "bytes": 9207207
+    },
+    {
+      "path": "docs/art/experiments/room1_pixellab_pod_trial_v3",
+      "bytes": 12274761
+    },
+    {
+      "path": "docs/art/experiments/room1_pixellab_texture_trial_v1",
+      "bytes": 7814239
+    },
+    {
+      "path": "docs/art/experiments/room1_player_physics_test_r1",
+      "bytes": 3016461
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_chamber_v6",
+      "bytes": 3459521
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_exit_animation_r1",
+      "bytes": 2256199
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_exit_animation_r2",
+      "bytes": 1665157
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_exit_animation_r3",
+      "bytes": 2080667
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_form_uv_v2",
+      "bytes": 24376311
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_form_v3",
+      "bytes": 2867914
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_reference_v4",
+      "bytes": 33270181
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_reference_v4_1",
+      "bytes": 15680557
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_room_v5",
+      "bytes": 108863910
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_side_lights_v7",
+      "bytes": 3994911
+    },
+    {
+      "path": "docs/art/experiments/room1_surface_full_room_r1",
+      "bytes": 6967256
+    },
+    {
+      "path": "docs/art/experiments/room1_surface_sample_r1",
+      "bytes": 2476086
+    },
+    {
+      "path": "docs/art/experiments/room1_surface_structure_r2",
+      "bytes": 5479668
+    },
+    {
+      "path": "docs/art/experiments/room1_wall_finish_r4",
+      "bytes": 16938537
+    },
+    {
+      "path": "docs/art/experiments/room1_wall_floor_solid_v1",
+      "bytes": 7111937
+    },
+    {
+      "path": "docs/art/experiments/room1_wall_pixel_v1",
+      "bytes": 8122364
+    },
+    {
+      "path": "docs/art/experiments/room1_wall_pixel_v2",
+      "bytes": 11249679
+    },
+    {
+      "path": "assets/characters/work/player_basemesh_v2",
+      "bytes": 7050379
+    },
+    {
+      "path": "assets/characters/work/player_basemesh_v2_1",
+      "bytes": 4226053
+    },
+    {
+      "path": "assets/characters/work/player_character_assembled_v5",
+      "bytes": 67191338
+    },
+    {
+      "path": "assets/characters/work/player_character_v3",
+      "bytes": 11581722
+    },
+    {
+      "path": "assets/characters/work/player_hair_source_v4",
+      "bytes": 10655823
+    },
+    {
+      "path": "assets/characters/work/player_lowpoly_v1",
+      "bytes": 1840145
+    },
+    {
+      "path": "assets/characters/work/player_master_stand_right_v3",
+      "bytes": 8625
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_motion_v1",
+      "bytes": 22802030
+    }
+  ],
+  "retained_due_to_unmatched": {},
+  "kept_current_and_dependencies": [
+    "pixellab_direct_api_check_v1",
+    "room1_floor_contact_r8",
+    "room1_floor_palette_r9",
+    "room1_pod_screen_v8_1",
+    "room1_pod_standard_v8",
+    "room1_pod_volume_v4",
+    "room1_seam_contact_r6",
+    "room1_sprite_player_review_r1",
+    "room1_surface_full_r5",
+    "room1_surface_lighting_r7",
+    "room1_wall_age_r4",
+    "room1_wall_joints_r3"
+  ],
+  "rule": "Every non-generated file independently matches a tracked remote copy or archived SHA-256; no primary tracked file deleted.",
+  "previous_archive_commit": "3d8131219cc0cbda4fb37a803d7e2d364432a819"
+}
