@@ -1,6 +1,6 @@
 # Room 1 学校交接：纸片主角与旧功能迁移
 
-先拉取 GitHub main，然后打开 `project.godot`。用 F6 运行 `scenes/dev/room1_sprite_player_review_r1.tscn`；这是新的当前审查入口，不是主场景。原2D游戏入口仍在 `scenes/player/player.tscn` 及原有场景中，先运行并核对旧行为，再按实际需求迁移。
+学校电脑先更新或克隆 GitHub main，然后打开 `project.godot`。家里这份工作目录的 Git HEAD 仍是旧版，且 `project.godot` 有原有本地修改，大量当前资产在此旧 HEAD 下显示未跟踪；不要直接强行重置或覆盖，先备份并核对后再同步。用 F6 运行 `scenes/dev/room1_sprite_player_review_r1.tscn`；这是新的当前审查入口，不是主场景。原2D游戏入口仍在 `scenes/player/player.tscn` 及原有场景中，先运行并核对旧行为，再按实际需求迁移。
 
 ## 已完成
 
