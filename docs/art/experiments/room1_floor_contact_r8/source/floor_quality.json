@@ -1,0 +1,33 @@
+{
+  "aseprite_reopen_export_exact": true,
+  "size": [
+    1648,
+    728
+  ],
+  "perimeter_edges": 4,
+  "measured_pod_contacts": 20,
+  "new_deposit_pixels": 197393,
+  "connected_component_count": 17,
+  "all_new_components_touch_real_wall_or_pod_base": true,
+  "component_sizes": [
+    125926,
+    4152,
+    4444,
+    4590,
+    4693,
+    3605,
+    5255,
+    4947,
+    4321,
+    4521,
+    4365,
+    4517,
+    4416,
+    4035,
+    3815,
+    4523,
+    5268
+  ],
+  "original_leak_layers_exact": true,
+  "geometry_uv_layout_lights_changed": false
+}

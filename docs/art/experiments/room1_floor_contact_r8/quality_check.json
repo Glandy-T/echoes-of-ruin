@@ -1,0 +1,63 @@
+{
+  "floor": {
+    "aseprite_reopen_export_exact": true,
+    "size": [
+      1648,
+      728
+    ],
+    "perimeter_edges": 4,
+    "measured_pod_contacts": 20,
+    "new_deposit_pixels": 197393,
+    "connected_component_count": 17,
+    "all_new_components_touch_real_wall_or_pod_base": true,
+    "component_sizes": [
+      125926,
+      4152,
+      4444,
+      4590,
+      4693,
+      3605,
+      5255,
+      4947,
+      4321,
+      4521,
+      4365,
+      4517,
+      4416,
+      4035,
+      3815,
+      4523,
+      5268
+    ],
+    "original_leak_layers_exact": true,
+    "geometry_uv_layout_lights_changed": false
+  },
+  "matching_bake_source_hashes": true,
+  "r7_baseline_exact": true,
+  "n_f_i_roundtrip_exact": true,
+  "glb_mapping_uv2_exact_r7": true,
+  "godot_import_params_exact_r7": true,
+  "capture_counts": {
+    "comparison": 32,
+    "survey": 14,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "hdr": {
+    "raw_min": 0.0,
+    "raw_max": 17.050046920776367,
+    "new_min": 0.0,
+    "new_max": 21.866493225097656,
+    "old_max": 21.8813419342041,
+    "finite_nonnegative": true,
+    "valid_pixel_count": 581927,
+    "changed_pixels": 485975,
+    "mean_abs_delta_valid": 0.00023615796817466617,
+    "mean_old_valid": 0.20693816244602203,
+    "mean_new_valid": 0.2071433961391449,
+    "p99_abs_delta": 0.002075806260108945
+  },
+  "scope": "New floor contact aging only; r6 wall PNGs, model, layout, emitters, UV and gameplay camera retained. Matching floor-color bounce rebaked."
+}

@@ -1,0 +1,913 @@
+{
+  "size": [
+    1648,
+    728
+  ],
+  "density_trial": 80,
+  "map_uv": "u=(GodotX-.2)/20.6, v=(GodotZ+9.3)/9.1; image top=rear",
+  "pod_contact_count": 20,
+  "perimeter_count": 4,
+  "base_layers_copied_exactly": [
+    "floor_coating",
+    "floor_perimeter_retention",
+    "floor_base_contacts"
+  ],
+  "leak_layers_preserved": {
+    "floor_leak_wicking": "6b5973be452c6691fd050e703af9833b33b8a40a657b31abc061a031e47a116e",
+    "floor_leak_dark_film": "dc73a1e19513c3d2894cb4ab0947d588abe16d95091d6aea237373e390434f6a",
+    "floor_leak_dried_tide": "63cc5474c22d25347d19225e9e7ffe32685f9563c5e647142f50bde5637d2fc3"
+  },
+  "new_layers": [
+    "wall_floor_connected_deposit",
+    "pod_connected_contact",
+    "pod_corner_accumulation",
+    "pod_corner_mineral_ledges"
+  ],
+  "pods": [
+    {
+      "pod": "P01",
+      "outline_pixels": [
+        [
+          84,
+          508
+        ],
+        [
+          90,
+          507
+        ],
+        [
+          162,
+          507
+        ],
+        [
+          168,
+          508
+        ],
+        [
+          168,
+          683
+        ],
+        [
+          84,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        59,
+        482,
+        194,
+        709
+      ]
+    },
+    {
+      "pod": "P02",
+      "outline_pixels": [
+        [
+          224,
+          508
+        ],
+        [
+          230,
+          507
+        ],
+        [
+          302,
+          507
+        ],
+        [
+          308,
+          508
+        ],
+        [
+          308,
+          683
+        ],
+        [
+          224,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        199,
+        482,
+        334,
+        709
+      ]
+    },
+    {
+      "pod": "P03",
+      "outline_pixels": [
+        [
+          364,
+          508
+        ],
+        [
+          370,
+          507
+        ],
+        [
+          442,
+          507
+        ],
+        [
+          448,
+          508
+        ],
+        [
+          448,
+          683
+        ],
+        [
+          364,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        339,
+        482,
+        474,
+        709
+      ]
+    },
+    {
+      "pod": "P04",
+      "outline_pixels": [
+        [
+          504,
+          508
+        ],
+        [
+          510,
+          507
+        ],
+        [
+          582,
+          507
+        ],
+        [
+          588,
+          508
+        ],
+        [
+          588,
+          683
+        ],
+        [
+          504,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        479,
+        482,
+        614,
+        709
+      ]
+    },
+    {
+      "pod": "P05",
+      "outline_pixels": [
+        [
+          644,
+          508
+        ],
+        [
+          650,
+          507
+        ],
+        [
+          722,
+          507
+        ],
+        [
+          728,
+          508
+        ],
+        [
+          728,
+          683
+        ],
+        [
+          644,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        619,
+        482,
+        754,
+        709
+      ]
+    },
+    {
+      "pod": "P06",
+      "outline_pixels": [
+        [
+          920,
+          508
+        ],
+        [
+          926,
+          507
+        ],
+        [
+          998,
+          507
+        ],
+        [
+          1004,
+          508
+        ],
+        [
+          1004,
+          683
+        ],
+        [
+          920,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        895,
+        482,
+        1030,
+        709
+      ]
+    },
+    {
+      "pod": "P07",
+      "outline_pixels": [
+        [
+          1060,
+          508
+        ],
+        [
+          1066,
+          507
+        ],
+        [
+          1138,
+          507
+        ],
+        [
+          1144,
+          508
+        ],
+        [
+          1144,
+          683
+        ],
+        [
+          1060,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1035,
+        482,
+        1170,
+        709
+      ]
+    },
+    {
+      "pod": "P08",
+      "outline_pixels": [
+        [
+          1200,
+          508
+        ],
+        [
+          1206,
+          507
+        ],
+        [
+          1278,
+          507
+        ],
+        [
+          1284,
+          508
+        ],
+        [
+          1284,
+          662
+        ],
+        [
+          1284,
+          683
+        ],
+        [
+          1200,
+          683
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1175,
+        482,
+        1310,
+        709
+      ]
+    },
+    {
+      "pod": "P09",
+      "outline_pixels": [
+        [
+          1340,
+          508
+        ],
+        [
+          1346,
+          507
+        ],
+        [
+          1418,
+          507
+        ],
+        [
+          1424,
+          508
+        ],
+        [
+          1424,
+          662
+        ],
+        [
+          1424,
+          683
+        ],
+        [
+          1340,
+          683
+        ],
+        [
+          1340,
+          530
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1315,
+        482,
+        1450,
+        709
+      ]
+    },
+    {
+      "pod": "P10",
+      "outline_pixels": [
+        [
+          1480,
+          508
+        ],
+        [
+          1486,
+          507
+        ],
+        [
+          1558,
+          507
+        ],
+        [
+          1564,
+          508
+        ],
+        [
+          1564,
+          662
+        ],
+        [
+          1564,
+          683
+        ],
+        [
+          1480,
+          683
+        ],
+        [
+          1480,
+          530
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1455,
+        482,
+        1590,
+        709
+      ]
+    },
+    {
+      "pod": "P11",
+      "outline_pixels": [
+        [
+          84,
+          45
+        ],
+        [
+          168,
+          45
+        ],
+        [
+          168,
+          220
+        ],
+        [
+          162,
+          221
+        ],
+        [
+          90,
+          221
+        ],
+        [
+          84,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        59,
+        20,
+        194,
+        247
+      ]
+    },
+    {
+      "pod": "P12",
+      "outline_pixels": [
+        [
+          224,
+          45
+        ],
+        [
+          308,
+          45
+        ],
+        [
+          308,
+          220
+        ],
+        [
+          302,
+          221
+        ],
+        [
+          230,
+          221
+        ],
+        [
+          224,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        199,
+        20,
+        334,
+        247
+      ]
+    },
+    {
+      "pod": "P13",
+      "outline_pixels": [
+        [
+          364,
+          45
+        ],
+        [
+          448,
+          45
+        ],
+        [
+          448,
+          220
+        ],
+        [
+          442,
+          221
+        ],
+        [
+          370,
+          221
+        ],
+        [
+          364,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        339,
+        20,
+        474,
+        247
+      ]
+    },
+    {
+      "pod": "P14",
+      "outline_pixels": [
+        [
+          504,
+          45
+        ],
+        [
+          588,
+          45
+        ],
+        [
+          588,
+          220
+        ],
+        [
+          582,
+          221
+        ],
+        [
+          510,
+          221
+        ],
+        [
+          504,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        479,
+        20,
+        614,
+        247
+      ]
+    },
+    {
+      "pod": "P15",
+      "outline_pixels": [
+        [
+          644,
+          45
+        ],
+        [
+          728,
+          45
+        ],
+        [
+          728,
+          220
+        ],
+        [
+          722,
+          221
+        ],
+        [
+          650,
+          221
+        ],
+        [
+          644,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        619,
+        20,
+        754,
+        247
+      ]
+    },
+    {
+      "pod": "P16",
+      "outline_pixels": [
+        [
+          920,
+          45
+        ],
+        [
+          1004,
+          45
+        ],
+        [
+          1004,
+          220
+        ],
+        [
+          998,
+          221
+        ],
+        [
+          926,
+          221
+        ],
+        [
+          920,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        895,
+        20,
+        1030,
+        247
+      ]
+    },
+    {
+      "pod": "P17",
+      "outline_pixels": [
+        [
+          1060,
+          45
+        ],
+        [
+          1144,
+          45
+        ],
+        [
+          1144,
+          220
+        ],
+        [
+          1138,
+          221
+        ],
+        [
+          1066,
+          221
+        ],
+        [
+          1060,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1035,
+        20,
+        1170,
+        247
+      ]
+    },
+    {
+      "pod": "P18",
+      "outline_pixels": [
+        [
+          1200,
+          45
+        ],
+        [
+          1284,
+          45
+        ],
+        [
+          1284,
+          220
+        ],
+        [
+          1278,
+          221
+        ],
+        [
+          1206,
+          221
+        ],
+        [
+          1200,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1175,
+        20,
+        1310,
+        247
+      ]
+    },
+    {
+      "pod": "P19",
+      "outline_pixels": [
+        [
+          1340,
+          45
+        ],
+        [
+          1424,
+          45
+        ],
+        [
+          1424,
+          220
+        ],
+        [
+          1418,
+          221
+        ],
+        [
+          1346,
+          221
+        ],
+        [
+          1340,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1315,
+        20,
+        1450,
+        247
+      ]
+    },
+    {
+      "pod": "P20",
+      "outline_pixels": [
+        [
+          1480,
+          45
+        ],
+        [
+          1564,
+          45
+        ],
+        [
+          1564,
+          220
+        ],
+        [
+          1558,
+          221
+        ],
+        [
+          1486,
+          221
+        ],
+        [
+          1480,
+          220
+        ]
+      ],
+      "contact_outer_width_px": [
+        2,
+        10
+      ],
+      "corner_outer_width_px": [
+        7,
+        17
+      ],
+      "bounds": [
+        1455,
+        20,
+        1590,
+        247
+      ]
+    }
+  ],
+  "door_opening_wall_deposit_break_x_m": [
+    9.8,
+    11.2
+  ],
+  "no_tile_route_or_geometry": true
+}
