@@ -1,0 +1,47 @@
+{
+  "status": "User-review candidate; not project-wide wall module approval.",
+  "texture_size": [
+    256,
+    272
+  ],
+  "changed_pixels": 3280,
+  "outside_joint_profiles_unchanged": true,
+  "diffuser_pixels_unchanged": true,
+  "actual_aseprite_visible_export_matches_png": true,
+  "layers": [
+    {
+      "name": "R2_exact_visible_base__editable_master_in_r2",
+      "visible": true
+    },
+    {
+      "name": "R3_joint_bevels",
+      "visible": true
+    },
+    {
+      "name": "R3_joint_recessed_seals",
+      "visible": true
+    },
+    {
+      "name": "R3_joint_end_returns",
+      "visible": true
+    }
+  ],
+  "geometry_uv_and_lights": "Inherited r2 scene/r4 data, not edited.",
+  "new_generation_usage": 0,
+  "actual_comparison_captures": 9,
+  "actual_survey_captures": 13,
+  "baseline_against_r2_and_N_roundtrip": {
+    "game_r2_lit.png": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "game_r2_after_n_roundtrip.png": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    }
+  },
+  "capture_size": [
+    1280,
+    720
+  ]
+}

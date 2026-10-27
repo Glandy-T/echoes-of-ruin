@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/room1_surface_structure_r2.tscn" id="1_r2"]
+[ext_resource type="Script" path="res://scripts/dev/room1_wall_joints_r3.gd" id="2_joints"]
+
+[node name="Room1WallJointsR3" instance=ExtResource("1_r2")]
+script = ExtResource("2_joints")
+# Keep the approved r4 geometry/UV2/lightmap data exactly as r2 used it.
+lightmap_bake_override = "res://assets/art/room1_wall_finish_r4"

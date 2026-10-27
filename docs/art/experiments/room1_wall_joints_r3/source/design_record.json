@@ -1,0 +1,26 @@
+{
+  "authority": "User explicitly requested more visible assembly seams after rejecting r2 as too conservative.",
+  "authorship": "Project-authored exact Aseprite pixel layers, no external image inputs, no new AI generation.",
+  "basis": "r2 wall colour map; existing model/UV/lighting retained.",
+  "joint_centers_px": [
+    64,
+    192
+  ],
+  "joint_spacing_m": 1.6,
+  "joint_dark_core_px": 2,
+  "joint_full_profile_px": 8,
+  "density_candidate_texels_m": 80,
+  "joint_scope_world_y_m": [
+    0.2875,
+    2.85
+  ],
+  "joint_world_godot_z_m": [
+    -4.0,
+    -5.6
+  ],
+  "position_rule": "Stop beneath lamp housing and meet base protection; diffuser and its continuous emission untouched.",
+  "seam_type": "Painted bevel/shadow/seal in albedo; not real recessed geometry or a new panel engineering standard.",
+  "floor": "r2 floor unchanged",
+  "new_generation_usage": 0,
+  "base_wall_sha256": "e56409d99dd98ac8700e679334bab6d7113de3c9897ce16235f3b0e7e194150c"
+}
