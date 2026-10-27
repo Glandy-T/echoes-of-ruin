@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Room 1 · 标准休眠舱 v8</title>
+<style>body{margin:0;background:#182026;color:#e0e5e7;font:16px/1.6 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{font-size:26px}h2{font-size:20px;margin-top:36px}p{max-width:1050px;color:#c1cbd0}a{color:#9bcddc}section{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;background:#253039;border:1px solid #3a4a54}img{display:block;width:100%;image-rendering:pixelated}figcaption{padding:10px 14px}small{color:#aab9c1}button{background:#b8d7de;color:#16252c;border:0;padding:8px 18px;border-radius:3px;font:inherit;cursor:pointer}input{width:min(65%,650px);vertical-align:middle}nav a{margin-right:20px}.controls{padding:12px 16px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}@media(max-width:800px){section{grid-template-columns:1fr}main{padding:16px}}</style>
+<main><h1>标准休眠舱 v8</h1><p>双侧灯管已进入统一模型源。一个动画GLB完成先抬升12cm、再侧滑至45°；固定壳、床与活动盖分别有碰撞，屏幕和灯管独立控制。本轮只接入P12。</p>
+<nav><a href="room1_pod_standard_v8_packed.blend">Blender母版</a><a href="../../../../scenes/props/cryopod_standard_v8.tscn">Godot可复用场景</a><a href="README.md">运行与边界</a><a href="runtime_check.json">实际物理检查</a><a href="source/capture_quality.json">截图核验</a></nav>
+<h2>开盖路径 · 拖动检查</h2><p>从导入的同一个LidOpen动作采样11帧，可往返查看抬升与侧滑。Godot中运行房间入口，按O可播放带碰撞的真实动作；这里是实际渲染帧的浏览器回放。</p>
+<figure><img id="motion" src="evidence/animation_00.png"><div class="controls"><button id="play" type="button">播放采样</button><input id="time" aria-label="开盖进度" type="range" min="0" max="10" value="0"><span id="step">0% · 闭合</span></div></figure>
+<h2>相同机位 · 闭合 / 打开</h2><section>
+<figure><img src="evidence/new_closed.png"><figcaption>闭合 · 同一模型</figcaption></figure>
+<figure><img src="evidence/new_open.png"><figcaption>打开 · 侧灯、玻璃和内部实体保持</figcaption></figure></section>
+<h2>独立供电</h2><section>
+<figure><img src="evidence/screen_off_tubes_on.png"><figcaption>屏幕关闭，侧灯保持</figcaption></figure>
+<figure><img src="evidence/screen_on_tubes_off.png"><figcaption>侧灯关闭，屏幕保持</figcaption></figure></section>
+<h2>屏幕数据接口</h2><section>
+<figure><img src="evidence/screen_default_placeholder.png"><figcaption>默认占位 · 姓名／状态未绑定游戏数据</figcaption></figure>
+<figure><img src="evidence/screen_data_example.png"><figcaption>TEST 12 / STANDBY / 三条进度 · 仅技术示例</figcaption></figure></section>
+<h2>屏幕底色 · 同机位</h2><section>
+<figure><img src="evidence/screen_black_reference.png"><figcaption>近纯黑参考 · 只关闭面板背景底光</figcaption></figure>
+<figure><img src="evidence/screen_default_placeholder.png"><figcaption>当前蓝灰底光 · 文字／进度条参数相同</figcaption></figure></section>
+<h2>闭合头窗</h2><section>
+<figure><img src="evidence/glass_powered.png"><figcaption>原透明玻璃，双侧灯开启</figcaption></figure>
+<figure><img src="evidence/glass_hidden_control.png"><figcaption>只隐藏玻璃 · 真实内腔仍在</figcaption></figure></section>
+<h2>游戏镜头</h2><section>
+<figure><img src="evidence/game_closed.png"><figcaption>闭合 · 原FOV，审图站位旁移</figcaption></figure>
+<figure><img src="evidence/game_open.png"><figcaption>打开 · 同一站位</figcaption></figure></section>
+<p><small>实际Godot截图1280×720，无后期提亮。端点使用P12同一UV2下的两张受光图，途中为近似混合；没有新全室动态GI。其余19舱、主门、人物与主游戏入口不变。编号12为当前样本，未推广到20舱。</small></p></main>
+<script>const frames=Array.from({length:11},(_,i)=>`evidence/animation_${String(i).padStart(2,'0')}.png`);const slider=document.getElementById('time'),motion=document.getElementById('motion'),step=document.getElementById('step'),button=document.getElementById('play');let timer=null,direction=1;function show(){let i=Number(slider.value);motion.src=frames[i];step.textContent=`${i*10}% · ${i===0?'闭合':i===10?'45°打开':i<=3?'垂直抬升':'向侧边滑下'}`;}slider.addEventListener('input',show);button.addEventListener('click',()=>{if(timer){clearInterval(timer);timer=null;button.textContent='播放采样';return;}frames.forEach(src=>{let image=new Image();image.src=src;});button.textContent='暂停';timer=setInterval(()=>{let i=Number(slider.value)+direction;if(i>=10){i=10;direction=-1;}if(i<=0){i=0;direction=1;}slider.value=i;show();},200);});</script></html>

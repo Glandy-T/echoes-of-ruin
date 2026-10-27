@@ -1,0 +1,127 @@
+{
+  "v4_color_pixels_unchanged": [
+    "glass",
+    "lid",
+    "section",
+    "interior",
+    "display",
+    "mattress",
+    "shell_side",
+    "shell_end"
+  ],
+  "color_uv_world_corner_comparison": {
+    "closed": {
+      "display": {
+        "old_unique_corners": 4,
+        "new_unique_corners": 4,
+        "new_unmatched_corners": 0
+      },
+      "glass": {
+        "old_unique_corners": 24,
+        "new_unique_corners": 24,
+        "new_unmatched_corners": 0
+      },
+      "interior": {
+        "old_unique_corners": 142,
+        "new_unique_corners": 142,
+        "new_unmatched_corners": 0
+      },
+      "lid": {
+        "old_unique_corners": 108,
+        "new_unique_corners": 108,
+        "new_unmatched_corners": 0
+      },
+      "mattress": {
+        "old_unique_corners": 24,
+        "new_unique_corners": 24,
+        "new_unmatched_corners": 0
+      },
+      "section": {
+        "old_unique_corners": 553,
+        "new_unique_corners": 553,
+        "new_unmatched_corners": 0
+      },
+      "shell_end": {
+        "old_unique_corners": 192,
+        "new_unique_corners": 192,
+        "new_unmatched_corners": 0
+      },
+      "shell_side": {
+        "old_unique_corners": 168,
+        "new_unique_corners": 168,
+        "new_unmatched_corners": 0
+      }
+    },
+    "open": {
+      "display": {
+        "old_unique_corners": 4,
+        "new_unique_corners": 4,
+        "new_unmatched_corners": 0
+      },
+      "glass": {
+        "old_unique_corners": 24,
+        "new_unique_corners": 24,
+        "new_unmatched_corners": 0
+      },
+      "interior": {
+        "old_unique_corners": 142,
+        "new_unique_corners": 142,
+        "new_unmatched_corners": 0
+      },
+      "lid": {
+        "old_unique_corners": 108,
+        "new_unique_corners": 108,
+        "new_unmatched_corners": 0
+      },
+      "mattress": {
+        "old_unique_corners": 24,
+        "new_unique_corners": 24,
+        "new_unmatched_corners": 0
+      },
+      "section": {
+        "old_unique_corners": 553,
+        "new_unique_corners": 553,
+        "new_unmatched_corners": 0
+      },
+      "shell_end": {
+        "old_unique_corners": 192,
+        "new_unique_corners": 192,
+        "new_unmatched_corners": 0
+      },
+      "shell_side": {
+        "old_unique_corners": 168,
+        "new_unique_corners": 168,
+        "new_unmatched_corners": 0
+      }
+    }
+  },
+  "shared_uv2_identical_across_all_three_glbs": true,
+  "mesh_names": [
+    "PodGlass",
+    "PodLid",
+    "PodLidBacking",
+    "PodLidInterior",
+    "PodWindowFrame",
+    "PodWindowSeal",
+    "PodBasinSeal",
+    "PodDisplay",
+    "PodDisplayHousing",
+    "PodInterior",
+    "PodMattress",
+    "PodShell",
+    "PodShellEnd",
+    "PodShellSection",
+    "PodTubeDiffuser_L",
+    "PodTubeDiffuser_R",
+    "PodTubeHousing_L",
+    "PodTubeHousing_R"
+  ],
+  "actual_animation_names": [
+    "LidOpen"
+  ],
+  "glb_sha256": {
+    "cryopod_standard_v8.glb": "a810ae275e56fc0fe6a94ac8f33de53bdbd326a143dec1e46175c7acd7b2bd9b",
+    "cryopod_standard_v8_closed.glb": "cb14ad719397f6434256da8c665ab9335a9845a9b607ac18d907bd9de68cc3c7",
+    "cryopod_standard_v8_open.glb": "f34dd8b0804c39cc0513d619f1b4c3c4d09a9efbf977541b5f56b5bbbf971d35"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "real_meshes": [
+    "PodBasinSeal",
+    "PodDisplay",
+    "PodDisplayHousing",
+    "PodGlass",
+    "PodInterior",
+    "PodLid",
+    "PodLidBacking",
+    "PodLidInterior",
+    "PodMattress",
+    "PodShell",
+    "PodShellEnd",
+    "PodShellSection",
+    "PodTubeDiffuser_L",
+    "PodTubeDiffuser_R",
+    "PodTubeHousing_L",
+    "PodTubeHousing_R",
+    "PodWindowFrame",
+    "PodWindowSeal"
+  ],
+  "color_images": {
+    "lid": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "shell_side": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "shell_end": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "interior": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "mattress": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "glass": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "display": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    },
+    "section": {
+      "packed": true,
+      "v4_png_bytes_unchanged": true
+    }
+  },
+  "final_runtime_maps": {
+    "closed": {
+      "packed": true,
+      "final_exr_sha256": "b8d183e3b79dd6981b2b08d087050826a1b58538f18831dbed80caea2740f7c4",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    "open": {
+      "packed": true,
+      "final_exr_sha256": "a248935e44c854fed87b305818001449ee6e5d86da4221192fa26bff94181783",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    }
+  },
+  "atlas": {
+    "receiver_triangle_count": 1262,
+    "candidate_triangle_pairs": 6034,
+    "positive_area_overlap_count": 0,
+    "positive_area_overlaps": [],
+    "geometry_non_degenerate_triangle_count": 1262,
+    "uv_non_degenerate_triangle_count": 1262,
+    "uv_degenerate_triangle_count": 0,
+    "out_of_atlas_vertex_count": 0,
+    "out_of_atlas_vertices": []
+  },
+  "poses": {
+    "1": {
+      "location": [
+        0.0,
+        0.0,
+        0.550000011920929
+      ],
+      "rotation_y": 0.0
+    },
+    "20": {
+      "location": [
+        0.0,
+        0.0,
+        0.6700000166893005
+      ],
+      "rotation_y": 0.0
+    },
+    "60": {
+      "location": [
+        0.6115432977676392,
+        0.0,
+        0.6419240236282349
+      ],
+      "rotation_y": 0.7853981852531433
+    }
+  },
+  "motion_action": "LidOpen",
+  "frame_20_lift_m": 0.12000000476837158,
+  "all_moving_vs_fixed_world_bvh": [
+    {
+      "frame": 1,
+      "intersections": {}
+    },
+    {
+      "frame": 4,
+      "intersections": {}
+    },
+    {
+      "frame": 8,
+      "intersections": {}
+    },
+    {
+      "frame": 14,
+      "intersections": {}
+    },
+    {
+      "frame": 20,
+      "intersections": {}
+    },
+    {
+      "frame": 26,
+      "intersections": {}
+    },
+    {
+      "frame": 30,
+      "intersections": {}
+    },
+    {
+      "frame": 40,
+      "intersections": {}
+    },
+    {
+      "frame": 50,
+      "intersections": {}
+    },
+    {
+      "frame": 60,
+      "intersections": {}
+    }
+  ]
+}

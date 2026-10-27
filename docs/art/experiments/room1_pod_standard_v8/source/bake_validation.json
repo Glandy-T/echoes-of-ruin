@@ -1,0 +1,116 @@
+{
+  "version": "v8",
+  "p12_blender": [
+    3.525,
+    7.65,
+    0
+  ],
+  "result": [
+    {
+      "pose": "closed",
+      "image": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\cryopod_standard_v8\\closed_irradiance.exr",
+      "seconds": 0.20400000002700835,
+      "device": "GPU",
+      "samples": 1024,
+      "size": 2048,
+      "pose_world_bounds": [
+        [
+          3.0,
+          6.503000259399414,
+          0.0
+        ],
+        [
+          4.050000190734863,
+          8.79699993133545,
+          0.6650000214576721
+        ]
+      ],
+      "opaque_world_bounds": [
+        [
+          3.0,
+          6.503000259399414,
+          0.0
+        ],
+        [
+          4.050000190734863,
+          8.79699993133545,
+          0.6650000214576721
+        ]
+      ],
+      "joined_opaque_bounds": [
+        [
+          3.0,
+          6.503000259399414,
+          0.0
+        ],
+        [
+          4.050000190734863,
+          8.79699993133545,
+          0.6650000214576721
+        ]
+      ],
+      "expected_pose_bounds_matched": true,
+      "opaque_mesh_count": 14,
+      "excluded_nonopaque": [
+        "BakeV8_PodGlass",
+        "BakeV8_PodDisplay",
+        "BakeV8_PodTubeDiffuser_L",
+        "BakeV8_PodTubeDiffuser_R"
+      ],
+      "reused_already_completed_raw": true
+    },
+    {
+      "pose": "open",
+      "image": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\cryopod_standard_v8\\open_irradiance.exr",
+      "seconds": 210.14000000001397,
+      "device": "GPU",
+      "samples": 1024,
+      "size": 2048,
+      "pose_world_bounds": [
+        [
+          3.0,
+          6.503000259399414,
+          0.0
+        ],
+        [
+          4.416557788848877,
+          8.79699993133545,
+          0.9219383001327515
+        ]
+      ],
+      "opaque_world_bounds": [
+        [
+          3.0,
+          6.503000259399414,
+          0.0
+        ],
+        [
+          4.416557788848877,
+          8.79699993133545,
+          0.9219383001327515
+        ]
+      ],
+      "joined_opaque_bounds": [
+        [
+          3.0,
+          6.503000259399414,
+          0.0
+        ],
+        [
+          4.416557788848877,
+          8.79699993133545,
+          0.9219383001327515
+        ]
+      ],
+      "expected_pose_bounds_matched": true,
+      "opaque_mesh_count": 14,
+      "excluded_nonopaque": [
+        "BakeV8_PodGlass",
+        "BakeV8_PodDisplay",
+        "BakeV8_PodTubeDiffuser_L",
+        "BakeV8_PodTubeDiffuser_R"
+      ],
+      "reused_already_completed_raw": false
+    }
+  ]
+}

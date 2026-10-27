@@ -1,0 +1,175 @@
+{
+  "version": "cryopod_standard_v8",
+  "source_v4": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_pod_volume_v4\\room1_pod_volume_v4.blend",
+  "blend": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_pod_standard_v8\\room1_pod_standard_v8_packed.blend",
+  "outputs": {
+    "animated": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\cryopod_standard_v8\\cryopod_standard_v8.glb",
+    "closed": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\cryopod_standard_v8\\cryopod_standard_v8_closed.glb",
+    "open": "G:\\卒業制作\\echoes-of-ruin\\assets\\art\\cryopod_standard_v8\\cryopod_standard_v8_open.glb"
+  },
+  "animation": {
+    "name": "LidOpen",
+    "fps": 30,
+    "frames": {
+      "closed": 1,
+      "lift_clear": 20,
+      "open": 60
+    },
+    "seconds": {
+      "closed": 0,
+      "lift_clear": 0.6333333333333333,
+      "open": 1.9666666666666666
+    },
+    "lift_candidates_m": [
+      0.08,
+      0.12,
+      0.16,
+      0.2
+    ],
+    "selected_lift_m": 0.12,
+    "locations": {
+      "closed": [
+        0,
+        0,
+        0.55
+      ],
+      "lift_clear": [
+        0.0,
+        0.0,
+        0.6700000166893005
+      ],
+      "open": [
+        0.6115432977676392,
+        0.0,
+        0.6419240236282349
+      ]
+    },
+    "rotation_y_radians": {
+      "closed": 0,
+      "lift_clear": 0,
+      "open": 0.7853981853
+    }
+  },
+  "uv2": {
+    "triangles": 1262,
+    "degenerate_triangles": 0,
+    "out_of_atlas_vertices": 0,
+    "bounds": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "by_mesh": {
+      "PodLid": 0,
+      "PodLidInterior": 0,
+      "PodGlass": 0,
+      "PodShell": 0,
+      "PodShellEnd": 0,
+      "PodInterior": 0,
+      "PodShellSection": 0,
+      "PodMattress": 0,
+      "PodDisplay": 0,
+      "PodWindowFrame": 0,
+      "PodWindowSeal": 0,
+      "PodLidBacking": 0,
+      "PodBasinSeal": 0,
+      "PodDisplayHousing": 0,
+      "PodTubeHousing_L": 0,
+      "PodTubeHousing_R": 0,
+      "PodTubeDiffuser_L": 0,
+      "PodTubeDiffuser_R": 0
+    },
+    "shared_atlas": "single temporary Smart UV Project, loop-mapped back to separated meshes",
+    "precise_overlap_audit": {
+      "receiver_triangle_count": 1262,
+      "candidate_triangle_pairs": 6034,
+      "positive_area_overlap_count": 0,
+      "positive_area_overlaps": [],
+      "geometry_non_degenerate_triangle_count": 1262,
+      "uv_non_degenerate_triangle_count": 1262,
+      "uv_degenerate_triangle_count": 0,
+      "out_of_atlas_vertex_count": 0,
+      "out_of_atlas_vertices": []
+    }
+  },
+  "bounds": {
+    "closed": {
+      "min": [
+        -0.5249999761581421,
+        -1.1469999551773071,
+        0.0
+      ],
+      "max": [
+        0.5249999761581421,
+        1.1469999551773071,
+        0.6650000214576721
+      ]
+    },
+    "open": {
+      "min": [
+        -0.5249999761581421,
+        -1.1469999551773071,
+        0.0
+      ],
+      "max": [
+        0.8915575742721558,
+        1.1469999551773071,
+        0.9219383001327515
+      ]
+    }
+  },
+  "collision_bvh_lid_vs_fixed": [
+    {
+      "frame": 1,
+      "pairs": {}
+    },
+    {
+      "frame": 8,
+      "pairs": {}
+    },
+    {
+      "frame": 14,
+      "pairs": {}
+    },
+    {
+      "frame": 20,
+      "pairs": {}
+    },
+    {
+      "frame": 30,
+      "pairs": {}
+    },
+    {
+      "frame": 40,
+      "pairs": {}
+    },
+    {
+      "frame": 50,
+      "pairs": {}
+    },
+    {
+      "frame": 60,
+      "pairs": {}
+    }
+  ],
+  "glb": {
+    "animation_names": [
+      "LidOpen"
+    ],
+    "primitive_count": 18,
+    "materials": [
+      "POD_V8_glass",
+      "POD_V8_lid",
+      "POD_V8_section",
+      "POD_V8_interior",
+      "POD_V8_display",
+      "POD_V8_mattress",
+      "POD_V8_shell_side",
+      "POD_V8_shell_end",
+      "POD_V8_tube_diffuser",
+      "POD_V8_tube_housing"
+    ]
+  },
+  "note": "BVH reports initial closed fitted contacts separately from path samples; inspect nonzero values before declaring clearance."
+}

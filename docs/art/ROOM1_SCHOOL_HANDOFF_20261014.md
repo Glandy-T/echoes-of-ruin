@@ -328,3 +328,17 @@ r2消除了UV2串图，但64样本降噪形成墙角横向明暗波纹，上轮�
 [开合与透明对比](experiments/room1_pod_side_lights_v7/preview.html)、[组件／技术边界](experiments/room1_pod_side_lights_v7/README.md)。13张1280×720实际Godot截图，灯管及玻璃开关往返恢复逐像素一致；同机位床面诊断区域的蓝白像素由旧点光2910降为0，不将该区域统计当成全屏验收标准。实际捕获无脚本错误。
 
 灯管为独立可编辑Godot组件`scenes/dev/room1_pod_inner_tubes_v7.tscn`，**尚未合并进Blender／GLB母版**。舱体与八份像素图继续用v4，房间接入与两姿态UV2／EXR继续用v5；不要只拿裸GLB就声称包含新灯管。受光是与可见灯管对应的局部分布式近似，未新烘焙全室GI，未推广其他19舱，未改房间、门、人物或主入口。以前v5的闭合周边静态阴影限制及地面待审状态继续保留。
+
+### 单舱统一母版与可复用运行组件 v8（2026-10-27，当前整合入口）
+
+学校拉取 main 后，F6 运行 `scenes/dev/room1_pod_standard_v8_review.tscn`。本轮把已确认的 v4 舱体／像素颜色图和 v7 内侧双灯管合并为统一 Blender 母版与 GLB；只在 P12 替换，其余19舱、房间布局、主门、人物、主入口及 project.godot 保持。地面 r9 仍是此前搁置候选。
+
+[截图与动画采样对照](experiments/room1_pod_standard_v8/preview.html)、[完整接口与复现说明](experiments/room1_pod_standard_v8/README.md)、[打包 Blender 母版](experiments/room1_pod_standard_v8/room1_pod_standard_v8_packed.blend)。可复用组件为 `scenes/props/cryopod_standard_v8.tscn`，配套资产在 `assets/art/cryopod_standard_v8/`。主 GLB 包含真实 LidOpen 动画；closed/open GLB 是供烘焙与读回的静态端点，不是另外两份动画。原八份分层 Aseprite 仍保存在 v4，无新增 PixelLab 调用。
+
+整片盖先抬起12cm，再侧滑转到原45°终态，约2秒，可中途反向；移动碰撞跟随盖体，关盖有角色占用保护。所有六个活动网格与固定网格在十个采样帧的世界空间 BVH 检查无相交；这属于采样验证，不宣称连续数学证明。Godot 实测动画反向、床面落地、开口通行、碰撞移动和两个实例数据／灯管独立通过。
+
+屏幕姓名、运行状态、三条进度可以独立传入。针对用户指出的纯黑底色违和，通电背景改为低亮度蓝灰 LCD 底光，文字／进度条亮度保持，背景不参与光晕，关机底光关闭；该屏幕调整仍待用户审图，不视为新美术定案。O 开／关，R 重播，G 灯管，B 屏幕，L 墙灯，J 回位，WASD 移动。
+
+28张1280×720实际 Godot 截图，含11个不同动画采样、开闭、透明玻璃、屏幕／灯管独立控制及旧黑底／新蓝灰同机位对照。玻璃与背景控制往返恢复零差，真实动画终点与采样终点一致；验证记录随源保存。Blender 重开核对18个真实网格、两套UV、原八张颜色图及最终两张HDR；GLB独立解析核对原造型／UV0保持，共享UV2无正面积重叠。
+
+两张新受光图适用于 P12，按动画进度插值；中间状态是端点光照近似。其他位置必须重新提供受光，周边地面等仍沿用原r9 GI，尚未完成全室动态投影或20舱推广。下一步先审此统一单舱，再决定编号、状态及旧化差分推广。

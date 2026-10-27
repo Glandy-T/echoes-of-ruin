@@ -1,0 +1,33 @@
+{
+  "scope": "Linear HDR irradiance denoised using original Room1 compositor workflow, not pixel color maps; both final maps packed in independent animated source.",
+  "poses": [
+    {
+      "pose": "closed",
+      "final_sha256": "b8d183e3b79dd6981b2b08d087050826a1b58538f18831dbed80caea2740f7c4",
+      "raw_sha256": "812936dc5c4bd9126c84e3a391fa6cc670c0448e0580daf8a01f21f0325abe96",
+      "size": [
+        2048,
+        2048
+      ],
+      "finite": true,
+      "rgb_range": [
+        0.0,
+        0.421895831823349
+      ]
+    },
+    {
+      "pose": "open",
+      "final_sha256": "a248935e44c854fed87b305818001449ee6e5d86da4221192fa26bff94181783",
+      "raw_sha256": "e1b4551a63ea8d729813567ac60291effa8f8d6683075545d4208827883b7f7c",
+      "size": [
+        2048,
+        2048
+      ],
+      "finite": true,
+      "rgb_range": [
+        0.0,
+        0.31688299775123596
+      ]
+    }
+  ]
+}

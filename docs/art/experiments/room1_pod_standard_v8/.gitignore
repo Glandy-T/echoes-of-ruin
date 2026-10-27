@@ -1,0 +1,5 @@
+*.log
+*.blend1
+__pycache__/
+movie_frames/
+*_raw_irradiance.exr

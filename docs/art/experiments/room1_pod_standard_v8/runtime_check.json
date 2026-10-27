@@ -1,0 +1,45 @@
+{
+	"animation": {
+		"closed_finished_signal": true,
+		"duration_valid": true,
+		"endpoint_closed": true,
+		"length_seconds": 2.0,
+		"lid_moved": true,
+		"middle_state": "opening",
+		"reverse_clip_after": 0.878787878787878,
+		"reverse_clip_before": 1.0,
+		"reverse_state": "closing",
+		"reversed": true
+	},
+	"contract": {
+		"has_animation_player": true,
+		"has_lid_motion": true,
+		"has_lidopen": true,
+		"missing_nodes": [],
+		"model_root": "Model"
+	},
+	"instance_isolation": {
+		"independent": true,
+		"screen_data_independent": true,
+		"screen_hash_a": "7f43a184f8ff613b196470d0c5edc8d3d235fe1fe054b971d146e5463490fdd8",
+		"screen_hash_b": "987cff7c68422727f407983f3cb63fa1f116b903d3a0f2fb4e52b7ee28f86567",
+		"screen_independent": true,
+		"screen_overlay_resources_independent": true,
+		"tube_a": 0.0,
+		"tube_b": 1.0
+	},
+	"loaded": true,
+	"pass": true,
+	"physics": {
+		"character_on_mattress": true,
+		"closed_lid_blocks": true,
+		"entry_collider": "",
+		"lid_follows": true,
+		"lid_shape_count": 6,
+		"mattress_shape_count": 1,
+		"occupied_close_protected": true,
+		"open_entry_clear": true,
+		"open_mattress_supports": true
+	},
+	"schema": "room1_pod_standard_v8_runtime_check_r1"
+}

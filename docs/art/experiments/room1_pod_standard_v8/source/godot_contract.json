@@ -1,0 +1,90 @@
+{
+  "version": "cryopod_standard_v8",
+  "root": "CryopodRoot",
+  "animation": {
+    "name": "LidOpen",
+    "fps": 30,
+    "frames": {
+      "closed": 1,
+      "lift_clear": 20,
+      "open": 60
+    },
+    "seconds": {
+      "closed": 0,
+      "lift_clear": 0.6333333333333333,
+      "open": 1.9666666666666666
+    },
+    "lift_candidates_m": [
+      0.08,
+      0.12,
+      0.16,
+      0.2
+    ],
+    "selected_lift_m": 0.12,
+    "locations": {
+      "closed": [
+        0,
+        0,
+        0.55
+      ],
+      "lift_clear": [
+        0.0,
+        0.0,
+        0.6700000166893005
+      ],
+      "open": [
+        0.6115432977676392,
+        0.0,
+        0.6419240236282349
+      ]
+    },
+    "rotation_y_radians": {
+      "closed": 0,
+      "lift_clear": 0,
+      "open": 0.7853981853
+    }
+  },
+  "nodes": {
+    "fixed": [
+      "PodShell",
+      "PodShellEnd",
+      "PodShellSection",
+      "PodInterior",
+      "PodMattress",
+      "PodDisplay",
+      "PodDisplayHousing",
+      "PodBasinSeal",
+      "PodTubeHousing_L",
+      "PodTubeHousing_R",
+      "PodTubeDiffuser_L",
+      "PodTubeDiffuser_R"
+    ],
+    "lid_motion_parent": "LidMotion",
+    "moving": [
+      "PodLid",
+      "PodLidInterior",
+      "PodGlass",
+      "PodWindowFrame",
+      "PodWindowSeal",
+      "PodLidBacking"
+    ]
+  },
+  "materials": {
+    "lid": "POD_V8_lid",
+    "shell_side": "POD_V8_shell_side",
+    "shell_end": "POD_V8_shell_end",
+    "interior": "POD_V8_interior",
+    "mattress": "POD_V8_mattress",
+    "glass": "POD_V8_glass",
+    "display": "POD_V8_display",
+    "section": "POD_V8_section",
+    "tube_housing": "POD_V8_tube_housing",
+    "tube_diffuser": "POD_V8_tube_diffuser"
+  },
+  "coordinate_contract": {
+    "godot_to_blender": "(X, -Z, Y)",
+    "diffusers_godot": "x=+/-0.447,y=0.31,z=0,size=(0.006,0.022,1.70)",
+    "housings_godot": "x=+/-0.458,y=0.31,z=0,size=(0.016,0.034,1.74)"
+  },
+  "uv_contract": "TEXCOORD_0=v4 source color UV; TEXCOORD_1=one shared LightmapUV atlas copied to separated runtime meshes; same source layout for closed/open/animated exports."
+}

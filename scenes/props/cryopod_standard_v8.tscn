@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/art/cryopod_standard_v8/cryopod_standard_v8.glb" id="1_model"]
+[ext_resource type="Script" path="res://scripts/props/cryopod_standard_v8.gd" id="2_script"]
+[ext_resource type="Texture2D" path="res://assets/art/cryopod_standard_v8/closed_irradiance.exr" id="3_closed"]
+[ext_resource type="Texture2D" path="res://assets/art/cryopod_standard_v8/open_irradiance.exr" id="4_open"]
+
+[node name="CryopodStandardV8" type="Node3D"]
+script = ExtResource("2_script")
+closed_irradiance = ExtResource("3_closed")
+open_irradiance = ExtResource("4_open")
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="FixedShellCollision" type="StaticBody3D" parent="."]
+collision_layer = 1
+collision_mask = 1
+
+[node name="LidCollision" type="AnimatableBody3D" parent="."]
+collision_layer = 1
+collision_mask = 1
+
+[node name="MattressCollision" type="StaticBody3D" parent="."]
+collision_layer = 1
+collision_mask = 1
