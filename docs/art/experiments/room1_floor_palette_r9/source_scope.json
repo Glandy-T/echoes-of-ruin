@@ -1,0 +1,733 @@
+{
+  "geometry_uv_before": "2996def770577f2eed7e8928e310a0c9f6112e9190c4f227a3157c8b3b1d8699",
+  "geometry_uv_after": "2996def770577f2eed7e8928e310a0c9f6112e9190c4f227a3157c8b3b1d8699",
+  "emitter_before": [
+    {
+      "name": "ContinuousRibbon_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0799999237060547
+        ],
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ContinuousRibbon_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0799999237060547
+        ],
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ContinuousRibbon_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0799999237060547
+        ],
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ContinuousRibbon_3",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0799999237060547
+        ],
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "emitter_after": [
+    {
+      "name": "ContinuousRibbon_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0799999237060547
+        ],
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ContinuousRibbon_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0799999237060547
+        ],
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ContinuousRibbon_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          0.20499999821186066,
+          0.20499999821186066,
+          3.0799999237060547
+        ],
+        [
+          0.20499999821186066,
+          9.295000076293945,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ContinuousRibbon_3",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": [
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0199999809265137
+        ],
+        [
+          20.795000076293945,
+          9.295000076293945,
+          3.0799999237060547
+        ],
+        [
+          20.795000076293945,
+          0.20499999821186066,
+          3.0799999237060547
+        ]
+      ],
+      "materials": [
+        {
+          "name": "Continuous_Ribbon_Emitter_Only",
+          "nodes": [
+            {
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": {
+                "Displacement": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Thickness": 0.0
+              }
+            },
+            {
+              "type": "ShaderNodeEmission",
+              "inputs": {
+                "Color": [
+                  0.6700000166893005,
+                  0.800000011920929,
+                  0.8600000143051147,
+                  1.0
+                ],
+                "Strength": 20.0,
+                "Weight": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "material_changes": [
+    {
+      "object": "Bake_Shell_Floor_continuous_no_tile_seams",
+      "material": "GODOT_MATERIAL_REVISION_V1_floor_R7_Floor_continuous_no_tile_seams",
+      "kind": "floor",
+      "color_map": "assets/art/room1_floor_palette_r9/floor_with_leaks.png",
+      "sha256": "42f69c853912acf99db1991d04a627adea637bfbf12b667d6556eb3fdc6a4c68",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    },
+    {
+      "object": "Bake_Shell_Wall_left",
+      "material": "GODOT_MATERIAL_REVISION_V1_left_R7_Wall_left",
+      "kind": "side",
+      "color_map": "assets/art/room1_seam_contact_r6/wall_left.png",
+      "sha256": "95e675365941a3bcdfcdf87c421acdd9390636fbaf5c2d9b210a707e061e0ab5",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    },
+    {
+      "object": "Bake_Shell_Wall_right",
+      "material": "GODOT_MATERIAL_REVISION_V1_right_R7_Wall_right",
+      "kind": "side",
+      "color_map": "assets/art/room1_seam_contact_r6/wall_right.png",
+      "sha256": "05797fb31aed931fbb64fcb093e812644c5ad629cca29434a6e9780864cdf40c",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    },
+    {
+      "object": "Bake_Shell_Wall_front",
+      "material": "GODOT_MATERIAL_REVISION_V1_front_R7_Wall_front",
+      "kind": "wall",
+      "color_map": "assets/art/room1_seam_contact_r6/wall_front.png",
+      "sha256": "08220a8365874bf99a0cc9c3f57588d8c9126e89417ac68a12c65263c91e8dff",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    },
+    {
+      "object": "Bake_Shell_Wall_rear_left",
+      "material": "GODOT_MATERIAL_REVISION_V1_rear_R7_Wall_rear_left",
+      "kind": "wall",
+      "color_map": "assets/art/room1_seam_contact_r6/wall_rear.png",
+      "sha256": "70dc41aea21c1996bbedd273b13e39a0d353dd5d7790eb0f52ec33ddd83bd956",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    },
+    {
+      "object": "Bake_Shell_Wall_rear_right",
+      "material": "GODOT_MATERIAL_REVISION_V1_rear_R7_Wall_rear_right",
+      "kind": "wall",
+      "color_map": "assets/art/room1_seam_contact_r6/wall_rear.png",
+      "sha256": "70dc41aea21c1996bbedd273b13e39a0d353dd5d7790eb0f52ec33ddd83bd956",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    },
+    {
+      "object": "Bake_Shell_Wall_rear_door_header",
+      "material": "GODOT_MATERIAL_REVISION_V1_rear_R7_Wall_rear_door_header",
+      "kind": "wall",
+      "color_map": "assets/art/room1_seam_contact_r6/wall_rear.png",
+      "sha256": "70dc41aea21c1996bbedd273b13e39a0d353dd5d7790eb0f52ec33ddd83bd956",
+      "sampling": "Closest sRGB, world projection, preserve original outside inner-face range"
+    }
+  ],
+  "uv2_audit": {
+    "receiver_triangle_count": 17908,
+    "candidate_triangle_pairs": 69377,
+    "positive_area_overlap_count": 0,
+    "positive_area_overlaps": [],
+    "geometry_non_degenerate_triangle_count": 17908,
+    "uv_non_degenerate_triangle_count": 17908,
+    "uv_degenerate_triangle_count": 0,
+    "out_of_atlas_vertex_count": 0,
+    "out_of_atlas_vertices": []
+  }
+}

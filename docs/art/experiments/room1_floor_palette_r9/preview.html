@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Room 1 去黄修色 r9</title><style>body{background:#171D21;color:#D9DDD5;font:16px/1.7 system-ui;margin:0}main{max-width:1500px;margin:auto;padding:30px}a{color:#B3D9DE}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0 0 20px}img{width:100%;display:block}figcaption{padding:8px}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><main><h1>地面去黄修色 · r9</h1><p>保留全部沉积形状与位置，只把偏黄绿色亮部改成贴近地坪的低饱和冷灰蓝。主地坪底色、墙图、模型、光强与曝光保持。以下均为实际Godot截图，没有截图提亮或全局调色。</p><p><a href="README.md">说明与源</a> · <a href="editable/">分层Aseprite</a> · <a href="room1_floor_palette_r9_packed.blend">打包Blender工程</a> · <a href="quality_check.json">验证记录</a></p><h2>同一光照：旧r8 / 新r9配色</h2><div class="grid">
+<figure><a href="evidence/pod_r8_original.png"><img src="evidence/pod_r8_original.png" loading="lazy"></a><figcaption>旧色：偏黄绿的沉积亮部</figcaption></figure>
+<figure><a href="evidence/pod_r9_same_light.png"><img src="evidence/pod_r9_same_light.png" loading="lazy"></a><figcaption>新色：冷灰蓝，同一r8光照</figcaption></figure>
+<figure><a href="evidence/game_r8_original.png"><img src="evidence/game_r8_original.png" loading="lazy"></a><figcaption>旧r8颜色与光照</figcaption></figure>
+<figure><a href="evidence/game_r9_same_light.png"><img src="evidence/game_r9_same_light.png" loading="lazy"></a><figcaption>新r9颜色，光照与旧版相同</figcaption></figure>
+</div><h2>当前配套光照下的新色</h2><div class="grid">
+<figure><a href="evidence/pod_r9_final.png"><img src="evidence/pod_r9_final.png" loading="lazy"></a><figcaption>r9最终近景</figcaption></figure>
+<figure><a href="evidence/game_r9_final.png"><img src="evidence/game_r9_final.png" loading="lazy"></a><figcaption>r9游戏镜头</figcaption></figure>
+<figure><a href="evidence/leak_r9_final.png"><img src="evidence/leak_r9_final.png" loading="lazy"></a><figcaption>原漏液浅色边同步去黄，形状与位置不变</figcaption></figure>
+</div><h2>颜色诊断：原生配色差异</h2><p>以下是Base Color诊断，不是正式发光效果。</p><div class="grid">
+<figure><a href="evidence/floor_r8_base_color.png"><img src="evidence/floor_r8_base_color.png" loading="lazy"></a><figcaption>r8旧地面</figcaption></figure>
+<figure><a href="evidence/floor_r9_base_color.png"><img src="evidence/floor_r9_base_color.png" loading="lazy"></a><figcaption>r9冷灰蓝地面</figcaption></figure>
+</div><p>四边和20舱接触逻辑保留。新候选等待美术审查，不将颜色检查等同最终自然度通过。</p></main></html>

@@ -1,0 +1,62 @@
+{
+  "all_layer_alpha_masks_exact_r8": true,
+  "footprints_exact_r8": true,
+  "base_floor_rgb_unchanged": true,
+  "palette_rule": "R <= G <= B for all floor output pixels; neutral/cool blue-gray, no yellow-green highlight ramp",
+  "layers": {
+    "floor_base_contacts.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 0
+    },
+    "floor_coating.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 0
+    },
+    "floor_leak_dark_film.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 0
+    },
+    "floor_leak_dried_tide.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 1591
+    },
+    "floor_leak_wicking.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 0
+    },
+    "floor_perimeter_retention.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 0
+    },
+    "pod_connected_contact.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 65791
+    },
+    "pod_corner_accumulation.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 34106
+    },
+    "pod_corner_mineral_ledges.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 4136
+    },
+    "wall_floor_connected_deposit.png": {
+      "alpha_exact_r8": true,
+      "rgb_changes": 107853
+    }
+  },
+  "maps": {
+    "floor_aged": {
+      "warm_green_over_blue_pixels_r8": 147955,
+      "warm_green_over_blue_pixels_r9": 0,
+      "aseprite_reopen_exact": true,
+      "sha256": "e671f6ddcadf3339efa22aff803ab50c5039784c64fc7ec67c0b6722709794c9"
+    },
+    "floor_with_leaks": {
+      "warm_green_over_blue_pixels_r8": 141254,
+      "warm_green_over_blue_pixels_r9": 0,
+      "aseprite_reopen_exact": true,
+      "sha256": "42f69c853912acf99db1991d04a627adea637bfbf12b667d6556eb3fdc6a4c68"
+    }
+  }
+}

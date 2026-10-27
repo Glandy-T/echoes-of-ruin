@@ -286,3 +286,9 @@ r2消除了UV2串图，但64样本降噪形成墙角横向明暗波纹，上轮�
 新地面沿四周真实墙脚、20个实际落地轮廓沉积，接触暗根连续，外侧旧膜断续、不对称角部加宽；不做统一发亮闭合框。主面连续蓝灰，不加地砖／路线。四个原漏液舱仍P03/P06/P13/P18，原漏液源层完全保留。7层／10层地面Aseprite、新Blender工程、当前PNG与配套EXR均在[r8实验与导入说明](experiments/room1_floor_contact_r8/README.md)，[对照页](experiments/room1_floor_contact_r8/preview.html)包含材质隔离及整室检查。
 
 轮廓来自r7 Blender距地3.5cm内真实顶点，不是舱盖矩形。所有新增沉积分量触实际墙脚／舱基；母版重开导出与PNG一致。原模型、UV2、墙图、舱体、灯光和游戏相机不改，配套烘焙已更新到当前最终PNG，不能混用内部预检旧光照和最终新源。技术总览单独拍全20舱，右端P20特写从房内拍摄；不把穿墙黑图或裁切总览当验收。整体美术仍待用户审查。
+
+### 地面去黄修色 r9（2026-10-27，最新待审）
+
+用户明确否定r8偏黄绿的沉积配色。当前入口改为`scenes/dev/room1_floor_palette_r9.tscn`，F切r8旧色／r9冷灰蓝，I比较配套光照，N颜色图。沉积亮部和原漏液偏暖浅边改为低饱和冷灰蓝；全部十层alpha、20舱轮廓、分布与主地坪材料RGB保持。墙图、模型、UV、灯光和曝光不改。
+
+新7层／10层Aseprite、打包Blender、配套EXR与[同光照颜色对照](experiments/room1_floor_palette_r9/preview.html)已另存；r8只作被指出颜色问题的历史。13张实际Godot截图包括同机位同r8光照旧／新色、新GI、Base Color总览与N/F/I恢复。母版重开与PNG一致，配套烘焙颜色源hash匹配；旧r8基线与回切逐像素一致。见[r9源与限制](experiments/room1_floor_palette_r9/README.md)。冷色修正仍需用户审图，不把技术核验当成最终自然度通过。

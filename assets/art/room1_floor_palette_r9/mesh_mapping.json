@@ -1,0 +1,678 @@
+{
+  "Bake_Shell_Floor_continuous_no_tile_seams": {
+    "group": "Shell",
+    "mesh": "Floor_continuous_no_tile_seams"
+  },
+  "Bake_Shell_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED": {
+    "group": "Shell",
+    "mesh": "MAIN_DOOR_PLACEHOLDER_NOT_APPROVED"
+  },
+  "Bake_Shell_Roof_hidden_for_cutaway": {
+    "group": "Shell",
+    "mesh": "Roof_hidden_for_cutaway"
+  },
+  "Bake_Shell_Wall_front": {
+    "group": "Shell",
+    "mesh": "Wall_front"
+  },
+  "Bake_Shell_Wall_left": {
+    "group": "Shell",
+    "mesh": "Wall_left"
+  },
+  "Bake_Shell_Wall_rear_door_header": {
+    "group": "Shell",
+    "mesh": "Wall_rear_door_header"
+  },
+  "Bake_Shell_Wall_rear_left": {
+    "group": "Shell",
+    "mesh": "Wall_rear_left"
+  },
+  "Bake_Shell_Wall_rear_right": {
+    "group": "Shell",
+    "mesh": "Wall_rear_right"
+  },
+  "Bake_Shell_Wall_right": {
+    "group": "Shell",
+    "mesh": "Wall_right"
+  },
+  "Bake_P01_pod_v3_display": {
+    "group": "P01",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P01_pod_v3_interior": {
+    "group": "P01",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P01_pod_v3_glass": {
+    "group": "P01",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P01_pod_v3_shell_side": {
+    "group": "P01",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P01_pod_v3_lid": {
+    "group": "P01",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P01_pod_v3_interior.001": {
+    "group": "P01",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P01_pod_v3_mattress": {
+    "group": "P01",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P01_pod_v3_shell_end": {
+    "group": "P01",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P02_pod_v3_mattress": {
+    "group": "P02",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P02_pod_v3_glass": {
+    "group": "P02",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P02_pod_v3_shell_end": {
+    "group": "P02",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P02_pod_v3_interior": {
+    "group": "P02",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P02_pod_v3_lid": {
+    "group": "P02",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P02_pod_v3_display": {
+    "group": "P02",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P02_pod_v3_interior.001": {
+    "group": "P02",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P02_pod_v3_shell_side": {
+    "group": "P02",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P03_pod_v3_glass": {
+    "group": "P03",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P03_pod_v3_mattress": {
+    "group": "P03",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P03_pod_v3_shell_end": {
+    "group": "P03",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P03_pod_v3_interior": {
+    "group": "P03",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P03_pod_v3_lid": {
+    "group": "P03",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P03_pod_v3_display": {
+    "group": "P03",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P03_pod_v3_interior.001": {
+    "group": "P03",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P03_pod_v3_shell_side": {
+    "group": "P03",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P04_pod_v3_shell_side": {
+    "group": "P04",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P04_pod_v3_interior.001": {
+    "group": "P04",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P04_pod_v3_interior": {
+    "group": "P04",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P04_pod_v3_glass": {
+    "group": "P04",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P04_pod_v3_mattress": {
+    "group": "P04",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P04_pod_v3_lid": {
+    "group": "P04",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P04_pod_v3_display": {
+    "group": "P04",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P04_pod_v3_shell_end": {
+    "group": "P04",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P05_pod_v3_display": {
+    "group": "P05",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P05_pod_v3_shell_side": {
+    "group": "P05",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P05_pod_v3_interior": {
+    "group": "P05",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P05_pod_v3_glass": {
+    "group": "P05",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P05_pod_v3_interior.001": {
+    "group": "P05",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P05_pod_v3_mattress": {
+    "group": "P05",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P05_pod_v3_lid": {
+    "group": "P05",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P05_pod_v3_shell_end": {
+    "group": "P05",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P06_pod_v3_mattress": {
+    "group": "P06",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P06_pod_v3_interior": {
+    "group": "P06",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P06_pod_v3_lid": {
+    "group": "P06",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P06_pod_v3_display": {
+    "group": "P06",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P06_pod_v3_shell_side": {
+    "group": "P06",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P06_pod_v3_interior.001": {
+    "group": "P06",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P06_pod_v3_glass": {
+    "group": "P06",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P06_pod_v3_shell_end": {
+    "group": "P06",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P07_pod_v3_display": {
+    "group": "P07",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P07_pod_v3_mattress": {
+    "group": "P07",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P07_pod_v3_lid": {
+    "group": "P07",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P07_pod_v3_shell_side": {
+    "group": "P07",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P07_pod_v3_interior.001": {
+    "group": "P07",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P07_pod_v3_glass": {
+    "group": "P07",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P07_pod_v3_interior": {
+    "group": "P07",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P07_pod_v3_shell_end": {
+    "group": "P07",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P08_pod_v3_mattress": {
+    "group": "P08",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P08_pod_v3_shell_end": {
+    "group": "P08",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P08_pod_v3_shell_side": {
+    "group": "P08",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P08_pod_v3_interior": {
+    "group": "P08",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P08_pod_v3_display": {
+    "group": "P08",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P08_pod_v3_lid": {
+    "group": "P08",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P08_pod_v3_glass": {
+    "group": "P08",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P08_pod_v3_interior.001": {
+    "group": "P08",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P09_pod_v3_mattress": {
+    "group": "P09",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P09_pod_v3_glass": {
+    "group": "P09",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P09_pod_v3_lid": {
+    "group": "P09",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P09_pod_v3_interior.001": {
+    "group": "P09",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P09_pod_v3_interior": {
+    "group": "P09",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P09_pod_v3_display": {
+    "group": "P09",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P09_pod_v3_shell_side": {
+    "group": "P09",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P09_pod_v3_shell_end": {
+    "group": "P09",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P10_pod_v3_lid": {
+    "group": "P10",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P10_pod_v3_mattress": {
+    "group": "P10",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P10_pod_v3_shell_side": {
+    "group": "P10",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P10_pod_v3_display": {
+    "group": "P10",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P10_pod_v3_interior.001": {
+    "group": "P10",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P10_pod_v3_glass": {
+    "group": "P10",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P10_pod_v3_interior": {
+    "group": "P10",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P10_pod_v3_shell_end": {
+    "group": "P10",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P11_pod_v3_shell_side": {
+    "group": "P11",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P11_pod_v3_mattress": {
+    "group": "P11",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P11_pod_v3_shell_end": {
+    "group": "P11",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P11_pod_v3_interior.001": {
+    "group": "P11",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P11_pod_v3_lid": {
+    "group": "P11",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P11_pod_v3_display": {
+    "group": "P11",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P11_pod_v3_glass": {
+    "group": "P11",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P11_pod_v3_interior": {
+    "group": "P11",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P12_pod_v3_shell_end": {
+    "group": "P12",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P12_pod_v3_display": {
+    "group": "P12",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P12_pod_v3_mattress": {
+    "group": "P12",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P12_pod_v3_interior.001": {
+    "group": "P12",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P12_pod_v3_glass": {
+    "group": "P12",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P12_pod_v3_shell_side": {
+    "group": "P12",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P12_pod_v3_interior": {
+    "group": "P12",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P12_pod_v3_lid": {
+    "group": "P12",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P13_pod_v3_shell_end": {
+    "group": "P13",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P13_pod_v3_display": {
+    "group": "P13",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P13_pod_v3_mattress": {
+    "group": "P13",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P13_pod_v3_interior.001": {
+    "group": "P13",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P13_pod_v3_glass": {
+    "group": "P13",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P13_pod_v3_lid": {
+    "group": "P13",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P13_pod_v3_shell_side": {
+    "group": "P13",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P13_pod_v3_interior": {
+    "group": "P13",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P14_pod_v3_shell_side": {
+    "group": "P14",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P14_pod_v3_lid": {
+    "group": "P14",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P14_pod_v3_interior.001": {
+    "group": "P14",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P14_pod_v3_display": {
+    "group": "P14",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P14_pod_v3_shell_end": {
+    "group": "P14",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P14_pod_v3_interior": {
+    "group": "P14",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P14_pod_v3_mattress": {
+    "group": "P14",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P14_pod_v3_glass": {
+    "group": "P14",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P15_pod_v3_shell_side": {
+    "group": "P15",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P15_pod_v3_display": {
+    "group": "P15",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P15_pod_v3_lid": {
+    "group": "P15",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P15_pod_v3_interior.001": {
+    "group": "P15",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P15_pod_v3_shell_end": {
+    "group": "P15",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P15_pod_v3_interior": {
+    "group": "P15",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P15_pod_v3_mattress": {
+    "group": "P15",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P15_pod_v3_glass": {
+    "group": "P15",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P16_pod_v3_shell_end": {
+    "group": "P16",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P16_pod_v3_mattress": {
+    "group": "P16",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P16_pod_v3_display": {
+    "group": "P16",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P16_pod_v3_glass": {
+    "group": "P16",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P16_pod_v3_lid": {
+    "group": "P16",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P16_pod_v3_shell_side": {
+    "group": "P16",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P16_pod_v3_interior": {
+    "group": "P16",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P16_pod_v3_interior.001": {
+    "group": "P16",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P17_pod_v3_glass": {
+    "group": "P17",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P17_pod_v3_shell_side": {
+    "group": "P17",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P17_pod_v3_lid": {
+    "group": "P17",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P17_pod_v3_interior": {
+    "group": "P17",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P17_pod_v3_display": {
+    "group": "P17",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P17_pod_v3_mattress": {
+    "group": "P17",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P17_pod_v3_shell_end": {
+    "group": "P17",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P17_pod_v3_interior.001": {
+    "group": "P17",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P18_pod_v3_lid": {
+    "group": "P18",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P18_pod_v3_shell_side": {
+    "group": "P18",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P18_pod_v3_mattress": {
+    "group": "P18",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P18_pod_v3_display": {
+    "group": "P18",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P18_pod_v3_glass": {
+    "group": "P18",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P18_pod_v3_interior": {
+    "group": "P18",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P18_pod_v3_interior.001": {
+    "group": "P18",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P18_pod_v3_shell_end": {
+    "group": "P18",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P19_pod_v3_shell_side": {
+    "group": "P19",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P19_pod_v3_shell_end": {
+    "group": "P19",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P19_pod_v3_interior.001": {
+    "group": "P19",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P19_pod_v3_glass": {
+    "group": "P19",
+    "mesh": "pod_v3_glass"
+  },
+  "Bake_P19_pod_v3_lid": {
+    "group": "P19",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P19_pod_v3_interior": {
+    "group": "P19",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P19_pod_v3_display": {
+    "group": "P19",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P19_pod_v3_mattress": {
+    "group": "P19",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P20_pod_v3_shell_side": {
+    "group": "P20",
+    "mesh": "pod_v3_shell_side"
+  },
+  "Bake_P20_pod_v3_lid": {
+    "group": "P20",
+    "mesh": "pod_v3_lid"
+  },
+  "Bake_P20_pod_v3_interior.001": {
+    "group": "P20",
+    "mesh": "pod_v3_interior.001"
+  },
+  "Bake_P20_pod_v3_shell_end": {
+    "group": "P20",
+    "mesh": "pod_v3_shell_end"
+  },
+  "Bake_P20_pod_v3_interior": {
+    "group": "P20",
+    "mesh": "pod_v3_interior"
+  },
+  "Bake_P20_pod_v3_mattress": {
+    "group": "P20",
+    "mesh": "pod_v3_mattress"
+  },
+  "Bake_P20_pod_v3_display": {
+    "group": "P20",
+    "mesh": "pod_v3_display"
+  },
+  "Bake_P20_pod_v3_glass": {
+    "group": "P20",
+    "mesh": "pod_v3_glass"
+  }
+}
