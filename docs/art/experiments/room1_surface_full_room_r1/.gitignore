@@ -1,0 +1,4 @@
+*.log
+*.err
+__pycache__/
+evidence/04_native_strength.png

@@ -1,0 +1,20 @@
+{
+  "status": "technical_review_passed_material_candidate_pending_user_review",
+  "default_r4_entry_unchanged": true,
+  "new_scene": "scenes/dev/room1_surface_full_room_r1.tscn",
+  "selected_surfaces": 7,
+  "room_survey_views": 13,
+  "comparison_views": 3,
+  "comparison_modes": 4,
+  "wall_treatment": "Existing quiet nonrepeating base retained; own pixel-map variation concentrated at real wallfeet/corners/doorway, not full-wall stamped patches",
+  "floor_treatment": "Uniform bluegrey floor; reflected sampling, no crossing route bands, grout or random marks; faint finish onlyactualroomperimeter",
+  "review": "Parent and independent validator inspected actual updated game/corner/door/overview renders; no new tiledgrime blocker, blackblocks, trianglecuts or LEDjoint regression",
+  "art_approval": false,
+  "limits": [
+    "Reflected floor sampling has a finite repeat period; this is a whole-room material candidate, not an authored unique atlas",
+    "New albedo bounce not rebaked; same r4 lighting deliberately retained for comparison",
+    "Existing faint lowcontrast tonal variation remains in technical front-corner closeviews; no new repeated pattern observed"
+  ],
+  "new_pixellab_calls": 0,
+  "new_reference_images_submitted": 0
+}

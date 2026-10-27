@@ -1,0 +1,22 @@
+{
+  "assets/art/room1_surface_sample_r1/floor_sample.png": {
+    "sha256": "c88490e73f9124d7d53041a701483f1d9f7e7ccb2d06c01751319af96c42979f",
+    "matches_current_committed_baseline": true
+  },
+  "assets/art/room1_surface_sample_r1/wall_sample.png": {
+    "sha256": "da36707e2e749a53fe97f7b3360fc3ee58167d7aa008daa384e19e328d66aff5",
+    "matches_current_committed_baseline": true
+  },
+  "assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb": {
+    "sha256": "20bfbfa79607956e4fcebd3f0ebde198f9c6ba6e12b0387256f4f747d36ccd44",
+    "matches_current_committed_baseline": true
+  },
+  "assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr": {
+    "sha256": "119ef19c6c35276e8149e61f974fd6a8810cbafe4230225714ca1eb619c76ffd",
+    "matches_current_committed_baseline": true
+  },
+  "project.godot": {
+    "sha256": "a3e6fd4586c4ace93bdcac12c036f58e8b53c1a87a893bc8a4a8344a0e9d9fa0",
+    "matches_current_committed_baseline": true
+  }
+}

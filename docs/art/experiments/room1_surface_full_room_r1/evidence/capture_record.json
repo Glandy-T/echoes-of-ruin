@@ -1,0 +1,266 @@
+{
+  "captures": [
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.54799628257751,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "01_baseline.png",
+      "fov": 50.0,
+      "mode": 0,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.54799628257751,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "01_wall.png",
+      "fov": 50.0,
+      "mode": 1,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.54799628257751,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "01_floor.png",
+      "fov": 50.0,
+      "mode": 2,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        3.54799628257751,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "01_both.png",
+      "fov": 50.0,
+      "mode": 3,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        10.5,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "02_baseline.png",
+      "fov": 50.0,
+      "mode": 0,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        10.5,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "02_wall.png",
+      "fov": 50.0,
+      "mode": 1,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        10.5,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "02_floor.png",
+      "fov": 50.0,
+      "mode": 2,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        10.5,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "02_both.png",
+      "fov": 50.0,
+      "mode": 3,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        17.4520034790039,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "03_baseline.png",
+      "fov": 50.0,
+      "mode": 0,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        17.4520034790039,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "03_wall.png",
+      "fov": 50.0,
+      "mode": 1,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        17.4520034790039,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "03_floor.png",
+      "fov": 50.0,
+      "mode": 2,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "camera_basis": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549)]",
+      "camera_position": [
+        17.4520034790039,
+        2.20000004768372,
+        3.25
+      ],
+      "file": "03_both.png",
+      "fov": 50.0,
+      "mode": 3,
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "geometry": "res://assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb",
+  "initial_bindings": {
+    "Floor_continuous_no_tile_seams": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 1,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.6
+      }
+    ],
+    "Wall_front": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.5
+      }
+    ],
+    "Wall_left": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.5
+      }
+    ],
+    "Wall_rear_door_header": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.5
+      }
+    ],
+    "Wall_rear_left": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.5
+      }
+    ],
+    "Wall_rear_right": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.5
+      }
+    ],
+    "Wall_right": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "strength": 0.5
+      }
+    ]
+  },
+  "irradiance": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+  "materials": {
+    "Floor_continuous_no_tile_seams": 1,
+    "Wall_front": 1,
+    "Wall_left": 1,
+    "Wall_rear_door_header": 1,
+    "Wall_rear_left": 1,
+    "Wall_rear_right": 1,
+    "Wall_right": 1
+  },
+  "scene": "room1_surface_full_room_r1.tscn",
+  "scope": "Full-room albedo candidate only; existing r4 UV2/lightmap retained, new albedo bounce not rebaked.",
+  "strength": {
+    "floor": 0.6,
+    "wall": 0.5
+  }
+}
