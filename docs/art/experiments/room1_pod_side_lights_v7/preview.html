@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Room 1 · 舱内两侧灯管 v7</title>
+<style>body{margin:0;background:#182026;color:#e0e5e7;font:16px/1.6 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{font-size:26px}h2{font-size:20px;margin-top:36px}p{max-width:1050px;color:#c1cbd0}a{color:#9bcddc}section{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;background:#253039;border:1px solid #3a4a54}img{display:block;width:100%;image-rendering:pixelated}figcaption{padding:10px 14px}small{color:#aab9c1}@media(max-width:800px){section{grid-template-columns:1fr}main{padding:16px}}</style>
+<main><h1>P12 · 内部两侧灯管</h1><p>取消中央点光，改为舱口下方两条长边内嵌灯管。床面受光沿全长分布，保留分段与材料明暗；玻璃及房间其他照明保持。</p><p><a href="README.md">组件与运行说明</a> · <a href="source/quality_check.json">实际检查记录</a></p>
+<h2>当前 · 相同机位开盖 / 闭合</h2><section>
+<figure><a href="evidence/new_open.png"><img src="evidence/new_open.png"></a><figcaption>开盖 · 两侧柔和照明，中央没有光球</figcaption></figure>
+<figure><a href="evidence/new_closed.png"><img src="evidence/new_closed.png"></a><figcaption>闭合 · 原透明玻璃，屏幕亮度不变</figcaption></figure></section>
+<h2>床面 · 原点光与两侧灯管</h2><section>
+<figure><img src="../room1_pod_room_v5/evidence/new_close_open.png"><figcaption>旧v5 · 头部点光使床面蓝白过亮</figcaption></figure>
+<figure><img src="evidence/new_open.png"><figcaption>新v7 · 灯管在两条长边，床面细节可读</figcaption></figure>
+<figure><img src="evidence/bed_and_side_tubes.png"><figcaption>当前床面近景 · 一侧因真实舱口／舱盖遮挡而不直接可见</figcaption></figure>
+<figure><img src="evidence/bed_tubes_off_control.png"><figcaption>只关闭两侧灯 · 保留原房间光照</figcaption></figure></section>
+<h2>透明头窗 · 条件独立</h2><section>
+<figure><img src="evidence/glass_powered.png"><figcaption>玻璃存在 · 可见内侧灯管、床面分段与反光</figcaption></figure>
+<figure><img src="evidence/glass_hidden_control.png"><figcaption>只隐藏玻璃 · 检查真实内部</figcaption></figure>
+<figure><img src="evidence/glass_unpowered.png"><figcaption>关闭舱内灯 · 透明玻璃仍存在</figcaption></figure>
+<figure><img src="evidence/glass_no_reflection_control.png"><figcaption>只关闭像素反光</figcaption></figure></section>
+<h2>实际游戏镜头 · 相同旁移站位</h2><section>
+<figure><img src="evidence/game_open.png"><figcaption>打开</figcaption></figure>
+<figure><img src="evidence/game_closed.png"><figcaption>闭合</figcaption></figure></section>
+<p><small>实际Godot截图1280×720，无提亮。只改P12，灯管为独立可编辑Godot组件，尚未合并Blender／GLB。沿用v5局部受光边界，没有新全室GI。</small></p></main></html>

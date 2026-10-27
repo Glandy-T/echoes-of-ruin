@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Shader" path="res://scripts/dev/room1_pod_tube_emitter_v7.gdshader" id="1"]
+[sub_resource type="BoxMesh" id="HousingMesh"]
+size = Vector3(0.016, 0.034, 1.74)
+[sub_resource type="BoxMesh" id="DiffuserMesh"]
+size = Vector3(0.006, 0.022, 1.7)
+[sub_resource type="StandardMaterial3D" id="Casing"]
+albedo_color = Color(0.14902, 0.231373, 0.27451, 1)
+roughness = 0.95
+[sub_resource type="ShaderMaterial" id="Diffuser"]
+shader = ExtResource("1")
+[node name="InnerSideTubes" type="Node3D"]
+[node name="InnerTubeHousing_left" type="MeshInstance3D" parent="."]
+position = Vector3(-0.458, 0.31, 0)
+mesh = SubResource("HousingMesh")
+material_override = SubResource("Casing")
+[node name="InnerTubeHousing_right" type="MeshInstance3D" parent="."]
+position = Vector3(0.458, 0.31, 0)
+mesh = SubResource("HousingMesh")
+material_override = SubResource("Casing")
+[node name="InnerTube_left" type="MeshInstance3D" parent="."]
+position = Vector3(-0.447, 0.31, 0)
+mesh = SubResource("DiffuserMesh")
+material_override = SubResource("Diffuser")
+[node name="InnerTube_right" type="MeshInstance3D" parent="."]
+position = Vector3(0.447, 0.31, 0)
+mesh = SubResource("DiffuserMesh")
+material_override = SubResource("Diffuser")

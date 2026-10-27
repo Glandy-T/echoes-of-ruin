@@ -1,0 +1,215 @@
+{
+  "screenshots": {
+    "bed_and_side_tubes.png": "b9cf89cdbe4ebfd06b87a59e6210c622b083d999f0589d387d52bf17b5f874af",
+    "bed_tubes_off_control.png": "c6bbc1c23ac488e340256ab9be8a1d78d36fc7f6cb50080aa9c3e1a3eaf775af",
+    "bed_tubes_restored.png": "b9cf89cdbe4ebfd06b87a59e6210c622b083d999f0589d387d52bf17b5f874af",
+    "game_closed.png": "26dc224cbf6f642de0d4bc60120d6ea643ec796669c71703214c7ee4bcca988a",
+    "game_open.png": "faa538c5881b8c6a67a57c1e18dac48a5c3f4b634282bcd95e83538639df3d31",
+    "glass_hidden_control.png": "da4c60d8565697c7dcf4de6cc9730a51ac117db566cddc042ca967cd802a8171",
+    "glass_no_reflection_control.png": "cfbd471ecb9e18c2b990f3d9e21e2032eab0fb52c03afab92a1a0fb8ba02d4db",
+    "glass_powered.png": "f0ebcd2c5babb03a478d94c73d7493eb2b9e597b563427b7882b0cbd11f5c301",
+    "glass_restored.png": "f0ebcd2c5babb03a478d94c73d7493eb2b9e597b563427b7882b0cbd11f5c301",
+    "glass_unpowered.png": "f95fbf262acd4589b60b67d6d7a38c56c107e9c075269c2a3d56f668c28452a8",
+    "head_end_both_sides.png": "6f7ab01b97a86c18366462eeada3b91ba46b5f536f38da33ff4620cd092af8aa",
+    "new_closed.png": "c84859ff837e2ce06b6538353206c1e08b208b3ba44772c6278f01acc14397e2",
+    "new_open.png": "f218674d7743361789657f57c882a12efd8bf21f55782342d45d18feafb2297a"
+  },
+  "controls": {
+    "tube_off": {
+      "changed_pixels": 164236,
+      "max_channel_difference": 133
+    },
+    "tube_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "glass_hidden": {
+      "changed_pixels": 138376,
+      "max_channel_difference": 50
+    },
+    "inner_light_off": {
+      "changed_pixels": 78350,
+      "max_channel_difference": 119
+    },
+    "reflection_off": {
+      "changed_pixels": 29423,
+      "max_channel_difference": 36
+    },
+    "glass_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    }
+  },
+  "runtime": {
+    "ambient_energy": 0.025000000372529,
+    "chamber_proxies": {
+      "P02": {
+        "energy": 0.159999996423721,
+        "visible": true
+      },
+      "P12": {
+        "energy": 0.0,
+        "visible": false
+      },
+      "P17": {
+        "energy": 0.159999996423721,
+        "visible": true
+      }
+    },
+    "fixtures": [
+      {
+        "name": "InnerTubeHousing_left",
+        "pose": "closed",
+        "position": [
+          -0.458000004291534,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.0160000007599592,
+          0.034000001847744,
+          1.74000000953674
+        ]
+      },
+      {
+        "name": "InnerTubeHousing_right",
+        "pose": "closed",
+        "position": [
+          0.458000004291534,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.0160000007599592,
+          0.034000001847744,
+          1.74000000953674
+        ]
+      },
+      {
+        "name": "InnerTube_left",
+        "pose": "closed",
+        "position": [
+          -0.446999996900558,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.00600000005215406,
+          0.0219999998807907,
+          1.70000004768372
+        ]
+      },
+      {
+        "name": "InnerTube_right",
+        "pose": "closed",
+        "position": [
+          0.446999996900558,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.00600000005215406,
+          0.0219999998807907,
+          1.70000004768372
+        ]
+      },
+      {
+        "name": "InnerTubeHousing_left",
+        "pose": "open",
+        "position": [
+          -0.458000004291534,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.0160000007599592,
+          0.034000001847744,
+          1.74000000953674
+        ]
+      },
+      {
+        "name": "InnerTubeHousing_right",
+        "pose": "open",
+        "position": [
+          0.458000004291534,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.0160000007599592,
+          0.034000001847744,
+          1.74000000953674
+        ]
+      },
+      {
+        "name": "InnerTube_left",
+        "pose": "open",
+        "position": [
+          -0.446999996900558,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.00600000005215406,
+          0.0219999998807907,
+          1.70000004768372
+        ]
+      },
+      {
+        "name": "InnerTube_right",
+        "pose": "open",
+        "position": [
+          0.446999996900558,
+          0.310000002384186,
+          0.0
+        ],
+        "size": [
+          0.00600000005215406,
+          0.0219999998807907,
+          1.70000004768372
+        ]
+      }
+    ],
+    "glass_shader": "res://scripts/dev/room1_pod_volume_glass_v4.gdshader",
+    "interior_shaders": 4,
+    "strip_energy": 1.2,
+    "strip_proxy_count": 0
+  },
+  "bed_comparison": {
+    "same_camera_crop_xyxy": [
+      440,
+      370,
+      560,
+      410
+    ],
+    "samples": {
+      "v5_point": {
+        "mean_rgb": [
+          203.47,
+          253.91,
+          254.94
+        ],
+        "max_rgb": [
+          255,
+          255,
+          255
+        ],
+        "blue_white_pixels": 2910
+      },
+      "v7_tubes": {
+        "mean_rgb": [
+          55.18,
+          79.36,
+          85.35
+        ],
+        "max_rgb": [
+          89,
+          119,
+          120
+        ],
+        "blue_white_pixels": 0
+      }
+    }
+  },
+  "limitations": "Tube restore may include tiny TIME-driven red-screen/bloom differences; exact counts reported. Body/UV2/HDR reused unchanged from v5; side-light transport is local line integration, not a new room GI bake."
+}
