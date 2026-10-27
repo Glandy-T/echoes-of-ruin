@@ -1,0 +1,14 @@
+{
+	"light_model": "continuous_ribbon_position_approximation",
+	"scene": "res://scenes/dev/room1_sprite_player_lighting_r2.tscn",
+	"start_light_level": 0.494661886868599,
+	"strip_on": 1.0,
+	"texture_filter": 0,
+	"walk": {
+		"distance_m": 1.61666655540466,
+		"frame": 4,
+		"light_level": 0.462874942720812,
+		"texture": "res://assets/characters/walk.png",
+		"walking": true
+	}
+}
