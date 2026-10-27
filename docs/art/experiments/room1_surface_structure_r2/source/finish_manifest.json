@@ -1,0 +1,41 @@
+{
+  "wall": "Native AI quiet field palette-organized separately from exact project-authored lamp/protection returns. AI invented vertical ends and boxed panel rejected.",
+  "floor": "Native AI connected clusters, restrained blue-gray palette; disconnected large colour islands removed. Edge overlay only at actual wall.",
+  "physical_sample_m": {
+    "wall": [
+      3.2,
+      3.4
+    ],
+    "floor": [
+      3.2,
+      3.2
+    ]
+  },
+  "density_candidate_texels_m": 80,
+  "wall_main_steps": [
+    -8,
+    -4,
+    0,
+    4,
+    8
+  ],
+  "floor_steps": [
+    -5,
+    -3,
+    -1,
+    0,
+    2,
+    4,
+    6
+  ],
+  "floor_enclosed_pixels_reset_to_base": 2354,
+  "wall_end_match": "8px exact inherited albedo, then40px eight-step transition per side; central160px fully new art.",
+  "source_reference_images_submitted": false,
+  "geometry_or_light_changes": false,
+  "actual_generation_usage": {
+    "wall": 15,
+    "floor": 10,
+    "total": 25
+  },
+  "known_limit": "Existing r4 irradiation retained for fixed-light comparison; new colour bounce not rebaked."
+}

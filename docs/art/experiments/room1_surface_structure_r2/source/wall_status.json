@@ -1,0 +1,11 @@
+{
+  "id": "3ffb48e9-96c1-4711-a5db-7d00182be1d6",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 15.0
+  },
+  "saved_images": [
+    "wall_pro_00.png"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "35e63fcb-c0d5-4f5f-8ce8-106b3597ea57",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "saved_images": [
+    "floor_pro_00.png"
+  ]
+}

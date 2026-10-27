@@ -1,0 +1,133 @@
+{
+  "aseprite_readback": {
+    "wall": {
+      "size": [
+        256,
+        272
+      ],
+      "layers": [
+        {
+          "name": "01_PixelLab_material_palette_and_connected_shapes",
+          "visible": true,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "02_wall_structure",
+          "visible": true,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "03_wall_edge_finish",
+          "visible": true,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "04_wall_trial_end_match",
+          "visible": true,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "AI_RAW_HIDDEN",
+          "visible": false,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "ORIGINAL_PROJECT_GUIDE_HIDDEN",
+          "visible": false,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        }
+      ],
+      "visible_composite_matches_png": true,
+      "max_channel_difference": 0,
+      "aseprite_sha256": "09bcb860179ee7300dd860348e856109266dd2952a010a04c7cfc49aa6b347d4"
+    },
+    "floor": {
+      "size": [
+        256,
+        256
+      ],
+      "layers": [
+        {
+          "name": "01_PixelLab_material_palette_and_connected_shapes",
+          "visible": true,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "02_floor_wall_contact",
+          "visible": true,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "AI_RAW_HIDDEN",
+          "visible": false,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        },
+        {
+          "name": "ORIGINAL_PROJECT_GUIDE_HIDDEN",
+          "visible": false,
+          "type": 0,
+          "level": 0,
+          "blend": 0,
+          "opacity": 255
+        }
+      ],
+      "visible_composite_matches_png": true,
+      "max_channel_difference": 0,
+      "aseprite_sha256": "2ffe56ee5f770b7a44aa865a0afb27520ef5fab8e538756f4a5a104b7e28c069"
+    }
+  },
+  "inherited_sources": {
+    "assets/art/room1_wall_finish_r4/room1_baked_uv2_r3.glb": {
+      "sha256": "20bfbfa79607956e4fcebd3f0ebde198f9c6ba6e12b0387256f4f747d36ccd44",
+      "bytes": 4188540
+    },
+    "assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr": {
+      "sha256": "119ef19c6c35276e8149e61f974fd6a8810cbafe4230225714ca1eb619c76ffd",
+      "bytes": 13238818
+    },
+    "assets/art/room1_wall_finish_r4/mesh_mapping.json": {
+      "sha256": "d91e27b761a387f344c4104a8e127732f2bfc1f2bd6c557c73fe930152dd124a",
+      "bytes": 15400
+    },
+    "assets/art/room1_revision_20261013/pod_closed_v3.glb": {
+      "sha256": "0476f9bb70adda6115ce3ec60f1512dad473cf5f4a07670d12aec01128a981d8",
+      "bytes": 85976
+    },
+    "scripts/dev/room1_pod_exit_animation_r3.gd": {
+      "sha256": "02636eaf1e0826d3baa7f87269c2a54a746a9d3a73a5acd14a729d768bbaadab",
+      "bytes": 1490
+    },
+    "project.godot": {
+      "sha256": "a3e6fd4586c4ace93bdcac12c036f58e8b53c1a87a893bc8a4a8344a0e9d9fa0",
+      "bytes": 4639
+    }
+  },
+  "scope": "Source verification only; runtime screenshots and user art review remain separate."
+}

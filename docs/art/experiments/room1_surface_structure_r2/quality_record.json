@@ -1,0 +1,50 @@
+{
+  "status": "Local art candidate for user review, not Pixel Canals quality acceptance.",
+  "actual_godot_captures": {
+    "comparison": 11,
+    "survey": 13,
+    "size": [
+      1280,
+      720
+    ],
+    "postprocessed": false
+  },
+  "baseline_and_diagnostic_roundtrip": {
+    "game_00_baseline.png": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "game_baseline_after_n_roundtrip.png": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    }
+  },
+  "bake_package": "Existing r4 GLB/UV2/irradiance/mapping; new albedo bounce not rebaked.",
+  "receiver_scope": {
+    "Floor_continuous_no_tile_seams": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "floor_map": "res://assets/art/room1_surface_structure_r2/floor_sample.png",
+        "kind": 1,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "wall_map": "res://assets/art/room1_surface_structure_r2/wall_sample.png"
+      }
+    ],
+    "Wall_left": [
+      {
+        "continuous_diffuser": 1.0,
+        "diffuser_scale": 5.33333333333333,
+        "floor_map": "res://assets/art/room1_surface_structure_r2/floor_sample.png",
+        "kind": 2,
+        "lightmap": "res://assets/art/room1_wall_finish_r4/strip_irradiance_denoised.exr",
+        "wall_map": "res://assets/art/room1_surface_structure_r2/wall_sample.png"
+      }
+    ]
+  },
+  "editable_source_matches_exports": true,
+  "inherited_source_hashes_unchanged_since_packaging": true,
+  "local_links_resolve": true,
+  "visual_review": "Structure readable in Base Color; emergency-light view remains subdued. Initial floor islands and hard wall patch endpoints revised before final capture.",
+  "art_approval": "Pending user review. No default scene/material promotion."
+}

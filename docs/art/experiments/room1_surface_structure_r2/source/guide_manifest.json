@@ -1,0 +1,18 @@
+{
+  "authorship": "Project-authored pixel guides and exact existing structure rows; no third-party image inputs, no random placement.",
+  "wall_size": [
+    256,
+    272
+  ],
+  "floor_size": [
+    256,
+    256
+  ],
+  "density_texels_m": 80,
+  "scope": "One3.2m sample. Density is a candidate, not a project standard.",
+  "wall_emitter_world_y": [
+    2.95,
+    3.175
+  ],
+  "third_party_reference_uploaded": false
+}

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/room1_pod_exit_animation_r3.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/dev/room1_surface_structure_r2.gd" id="2_structure"]
+
+[node name="Room1SurfaceStructureR2" instance=ExtResource("1_base")]
+script = ExtResource("2_structure")
+# r2 reuses the approved r4 UV2 and lightmap package. Its only new source is
+# the albedo patch supplied through room1_surface_structure_r2.gd.
+lightmap_bake_override = "res://assets/art/room1_wall_finish_r4"
