@@ -14,7 +14,7 @@ enum MotionState { CLOSED, OPENING, OPEN, CLOSING }
 const SURFACE_SHADER := preload("res://scripts/props/cryopod_standard_v8_surface.gdshader")
 const TUBE_SHADER := preload("res://scripts/props/cryopod_standard_v8_tube.gdshader")
 const GLASS_SHADER := preload("res://scripts/props/cryopod_standard_v8_glass.gdshader")
-const SCREEN_SHADER := preload("res://scripts/props/cryopod_standard_v8_screen.gdshader")
+const SCREEN_SHADER := preload("res://scripts/props/cryopod_standard_v8_1_screen.gdshader")
 const SCREEN_FONT := preload("res://assets/fonts/DotGothic16-Regular.ttf")
 
 @export var closed_irradiance: Texture2D

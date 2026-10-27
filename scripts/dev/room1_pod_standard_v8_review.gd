@@ -34,7 +34,7 @@ func _build_standard_bloom() -> void:
 		if mesh.material_override == room_bloom_materials["P12"]:
 			standard_bloom_screen = mesh
 			var material:ShaderMaterial=room_bloom_materials["P12"]
-			material.shader=preload("res://scripts/props/cryopod_standard_v8_screen.gdshader")
+			material.shader=preload("res://scripts/props/cryopod_standard_v8_1_screen.gdshader")
 			material.set_shader_parameter("core_energy",1.0)
 			material.set_shader_parameter("panel_backlight",0.0)
 		elif mesh.global_position.distance_to($Pods/P12.global_position)<1.5:

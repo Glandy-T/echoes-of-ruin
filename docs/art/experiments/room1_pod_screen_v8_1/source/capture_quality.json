@@ -1,0 +1,104 @@
+{
+  "screenshots": {
+    "animation_00.png": "d6ad574385bb54e01f31399b0b79fae45e16360485d082f6a46657873fc96e38",
+    "animation_01.png": "a2acd4d0ffc8746bd6b31124ae82b4e8066ae201e8c8c08f81582e7703c60268",
+    "animation_02.png": "ba4733ad2a30b036483ed677b3dad58aee8c43fa9d9ef614ed8e1b112e5a31c3",
+    "animation_03.png": "1950b5ee018e316253e0555621dd69b933933a2686f736dcd37d3312d91635c3",
+    "animation_04.png": "53d6a4f9501da1393b28457499e79a2ba67ae636e8038dde046cde79c53d6b1d",
+    "animation_05.png": "0484c75d1494e8497df39f8d328470d13a71815ba7abf129723f5e479fd470c1",
+    "animation_06.png": "c1c8f96c09fe4c7663782ef919f5125b49a6cbec8570cd2b5d09497ac5db8f7e",
+    "animation_07.png": "c49a196c61ab8f7ab4add34aa2ad6c22ca59cec027b637ec9f31878ccaf62d5a",
+    "animation_08.png": "c663dfc5dd58ecd0d423f78be8225087d30029e45a9ac8be2037254059d003ed",
+    "animation_09.png": "9a19f6ba825eea482ad08cf5a64896e0ee50ef84f4e9d8e94df4bff971cea4ef",
+    "animation_10.png": "1df3c64449889ea50e274effc0ff43a77ab66b9f6a8308f9538cf1d81291b010",
+    "foot_end_interior_open.png": "7e2ca7100288da0a945dbcd268a0c614849e6065d4d4bb04c6ec371542018667",
+    "game_closed.png": "d4275cb82c9e7c44bbd174558dd558b0f307a0620f300ebe1bf0243ed6af6100",
+    "game_open.png": "4b85c6cb23b37efce3a552903ad53448a32037fa733fd2b08b75ac7614a767c4",
+    "glass_hidden_control.png": "ce7814d8cce5dac3222f1fb8d83ba3645f80af2e8564ea8ff8f393a16c6d878d",
+    "glass_powered.png": "ea1e158e7667850ef5b1365ae3c25127d0be8b35c762ded725b66643d89e1fc9",
+    "glass_restored.png": "ea1e158e7667850ef5b1365ae3c25127d0be8b35c762ded725b66643d89e1fc9",
+    "glass_tubes_off.png": "158553f450481ab8662c48047387f6b76f21f467ed94374cf801e9c80c035fc1",
+    "new_closed.png": "9c2d7d6f5d833ff15af96ada019a1cfef5189b1822245ccc2aa928804d9ad5d1",
+    "new_open.png": "1df3c64449889ea50e274effc0ff43a77ab66b9f6a8308f9538cf1d81291b010",
+    "old_new_closed.png": "99843d1e4f357f272f08acf3cf007868b9afeb4cb908bab1a460628028faf60b",
+    "old_new_open.png": "5d6fc644bb440e1f3a7c38d5cd0031a9460fc321a8679bb67b29b937082b41b1",
+    "old_screen_default_placeholder.png": "cee8c747eb03e11e23d4bf3d7021ed0515735896c2d36f723f12e88ade86ed10",
+    "open_controls_restored.png": "1df3c64449889ea50e274effc0ff43a77ab66b9f6a8308f9538cf1d81291b010",
+    "real_animation_finished.png": "1df3c64449889ea50e274effc0ff43a77ab66b9f6a8308f9538cf1d81291b010",
+    "screen_background_restored.png": "38f218fd6178c2a1d1599eefa458481729c3975341d7edeeb1cd8472abf504dc",
+    "screen_black_reference.png": "9120daddea157c9b72df8255851f01b1efbeea1cbe8173b2addc319b393b97bb",
+    "screen_data_example.png": "ed93d192f1f7124a176146297023a7f780b5983a8dd5dd1358a50898034046e1",
+    "screen_default_placeholder.png": "38f218fd6178c2a1d1599eefa458481729c3975341d7edeeb1cd8472abf504dc",
+    "screen_off_tubes_on.png": "5e571de5cb3882f81d5de178e463c971e8cbc3d119afa1c3f6910a72f961475d",
+    "screen_on_tubes_off.png": "d535bfb451e1410771c071d426b8e3dae0ddeb583e17a4055ecbcb0ea246b2e4"
+  },
+  "controls": {
+    "screen_off_tubes_retained": {
+      "changed_pixels": 52582,
+      "max_channel_difference": 255
+    },
+    "tubes_off_screen_retained": {
+      "changed_pixels": 69601,
+      "max_channel_difference": 134
+    },
+    "independent_controls_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "glass_hidden": {
+      "changed_pixels": 138743,
+      "max_channel_difference": 50
+    },
+    "glass_tubes_off": {
+      "changed_pixels": 78344,
+      "max_channel_difference": 119
+    },
+    "glass_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "real_animation_endpoint": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "screen_live_data": {
+      "changed_pixels": 112415,
+      "max_channel_difference": 231
+    },
+    "screen_bluegray_background": {
+      "changed_pixels": 111629,
+      "max_channel_difference": 35
+    },
+    "screen_background_restore": {
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    }
+  },
+  "background_sample_mean_rgb": {
+    "black_reference": [
+      1.07,
+      2.31,
+      3.0
+    ],
+    "bluegray": [
+      23.35,
+      33.57,
+      37.75
+    ]
+  },
+  "runtime": {
+    "ambient_energy": 0.025000000372529,
+    "old_p12_collisions_removed": 7,
+    "old_p12_hidden": true,
+    "old_point_light_energy": 0.0,
+    "old_point_light_visible": false,
+    "screen_background_energy": 0.8,
+    "screen_background_tint": "526c76",
+    "source": "res://scenes/props/cryopod_standard_v8.tscn",
+    "state": "open",
+    "strip_energy": 1.2,
+    "strip_proxy_count": 0
+  },
+  "animation_samples": 11,
+  "scope": "Actual Godot 1280x720. Tiny endpoint/global differences may include time-driven P02/P17 screen/bloom; counts retained without claiming exact whole-frame restoration."
+}
