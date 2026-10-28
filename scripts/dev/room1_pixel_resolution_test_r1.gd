@@ -53,7 +53,7 @@ func _layout_presentation() -> void:
 	var output_size := get_viewport().get_visible_rect().size
 	var internal := Vector2(PIXEL_SIZES[pixel_mode])
 	var fit := minf(output_size.x / internal.x, output_size.y / internal.y)
-	var factor := floorf(fit) if fit >= 1.0 else fit
+	var factor := fit
 	presentation.size = internal * factor
 	presentation.position = ((output_size - presentation.size) * 0.5).floor()
 	presentation_back.size = output_size
@@ -94,3 +94,4 @@ func _update_info() -> void:
 	if info:
 		var size: Vector2i = PIXEL_SIZES[pixel_mode]
 		info.text = "Room 1 / 渲染像素密度对照 · 待审\nF1原画1280×720 · F2中640×360 · F3粗426×240\n当前 %d×%d，最近邻放大；说明文字保持清晰\nWASD移动 · R复位 · K阴影 · C碰撞 · L灯带 · H说明" % [size.x, size.y]
+

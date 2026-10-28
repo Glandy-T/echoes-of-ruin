@@ -28,8 +28,14 @@ func capture() -> void:
 	await shot("scan")
 	await create_timer(4.4).timeout
 	await shot("open")
+	room.teleport_player(Vector3(3.525, 0.05, -4.75))
+	await create_timer(0.5).timeout
+	assert(not room.player_near)
+	await shot("panel_out_of_range")
 	room.teleport_player(Vector3(3.525, 0.05, -5.9))
 	await create_timer(0.5).timeout
+	assert(room.player_near)
+	await shot("panel_in_range")
 	var event := InputEventAction.new()
 	event.action = &"interact"
 	event.pressed = true

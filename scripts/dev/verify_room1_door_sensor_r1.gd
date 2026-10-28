@@ -56,6 +56,12 @@ func run_checks() -> void:
 	room.teleport_player(Vector3(10.5, 0.05, -5.5))
 	await create_timer(4.3).timeout
 	assert(not room.door_occupied and is_zero_approx(room.door_fraction))
+	for outside in [Vector3(3.525, 0.05, -4.75), Vector3(4.5, 0.05, -6.4), Vector3(3.525, 0.05, -8.95)]:
+		room.teleport_player(outside)
+		await create_timer(0.2).timeout
+		assert(not room.player_near and not room.review_ui.interaction_name_label.visible)
+		await tap(&"interact")
+		assert(not room.review_ui.is_dialogue_open())
 	room.teleport_player(Vector3(3.525, 0.05, -5.9))
 	await create_timer(0.5).timeout
 	assert(room.player_near)

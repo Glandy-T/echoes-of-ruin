@@ -20,6 +20,7 @@ var scan_time := 0.0
 var scan_complete := false
 var exit_anchor: Node2D
 var exit_prompt_visible := false
+var pod_panel_center_local := Vector3.ZERO
 @export_file("*.tscn") var destination_scene := ""
 @export var opening_dialogue_enabled := true
 const OPENING_FLAG := &"room1_opening_dialogue_seen"
@@ -61,21 +62,29 @@ func _setup_test_point() -> void:
 	interaction_area.name = "OwnPodInvestigation"
 	interaction_area.collision_layer = 0
 	interaction_area.collision_mask = 2
+	var display: MeshInstance3D = standard.get_display_mesh()
+	pod_panel_center_local = standard.to_local(display.to_global(display.get_aabb().get_center()))
 	var shape := BoxShape3D.new()
-	shape.size = Vector3(3.2, 2.6, 3.5)
+	shape.size = Vector3(1.1, 2.0, 1.0)
 	var collision := CollisionShape3D.new()
 	collision.shape = shape
 	interaction_area.add_child(collision)
 	add_child(interaction_area)
-	interaction_area.global_position = standard.global_position + Vector3(0, 0.8, 0)
-	interaction_area.body_entered.connect(_on_test_body_entered)
-	interaction_area.body_exited.connect(_on_test_body_exited)
+	interaction_area.global_position = standard.to_global(pod_panel_center_local + Vector3(0, 0.25, 0.7))
+	_refresh_pod_interaction()
 
-func _on_test_body_entered(body: Node3D) -> void:
-	if body != player:
+func _refresh_pod_interaction() -> void:
+	if not is_instance_valid(interaction_area) or not is_instance_valid(player):
 		return
-	player_near = true
-	review_ui.show_interaction_name(interaction_area, "E：休眠ポッド", label_anchor, Vector2(0, -30))
+	var relative: Vector3 = standard.to_local(player.global_position) - pod_panel_center_local
+	var inside := absf(relative.x) <= 0.55 and relative.z >= 0.20 and relative.z <= 1.20
+	if inside == player_near:
+		return
+	player_near = inside
+	if inside:
+		review_ui.show_interaction_name(interaction_area, "E：情報パネル", label_anchor, Vector2(0, -130))
+	else:
+		review_ui.hide_interaction_name(interaction_area)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if not event.is_action_pressed("interact") or not review_ui.can_accept_world_interaction():
@@ -103,6 +112,9 @@ func _process(delta: float) -> void:
 	super._process(delta)
 	if not is_instance_valid(exit_anchor):
 		return
+	if is_instance_valid(interaction_area):
+		label_anchor.global_position = $ReviewCamera.unproject_position(standard.to_global(pod_panel_center_local))
+	_refresh_pod_interaction()
 	exit_anchor.global_position = $ReviewCamera.unproject_position(door_closed_position)
 	var show := _can_use_exit()
 	if show != exit_prompt_visible:
