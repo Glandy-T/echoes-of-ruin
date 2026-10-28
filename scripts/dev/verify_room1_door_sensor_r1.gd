@@ -60,13 +60,25 @@ func run_checks() -> void:
 	await create_timer(0.5).timeout
 	assert(room.player_near)
 	assert(room.standard.screen_name == "グラン" and room.standard._screen_name_label.text == "NAME: グラン")
+	var camera_before: Transform3D = room.get_node("ReviewCamera").global_transform
 	await tap(&"interact")
 	assert(room.review_ui.is_dialogue_open() and room.input_locked)
+	assert(room.review_ui.detail_overlay.visible)
+	assert(room.review_ui.detail_texture_rect.texture.resource_path == "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_display.png")
+	assert(room.get_node("ReviewCamera").global_transform.is_equal_approx(camera_before))
 	assert(room.review_ui.dialogue_text.text == "情報パネル……？")
 	await tap(&"dialogue_advance")
 	assert(room.review_ui.dialogue_text.text == "グラン……私の名前、みたい。")
 	await tap(&"dialogue_advance")
 	assert(not room.review_ui.is_dialogue_open() and not room.input_locked)
+	assert(not room.review_ui.detail_overlay.visible)
+	await process_frame
+	assert(room.review_ui.detail_texture_rect.material == null)
+	room.standard.set_screen_powered(false)
+	await tap(&"interact")
+	assert(not room.review_ui.is_dialogue_open() and room.review_ui._message_active)
+	room.review_ui.hide_text()
+	await create_timer(2.8).timeout
 	print("PASS: opening dialogue, scan-before-open, slow door, blocked exit and own-pod dialogue")
 	quit()
 

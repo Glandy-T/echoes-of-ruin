@@ -4,6 +4,8 @@ const OPEN_DISTANCE := 1.52
 const OPEN_SECONDS := 3.0
 const SCAN_SECONDS := 1.5
 const CLOSE_DELAY := 1.0
+const POD_DETAIL_TEXTURE := preload("res://assets/art/cryopod_standard_v8/cryopod_standard_v8_display.png")
+const POD_DETAIL_SHADER := preload("res://scripts/dev/room1_pod_detail_overlay.gdshader")
 var chip_enabled := true
 var door_mesh: MeshInstance3D
 var door_body: StaticBody3D
@@ -85,9 +87,22 @@ func _unhandled_input(event: InputEvent) -> void:
 			get_tree().change_scene_to_file(destination_scene)
 		get_viewport().set_input_as_handled()
 	elif player_near:
+		if not standard.screen_powered:
+			review_ui.show_text("画面が消えている。")
+			get_viewport().set_input_as_handled()
+			return
 		var pages: Array[String] = ["情報パネル……？", "グラン……私の名前、みたい。"]
 		var expressions: Array[StringName] = [&"confused", &"deadpan"]
-		review_ui.start_dialogue(pages, expressions)
+		var detail_material := ShaderMaterial.new()
+		detail_material.shader = POD_DETAIL_SHADER
+		detail_material.set_shader_parameter("screen_overlay", standard.get_screen_overlay_texture())
+		detail_material.set_shader_parameter("panel_tint", standard.screen_background_tint)
+		detail_material.set_shader_parameter("panel_backlight", standard.screen_background_energy)
+		detail_material.set_shader_parameter("progress", standard.screen_progress)
+		detail_material.set_shader_parameter("secondary_progress", standard.screen_secondary_progress)
+		detail_material.set_shader_parameter("tertiary_progress", standard.screen_tertiary_progress)
+		review_ui.detail_texture_rect.material = detail_material
+		review_ui.start_detail_dialogue(POD_DETAIL_TEXTURE, pages, expressions)
 		get_viewport().set_input_as_handled()
 
 func _can_use_exit() -> bool:
@@ -97,6 +112,8 @@ func _process(delta: float) -> void:
 	super._process(delta)
 	if not is_instance_valid(exit_anchor):
 		return
+	if not review_ui.is_dialogue_open() and review_ui.detail_texture_rect.material:
+		review_ui.detail_texture_rect.material = null
 	exit_anchor.global_position = $ReviewCamera.unproject_position(door_closed_position)
 	var show := _can_use_exit()
 	if show != exit_prompt_visible:
