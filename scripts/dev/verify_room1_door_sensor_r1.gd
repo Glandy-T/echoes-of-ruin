@@ -59,7 +59,7 @@ func run_checks() -> void:
 	room.teleport_player(Vector3(3.525, 0.05, -5.9))
 	await create_timer(0.5).timeout
 	assert(room.player_near)
-	assert(room.standard.screen_name == "グラン" and room.standard._screen_name_label.text == "NAME: グラン")
+	assert(room.standard.screen_name == "----" and room.standard._screen_name_label.text == "NAME: ----")
 	var camera_before: Transform3D = room.get_node("ReviewCamera").global_transform
 	await tap(&"interact")
 	assert(room.review_ui.is_dialogue_open() and room.input_locked)

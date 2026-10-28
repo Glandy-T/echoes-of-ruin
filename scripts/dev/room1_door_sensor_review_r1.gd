@@ -28,7 +28,6 @@ func _ready() -> void:
 	super._ready()
 	if Engine.is_editor_hint():
 		return
-	standard.set_screen_state("グラン", standard.screen_status, standard.screen_progress, standard.screen_secondary_progress, standard.screen_tertiary_progress)
 	door_mesh = $Shell.find_child("MAIN_DOOR_PLACEHOLDER_NOT_APPROVED", true, false) as MeshInstance3D
 	door_body = get_node("Solid_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED") as StaticBody3D
 	door_closed_position = door_mesh.global_position
