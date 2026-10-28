@@ -1,0 +1,30 @@
+{
+  "schema": "cryo_building_blockout_v1_reopen_check",
+  "blend_exists": true,
+  "root_exists": true,
+  "missing_level_collections": [],
+  "level_count": 20,
+  "f4_anchor_exists": true,
+  "f4_anchor": {
+    "floor": "4F",
+    "room": "SW-01",
+    "status": "PROVISIONAL_REPLACEABLE",
+    "room_bounds_m": [
+      0.0,
+      4.2,
+      21.0,
+      13.7
+    ],
+    "door_id": "D001",
+    "door_center_m": [
+      10.5,
+      13.6
+    ],
+    "door_width_m": 1.4,
+    "existing_godot_room_not_modified": true
+  },
+  "logical_room_envelopes_nominal": 960,
+  "wall_modules": 242,
+  "source_claim": false,
+  "result": "PASS"
+}
