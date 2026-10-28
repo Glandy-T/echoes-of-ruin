@@ -65,6 +65,7 @@ func run_checks() -> void:
 	assert(room.review_ui.is_dialogue_open() and room.input_locked)
 	assert(room.review_ui.detail_overlay.visible)
 	assert(room.review_ui.detail_texture_rect.texture.resource_path == "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_display.png")
+	assert(room.review_ui.detail_texture_rect.material == null)
 	assert(room.get_node("ReviewCamera").global_transform.is_equal_approx(camera_before))
 	assert(room.review_ui.dialogue_text.text == "情報パネル……？")
 	await tap(&"dialogue_advance")
@@ -72,8 +73,6 @@ func run_checks() -> void:
 	await tap(&"dialogue_advance")
 	assert(not room.review_ui.is_dialogue_open() and not room.input_locked)
 	assert(not room.review_ui.detail_overlay.visible)
-	await process_frame
-	assert(room.review_ui.detail_texture_rect.material == null)
 	room.standard.set_screen_powered(false)
 	await tap(&"interact")
 	assert(not room.review_ui.is_dialogue_open() and room.review_ui._message_active)
