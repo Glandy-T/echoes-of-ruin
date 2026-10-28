@@ -39,6 +39,8 @@ func capture() -> void:
 	await shot("own_pod_dialogue")
 	room.review_ui._advance_dialogue()
 	await shot("own_pod_dialogue_2")
+	var panel_image: Image = room.standard.get_screen_overlay_texture().get_image()
+	assert(panel_image.save_png("res://docs/art/experiments/room1_door_sensor_r1/evidence/pod_panel_text.png") == OK)
 	print("Saved door and dialogue gameplay views")
 	quit()
 

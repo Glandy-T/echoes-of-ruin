@@ -27,6 +27,7 @@ func _ready() -> void:
 	super._ready()
 	if Engine.is_editor_hint():
 		return
+	standard.set_screen_state("グラン", standard.screen_status, standard.screen_progress, standard.screen_secondary_progress, standard.screen_tertiary_progress)
 	door_mesh = $Shell.find_child("MAIN_DOOR_PLACEHOLDER_NOT_APPROVED", true, false) as MeshInstance3D
 	door_body = get_node("Solid_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED") as StaticBody3D
 	door_closed_position = door_mesh.global_position
@@ -84,7 +85,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			get_tree().change_scene_to_file(destination_scene)
 		get_viewport().set_input_as_handled()
 	elif player_near:
-		var pages: Array[String] = ["これ……私？", "私、ここで眠ってたんだ……。"]
+		var pages: Array[String] = ["情報パネル……？", "グラン……私の名前、みたい。"]
 		var expressions: Array[StringName] = [&"confused", &"deadpan"]
 		review_ui.start_dialogue(pages, expressions)
 		get_viewport().set_input_as_handled()
