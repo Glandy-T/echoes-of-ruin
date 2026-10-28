@@ -324,7 +324,7 @@ theme_override_font_sizes/font_size = 14
 position = Vector2(0, -35)
 display_name = "休眠ポッド 04"
 label_offset = Vector2(0, -76)
-pages = Array[String](["これ……私？", "見た目は、まあ普通か。", "4-14-04……なんか、縁起悪そう。"])
+pages = Array[String](["これ……私？", "私、ここで眠ってたんだ……。", "4-14-04……なんか、縁起悪そう。"])
 expression_ids = Array[StringName]([&"confused", &"deadpan", &"deadpan"])
 
 [node name="Pod_4_14_03" type="Node2D" parent="."]
@@ -879,3 +879,4 @@ position = Vector2(650, 560)
 scale = Vector2(1.18, 1.18)
 
 [node name="GameUI" parent="." instance=ExtResource("3_ui")]
+

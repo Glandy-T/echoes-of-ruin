@@ -63,7 +63,7 @@ func run_checks() -> void:
 	assert(room.review_ui.is_dialogue_open() and room.input_locked)
 	assert(room.review_ui.dialogue_text.text == "これ……私？")
 	await tap(&"dialogue_advance")
-	assert(room.review_ui.dialogue_text.text == "見た目は、まあ普通か。")
+	assert(room.review_ui.dialogue_text.text == "私、ここで眠ってたんだ……。")
 	await tap(&"dialogue_advance")
 	assert(not room.review_ui.is_dialogue_open() and not room.input_locked)
 	print("PASS: opening dialogue, scan-before-open, slow door, blocked exit and own-pod dialogue")

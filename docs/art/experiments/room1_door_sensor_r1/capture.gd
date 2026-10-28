@@ -37,6 +37,8 @@ func capture() -> void:
 	for i in 10: await process_frame
 	assert(room.review_ui.is_dialogue_open())
 	await shot("own_pod_dialogue")
+	room.review_ui._advance_dialogue()
+	await shot("own_pod_dialogue_2")
 	print("Saved door and dialogue gameplay views")
 	quit()
 

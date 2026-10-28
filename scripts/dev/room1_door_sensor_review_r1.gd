@@ -84,7 +84,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			get_tree().change_scene_to_file(destination_scene)
 		get_viewport().set_input_as_handled()
 	elif player_near:
-		var pages: Array[String] = ["これ……私？", "見た目は、まあ普通か。"]
+		var pages: Array[String] = ["これ……私？", "私、ここで眠ってたんだ……。"]
 		var expressions: Array[StringName] = [&"confused", &"deadpan"]
 		review_ui.start_dialogue(pages, expressions)
 		get_viewport().set_input_as_handled()
