@@ -324,7 +324,7 @@ theme_override_font_sizes/font_size = 14
 position = Vector2(0, -35)
 display_name = "休眠ポッド 04"
 label_offset = Vector2(0, -76)
-pages = Array[String](["これ……僕？", "見た目は、まあ普通か。", "4-14-04……なんか、縁起悪そう。"])
+pages = Array[String](["これ……私？", "見た目は、まあ普通か。", "4-14-04……なんか、縁起悪そう。"])
 expression_ids = Array[StringName]([&"confused", &"deadpan", &"deadpan"])
 
 [node name="Pod_4_14_03" type="Node2D" parent="."]
@@ -451,7 +451,7 @@ theme_override_font_sizes/font_size = 14
 position = Vector2(0, -35)
 display_name = "休眠ポッド 02"
 label_offset = Vector2(0, -76)
-pages = Array[String](["この人は、運がなかったみたいだ。", "起きたの、まさか僕だけ……？"])
+pages = Array[String](["この人は、運がなかったみたいだ。", "起きたの、まさか私だけ……？"])
 expression_ids = Array[StringName]([&"neutral", &"wary"])
 
 [node name="CollapseArea_4_14_01" type="Node2D" parent="."]
@@ -811,7 +811,7 @@ label_offset = Vector2(0, -72)
 activation_text = "身元を確認。4F休眠区画の出口ロックを解除します。"
 already_used_text = "認証済み。出口ロックは解除されています。"
 failure_text = "端末と出口制御装置の接続が失われています。"
-activation_pages = Array[String](["【端末】\n本人認証完了\n収容者04：グラン", "グラン……これが僕の名前か。", "扉も開いた。とりあえず、外を見てみよう。", "……ドッキリだったりして。"])
+activation_pages = Array[String](["【端末】\n本人認証完了\n収容者04：グラン", "グラン……これが私の名前か。", "扉も開いた。とりあえず、外を見てみよう。", "……ドッキリだったりして。"])
 activation_expression_ids = Array[StringName]([&"neutral", &"confused", &"wary", &"bitter_smile"])
 already_used_pages = Array[String](["……もう何も出なさそう。"])
 already_used_expression_ids = Array[StringName]([&"neutral"])

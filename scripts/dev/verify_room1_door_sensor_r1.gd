@@ -17,6 +17,14 @@ func run_checks() -> void:
 	var room = load("res://scenes/dev/room1_door_sensor_review_r1.tscn").instantiate()
 	root.add_child(room)
 	for i in 20: await physics_frame
+	assert(room.review_ui.is_dialogue_open() and room.input_locked)
+	assert(room.review_ui.dialogue_text.text == "あ……頭、痛い……。")
+	await tap(&"dialogue_advance")
+	assert(room.review_ui.dialogue_text.text == "ここは……どこ？")
+	await tap(&"dialogue_advance")
+	assert(not room.review_ui.is_dialogue_open() and not room.input_locked)
+	room._start_opening_dialogue()
+	assert(not room.review_ui.is_dialogue_open())
 	room.test_mode = true
 	room.chip_enabled = false
 	room.teleport_player(Vector3(10.5, 0.05, -7.7))
@@ -53,11 +61,11 @@ func run_checks() -> void:
 	assert(room.player_near)
 	await tap(&"interact")
 	assert(room.review_ui.is_dialogue_open() and room.input_locked)
-	assert(room.review_ui.dialogue_text.text == "これ……僕？")
+	assert(room.review_ui.dialogue_text.text == "これ……私？")
 	await tap(&"dialogue_advance")
 	assert(room.review_ui.dialogue_text.text == "見た目は、まあ普通か。")
 	await tap(&"dialogue_advance")
 	assert(not room.review_ui.is_dialogue_open() and not room.input_locked)
-	print("PASS: scan-before-open, slower door, black doorway, blocked exit, interaction and own-pod dialogue")
+	print("PASS: opening dialogue, scan-before-open, slow door, blocked exit and own-pod dialogue")
 	quit()
 

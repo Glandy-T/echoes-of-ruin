@@ -14,6 +14,11 @@ func capture() -> void:
 	for i in 30: await process_frame
 	room.info.get_parent().visible = false
 	room.review_ui.pause_button.visible = false
+	assert(room.review_ui.is_dialogue_open())
+	await shot("opening_1")
+	room.review_ui._advance_dialogue()
+	await shot("opening_2")
+	room.review_ui.close_dialogue()
 	room.chip_enabled = false
 	room.teleport_player(Vector3(10.5, 0.05, -7.7))
 	await create_timer(0.5).timeout

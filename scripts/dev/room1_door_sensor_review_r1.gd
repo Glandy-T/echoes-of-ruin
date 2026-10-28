@@ -20,6 +20,8 @@ var scan_complete := false
 var exit_anchor: Node2D
 var exit_prompt_visible := false
 @export_file("*.tscn") var destination_scene := ""
+@export var opening_dialogue_enabled := true
+const OPENING_FLAG := &"room1_opening_dialogue_seen"
 
 func _ready() -> void:
 	super._ready()
@@ -40,6 +42,15 @@ func _ready() -> void:
 	exit_anchor = Node2D.new()
 	add_child(exit_anchor)
 	_update_info()
+	call_deferred("_start_opening_dialogue")
+
+func _start_opening_dialogue() -> void:
+	if not opening_dialogue_enabled or bool(GameState.get_flag(OPENING_FLAG, false)):
+		return
+	var pages: Array[String] = ["あ……頭、痛い……。", "ここは……どこ？"]
+	var expressions: Array[StringName] = [&"confused", &"confused"]
+	GameState.set_flag(OPENING_FLAG, true)
+	review_ui.start_dialogue(pages, expressions)
 
 func _setup_test_point() -> void:
 	# Replace the inherited demo point with the protagonist's actual pod.
@@ -73,7 +84,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			get_tree().change_scene_to_file(destination_scene)
 		get_viewport().set_input_as_handled()
 	elif player_near:
-		var pages: Array[String] = ["これ……僕？", "見た目は、まあ普通か。"]
+		var pages: Array[String] = ["これ……私？", "見た目は、まあ普通か。"]
 		var expressions: Array[StringName] = [&"confused", &"deadpan"]
 		review_ui.start_dialogue(pages, expressions)
 		get_viewport().set_input_as_handled()
