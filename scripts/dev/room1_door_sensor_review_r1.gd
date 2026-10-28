@@ -42,6 +42,8 @@ func _ready() -> void:
 	_make_scan_indicator()
 	exit_anchor = Node2D.new()
 	add_child(exit_anchor)
+	if bool(GameState.get_flag(&"room1_play_mode", false)) and info:
+		info.get_parent().visible = false
 	_update_info()
 	call_deferred("_start_opening_dialogue")
 
@@ -208,6 +210,8 @@ func _on_door_body_exited(body: Node3D) -> void:
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if review_ui and review_ui.is_modal_open():
+		return
+	if bool(GameState.get_flag(&"room1_play_mode", false)):
 		return
 	if event is InputEventKey and event.pressed and not event.echo and event.physical_keycode == KEY_0:
 		teleport_player(Vector3(10.5, 0.05, -6.8))

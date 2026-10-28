@@ -1,8 +1,7 @@
 extends Control
 
-# Current playable route. The opening sequence will be inserted before this room
-# when it is implemented, without changing the title menu's Start action.
-const START_SCENE_PATH := "res://scenes/areas/military_facility/cryo_room_4f_01.tscn"
+# Start the current Room 1 build; the earlier 2D room remains available separately.
+const START_SCENE_PATH := "res://scenes/dev/room1_door_sensor_review_r1.tscn"
 const WINDOWED_SIZE := Vector2i(1280, 720)
 const DISPLAY_MODE_WINDOWED := 0
 const DISPLAY_MODE_FULLSCREEN := 1
@@ -43,6 +42,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 func _on_start_button_pressed() -> void:
 	GameState.reset_demo_state()
+	GameState.set_flag(&"room1_play_mode", true)
 	get_tree().change_scene_to_file(START_SCENE_PATH)
 
 
@@ -90,3 +90,4 @@ func _show_main_menu() -> void:
 	title_block.show()
 	main_menu.show()
 	settings_button.grab_focus()
+
