@@ -1,0 +1,11 @@
+{
+  "schema": "cryo_building_stairs_v2_godot_import_readback",
+  "godot_version": "4.6.2.stable",
+  "glb": "assets/art/cryo_building_stairs_v2/cryo_building_route_4f_to_1f_v2.glb",
+  "review_scene": "scenes/dev/cryo_building_route_review_v2.tscn",
+  "editor_import": "PASS: asset imported in headless editor scan",
+  "scene_launch": "PASS: review scene loaded and ran 2 frames, exit code 0 with normal filesystem permissions",
+  "visual_runtime_acceptance": "NOT_RUN",
+  "player_walk_and_collision": "NOT_IMPLEMENTED",
+  "note": "Sandboxed Godot game launch crashed even without a scene; the same review scene loaded normally outside the filesystem sandbox. The editor import returned 0 but could not write user AppData editor settings inside the sandbox."
+}

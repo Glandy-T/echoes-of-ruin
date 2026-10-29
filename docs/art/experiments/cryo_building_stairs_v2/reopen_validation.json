@@ -1,0 +1,13 @@
+{
+  "schema": "cryo_building_stairs_v2_reopen_validation",
+  "result": "PASS",
+  "errors": [],
+  "level_count": 20,
+  "four_open_shafts_checked_each_level": 80,
+  "stair_transitions": 76,
+  "locked_door_placeholders": 1918,
+  "f4_sw01_to_west_stair_route_in_frozen_graph": true,
+  "source_v1_hash_matches_recorded": true,
+  "godot_runtime_walk_test": "NOT_RUN",
+  "1f_external_exit": "TBD"
+}

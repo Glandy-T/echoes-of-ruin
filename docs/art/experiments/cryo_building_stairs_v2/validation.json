@@ -1,0 +1,36 @@
+{
+  "schema": "cryo_building_stairs_v2",
+  "status": "BUILT_REOPEN_CHECK_PENDING",
+  "source_v1": "docs/art/experiments/cryo_building_blockout_v1/cryo_building_blockout_v1.blend",
+  "source_v1_sha256": "e650234124a2e184283577f436afac4f030812b4161de1c7994ebdbea5271359",
+  "frozen_layout": "docs/cad/cryo_standard_floor/v3_trim/floor_layout.json",
+  "frozen_sha256": "9c1829b876129ee26a21874b803b3c761af7b9bcddda3d025af8c6d61c57c715",
+  "cad_geometry_imported": false,
+  "levels": 20,
+  "stairs_per_level": 4,
+  "stair_transitions_per_shaft": 19,
+  "cut_floor_pieces": 540,
+  "room1_f4_route_nodes": [
+    "SW-01",
+    "SW_C0_0",
+    "SW_C0_Outer",
+    "SW_StairApproach",
+    "SW_StairLandingCorner",
+    "West_StairLanding"
+  ],
+  "room1_anchor_provisional": "SW-01",
+  "door_status": "placeholder only; permissions not implemented",
+  "locked_door_placeholders": 1918,
+  "open_4f_door_ids": [
+    "D001",
+    "D077"
+  ],
+  "1f_exit_status": "not located in frozen plan; route ends at 1F west stair landing",
+  "limitations": [
+    "Stair shape and level height are provisional",
+    "No final railings or door animation",
+    "No Godot navigation or collision runtime test",
+    "No 1F exterior exit connection",
+    "Other sectors/floors must remain permission locked in game"
+  ]
+}
