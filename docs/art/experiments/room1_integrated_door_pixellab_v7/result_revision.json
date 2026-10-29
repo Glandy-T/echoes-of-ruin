@@ -1,0 +1,10 @@
+{
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "3b7dc4c1-2635-4d0f-a7a0-2629321c2350",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "image_file": "pixellab_inpaint_v3_revision.png"
+}

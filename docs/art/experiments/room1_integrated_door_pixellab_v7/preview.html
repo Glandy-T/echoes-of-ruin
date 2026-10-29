@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 PixelLab 门面 v7 对比</title>
+<style>
+body{margin:0;background:#111819;color:#dbe1dc;font:15px/1.5 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{margin:0 0 8px;font-size:25px}h2{font-size:19px;margin:30px 0 12px}p{max-width:1080px;color:#b7c3bc}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(390px,1fr));gap:16px}figure{margin:0;padding:10px;background:#1c2627;border:1px solid #3a4545}img{width:100%;height:auto;display:block;image-rendering:pixelated}figcaption{padding:9px 4px 2px}.texture img{max-width:448px;margin:auto}a{color:#c4d9c7}
+</style><main>
+<h1>Room 1 主门：PixelLab 像素贴图 v7</h1>
+<p>v6 的上沿细簇保留；大块手工多边形已退出本版。新材质细节由 PixelLab Pro inpaint 生成，Aseprite 只整理图层与固定状态窗。以下是原生像素最近邻放大和 Godot 同机位实拍。</p>
+<h2>贴图来源与细节尺度</h2><section class="texture">
+<figure><img src="../../../../assets/art/room1_integrated_door_finish_v6/door_front.png" alt="v6 手工贴图"><figcaption>v6 手工图层：上沿细簇之外有突兀大块</figcaption></figure>
+<figure><img src="evidence/pixellab_raw_4x.png" alt="PixelLab 首次原图"><figcaption>PixelLab 首次原图：边缘过于稀疏，未采用</figcaption></figure>
+<figure><img src="evidence/pixellab_revision_raw_4x.png" alt="PixelLab 修订原图"><figcaption>PixelLab 修订原图：更连续、细尺度的材料簇</figcaption></figure>
+<figure><img src="evidence/assembled_revision_4x.png" alt="最终组装贴图"><figcaption>组装导出：保留原上沿和小状态窗；其余新材料细节来自 PixelLab</figcaption></figure>
+</section>
+<h2>游戏镜头对比</h2><section>
+<figure><img src="../room1_integrated_door_finish_v6/evidence/idle_closed.png" alt="v6 关门"><figcaption>v6：手工粗块</figcaption></figure>
+<figure><img src="evidence/idle_closed.png" alt="v7 关门"><figcaption>v7：PixelLab 细簇，门框仍沿用 v6 收敛方案</figcaption></figure>
+</section>
+<h2>状态回归</h2><section>
+<figure><img src="evidence/yellow_scanning.png" alt="黄灯认证"><figcaption>认证黄窗</figcaption></figure>
+<figure><img src="evidence/green_opening.png" alt="绿灯开启"><figcaption>通行绿框及侧滑</figcaption></figure>
+<figure><img src="evidence/green_open.png" alt="门已开启"><figcaption>门已开启，通行灯仍亮</figcaption></figure>
+<figure><img src="evidence/red_denied_window_only.png" alt="红灯拒绝"><figcaption>拒绝只亮红窗</figcaption></figure>
+</section><p><a href="README.md">制作记录、原始结果、额度与限制</a></p>
+</main></html>
