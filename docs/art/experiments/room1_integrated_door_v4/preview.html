@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Room 1 主门色阶 v3 / v4 对比</title>
+<title>Room 1 主门色阶 v4 退回记录</title>
 <style>
 body{margin:0;background:#101719;color:#e0e8e3;font:16px/1.5 system-ui,sans-serif}main{max-width:1360px;margin:auto;padding:24px}h1{font-size:26px;margin:0 0 6px}p{color:#b5c5be}section{margin:28px 0}h2{font-size:19px;margin:0 0 12px}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:#1c282b;border:1px solid #35494a;padding:10px}.card img{width:100%;height:auto;display:block}.card b{display:block;padding:8px 2px 2px;font-weight:600}.crop{height:430px;overflow:hidden;position:relative;background:#0b1011}.card .crop img{position:absolute;width:1280px;height:720px;max-width:none;left:50%;top:75%;transform:translate(-50%,-50%);image-rendering:pixelated}@media(max-width:800px){.pair{grid-template-columns:1fr}}
 </style><main>
-<h1>Room 1 主门：明度与收边 v4</h1>
-<p>相同 Godot 镜头、画面比例及 1280 × 720 分辨率。v3 留作基准；v4 只测试门面略亮、门底阴影收敛和熄灯时可见的窄灯槽实体。门洞、贴图与滑门动画相同。</p>
+<h1>Room 1 主门：v4 明度测试已退回</h1>
+<p>同一 Godot 镜头、画面比例及 1280 × 720 分辨率。v4 的门板整体过亮，门底手工提亮与熄灯时可见的下沿灯槽叠加，出现不自然的发光感。后续从 v3 色阶继续，不使用 v4 作为当前门方案。</p>
 <section><h2>关门 · 待机</h2><div class="pair">
 <div class="card"><img src="../room1_integrated_door_v3/evidence/idle_closed.png" alt="v3 关门"><b>A · v3：近黑色门侧与门底</b></div>
-<div class="card"><img src="evidence/idle_closed.png" alt="v4 关门"><b>B · v4：门板略亮，门底保留材料色，灯槽熄灭但实体可见</b></div>
+<div class="card"><img src="evidence/idle_closed.png" alt="v4 关门"><b>B · v4（退回）：门面过亮；门底像在发光</b></div>
 </div></section>
 <section><h2>门洞局部 · 截图原始像素大小</h2><div class="pair">
 <div class="card"><div class="crop"><img src="../room1_integrated_door_v3/evidence/idle_closed.png" alt="v3 门洞局部"></div><b>A · v3</b></div>

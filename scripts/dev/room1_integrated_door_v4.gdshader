@@ -1,6 +1,9 @@
 shader_type spatial;
 render_mode unshaded, cull_back;
 
+// Rejected comparison shader. The hand-lifted lower value produced the
+// apparent light source under the door in the 2026-10-29 v4 screenshot.
+
 uniform sampler2D pixel_map : source_color, filter_nearest, repeat_disable;
 uniform float strip_on = 1.0;
 

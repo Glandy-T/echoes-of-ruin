@@ -1,7 +1,8 @@
 extends "res://scripts/dev/room1_integrated_door_v3.gd"
 
-# Visual comparison only. Retain v3 geometry, opening, chip response and motion.
-# The leaf's face now reads as a coated service panel rather than a wall cutout.
+# Rejected visual comparison only: the bottom looked self-lit and the whole
+# leaf was brighter than the room. Use v3 as the current review baseline.
+# Retained solely so the archived A/B capture remains reproducible.
 const FACE_REVIEW_SHADER := preload("res://scripts/dev/room1_integrated_door_v4.gdshader")
 
 
