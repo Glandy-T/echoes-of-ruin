@@ -4,6 +4,7 @@ extends "res://scripts/dev/cryo_building_room1_route_v3.gd"
 # Single authorized actor: no second-person/tailgating simulation in this scene.
 const DOOR_SCENE := preload("res://assets/art/room1_integrated_door_v3/room1_integrated_door_v3.glb")
 const DOOR_PIXELS := preload("res://assets/art/room1_integrated_door_v3/door_front.png")
+const PORTAL_WALL := preload("res://assets/art/room1_integrated_door_v3/wall_rear_portal.png")
 const FRONT_SHADER := preload("res://scripts/dev/room1_integrated_door_v3.gdshader")
 
 var integrated_root: Node3D
@@ -45,6 +46,7 @@ func _ready() -> void:
 	if Engine.is_editor_hint():
 		return
 	_replace_placeholder()
+	_apply_portal_wall()
 	_update_feedback()
 	_update_info()
 
@@ -104,6 +106,14 @@ func _replace_placeholder() -> void:
 		part.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 		part.visible = false
 	assert(integrated_root.find_children("JambLight_*", "MeshInstance3D", true, false).size() == 4)
+
+
+func _apply_portal_wall() -> void:
+	# The opening already exists in the shell. Redraw only its construction
+	# rhythm; preserve the rear-wall geometry, UV2 and baked irradiance.
+	for name in ["Wall_rear_left", "Wall_rear_right", "Wall_rear_door_header"]:
+		for material: ShaderMaterial in full_materials.get(name, []):
+			material.set_shader_parameter("full_wall_rear_map", PORTAL_WALL)
 
 
 func _unshaded_color(color: Color) -> StandardMaterial3D:

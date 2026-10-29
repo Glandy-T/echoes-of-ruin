@@ -36,6 +36,21 @@ func _run() -> void:
 		errors.append("old door collider remains active")
 	if str(room.get("feedback_state")) != "idle":
 		errors.append("door did not start idle")
+	var portal_wall_count := 0
+	var full_materials: Dictionary = room.get("full_materials")
+	for wall_name in ["Wall_rear_left", "Wall_rear_right", "Wall_rear_door_header"]:
+		var receiver := room.get_node("Shell").find_child(wall_name, true, false) as MeshInstance3D
+		if not receiver:
+			errors.append("rear-wall construction segment missing: " + wall_name)
+			continue
+		for material: ShaderMaterial in full_materials.get(wall_name, []):
+			var map := material.get_shader_parameter("full_wall_rear_map") as Texture2D
+			if map and map.resource_path == "res://assets/art/room1_integrated_door_v3/wall_rear_portal.png":
+				portal_wall_count += 1
+			else:
+				errors.append("portal construction map not installed on " + wall_name)
+	if portal_wall_count < 3:
+		errors.append("door bay does not cover all three rear-wall pieces")
 
 	room.call("teleport_player", Vector3(10.5, 0.05, -8.6))
 	for i in 36:
@@ -103,6 +118,7 @@ func _run() -> void:
 		"result": "PASS" if errors.is_empty() else "FAIL",
 		"errors": errors,
 		"jamb_sides": 4,
+		"portal_wall_receiver_materials": portal_wall_count,
 		"scan_state": yellow,
 		"open_state": green,
 		"open_fraction": opened,

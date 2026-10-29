@@ -7,6 +7,7 @@
 	"open_fraction": 1.0,
 	"open_state": true,
 	"panel_collider_offset_difference_m": 0.0,
+	"portal_wall_receiver_materials": 3,
 	"red_jamb_state_implemented": false,
 	"result": "PASS",
 	"scan_state": true,
