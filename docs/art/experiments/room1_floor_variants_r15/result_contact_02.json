@@ -1,0 +1,10 @@
+{
+  "variant": "contact_02",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "62601643-10e2-49f4-94ec-9578d84ad0ce",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  }
+}

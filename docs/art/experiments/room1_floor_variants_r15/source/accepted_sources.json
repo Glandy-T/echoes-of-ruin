@@ -1,0 +1,16 @@
+{
+  "base": ["base_00", "base_02_new", "base_04_new", "base_05", "base_05_new", "base_06_new", "base_07"],
+  "contact": ["contact_00", "contact_01", "contact_02", "contact_04", "contact_05"],
+  "leak": ["leak_00", "leak_01", "leak_02", "leak_03"],
+  "rejected": {
+    "base_01": "Strong directional diagonal streaks change the approved material character.",
+    "base_02": "Near-copy of accepted base_00; correlation 0.996.",
+    "base_03": "Near-copy of accepted base_00; correlation 0.988.",
+    "base_04": "Near-copy of accepted base_00; correlation 0.996.",
+    "base_06": "Near-copy of accepted base_00; correlation 0.995.",
+    "base_03_new": "Circular scratch-like rings, not the accepted mineral coating.",
+    "base_08": "Coarse strong peeling clusters change the approved fine material character.",
+    "contact_03": "Overly bright closed dust halo, unlike the restrained approved contact material."
+  },
+  "reused_r14": {"base_00": "base3", "contact_00": "contact_a", "contact_01": "contact_c", "leak_00": "leak_a", "edge_00": "edge"}
+}

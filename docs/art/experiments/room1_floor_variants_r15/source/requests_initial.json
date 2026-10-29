@@ -1,0 +1,218 @@
+[
+  {
+    "name": "base_01",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_01.txt",
+    "seed": 2026103011,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_02",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_02.txt",
+    "seed": 2026103012,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_03",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_03.txt",
+    "seed": 2026103013,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_04",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_04.txt",
+    "seed": 2026103014,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_05",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_05.txt",
+    "seed": 2026103015,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_06",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_06.txt",
+    "seed": 2026103016,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_07",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_07.txt",
+    "seed": 2026103017,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "base_08",
+    "endpoint": "/generate-image-v2",
+    "prompt": "prompt_base_08.txt",
+    "seed": 2026103018,
+    "style": "accepted_floor_style.png",
+    "palette": {
+      "colors": [
+        "#4D626B",
+        "#526771",
+        "#566B74",
+        "#5A6C73",
+        "#5E727B",
+        "#627780",
+        "#687D85",
+        "#70858D"
+      ],
+      "max_colors": 8
+    }
+  },
+  {
+    "name": "contact_02",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_contact_02.txt",
+    "seed": 2026103042,
+    "guide": "guide_contact_02.png",
+    "mask": "mask_contact_02.png"
+  },
+  {
+    "name": "contact_03",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_contact_03.txt",
+    "seed": 2026103043,
+    "guide": "guide_contact_03.png",
+    "mask": "mask_contact_03.png"
+  },
+  {
+    "name": "contact_04",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_contact_04.txt",
+    "seed": 2026103044,
+    "guide": "guide_contact_04.png",
+    "mask": "mask_contact_04.png"
+  },
+  {
+    "name": "contact_05",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_contact_05.txt",
+    "seed": 2026103045,
+    "guide": "guide_contact_05.png",
+    "mask": "mask_contact_05.png"
+  },
+  {
+    "name": "leak_01",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_leak_01.txt",
+    "seed": 2026103061,
+    "guide": "guide_leak_01.png",
+    "mask": "mask_leak_01.png"
+  },
+  {
+    "name": "leak_02",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_leak_02.txt",
+    "seed": 2026103062,
+    "guide": "guide_leak_02.png",
+    "mask": "mask_leak_02.png"
+  },
+  {
+    "name": "leak_03",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_leak_03.txt",
+    "seed": 2026103063,
+    "guide": "guide_leak_03.png",
+    "mask": "mask_leak_03.png"
+  }
+]

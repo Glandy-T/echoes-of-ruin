@@ -1,0 +1,142 @@
+{
+  "base_00": {
+    "equal_to_first_fraction": 1.0,
+    "correlation_to_first": 1.0,
+    "colors": 4
+  },
+  "base_01": {
+    "equal_to_first_fraction": 0.4325408935546875,
+    "correlation_to_first": 0.020200446729949362,
+    "colors": 4
+  },
+  "base_02": {
+    "equal_to_first_fraction": 0.9469757080078125,
+    "correlation_to_first": 0.9959630290246024,
+    "colors": 5
+  },
+  "base_02_new": {
+    "equal_to_first_fraction": 0.537506103515625,
+    "correlation_to_first": 0.025871330578235072,
+    "colors": 4
+  },
+  "base_03": {
+    "equal_to_first_fraction": 0.91741943359375,
+    "correlation_to_first": 0.9882841126034317,
+    "colors": 6
+  },
+  "base_03_new": {
+    "equal_to_first_fraction": 0.62274169921875,
+    "correlation_to_first": 0.06729838936726758,
+    "colors": 5
+  },
+  "base_04": {
+    "equal_to_first_fraction": 0.9484405517578125,
+    "correlation_to_first": 0.9964495295527915,
+    "colors": 6
+  },
+  "base_04_new": {
+    "equal_to_first_fraction": 0.2939300537109375,
+    "correlation_to_first": -0.007426997677564779,
+    "colors": 6
+  },
+  "base_05": {
+    "equal_to_first_fraction": 0.08343505859375,
+    "correlation_to_first": 0.23981304835200734,
+    "colors": 6
+  },
+  "base_05_new": {
+    "equal_to_first_fraction": 0.600616455078125,
+    "correlation_to_first": -0.06902394816456002,
+    "colors": 5
+  },
+  "base_06": {
+    "equal_to_first_fraction": 0.9418487548828125,
+    "correlation_to_first": 0.9950628297186169,
+    "colors": 5
+  },
+  "base_06_new": {
+    "equal_to_first_fraction": 0.2090301513671875,
+    "correlation_to_first": 0.15541345181544977,
+    "colors": 4
+  },
+  "base_07": {
+    "equal_to_first_fraction": 0.3109130859375,
+    "correlation_to_first": -0.1113801550250684,
+    "colors": 5
+  },
+  "base_08": {
+    "equal_to_first_fraction": 0.32977294921875,
+    "correlation_to_first": 0.07279683412783304,
+    "colors": 6
+  },
+  "contact_00": {
+    "equal_to_first_fraction": 1.0,
+    "correlation_to_first": 0.9999999999999999,
+    "colors": 3,
+    "deposit_union_pixels": 2448,
+    "equal_fraction_on_deposit_union": 1.0
+  },
+  "contact_01": {
+    "equal_to_first_fraction": 0.9621429443359375,
+    "correlation_to_first": 0.9472766523132166,
+    "colors": 3,
+    "deposit_union_pixels": 2493,
+    "equal_fraction_on_deposit_union": 0.005214600882470918
+  },
+  "contact_02": {
+    "equal_to_first_fraction": 0.961029052734375,
+    "correlation_to_first": 0.9336810007227834,
+    "colors": 3,
+    "deposit_union_pixels": 2590,
+    "equal_fraction_on_deposit_union": 0.014285714285714285
+  },
+  "contact_03": {
+    "equal_to_first_fraction": 0.943359375,
+    "correlation_to_first": 0.8575983581114602,
+    "colors": 4,
+    "deposit_union_pixels": 3415,
+    "equal_fraction_on_deposit_union": 0.0005856515373352855
+  },
+  "contact_04": {
+    "equal_to_first_fraction": 0.9583740234375,
+    "correlation_to_first": 0.9443181500806197,
+    "colors": 3,
+    "deposit_union_pixels": 2727,
+    "equal_fraction_on_deposit_union": 0.0
+  },
+  "contact_05": {
+    "equal_to_first_fraction": 0.9612274169921875,
+    "correlation_to_first": 0.9447364242588527,
+    "colors": 3,
+    "deposit_union_pixels": 2540,
+    "equal_fraction_on_deposit_union": 0.0
+  },
+  "leak_00": {
+    "equal_to_first_fraction": 1.0,
+    "correlation_to_first": 1.0,
+    "colors": 2,
+    "deposit_union_pixels": 204,
+    "equal_fraction_on_deposit_union": 1.0
+  },
+  "leak_01": {
+    "equal_to_first_fraction": 0.9961700439453125,
+    "correlation_to_first": 0.9892562428475571,
+    "colors": 2,
+    "deposit_union_pixels": 297,
+    "equal_fraction_on_deposit_union": 0.15488215488215487
+  },
+  "leak_02": {
+    "equal_to_first_fraction": 0.995361328125,
+    "correlation_to_first": 0.9871645107442893,
+    "colors": 2,
+    "deposit_union_pixels": 502,
+    "equal_fraction_on_deposit_union": 0.3944223107569721
+  },
+  "leak_03": {
+    "equal_to_first_fraction": 0.9954986572265625,
+    "correlation_to_first": 0.9877782267470846,
+    "colors": 3,
+    "deposit_union_pixels": 324,
+    "equal_fraction_on_deposit_union": 0.08950617283950617
+  }
+}

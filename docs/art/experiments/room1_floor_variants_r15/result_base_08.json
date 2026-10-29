@@ -1,0 +1,10 @@
+{
+  "variant": "base_08",
+  "endpoint": "/generate-image-v2",
+  "background_job_id": "1e033095-831f-4978-b67f-7db44dcd4b9c",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  }
+}

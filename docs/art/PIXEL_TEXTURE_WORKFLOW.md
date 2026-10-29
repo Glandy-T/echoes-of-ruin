@@ -20,6 +20,8 @@
 
 [r14 地坪返修](experiments/room1_floor_pixellab_r14/README.md)同样从干净导图重建，弃用旧人工做旧。底材使用PixelLab图像生成接口，接触痕使用其编辑接口；保留原图、弃用原因、110 generations实际记录及Aseprite母版。独立候选未替换正式入口，当前沿用原烘焙作材质对照。
 
+[r15 地坪差分](experiments/room1_floor_variants_r15/README.md)保留r14单块材料基调，新增PixelLab原图并剔除近似复制，最终用7份底材、5份接触、4份漏液固定安排；脚本只做统一调色板配准与原生像素边界拼接。分开记录独立原图数、铺设次数与200 generations实际用量，不能把翻转或近似复制算作新原图。
+
 ## 旧基线 Room 1 墙面的来源标注
 
 旧基线门场景继承 `room1_seam_contact_r6` 的四墙颜色图，后墙门洞另用 `room1_integrated_door_v3/wall_rear_portal.png` 清理旧缝。墙面最初的 v1/v2 与局部 r1/r2 有 PixelLab 原始生成记录；随后 r3 接缝、r4 旧化、r5 全墙推广、r6 接缝修正都在各自 README 中明确记为脚本／人工像素层，未新增 PixelLab 调用。**因此该历史基线墙面是旧流程的混合来源，不应宣称整张现行贴图符合本约束。**保留现状作为已审过的游戏基线；未来返修墙面材质细节时用 PixelLab 重新生成／编辑并同镜头验证，结构与UV修复仍可用精确技术手段完成。

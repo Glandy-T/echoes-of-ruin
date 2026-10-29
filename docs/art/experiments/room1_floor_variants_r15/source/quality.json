@@ -1,0 +1,118 @@
+{
+  "old_art_layers_used": [],
+  "floor_dimensions": [
+    1648,
+    728
+  ],
+  "checks": {
+    "aged": {
+      "aseprite_readback_exact": true,
+      "size": [
+        1648,
+        728
+      ],
+      "warm_R_gt_G_or_G_gt_B_pixels": 0,
+      "sha256": "e56011bc3c4ff87b7954f5f1426f06e72c5d080aa80db75ec92eba46f0413090"
+    },
+    "with_leaks": {
+      "aseprite_readback_exact": true,
+      "size": [
+        1648,
+        728
+      ],
+      "warm_R_gt_G_or_G_gt_B_pixels": 0,
+      "sha256": "49808ae8e6e1af8720103d2f16b6fb6f66acaa1524e374f2a09fdcaf8e17cd47"
+    }
+  },
+  "contact_count": 20,
+  "leak_pods": [
+    "P03",
+    "P06",
+    "P13",
+    "P18"
+  ],
+  "source_selection": {
+    "base": [
+      "base_00",
+      "base_02_new",
+      "base_04_new",
+      "base_05",
+      "base_05_new",
+      "base_06_new",
+      "base_07"
+    ],
+    "contact": [
+      "contact_00",
+      "contact_01",
+      "contact_02",
+      "contact_04",
+      "contact_05"
+    ],
+    "leak": [
+      "leak_00",
+      "leak_01",
+      "leak_02",
+      "leak_03"
+    ],
+    "rejected": {
+      "base_01": "Strong directional diagonal streaks change the approved material character.",
+      "base_02": "Near-copy of accepted base_00; correlation 0.996.",
+      "base_03": "Near-copy of accepted base_00; correlation 0.988.",
+      "base_04": "Near-copy of accepted base_00; correlation 0.996.",
+      "base_06": "Near-copy of accepted base_00; correlation 0.995.",
+      "base_03_new": "Circular scratch-like rings, not the accepted mineral coating.",
+      "base_08": "Coarse strong peeling clusters change the approved fine material character.",
+      "contact_03": "Overly bright closed dust halo, unlike the restrained approved contact material."
+    },
+    "reused_r14": {
+      "base_00": "base3",
+      "contact_00": "contact_a",
+      "contact_01": "contact_c",
+      "leak_00": "leak_a",
+      "edge_00": "edge"
+    }
+  },
+  "base_source_count": 7,
+  "base_patch_count": 32,
+  "base_source_usage": {
+    "base_00": 6,
+    "base_02_new": 2,
+    "base_04_new": 4,
+    "base_05": 6,
+    "base_05_new": 6,
+    "base_06_new": 4,
+    "base_07": 4
+  },
+  "immediate_base_repeats": 0,
+  "contact_source_count": 5,
+  "leak_source_count": 4,
+  "256px_periodic_equality_fraction": {
+    "r14": 1.0,
+    "r15": 0.5647765488821523
+  },
+  "256px_shift_luminance_correlation": {
+    "r14": 1.0,
+    "r15": 0.02896519703518394
+  },
+  "max_accepted_base_pair_correlation_raw": 0.3002757193928471,
+  "generations": 200.0,
+  "job_count": 20,
+  "bindings": [
+    {
+      "baked_energy": 1.2,
+      "irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+      "map": "res://assets/art/room1_floor_variants_r15/floor_with_leaks.png",
+      "shader": "res://scripts/dev/room1_surface_full_r5.gdshader"
+    }
+  ],
+  "diagnostic_roundtrip_differing_pixels": 57,
+  "diagnostic_roundtrip_max_channel_delta": 47,
+  "diagnostic_roundtrip_difference_bbox": [
+    212,
+    540,
+    273,
+    581
+  ],
+  "roundtrip_differing_pixels_outside_pod_support_rois": 0,
+  "no_geometry_uv_light_or_bake_edits": true
+}
