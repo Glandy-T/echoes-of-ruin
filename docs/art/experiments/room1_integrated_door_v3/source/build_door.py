@@ -17,7 +17,7 @@ bpy.ops.object.delete(use_global=False)
 WIDTH, HEIGHT, DEPTH = 1.37, 2.30, 0.085
 
 image = bpy.data.images.load(str(ART / "door_front.png"), check_existing=False)
-image.name = "DoorFront_128x256_original_pixels"
+image.name = "DoorFront_80texels_per_metre_original_pixels"
 image.filepath = str(ART / "door_front.png")
 image.pack()
 

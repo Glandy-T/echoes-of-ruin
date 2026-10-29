@@ -13,4 +13,7 @@ sprite:saveAs(root .. '/editable/door_front_v3.aseprite')
 sprite:close()
 local readback = app.open(root .. '/editable/door_front_v3.aseprite')
 app.command.SaveFileAs{filename=root .. '/source/aseprite_readback.png'}
+-- Aseprite is authoritative for the final alpha-composited runtime pixels.
+-- Pillow and Aseprite round semi-transparent edge wear by one RGB step.
+app.command.SaveFileAs{filename=root .. '/../../../../assets/art/room1_integrated_door_v3/door_front.png'}
 readback:close()
