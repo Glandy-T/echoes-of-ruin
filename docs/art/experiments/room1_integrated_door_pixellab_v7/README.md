@@ -1,5 +1,7 @@
 # Room 1 主门 PixelLab 贴图 v7：审图候选
 
+> **2026-10-29 审图记录：**用户查看 PixelLab 顶部修正后的对比并回复“可以”。本次顶部与侧面／底部的像素风格一致性修正已获认可，保留为当前门面贴图基线。此记录不扩大为整栋设施或其他墙面贴图的验收。
+
 本轮针对 v6 门面像素贴图出现的大块多边形。**v6 的新旧化确实由手工 Python 图层绘制，没有调用 PixelLab**；其粗色块与上沿的 1–3 px 像素簇尺度不一致。本版按 [像素贴图工作流](../../PIXEL_TEXTURE_WORKFLOW.md) 使用 PixelLab 官方 `/inpaint-v3` 接口重新生成细节。门的模型、UV、尺寸、灯语、开闭、碰撞和 Room 1 灯光不变。当前只提供独立候选，不替换正式场景。
 
 **顶部追加修正：**用户指出上一版保留的墙面上沿与 PixelLab 侧面／底部风格不统一。本次通过同一 PixelLab 接口单独重做顶部（[提示词](source/prompt_header.txt)、[输入](source/header_guide.png)、[遮罩](source/header_mask.png)、[原始输出](raw/pixellab_inpaint_v3_header.png)），新增 **10 generations**，只提交一次。移除整条厚沉积，改为与其他部位一致的零散细簇。最终 Aseprite 新增第三层 `pixellab_top_style_match`。当前累计三次调用、30 generations；本次用量见 [记录](result_header.json)。
