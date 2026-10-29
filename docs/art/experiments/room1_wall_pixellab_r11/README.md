@@ -1,5 +1,7 @@
 # Room 1 四墙 PixelLab r11 — 清除旧做旧后统一重做
 
+> 用户已认可本版方向，并要求增加差分；后续安排见 [r12 更多墙板差分](../room1_wall_pixellab_r12/README.md)。r11继续作为材质风格基准。
+
 2026-10-29。用户认可r10的像素细化方向，但指出新图仍混着旧的粗做旧。本版从**无旧化的干净建筑结构**开始，由PixelLab重新生成整套四墙表面；当前审图场景默认全部显示r11，B切旧r6只用于历史比较。正式游戏入口暂未替换。
 
 [完整对比](preview.html) · [Godot场景](../../../../scenes/dev/room1_wall_pixellab_r11.tscn) · [四墙Aseprite](editable/)

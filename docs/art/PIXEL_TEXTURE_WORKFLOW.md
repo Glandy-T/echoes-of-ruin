@@ -12,7 +12,9 @@
 
 首轮旧墙面返修见 [PixelLab r10 样段](experiments/room1_wall_pixellab_r10/README.md)：先审左墙两块墙板的颗粒与材质强度，再推广四墙，随后处理旧地板材料。该样段尚未替换原全室基线。
 
-**最新墙面候选：[r11 四墙统一重做](experiments/room1_wall_pixellab_r11/README.md)。**用户指出r10仍混有旧粗做旧后，r11只用干净底色／灯槽／接缝／保护带作输入，剔除全部旧材料色差与旧化图层，再用PixelLab生成四墙新材质。默认新材质不混用r6，旧图仅在历史比较时装载。
+**现行墙面风格基准：[r11 四墙统一重做](experiments/room1_wall_pixellab_r11/README.md)。**用户指出r10仍混有旧粗做旧后，r11只用干净底色／灯槽／接缝／保护带作输入，剔除全部旧材料色差与旧化图层，再用PixelLab生成四墙新材质。默认新材质不混用r6，旧图仅在历史比较时装载。
+
+用户认可r11后，新增 [r12 墙板差分安排](experiments/room1_wall_pixellab_r12/README.md)，继续沿用r11基调，通过更多PixelLab原图和固定的单墙板分配减少重复。
 
 ## 现有 Room 1 墙面的来源标注
 

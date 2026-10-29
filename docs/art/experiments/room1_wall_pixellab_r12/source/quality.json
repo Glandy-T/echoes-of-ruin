@@ -1,0 +1,55 @@
+{
+  "legacy_aging_layers_used": [],
+  "pool_size": 16,
+  "mirrored_or_scaled": false,
+  "walls": {
+    "left": {
+      "size": [
+        728,
+        272
+      ],
+      "unique_assignments_within_wall": true,
+      "neighboring_parent_variants_differ": true,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    },
+    "right": {
+      "size": [
+        728,
+        272
+      ],
+      "unique_assignments_within_wall": true,
+      "neighboring_parent_variants_differ": true,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    },
+    "front": {
+      "size": [
+        1648,
+        272
+      ],
+      "unique_assignments_within_wall": true,
+      "neighboring_parent_variants_differ": true,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    },
+    "rear": {
+      "size": [
+        1648,
+        272
+      ],
+      "unique_assignments_within_wall": true,
+      "neighboring_parent_variants_differ": true,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true,
+      "approved_door_bay_exact": true
+    }
+  },
+  "new_usage_generations": 50.0,
+  "unique_pixel_panel_hashes": 16,
+  "N_roundtrip_exact": true
+}
