@@ -1,0 +1,133 @@
+{
+	"checks": {
+		"InnerPhosphor_Floor_4_vertices_2_triangles": true,
+		"InnerPhosphor_Floor_behind_leaf_before_backdrop": true,
+		"InnerPhosphor_Header_4_vertices_2_triangles": true,
+		"InnerPhosphor_Header_behind_leaf_before_backdrop": true,
+		"InnerPhosphor_Left_4_vertices_2_triangles": true,
+		"InnerPhosphor_Left_behind_leaf_before_backdrop": true,
+		"InnerPhosphor_Right_4_vertices_2_triangles": true,
+		"InnerPhosphor_Right_behind_leaf_before_backdrop": true,
+		"JambLight_Bottom_neutral": true,
+		"JambLight_Bottom_visibility": true,
+		"JambLight_Left_neutral": true,
+		"JambLight_Left_visibility": true,
+		"JambLight_Right_neutral": true,
+		"JambLight_Right_visibility": true,
+		"JambLight_Top_neutral": true,
+		"JambLight_Top_visibility": true,
+		"actor_crosses_into_corridor": true,
+		"closed_power_off": true,
+		"collision_dimensions_preserved": true,
+		"collision_moves_with_panel": true,
+		"denial_window_only": true,
+		"denied_power_off": true,
+		"four_single_surface_diffusers": true,
+		"halo_camera_tracks_scene": true,
+		"halo_off_comparison": true,
+		"halo_source_depth_includes_moving_leaf": true,
+		"halo_toggle_hides_overlay": true,
+		"idle_power_off": true,
+		"independent_door_glow_world": true,
+		"leaf_mesh_front_and_status_preserved": true,
+		"no_added_light_nodes": true,
+		"passage_power_on": true,
+		"real_approach_scans": true,
+		"real_auth_opens": true,
+		"real_close_resets": true,
+		"same_1_52m_travel": true,
+		"scan_power_off": true,
+		"shader_guard_tracks_actual_leaf": true,
+		"status_window_green": true
+	},
+	"diffuser_root_local_vertices": [
+		[
+			-0.694999992847443,
+			-1.19500005245209,
+			-0.0450000017881393
+		],
+		[
+			-0.669000029563904,
+			-1.19500005245209,
+			-0.0750000029802322
+		],
+		[
+			-0.669000029563904,
+			1.12899994850159,
+			-0.0750000029802322
+		],
+		[
+			-0.694999992847443,
+			1.15499997138977,
+			-0.0450000017881393
+		],
+		[
+			0.669000029563904,
+			-1.19500005245209,
+			-0.0750000029802322
+		],
+		[
+			0.694999992847443,
+			-1.19500005245209,
+			-0.0450000017881393
+		],
+		[
+			0.694999992847443,
+			1.15499997138977,
+			-0.0450000017881393
+		],
+		[
+			0.669000029563904,
+			1.12899994850159,
+			-0.0750000029802322
+		],
+		[
+			-0.694999992847443,
+			1.15499997138977,
+			-0.0450000017881393
+		],
+		[
+			-0.669000029563904,
+			1.12899994850159,
+			-0.0750000029802322
+		],
+		[
+			0.669000029563904,
+			1.12899994850159,
+			-0.0750000029802322
+		],
+		[
+			0.694999992847443,
+			1.15499997138977,
+			-0.0450000017881393
+		],
+		[
+			-0.669000029563904,
+			-1.19500005245209,
+			-0.0750000029802322
+		],
+		[
+			-0.694999992847443,
+			-1.19500005245209,
+			-0.0450000017881393
+		],
+		[
+			0.694999992847443,
+			-1.19500005245209,
+			-0.0450000017881393
+		],
+		[
+			0.669000029563904,
+			-1.19500005245209,
+			-0.0750000029802322
+		]
+	],
+	"door_albedo": "res://assets/art/room1_integrated_door_pixellab_v7/door_front.png",
+	"emitter_shader": "res://scripts/dev/door_inner_phosphor_r17.gdshader",
+	"errors": [],
+	"leaf_mesh": "res://assets/art/room1_integrated_door_v3/room1_integrated_door_v3.glb::ArrayMesh_5611k",
+	"new_light_nodes": 0,
+	"pixel_texture_edited": false,
+	"rebaked": false,
+	"result": "PASS"
+}

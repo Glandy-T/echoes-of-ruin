@@ -1,0 +1,87 @@
+{
+  "result": "PASS",
+  "closed_no_source_or_halo": true,
+  "covered_right_source_and_jamb_clean": true,
+  "halo_toggle_preserves_source": true,
+  "states": [
+    {
+      "fraction_percent": 0,
+      "halo_changed_pixels": 0,
+      "visible_source_pixels": 0,
+      "halo_bbox_inclusive": null
+    },
+    {
+      "fraction_percent": 20,
+      "halo_changed_pixels": 5087,
+      "visible_source_pixels": 617,
+      "halo_bbox_inclusive": [
+        535,
+        97,
+        588,
+        434
+      ]
+    },
+    {
+      "fraction_percent": 50,
+      "halo_changed_pixels": 6499,
+      "visible_source_pixels": 745,
+      "halo_bbox_inclusive": [
+        535,
+        97,
+        652,
+        434
+      ]
+    },
+    {
+      "fraction_percent": 100,
+      "halo_changed_pixels": 12534,
+      "visible_source_pixels": 1455,
+      "halo_bbox_inclusive": [
+        535,
+        97,
+        744,
+        434
+      ]
+    }
+  ],
+  "six_room_camera_checks": [
+    {
+      "file": "soft_room_10.5_-4.75.png",
+      "changes_outside_door_halo": 0,
+      "visible_source_pixels": 752,
+      "changed_pixels": 7720
+    },
+    {
+      "file": "soft_room_10.5_-8.0.png",
+      "changes_outside_door_halo": 0,
+      "visible_source_pixels": 1513,
+      "changed_pixels": 13107
+    },
+    {
+      "file": "soft_room_17.475_-4.75.png",
+      "changes_outside_door_halo": 0,
+      "visible_source_pixels": 0,
+      "changed_pixels": 0
+    },
+    {
+      "file": "soft_room_17.475_-8.0.png",
+      "changes_outside_door_halo": 0,
+      "visible_source_pixels": 0,
+      "changed_pixels": 0
+    },
+    {
+      "file": "soft_room_3.525_-4.75.png",
+      "changes_outside_door_halo": 0,
+      "visible_source_pixels": 0,
+      "changed_pixels": 0
+    },
+    {
+      "file": "soft_room_3.525_-8.0.png",
+      "changes_outside_door_halo": 0,
+      "visible_source_pixels": 0,
+      "changed_pixels": 0
+    }
+  ],
+  "method": "RGB delta >2; same-camera core vs halo and saved visible-source masks",
+  "limit": "Postprocess feather can cross the immediate silhouette by a few pixels; not volumetric fog or GI."
+}

@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 门灯柔光 r18</title>
+<style>body{background:#171f21;color:#dde2df;font:16px/1.65 system-ui,sans-serif;margin:28px auto;max-width:1500px;padding:0 20px}a{color:#adcedc}h1{font-size:27px}h2{font-size:20px;margin-top:32px}p{max-width:1000px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;background:#222c2e;padding:10px}img{width:100%;display:block;image-rendering:pixelated}figcaption{padding-top:6px}@media(max-width:850px){.grid{grid-template-columns:1fr}}</style>
+<h1>门灯 r18 · 窄灯芯周围的薄柔光</h1>
+<p>保留这次认可的颜色、灯槽和位置，只让可见灯芯散出一层薄光晕。不是房间起雾，外门框也不作为发光源。当前待审；F6运行r18场景，F4比较。<a href="README.md">说明和验证</a></p>
+<h2>半开 · 同一游戏机位</h2><div class="grid">
+<figure><a href="evidence/core_game_50.png"><img src="evidence/core_game_50.png"></a><figcaption>r17：灯芯清楚，但边缘偏硬</figcaption></figure>
+<figure><a href="evidence/soft_game_50.png"><img src="evidence/soft_game_50.png"></a><figcaption>r18：灯芯周围柔和扩散，被挡住的右侧保持暗</figcaption></figure></div>
+<h2>近景全开</h2><div class="grid">
+<figure><a href="evidence/core_front.png"><img src="evidence/core_front.png"></a><figcaption>仅灯芯</figcaption></figure>
+<figure><a href="evidence/soft_front.png"><img src="evidence/soft_front.png"></a><figcaption>增加局部柔光；基础颜色与几何保持</figcaption></figure></div>
+<h2>关闭与斜看</h2><div class="grid">
+<figure><a href="evidence/soft_game_0.png"><img src="evidence/soft_game_0.png"></a><figcaption>关闭：没有残留光晕</figcaption></figure>
+<figure><a href="evidence/soft_right.png"><img src="evidence/soft_right.png"></a><figcaption>斜看半开：只扩散露出的灯面</figcaption></figure></div>
+<h2>人物遮挡</h2><div class="grid">
+<figure><a href="evidence/soft_actor_occlusion.png"><img src="evidence/soft_actor_occlusion.png"></a><figcaption>人物遮住左侧灯芯，不让光源穿过身体</figcaption></figure>
+<figure><a href="evidence/soft_actor_occlusion_source.png"><img src="evidence/soft_actor_occlusion_source.png"></a><figcaption>实际进入柔光的发光源：身体后方已被切掉</figcaption></figure></div>
+<p>保留r17作基准；当前仍继承r16单舱、r15地面、r13墙灯。没有改PixelLab颜色图或正式F5入口。柔光属于屏幕空间光学近似，不是真实体积雾。</p></html>
