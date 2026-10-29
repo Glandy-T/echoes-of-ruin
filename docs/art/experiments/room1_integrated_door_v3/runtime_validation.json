@@ -1,0 +1,15 @@
+{
+	"closed_fraction_after_pass": 0.0,
+	"crossed_to_corridor": true,
+	"denied_window_red": true,
+	"errors": [],
+	"jamb_sides": 4,
+	"open_fraction": 1.0,
+	"open_state": true,
+	"panel_collider_offset_difference_m": 0.0,
+	"red_jamb_state_implemented": false,
+	"result": "PASS",
+	"scan_state": true,
+	"schema": "room1_integrated_door_v3_runtime_check",
+	"second_actor_simulated": false
+}

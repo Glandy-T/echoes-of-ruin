@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 一体化门 v3 对比</title>
+<style>
+body{margin:0;background:#111a1c;color:#dce5e2;font:16px/1.5 system-ui,sans-serif}main{max-width:1360px;margin:auto;padding:28px}h1{font-size:26px;margin:0 0 8px}p{color:#aab9b4}section{margin:28px 0}h2{font-size:19px;margin:0 0 12px}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:#1c282b;border:1px solid #35494a;padding:10px}.card img{width:100%;height:auto;image-rendering:auto;display:block}.card b{display:block;padding:8px 2px 2px;font-weight:600}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}small{color:#9baea8}@media(max-width:800px){.pair,.grid{grid-template-columns:1fr}}
+</style><main>
+<h1>Room 1 一体化主门 v3</h1>
+<p>同一 Godot 镜头和 1280 × 720 分辨率。关注门面与后墙的关系，以及小窗与门洞内侧细灯。当前为审查样本。</p>
+<section><h2>与后墙融合：修改前后</h2><div class="pair">
+<div class="card"><img src="evidence/before_wall_integration.png" alt="修改前关门"><b>反馈前：门板偏亮偏暖，底部装饰与墙脚错位</b></div>
+<div class="card"><img src="evidence/idle_closed.png" alt="修改后关门"><b>修改后：后墙色调与明暗、墙脚高度接近</b></div>
+</div></section>
+<section><h2>认证与通行</h2><div class="grid">
+<div class="card"><img src="evidence/yellow_scanning.png" alt="小窗黄闪"><b>认证中：只在小窗黄闪</b></div>
+<div class="card"><img src="evidence/green_opening.png" alt="绿灯与侧滑"><b>获准：小窗与门洞四边绿灯，门侧滑</b></div>
+<div class="card"><img src="evidence/green_open.png" alt="门打开"><b>通行中：四边仍为绿色；门外是未定光照的走廊灰模</b></div>
+<div class="card"><img src="evidence/red_denied_window_only.png" alt="小窗红色拒绝"><b>拒绝：只在小窗红色，门框无红光</b></div>
+</div></section><small>截图来自实际 Godot 场景，不是 Blender 渲染或像素贴图单独预览。</small></main></html>

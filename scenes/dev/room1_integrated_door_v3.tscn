@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/cryo_building_room1_route_v3.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/dev/room1_integrated_door_v3.gd" id="2_script"]
+
+[node name="Room1IntegratedDoorV3" instance=ExtResource("1_base")]
+script = ExtResource("2_script")
