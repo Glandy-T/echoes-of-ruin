@@ -1,0 +1,19 @@
+{
+  "changed_pixels": 11547,
+  "outside_mask": 0,
+  "aseprite_pixel_exact": true,
+  "light_strip_unchanged": true,
+  "technical_after_N_roundtrip_exact": true,
+  "sample_world": {
+    "x": 0.2,
+    "z": [
+      -5.0,
+      -1.8
+    ],
+    "height": [
+      0.0,
+      3.2
+    ]
+  },
+  "new_light_bake": false
+}
