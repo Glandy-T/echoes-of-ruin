@@ -38,17 +38,17 @@ def find_image(value):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("action", choices=("submit", "poll"))
-    parser.add_argument("--variant", choices=("base", "revision"), default="base")
+    parser.add_argument("--variant", choices=("base", "revision", "header"), default="base")
     args = parser.parse_args()
     token = credential(True)  # official Aseprite PixelLab account, memory only
-    suffix = "" if args.variant == "base" else "_revision"
+    suffix = "" if args.variant == "base" else "_" + args.variant
     submission_path = HERE / ("submission" + suffix + ".json")
     if args.action == "submit":
         if submission_path.exists():
             raise RuntimeError("This variant already has a submitted PixelLab job; POST was not retried")
         payload = {"description": (HERE / ("prompt" + suffix + ".txt")).read_text(encoding="utf-8"),
-                   "inpainting_image": encoded(HERE / "guide.png"),
-                   "mask_image": encoded(HERE / "mask.png"),
+                   "inpainting_image": encoded(HERE / ("header_guide.png" if args.variant == "header" else "guide.png")),
+                   "mask_image": encoded(HERE / ("header_mask.png" if args.variant == "header" else "mask.png")),
                    "no_background": False, "crop_to_mask": False}
         result = request("POST", "/inpaint-v3", token, payload)
         job = result.get("background_job_id")

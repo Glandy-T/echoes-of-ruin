@@ -1,7 +1,7 @@
 """Mask-align PixelLab's raw texture to the fixed UV and status insert.
 
 No aging marks are drawn here. PixelLab supplies every new material pixel;
-the guide only preserves the accepted header and functional status insert.
+the third layer replaces the legacy header while retaining the status insert.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw
@@ -30,5 +30,13 @@ detail = raw.copy()
 detail.putalpha(final_mask)
 detail.save(HERE / "pixellab_material_layer.png")
 result = Image.alpha_composite(guide, detail)
+header_path = EXPERIMENT / "raw/pixellab_inpaint_v3_header.png"
+if header_path.exists():
+    header = Image.open(header_path).convert("RGBA")
+    header_mask = Image.open(HERE / "header_mask.png").convert("L")
+    assert header.size == header_mask.size == result.size
+    header.putalpha(header_mask)
+    header.save(HERE / "pixellab_header_layer.png")
+    result = Image.alpha_composite(result, header)
 result.save(OUT / "door_front.png")  # Aseprite roundtrip will export the master
 print("PIXELLAB_ASSEMBLED", result.size, "pixel_detail_from=PixelLab", "status=original")
