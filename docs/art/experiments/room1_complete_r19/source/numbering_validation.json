@@ -1,0 +1,251 @@
+{
+  "result": "PASS",
+  "checked_textures": 40,
+  "unique_id_plates": {
+    "lid": 20,
+    "shell_end": 20
+  },
+  "p12_original_pixels_preserved": true,
+  "checks": [
+    {
+      "id": "P01",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P01",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P02",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P02",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P03",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P03",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P04",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P04",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P05",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P05",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P06",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P06",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P07",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P07",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P08",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P08",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P09",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P09",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P10",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P10",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P11",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P11",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P12",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P12",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P13",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P13",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P14",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P14",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P15",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P15",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P16",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P16",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P17",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P17",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P18",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P18",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P19",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P19",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P20",
+      "role": "lid",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    },
+    {
+      "id": "P20",
+      "role": "shell_end",
+      "exact_expected_number": true,
+      "non_label_pixels_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "result": "PASS",
+  "date": "2026-10-30",
+  "scope": "final r19 in managed upload checkout; not school-machine acceptance",
+  "steps": {
+    "import": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence_lines": []
+    },
+    "runtime": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence_lines": [
+        "R19_COMPLETE_RUNTIME PASS checks=355 walks=39 errors=[]"
+      ]
+    },
+    "formal_title": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence_lines": [
+        "PASS: r19 title route, F6 play mode, opening, movement, P12 interaction, pause, and review-key isolation"
+      ]
+    },
+    "existing_title": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence_lines": [
+        "PASS: title settings, start, opening, hints, pause, settings, resume, return to title, restart"
+      ]
+    },
+    "formal_capture": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence_lines": []
+    }
+  },
+  "runtime_checks": 355,
+  "physical_walks": 39,
+  "blend_portability": {
+    "checkout": "independent upload checkout",
+    "external_unpacked": 250,
+    "missing": [],
+    "absolute": []
+  },
+  "independent_asset_failures": [],
+  "capture_sha256": {
+    "evidence/before/game_back_left_closed.png": "154b86a5fda155288740227dce8a39353d736ba9ae9e81afe944951f9a9a1aec",
+    "evidence/before/game_back_left_open.png": "a30b5e8231dfb283b971d45266a29c4b2d299e6cb2d26646320137cdaf3f9ff4",
+    "evidence/before/game_back_middle_closed.png": "34588d39890a5cc718509909c1537b29f4710efc5bbd93b41a8fea7ce98ce3ed",
+    "evidence/before/game_back_middle_open.png": "34588d39890a5cc718509909c1537b29f4710efc5bbd93b41a8fea7ce98ce3ed",
+    "evidence/before/game_back_right_closed.png": "e249ce318341027b8b43dab06333d72e0ff9ec4508967661a488f1c5ea2d73d6",
+    "evidence/before/game_back_right_open.png": "e249ce318341027b8b43dab06333d72e0ff9ec4508967661a488f1c5ea2d73d6",
+    "evidence/before/game_front_left_closed.png": "c2ccfcae5e9454ce3e611db9ab984d7c8c0e29a8aac0ab9d0ad010fc6726ee9c",
+    "evidence/before/game_front_left_open.png": "7a90c568911c5051efc07d9ea3c0262e9f62c7b2c07ffedd9cf3ebceb43fca3d",
+    "evidence/before/game_front_middle_closed.png": "c630027b293b98c753c3e97cd55235455bd03e5644fffd83eb5ce13beead7fa0",
+    "evidence/before/game_front_middle_open.png": "a860d52433ece16f22d9365dbab845c4d824c0a62bc0381ec8d2699d839079fa",
+    "evidence/before/game_front_right_closed.png": "5733832c6e5476f43b9889615a2f1795989c4e12dc6661ef6b9fa4101c4723c9",
+    "evidence/before/game_front_right_open.png": "5733832c6e5476f43b9889615a2f1795989c4e12dc6661ef6b9fa4101c4723c9",
+    "evidence/before/p12_oblique_closed.png": "3066c69e14d2b09ba9ac0d919e2fb65748a8604cfbe5da7ec65788ddb6a3d3cd",
+    "evidence/before/p12_oblique_open.png": "274a01702b51be904acc3f359db61d657696984930ce65e8754ab617c769b528",
+    "evidence/before/whole_room_closed.png": "c2c6ab4af362c01f4befb56c51ffb93439592312942d38727caaa902dc6de5d8",
+    "evidence/before/whole_room_open.png": "5854b8567125f1a160f3b8ad911ca251819e091cc931b2045d2f69ab3941f23a",
+    "evidence/complete/corner_front_left.png": "310dd02f710982c4f68026f94da2a2ab69d5e13ae2471b0030adb9c084a83fd2",
+    "evidence/complete/corner_front_right.png": "c73fe54e06a9a9ac68d7828d325446bdc3cc8447d6de3a34320030de9ba394a9",
+    "evidence/complete/corner_rear_left.png": "931de60b5881b1a96e1e6ff411289de411d23e397e1532c92e2fbb1e954748be",
+    "evidence/complete/corner_rear_right.png": "1b7c257b4df9aa33b64a060faaea76a4fc3cc0d6e1aa13dd37374aa90ce50d7e",
+    "evidence/complete/denoised_corner.png": "931de60b5881b1a96e1e6ff411289de411d23e397e1532c92e2fbb1e954748be",
+    "evidence/complete/denoised_p12.png": "a1ed137d0915a19d43ee79d4089223b9322bf50b1b2eef3a0d9ea24e9456dbd7",
+    "evidence/complete/door_header.png": "8aec7b7d3aded630d7bbecf3c51c0f82cd1a8da8b81e478603599418e6d7c6b6",
+    "evidence/complete/floor_contacts.png": "c18b24bce968b073692d3b35026fea74740cd3fb7860e07fc540b128a92b4007",
+    "evidence/complete/front_wall_lamp.png": "6e480c876eb8a738c8b7bb0692db50cd18c114eff56f7dea45f7439836ad89f4",
+    "evidence/complete/game_back_left_closed.png": "53f968c2e4ed090e2af34d0a5f093ed3522d40098f7cfd82f1ec75a0abea9e60",
+    "evidence/complete/game_back_left_open.png": "af5c2b4695cc23954d884f1cf94c93bc35c0fefae2f6e7ebbf0815ef9a8d0511",
+    "evidence/complete/game_back_middle_closed.png": "32f47f7f21f7048e3678e4c08c2830d38e3bb2dd899fe6a6d93afeda5799d27b",
+    "evidence/complete/game_back_middle_open.png": "7146db4b1bcfe801789406c2c3f150b8e59e69626fdb7ccbbc30624c37807d38",
+    "evidence/complete/game_back_right_closed.png": "07c8ff1ab5846095a4e0cdf2f752369c41a32a90003613895a79750b4542b3b6",
+    "evidence/complete/game_back_right_open.png": "ff7fd5b823a65a2981d145146c7b06a4be9322de411890a50171eda8fe49234f",
+    "evidence/complete/game_front_left_closed.png": "f430b5dd8248b0846eaac1421459047030b7340e1d7ea059aa61c52687e24068",
+    "evidence/complete/game_front_left_open.png": "81cb7ac97f8307dea2a6b85a1ac2ef7d2076db979cc1f31456b6c5c5816387d1",
+    "evidence/complete/game_front_middle_closed.png": "7e5cc142265b0fd7807be5b2dfa06386dc63cb77568a70607e165378d059f5a7",
+    "evidence/complete/game_front_middle_open.png": "59e66137537f745e1c7fcc9f46232aba68eec46e792a6ecf51a57f7c3711d767",
+    "evidence/complete/game_front_right_closed.png": "251a3a77180b90da5928f815d35590839a64d0b50c57b8d9bf9cf72602005b8e",
+    "evidence/complete/game_front_right_open.png": "09dcbd525b1a986eb9503bc6464e1751811a093a614c5d5f74c8acaec4fac7d7",
+    "evidence/complete/glass_closed_tubes_on.png": "22967900c7ac5f7def79057ac85789e50996487b7702aa6073527b8f2958072d",
+    "evidence/complete/glass_hidden.png": "be69647cd683b346356d9a61a0997f1b63153319934927e3da73ac1532fc4c3d",
+    "evidence/complete/glass_tubes_off.png": "eca01c6b8ff0b79ad8616491e7f18332f61baad73c5c3744c344c35c8cfc37a1",
+    "evidence/complete/p12_oblique_closed.png": "ae9e1df50c0bf31210b9a128f7450ee5dc33c9ca266154d940c2213c1b1c648e",
+    "evidence/complete/p12_oblique_open.png": "f0be7e2c2c8c34df0b89c5de9220b74bb38f20b53d3edf22d6ad6e1878def3fc",
+    "evidence/complete/p12_open_restored.png": "a1ed137d0915a19d43ee79d4089223b9322bf50b1b2eef3a0d9ea24e9456dbd7",
+    "evidence/complete/pod_P01.png": "c654794360ea22a5e9cf2407c15ffffff40aa51fe540c460b071a26191f5e22c",
+    "evidence/complete/pod_P02.png": "c48948716973bfe6090f91cbc0ec8f9890129410aa5057c923d0f28be58f3573",
+    "evidence/complete/pod_P03.png": "846859fc9bb155d1ae14baab9b888ed83b320974ee0eff1f5c56a6233ab39a27",
+    "evidence/complete/pod_P04.png": "778530c24c2944166df896b3c20f2a04e66b1ae448d9b7005d19f4b472e06bd2",
+    "evidence/complete/pod_P05.png": "d8de498ab63d969985fe088c4a7646e2e023279a3545a5248ba36b94c6182733",
+    "evidence/complete/pod_P06.png": "385b596de8ad8fdc4fc4b4f847a29a74290442da428c03cd691f557eea253518",
+    "evidence/complete/pod_P07.png": "5b2a685babfcf46e8b2092e0f0f1bce7c707d5c4148c0ff3ba630932a8aaf798",
+    "evidence/complete/pod_P08.png": "5b5f32332d9a64c9612ad8a1b6ba8ab8dbf1da6dddc7fed3d7f30788b5ee14bf",
+    "evidence/complete/pod_P09.png": "ace63ee3c04a441206c702c4913840d141f452d8d3006af45443a4734ad3775f",
+    "evidence/complete/pod_P10.png": "57e08a412fc2e407336b1238eda80079555efac7cf0f90efc85062a4fa11dd99",
+    "evidence/complete/pod_P11.png": "dbe3f306734a7df620fa440ede45b1d6f74d2240104b7bf28617bc98ce20d682",
+    "evidence/complete/pod_P12.png": "2dd76d72288754de12676bdf67b5c51d2690111fdafdf85df6da0bb09cfa1256",
+    "evidence/complete/pod_P13.png": "6415cc1ee7e7589283360e5ca21fe29b881b4f51e39612bace4ddd686ae376d0",
+    "evidence/complete/pod_P14.png": "2d815e045f5de5a7300d47e19f08e08db4aec591c7b743c81e4550a23785426d",
+    "evidence/complete/pod_P15.png": "5b63bfccfb783463c85be2bdfb5033c8919dfc5a1ed65db0d8aee511e4ce127d",
+    "evidence/complete/pod_P16.png": "24d49fb06d3162e26e0ad4206118472e8b97ac03c30445b46dc919314d7a0a7b",
+    "evidence/complete/pod_P17.png": "a51052aeeb2df75bf9ec813d3ff40bcb92221cf77407e75d37915778847c4773",
+    "evidence/complete/pod_P18.png": "caa7284e766e26d4a9feef3ab299ef565f5c0ac47280c2e096be71509bbca419",
+    "evidence/complete/pod_P19.png": "5fb3e028a93418b1182a549bf3a56c1e95239dcafa21ec2427edbcb8d80b1705",
+    "evidence/complete/pod_P20.png": "7dc896e173bd937100d3735481c9651237512027d2613bcd682bb748959efe2d",
+    "evidence/complete/raw_corner.png": "7f7fba61de19151a9e9033b8918f0ec630163ded8c9f2c8ab17d7b7e2fe2a8ca",
+    "evidence/complete/raw_p12.png": "01f95ecee075f2cee9aedd8ef7e78d8c4f73ff2267c36e901e7e519dd9571af4",
+    "evidence/complete/whole_room_closed.png": "21c091b7d46f6f0c532d1488504d65ef1e9ae4720b6b00198ca3cbe0be455fdd",
+    "evidence/complete/whole_room_open.png": "91c32266edbb4c7023bc762c7713a017ffb5fc08c44bdc3da24798abc63a102d",
+    "evidence/formal_door_open.png": "d6a8b361c775b2a136c1373967e9293664f361a9b36124d97c4e260e58aba466",
+    "evidence/formal_door_opening.png": "9e6d8149e09f7f530fadea8a6a0a921314d85f9b0f8917cd152604a4a69be5d0",
+    "evidence/formal_gameplay_start.png": "e385b0a5d8fd1f1b1559f1c2fe9b8a549c762a1cb151b00b351b2cb0b60dc740",
+    "evidence/formal_main_aisle.png": "8e4497b20aa60384cf20b90872ea2de39263278beb28389c01fb75ceefa3f377",
+    "evidence/formal_opening_dialogue.png": "8bb61ed26255f94ad82cd85ddf5539865688c498303e781782cc8af680094f25",
+    "evidence/formal_title.png": "b6aa992ef47c4bfa7cc479e11de3cc447f1cae138295abc2d658b19a0b17d428",
+    "evidence/lighting_checks.png": "887d8f285e0215739bd634dbceb389db8412b6820fb948c0b50a9e2f449ee161",
+    "evidence/pods_all_20.png": "713afed92ab9ac1d3a816410d1df18f5a492354bca44f8d45f53df087b3ce564"
+  },
+  "pixel_art_generation": "none: approved PixelLab images reused; functional labels only"
+}

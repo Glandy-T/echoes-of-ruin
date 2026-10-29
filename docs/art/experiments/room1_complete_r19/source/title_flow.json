@@ -1,0 +1,32 @@
+{
+  "revision": "r19",
+  "scope": "formal Room 1 title entry",
+  "title_scene": "res://scenes/core/title_screen.tscn",
+  "formal_scene": "res://scenes/areas/military_facility/cryo_room_4f_01_3d.tscn",
+  "formal_scene_base": "res://scenes/dev/room1_complete_r19.tscn",
+  "play_mode_flag": "room1_play_mode",
+  "retained_player_inputs": [
+    "WASD movement",
+    "E interact",
+    "Enter dialogue advance",
+    "Escape pause"
+  ],
+  "blocked_review_inputs": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "P",
+    "K",
+    "O",
+    "G"
+  ],
+  "validation_script": "res://scripts/dev/verify_room1_complete_title_r19.gd",
+  "validation_status": "PASS: final assets in independent upload checkout",
+  "validation_notes": [
+    "Formal verifier covers title route, direct-scene play mode, opening dialogue, headless controller movement branch, P12 interaction, pause, and review-key isolation.",
+    "Existing title-flow verifier confirms title settings, hint persistence, pause settings, return-to-title, and restart against the formal wrapper.",
+    "Both console logs had zero ERROR: and SCRIPT ERROR: matches."
+  ],
+  "validation_evidence": "validation_results.json; temporary console logs deliberately excluded"
+}

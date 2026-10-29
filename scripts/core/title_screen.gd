@@ -1,7 +1,7 @@
 extends Control
 
 # Start the current Room 1 build; the earlier 2D room remains available separately.
-const START_SCENE_PATH := "res://scenes/dev/room1_door_sensor_review_r1.tscn"
+const START_SCENE_PATH := "res://scenes/areas/military_facility/cryo_room_4f_01_3d.tscn"
 const WINDOWED_SIZE := Vector2i(1280, 720)
 const DISPLAY_MODE_WINDOWED := 0
 const DISPLAY_MODE_FULLSCREEN := 1
@@ -90,4 +90,3 @@ func _show_main_menu() -> void:
 	title_block.show()
 	main_menu.show()
 	settings_button.grab_focus()
-

@@ -1,0 +1,1381 @@
+{
+  "method": "UV2 connected components via exact shared UV edges; minimum Euclidean distance between boundary segments of distinct components. Pixel distance = UV distance * map resolution.",
+  "interpretation": {
+    "bilinear_footprint_assumption_px": 1,
+    "pod_dilation_px": 4,
+    "shell_dilation_px": 6,
+    "pod_two_chart_conservative_requirement_px": 10,
+    "shell_two_chart_conservative_requirement_px": 14,
+    "pod_atlas_edge_requirement_px": 5,
+    "shell_atlas_edge_requirement_px": 7,
+    "warning": "This is UV geometry only. It does not inspect baked EXR gutter texels or denoiser bleed. Runtime sampler/import checks are a separate audit. Pod atlas outer-edge distance is 0px and is explicitly not claimed as padding."
+  },
+  "pods": {
+    "R19_P01_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P02_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P03_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P04_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P05_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P06_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P07_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P08_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P09_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P10_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P11_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P12_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P13_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P14_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P15_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P16_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P17_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P18_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P19_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    },
+    "R19_P20_closed_receiver": {
+      "resolution": 1024,
+      "triangle_count": 1216,
+      "island_count": 162,
+      "boundary_segment_count": 1246,
+      "min_inter_island_uv_distance": 0.011645000000000016,
+      "min_inter_island_distance_px": 11.924480000000017,
+      "closest_island_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_inter_island_non_endpoint_touch_distance_px": 11.924480000000017,
+      "closest_non_endpoint_touch_boundary_pair": {
+        "island_a": 48,
+        "island_b": 146,
+        "edge_a": [
+          [
+            0.3511824,
+            0.9208628
+          ],
+          [
+            0.3511824,
+            0.9697589
+          ]
+        ],
+        "edge_b": [
+          [
+            0.3306129,
+            0.9480732
+          ],
+          [
+            0.3395374,
+            0.9534645
+          ]
+        ]
+      },
+      "min_island_boundary_to_atlas_edge_px": 0.0,
+      "dilation_px_configured": 4,
+      "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 10,
+      "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+      "geometric_inter_island_clearance_after_two_dilations_px": 3.924480000000017,
+      "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 1.9244800000000168,
+      "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 5,
+      "edge_clearance_after_dilation_plus_1px_bilinear_px": -5.0
+    }
+  },
+  "shell": {
+    "resolution": 2048,
+    "triangle_count": 96,
+    "island_count": 48,
+    "boundary_segment_count": 192,
+    "min_inter_island_uv_distance": 0.0,
+    "min_inter_island_distance_px": 0.0,
+    "closest_island_boundary_pair": {
+      "island_a": 11,
+      "island_b": 23,
+      "edge_a": [
+        [
+          0.3046667,
+          0.01124
+        ],
+        [
+          0.3046667,
+          0.11
+        ]
+      ],
+      "edge_b": [
+        [
+          0.3046667,
+          0.11
+        ],
+        [
+          0.3453333,
+          0.11
+        ]
+      ]
+    },
+    "min_inter_island_non_endpoint_touch_distance_px": 16.228966400000047,
+    "closest_non_endpoint_touch_boundary_pair": {
+      "island_a": 7,
+      "island_b": 40,
+      "edge_a": [
+        [
+          0.1559707,
+          0.2522429
+        ],
+        [
+          0.1884822,
+          0.2522434
+        ]
+      ],
+      "edge_b": [
+        [
+          0.1964065,
+          0.2287804
+        ],
+        [
+          0.1964065,
+          0.3293312
+        ]
+      ]
+    },
+    "min_island_boundary_to_atlas_edge_px": 10.240221977233887,
+    "dilation_px_configured": 6,
+    "two_chart_requirement_dilation_plus_1px_bilinear_each_side_px": 14,
+    "clearance_budget_basis": "minimum non-endpoint-touch island separation; endpoint-only contacts are reported separately and not treated as a gutter width",
+    "geometric_inter_island_clearance_after_two_dilations_px": 4.228966400000047,
+    "conservative_clearance_after_dilation_plus_1px_bilinear_each_side_px": 2.228966400000047,
+    "atlas_edge_requirement_dilation_plus_1px_bilinear_px": 7,
+    "edge_clearance_after_dilation_plus_1px_bilinear_px": 3.2402219772338867
+  },
+  "failures": []
+}

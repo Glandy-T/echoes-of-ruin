@@ -1,0 +1,178 @@
+[
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 3.25)]",
+		"file": "before/game_front_left_closed.png",
+		"fov": 50.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+		"file": "before/game_front_middle_closed.png",
+		"fov": 50.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (17.475, 2.25, 3.25)]",
+		"file": "before/game_front_right_closed.png",
+		"fov": 50.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 0.0)]",
+		"file": "before/game_back_left_closed.png",
+		"fov": 50.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 0.0)]",
+		"file": "before/game_back_middle_closed.png",
+		"fov": 50.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (17.475, 2.25, 0.0)]",
+		"file": "before/game_back_right_closed.png",
+		"fov": 50.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.654377, -0.756169), Z: (0.0, 0.756169, 0.654377), O: (10.5, 13.0, 6.5)]",
+		"file": "before/whole_room_closed.png",
+		"fov": 78.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"file": "before/p12_oblique_closed.png",
+		"fov": 44.0,
+		"p12_pose": "closed",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 3.25)]",
+		"file": "before/game_front_left_open.png",
+		"fov": 50.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+		"file": "before/game_front_middle_open.png",
+		"fov": 50.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (17.475, 2.25, 3.25)]",
+		"file": "before/game_front_right_open.png",
+		"fov": 50.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 0.0)]",
+		"file": "before/game_back_left_open.png",
+		"fov": 50.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 0.0)]",
+		"file": "before/game_back_middle_open.png",
+		"fov": 50.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (17.475, 2.25, 0.0)]",
+		"file": "before/game_back_right_open.png",
+		"fov": 50.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.654377, -0.756169), Z: (0.0, 0.756169, 0.654377), O: (10.5, 13.0, 6.5)]",
+		"file": "before/whole_room_open.png",
+		"fov": 78.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"file": "before/p12_oblique_open.png",
+		"fov": 44.0,
+		"p12_pose": "open",
+		"raw": false,
+		"resolution": [
+			1280,
+			720
+		]
+	}
+]

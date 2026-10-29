@@ -31,7 +31,7 @@ func run_checks() -> void:
 	title.start_button.pressed.emit()
 	for i in 30: await physics_frame
 	var room = current_scene
-	assert(room.scene_file_path == "res://scenes/dev/room1_door_sensor_review_r1.tscn")
+	assert(room.scene_file_path == "res://scenes/areas/military_facility/cryo_room_4f_01_3d.tscn")
 	assert(room.review_ui.is_dialogue_open() and room.input_locked)
 	assert(not room.info.get_parent().visible)
 	assert(not room.review_ui.show_hint)
@@ -63,4 +63,3 @@ func run_checks() -> void:
 	assert(current_scene.review_ui.is_dialogue_open())
 	print("PASS: title settings, start, opening, hints, pause, settings, resume, return to title, restart")
 	quit()
-

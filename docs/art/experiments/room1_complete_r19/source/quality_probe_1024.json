@@ -1,0 +1,34 @@
+[
+  {
+    "name": "room_closed",
+    "reused": false,
+    "raw": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_complete_r19\\source\\quality_probe_1024\\room_closed_raw.exr",
+    "final": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_complete_r19\\source\\quality_probe_1024\\room_closed.exr",
+    "seconds": 15.078999999997905,
+    "size": 2048,
+    "denoise": "oidn_compositor",
+    "rgb_range": [
+      0.0,
+      17.077789306640625
+    ],
+    "samples": 1024,
+    "shell_uv2_hash": "00226e106661bd662b183faebd3253a4f461e9822b520d6a18175973cf44d78c",
+    "runtime_assets_modified": false
+  },
+  {
+    "name": "room_open",
+    "reused": false,
+    "raw": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_complete_r19\\source\\quality_probe_1024\\room_open_raw.exr",
+    "final": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\room1_complete_r19\\source\\quality_probe_1024\\room_open.exr",
+    "seconds": 14.531000000002678,
+    "size": 2048,
+    "denoise": "oidn_compositor",
+    "rgb_range": [
+      0.0,
+      17.07777976989746
+    ],
+    "samples": 1024,
+    "shell_uv2_hash": "00226e106661bd662b183faebd3253a4f461e9822b520d6a18175973cf44d78c",
+    "runtime_assets_modified": false
+  }
+]

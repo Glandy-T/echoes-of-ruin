@@ -1,0 +1,814 @@
+{
+	"baked_energy": 1.2,
+	"old_bodies": [
+		{
+			"layer": 1,
+			"path": "Pods/P01/Solid_P01"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P02/Solid_P02"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P03/Solid_P03"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P04/Solid_P04"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P05/Solid_P05"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P06/Solid_P06"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P07/Solid_P07"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P08/Solid_P08"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P09/Solid_P09"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P10/Solid_P10"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P11/Solid_P11"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P13/Solid_P13"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P14/Solid_P14"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P15/Solid_P15"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P16/Solid_P16"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P17/Solid_P17"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P18/Solid_P18"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P19/Solid_P19"
+		},
+		{
+			"layer": 1,
+			"path": "Pods/P20/Solid_P20"
+		}
+	],
+	"p12_screen": {
+		"name": "----",
+		"powered": true,
+		"status": "----"
+	},
+	"pods": [
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P01_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P01_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P01",
+			"number": 1,
+			"origin": [
+				1.77499997615814,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 2
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P02_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P02_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P02",
+			"number": 2,
+			"origin": [
+				3.52500009536743,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 0
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P03_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P03_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P03",
+			"number": 3,
+			"origin": [
+				5.27500009536743,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 3
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P04_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P04_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P04",
+			"number": 4,
+			"origin": [
+				7.02500009536743,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 1
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P05_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P05_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P05",
+			"number": 5,
+			"origin": [
+				8.77499961853027,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 0
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P06_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P06_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P06",
+			"number": 6,
+			"origin": [
+				12.2250003814697,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 2
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P07_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P07_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P07",
+			"number": 7,
+			"origin": [
+				13.9750003814697,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 1
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P08_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P08_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P08",
+			"number": 8,
+			"origin": [
+				15.7250003814697,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 3
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P09_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P09_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P09",
+			"number": 9,
+			"origin": [
+				17.4750003814697,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 0
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P10_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P10_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					-1.0,
+					0.0,
+					0.0000000874227765734759
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					-0.0000000874227765734759,
+					0.0,
+					-1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P10",
+			"number": 10,
+			"origin": [
+				19.2250003814697,
+				0.0,
+				-1.85000002384186
+			],
+			"variant_index": 2
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P11_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P11_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P11",
+			"number": 11,
+			"origin": [
+				1.77499997615814,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 1
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P12_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P12_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P12",
+			"number": 12,
+			"origin": [
+				3.52500009536743,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 0
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P13_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P13_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P13",
+			"number": 13,
+			"origin": [
+				5.27500009536743,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 2
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P14_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P14_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P14",
+			"number": 14,
+			"origin": [
+				7.02500009536743,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 3
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P15_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P15_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P15",
+			"number": 15,
+			"origin": [
+				8.77499961853027,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 1
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P16_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P16_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P16",
+			"number": 16,
+			"origin": [
+				12.2250003814697,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 2
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P17_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P17_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P17",
+			"number": 17,
+			"origin": [
+				13.9750003814697,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 0
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P18_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P18_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P18",
+			"number": 18,
+			"origin": [
+				15.7250003814697,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 1
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P19_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P19_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P19",
+			"number": 19,
+			"origin": [
+				17.4750003814697,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 3
+		},
+		{
+			"bake_color_maps": {
+				"interior": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+				"lid": "assets/art/room1_complete_r19/numbered/P20_lid.png",
+				"mattress": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+				"section": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+				"shell_end": "assets/art/room1_complete_r19/numbered/P20_shell_end.png",
+				"shell_side": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+			},
+			"basis_columns": [
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			],
+			"determinant": 1.0,
+			"id": "P20",
+			"number": 20,
+			"origin": [
+				19.2250003814697,
+				0.0,
+				-7.65000009536743
+			],
+			"variant_index": 0
+		}
+	],
+	"source_scene": "res://scenes/dev/room1_door_soft_glow_r18.tscn",
+	"window_lit_pods": [
+		"P02",
+		"P12",
+		"P17"
+	]
+}

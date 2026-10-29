@@ -1,0 +1,2992 @@
+{
+  "audit": "independent read-only Blender audit",
+  "blend": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_complete_r19\\room1_complete_r19.blend",
+  "confirmed": {
+    "source_editability": {
+      "blend_opened": true,
+      "mesh_object_count": 110,
+      "closed_receiver_names": [
+        "R19_P01_closed_receiver",
+        "R19_P02_closed_receiver",
+        "R19_P03_closed_receiver",
+        "R19_P04_closed_receiver",
+        "R19_P05_closed_receiver",
+        "R19_P06_closed_receiver",
+        "R19_P07_closed_receiver",
+        "R19_P08_closed_receiver",
+        "R19_P09_closed_receiver",
+        "R19_P10_closed_receiver",
+        "R19_P11_closed_receiver",
+        "R19_P12_closed_receiver",
+        "R19_P13_closed_receiver",
+        "R19_P14_closed_receiver",
+        "R19_P15_closed_receiver",
+        "R19_P16_closed_receiver",
+        "R19_P17_closed_receiver",
+        "R19_P18_closed_receiver",
+        "R19_P19_closed_receiver",
+        "R19_P20_closed_receiver"
+      ],
+      "closed_receiver_count": 20,
+      "old_v3_or_bake_p_objects": [],
+      "shell_mesh_names": [
+        "R19_shell_receiver"
+      ],
+      "blend_file_path_is_absolute_expected_for_open_file": true,
+      "external_images_absolute": 0,
+      "external_images_relative": 292
+    },
+    "upload_portability_readback": {
+      "external_unpacked": 250,
+      "absolute_unpacked": 0,
+      "missing_unpacked": [],
+      "absolute_names": []
+    },
+    "saved_scene_bake_settings": {
+      "render_engine": "CYCLES",
+      "cycles_samples": 1024,
+      "adaptive_sampling": false,
+      "saved_scene_margin_not_a_per_job_contract": 6
+    },
+    "pod_materials": {
+      "P01": {
+        "R19_P01_lid": [
+          "assets/art/room1_complete_r19/numbered/P01_lid.png"
+        ],
+        "R19_P01_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P01_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P01_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P01_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P01_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P01_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P01_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P01_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P01_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+        ],
+        "R19_P01_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P01_shell_end.png"
+        ],
+        "R19_P01_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing": []
+      },
+      "P02": {
+        "R19_P02_lid": [
+          "assets/art/room1_complete_r19/numbered/P02_lid.png"
+        ],
+        "R19_P02_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P02_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P02_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P02_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P02_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P02_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P02_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P02_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P02_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+        ],
+        "R19_P02_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P02_shell_end.png"
+        ],
+        "R19_P02_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.001": []
+      },
+      "P03": {
+        "R19_P03_lid": [
+          "assets/art/room1_complete_r19/numbered/P03_lid.png"
+        ],
+        "R19_P03_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P03_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P03_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P03_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P03_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P03_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P03_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P03_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P03_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+        ],
+        "R19_P03_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P03_shell_end.png"
+        ],
+        "R19_P03_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.002": []
+      },
+      "P04": {
+        "R19_P04_lid": [
+          "assets/art/room1_complete_r19/numbered/P04_lid.png"
+        ],
+        "R19_P04_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P04_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P04_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P04_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P04_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P04_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P04_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P04_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P04_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+        ],
+        "R19_P04_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P04_shell_end.png"
+        ],
+        "R19_P04_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.003": []
+      },
+      "P05": {
+        "R19_P05_lid": [
+          "assets/art/room1_complete_r19/numbered/P05_lid.png"
+        ],
+        "R19_P05_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P05_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P05_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P05_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P05_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P05_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P05_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P05_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P05_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+        ],
+        "R19_P05_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P05_shell_end.png"
+        ],
+        "R19_P05_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.004": []
+      },
+      "P06": {
+        "R19_P06_lid": [
+          "assets/art/room1_complete_r19/numbered/P06_lid.png"
+        ],
+        "R19_P06_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P06_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P06_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P06_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P06_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P06_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P06_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P06_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P06_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+        ],
+        "R19_P06_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P06_shell_end.png"
+        ],
+        "R19_P06_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.005": []
+      },
+      "P07": {
+        "R19_P07_lid": [
+          "assets/art/room1_complete_r19/numbered/P07_lid.png"
+        ],
+        "R19_P07_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P07_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P07_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P07_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P07_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P07_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P07_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P07_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P07_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+        ],
+        "R19_P07_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P07_shell_end.png"
+        ],
+        "R19_P07_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.006": []
+      },
+      "P08": {
+        "R19_P08_lid": [
+          "assets/art/room1_complete_r19/numbered/P08_lid.png"
+        ],
+        "R19_P08_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P08_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P08_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P08_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P08_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P08_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P08_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P08_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P08_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+        ],
+        "R19_P08_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P08_shell_end.png"
+        ],
+        "R19_P08_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.007": []
+      },
+      "P09": {
+        "R19_P09_lid": [
+          "assets/art/room1_complete_r19/numbered/P09_lid.png"
+        ],
+        "R19_P09_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P09_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P09_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P09_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P09_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P09_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P09_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P09_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P09_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+        ],
+        "R19_P09_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P09_shell_end.png"
+        ],
+        "R19_P09_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.008": []
+      },
+      "P10": {
+        "R19_P10_lid": [
+          "assets/art/room1_complete_r19/numbered/P10_lid.png"
+        ],
+        "R19_P10_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P10_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P10_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P10_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P10_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P10_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P10_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P10_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P10_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+        ],
+        "R19_P10_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P10_shell_end.png"
+        ],
+        "R19_P10_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.009": []
+      },
+      "P11": {
+        "R19_P11_lid": [
+          "assets/art/room1_complete_r19/numbered/P11_lid.png"
+        ],
+        "R19_P11_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P11_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P11_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P11_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P11_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P11_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P11_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P11_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P11_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+        ],
+        "R19_P11_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P11_shell_end.png"
+        ],
+        "R19_P11_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.010": []
+      },
+      "P12": {
+        "R19_P12_lid": [
+          "assets/art/room1_complete_r19/numbered/P12_lid.png"
+        ],
+        "R19_P12_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P12_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P12_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P12_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P12_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P12_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P12_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P12_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P12_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+        ],
+        "R19_P12_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P12_shell_end.png"
+        ],
+        "R19_P12_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.011": []
+      },
+      "P13": {
+        "R19_P13_lid": [
+          "assets/art/room1_complete_r19/numbered/P13_lid.png"
+        ],
+        "R19_P13_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P13_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P13_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P13_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P13_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P13_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P13_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P13_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P13_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+        ],
+        "R19_P13_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P13_shell_end.png"
+        ],
+        "R19_P13_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.012": []
+      },
+      "P14": {
+        "R19_P14_lid": [
+          "assets/art/room1_complete_r19/numbered/P14_lid.png"
+        ],
+        "R19_P14_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P14_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P14_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P14_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P14_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P14_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P14_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P14_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P14_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+        ],
+        "R19_P14_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P14_shell_end.png"
+        ],
+        "R19_P14_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.013": []
+      },
+      "P15": {
+        "R19_P15_lid": [
+          "assets/art/room1_complete_r19/numbered/P15_lid.png"
+        ],
+        "R19_P15_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P15_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P15_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P15_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P15_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P15_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P15_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P15_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P15_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+        ],
+        "R19_P15_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P15_shell_end.png"
+        ],
+        "R19_P15_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.014": []
+      },
+      "P16": {
+        "R19_P16_lid": [
+          "assets/art/room1_complete_r19/numbered/P16_lid.png"
+        ],
+        "R19_P16_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P16_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P16_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P16_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P16_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P16_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P16_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P16_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P16_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+        ],
+        "R19_P16_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P16_shell_end.png"
+        ],
+        "R19_P16_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.015": []
+      },
+      "P17": {
+        "R19_P17_lid": [
+          "assets/art/room1_complete_r19/numbered/P17_lid.png"
+        ],
+        "R19_P17_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P17_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P17_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P17_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P17_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P17_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P17_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P17_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P17_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+        ],
+        "R19_P17_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P17_shell_end.png"
+        ],
+        "R19_P17_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.016": []
+      },
+      "P18": {
+        "R19_P18_lid": [
+          "assets/art/room1_complete_r19/numbered/P18_lid.png"
+        ],
+        "R19_P18_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P18_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P18_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P18_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P18_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P18_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P18_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P18_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P18_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+        ],
+        "R19_P18_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P18_shell_end.png"
+        ],
+        "R19_P18_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.017": []
+      },
+      "P19": {
+        "R19_P19_lid": [
+          "assets/art/room1_complete_r19/numbered/P19_lid.png"
+        ],
+        "R19_P19_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P19_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P19_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P19_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P19_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P19_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P19_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P19_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P19_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+        ],
+        "R19_P19_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P19_shell_end.png"
+        ],
+        "R19_P19_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.018": []
+      },
+      "P20": {
+        "R19_P20_lid": [
+          "assets/art/room1_complete_r19/numbered/P20_lid.png"
+        ],
+        "R19_P20_section": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P20_interior": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P20_section.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P20_section.002": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P20_section.003": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P20_section.004": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "R19_P20_interior.001": [
+          "assets/art/room1_pod_pixellab_r16/shared/interior.png"
+        ],
+        "R19_P20_mattress": [
+          "assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+        ],
+        "R19_P20_shell_side": [
+          "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+        ],
+        "R19_P20_shell_end": [
+          "assets/art/room1_complete_r19/numbered/P20_shell_end.png"
+        ],
+        "R19_P20_section.005": [
+          "assets/art/room1_pod_pixellab_r16/shared/section.png"
+        ],
+        "POD_V8_tube_housing.019": []
+      }
+    },
+    "pod_uv2_per_lightmap": {
+      "P01": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P02": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P03": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P04": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P05": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P06": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P07": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P08": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P09": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P10": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P11": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P12": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P13": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P14": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P15": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P16": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P17": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P18": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P19": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      },
+      "P20": {
+        "receiver_triangle_count": 1216,
+        "candidate_triangle_pairs": 5851,
+        "positive_area_overlap_count": 0,
+        "positive_area_overlaps": [],
+        "geometry_non_degenerate_triangle_count": 1216,
+        "uv_non_degenerate_triangle_count": 1216,
+        "uv_degenerate_triangle_count": 0,
+        "out_of_atlas_vertex_count": 0,
+        "out_of_atlas_vertices": []
+      }
+    },
+    "pod_loop_rows": {
+      "P01": 3648,
+      "P02": 3648,
+      "P03": 3648,
+      "P04": 3648,
+      "P05": 3648,
+      "P06": 3648,
+      "P07": 3648,
+      "P08": 3648,
+      "P09": 3648,
+      "P10": 3648,
+      "P11": 3648,
+      "P12": 3648,
+      "P13": 3648,
+      "P14": 3648,
+      "P15": 3648,
+      "P16": 3648,
+      "P17": 3648,
+      "P18": 3648,
+      "P19": 3648,
+      "P20": 3648
+    },
+    "v8_glb_to_saved_visible_vertex_uv_checks": {
+      "P01": {
+        "expected_visible_loop_rows": 3648,
+        "saved_visible_loop_rows": 3648,
+        "position_set_identical_within_2e-4": true,
+        "uv0_set_identical_within_2e-4": true,
+        "uv2_set_identical_within_2e-4": true,
+        "full_position_uv_pairing_identical_within_2e-4": false,
+        "max_deltas": {
+          "position": 1.0000000000065512e-05,
+          "uv0": 0.0,
+          "uv2": 0.0,
+          "paired": 2.294
+        }
+      },
+      "P11": {
+        "expected_visible_loop_rows": 3648,
+        "saved_visible_loop_rows": 3648,
+        "position_set_identical_within_2e-4": true,
+        "uv0_set_identical_within_2e-4": true,
+        "uv2_set_identical_within_2e-4": true,
+        "full_position_uv_pairing_identical_within_2e-4": false,
+        "max_deltas": {
+          "position": 0.0,
+          "uv0": 0.0,
+          "uv2": 0.0,
+          "paired": 2.2940000000000005
+        }
+      },
+      "P12": {
+        "expected_visible_loop_rows": 3648,
+        "saved_visible_loop_rows": 3648,
+        "position_set_identical_within_2e-4": true,
+        "uv0_set_identical_within_2e-4": true,
+        "uv2_set_identical_within_2e-4": true,
+        "full_position_uv_pairing_identical_within_2e-4": false,
+        "max_deltas": {
+          "position": 0.0,
+          "uv0": 0.0,
+          "uv2": 0.0,
+          "paired": 2.2940000000000005
+        }
+      }
+    },
+    "p12_closed_open_v8_uv_contract": {
+      "uv_accessors_by_file": {
+        "cryopod_standard_v8.glb": [
+          [
+            "TEXCOORD_0",
+            "06a8c39f23796f921baee62dc7387fa5e096d6583be4ca06d50e48cde203ff86",
+            192
+          ],
+          [
+            "TEXCOORD_0",
+            "52c22b5613c49f38aec51f6b81a6ca9fcc16ee6c3223029bb3adc336724e039a",
+            28
+          ],
+          [
+            "TEXCOORD_0",
+            "52ca8f91e6f111b9c5b50a4366f00e1d80ccaec125299bb98257f8a118c8639e",
+            40
+          ],
+          [
+            "TEXCOORD_0",
+            "82cab06c189c73887425541d0d29f0fcfbf56a7787574f9373fadd4832ec8e62",
+            320
+          ],
+          [
+            "TEXCOORD_0",
+            "85bda569545fe2d7ba5b9eb7d76ec4ff22ee70fde89deeb1aacd62b81b1a4a14",
+            488
+          ],
+          [
+            "TEXCOORD_0",
+            "a0c4a9b320a1e7ae099f15f62f25160ffeb79638130875ace44537ac69358a44",
+            356
+          ],
+          [
+            "TEXCOORD_0",
+            "b78ae57f9cf8835de9ba1185d76e675d6ebae761c433137c1d609dc7b5e0bbb9",
+            200
+          ],
+          [
+            "TEXCOORD_0",
+            "b8fc5bdd8797cc5adc1f6bbfb148cb733803ff70bc9c23184551cbde5bf93c39",
+            4
+          ],
+          [
+            "TEXCOORD_0",
+            "bc52126a8a51b5e82732b60c755c6090629f0639146c70e888a283d5f0c64042",
+            96
+          ],
+          [
+            "TEXCOORD_0",
+            "d413f3cee0c95ef7a11d9d5f8fc829825f4f1e079e351c124314f1fc2914b3eb",
+            72
+          ],
+          [
+            "TEXCOORD_0",
+            "d9d84b1ebb80158b22f31b6a40d1f2c102b287ef13521850a41abc7f2c488a76",
+            620
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "ec08ca9220436280b95b76678ca6e86770d675fd8aab0b379d8daffec85883a1",
+            144
+          ],
+          [
+            "TEXCOORD_0",
+            "ed43040d3e6c24c114e74406debc4b87ca8c0588a8d7ba6b98e89703f5e94f2f",
+            24
+          ],
+          [
+            "TEXCOORD_0",
+            "f0dcce0b36d329e6e8dddb6a03be6c03854d106eac655ec6eea37b7457bf7ce5",
+            44
+          ],
+          [
+            "TEXCOORD_1",
+            "01d0a3ad124dfab51d446f64bb817fc7e33420be5773353e7bdc277183f6a6f0",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "092abe8fb979437985de3c3d61d36aa6ac4d7f7070f99cb276268ea29d122ff8",
+            488
+          ],
+          [
+            "TEXCOORD_1",
+            "2d6e643ecb4b66051bd63e7b44ce73b63e7e7168fc1dbbbba03fe1230c7689fe",
+            24
+          ],
+          [
+            "TEXCOORD_1",
+            "38dc4f8bf14aa349708c61d05eadda7b870c8e65155828964e2afeb726495b84",
+            200
+          ],
+          [
+            "TEXCOORD_1",
+            "3dcf868c6751e74812ea431b328b9ca72fbc18746794faf36648b248b9f611c1",
+            28
+          ],
+          [
+            "TEXCOORD_1",
+            "3fa0a4f10e2967a8283229e62970a5dffd3d10f95946eec754c6e885689b952d",
+            356
+          ],
+          [
+            "TEXCOORD_1",
+            "46b62c84de0f5e0dd988593075600650e62e239f58a61ecb9202cbc942462aae",
+            44
+          ],
+          [
+            "TEXCOORD_1",
+            "47218f5f0247df27e2ab58db4936bd668ecdda64e8e5790907aff8d6b1346607",
+            192
+          ],
+          [
+            "TEXCOORD_1",
+            "4b49b4d3212d30e9f9c407a3b2e492fe4d8818309f396521e84629e409e57563",
+            40
+          ],
+          [
+            "TEXCOORD_1",
+            "578d1e3bc213a002ce3171a8f38d534414deada855eebd04aa6e3bb8cbbed87e",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "672cfc49f7d3fda69600d3087226db777bffc17f9c643d3f1416ff9a5a23201f",
+            144
+          ],
+          [
+            "TEXCOORD_1",
+            "6d0314340b13d494a5a1a572489679e2f90f276d3bc2eb41cbb19905927ffa76",
+            72
+          ],
+          [
+            "TEXCOORD_1",
+            "83f7988b97968616974cd0fa44fd5656aa59410105d694f25da05258f3f2f021",
+            96
+          ],
+          [
+            "TEXCOORD_1",
+            "85ca3a90ecc15c8c43cc9dea4c3140af0af3b848f141447a942728a431f411c1",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "93ee8f5a86d2e16308ad8b1678106d7a4cd29917154a0f95fbdf6a1d73925551",
+            4
+          ],
+          [
+            "TEXCOORD_1",
+            "943b8cff5a5f45dc1fc0f814c3fd42af6afdc054f6b6af85423e7161fb369ece",
+            620
+          ],
+          [
+            "TEXCOORD_1",
+            "ace23c3fd579f2231feb40096cd066e091bcdc8c677e37371f6df3a7512a5499",
+            320
+          ],
+          [
+            "TEXCOORD_1",
+            "fa853c950da179286cf1316b7c55682120b7e2ffe67057b5085ad53adf6b570b",
+            30
+          ]
+        ],
+        "cryopod_standard_v8_closed.glb": [
+          [
+            "TEXCOORD_0",
+            "06a8c39f23796f921baee62dc7387fa5e096d6583be4ca06d50e48cde203ff86",
+            192
+          ],
+          [
+            "TEXCOORD_0",
+            "52c22b5613c49f38aec51f6b81a6ca9fcc16ee6c3223029bb3adc336724e039a",
+            28
+          ],
+          [
+            "TEXCOORD_0",
+            "52ca8f91e6f111b9c5b50a4366f00e1d80ccaec125299bb98257f8a118c8639e",
+            40
+          ],
+          [
+            "TEXCOORD_0",
+            "82cab06c189c73887425541d0d29f0fcfbf56a7787574f9373fadd4832ec8e62",
+            320
+          ],
+          [
+            "TEXCOORD_0",
+            "85bda569545fe2d7ba5b9eb7d76ec4ff22ee70fde89deeb1aacd62b81b1a4a14",
+            488
+          ],
+          [
+            "TEXCOORD_0",
+            "a0c4a9b320a1e7ae099f15f62f25160ffeb79638130875ace44537ac69358a44",
+            356
+          ],
+          [
+            "TEXCOORD_0",
+            "b78ae57f9cf8835de9ba1185d76e675d6ebae761c433137c1d609dc7b5e0bbb9",
+            200
+          ],
+          [
+            "TEXCOORD_0",
+            "b8fc5bdd8797cc5adc1f6bbfb148cb733803ff70bc9c23184551cbde5bf93c39",
+            4
+          ],
+          [
+            "TEXCOORD_0",
+            "bc52126a8a51b5e82732b60c755c6090629f0639146c70e888a283d5f0c64042",
+            96
+          ],
+          [
+            "TEXCOORD_0",
+            "d413f3cee0c95ef7a11d9d5f8fc829825f4f1e079e351c124314f1fc2914b3eb",
+            72
+          ],
+          [
+            "TEXCOORD_0",
+            "d9d84b1ebb80158b22f31b6a40d1f2c102b287ef13521850a41abc7f2c488a76",
+            620
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "ec08ca9220436280b95b76678ca6e86770d675fd8aab0b379d8daffec85883a1",
+            144
+          ],
+          [
+            "TEXCOORD_0",
+            "ed43040d3e6c24c114e74406debc4b87ca8c0588a8d7ba6b98e89703f5e94f2f",
+            24
+          ],
+          [
+            "TEXCOORD_0",
+            "f0dcce0b36d329e6e8dddb6a03be6c03854d106eac655ec6eea37b7457bf7ce5",
+            44
+          ],
+          [
+            "TEXCOORD_1",
+            "01d0a3ad124dfab51d446f64bb817fc7e33420be5773353e7bdc277183f6a6f0",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "092abe8fb979437985de3c3d61d36aa6ac4d7f7070f99cb276268ea29d122ff8",
+            488
+          ],
+          [
+            "TEXCOORD_1",
+            "2d6e643ecb4b66051bd63e7b44ce73b63e7e7168fc1dbbbba03fe1230c7689fe",
+            24
+          ],
+          [
+            "TEXCOORD_1",
+            "38dc4f8bf14aa349708c61d05eadda7b870c8e65155828964e2afeb726495b84",
+            200
+          ],
+          [
+            "TEXCOORD_1",
+            "3dcf868c6751e74812ea431b328b9ca72fbc18746794faf36648b248b9f611c1",
+            28
+          ],
+          [
+            "TEXCOORD_1",
+            "3fa0a4f10e2967a8283229e62970a5dffd3d10f95946eec754c6e885689b952d",
+            356
+          ],
+          [
+            "TEXCOORD_1",
+            "46b62c84de0f5e0dd988593075600650e62e239f58a61ecb9202cbc942462aae",
+            44
+          ],
+          [
+            "TEXCOORD_1",
+            "47218f5f0247df27e2ab58db4936bd668ecdda64e8e5790907aff8d6b1346607",
+            192
+          ],
+          [
+            "TEXCOORD_1",
+            "4b49b4d3212d30e9f9c407a3b2e492fe4d8818309f396521e84629e409e57563",
+            40
+          ],
+          [
+            "TEXCOORD_1",
+            "578d1e3bc213a002ce3171a8f38d534414deada855eebd04aa6e3bb8cbbed87e",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "672cfc49f7d3fda69600d3087226db777bffc17f9c643d3f1416ff9a5a23201f",
+            144
+          ],
+          [
+            "TEXCOORD_1",
+            "6d0314340b13d494a5a1a572489679e2f90f276d3bc2eb41cbb19905927ffa76",
+            72
+          ],
+          [
+            "TEXCOORD_1",
+            "83f7988b97968616974cd0fa44fd5656aa59410105d694f25da05258f3f2f021",
+            96
+          ],
+          [
+            "TEXCOORD_1",
+            "85ca3a90ecc15c8c43cc9dea4c3140af0af3b848f141447a942728a431f411c1",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "93ee8f5a86d2e16308ad8b1678106d7a4cd29917154a0f95fbdf6a1d73925551",
+            4
+          ],
+          [
+            "TEXCOORD_1",
+            "943b8cff5a5f45dc1fc0f814c3fd42af6afdc054f6b6af85423e7161fb369ece",
+            620
+          ],
+          [
+            "TEXCOORD_1",
+            "ace23c3fd579f2231feb40096cd066e091bcdc8c677e37371f6df3a7512a5499",
+            320
+          ],
+          [
+            "TEXCOORD_1",
+            "fa853c950da179286cf1316b7c55682120b7e2ffe67057b5085ad53adf6b570b",
+            30
+          ]
+        ],
+        "cryopod_standard_v8_open.glb": [
+          [
+            "TEXCOORD_0",
+            "06a8c39f23796f921baee62dc7387fa5e096d6583be4ca06d50e48cde203ff86",
+            192
+          ],
+          [
+            "TEXCOORD_0",
+            "52c22b5613c49f38aec51f6b81a6ca9fcc16ee6c3223029bb3adc336724e039a",
+            28
+          ],
+          [
+            "TEXCOORD_0",
+            "52ca8f91e6f111b9c5b50a4366f00e1d80ccaec125299bb98257f8a118c8639e",
+            40
+          ],
+          [
+            "TEXCOORD_0",
+            "82cab06c189c73887425541d0d29f0fcfbf56a7787574f9373fadd4832ec8e62",
+            320
+          ],
+          [
+            "TEXCOORD_0",
+            "85bda569545fe2d7ba5b9eb7d76ec4ff22ee70fde89deeb1aacd62b81b1a4a14",
+            488
+          ],
+          [
+            "TEXCOORD_0",
+            "a0c4a9b320a1e7ae099f15f62f25160ffeb79638130875ace44537ac69358a44",
+            356
+          ],
+          [
+            "TEXCOORD_0",
+            "b78ae57f9cf8835de9ba1185d76e675d6ebae761c433137c1d609dc7b5e0bbb9",
+            200
+          ],
+          [
+            "TEXCOORD_0",
+            "b8fc5bdd8797cc5adc1f6bbfb148cb733803ff70bc9c23184551cbde5bf93c39",
+            4
+          ],
+          [
+            "TEXCOORD_0",
+            "bc52126a8a51b5e82732b60c755c6090629f0639146c70e888a283d5f0c64042",
+            96
+          ],
+          [
+            "TEXCOORD_0",
+            "d413f3cee0c95ef7a11d9d5f8fc829825f4f1e079e351c124314f1fc2914b3eb",
+            72
+          ],
+          [
+            "TEXCOORD_0",
+            "d9d84b1ebb80158b22f31b6a40d1f2c102b287ef13521850a41abc7f2c488a76",
+            620
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "dd717e74a0a94fbfe2525aef82dac680c4597ed89c795814db44951286988054",
+            30
+          ],
+          [
+            "TEXCOORD_0",
+            "ec08ca9220436280b95b76678ca6e86770d675fd8aab0b379d8daffec85883a1",
+            144
+          ],
+          [
+            "TEXCOORD_0",
+            "ed43040d3e6c24c114e74406debc4b87ca8c0588a8d7ba6b98e89703f5e94f2f",
+            24
+          ],
+          [
+            "TEXCOORD_0",
+            "f0dcce0b36d329e6e8dddb6a03be6c03854d106eac655ec6eea37b7457bf7ce5",
+            44
+          ],
+          [
+            "TEXCOORD_1",
+            "01d0a3ad124dfab51d446f64bb817fc7e33420be5773353e7bdc277183f6a6f0",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "092abe8fb979437985de3c3d61d36aa6ac4d7f7070f99cb276268ea29d122ff8",
+            488
+          ],
+          [
+            "TEXCOORD_1",
+            "2d6e643ecb4b66051bd63e7b44ce73b63e7e7168fc1dbbbba03fe1230c7689fe",
+            24
+          ],
+          [
+            "TEXCOORD_1",
+            "38dc4f8bf14aa349708c61d05eadda7b870c8e65155828964e2afeb726495b84",
+            200
+          ],
+          [
+            "TEXCOORD_1",
+            "3dcf868c6751e74812ea431b328b9ca72fbc18746794faf36648b248b9f611c1",
+            28
+          ],
+          [
+            "TEXCOORD_1",
+            "3fa0a4f10e2967a8283229e62970a5dffd3d10f95946eec754c6e885689b952d",
+            356
+          ],
+          [
+            "TEXCOORD_1",
+            "46b62c84de0f5e0dd988593075600650e62e239f58a61ecb9202cbc942462aae",
+            44
+          ],
+          [
+            "TEXCOORD_1",
+            "47218f5f0247df27e2ab58db4936bd668ecdda64e8e5790907aff8d6b1346607",
+            192
+          ],
+          [
+            "TEXCOORD_1",
+            "4b49b4d3212d30e9f9c407a3b2e492fe4d8818309f396521e84629e409e57563",
+            40
+          ],
+          [
+            "TEXCOORD_1",
+            "578d1e3bc213a002ce3171a8f38d534414deada855eebd04aa6e3bb8cbbed87e",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "672cfc49f7d3fda69600d3087226db777bffc17f9c643d3f1416ff9a5a23201f",
+            144
+          ],
+          [
+            "TEXCOORD_1",
+            "6d0314340b13d494a5a1a572489679e2f90f276d3bc2eb41cbb19905927ffa76",
+            72
+          ],
+          [
+            "TEXCOORD_1",
+            "83f7988b97968616974cd0fa44fd5656aa59410105d694f25da05258f3f2f021",
+            96
+          ],
+          [
+            "TEXCOORD_1",
+            "85ca3a90ecc15c8c43cc9dea4c3140af0af3b848f141447a942728a431f411c1",
+            30
+          ],
+          [
+            "TEXCOORD_1",
+            "93ee8f5a86d2e16308ad8b1678106d7a4cd29917154a0f95fbdf6a1d73925551",
+            4
+          ],
+          [
+            "TEXCOORD_1",
+            "943b8cff5a5f45dc1fc0f814c3fd42af6afdc054f6b6af85423e7161fb369ece",
+            620
+          ],
+          [
+            "TEXCOORD_1",
+            "ace23c3fd579f2231feb40096cd066e091bcdc8c677e37371f6df3a7512a5499",
+            320
+          ],
+          [
+            "TEXCOORD_1",
+            "fa853c950da179286cf1316b7c55682120b7e2ffe67057b5085ad53adf6b570b",
+            30
+          ]
+        ]
+      },
+      "all_three_uv_accessor_signatures_identical": true
+    },
+    "shell_uv2_atlas": {
+      "receiver_triangle_count": 96,
+      "candidate_triangle_pairs": 228,
+      "positive_area_overlap_count": 0,
+      "positive_area_overlaps": [],
+      "geometry_non_degenerate_triangle_count": 96,
+      "uv_non_degenerate_triangle_count": 96,
+      "uv_degenerate_triangle_count": 0,
+      "out_of_atlas_vertex_count": 0,
+      "out_of_atlas_vertices": []
+    },
+    "shell_uv2_shared_edge_readback": {
+      "physical_edge_count": 139,
+      "two_face_shared_edges_all_normals": 134,
+      "coplanar_shared_edges": 48,
+      "uv2_continuous_coplanar_shared_edges": 48,
+      "uv2_discontinuous_coplanar_shared_edges": 0,
+      "examples_of_discontinuous_coplanar_edges": []
+    },
+    "runtime_r4_shell_visible_vertex_uv_check": {
+      "runtime_rows": 288,
+      "saved_rows": 288,
+      "position_set_identical_within_2e-4": true,
+      "uv0_set_identical_within_2e-4": false,
+      "uv2_set_identical_within_2e-4": false,
+      "full_position_uv_pairing_identical_within_2e-4": false,
+      "max_deltas": {
+        "position": 0.0,
+        "uv0": 1.49662,
+        "uv2": 0.5602199999999999,
+        "paired": 21.0
+      },
+      "unflipped_glb_uv_control": {
+        "uv0_set_identical_within_2e-4": false,
+        "uv2_set_identical_within_2e-4": false,
+        "full_pairing_identical_within_2e-4": false,
+        "max_uv0_delta": 1.5,
+        "max_uv2_delta": 0.77743,
+        "max_paired_delta": 21.0
+      }
+    },
+    "runtime_r4_shell_position_normal_uv_readback": {
+      "position_normal_keys_shared": 152,
+      "position_normal_keys_uv_pairs_match": 0,
+      "sample_first_mismatch": [
+        {
+          "position_normal": [
+            0.0,
+            0.0,
+            -0.1,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "blend": [
+            {
+              "key": [
+                0.0,
+                0.0,
+                -0.1,
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "material": "GODOT_TRIAL_SOLID_floor_slate",
+              "uv0": [
+                0.941481,
+                0.908491
+              ],
+              "uv2": [
+                0.223089,
+                0.22878
+              ]
+            },
+            {
+              "key": [
+                0.0,
+                0.0,
+                -0.1,
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "material": "GODOT_TRIAL_SOLID_floor_slate",
+              "uv0": [
+                0.941481,
+                0.908491
+              ],
+              "uv2": [
+                0.223089,
+                0.22878
+              ]
+            }
+          ],
+          "runtime_r4": [
+            {
+              "key": [
+                0.0,
+                0.0,
+                -0.1,
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "node": "Bake_Shell_Floor_continuous_no_tile_seams",
+              "uv0": [
+                0.941481,
+                0.908491
+              ],
+              "uv2": [
+                0.413778,
+                0.572303
+              ]
+            },
+            {
+              "key": [
+                0.0,
+                0.0,
+                -0.1,
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "node": "Bake_Shell_Floor_continuous_no_tile_seams",
+              "uv0": [
+                0.941481,
+                0.908491
+              ],
+              "uv2": [
+                0.413778,
+                0.572303
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "actual_godot_shell_position_normal_uv_readback": {
+      "runtime_dump": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\room1_complete_r19\\source\\runtime_shell_triangles.json",
+      "runtime_corner_count": 288,
+      "blend_direct_uv": {
+        "position_normal_keys_shared": 152,
+        "position_normal_keys_uv_pairs_match": 0,
+        "sample_first_mismatch": [
+          {
+            "position_normal": [
+              0.0,
+              -0.1,
+              -9.5,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            "blend": [
+              {
+                "key": [
+                  0.0,
+                  -0.1,
+                  -9.5,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "GODOT_TRIAL_SOLID_floor_slate",
+                "uv0": [
+                  0.941481,
+                  0.458944
+                ],
+                "uv2": [
+                  0.223089,
+                  0.251525
+                ]
+              }
+            ],
+            "runtime_r4": [
+              {
+                "key": [
+                  0.0,
+                  -0.1,
+                  -9.5,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "node": "Floor_continuous_no_tile_seams",
+                "uv0": [
+                  0.941481,
+                  0.541056
+                ],
+                "uv2": [
+                  0.223089,
+                  0.748475
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "blend_v_flipped_uv_control": {
+        "position_normal_keys_shared": 152,
+        "position_normal_keys_uv_pairs_match": 151,
+        "sample_first_mismatch": [
+          {
+            "position_normal": [
+              0.0,
+              3.4,
+              -0.2,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            "blend": [
+              {
+                "key": [
+                  0.0,
+                  3.4,
+                  -0.2,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "GODOT_TRIAL_SOLID_wall_ivory",
+                "uv0": [
+                  0.003378,
+                  0.003378
+                ],
+                "uv2": [
+                  0.147993,
+                  0.713008
+                ]
+              },
+              {
+                "key": [
+                  0.0,
+                  3.4,
+                  -0.2,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "GODOT_TRIAL_SOLID_wall_ivory",
+                "uv0": [
+                  0.360713,
+                  0.671139
+                ],
+                "uv2": [
+                  0.247097,
+                  0.849517
+                ]
+              },
+              {
+                "key": [
+                  0.0,
+                  3.4,
+                  -0.2,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "GODOT_TRIAL_SOLID_wall_ivory",
+                "uv0": [
+                  0.360713,
+                  0.671139
+                ],
+                "uv2": [
+                  0.247097,
+                  0.849517
+                ]
+              }
+            ],
+            "runtime_r4": [
+              {
+                "key": [
+                  0.0,
+                  3.4,
+                  -0.2,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "node": "Wall_front",
+                "uv0": [
+                  0.360713,
+                  0.671139
+                ],
+                "uv2": [
+                  0.247097,
+                  0.849518
+                ]
+              },
+              {
+                "key": [
+                  0.0,
+                  3.4,
+                  -0.2,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "node": "Wall_front",
+                "uv0": [
+                  0.360713,
+                  0.671139
+                ],
+                "uv2": [
+                  0.247097,
+                  0.849518
+                ]
+              },
+              {
+                "key": [
+                  0.0,
+                  3.4,
+                  -0.2,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "node": "Wall_left",
+                "uv0": [
+                  0.003378,
+                  0.003378
+                ],
+                "uv2": [
+                  0.147993,
+                  0.713008
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "direct_corner_membership": {
+        "runtime_corners": 288,
+        "corners_with_position_normal_uv_membership_within_2e-4": 0,
+        "unmatched_corner_count": 288,
+        "unmatched_samples": [
+          {
+            "key": [
+              0.0,
+              -0.1,
+              0.0,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            "node": "Floor_continuous_no_tile_seams",
+            "uv0": [
+              0.941481,
+              0.091509
+            ],
+            "uv2": [
+              0.223089,
+              0.77122
+            ]
+          },
+          {
+            "key": [
+              0.0,
+              0.0,
+              -9.5,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            "node": "Floor_continuous_no_tile_seams",
+            "uv0": [
+              0.936749,
+              0.541056
+            ],
+            "uv2": [
+              0.224044,
+              0.748475
+            ]
+          },
+          {
+            "key": [
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              -0.0
+            ],
+            "node": "Floor_continuous_no_tile_seams",
+            "uv0": [
+              0.936749,
+              0.091509
+            ],
+            "uv2": [
+              0.224044,
+              0.77122
+            ]
+          }
+        ]
+      },
+      "v_flipped_corner_membership": {
+        "runtime_corners": 288,
+        "corners_with_position_normal_uv_membership_within_2e-4": 288,
+        "unmatched_corner_count": 0,
+        "unmatched_samples": []
+      }
+    },
+    "exr_readback": [
+      {
+        "name": "P01_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P02_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P03_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P04_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P05_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P06_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P07_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P08_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P09_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P10_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P11_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P12_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P13_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P14_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P15_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P16_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P17_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P18_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P19_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P20_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "P12_open",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          1024,
+          1024
+        ],
+        "raw_finite": true,
+        "final_size": [
+          1024,
+          1024
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "room_closed",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          2048,
+          2048
+        ],
+        "raw_finite": true,
+        "final_size": [
+          2048,
+          2048
+        ],
+        "final_finite": true
+      },
+      {
+        "name": "room_open",
+        "raw_exists": true,
+        "final_exists": true,
+        "raw_sha_match": true,
+        "final_sha_match": true,
+        "raw_size": [
+          2048,
+          2048
+        ],
+        "raw_finite": true,
+        "final_size": [
+          2048,
+          2048
+        ],
+        "final_finite": true
+      }
+    ],
+    "per_job_margin_readback": [
+      {
+        "name": "P01_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P02_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P03_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P04_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P05_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P06_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P07_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P08_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P09_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P10_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P11_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P12_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P13_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P14_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P15_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P16_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P17_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P18_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P19_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P20_closed",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "P12_open",
+        "margin_px": 4,
+        "expected_margin_px": 4,
+        "matches_expected": true
+      },
+      {
+        "name": "room_closed",
+        "margin_px": 6,
+        "expected_margin_px": 6,
+        "matches_expected": true
+      },
+      {
+        "name": "room_open",
+        "margin_px": 6,
+        "expected_margin_px": 6,
+        "matches_expected": true
+      }
+    ],
+    "input_hashes": {
+      "layout_sha_match": true,
+      "runtime_shell": {
+        "exists": true,
+        "sha_match": true
+      },
+      "color_maps": [
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P01_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P01_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P02_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P02_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P03_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P03_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P04_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P04_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P05_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P05_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P06_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P06_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P07_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P07_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P08_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P08_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P09_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P09_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P10_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P10_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P11_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P11_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P12_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P12_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P13_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P13_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P14_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P14_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P15_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P15_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P16_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P16_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P17_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P17_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P18_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P18_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P19_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P19_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P20_lid.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_complete_r19/numbered/P20_shell_end.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/shared/interior.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/shared/section.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png",
+          "exists": true,
+          "sha_match": true
+        },
+        {
+          "path": "assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png",
+          "exists": true,
+          "sha_match": true
+        }
+      ]
+    },
+    "runtime_sampler_contract": {
+      "shader_strip_irradiance_linear_repeat_disable": true,
+      "shader_strip_irradiance_open_linear_repeat_disable": true,
+      "exr_imports": [
+        {
+          "name": "P01_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P02_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P03_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P04_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P05_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P06_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P07_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P08_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P09_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P10_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P11_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P12_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P13_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P14_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P15_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P16_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P17_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P18_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P19_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P20_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "P12_open",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "room_closed",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        },
+        {
+          "name": "room_open",
+          "import_exists": true,
+          "mipmaps_generate_false": true
+        }
+      ]
+    },
+    "bake_source_evidence": {
+      "samples_env_default_1024": true,
+      "pod_margin_4_per_job": true,
+      "shell_margin_6_per_job": true,
+      "bake_uses_per_job_margin": true,
+      "oidn_node": true,
+      "pods_1024": true,
+      "shell_2048": true
+    }
+  },
+  "failures": [],
+  "limitations": [
+    "Raw r4 GLB accessor-to-Blender comparison differs under both simple V conventions; actual Godot vertex/UV dump above is the authoritative runtime check.",
+    "EXR readback proves finite decoded pixels and the manifest hashes, but cannot independently identify OIDN implementation from EXR metadata; only source wiring plus raw/final byte differences are available.",
+    "Per-job dilation is 4px for every pod and 6px for both shell maps. Independent UV spacing is measured separately; pod atlas outer-edge minimum remains 0px and is not claimed as padding.",
+    "UV shared-edge continuity is checked for valid non-overlapping atlases only; this report does not certify irradiance continuity without a rendered seam visual review.",
+    "The source Blend uses repository-relative dependencies. The Blender image-datablock count and upload external-unpacked count use different scopes; portability still requires the repository-relative files to accompany the Blend.",
+    "Godot camera/lighting/interactive visual acceptance is intentionally outside this audit."
+  ]
+}
