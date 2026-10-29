@@ -1,0 +1,52 @@
+{
+  "legacy_aging_layers_used": [],
+  "new_pixel_source": "PixelLab inpaint-v3",
+  "walls": {
+    "left": {
+      "size": [
+        728,
+        272
+      ],
+      "clean_base_matches_structure_only": true,
+      "changed_from_clean": 25313,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    },
+    "right": {
+      "size": [
+        728,
+        272
+      ],
+      "clean_base_matches_structure_only": true,
+      "changed_from_clean": 26582,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    },
+    "front": {
+      "size": [
+        1648,
+        272
+      ],
+      "clean_base_matches_structure_only": true,
+      "changed_from_clean": 58593,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    },
+    "rear": {
+      "size": [
+        1648,
+        272
+      ],
+      "clean_base_matches_structure_only": true,
+      "changed_from_clean": 49707,
+      "aseprite_pixel_exact": true,
+      "light_strip_exact": true,
+      "corners_exact": true
+    }
+  },
+  "N_roundtrip_exact": true,
+  "usage_generations": 60.0
+}

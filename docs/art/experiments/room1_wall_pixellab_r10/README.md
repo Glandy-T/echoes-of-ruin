@@ -1,5 +1,7 @@
 # Room 1 墙面 PixelLab 返修 r10 — 局部审图
 
+> **已由 [r11 四墙新材质](../room1_wall_pixellab_r11/README.md) 接替。**用户认可细化方向，但指出r10输入和边界仍带有旧做旧。r11从无旧化的结构导图重新生成，不再沿用r10混合来源的母版。
+
 2026-10-29。用户要求将旧贴图按已约定的 PixelLab 工作流返修。本轮先完成左墙中间两块墙板的材质细化小样，**等待审图，不替换正式场景或推广四墙**。以 Pixel Canals 的像素簇与材质信息组织为硬参考；只向 PixelLab 提交本项目自有图像。
 
 [同机位对比](preview.html) · [Aseprite 母版](editable/wall_left_r10.aseprite) · [Godot 场景](../../../../scenes/dev/room1_wall_pixellab_r10.tscn)
