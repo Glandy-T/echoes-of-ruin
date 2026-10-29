@@ -54,6 +54,11 @@ func _with_number(texture: Texture2D, role: String) -> Texture2D:
 	var key:=str(texture.get_instance_id())+":"+role+":"+str(pod_number)
 	if numbered_cache.has(key):return numbered_cache[key]
 	var image:=texture.get_image().duplicate() as Image
+	if image.is_compressed():
+		var error:=image.decompress()
+		assert(error==OK,"Cannot decode the old comparison texture for numbering.")
+		if error!=OK:return texture
+	if image.get_format()!=Image.FORMAT_RGBA8:image.convert(Image.FORMAT_RGBA8)
 	image.fill_rect(ID_PLATES[role],Color8(190,199,194))
 	var start:Vector2i=ID_STARTS[role]
 	var label:="%02d"%pod_number

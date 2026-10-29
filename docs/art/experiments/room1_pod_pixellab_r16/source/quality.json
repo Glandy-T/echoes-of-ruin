@@ -547,6 +547,7 @@
     "expected_sequence": "P01..P20 -> 01..20; P12 -> 12",
     "new_pixellab_calls": 0,
     "numbering_independent_of_art_variant": true,
+    "old_compressed_comparison_numbering_passed": true,
     "two_instances_independent": true
   }
 }
