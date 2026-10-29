@@ -1,6 +1,6 @@
 # Room 1 一体化门体与通行灯语 — 设计 brief（2026-10-29）
 
-> 状态：**用户讨论确认的设计方向；Room 1 v3 审图样本已制作，尚未获得外观定稿确认**。模型、像素表面、Godot 截图与已验证范围见 [room1_integrated_door_v3](experiments/room1_integrated_door_v3/README.md)。后续提亮门面与门底的 [v4 测试](experiments/room1_integrated_door_v4/README.md) 已因视觉过亮、门底像发光而退回，不作为更新默认。
+> 状态：**用户讨论确认的设计方向；Room 1 v3 仍是结构与灯语基准，外观尚未定稿**。模型、像素表面、Godot 截图与已验证范围见 [room1_integrated_door_v3](experiments/room1_integrated_door_v3/README.md)。提亮门面与门底的 [v4 测试](experiments/room1_integrated_door_v4/README.md) 已退回；只修正门面旧化分布的 [v5 候选](experiments/room1_integrated_door_surface_v5/README.md) 正等待同镜头美术审查，不改变门的构造、开闭和灯语。
 >
 > 优先级：本文件在 Room 1 主门的外观、认证方式与灯光反馈方面，优先于历史 `MAP_DESIGN.md` 中“门旁独立认证面板、手动交互、向上开门”的旧预演流程；仍继承现行工程门洞及 Room 1 空间布局。
 

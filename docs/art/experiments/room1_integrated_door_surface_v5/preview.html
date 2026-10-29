@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 门面旧化 v3 / v5 对比</title>
+<style>
+body{margin:0;background:#101719;color:#e0e8e3;font:16px/1.5 system-ui,sans-serif}main{max-width:1360px;margin:auto;padding:24px}h1{font-size:26px;margin:0 0 6px}p{color:#b5c5be}section{margin:28px 0}h2{font-size:19px;margin:0 0 12px}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:#1c282b;border:1px solid #35494a;padding:10px}.card img{width:100%;height:auto;display:block}.card b{display:block;padding:8px 2px 2px;font-weight:600}.crop{height:430px;overflow:hidden;position:relative;background:#0b1011}.card .crop img{position:absolute;width:1280px;height:720px;max-width:none;left:50%;top:75%;transform:translate(-50%,-50%);image-rendering:pixelated}.tex img{width:448px;max-width:100%;height:auto;image-rendering:pixelated;margin:auto}@media(max-width:800px){.pair{grid-template-columns:1fr}}
+</style><main>
+<h1>Room 1 主门：旧化分布 v5</h1>
+<p>只替换门面像素图；相机、亮度 Shader、门体和动画与 v3 相同。v5 去掉从墙面复制来的大片墙脚沉积，旧接触痕落在密封边、状态窗凹边和细窄底封条。</p>
+<section><h2>关门 · 同镜头</h2><div class="pair">
+<div class="card"><img src="../room1_integrated_door_v3/evidence/idle_closed.png" alt="v3 关门"><b>A · v3：墙脚沉积轮廓沿用到门面</b></div>
+<div class="card"><img src="evidence/idle_closed.png" alt="v5 关门"><b>B · v5：门板中下部保持面材，接触痕贴边</b></div>
+</div></section>
+<section><h2>门洞局部 · 截图原始像素大小</h2><div class="pair">
+<div class="card"><div class="crop"><img src="../room1_integrated_door_v3/evidence/idle_closed.png" alt="v3 门洞局部"></div><b>A · v3</b></div>
+<div class="card"><div class="crop"><img src="evidence/idle_closed.png" alt="v5 门洞局部"></div><b>B · v5</b></div>
+</div></section>
+<section><h2>像素图 · 放大 4 倍检查痕迹落点</h2><div class="pair">
+<div class="card tex"><img src="../../../../assets/art/room1_integrated_door_v3/door_front.png" alt="v3 门面像素图"><b>A · v3：下半部来自墙脚</b></div>
+<div class="card tex"><img src="../../../../assets/art/room1_integrated_door_surface_v5/door_front.png" alt="v5 门面像素图"><b>B · v5：密封边与状态窗局部旧化，底部窄接触带</b></div>
+</div></section>
+<section><h2>授权开门</h2><div class="pair">
+<div class="card"><img src="../room1_integrated_door_v3/evidence/green_opening.png" alt="v3 绿灯开门"><b>A · v3</b></div>
+<div class="card"><img src="evidence/green_opening.png" alt="v5 绿灯开门"><b>B · v5；绿灯与运动仍沿用 v3</b></div>
+</div></section>
+<p>其他状态：[认证黄闪](evidence/yellow_scanning.png) · [完全打开](evidence/green_open.png) · [拒绝时仅状态窗红色](evidence/red_denied_window_only.png)。</p>
+</main></html>
