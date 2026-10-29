@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/cryo_building_room1_route_v3.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/dev/verify_cryo_building_room1_route_v3.gd" id="2_script"]
+
+[node name="CryoBuildingRoom1RouteV3Verify" instance=ExtResource("1_base")]
+
+[node name="Verifier" type="Node" parent="."]
+script = ExtResource("2_script")

@@ -1,0 +1,49 @@
+{
+	"1f_external_exit": "TBD",
+	"climb_end": [
+		0.577473223209381,
+		0.712835133075714,
+		-37.9000015258789
+	],
+	"descent_end": [
+		1.04038405418396,
+		-0.908317446708679,
+		-39.9000015258789
+	],
+	"errors": [],
+	"rays": {
+		"corridor_at_room_door": "RouteCollision_R4F_4F_FloorCell_02_V2_Cut_01",
+		"west_stair_1f_landing": "RouteCollision_1F_West_Stair_EntryLanding",
+		"west_stair_4f_landing": "RouteCollision_4F_West_Stair_EntryLanding",
+		"west_stair_approach": "RouteCollision_R4F_4F_FloorCell_08_V2_Cut_06"
+	},
+	"result": "PASS",
+	"room1_door_open_fraction": 1.0,
+	"room1_to_corridor_end": [
+		10.5,
+		-0.000803929287940264,
+		-11.7427139282227
+	],
+	"route_collision_bodies": 64,
+	"schema": "cryo_building_room1_route_v3_physics_check",
+	"west_corridor_turn": [
+		-1.01669204235077,
+		0.000132697576191276,
+		-10.8093776702881
+	],
+	"west_stair_approach": [
+		-1.20002365112305,
+		0.000870755757205188,
+		-36.5257453918457
+	],
+	"west_stair_descent_landing_y": [
+		-3.7998673915863,
+		-7.59986686706543,
+		-11.399866104126
+	],
+	"west_stair_top_landing": [
+		-1.20002365112305,
+		0.000870721356477588,
+		-39.9257164001465
+	]
+}
