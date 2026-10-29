@@ -7,7 +7,7 @@ var pod_variant:=0
 
 func _ready() -> void:
 	super._ready()
-	pod_finish=POD_FINISH.new(standard)
+	pod_finish=POD_FINISH.new(standard,12)
 	set_pod_finish(0,true)
 
 func set_pod_finish(index: int, enabled: bool=true) -> void:

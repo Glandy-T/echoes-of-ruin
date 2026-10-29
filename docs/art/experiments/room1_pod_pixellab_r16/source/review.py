@@ -49,6 +49,8 @@ for label,a,b in [('A_material_restore','oblique_a_open','a_open_restored'),('gl
     report['render_roundtrips'][label]={'different_pixels':int(np.sum(np.any(first!=second,axis=2))),'max_channel_delta':int(np.abs(first-second).max())}
 blender=HERE/'blender_readback.json'
 if blender.exists():report['blender_source']={'readback_passed':True,'geometry_uv_animation_protected':True,'packed_candidates':len(json.loads(blender.read_text())['packed_candidates'])}
+numbering=HERE/'numbering_check.json'
+if numbering.exists():report['numbering_support']=json.loads(numbering.read_text())
 (HERE/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 # Native atlases: old layer composite, current clean structure, new AI variants.
 rows=[('lid',128,256),('shell_side',256,80),('shell_end',128,80),('interior',128,256),('mattress',128,256),('section',128,64)]

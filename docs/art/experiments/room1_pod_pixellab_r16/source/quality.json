@@ -511,5 +511,42 @@
     "readback_passed": true,
     "geometry_uv_animation_protected": true,
     "packed_candidates": 15
+  },
+  "numbering_support": {
+    "checks": [
+      {
+        "P12_pixel_exact": true,
+        "lid_end_match": true,
+        "outside_plates_exact": true,
+        "unique_numbers": 20,
+        "variant": "a"
+      },
+      {
+        "P12_pixel_exact": true,
+        "lid_end_match": true,
+        "outside_plates_exact": true,
+        "unique_numbers": 20,
+        "variant": "b"
+      },
+      {
+        "P12_pixel_exact": true,
+        "lid_end_match": true,
+        "outside_plates_exact": true,
+        "unique_numbers": 20,
+        "variant": "c"
+      },
+      {
+        "P12_pixel_exact": true,
+        "lid_end_match": true,
+        "outside_plates_exact": true,
+        "unique_numbers": 20,
+        "variant": "d"
+      }
+    ],
+    "current_room_still_P12_only": true,
+    "expected_sequence": "P01..P20 -> 01..20; P12 -> 12",
+    "new_pixellab_calls": 0,
+    "numbering_independent_of_art_variant": true,
+    "two_instances_independent": true
   }
 }
