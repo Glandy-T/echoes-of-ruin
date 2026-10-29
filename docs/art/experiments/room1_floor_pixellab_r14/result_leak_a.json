@@ -1,0 +1,10 @@
+{
+  "variant": "leak_a",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "2040838c-02d8-4843-a063-eb2d73a2c067",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  }
+}

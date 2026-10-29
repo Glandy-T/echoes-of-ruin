@@ -1,0 +1,22 @@
+{
+  "description": "Seamless flat top-down albedo pixel texture for continuous worn matte blue-gray mineral composite flooring inside an abandoned advanced cryogenic facility. The entire square is the material, not a picture of a room. Interlocking cloudy low-contrast worn coating fields, fine coherent pixel clusters and mineral pigment variation distributed throughout, with tiny fragmented edges. Large subtle material patches about 40-90 pixels wide, secondary finer 2-5 pixel clusters. One uniform cold blue-gray floor with modest visible decades of material age. No tile seams, grid, routes, text, furniture, separate objects, big isolated dirt blobs, long scratches, perspective, rendered lights, shadows, glossy reflections or outlines. Seamless continuation on all edges. Use the supplied cool palette, primarily middle tones, with restrained lighter and darker fields. Crisp native pixel art, no blur or smooth airbrushed gradients.",
+  "image_size": {
+    "width": 256,
+    "height": 256
+  },
+  "seed": 2026102991,
+  "no_background": false,
+  "target_palette": {
+    "colors": [
+      "#4D626B",
+      "#526771",
+      "#566B74",
+      "#5A6C73",
+      "#5E727B",
+      "#627780",
+      "#687D85",
+      "#70858D"
+    ],
+    "max_colors": 8
+  }
+}

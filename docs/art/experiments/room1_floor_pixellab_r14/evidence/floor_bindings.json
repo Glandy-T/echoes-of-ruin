@@ -1,0 +1,8 @@
+[
+	{
+		"baked_energy": 1.2,
+		"irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+		"map": "res://assets/art/room1_floor_pixellab_r14/floor_with_leaks.png",
+		"shader": "res://scripts/dev/room1_surface_full_r5.gdshader"
+	}
+]

@@ -1,0 +1,62 @@
+{
+  "old_art_layers_used": [],
+  "floor_dimensions": [
+    1648,
+    728
+  ],
+  "checks": {
+    "aged": {
+      "aseprite_readback_exact": true,
+      "size": [
+        1648,
+        728
+      ],
+      "warm_R_gt_G_or_G_gt_B_pixels": 0,
+      "sha256": "481414d693b89140a0ed06597403112ed771dd28bc81af4014415d8c29daf97d"
+    },
+    "with_leaks": {
+      "aseprite_readback_exact": true,
+      "size": [
+        1648,
+        728
+      ],
+      "warm_R_gt_G_or_G_gt_B_pixels": 0,
+      "sha256": "014246d609696fe2ad06735f8c3253e4c0c92f0b145fd93d089b97832dd56942"
+    }
+  },
+  "contact_count": 20,
+  "leak_pods": [
+    "P03",
+    "P06",
+    "P13",
+    "P18"
+  ],
+  "rejected_outputs": {
+    "contact_b": "long scratch marks; not used",
+    "leak_b": "closed outlined puddles; not used",
+    "leak_c": "nearly no visible material; not used",
+    "base": "single solid color; replaced by text generation base3",
+    "base2": "single solid color; replaced by text generation base3",
+    "leak_d": "long crack-like outline; not used"
+  },
+  "generations": 110.0,
+  "job_count": 11,
+  "bindings": [
+    {
+      "baked_energy": 1.2,
+      "irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+      "map": "res://assets/art/room1_floor_pixellab_r14/floor_with_leaks.png",
+      "shader": "res://scripts/dev/room1_surface_full_r5.gdshader"
+    }
+  ],
+  "diagnostic_roundtrip_differing_pixels": 453,
+  "diagnostic_roundtrip_max_channel_delta": 43,
+  "diagnostic_roundtrip_difference_bbox": [
+    804,
+    136,
+    871,
+    202
+  ],
+  "roundtrip_differing_pixels_outside_pod_support_rois": 0,
+  "no_geometry_uv_light_or_bake_edits": true
+}
