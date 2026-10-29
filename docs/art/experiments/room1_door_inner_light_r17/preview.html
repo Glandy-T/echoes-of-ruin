@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 门内侧灯 r17</title>
+<style>
+body{background:#171f21;color:#dde2df;font:16px/1.65 system-ui,sans-serif;margin:28px auto;max-width:1500px;padding:0 20px}a{color:#adcedc}h1{font-size:27px}h2{font-size:20px;margin-top:32px}p{max-width:1000px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;background:#222c2e;padding:10px}img{width:100%;display:block;image-rendering:pixelated}figcaption{padding-top:6px}.tag{color:#aabbb0;font-size:14px}@media(max-width:850px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>门内侧通行灯 · r17</h1>
+<p>本轮候选：暗色灯槽中的窄绿 LED 灯芯，只亮门板已经让出的内侧。外门框保持普通材质，认证小窗保持原样。<span class="tag">待审 · 同一房间灯光 · 1280×720</span></p>
+<p>现实参考：<a href="https://www.cedes.com/en/products/cegard-smart-infolight/">CEDES 门沿指示灯</a> · <a href="https://media.cedes.com/filer_public_thumbnails/filer_public/1b/64/1b64bbf7-d96f-4689-9651-2cf7f99e15fb/infolight_open_doors_detail.png__650x433.3333333333333_q60_HIGH_RESOLUTION_crop-smart_subsampling-2_upscale.png">原厂实装近照</a>。借鉴细灯芯与暗色安装型材；四边环仍是本项目设定。<a href="README.md">说明与验证</a></p>
+<h2>半开：只亮露出部分</h2><div class="grid">
+<figure><a href="evidence/old_game_50.png"><img src="evidence/old_game_50.png"></a><figcaption>旧：整个前门框变绿，右侧被门板覆盖仍然亮</figcaption></figure>
+<figure><a href="evidence/fixed_game_50.png"><img src="evidence/fixed_game_50.png"></a><figcaption>新：内侧窄灯芯，右侧仍被门板遮住</figcaption></figure></div>
+<h2>全开与关闭</h2><div class="grid">
+<figure><a href="evidence/fixed_game_100.png"><img src="evidence/fixed_game_100.png"></a><figcaption>全开：门洞内侧四段露出，外框不变绿</figcaption></figure>
+<figure><a href="evidence/fixed_game_0.png"><img src="evidence/fixed_game_0.png"></a><figcaption>授权但门板尚未移开：小窗可绿，内侧灯不亮</figcaption></figure></div>
+<h2>实物结构方向调整</h2><div class="grid">
+<figure><a href="evidence/rejected_flat_green_front_100.png"><img src="evidence/rejected_flat_green_front_100.png"></a><figcaption>已否定的中间候选：宽、均匀的薄荷绿倒角</figcaption></figure>
+<figure><a href="evidence/fixed_front_100.png"><img src="evidence/fixed_front_100.png"></a><figcaption>当前：暗色安装面＋约9mm灯芯；局部柔边，不加大片光晕</figcaption></figure></div>
+<h2>两侧斜看</h2><div class="grid">
+<figure><a href="evidence/fixed_left_50.png"><img src="evidence/fixed_left_50.png"></a><figcaption>左侧看半开：内侧发光面随角度遮挡</figcaption></figure>
+<figure><a href="evidence/fixed_right_20.png"><img src="evidence/fixed_right_20.png"></a><figcaption>右侧看刚打开：可见左灯芯与少量上下露出段</figcaption></figure></div>
+<p>Godot F6：<code>scenes/dev/room1_door_inner_light_r17.tscn</code>，F4 比较。未替换 F5 正式入口，也未更新其他19舱或重烘GI。这里的灯罩柔边属于灯光材质截面模拟；像素颜色图继续保留原 PixelLab 输出。</p>
+</html>

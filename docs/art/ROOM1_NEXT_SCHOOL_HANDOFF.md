@@ -1,5 +1,7 @@
 # Room 1 学校交接：纸片主角与旧功能迁移
 
+> 2026-10-29门灯补充：最新候选运行 `scenes/dev/room1_door_inner_light_r17.tscn`（F6，F4比较），[门内侧灯对照](experiments/room1_door_inner_light_r17/preview.html)。普通前门框不再变绿；参考实物门沿灯的暗色型材＋窄LED芯，只亮已露出的内侧，半开时右侧不穿透。宽薄荷绿中间候选已否定。真实认证、开门、穿门、关门及截图遮挡检查通过；仍待用户审图，没有改动PixelLab颜色图、原认证小窗、门运动／碰撞或F5入口。继承下述r16／r15／r13材料。
+
 > 2026-10-29材质补充：当前单舱候选为`scenes/dev/room1_pod_pixellab_r16.tscn`（F6；P旧新、K差分、O开盖），[开闭与材质对比](experiments/room1_pod_pixellab_r16/preview.html)。使用r15地坪、r13墙／灯带，仅替换P12的实体颜色图；四套外壳、Aseprite和打包Blender源已上传。几何／UV／动画／玻璃／屏幕／灯管保持；单舱材质已获初步认可；其他19舱仍旧，推广时按现有P01–P20分别显示01–20（P12=12），盖板／端面一致且编号独立于A–D差分。帮助器已要求显式传入实例编号，并通过4×20测试；再按位置处理光照，不能复制P12专用光照。下文保留早期功能交接，旧r9地面及v4旧化不是最新材质候选。
 
 学校电脑先更新或克隆 GitHub main，然后打开 `project.godot`。家里这份工作目录的 Git HEAD 仍是旧版，且 `project.godot` 有原有本地修改，大量当前资产在此旧 HEAD 下显示未跟踪；不要直接强行重置或覆盖，先备份并核对后再同步。用 F6 运行 `scenes/dev/room1_sprite_player_lighting_r2.tscn`；这是新的当前审查入口，不是主场景。原2D游戏入口仍在 `scenes/player/player.tscn` 及原有场景中，先运行并核对旧行为，再按实际需求迁移。
