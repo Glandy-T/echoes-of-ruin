@@ -15,6 +15,26 @@ var pass_valid := false
 var feedback_state := "idle"
 
 
+func _apply_review_materials() -> void:
+	super._apply_review_materials()
+	# The inherited route is an intentionally bright identification greybox.
+	# Only this door art-review scene needs a dark 4F entry preview so opening
+	# the leaf does not reveal a bright rectangle in the emergency-lit room.
+	# This is not a final corridor lighting or material decision.
+	var route := get_node(EXTERNAL_ROUTE) as Node3D
+	var entry_wall := _review_material(Color(0.080, 0.105, 0.105))
+	var entry_floor := _review_material(Color(0.060, 0.080, 0.080))
+	var opposite_door := _review_material(Color(0.115, 0.145, 0.150))
+	for mesh: MeshInstance3D in route.find_children("*", "MeshInstance3D", true, false):
+		var name_text := str(mesh.name)
+		if name_text.begins_with("R4F_4F_W"):
+			mesh.material_override = entry_wall
+		elif name_text.begins_with("R4F_4F_FloorCell"):
+			mesh.material_override = entry_floor
+		elif name_text.begins_with("R4F_4F_D") and "LockedDoor" in name_text:
+			mesh.material_override = opposite_door
+
+
 func _make_scan_indicator() -> void:
 	# The old full-door scan line contradicts the integrated-window brief.
 	pass
