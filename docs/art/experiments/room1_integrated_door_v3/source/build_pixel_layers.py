@@ -1,4 +1,4 @@
-"""Paint the approved Room 1 door surface in addressable pixel layers.
+"""Paint the Room 1 door review surface in addressable pixel layers.
 
 The rejected free-form PixelLab swatch is intentionally not an input. Geometry
 and the interactive light states stay separate from this opaque color map.
@@ -21,8 +21,11 @@ def blank():
 base = Image.new("RGBA", SIZE, "#C2CCC5")
 d = ImageDraw.Draw(base)
 d.rectangle((3, 3, 124, 125), fill="#C8D0C9")
-d.rectangle((4, 126, 123, 230), fill="#C3CDC6")
-d.rectangle((3, 231, 124, 255), fill="#AABAB5")
+d.rectangle((4, 126, 123, 255), fill="#C3CDC6")
+# The wall's skirting stops at the opening. The moving leaf has a continuous
+# face and only a mild, low-level material shift at its floor contact.
+d.rectangle((4, 222, 123, 255), fill="#BDC9C2")
+d.rectangle((4, 247, 123, 255), fill="#B8C5BE")
 # Broad, stepped material differences read as manufactured finish, not stains.
 d.polygon([(12, 26), (49, 26), (49, 29), (83, 29), (83, 85),
            (66, 85), (66, 90), (12, 90)], fill="#CAD3CB")
@@ -31,14 +34,10 @@ d.polygon([(87, 105), (114, 105), (114, 110), (120, 110),
 
 structure = blank()
 d = ImageDraw.Draw(structure)
-# One-pixel seal in the opening, without a bright applied frame.
-d.rectangle((0, 0, 0, 255), fill=(58, 78, 77, 255))
-d.rectangle((127, 0, 127, 255), fill=(58, 78, 77, 255))
-d.rectangle((0, 0, 127, 0), fill=(56, 76, 75, 255))
-d.rectangle((0, 255, 127, 255), fill=(48, 68, 69, 255))
-# The lower service joint matches the rear wall protection-band elevation.
-d.line((2, 230, 125, 230), fill=(81, 107, 105, 255), width=1)
-d.line((2, 231, 125, 231), fill=(158, 176, 167, 255), width=1)
+# The narrow moving-leaf seal is carried mainly by model depth. Its painted
+# border is a near-tone transition, without a second black outline.
+d.rectangle((0, 0, 0, 255), fill=(121, 143, 136, 255))
+d.rectangle((127, 0, 127, 255), fill=(121, 143, 136, 255))
 # The physical status window is a small, flush inset. Color state is runtime.
 d.rectangle((54, 86, 74, 99), fill=(130, 151, 146, 255))
 d.rectangle((56, 88, 72, 97), fill=(47, 65, 69, 255))
@@ -47,17 +46,16 @@ d.line((56, 97, 72, 97), fill=(30, 48, 54, 255), width=1)
 
 age = blank()
 d = ImageDraw.Draw(age)
-# Wear follows seal, lower contact edge, and two hand-height maintenance spots.
-# These are authored clusters, never a random speckle pass.
-d.polygon([(3, 141), (5, 141), (5, 157), (7, 157), (7, 161),
-           (5, 161), (5, 169), (3, 169)], fill=(94, 116, 111, 180))
-d.polygon([(122, 122), (125, 122), (125, 150), (123, 150),
-           (123, 146), (121, 146), (121, 137)], fill=(90, 110, 108, 170))
-d.polygon([(2, 239), (7, 239), (7, 241), (11, 241), (11, 243),
-           (2, 243)], fill=(91, 113, 108, 105))
-d.polygon([(125, 240), (120, 240), (120, 242), (116, 242),
-           (116, 244), (125, 244)], fill=(88, 111, 107, 100))
-d.line((6, 252, 122, 252), fill=(83, 105, 103, 95), width=1)
+# Continuous edge deposits collect where the leaf rubs its seal; they grow
+# toward the floor, then taper inward. No isolated stain blocks at mid-height.
+d.polygon([(1, 190), (2, 190), (2, 212), (3, 212), (3, 230),
+           (5, 230), (5, 246), (9, 246), (9, 253), (1, 253)],
+          fill=(101, 125, 120, 110))
+d.polygon([(126, 203), (125, 203), (125, 226), (123, 226),
+           (123, 241), (119, 241), (119, 250), (126, 250)],
+          fill=(100, 123, 118, 92))
+d.line((11, 253, 50, 253), fill=(90, 111, 109, 65), width=1)
+d.line((77, 253, 119, 253), fill=(90, 111, 109, 58), width=1)
 
 named = [("mineral_composite_base", base),
          ("seal_and_status_window", structure),

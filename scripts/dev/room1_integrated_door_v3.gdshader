@@ -13,10 +13,8 @@ void fragment() {
     float base = mix(0.085, 0.095, smoothstep(0.0, 0.14, height_fraction));
     base += 0.048 * smoothstep(0.14, 0.25, height_fraction);
     base += 0.055 * smoothstep(0.25, 1.0, height_fraction);
-    float wall_foot = 0.080 * smoothstep(0.02, 0.07, height_fraction)
-                    * (1.0 - smoothstep(0.08, 0.12, height_fraction));
     float emergency = mix(0.55, 1.0, strip_on);
-    ALBEDO = surface.rgb * vec3(0.90, 1.03, 1.04) * (base + wall_foot) * emergency;
+    ALBEDO = surface.rgb * vec3(0.90, 1.03, 1.04) * base * emergency;
     ROUGHNESS = 0.94;
     SPECULAR = 0.0;
 }

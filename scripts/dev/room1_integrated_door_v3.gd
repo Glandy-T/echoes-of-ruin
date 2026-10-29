@@ -69,7 +69,7 @@ func _replace_placeholder() -> void:
 	panel_material.set_shader_parameter("pixel_map", DOOR_PIXELS)
 	panel.set_surface_override_material(0, panel_material)
 	# The leaf's narrow sides are a dark in-wall seal, not a lit metal applique.
-	panel.set_surface_override_material(1, _unshaded_color(Color(0.006, 0.012, 0.012)))
+	panel.set_surface_override_material(1, _unshaded_color(Color(0.012, 0.019, 0.019)))
 	door_mesh = panel
 	door_closed_position = panel.global_position
 
@@ -102,6 +102,7 @@ func _replace_placeholder() -> void:
 	for part: MeshInstance3D in integrated_root.find_children("JambLight_*", "MeshInstance3D", true, false):
 		part.material_override = frame_material
 		part.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		part.visible = false
 	assert(integrated_root.find_children("JambLight_*", "MeshInstance3D", true, false).size() == 4)
 
 
@@ -155,6 +156,8 @@ func _update_feedback() -> void:
 	# One continuous inner-jamb ring glows green only during valid passage.
 	# The one-actor review has no red jamb state and does not simulate tailgating.
 	frame_material.albedo_color = Color(0.22, 0.55, 0.38) if new_state == "pass" else Color(0.008, 0.014, 0.014)
+	for part: MeshInstance3D in integrated_root.find_children("JambLight_*", "MeshInstance3D", true, false):
+		part.visible = new_state == "pass"
 
 
 func _update_info() -> void:

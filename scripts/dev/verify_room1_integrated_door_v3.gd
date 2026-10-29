@@ -23,8 +23,12 @@ func _run() -> void:
 		errors.append("integrated door, collision, window, frame, or player missing")
 		_finish({"result": "FAIL", "errors": errors})
 		return
-	if integrated.find_children("JambLight_*", "MeshInstance3D", true, false).size() != 4:
+	var jambs := integrated.find_children("JambLight_*", "MeshInstance3D", true, false)
+	if jambs.size() != 4:
 		errors.append("inner jamb ring is not four continuous sides")
+	for jamb: MeshInstance3D in jambs:
+		if jamb.visible:
+			errors.append("jamb lamp visible while idle: " + jamb.name)
 	if room.get("scan_line") != null:
 		errors.append("old full-door scan line still exists")
 	var old := room.get_node_or_null("Solid_MAIN_DOOR_PLACEHOLDER_NOT_APPROVED") as StaticBody3D
@@ -42,6 +46,9 @@ func _run() -> void:
 		errors.append("approach did not begin chip scan")
 	if ring_during_scan.g > 0.3:
 		errors.append("jamb lit during yellow scan")
+	for jamb: MeshInstance3D in jambs:
+		if jamb.visible:
+			errors.append("jamb lamp visible during yellow scan: " + jamb.name)
 	for i in 330:
 		await get_tree().physics_frame
 	var green := str(room.get("feedback_state")) == "pass"
@@ -55,6 +62,9 @@ func _run() -> void:
 		errors.append("door panel and collider slide are not synchronized")
 	if frame.albedo_color.g < 0.45 or status.albedo_color.g < 0.55:
 		errors.append("status window or full inner-jamb ring failed to show green")
+	for jamb: MeshInstance3D in jambs:
+		if not jamb.visible:
+			errors.append("inner-jamb side missing during passage: " + jamb.name)
 
 	room.set("test_mode", true)
 	room.set("test_input", Vector2(0, -1))
@@ -69,6 +79,9 @@ func _run() -> void:
 	var closed_again := float(room.get("door_fraction"))
 	if closed_again > 0.05 or str(room.get("feedback_state")) != "idle":
 		errors.append("green passage feedback did not reset after closing")
+	for jamb: MeshInstance3D in jambs:
+		if jamb.visible:
+			errors.append("jamb lamp did not go dark after passage: " + jamb.name)
 
 	room.set("chip_enabled", false)
 	room.call("teleport_player", Vector3(10.5, 0.05, -8.6))
@@ -79,6 +92,9 @@ func _run() -> void:
 		errors.append("unauthorized chip did not show red in the small window")
 	if frame.albedo_color.r > 0.2 or frame.albedo_color.g > 0.3:
 		errors.append("inner jamb incorrectly turned red/green in one-actor denial")
+	for jamb: MeshInstance3D in jambs:
+		if jamb.visible:
+			errors.append("jamb lamp visible during denial: " + jamb.name)
 	if float(room.get("door_fraction")) > 0.05:
 		errors.append("door opened for unauthorized chip")
 
