@@ -94,6 +94,8 @@ def ramp(name, stair, u1, u2, v1, v2, z1, z2, parent, color, tags):
     verts += [(x, y, z-.07) for x, y, z in verts]
     faces = [(0, 1, 2, 3), (7, 6, 5, 4), (0, 4, 5, 1),
              (1, 5, 6, 2), (2, 6, 7, 3), (3, 7, 4, 0)]
+    if stair["side"] in ("East", "North"):
+        faces = [tuple(reversed(face)) for face in faces]
     mesh = bpy.data.meshes.new(name)
     mesh.from_pydata(verts, [], faces)
     mesh.update()

@@ -53,6 +53,11 @@ for label, index in LEVELS:
         for segment in ["EntryLanding"] + ([] if label == "16F" else ["TurnLanding", "SlopeA", "SlopeB"]):
             if bpy.data.objects.get(f"{label}_{stair['id']}_{segment}") is None:
                 errors.append(f"{label}/{stair['id']}: missing {segment}")
+        if label != "16F":
+            for segment in ("SlopeA", "SlopeB"):
+                slope = bpy.data.objects[f"{label}_{stair['id']}_{segment}"]
+                if slope.data.polygons[0].normal.z < .1:
+                    errors.append(f"{label}/{stair['id']}: {segment} top normal does not face upward")
         if bpy.data.objects.get(f"{label}_{stair['id']}_StairCore"):
             errors.append(f"{label}/{stair['id']}: old solid core remains")
 

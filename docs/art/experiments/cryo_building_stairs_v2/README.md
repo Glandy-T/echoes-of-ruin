@@ -17,7 +17,7 @@
 - Godot 静态导入检查场景：`scenes/dev/cryo_building_route_review_v2.tscn`。只含 4F 平面及西梯至 1F 的轻量 GLB，不替换正式主场景；该场景不支持玩家行走。
 - Godot 导入 GLB：`assets/art/cryo_building_stairs_v2/cryo_building_route_4f_to_1f_v2.glb`。
 
-Blender 原始 v1 文件 SHA-256 与本轮新工程保存的来源哈希相同。独立重开检查见 [reopen_validation.json](reopen_validation.json)：80 个梯井断面无遮挡、76 段跨层梯段、4F 主角房到西梯的冻结路线图可达，均通过。Godot 4.6.2 编辑器导入 GLB 成功；在正常权限下运行此审查场景两帧，退出码为 0。**尚未进行真实人物碰撞、上下楼、门权限或 1F 室外出口的游戏运行验收。**
+Blender 原始 v1 文件 SHA-256 与本轮新工程保存的来源哈希相同。独立重开检查见 [reopen_validation.json](reopen_validation.json)：80 处梯井中心采样未被旧楼板或墙堵住、76 段跨层梯段齐全且坡面法线朝上、4F 主角房到西梯的冻结路线图可达，均通过。Godot 4.6.2 编辑器导入 GLB 成功；在正常权限下运行此审查场景两帧，退出码为 0。**尚未进行真实人物碰撞、上下楼、门权限或 1F 室外出口的游戏运行验收。**
 
 ## 下一步
 
