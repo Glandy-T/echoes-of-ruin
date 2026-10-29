@@ -22,6 +22,8 @@
 
 [r15 地坪差分](experiments/room1_floor_variants_r15/README.md)保留r14单块材料基调，新增PixelLab原图并剔除近似复制，最终用7份底材、5份接触、4份漏液固定安排；脚本只做统一调色板配准与原生像素边界拼接。分开记录独立原图数、铺设次数与200 generations实际用量，不能把翻转或近似复制算作新原图。
 
+[r16 单舱材质返修](experiments/room1_pod_pixellab_r16/README.md)继续用PixelLab，从结构导图与功能编号出发，去掉v4后加的脚本旧化。四套外壳＋共用舱内材质共15图，150 generations实际调用；玻璃、动态屏幕和全部灯管部件保持，不宣称为本轮新生成。只绑定P12实体表面，不提前推广其余19舱。
+
 ## 旧基线 Room 1 墙面的来源标注
 
 旧基线门场景继承 `room1_seam_contact_r6` 的四墙颜色图，后墙门洞另用 `room1_integrated_door_v3/wall_rear_portal.png` 清理旧缝。墙面最初的 v1/v2 与局部 r1/r2 有 PixelLab 原始生成记录；随后 r3 接缝、r4 旧化、r5 全墙推广、r6 接缝修正都在各自 README 中明确记为脚本／人工像素层，未新增 PixelLab 调用。**因此该历史基线墙面是旧流程的混合来源，不应宣称整张现行贴图符合本约束。**保留现状作为已审过的游戏基线；未来返修墙面材质细节时用 PixelLab 重新生成／编辑并同镜头验证，结构与UV修复仍可用精确技术手段完成。

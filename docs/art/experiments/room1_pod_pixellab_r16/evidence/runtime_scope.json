@@ -1,0 +1,197 @@
+{
+	"baked_energy": 1.2,
+	"floor_map": "room1_floor_variants_r15",
+	"geometry_uv_signature": {
+		"PodBasinSeal": [
+			{
+				"indices": "7176b39d04dd3c1a462796909b9a831f75a7fa13ea0079f03070b02ee8ce2adf",
+				"uv0": "787966b203a1639b666918860ec56e2df0b0eabf739d7683e4b79fb5d20828d3",
+				"uv2": "cf550520c4678283ee383966a1f767c3658eea115e24b6ca2772b7f55f998b9b",
+				"vertices": "1a7b17c5f4883697ac203ca38a8cd767577397895508f44c1dd336f4685ded6c"
+			}
+		],
+		"PodDisplay": [
+			{
+				"indices": "9377cd49975480362091d288bf72105509defe06ec611a8e0ab9ca4315a8e5eb",
+				"uv0": "b3e63863fed28f3a91df6f881d010d7ef58f4b5f894a47af26ce0ecf3655de64",
+				"uv2": "8f29dbce8546810b3692a6a1966cda9833d462ae3116acae2f5b1817f8e3881a",
+				"vertices": "43b5457d2975bfd31bfd9d41098a6c6f335b77b4fdcf5a9c94cfa532fd6b3c23"
+			}
+		],
+		"PodDisplayHousing": [
+			{
+				"indices": "6eb8e35b6dacb28d10c0eaa83d5f9be5ef292510e7e35202ae5fce094ae25da7",
+				"uv0": "b762a74488225ebd8a922b3716a1315494b3d42a491c0e8693a69e52662e9274",
+				"uv2": "fe58585f48bfb57adad6347ca9b8e7b13cb6519f9773dbb714a207976c2cc6d3",
+				"vertices": "1b5077f71c7046567b4ba1da0778a936e33827036de39268e5705745ec5978eb"
+			}
+		],
+		"PodGlass": [
+			{
+				"indices": "153685cc770c1ae5be3d7405dbf4070fab8eb6637248f292e76e962517982fad",
+				"uv0": "f0bdcabf78e0a3583eab91b2dc3813ee021cbbae37e41eedfb37db25ba38c144",
+				"uv2": "82183ee7ec36de73c621f520881459beeae9974a0c5c229c47f6307246fbb0e0",
+				"vertices": "e2d06865da3d900441ae07fcd54aaa8d7e345c2ab4297df794741146bc5c0aa9"
+			}
+		],
+		"PodInterior": [
+			{
+				"indices": "234d92c981e738e4f7e528f49fdb4b67353cacecb9c9350f21f7de9e96ff22ba",
+				"uv0": "e1a3b38790ec9f396ad4385ef59943257b923f2c14d1ab85b19f02ab36594151",
+				"uv2": "c332b0119720605d493afa67c9a42fc1671e7f699af6259a1d3df6b11de1c58a",
+				"vertices": "a9bd323e3c8696e3b0a2e1b34adb7db160a0f83f7dd42d47584b0b075ee6a7de"
+			}
+		],
+		"PodLid": [
+			{
+				"indices": "e527e352af1deaa4b11c03ec2da442c4704a519b6224cd5f49583954b1a94eab",
+				"uv0": "2b83d7cdd73da4ef614cc41ba77425f5c4b15f9559cde1a93cb687e40cec9528",
+				"uv2": "92566f6f8a1349fd94f3a86dd996de4bbaa1e9f83f956f503e762ea36ba22ae8",
+				"vertices": "ea69682ffd2c1b4af4278f7c0cfd3053c06039ee97628cbfe85aa76302bd6fa8"
+			}
+		],
+		"PodLidBacking": [
+			{
+				"indices": "39085a1fcef72198000364a7cd086a8ffbaa3706501ce93631b38f5f41dd08a6",
+				"uv0": "234bdd124926a7722953d34ae645e29d7d5d0c6ebcceff68fb8456f69bafae42",
+				"uv2": "9a4fff06d831f9d70d8a8ab9032df941ccd7e2cfe724af7d9fb701fa7c5f74e8",
+				"vertices": "3da2a9ecdecf321654928b29a6ab7aae797c599a2a05c98bd84453ae27d97778"
+			}
+		],
+		"PodLidInterior": [
+			{
+				"indices": "bd99f47c90db9b1fb921342076611269f5f7214a2f5f636e50a27c9666cac2b6",
+				"uv0": "98bd11b850581886269f221a2970780d75e07dea28637112fd12914e0d0f9768",
+				"uv2": "24656c86bcb91cbf865354416c7af82016ff6f33ce58e00565c21037e94107c1",
+				"vertices": "9bd4bb53e16511569bf258551741ef9b1d21448738deb35cec5904555a7ff037"
+			}
+		],
+		"PodMattress": [
+			{
+				"indices": "3e84552188cbdc66cfd1288c4f5acebe7331f51bf30ad50d21a620d347220966",
+				"uv0": "fd5acf60acf2aa0d5bc47a46e62916d65aabb40d4b22ee72b663df1546e6fec3",
+				"uv2": "991d70da4b431ec01db5832b283cef3e558f8137d92ae02e9c97848668cd10fd",
+				"vertices": "9908bcac0eff60cbbe902b2a2bf044adecb24e7b1d1b80e43c40454ad45643bc"
+			}
+		],
+		"PodShell": [
+			{
+				"indices": "44510119382e4b5bfe277d69b323a4436122bd5a11ca5e1605b06d3b242fa963",
+				"uv0": "0e8867587ad7b68c507efdf0b0c49e4e5e7cc27f05ebcffe1f8e78be97ab2352",
+				"uv2": "818d42cb7ccd681ab7f62108ec707f7d4f67a8e6f2678b76013b25fe8fcb8ffe",
+				"vertices": "e75653d215dfc48aebecb028aaf30a9102bc2db4c0149c7c7caf9cd7361400c5"
+			}
+		],
+		"PodShellEnd": [
+			{
+				"indices": "b4cd5afa47383525e2f769b68814364adbd298ade7f04727dbf0acd5f26c9672",
+				"uv0": "5747ad4e72fbb51060c6fba493359602525e7752156de7016c081f1853810fbb",
+				"uv2": "0c6e220938b137d4ebf893d5b874b9521236b83e5fccb53aebd7c9b21131fc58",
+				"vertices": "a30b3132dc80c4a0d9fb26ba452de19a126c16665f2f44c2621e2c0a37f96915"
+			}
+		],
+		"PodShellSection": [
+			{
+				"indices": "284bd7e038126da9d006618b2ebe9fe8392741b16bdd7050f9181e3fc85ccaff",
+				"uv0": "371f1791c95f1ebfe7b906dfb172a2857b4615b87283babcb1d70e1c7b7c818e",
+				"uv2": "a779a3abb68c5db35de092eb035a2bb5430b10a921417489d394603c363fd096",
+				"vertices": "56059fd0d5543c1f41478cc27f87d630ce051f1b3777b39cd0de0b5b00d23eb2"
+			}
+		],
+		"PodTubeDiffuser_L": [
+			{
+				"indices": "ba18945b4d94061c230df561ad36836511e1efb898fb25dcb978111dc2842744",
+				"uv0": "d4ee6c1af59e95cfc276ffe425b5c57cafc20997f48424f9ebd87ec5d260b044",
+				"uv2": "7a0462281adace0876baf4314d794bf629e2270cf6f8ace322e065269ff076b8",
+				"vertices": "d64a0cf2da4275adba02e015ef7d431e2cfd18b540ca0b4f34e553e310feb990"
+			}
+		],
+		"PodTubeDiffuser_R": [
+			{
+				"indices": "ba18945b4d94061c230df561ad36836511e1efb898fb25dcb978111dc2842744",
+				"uv0": "d4ee6c1af59e95cfc276ffe425b5c57cafc20997f48424f9ebd87ec5d260b044",
+				"uv2": "a19fbb763061eb67d26ce4cd8813dcd815a9d881bc76588a29ccbf294698736a",
+				"vertices": "7bce21a337f79199e70cc0ef839ec814c674541d50854c5e4bcbf49a9ad704fe"
+			}
+		],
+		"PodTubeHousing_L": [
+			{
+				"indices": "ba18945b4d94061c230df561ad36836511e1efb898fb25dcb978111dc2842744",
+				"uv0": "d4ee6c1af59e95cfc276ffe425b5c57cafc20997f48424f9ebd87ec5d260b044",
+				"uv2": "b408366a662453c8f085fa16f27670d47e8c105191994de284c0aca7a7cf4898",
+				"vertices": "d67d615d6bf75ad5ae4650497ce8171b52969ad427daae0962851540bc5e7d9c"
+			}
+		],
+		"PodTubeHousing_R": [
+			{
+				"indices": "ba18945b4d94061c230df561ad36836511e1efb898fb25dcb978111dc2842744",
+				"uv0": "d4ee6c1af59e95cfc276ffe425b5c57cafc20997f48424f9ebd87ec5d260b044",
+				"uv2": "d1a506b456482f2a5613273ab8cb2f89ce2003647e57dd5e22e016a7343b74a9",
+				"vertices": "39c25aed3f35edf7d6cec1bcd630907655953ce8f0fcb0a75f52320cf1301dd9"
+			}
+		],
+		"PodWindowFrame": [
+			{
+				"indices": "c0a24a0525d9085623138b33d671d87a0f31e0896c264b7cf834169a3d9396eb",
+				"uv0": "1c19c62de846de3470cb05aa117fb15a0df8c76e928d32538ca7f615ebcb3ea2",
+				"uv2": "e34c34b76ac15e0eabc5ad5f24ce6e25fa48754fdac2baa9531fca9ddeed9224",
+				"vertices": "e2decebaecdbf5cca525595c89faba43f34a93127d525993da0ea857ba576237"
+			}
+		],
+		"PodWindowSeal": [
+			{
+				"indices": "20c5e442be740ee9e797b0e11aae943abc4c8a8074337265af44b5b75746d2f3",
+				"uv0": "a0b30704df439f1f4249491bf255a61186f65c3b5c938672f22d65b74ad90bdc",
+				"uv2": "5336814e1263e0fa771a68a405f58000b616962b2e6cc24de2cf55e992d1a758",
+				"vertices": "1b8d23e653ee5ae5b9c234d0ac5d34244157a9912fbc5b7a5a2c474392c2ec0b"
+			}
+		]
+	},
+	"geometry_uv_unchanged": true,
+	"glass_display_all_tube_parts_unchanged": true,
+	"opaque_surface_count": 12,
+	"other_19_pods": "not replaced",
+	"pod_source": "res://scenes/props/cryopod_standard_v8.tscn",
+	"protected_materials": {
+		"PodDisplay": {
+			"shader": "res://scripts/props/cryopod_standard_v8_1_screen.gdshader",
+			"textures": {
+				"screen_overlay": "cb8122880128182da2d29d7608a18b44a9ca7f75672051eb7d8df3676f1e9537",
+				"screen_pixels": "4ea449df8f17826e9fadd9e7f2489ef570adb98633f4f30d33ff09a35388bf8c"
+			}
+		},
+		"PodGlass": {
+			"shader": "res://scripts/props/cryopod_standard_v8_glass.gdshader",
+			"textures": {
+				"glass_pixels": "2b0ee4ba54c33a69a2be1b92e947251ca820d67856c63711eb3c249354bb03cf"
+			}
+		},
+		"PodTubeDiffuser_L": {
+			"shader": "res://scripts/props/cryopod_standard_v8_tube.gdshader",
+			"textures": {
+
+			}
+		},
+		"PodTubeDiffuser_R": {
+			"shader": "res://scripts/props/cryopod_standard_v8_tube.gdshader",
+			"textures": {
+
+			}
+		},
+		"PodTubeHousing_L": {
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"textures": {
+				"closed_irradiance": "dbcb7f60e8800c3f9b5449958e6304b80316891ed5b5d34d1cb37920a9c4a493",
+				"open_irradiance": "46cd09fb3ed16b9eed4dacd90646b518a6624b39fd85b5499de833a966adbd66"
+			}
+		},
+		"PodTubeHousing_R": {
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"textures": {
+				"closed_irradiance": "dbcb7f60e8800c3f9b5449958e6304b80316891ed5b5d34d1cb37920a9c4a493",
+				"open_irradiance": "46cd09fb3ed16b9eed4dacd90646b518a6624b39fd85b5499de833a966adbd66"
+			}
+		}
+	},
+	"real_open_close_animation_passed": true
+}

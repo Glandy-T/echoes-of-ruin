@@ -1,0 +1,104 @@
+{
+  "structural_inputs": [
+    {
+      "key": "lid",
+      "size": [
+        128,
+        256
+      ],
+      "clean_source_layer": "docs/art/experiments/room1_pod_volume_v4/source/texture_layers/lid__v3_design_pixel_planes.png",
+      "clean_source_sha256": "c49b2896c4d0a5668810f7159d17c49497cde302aef2eab8f35deba450c18288",
+      "removed_layers": [
+        "seam_and_recess_aging",
+        "coating_contact_chips"
+      ],
+      "editable_pixels": 29428,
+      "functional_ID_retained": true
+    },
+    {
+      "key": "shell_side",
+      "size": [
+        256,
+        80
+      ],
+      "clean_source_layer": "docs/art/experiments/room1_pod_volume_v4/source/texture_layers/shell_side__v3_design_pixel_planes.png",
+      "clean_source_sha256": "37300d7a6dbce9b4e7a7915635b0a36cacd3040075bc3008f8d712f192583be6",
+      "removed_layers": [
+        "seam_and_recess_aging",
+        "coating_contact_chips"
+      ],
+      "editable_pixels": 15209,
+      "functional_ID_retained": false
+    },
+    {
+      "key": "shell_end",
+      "size": [
+        128,
+        80
+      ],
+      "clean_source_layer": "docs/art/experiments/room1_pod_volume_v4/source/texture_layers/shell_end__v3_design_pixel_planes.png",
+      "clean_source_sha256": "c35baab22aa7389ef400940d0a11f3a6befd82505edb2f9992d991b00020bfa6",
+      "removed_layers": [
+        "seam_and_recess_aging",
+        "coating_contact_chips"
+      ],
+      "editable_pixels": 7810,
+      "functional_ID_retained": true
+    },
+    {
+      "key": "interior",
+      "size": [
+        128,
+        256
+      ],
+      "clean_source_layer": "docs/art/experiments/room1_pod_volume_v4/source/texture_layers/interior__v3_design_pixel_planes.png",
+      "clean_source_sha256": "292b676155e6715cc73125aef4e29efac0fa30554827782c0980af9cbecb4cd9",
+      "removed_layers": [
+        "seam_and_recess_aging",
+        "coating_contact_chips"
+      ],
+      "editable_pixels": 31248,
+      "functional_ID_retained": false
+    },
+    {
+      "key": "mattress",
+      "size": [
+        128,
+        256
+      ],
+      "clean_source_layer": "docs/art/experiments/room1_pod_volume_v4/source/texture_layers/mattress__v3_design_pixel_planes.png",
+      "clean_source_sha256": "5bc5867abfa81efaa5ab384291736974bda453a6ed805675c9de324c5c910f28",
+      "removed_layers": [
+        "seam_and_recess_aging",
+        "coating_contact_chips"
+      ],
+      "editable_pixels": 31248,
+      "functional_ID_retained": false
+    },
+    {
+      "key": "section",
+      "size": [
+        128,
+        64
+      ],
+      "clean_source_layer": "docs/art/experiments/room1_pod_volume_v4/source/texture_layers/section__section_material_planes.png",
+      "clean_source_sha256": "24cee6bb24d926def63eda0ce2048102c02b15575b65e5ec260ec0956202b477",
+      "removed_layers": [
+        "edge_retained_film"
+      ],
+      "editable_pixels": 6820,
+      "functional_ID_retained": false
+    }
+  ],
+  "legacy_aging_layers_loaded": [],
+  "unchanged": [
+    "glass",
+    "display",
+    "tube geometry and parameters",
+    "model/UV/animation/collision"
+  ],
+  "final_extra_structural_locks": {
+    "shell_side": "rows 0-25 preserve accepted blue-gray top inset; A raw had white recoloring",
+    "shell_end": "rows 55-79 preserve accepted blue-gray support band; B raw had pale invented patch"
+  }
+}

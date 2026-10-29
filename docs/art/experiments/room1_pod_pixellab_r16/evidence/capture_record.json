@@ -1,0 +1,834 @@
+[
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_before_closed.png",
+		"fov": 44.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_before_closed.png",
+		"fov": 44.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_before_closed.png",
+		"fov": 55.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_before_closed.png",
+		"fov": 48.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			3.52500009536743,
+			2.20000004768372,
+			3.25
+		],
+		"file": "game_before_closed.png",
+		"fov": 50.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_before_open.png",
+		"fov": 44.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_before_open.png",
+		"fov": 44.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_before_open.png",
+		"fov": 55.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_before_open.png",
+		"fov": 48.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			3.52500009536743,
+			2.20000004768372,
+			3.25
+		],
+		"file": "game_before_open.png",
+		"fov": 50.0,
+		"new_finish": false,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_a_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_a_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_a_closed.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_a_closed.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			3.52500009536743,
+			2.20000004768372,
+			3.25
+		],
+		"file": "game_a_closed.png",
+		"fov": 50.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_a_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_a_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_a_open.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_a_open.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			3.52500009536743,
+			2.20000004768372,
+			3.25
+		],
+		"file": "game_a_open.png",
+		"fov": 50.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_b_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_b_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_b_closed.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_b_closed.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_b_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_b_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_b_open.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_b_open.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 1,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_c_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_c_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_c_closed.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_c_closed.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_c_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_c_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_c_open.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_c_open.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 2,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_d_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_d_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_d_closed.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_d_closed.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "oblique_d_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "color_d_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.79999995231628,
+			1.60000002384186,
+			-7.09999990463257
+		],
+		"file": "side_d_open.png",
+		"fov": 55.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "head_d_open.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 3,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "a_open_restored.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			4.09999990463257,
+			1.10000002384186,
+			-5.40000009536743
+		],
+		"file": "screen_unchanged.png",
+		"fov": 38.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "glass_on.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "glass_hidden.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "glass_tubes_off.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			2.15000009536743,
+			1.22000002861023,
+			-8.89999961853027
+		],
+		"file": "glass_restored.png",
+		"fov": 48.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "animation_open.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "open",
+		"size": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": [
+			1.77499997615814,
+			1.79999995231628,
+			-4.44999980926514
+		],
+		"file": "animation_closed.png",
+		"fov": 44.0,
+		"new_finish": true,
+		"pixel_variant": 0,
+		"pose": "closed",
+		"size": [
+			1280,
+			720
+		]
+	}
+]

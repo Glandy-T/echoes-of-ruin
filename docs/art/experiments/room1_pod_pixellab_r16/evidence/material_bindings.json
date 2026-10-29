@@ -1,0 +1,552 @@
+{
+	"a": [
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLid",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "lid",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_a/lid.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidBacking",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowFrame",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodBasinSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodDisplayHousing",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodMattress",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "mattress",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShell",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_side",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellEnd",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_end",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_a/shell_end.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellSection",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		}
+	],
+	"b": [
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLid",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "lid",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_b/lid.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidBacking",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowFrame",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodBasinSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodDisplayHousing",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodMattress",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "mattress",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShell",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_side",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellEnd",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_end",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_b/shell_end.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellSection",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		}
+	],
+	"before": [
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLid",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "lid",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_lid.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidBacking",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowFrame",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodBasinSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodDisplayHousing",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodMattress",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "mattress",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_mattress.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShell",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_side",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_shell_side.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellEnd",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_end",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_shell_end.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellSection",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png"
+		}
+	],
+	"c": [
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLid",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "lid",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_c/lid.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidBacking",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowFrame",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodBasinSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodDisplayHousing",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodMattress",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "mattress",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShell",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_side",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellEnd",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_end",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_c/shell_end.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellSection",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		}
+	],
+	"d": [
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLid",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "lid",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_d/lid.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidBacking",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodLidInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowFrame",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodWindowSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodBasinSeal",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodDisplayHousing",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodInterior",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "interior",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/interior.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodMattress",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "mattress",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/mattress.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShell",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_side",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellEnd",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "shell_end",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/variant_d/shell_end.png"
+		},
+		{
+			"baked_energy": 1.2,
+			"closed_irradiance": "res://assets/art/cryopod_standard_v8/closed_irradiance.exr",
+			"mesh": "PodShellSection",
+			"open_irradiance": "res://assets/art/cryopod_standard_v8/open_irradiance.exr",
+			"role": "section",
+			"shader": "res://scripts/props/cryopod_standard_v8_surface.gdshader",
+			"texture": "res://assets/art/room1_pod_pixellab_r16/shared/section.png"
+		}
+	]
+}

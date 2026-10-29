@@ -1,0 +1,748 @@
+{
+  "source": "docs/art/experiments/room1_pod_standard_v8/room1_pod_standard_v8_packed.blend",
+  "source_sha256": "21881ef2a6afd7035c4b5e234ed962b4424ca09eafad3a8446e254ba02eb2631",
+  "geometry_uv_material_slots_unchanged": true,
+  "mesh_count": 18,
+  "mesh_signature": {
+    "PodBasinSeal": {
+      "geometry": "3afa502f8b413df6112296711e544a03ce69fd3785bde5333458e671f1e401c0",
+      "uv": {
+        "UV_GODOT_0": "6aae2ec475e29f979faa68754d9faddd21c7cbc287eed06003690285a97c031e",
+        "LightmapUV": "41a4600e68d17a98d9e28a04f5cef2b9bd7424cf578c888080e0a18eadeda1d9"
+      },
+      "material_slots": [
+        "POD_V8_section"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodDisplay": {
+      "geometry": "680200d16bddf0c3c2d4960d13c1a9a5deff56b705b1811d3d33a301a8f12968",
+      "uv": {
+        "UV_GODOT_0": "ba3c3511cbc2b0ac1acf83b88436679c12fb1e96d89784d06fc9baa48a401978",
+        "LightmapUV": "ae318bff7384281a1248d2aafdeb7c7ce6e50f22cc54cd6a1e88a685aeef1607"
+      },
+      "material_slots": [
+        "POD_V8_display"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodDisplayHousing": {
+      "geometry": "9464da678f3b2678f7341a7388c7cae364715aef8553f7748e33d5087413ec81",
+      "uv": {
+        "UV_GODOT_0": "0b46ef3fa64ada5c2021ed56bd1c16e7b9ca45528110569cf2be84c208ce4364",
+        "LightmapUV": "67fcc3b9c9eb1f915a17c98aa275d39691f1aae14294f2e487c03cc1aed915fd"
+      },
+      "material_slots": [
+        "POD_V8_section"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodGlass": {
+      "geometry": "2bbc091783a64fdf31c0733d33e939dd65a5a27d3852eec9207b4c76ef681b16",
+      "uv": {
+        "UV_GODOT_0": "8053191de5a65ed1e977c36b415048e1d51356eb246b44f11dca67ab38aa435f",
+        "LightmapUV": "463b7a5de90eeaab41b0f109fdb0fbcc564bbd3d699e83980bc7c020cdd69dba"
+      },
+      "material_slots": [
+        "POD_V8_glass"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "LidMotion"
+    },
+    "PodInterior": {
+      "geometry": "b92458152e76bbfaf045aaa82d3993b959c1c09b2af122e641898d5ad06f5118",
+      "uv": {
+        "UV_GODOT_0": "d114d039509b9d5d14c203a161141503d253d139c7f046ee8584e1eefb76b371",
+        "LightmapUV": "4af6d25dd838f2f77694f03bd46abbb9166d52b2f0fd5f1293c8b3234f097478"
+      },
+      "material_slots": [
+        "POD_V8_interior"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodLid": {
+      "geometry": "931e3de5b8a67a1e3ca89308830f53fcb9d11124f3bb72f7bbccb0b8df71d9e1",
+      "uv": {
+        "UV_GODOT_0": "86a599215f765a415b959160e640675a6e40999a798ab949ce0eaba9dcf4c69d",
+        "LightmapUV": "798d58ff164091b7144b88092e99131cda5c89a208f69375dc1b8764c028c6f6"
+      },
+      "material_slots": [
+        "POD_V8_lid"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "LidMotion"
+    },
+    "PodLidBacking": {
+      "geometry": "f6bcd30e388988a876fe84f6690738de5b7b6f9d0ebb33754df8071ceac6a474",
+      "uv": {
+        "UV_GODOT_0": "8c45c70f75e00fdfe6e213f1f36ebd734d08b9b58313999ab4d262cb9dd9dbf0",
+        "LightmapUV": "487147e5b8bedd4f84a283adc2d258bc1d9a88874d89a18cdcecb0dafbd0a982"
+      },
+      "material_slots": [
+        "POD_V8_section"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "LidMotion"
+    },
+    "PodLidInterior": {
+      "geometry": "f71b231faacc9e06d0c390c3e35946edca507a580c37841069de76eb490a9830",
+      "uv": {
+        "UV_GODOT_0": "cf8ddbf0b4559b3a5abb16123ca809309b094a921b16bd892d105d8f51a14706",
+        "LightmapUV": "e8873ed3943bfacd96f968650cd2e4b148adffdddf2c01ff5273950509a9efce"
+      },
+      "material_slots": [
+        "POD_V8_interior"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "LidMotion"
+    },
+    "PodMattress": {
+      "geometry": "4c4c15504d969b66bdf86abab3e77802c89768a733a46a805e3299f374fdf46c",
+      "uv": {
+        "UV_GODOT_0": "d3edd59ea388a6654dad9792c00401e5103806ef0ee2aaf35787f54a49373712",
+        "LightmapUV": "4d2f7df32b2f2cf45b0c2303c51fc91439c2da2a738e132291c18cd6cbb134b9"
+      },
+      "material_slots": [
+        "POD_V8_mattress"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.23000000417232513
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodShell": {
+      "geometry": "ff82a5464885bac9a6781100218c9519b766d5cbbc5eefca339eeedb8cb666cb",
+      "uv": {
+        "UV_GODOT_0": "d84f9d6234b4470312ed06594f208308fb3db4e66b81bb99101c21cb34ee830d",
+        "LightmapUV": "a15a2b889c6ffb9b8c036662580e3ee2165903a1c30101da983e283c4ea494b1"
+      },
+      "material_slots": [
+        "POD_V8_shell_side"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodShellEnd": {
+      "geometry": "5877294df29dd2926d0d07c02bc259c50853bbc148fd1c73e1170410e574d0ff",
+      "uv": {
+        "UV_GODOT_0": "805d6cfe289c3264e7d32e8d2a84b8253f76df8e5bba589e8a556239e776a689",
+        "LightmapUV": "e7f5feb477fba6f620a2d59c1cb3c62f86a4fb7747e9b1bf414b754e3bd7138d"
+      },
+      "material_slots": [
+        "POD_V8_shell_end"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodShellSection": {
+      "geometry": "3a564e7f123ac4b7a6ebc30e8f9ae33cd7689b0c99e7a23407caea49321871dd",
+      "uv": {
+        "UV_GODOT_0": "b8ceaed117dc93c2b4dc93bb48817dcc2a6f227cf474d88e36637a125520ff4f",
+        "LightmapUV": "6200a3901b428d6e75c87793fefd7fc163b916abd1e87a8c4da3c17b3ffd9636"
+      },
+      "material_slots": [
+        "POD_V8_section"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodTubeDiffuser_L": {
+      "geometry": "3653710f802f7e91b934415ec631bdef8d7de1ad1546c8fc9edb31fd6d944ea7",
+      "uv": {
+        "UV_GODOT_0": "54d6a3b5b8a1d897a423ebede8f290e63fbc8a980997e1810f702c0b26ed5c29",
+        "LightmapUV": "3e24c2e1a28b1ed2231e13507e332842395ed98221c9c15ed2e9931b97a90852"
+      },
+      "material_slots": [
+        "POD_V8_tube_diffuser"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodTubeDiffuser_R": {
+      "geometry": "5b59096e82da19e73c9a2308c1824eef9d69718919bc6c8155893065ad17925e",
+      "uv": {
+        "UV_GODOT_0": "54d6a3b5b8a1d897a423ebede8f290e63fbc8a980997e1810f702c0b26ed5c29",
+        "LightmapUV": "c65e53f478ec89ad672a4e6690eadc2b9fe435cac94011dc92b732017dc76e32"
+      },
+      "material_slots": [
+        "POD_V8_tube_diffuser"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodTubeHousing_L": {
+      "geometry": "c5ece680cd42c09401f4264730a1b6c6edc8bf504528f311cb520a74d71ce88e",
+      "uv": {
+        "UV_GODOT_0": "54d6a3b5b8a1d897a423ebede8f290e63fbc8a980997e1810f702c0b26ed5c29",
+        "LightmapUV": "aa84a7c43dfef40ef1de39d1315df3c9a7276a23b7305010c8306f8ac43baecd"
+      },
+      "material_slots": [
+        "POD_V8_tube_housing"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodTubeHousing_R": {
+      "geometry": "5b7ad329044c86f5950a06b8fce7e41364d156fb7d095cdb808e004cb395c332",
+      "uv": {
+        "UV_GODOT_0": "54d6a3b5b8a1d897a423ebede8f290e63fbc8a980997e1810f702c0b26ed5c29",
+        "LightmapUV": "08d249445ebdee43334fa27b85004072f666b38b18427ba61b30eaa79d9f6ef9"
+      },
+      "material_slots": [
+        "POD_V8_tube_housing"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "CryopodRoot"
+    },
+    "PodWindowFrame": {
+      "geometry": "26b84b2baceac0304cd5c18cccdb8c3feb3c6c8f3de8e18b2d9416736a55a6c1",
+      "uv": {
+        "UV_GODOT_0": "1ad2007a5e113c16c32da16dd66f79c3acd3df2e45f870e4a6b393e75c018bfe",
+        "LightmapUV": "4716ffdf08222a94c0fb541514e78b4fa0ef608152c6c0c1e0969506438b79b9"
+      },
+      "material_slots": [
+        "POD_V8_section"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "LidMotion"
+    },
+    "PodWindowSeal": {
+      "geometry": "d18bd0d5b955ff62c23fe4e6baff752c514df6dda1b681b4bce3d6a075e59b6a",
+      "uv": {
+        "UV_GODOT_0": "6d6c250cae5a7a76c92f7b95116932cbd65015a6bbabbcffe176ef6eb9cdd65a",
+        "LightmapUV": "e99840a274cfa7fc497f8cb617c94cd6cd9bf64f1db5321b94f4e27707d37ca6"
+      },
+      "material_slots": [
+        "POD_V8_section"
+      ],
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.550000011920929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "LidMotion"
+    }
+  },
+  "animation_poses_unchanged": {
+    "1": {
+      "location": [
+        0.0,
+        0.0,
+        0.550000011920929
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "20": {
+      "location": [
+        0.0,
+        0.0,
+        0.6700000166893005
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "60": {
+      "location": [
+        0.6115432977676392,
+        0.0,
+        0.6419240236282349
+      ],
+      "rotation": [
+        0.0,
+        0.7853981852531433,
+        0.0
+      ]
+    }
+  },
+  "protected_glass_display_and_hdr_unchanged": {
+    "glass": "f1a09a897841283f8e5c7c80195204aaeaf98f6cab3548a30e21960dd88532ae",
+    "display": "19f8f4c9c2e17d5b86c8ff51cc5ee63aafd59c35c8a4689c172c946651e3bf60",
+    "Runtime_P12_closed_irradiance": "b8d183e3b79dd6981b2b08d087050826a1b58538f18831dbed80caea2740f7c4",
+    "Runtime_P12_open_irradiance": "a248935e44c854fed87b305818001449ee6e5d86da4221192fa26bff94181783"
+  },
+  "packed_candidates": {
+    "POD_R16_variant_a_lid": "2cb8df9288440e04e0ebb410700a036dfcb0276ed907bb88e2d83cc25d67b1ef",
+    "POD_R16_variant_a_shell_side": "42b30c4565abbf9514c0edb89cd80251a0e0a95b114713c819249ba26bb250a5",
+    "POD_R16_variant_a_shell_end": "a56f9b0d48bafab246a78a960c42e4e057f85865851e95a322b555cb3cb1ae7c",
+    "POD_R16_variant_b_lid": "568c0d76cca3580918cc052f3c8648183c2b282030e1e1e883b8b4ee1390080c",
+    "POD_R16_variant_b_shell_side": "f9d31079d1ba7a33dcf17dd22f35d302ecaf7d93a17b70b32ded1e88ee063b9e",
+    "POD_R16_variant_b_shell_end": "e9e630ab43df760ff8a9f289e69c44635622086746ccc95436c003949a5c15bc",
+    "POD_R16_variant_c_lid": "e7dd0b6421390fb39fb3566cfc1b9346a812ea01bc544b1eb60f8f9ebc1f58fd",
+    "POD_R16_variant_c_shell_side": "4f997b9c2321ea0ba677c09b4697d16503d935e6fac5fbfcd53e62c3f72e959c",
+    "POD_R16_variant_c_shell_end": "5a86b36a23dc3852d7dc967ca3a2713b947a75d0397504ced615d0d1aa059e99",
+    "POD_R16_variant_d_lid": "f7990f07c3d72ce9a5feb9187248b33f2de7856cfae6f6567fdef737d2a07513",
+    "POD_R16_variant_d_shell_side": "c674940c7762771ef30617d2c7ea9de0489d826e6db9b67d91771fe79c1c0d80",
+    "POD_R16_variant_d_shell_end": "a7661ac6d97aca714f2a4809b2b008b90b0d38ca91dffc630b95117b5cf02d8d",
+    "POD_R16_shared_interior": "e1335bcfe56c1ee9b7c6c937ec8fb75130ccc84512304d90accfdadc877b4bc1",
+    "POD_R16_shared_mattress": "359383e3fab5a310095fb671f249d12a5fd89fb6eb50b7fe28bfa391029ace5e",
+    "POD_R16_shared_section": "1d30eebb3cdd278bb00efb0d676b9adf82e9e5fa336e2589934c21fc46cfdbd7"
+  },
+  "uv2_audit": {
+    "receiver_triangle_count": 1262,
+    "candidate_triangle_pairs": 6034,
+    "positive_area_overlap_count": 0,
+    "positive_area_overlaps": [],
+    "geometry_non_degenerate_triangle_count": 1262,
+    "uv_non_degenerate_triangle_count": 1262,
+    "uv_degenerate_triangle_count": 0,
+    "out_of_atlas_vertex_count": 0,
+    "out_of_atlas_vertices": []
+  },
+  "new_bake": false,
+  "scope": "Single existing model, material-image bindings only; four exterior sets and shared interior textures packed."
+}
