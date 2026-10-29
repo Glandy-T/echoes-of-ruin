@@ -1,0 +1,58 @@
+{
+  "legacy_aging_layers_used": [],
+  "walls": {
+    "left": {
+      "changed_pixels": 10400,
+      "outside_lamp_or_door_bay": 0,
+      "aseprite_pixel_exact": true
+    },
+    "right": {
+      "changed_pixels": 10963,
+      "outside_lamp_or_door_bay": 0,
+      "aseprite_pixel_exact": true
+    },
+    "front": {
+      "changed_pixels": 24249,
+      "outside_lamp_or_door_bay": 0,
+      "aseprite_pixel_exact": true
+    },
+    "rear": {
+      "changed_pixels": 27077,
+      "outside_lamp_or_door_bay": 0,
+      "aseprite_pixel_exact": true
+    }
+  },
+  "N_roundtrip_exact": true,
+  "lamp_power_roundtrip_exact": true,
+  "rear_receiver_bindings": [
+    {
+      "baked_energy": 1.2,
+      "irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+      "kind": 5,
+      "map": "res://assets/art/room1_wall_lamp_r13/wall_rear.png",
+      "mesh": "Wall_rear_left",
+      "shader": "res://scripts/dev/room1_wall_lamp_r13.gdshader"
+    },
+    {
+      "baked_energy": 1.2,
+      "irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+      "kind": 5,
+      "map": "res://assets/art/room1_wall_lamp_r13/wall_rear.png",
+      "mesh": "Wall_rear_right",
+      "shader": "res://scripts/dev/room1_wall_lamp_r13.gdshader"
+    },
+    {
+      "baked_energy": 1.2,
+      "irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+      "kind": 5,
+      "map": "res://assets/art/room1_wall_lamp_r13/wall_rear.png",
+      "mesh": "Wall_rear_door_header",
+      "shader": "res://scripts/dev/room1_wall_lamp_r13.gdshader"
+    }
+  ],
+  "lamp_close_clipped_pixels": {
+    "before": 135801,
+    "after": 0
+  },
+  "new_usage_generations": 30.0
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"baked_energy": 1.2,
+		"irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+		"kind": 5,
+		"map": "res://assets/art/room1_wall_lamp_r13/wall_rear.png",
+		"mesh": "Wall_rear_left",
+		"shader": "res://scripts/dev/room1_wall_lamp_r13.gdshader"
+	},
+	{
+		"baked_energy": 1.2,
+		"irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+		"kind": 5,
+		"map": "res://assets/art/room1_wall_lamp_r13/wall_rear.png",
+		"mesh": "Wall_rear_right",
+		"shader": "res://scripts/dev/room1_wall_lamp_r13.gdshader"
+	},
+	{
+		"baked_energy": 1.2,
+		"irradiance": "res://assets/art/room1_floor_palette_r9/strip_irradiance_denoised.exr",
+		"kind": 5,
+		"map": "res://assets/art/room1_wall_lamp_r13/wall_rear.png",
+		"mesh": "Wall_rear_door_header",
+		"shader": "res://scripts/dev/room1_wall_lamp_r13.gdshader"
+	}
+]

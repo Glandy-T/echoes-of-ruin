@@ -16,6 +16,8 @@
 
 用户认可r11后，新增 [r12 墙板差分安排](experiments/room1_wall_pixellab_r12/README.md)，继续沿用r11基调，通过更多PixelLab原图和固定的单墙板分配减少重复。
 
+最新审图补充为 [r13 后墙与灯带](experiments/room1_wall_lamp_r13/README.md)：补齐门所在宽墙板的材质强度，加入PixelLab灯罩／槽边细节，并解决可见发光面过曝掩盖像素纹理的问题。其余r12差分安排保留。
+
 ## 现有 Room 1 墙面的来源标注
 
 当前门场景继承 `room1_seam_contact_r6` 的四墙颜色图，后墙门洞另用 `room1_integrated_door_v3/wall_rear_portal.png` 清理旧缝。墙面最初的 v1/v2 与局部 r1/r2 有 PixelLab 原始生成记录；随后 r3 接缝、r4 旧化、r5 全墙推广、r6 接缝修正都在各自 README 中明确记为脚本／人工像素层，未新增 PixelLab 调用。**因此现用墙面是旧流程的混合来源，不应宣称整张现行贴图符合本约束。**保留现状作为已审过的游戏基线；未来返修墙面材质细节时用 PixelLab 重新生成／编辑并同镜头验证，结构与UV修复仍可用精确技术手段完成。

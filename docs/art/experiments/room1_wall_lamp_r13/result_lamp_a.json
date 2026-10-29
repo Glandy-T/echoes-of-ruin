@@ -1,0 +1,10 @@
+{
+  "variant": "lamp_a",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "f32ebe23-25cd-449a-b6aa-8b13e40c97f0",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  }
+}
