@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room 1 主门 v6 对比</title>
+<style>
+body{margin:0;background:#101719;color:#dae1dc;font:15px/1.5 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:28px}h1{margin:0 0 8px;font-size:25px}h2{font-size:19px;margin:32px 0 12px}p{max-width:950px;color:#aebbb5}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:16px}figure{margin:0;background:#1b2527;border:1px solid #394344;padding:10px}img{display:block;width:100%;image-rendering:pixelated}figcaption{padding:10px 4px 2px;color:#c4d0c9}.notes{padding:12px 18px;background:#1b2527;border-left:3px solid #85978b}a{color:#b8d0c3}
+</style>
+<main>
+<h1>Room 1 主门：门框收敛与旧化贴图 v6</h1>
+<p>同一 Godot 镜头、1280 × 720。v3 是结构及灯语基准，v5 是上一版做旧候选，v6 只调整待机收边、门叶侧面与像素旧化；门尺寸、滑动、碰撞、房间布局和照明保持 v3。</p>
+<h2>关闭状态对比</h2><section>
+<figure><img src="../room1_integrated_door_v3/evidence/idle_closed.png" alt="v3 原状态"><figcaption>v3 基准：门框侧面过黑，门叶做旧主要集中在底部</figcaption></figure>
+<figure><img src="../room1_integrated_door_surface_v5/evidence/idle_closed.png" alt="v5 上一版"><figcaption>v5：去掉底部大块痕迹后，整体过于平净</figcaption></figure>
+<figure><img src="evidence/idle_closed.png" alt="v6 当前候选"><figcaption>v6：弱化待机框；沉积与磨耗回到上密封条、滑动侧边和小窗凹口</figcaption></figure>
+</section>
+<h2>通行与反馈</h2><section>
+<figure><img src="evidence/yellow_scanning.png" alt="认证黄灯"><figcaption>认证中：仅小窗黄色</figcaption></figure>
+<figure><img src="evidence/green_opening.png" alt="绿灯与滑门"><figcaption>通行中：四边绿灯保持，门叶侧面与贴图同色系</figcaption></figure>
+<figure><img src="evidence/green_open.png" alt="门开启"><figcaption>门开启：通道有效期间绿灯仍亮</figcaption></figure>
+<figure><img src="evidence/red_denied_window_only.png" alt="拒绝红灯"><figcaption>拒绝：只有小窗红色，不出现红色门框</figcaption></figure>
+</section>
+<h2>贴图近看</h2><section><figure style="max-width:448px"><img src="../../../../assets/art/room1_integrated_door_finish_v6/door_front.png" alt="门面 112×184 像素贴图"><figcaption>112 × 184，80 texel/m。可编辑图层见 <a href="editable/door_front_v6.aseprite">Aseprite 源文件</a>。</figcaption></figure></section>
+<p class="notes">本页是审图候选，暂未替换正式 Room 1。上沿沉积沿用现行 r6 墙面像素语言；门面不使用随机斑点，门底也不再画固定墙体那样的大面积地面污积。</p>
+</main></html>
