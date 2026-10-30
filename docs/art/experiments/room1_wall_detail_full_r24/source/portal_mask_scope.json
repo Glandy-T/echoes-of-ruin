@@ -1,0 +1,23 @@
+{
+  "world_opening": {
+    "center_x": 10.5,
+    "width": 1.4,
+    "height": 2.4
+  },
+  "crop": [
+    688,
+    16,
+    944,
+    272
+  ],
+  "opening_local_inclusive": [
+    80,
+    64,
+    191,
+    255
+  ],
+  "density_px_per_m": 80,
+  "geometry_authority": "existing wall header y2.4..3.4 in room1_integrated_door_v3/source/build_portal_wall.py and existing1.4m door, no geometry changes",
+  "guide_dark_marker": "construction guide only, excluded from final material by binary mask",
+  "old_mask_problem": "side editable strips x1..32 and223..254 missed real wall shoulders x33..79 and192..222"
+}

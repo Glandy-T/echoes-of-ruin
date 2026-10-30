@@ -1,0 +1,100 @@
+{
+  "reviewer": "assistant visual inspection, not user final acceptance",
+  "approved_baseline": "r23 A/B as explicitly accepted by user",
+  "native_panels": [
+    {
+      "id": "a0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "a1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "b0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "b1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "c0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "c1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "d0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "d1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "e0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "e1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "f0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "f1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "g0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "g1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "h0",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    },
+    {
+      "id": "h1",
+      "visually_reviewed": true,
+      "no_nearly_blank_variant": true
+    }
+  ],
+  "actual_game_review": [
+    "front/back left-middle-right",
+    "all four corners",
+    "actual front wall",
+    "door header and visible shoulders",
+    "12 new r24 unoccluded scan segments",
+    "raw/denoised door header and rear corner"
+  ],
+  "scope": "all physical wall panels including clipped end panels; all 16 supplied half-panels actually used",
+  "old_material_or_scene_changes": "only binary white wall material regions replaced; protected lamps/structure exact; no floor/pod/door/model/UV/GI changes",
+  "technical_scan_note": "pods/proxies hidden only during diagnostic scans; baked floor shadows and cutaway background retained",
+  "rejected_outputs": "source/rejected_outputs.json",
+  "final_selection": "source/selection.json",
+  "technical_checks_do_not_equal_user_art_approval": true
+}

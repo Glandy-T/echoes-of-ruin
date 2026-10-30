@@ -1,0 +1,26 @@
+{
+  "g": {
+    "reason": "Oversized peeling/chunk-like deposits and/or branch-like lines exceed the approved r23 fine contact-film character; richness must not be obtained by larger damage",
+    "raw_preserved": "raw/g.png",
+    "replacement": "g_fix",
+    "manual_material_editing": false
+  },
+  "h": {
+    "reason": "Oversized peeling/chunk-like deposits and/or branch-like lines exceed the approved r23 fine contact-film character; richness must not be obtained by larger damage",
+    "raw_preserved": "raw/h.png",
+    "replacement": "h_fix",
+    "manual_material_editing": false
+  },
+  "portal": {
+    "reason": "Oversized peeling/chunk-like deposits and/or branch-like lines exceed the approved r23 fine contact-film character; richness must not be obtained by larger damage",
+    "raw_preserved": "raw/portal.png",
+    "replacement": "portal_fix",
+    "manual_material_editing": false
+  },
+  "portal_fix": {
+    "reason": "Superseded technical scope: inherited r13 mask protected visible strips beside the actual opening and would retain sparse r22 material there. New mask covers all real wall shoulders, with measured opening excluded.",
+    "raw_preserved": "raw/portal_fix.png",
+    "replacement": "portal_opening",
+    "manual_material_editing": false
+  }
+}

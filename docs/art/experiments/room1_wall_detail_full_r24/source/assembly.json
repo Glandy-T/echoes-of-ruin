@@ -1,0 +1,241 @@
+{
+  "native_tile_size": [
+    256,
+    256
+  ],
+  "scale": 1,
+  "independent_pairs": 8,
+  "half_panels": 16,
+  "reused_r23": [
+    "a",
+    "b"
+  ],
+  "new_native_originals": [
+    "c",
+    "d",
+    "e",
+    "f",
+    "g_fix",
+    "h_fix",
+    "portal_opening"
+  ],
+  "wall_placements": {
+    "left": {
+      "placements": [
+        [
+          -80,
+          "d1"
+        ],
+        [
+          48,
+          "b0"
+        ],
+        [
+          176,
+          "f0"
+        ],
+        [
+          304,
+          "b1"
+        ],
+        [
+          432,
+          "c1"
+        ],
+        [
+          560,
+          "d0"
+        ],
+        [
+          688,
+          "e1"
+        ]
+      ],
+      "no_repeated_half_panel_on_same_wall": true,
+      "adjacent_pairs_different": true,
+      "portal_override": null,
+      "lamp_and_protected_pixels_exact": true,
+      "changed_material_pixels": 43442
+    },
+    "right": {
+      "placements": [
+        [
+          -80,
+          "g1"
+        ],
+        [
+          48,
+          "c0"
+        ],
+        [
+          176,
+          "b0"
+        ],
+        [
+          304,
+          "e1"
+        ],
+        [
+          432,
+          "f0"
+        ],
+        [
+          560,
+          "e0"
+        ],
+        [
+          688,
+          "a1"
+        ]
+      ],
+      "no_repeated_half_panel_on_same_wall": true,
+      "adjacent_pairs_different": true,
+      "portal_override": null,
+      "lamp_and_protected_pixels_exact": true,
+      "changed_material_pixels": 40466
+    },
+    "front": {
+      "placements": [
+        [
+          -80,
+          "b0"
+        ],
+        [
+          48,
+          "e0"
+        ],
+        [
+          176,
+          "h0"
+        ],
+        [
+          304,
+          "d1"
+        ],
+        [
+          432,
+          "c1"
+        ],
+        [
+          560,
+          "g0"
+        ],
+        [
+          688,
+          "b1"
+        ],
+        [
+          816,
+          "e1"
+        ],
+        [
+          944,
+          "f1"
+        ],
+        [
+          1072,
+          "g1"
+        ],
+        [
+          1200,
+          "d0"
+        ],
+        [
+          1328,
+          "a1"
+        ],
+        [
+          1456,
+          "c0"
+        ],
+        [
+          1584,
+          "h1"
+        ]
+      ],
+      "no_repeated_half_panel_on_same_wall": true,
+      "adjacent_pairs_different": true,
+      "portal_override": null,
+      "lamp_and_protected_pixels_exact": true,
+      "changed_material_pixels": 90805
+    },
+    "rear": {
+      "placements": [
+        [
+          -80,
+          "a1"
+        ],
+        [
+          48,
+          "h1"
+        ],
+        [
+          176,
+          "b1"
+        ],
+        [
+          304,
+          "g1"
+        ],
+        [
+          432,
+          "e0"
+        ],
+        [
+          560,
+          "c0"
+        ],
+        [
+          688,
+          "f0"
+        ],
+        [
+          816,
+          "g0"
+        ],
+        [
+          944,
+          "a0"
+        ],
+        [
+          1072,
+          "b0"
+        ],
+        [
+          1200,
+          "d1"
+        ],
+        [
+          1328,
+          "f1"
+        ],
+        [
+          1456,
+          "h0"
+        ],
+        [
+          1584,
+          "c1"
+        ]
+      ],
+      "no_repeated_half_panel_on_same_wall": true,
+      "adjacent_pairs_different": true,
+      "portal_override": [
+        688,
+        16,
+        944,
+        272
+      ],
+      "lamp_and_protected_pixels_exact": true,
+      "changed_material_pixels": 82671
+    }
+  },
+  "technical_operations": [
+    "native crop/placement",
+    "binary protection mask only"
+  ],
+  "resampling": false,
+  "mirroring": false,
+  "procedural_aging": false,
+  "legacy_sparse_layers_overlaid": false
+}

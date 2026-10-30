@@ -1,0 +1,14 @@
+{
+  "name": "h_fix",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "bfc5e5fb-6ac4-41b1-93c5-7a685c327b3c",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

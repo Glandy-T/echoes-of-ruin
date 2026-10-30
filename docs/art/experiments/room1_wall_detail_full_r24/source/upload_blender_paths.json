@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "objects": 131,
+  "external_unpacked": 250,
+  "r24_wall_image_datablocks": 7,
+  "missing_images": [],
+  "absolute_paths": [],
+  "tracked_images_checked": 250,
+  "blend_modified": false
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "c",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_c.txt",
+    "guide": "guide_c.png",
+    "mask": "mask_c.png",
+    "seed": 2026103440,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "d",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_d.txt",
+    "guide": "guide_d.png",
+    "mask": "mask_d.png",
+    "seed": 2026103441,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "e",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_e.txt",
+    "guide": "guide_e.png",
+    "mask": "mask_e.png",
+    "seed": 2026103442,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "f",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_f.txt",
+    "guide": "guide_f.png",
+    "mask": "mask_f.png",
+    "seed": 2026103443,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "g",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_g.txt",
+    "guide": "guide_g.png",
+    "mask": "mask_g.png",
+    "seed": 2026103444,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "h",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_h.txt",
+    "guide": "guide_h.png",
+    "mask": "mask_h.png",
+    "seed": 2026103445,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "portal",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_portal.txt",
+    "guide": "guide_portal.png",
+    "mask": "mask_portal.png",
+    "seed": 2026103459,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "g_fix",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_g_fix.txt",
+    "guide": "guide_g_fix.png",
+    "mask": "mask_g_fix.png",
+    "seed": 2026103470,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "h_fix",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_h_fix.txt",
+    "guide": "guide_h_fix.png",
+    "mask": "mask_h_fix.png",
+    "seed": 2026103471,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "portal_fix",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_portal_fix.txt",
+    "guide": "guide_portal_fix.png",
+    "mask": "mask_portal_fix.png",
+    "seed": 2026103472,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "portal_opening",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_portal_opening.txt",
+    "guide": "guide_portal_opening.png",
+    "mask": "mask_portal_opening.png",
+    "seed": 2026103490,
+    "native_size": [
+      256,
+      256
+    ]
+  }
+]

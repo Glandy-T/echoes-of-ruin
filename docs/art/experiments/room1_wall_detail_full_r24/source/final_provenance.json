@@ -1,0 +1,258 @@
+{
+  "result": "PASS",
+  "successful_requests": [
+    {
+      "name": "c",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "d35a0382-9ed7-4d1e-91a1-3689a26ec8ba",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "1b99f91b53e177dd73a3e9e2642d7b7ee4e67a416577dbcb1e08a473214916ef",
+      "guide_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "22f8b332b57e867512a55f14128867aee3f57e13192f51e837ecc1a59d5621cc"
+    },
+    {
+      "name": "d",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "d35c94f2-522c-4484-8e47-4b95e59cdd7f",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "5c6d8716327f1c299b7c395e558d2149a3cc01c930a0027d8f1cfa134feddd49",
+      "guide_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "b85ff1add6274930efe23f84d3a29e031b89586aa5d19975e336b7c12f1a1b56"
+    },
+    {
+      "name": "e",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "70bfe95e-d124-4ee1-9658-08b5be7f24f0",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "d1aaa6edabc70db71ca3c5e04138d20df0234cc51e04423ca3320192488cee49",
+      "guide_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "d71bc13689f8c477dac99134522db64791d469ba9f9f57fb3da1727377e21332"
+    },
+    {
+      "name": "f",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "9a04268f-e74d-4b9e-b4c1-a41e40987062",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "6fea313e664713cbb8311a6c66e1d3c84a54c609a3f13222af22482a79f8bcd5",
+      "guide_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "d90e85911db2fa902a9c06abcc896e717f4e093cc2d4fe14fac3ee3951421bba"
+    },
+    {
+      "name": "g",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "a1679511-df07-42c5-8a76-957604be679a",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "7bfc4d3e38db29b03651318e9312e8945d04ff820a7182738cac07b89d620475",
+      "guide_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "66b1551d6ac8c5ebf94d18950a730763a1277301d59f8ac3be20ee10d6def854"
+    },
+    {
+      "name": "h",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "d5f4328c-f555-4545-92f7-6610627b4f54",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "12f4f6a8e6cc4dece8e668c88db65cab8e78fd8040177808c9f109c68fa00809",
+      "guide_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "3f29169600f3b6ab326eba4361b0bcf9646e08e23727e1d73eb54dc02eacacc9"
+    },
+    {
+      "name": "portal",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "37783ecc-bfc6-4461-bebf-c682728b1fa7",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "964da7d3f3bfdce364a3a5ce95ae9500caaf4833ec9bf101f055bad6a85257d9",
+      "guide_sha256": "c86508fbf6d78752fdb4ece2282c06b0dec9919be0d992b9fc1563917da89ce3",
+      "mask_sha256": "c79d4e1d53d2287d47ba3b4de876773ebcb630f2fa27f2aecfabf6fbd6c895ae",
+      "raw_sha256": "201dff6e2e2c346ba28cff219891e355682b86ccc766d83318a0e48f4d2a7514"
+    },
+    {
+      "name": "g_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "03de1fac-c4e3-4f2e-8d7c-182586acc633",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "76a418736648f8fbccd1108d5f55d8701e277b7cb275a4d274ed1906bca7375b",
+      "guide_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "1f0aa957e3d14f1e3e8adb73d3dad72f0d3c3c284d1b73205f2f36069b269ba6"
+    },
+    {
+      "name": "h_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "bfc5e5fb-6ac4-41b1-93c5-7a685c327b3c",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "b26db9c52a006d0503f41fc472e66dd2813f4e175f3c1cba225834a4cdf2d0fe",
+      "guide_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "mask_sha256": "3e2cf8715c73ad04def80efae5dd5556152ad0ff91acc5ff2b78c7836cf95bdf",
+      "raw_sha256": "6749b0a911032da9e283e3e8892a053a5034fb5e047e6a15b42552cc887140a2"
+    },
+    {
+      "name": "portal_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "aff6db46-b6e7-494b-a3f5-6690ab98edf0",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "21055d7c03db93cb53b00c1f8bd0f41d178a28584ad093c0d0c78f35ffeefd03",
+      "guide_sha256": "c86508fbf6d78752fdb4ece2282c06b0dec9919be0d992b9fc1563917da89ce3",
+      "mask_sha256": "c79d4e1d53d2287d47ba3b4de876773ebcb630f2fa27f2aecfabf6fbd6c895ae",
+      "raw_sha256": "65637ce540edc2745e9b2b619aa24cedc0d8e701a0400824053cfe1f63324077"
+    },
+    {
+      "name": "portal_opening",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "455dc3d4-26e6-4379-89ce-6e29e8fcedcf",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "f8c31ad2b0d8042dc41d908c335b23ed0cea29764343258db09a0fb03892b2e9",
+      "guide_sha256": "924e5f4a0c4bcde48631269cf563dfd8c3eaef00a66cd723d111dbd6932f0084",
+      "mask_sha256": "9dc9e32d73e5589dbfb1c40db2fe5ea34dc8dfd6aa79cc2f46fa5f440666fff3",
+      "raw_sha256": "de0edc4e0dd61f462b4bf9abf3cee492163fb8d6cd1d3d330cb2bda2060c9cd6"
+    }
+  ],
+  "generations_used": 110.0,
+  "approved_originals_reused": [
+    "room1_wall_detail_r23/raw/a.png",
+    "room1_wall_detail_r23/raw/b.png"
+  ],
+  "final_new_pair_selection": [
+    "c",
+    "d",
+    "e",
+    "f",
+    "g_fix",
+    "h_fix"
+  ],
+  "final_portal_selection": "portal_opening",
+  "rejections": {
+    "g": {
+      "reason": "Oversized peeling/chunk-like deposits and/or branch-like lines exceed the approved r23 fine contact-film character; richness must not be obtained by larger damage",
+      "raw_preserved": "raw/g.png",
+      "replacement": "g_fix",
+      "manual_material_editing": false
+    },
+    "h": {
+      "reason": "Oversized peeling/chunk-like deposits and/or branch-like lines exceed the approved r23 fine contact-film character; richness must not be obtained by larger damage",
+      "raw_preserved": "raw/h.png",
+      "replacement": "h_fix",
+      "manual_material_editing": false
+    },
+    "portal": {
+      "reason": "Oversized peeling/chunk-like deposits and/or branch-like lines exceed the approved r23 fine contact-film character; richness must not be obtained by larger damage",
+      "raw_preserved": "raw/portal.png",
+      "replacement": "portal_fix",
+      "manual_material_editing": false
+    },
+    "portal_fix": {
+      "reason": "Superseded technical scope: inherited r13 mask protected visible strips beside the actual opening and would retain sparse r22 material there. New mask covers all real wall shoulders, with measured opening excluded.",
+      "raw_preserved": "raw/portal_fix.png",
+      "replacement": "portal_opening",
+      "manual_material_editing": false
+    }
+  },
+  "portal_measured_mask": {
+    "world_opening": {
+      "center_x": 10.5,
+      "width": 1.4,
+      "height": 2.4
+    },
+    "crop": [
+      688,
+      16,
+      944,
+      272
+    ],
+    "opening_local_inclusive": [
+      80,
+      64,
+      191,
+      255
+    ],
+    "density_px_per_m": 80,
+    "geometry_authority": "existing wall header y2.4..3.4 in room1_integrated_door_v3/source/build_portal_wall.py and existing1.4m door, no geometry changes",
+    "guide_dark_marker": "construction guide only, excluded from final material by binary mask",
+    "old_mask_problem": "side editable strips x1..32 and223..254 missed real wall shoulders x33..79 and192..222"
+  },
+  "resampling": false,
+  "manual_or_procedural_material_art": false,
+  "PixelCanals_content_submitted": false
+}

@@ -1,0 +1,48 @@
+{
+  "result": "PASS",
+  "frozen_objects": 131,
+  "geometry_UVs_transforms_lights_cameras_exact_after_reopen": true,
+  "state_sha256": "31ef2d6b14e3910da7d15d09a01419d9d7aa61144a1df9ce3cbfde53f2b78252",
+  "image_changes": [
+    {
+      "image": "wall_front.png.002",
+      "old": "assets/art/room1_pixel_unify_r22/wall_front.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_front.png"
+    },
+    {
+      "image": "wall_left.png.002",
+      "old": "assets/art/room1_pixel_unify_r22/wall_left.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_left.png"
+    },
+    {
+      "image": "wall_rear.png.002",
+      "old": "assets/art/room1_pixel_unify_r22/wall_rear.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_rear.png"
+    },
+    {
+      "image": "wall_rear.png.004",
+      "old": "assets/art/room1_pixel_unify_r22/wall_rear.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_rear.png"
+    },
+    {
+      "image": "wall_rear.png.005",
+      "old": "assets/art/room1_pixel_unify_r22/wall_rear.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_rear.png"
+    },
+    {
+      "image": "wall_rear.png.006",
+      "old": "assets/art/room1_pixel_unify_r22/wall_rear.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_rear.png"
+    },
+    {
+      "image": "wall_right.png.002",
+      "old": "assets/art/room1_pixel_unify_r22/wall_right.png",
+      "new": "assets/art/room1_wall_detail_full_r24/wall_right.png"
+    }
+  ],
+  "new_wall_image_datablocks": 7,
+  "external_unpacked": 250,
+  "missing_images": [],
+  "absolute_paths": [],
+  "new_bake": false
+}

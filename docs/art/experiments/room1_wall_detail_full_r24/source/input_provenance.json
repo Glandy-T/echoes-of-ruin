@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "name": "c",
+      "input": "docs/art/experiments/room1_wall_detail_r23/raw/a.png",
+      "input_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "approved_detail_baseline": "r23 A/B accepted by user",
+      "resampled": false
+    },
+    {
+      "name": "d",
+      "input": "docs/art/experiments/room1_wall_detail_r23/raw/b.png",
+      "input_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "approved_detail_baseline": "r23 A/B accepted by user",
+      "resampled": false
+    },
+    {
+      "name": "e",
+      "input": "docs/art/experiments/room1_wall_detail_r23/raw/a.png",
+      "input_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "approved_detail_baseline": "r23 A/B accepted by user",
+      "resampled": false
+    },
+    {
+      "name": "f",
+      "input": "docs/art/experiments/room1_wall_detail_r23/raw/b.png",
+      "input_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "approved_detail_baseline": "r23 A/B accepted by user",
+      "resampled": false
+    },
+    {
+      "name": "g",
+      "input": "docs/art/experiments/room1_wall_detail_r23/raw/a.png",
+      "input_sha256": "e6041f760052c0fe94f6542c8fce0438bf36d66d515d5e15295c03e5477465c5",
+      "approved_detail_baseline": "r23 A/B accepted by user",
+      "resampled": false
+    },
+    {
+      "name": "h",
+      "input": "docs/art/experiments/room1_wall_detail_r23/raw/b.png",
+      "input_sha256": "7359eb19ad5f5fe18261ce2ec3964a31accc439164d8df087b6f4a4eb8f9abd7",
+      "approved_detail_baseline": "r23 A/B accepted by user",
+      "resampled": false
+    },
+    {
+      "name": "portal",
+      "input": "assets/art/room1_wall_lamp_r13/wall_rear.png crop [688,16,944,272]",
+      "approved_detail_baseline": "r23 richness, original project wide-bay geometry",
+      "resampled": false
+    }
+  ],
+  "reused_approved_originals": [
+    "r23/raw/a.png",
+    "r23/raw/b.png"
+  ],
+  "third_party_images_submitted": false,
+  "generation": "PixelLab inpaint-v3 only",
+  "scope": "four walls including wide portal bay; preserve existing lamps, geometry, UVs, camera, floor, pods, door and GI"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "wall": "left",
+    "output": "assets/art/room1_wall_detail_full_r24/wall_left.png",
+    "sha256": "4f98201517a4f9347f3fe2acf2721569dc862687c2526c24fe3698da67eb98aa"
+  },
+  {
+    "wall": "right",
+    "output": "assets/art/room1_wall_detail_full_r24/wall_right.png",
+    "sha256": "f2ccdc4c2c8e0fccafa305e1d1315a8cd5fd2192d52de04f12cb48c9e7a76576"
+  },
+  {
+    "wall": "front",
+    "output": "assets/art/room1_wall_detail_full_r24/wall_front.png",
+    "sha256": "8eae01026ddc464c101d7f08d6603bc69a5bbeb60e8c45c0ef4c487ae30a9065"
+  },
+  {
+    "wall": "rear",
+    "output": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa"
+  }
+]

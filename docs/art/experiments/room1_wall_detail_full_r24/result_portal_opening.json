@@ -1,0 +1,14 @@
+{
+  "name": "portal_opening",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "455dc3d4-26e6-4379-89ce-6e29e8fcedcf",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

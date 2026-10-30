@@ -1,0 +1,136 @@
+{
+  "purpose": "diagnostic to find weak individual halves, not an artistic approval or a numeric project standard",
+  "approved_reference_min": 0.124036,
+  "panels": [
+    {
+      "id": "a0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 3153,
+      "dark_fraction": 0.124036,
+      "input_path": "docs/art/experiments/room1_wall_detail_r23/raw/a.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "a1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 3934,
+      "dark_fraction": 0.15476,
+      "input_path": "docs/art/experiments/room1_wall_detail_r23/raw/a.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "b0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 4639,
+      "dark_fraction": 0.182494,
+      "input_path": "docs/art/experiments/room1_wall_detail_r23/raw/b.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "b1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5474,
+      "dark_fraction": 0.215342,
+      "input_path": "docs/art/experiments/room1_wall_detail_r23/raw/b.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "c0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5488,
+      "dark_fraction": 0.215893,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/c.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "c1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5631,
+      "dark_fraction": 0.221518,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/c.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "d0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5544,
+      "dark_fraction": 0.218096,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/d.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "d1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5820,
+      "dark_fraction": 0.228954,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/d.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "e0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 4613,
+      "dark_fraction": 0.181471,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/e.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "e1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 4584,
+      "dark_fraction": 0.18033,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/e.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "f0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 4456,
+      "dark_fraction": 0.175295,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/f.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "f1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5616,
+      "dark_fraction": 0.220928,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/f.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "g0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 3270,
+      "dark_fraction": 0.128639,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/g_fix.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "g1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 3912,
+      "dark_fraction": 0.153895,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/g_fix.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "h0",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 5098,
+      "dark_fraction": 0.200551,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/h_fix.png",
+      "below_weakest_approved_diagnostic": false
+    },
+    {
+      "id": "h1",
+      "ceramic_pixels": 25420,
+      "darker_material_pixels": 3176,
+      "dark_fraction": 0.124941,
+      "input_path": "docs/art/experiments/room1_wall_detail_full_r24/raw/h_fix.png",
+      "below_weakest_approved_diagnostic": false
+    }
+  ],
+  "resampling": false,
+  "manual_material_editing": false
+}
