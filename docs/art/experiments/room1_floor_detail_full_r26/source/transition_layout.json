@@ -1,0 +1,62 @@
+{
+  "reason": "Actual pilot showed a rectangular C-versus-new main-tone boundary; use PixelLab outside C, never script recolor or blur",
+  "guide": "transition_context.png",
+  "approved_C_unchanged": true,
+  "ring_width_px": 48,
+  "tiles": [
+    {
+      "name": "join_01",
+      "row": 0,
+      "column": 0,
+      "origin_px": [
+        104,
+        32
+      ],
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "join_02",
+      "row": 0,
+      "column": 1,
+      "origin_px": [
+        288,
+        32
+      ],
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "join_03",
+      "row": 1,
+      "column": 0,
+      "origin_px": [
+        104,
+        216
+      ],
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "join_04",
+      "row": 1,
+      "column": 1,
+      "origin_px": [
+        288,
+        216
+      ],
+      "native_size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "overlap_px": 72,
+  "new_requests": 4
+}

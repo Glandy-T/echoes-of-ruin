@@ -1,0 +1,25 @@
+{
+  "C_is_style_and_completion_reference": "User approved the C direction, not an additional per-pixel freeze imposed by the producer.",
+  "old_C_sample_retained_in_r25": true,
+  "old_C_pixels_reused_in_final": false,
+  "C_world_patch_px": [
+    168,
+    96,
+    424,
+    352
+  ],
+  "new_C_area_source": "c_reintegrate",
+  "rejected_perimeter_attempts": [
+    "join_01",
+    "join_02",
+    "join_03",
+    "join_04"
+  ],
+  "input_guide_only_colour_reference_offset": [
+    7,
+    6,
+    5
+  ],
+  "final_script_recolour": false,
+  "final_script_painted_material": false
+}

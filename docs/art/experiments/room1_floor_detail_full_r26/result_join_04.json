@@ -1,0 +1,14 @@
+{
+  "name": "join_04",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "cd9b746d-23ee-4642-9ec1-a2f6129caaae",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "c_reintegrate",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "daec7743-56ce-4772-a503-05d8ff03bc04",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

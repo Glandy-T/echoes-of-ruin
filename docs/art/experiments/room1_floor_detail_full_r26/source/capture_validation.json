@@ -1,0 +1,976 @@
+{
+  "result": "PASS",
+  "frames": 78,
+  "checks": {
+    "1_game_front_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P02",
+        "P11",
+        "P12"
+      ]
+    },
+    "1_game_front_middle.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P04",
+        "P05",
+        "P14",
+        "P15"
+      ]
+    },
+    "1_game_front_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P08",
+        "P09",
+        "P18",
+        "P19"
+      ]
+    },
+    "1_game_back_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P02",
+        "P11",
+        "P12"
+      ]
+    },
+    "1_game_back_middle.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P04",
+        "P05",
+        "P14",
+        "P15"
+      ]
+    },
+    "1_game_back_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P08",
+        "P09",
+        "P18",
+        "P19"
+      ]
+    },
+    "1_corner_front_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P11"
+      ]
+    },
+    "1_corner_front_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P10",
+        "P20"
+      ]
+    },
+    "1_corner_rear_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P11"
+      ]
+    },
+    "1_corner_rear_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P10",
+        "P20"
+      ]
+    },
+    "1_pod_contact_P01.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P01"
+      ]
+    },
+    "1_pod_contact_P02.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P02"
+      ]
+    },
+    "1_pod_contact_P03.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P03"
+      ]
+    },
+    "1_pod_contact_P04.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P04"
+      ]
+    },
+    "1_pod_contact_P05.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P05"
+      ]
+    },
+    "1_pod_contact_P06.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P06"
+      ]
+    },
+    "1_pod_contact_P07.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P07"
+      ]
+    },
+    "1_pod_contact_P08.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P08"
+      ]
+    },
+    "1_pod_contact_P09.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P09"
+      ]
+    },
+    "1_pod_contact_P10.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P10"
+      ]
+    },
+    "1_pod_contact_P11.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P11"
+      ]
+    },
+    "1_pod_contact_P12.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P12"
+      ]
+    },
+    "1_pod_contact_P13.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P13"
+      ]
+    },
+    "1_pod_contact_P14.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P14"
+      ]
+    },
+    "1_pod_contact_P15.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P15"
+      ]
+    },
+    "1_pod_contact_P16.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P16"
+      ]
+    },
+    "1_pod_contact_P17.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P17"
+      ]
+    },
+    "1_pod_contact_P18.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P18"
+      ]
+    },
+    "1_pod_contact_P19.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P19"
+      ]
+    },
+    "1_pod_contact_P20.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P20"
+      ]
+    },
+    "1_leak_P03.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P03"
+      ]
+    },
+    "1_leak_P06.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P06"
+      ]
+    },
+    "1_leak_P13.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P13"
+      ]
+    },
+    "1_leak_P18.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P18"
+      ]
+    },
+    "1_floor_topdown_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": true,
+      "coverage": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ]
+    },
+    "1_game_floor_patch_closed.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    },
+    "1_game_floor_patch_open.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    },
+    "2_game_front_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P02",
+        "P11",
+        "P12"
+      ]
+    },
+    "2_game_front_middle.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P04",
+        "P05",
+        "P14",
+        "P15"
+      ]
+    },
+    "2_game_front_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P08",
+        "P09",
+        "P18",
+        "P19"
+      ]
+    },
+    "2_game_back_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P02",
+        "P11",
+        "P12"
+      ]
+    },
+    "2_game_back_middle.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P04",
+        "P05",
+        "P14",
+        "P15"
+      ]
+    },
+    "2_game_back_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P08",
+        "P09",
+        "P18",
+        "P19"
+      ]
+    },
+    "2_corner_front_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P11"
+      ]
+    },
+    "2_corner_front_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P10",
+        "P20"
+      ]
+    },
+    "2_corner_rear_left.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P01",
+        "P11"
+      ]
+    },
+    "2_corner_rear_right.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P10",
+        "P20"
+      ]
+    },
+    "2_pod_contact_P01.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P01"
+      ]
+    },
+    "2_pod_contact_P02.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P02"
+      ]
+    },
+    "2_pod_contact_P03.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P03"
+      ]
+    },
+    "2_pod_contact_P04.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P04"
+      ]
+    },
+    "2_pod_contact_P05.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P05"
+      ]
+    },
+    "2_pod_contact_P06.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P06"
+      ]
+    },
+    "2_pod_contact_P07.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P07"
+      ]
+    },
+    "2_pod_contact_P08.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P08"
+      ]
+    },
+    "2_pod_contact_P09.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P09"
+      ]
+    },
+    "2_pod_contact_P10.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P10"
+      ]
+    },
+    "2_pod_contact_P11.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P11"
+      ]
+    },
+    "2_pod_contact_P12.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P12"
+      ]
+    },
+    "2_pod_contact_P13.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P13"
+      ]
+    },
+    "2_pod_contact_P14.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P14"
+      ]
+    },
+    "2_pod_contact_P15.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P15"
+      ]
+    },
+    "2_pod_contact_P16.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P16"
+      ]
+    },
+    "2_pod_contact_P17.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P17"
+      ]
+    },
+    "2_pod_contact_P18.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P18"
+      ]
+    },
+    "2_pod_contact_P19.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P19"
+      ]
+    },
+    "2_pod_contact_P20.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P20"
+      ]
+    },
+    "2_leak_P03.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P03"
+      ]
+    },
+    "2_leak_P06.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P06"
+      ]
+    },
+    "2_leak_P13.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P13"
+      ]
+    },
+    "2_leak_P18.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P18"
+      ]
+    },
+    "2_floor_topdown_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": true,
+      "coverage": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ]
+    },
+    "2_game_floor_patch_closed.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    },
+    "2_game_floor_patch_open.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": false,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    },
+    "1_restore_game_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 1,
+      "diagnostic": false,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    },
+    "2_base_color_floor_topdown.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": true,
+      "coverage": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ]
+    },
+    "2_raw_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": true,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    },
+    "2_denoised_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": 2,
+      "diagnostic": true,
+      "coverage": [
+        "P12",
+        "P13"
+      ]
+    }
+  },
+  "restore_exact": true,
+  "topdown_camera_verified": true,
+  "leak_cameras_verified": true,
+  "notes": "All normal images retain pods. Only floor_topdown_unoccluded temporarily hides pods and proxies; capture record flags it. Topdown metadata proves the intended camera projection contains the required floor bounds; actual border visibility remains a visual readback gate. Base-color and raw/denoised are diagnostics only."
+}

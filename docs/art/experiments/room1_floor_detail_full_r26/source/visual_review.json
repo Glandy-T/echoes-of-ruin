@@ -1,0 +1,48 @@
+{
+  "status": "creator and independent technical/visual review complete; user whole-floor art approval pending",
+  "selected_originals": 21,
+  "C_area": "new PixelLab c_reintegrate, no old C layer reuse",
+  "native_scale": 1,
+  "reviewed": [
+    "native1648x728 full material",
+    "21 original row sheets",
+    "old C and two-stage material join, final rectangle eliminated",
+    "floor11/12/18 rejected raw and replacement raw",
+    "6 ordinary game views",
+    "20 contact sheet and representative native contacts",
+    "4 true floor/wall corners",
+    "P03/P06/P13/P18 actual leak-centered views",
+    "A/B true whole-floor topdowns with all four boundaries visible",
+    "basecolor true whole-floor",
+    "P12 open and closed",
+    "raw and denoised area",
+    "A/B/A exact restored frame"
+  ],
+  "findings": [
+    "continuous floor, no tile/grid/route added",
+    "no visible white joins or rejected angular dark technical blocks",
+    "no same source copied/flipped repeatedly; each world original used at its own location",
+    "normal emergency-light view retains low material contrast; compare native and close views as well",
+    "unoccluded diagnostic retains old baked shadows; basecolor exposes unchanged occupied-floor protection only"
+  ],
+  "capture_final": {
+    "frames": 78,
+    "resolution": [
+      1280,
+      720
+    ],
+    "Godot_exit": 0,
+    "stderr_empty": true,
+    "full_topdown_height_m": 28,
+    "actual_room_bounds_xz": [
+      0.2,
+      20.8,
+      -9.3,
+      -0.2
+    ],
+    "four_edges_seen": true,
+    "supported_capture_path": "complete capture only; removed failing quick subset path"
+  },
+  "models_layout_lighting_unchanged": true,
+  "user_approved": false
+}

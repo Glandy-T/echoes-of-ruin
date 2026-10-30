@@ -1,0 +1,30 @@
+{
+  "ready_originals": 21,
+  "distinct_raw_hashes": 21,
+  "hashes": {
+    "floor_01": "1fbdf1542ba59cff4fedfce697abb590ac5a5ec90489e6c48442c5df58c78063",
+    "floor_02": "cf96d9c27a51ed24bc0feb82b195b27a02d6e461edfea20425d9c57f7df1481a",
+    "floor_03": "8d8a04f7f1aa769065cae26112c65377fa6e2cc116075fd145f211b8fe9e147c",
+    "floor_04": "c100ae42c19ae0cb65decf4f5fde06828866917d892a41c7da06f0a2a1d0d6b4",
+    "floor_05": "9d30902948994f46a5d5b80dea7faffd631bb92e996c539d5bf28e094a33449a",
+    "floor_06": "6ef9261b9d72d53ebc9bc318561357ffbcc7d586ef114254cd4ebfd74497f004",
+    "floor_07": "91d25b083f88451cf4e541fb18adf375fe04e7f1fa952f8bb25a1a45c493d181",
+    "floor_08": "5b8c3bd66ed53b586941ac278edfdcefe3e4b70407c4184f86a675c08eb2357d",
+    "floor_09": "11a1dd3ed74f984b695cae321301bb6c2681a33166d0b3ba5968a1521b222fdf",
+    "floor_10": "e8c5ec515bd3cb13ee4b88017fba372c0d3ecf0e59e5058dc11a78b9f686ad4c",
+    "floor_11": "256942d574a76fbbf29fff51b934b6c589e0cbb49657f0913242b58a8a24fb07",
+    "floor_12": "946513c04eac6968e3f302d4d966540796be90186933fcac0fc4ac6835d44e9f",
+    "floor_13": "a7dde3b9f779500cc6b3ac675043470fd73ad48f1d2c76d3aec858882c10ff37",
+    "floor_14": "19f4ca8e3a4537e040d371c0be6a70aeba6d9569007b1b191e53579cf6c0f1e7",
+    "floor_15": "b899e63c70d184c94bde38ac3b1b88962b4d87c9996ab603cb2fb066cfb8e451",
+    "floor_16": "16bd93a6719303c8a9ed2456baa98753cb57f4ae804a6a8e92974bb924912e9d",
+    "floor_17": "71645326260d66dd62944d0334e1dee1431812894a23afaa710ccc1a1c66e95e",
+    "floor_18": "b063b74692cef5a0006519faa3e3db46ad6ea558bcf4c25faa63adff8a775092",
+    "floor_19": "d37eb45859a13bdf71a1d06109fc9bde57b8a1570e6cde345dd177e2acd22bcb",
+    "floor_20": "54574e05d439dcc6091e24232ccf3159d19bca57b9b43cf31bf33471c2547da2",
+    "floor_21": "42ceffbc8014ac0e17b71458309730f2f47a02b728493b99ab6930f32c55c58d"
+  },
+  "meaning": "duplicate hash screen only; art/repetition require actual native/whole-floor and game-camera review",
+  "resampling": false,
+  "protected_AI_pixels_not_used": true
+}

@@ -1,0 +1,350 @@
+[
+  {
+    "name": "floor_01",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_01.txt",
+    "guide": "guide_floor_01.png",
+    "mask": "mask_floor_01.png",
+    "seed": 2026103600,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_02",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_02.txt",
+    "guide": "guide_floor_02.png",
+    "mask": "mask_floor_02.png",
+    "seed": 2026103601,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_03",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_03.txt",
+    "guide": "guide_floor_03.png",
+    "mask": "mask_floor_03.png",
+    "seed": 2026103602,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_04",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_04.txt",
+    "guide": "guide_floor_04.png",
+    "mask": "mask_floor_04.png",
+    "seed": 2026103603,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_05",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_05.txt",
+    "guide": "guide_floor_05.png",
+    "mask": "mask_floor_05.png",
+    "seed": 2026103604,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_06",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_06.txt",
+    "guide": "guide_floor_06.png",
+    "mask": "mask_floor_06.png",
+    "seed": 2026103605,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_07",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_07.txt",
+    "guide": "guide_floor_07.png",
+    "mask": "mask_floor_07.png",
+    "seed": 2026103606,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_08",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_08.txt",
+    "guide": "guide_floor_08.png",
+    "mask": "mask_floor_08.png",
+    "seed": 2026103607,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_09",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_09.txt",
+    "guide": "guide_floor_09.png",
+    "mask": "mask_floor_09.png",
+    "seed": 2026103608,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_10",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_10.txt",
+    "guide": "guide_floor_10.png",
+    "mask": "mask_floor_10.png",
+    "seed": 2026103609,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_11",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_11.txt",
+    "guide": "guide_floor_11.png",
+    "mask": "mask_floor_11.png",
+    "seed": 2026103610,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_12",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_12.txt",
+    "guide": "guide_floor_12.png",
+    "mask": "mask_floor_12.png",
+    "seed": 2026103611,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_13",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_13.txt",
+    "guide": "guide_floor_13.png",
+    "mask": "mask_floor_13.png",
+    "seed": 2026103612,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_14",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_14.txt",
+    "guide": "guide_floor_14.png",
+    "mask": "mask_floor_14.png",
+    "seed": 2026103613,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_15",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_15.txt",
+    "guide": "guide_floor_15.png",
+    "mask": "mask_floor_15.png",
+    "seed": 2026103614,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_16",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_16.txt",
+    "guide": "guide_floor_16.png",
+    "mask": "mask_floor_16.png",
+    "seed": 2026103615,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_17",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_17.txt",
+    "guide": "guide_floor_17.png",
+    "mask": "mask_floor_17.png",
+    "seed": 2026103616,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_18",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_18.txt",
+    "guide": "guide_floor_18.png",
+    "mask": "mask_floor_18.png",
+    "seed": 2026103617,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_19",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_19.txt",
+    "guide": "guide_floor_19.png",
+    "mask": "mask_floor_19.png",
+    "seed": 2026103618,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_20",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_20.txt",
+    "guide": "guide_floor_20.png",
+    "mask": "mask_floor_20.png",
+    "seed": 2026103619,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_21",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_21.txt",
+    "guide": "guide_floor_21.png",
+    "mask": "mask_floor_21.png",
+    "seed": 2026103620,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "join_01",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_join_01.txt",
+    "guide": "guide_join_01.png",
+    "mask": "mask_join_01.png",
+    "seed": 2026103691,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "join_02",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_join_02.txt",
+    "guide": "guide_join_02.png",
+    "mask": "mask_join_02.png",
+    "seed": 2026103692,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "join_03",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_join_03.txt",
+    "guide": "guide_join_03.png",
+    "mask": "mask_join_03.png",
+    "seed": 2026103693,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "join_04",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_join_04.txt",
+    "guide": "guide_join_04.png",
+    "mask": "mask_join_04.png",
+    "seed": 2026103694,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_11_fix",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_11_fix.txt",
+    "guide": "guide_floor_11_fix.png",
+    "mask": "mask_floor_11_fix.png",
+    "seed": 2026103698,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_18_fix",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_18_fix.txt",
+    "guide": "guide_floor_18_fix.png",
+    "mask": "mask_floor_18_fix.png",
+    "seed": 2026103699,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "c_reintegrate",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_c_reintegrate.txt",
+    "guide": "guide_c_reintegrate.png",
+    "mask": "mask_c_reintegrate.png",
+    "seed": 2026103705,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "floor_12_fix",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_12_fix.txt",
+    "guide": "guide_floor_12_fix.png",
+    "mask": "mask_floor_12_fix.png",
+    "seed": 2026103700,
+    "native_size": [
+      256,
+      256
+    ]
+  }
+]

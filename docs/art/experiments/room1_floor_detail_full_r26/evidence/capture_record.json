@@ -1,0 +1,1585 @@
+[
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P11",
+			"P12"
+		],
+		"diagnostic": false,
+		"file": "1_game_front_left.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (8.2, 2.25, 4.2)]",
+		"coverage": [
+			"P04",
+			"P05",
+			"P14",
+			"P15"
+		],
+		"diagnostic": false,
+		"file": "1_game_front_middle.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+		"coverage": [
+			"P08",
+			"P09",
+			"P18",
+			"P19"
+		],
+		"diagnostic": false,
+		"file": "1_game_front_right.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 0.2)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P11",
+			"P12"
+		],
+		"diagnostic": false,
+		"file": "1_game_back_left.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (8.2, 2.25, 0.2)]",
+		"coverage": [
+			"P04",
+			"P05",
+			"P14",
+			"P15"
+		],
+		"diagnostic": false,
+		"file": "1_game_back_middle.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 0.2)]",
+		"coverage": [
+			"P08",
+			"P09",
+			"P18",
+			"P19"
+		],
+		"diagnostic": false,
+		"file": "1_game_back_right.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.931243, 0.0, -0.364399), Y: (-0.23989, 0.752741, 0.613052), Z: (0.274298, 0.658316, -0.700985), O: (0.7, 1.1, -1.4)]",
+		"coverage": [
+			"P01",
+			"P11"
+		],
+		"diagnostic": false,
+		"file": "1_corner_front_left.png",
+		"fov": 55.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.91707, 0.0, 0.398726), Y: (0.260202, 0.757717, 0.598464), Z: (-0.302122, 0.652583, -0.69488), O: (20.25, 1.1, -1.4)]",
+		"coverage": [
+			"P10",
+			"P20"
+		],
+		"diagnostic": false,
+		"file": "1_corner_front_right.png",
+		"fov": 55.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.903738, 0.0, -0.428086), Y: (-0.306767, 0.697484, -0.647619), Z: (0.298583, 0.7166, 0.630343), O: (0.7, 1.1, -8.3)]",
+		"coverage": [
+			"P01",
+			"P11"
+		],
+		"diagnostic": false,
+		"file": "1_corner_rear_left.png",
+		"fov": 55.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.884918, 0.0, 0.465747), Y: (0.330318, 0.704984, -0.627604), Z: (-0.328344, 0.709223, 0.623853), O: (20.25, 1.1, -8.3)]",
+		"coverage": [
+			"P10",
+			"P20"
+		],
+		"diagnostic": false,
+		"file": "1_corner_rear_right.png",
+		"fov": 55.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (0.525, 0.72, -0.6)]",
+		"coverage": [
+			"P01"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P01.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (2.275, 0.72, -0.6)]",
+		"coverage": [
+			"P02"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P02.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (4.025, 0.72, -0.6)]",
+		"coverage": [
+			"P03"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P03.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (5.775, 0.72, -0.6)]",
+		"coverage": [
+			"P04"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P04.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (10.025, 0.72, -0.6)]",
+		"coverage": [
+			"P05"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P05.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (13.475, 0.72, -0.6)]",
+		"coverage": [
+			"P06"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P06.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (15.225, 0.72, -0.6)]",
+		"coverage": [
+			"P07"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P07.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (16.975, 0.72, -0.6)]",
+		"coverage": [
+			"P08"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P08.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (18.725, 0.72, -0.6)]",
+		"coverage": [
+			"P09"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P09.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (20.475, 0.72, -0.6)]",
+		"coverage": [
+			"P10"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P10.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (0.525, 0.72, -6.4)]",
+		"coverage": [
+			"P11"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P11.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (2.275, 0.72, -6.4)]",
+		"coverage": [
+			"P12"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P12.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (4.025, 0.72, -6.4)]",
+		"coverage": [
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P13.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (5.775, 0.72, -6.4)]",
+		"coverage": [
+			"P14"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P14.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (10.025, 0.72, -6.4)]",
+		"coverage": [
+			"P15"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P15.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (13.475, 0.72, -6.4)]",
+		"coverage": [
+			"P16"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P16.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (15.225, 0.72, -6.4)]",
+		"coverage": [
+			"P17"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P17.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (16.975, 0.72, -6.4)]",
+		"coverage": [
+			"P18"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P18.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (18.725, 0.72, -6.4)]",
+		"coverage": [
+			"P19"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P19.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (20.475, 0.72, -6.4)]",
+		"coverage": [
+			"P20"
+		],
+		"diagnostic": false,
+		"file": "1_pod_contact_P20.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.298275, 0.0, -0.95448), Y: (-0.778157, 0.579084, -0.243174), Z: (0.552724, 0.815268, 0.172726), O: (6.658, 1.2, -0.517)]",
+		"coverage": [
+			"P03"
+		],
+		"diagnostic": false,
+		"file": "1_leak_P03.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			6.65799999237061,
+			1.20000004768372,
+			-0.517000019550323
+		],
+		"leak_target": [
+			5.85799980163574,
+			0.0199999995529652,
+			-0.767000019550323
+		],
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.298275, 0.0, 0.95448), Y: (0.778157, 0.579084, -0.243174), Z: (-0.552724, 0.815268, 0.172726), O: (10.892, 1.2, -0.519)]",
+		"coverage": [
+			"P06"
+		],
+		"diagnostic": false,
+		"file": "1_leak_P06.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			10.8920001983643,
+			1.20000004768372,
+			-0.518999993801117
+		],
+		"leak_target": [
+			11.6920003890991,
+			0.0199999995529652,
+			-0.768999993801117
+		],
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.298275, 0.0, -0.95448), Y: (-0.778157, 0.579084, 0.243174), Z: (0.552724, 0.815268, -0.172726), O: (6.644, 1.2, -8.924)]",
+		"coverage": [
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "1_leak_P13.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			6.64400005340576,
+			1.20000004768372,
+			-8.92399978637695
+		],
+		"leak_target": [
+			5.8439998626709,
+			0.0199999995529652,
+			-8.67399978637695
+		],
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.298275, 0.0, 0.95448), Y: (0.778157, 0.579084, 0.243174), Z: (-0.552724, 0.815268, -0.172726), O: (14.399, 1.2, -8.969)]",
+		"coverage": [
+			"P18"
+		],
+		"diagnostic": false,
+		"file": "1_leak_P18.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			14.3990001678467,
+			1.20000004768372,
+			-8.9689998626709
+		],
+		"leak_target": [
+			15.1990003585815,
+			0.0199999995529652,
+			-8.7189998626709
+		],
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, -0.0), Y: (-0.0, -0.0, 1.0), Z: (-0.0, 1.0, 0.0), O: (10.5, 28.0, -4.75)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P03",
+			"P04",
+			"P05",
+			"P06",
+			"P07",
+			"P08",
+			"P09",
+			"P10",
+			"P11",
+			"P12",
+			"P13",
+			"P14",
+			"P15",
+			"P16",
+			"P17",
+			"P18",
+			"P19",
+			"P20"
+		],
+		"diagnostic": true,
+		"file": "1_floor_topdown_unoccluded.png",
+		"fov": 48.0,
+		"keep_width": true,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"projected_bounds_m": [
+			-1.96640318863901,
+			22.966403188639,
+			-11.7623517936094,
+			2.26235179360945
+		],
+		"required_floor_bounds_m": [
+			0.200000002980232,
+			20.8000011444092,
+			-9.30000019073486,
+			-0.199999809265137
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"topdown_position": [
+			10.5,
+			28.0,
+			-4.75
+		],
+		"topdown_target": [
+			10.5,
+			0.0,
+			-4.73999977111816
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "1_game_floor_patch_closed.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "1_game_floor_patch_open.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P11",
+			"P12"
+		],
+		"diagnostic": false,
+		"file": "2_game_front_left.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (8.2, 2.25, 4.2)]",
+		"coverage": [
+			"P04",
+			"P05",
+			"P14",
+			"P15"
+		],
+		"diagnostic": false,
+		"file": "2_game_front_middle.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+		"coverage": [
+			"P08",
+			"P09",
+			"P18",
+			"P19"
+		],
+		"diagnostic": false,
+		"file": "2_game_front_right.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 0.2)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P11",
+			"P12"
+		],
+		"diagnostic": false,
+		"file": "2_game_back_left.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (8.2, 2.25, 0.2)]",
+		"coverage": [
+			"P04",
+			"P05",
+			"P14",
+			"P15"
+		],
+		"diagnostic": false,
+		"file": "2_game_back_middle.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 0.2)]",
+		"coverage": [
+			"P08",
+			"P09",
+			"P18",
+			"P19"
+		],
+		"diagnostic": false,
+		"file": "2_game_back_right.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.931243, 0.0, -0.364399), Y: (-0.23989, 0.752741, 0.613052), Z: (0.274298, 0.658316, -0.700985), O: (0.7, 1.1, -1.4)]",
+		"coverage": [
+			"P01",
+			"P11"
+		],
+		"diagnostic": false,
+		"file": "2_corner_front_left.png",
+		"fov": 55.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.91707, 0.0, 0.398726), Y: (0.260202, 0.757717, 0.598464), Z: (-0.302122, 0.652583, -0.69488), O: (20.25, 1.1, -1.4)]",
+		"coverage": [
+			"P10",
+			"P20"
+		],
+		"diagnostic": false,
+		"file": "2_corner_front_right.png",
+		"fov": 55.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.903738, 0.0, -0.428086), Y: (-0.306767, 0.697484, -0.647619), Z: (0.298583, 0.7166, 0.630343), O: (0.7, 1.1, -8.3)]",
+		"coverage": [
+			"P01",
+			"P11"
+		],
+		"diagnostic": false,
+		"file": "2_corner_rear_left.png",
+		"fov": 55.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.884918, 0.0, 0.465747), Y: (0.330318, 0.704984, -0.627604), Z: (-0.328344, 0.709223, 0.623853), O: (20.25, 1.1, -8.3)]",
+		"coverage": [
+			"P10",
+			"P20"
+		],
+		"diagnostic": false,
+		"file": "2_corner_rear_right.png",
+		"fov": 55.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (0.525, 0.72, -0.6)]",
+		"coverage": [
+			"P01"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P01.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (2.275, 0.72, -0.6)]",
+		"coverage": [
+			"P02"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P02.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (4.025, 0.72, -0.6)]",
+		"coverage": [
+			"P03"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P03.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (5.775, 0.72, -0.6)]",
+		"coverage": [
+			"P04"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P04.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (10.025, 0.72, -0.6)]",
+		"coverage": [
+			"P05"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P05.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (13.475, 0.72, -0.6)]",
+		"coverage": [
+			"P06"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P06.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (15.225, 0.72, -0.6)]",
+		"coverage": [
+			"P07"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P07.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (16.975, 0.72, -0.6)]",
+		"coverage": [
+			"P08"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P08.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (18.725, 0.72, -0.6)]",
+		"coverage": [
+			"P09"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P09.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (20.475, 0.72, -0.6)]",
+		"coverage": [
+			"P10"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P10.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (0.525, 0.72, -6.4)]",
+		"coverage": [
+			"P11"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P11.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (2.275, 0.72, -6.4)]",
+		"coverage": [
+			"P12"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P12.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (4.025, 0.72, -6.4)]",
+		"coverage": [
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P13.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, 0.707107), Y: (0.260333, 0.92976, -0.260333), Z: (-0.65744, 0.368166, 0.65744), O: (5.775, 0.72, -6.4)]",
+		"coverage": [
+			"P14"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P14.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (10.025, 0.72, -6.4)]",
+		"coverage": [
+			"P15"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P15.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (13.475, 0.72, -6.4)]",
+		"coverage": [
+			"P16"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P16.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (15.225, 0.72, -6.4)]",
+		"coverage": [
+			"P17"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P17.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (16.975, 0.72, -6.4)]",
+		"coverage": [
+			"P18"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P18.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (18.725, 0.72, -6.4)]",
+		"coverage": [
+			"P19"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P19.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.260333, 0.92976, -0.260333), Z: (0.65744, 0.368166, 0.65744), O: (20.475, 0.72, -6.4)]",
+		"coverage": [
+			"P20"
+		],
+		"diagnostic": false,
+		"file": "2_pod_contact_P20.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.298275, 0.0, -0.95448), Y: (-0.778157, 0.579084, -0.243174), Z: (0.552724, 0.815268, 0.172726), O: (6.658, 1.2, -0.517)]",
+		"coverage": [
+			"P03"
+		],
+		"diagnostic": false,
+		"file": "2_leak_P03.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			6.65799999237061,
+			1.20000004768372,
+			-0.517000019550323
+		],
+		"leak_target": [
+			5.85799980163574,
+			0.0199999995529652,
+			-0.767000019550323
+		],
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.298275, 0.0, 0.95448), Y: (0.778157, 0.579084, -0.243174), Z: (-0.552724, 0.815268, 0.172726), O: (10.892, 1.2, -0.519)]",
+		"coverage": [
+			"P06"
+		],
+		"diagnostic": false,
+		"file": "2_leak_P06.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			10.8920001983643,
+			1.20000004768372,
+			-0.518999993801117
+		],
+		"leak_target": [
+			11.6920003890991,
+			0.0199999995529652,
+			-0.768999993801117
+		],
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.298275, 0.0, -0.95448), Y: (-0.778157, 0.579084, 0.243174), Z: (0.552724, 0.815268, -0.172726), O: (6.644, 1.2, -8.924)]",
+		"coverage": [
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "2_leak_P13.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			6.64400005340576,
+			1.20000004768372,
+			-8.92399978637695
+		],
+		"leak_target": [
+			5.8439998626709,
+			0.0199999995529652,
+			-8.67399978637695
+		],
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.298275, 0.0, 0.95448), Y: (0.778157, 0.579084, 0.243174), Z: (-0.552724, 0.815268, -0.172726), O: (14.399, 1.2, -8.969)]",
+		"coverage": [
+			"P18"
+		],
+		"diagnostic": false,
+		"file": "2_leak_P18.png",
+		"fov": 55.0,
+		"leak_camera_position": [
+			14.3990001678467,
+			1.20000004768372,
+			-8.9689998626709
+		],
+		"leak_target": [
+			15.1990003585815,
+			0.0199999995529652,
+			-8.7189998626709
+		],
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, -0.0), Y: (-0.0, -0.0, 1.0), Z: (-0.0, 1.0, 0.0), O: (10.5, 28.0, -4.75)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P03",
+			"P04",
+			"P05",
+			"P06",
+			"P07",
+			"P08",
+			"P09",
+			"P10",
+			"P11",
+			"P12",
+			"P13",
+			"P14",
+			"P15",
+			"P16",
+			"P17",
+			"P18",
+			"P19",
+			"P20"
+		],
+		"diagnostic": true,
+		"file": "2_floor_topdown_unoccluded.png",
+		"fov": 48.0,
+		"keep_width": true,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"projected_bounds_m": [
+			-1.96640318863901,
+			22.966403188639,
+			-11.7623517936094,
+			2.26235179360945
+		],
+		"required_floor_bounds_m": [
+			0.200000002980232,
+			20.8000011444092,
+			-9.30000019073486,
+			-0.199999809265137
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"topdown_position": [
+			10.5,
+			28.0,
+			-4.75
+		],
+		"topdown_target": [
+			10.5,
+			0.0,
+			-4.73999977111816
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "2_game_floor_patch_closed.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "2_game_floor_patch_open.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": false,
+		"file": "1_restore_game_floor_patch.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, -0.0), Y: (-0.0, -0.0, 1.0), Z: (-0.0, 1.0, 0.0), O: (10.5, 28.0, -4.75)]",
+		"coverage": [
+			"P01",
+			"P02",
+			"P03",
+			"P04",
+			"P05",
+			"P06",
+			"P07",
+			"P08",
+			"P09",
+			"P10",
+			"P11",
+			"P12",
+			"P13",
+			"P14",
+			"P15",
+			"P16",
+			"P17",
+			"P18",
+			"P19",
+			"P20"
+		],
+		"diagnostic": true,
+		"file": "2_base_color_floor_topdown.png",
+		"fov": 48.0,
+		"keep_width": true,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"projected_bounds_m": [
+			-1.96640318863901,
+			22.966403188639,
+			-11.7623517936094,
+			2.26235179360945
+		],
+		"required_floor_bounds_m": [
+			0.200000002980232,
+			20.8000011444092,
+			-9.30000019073486,
+			-0.199999809265137
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"topdown_position": [
+			10.5,
+			28.0,
+			-4.75
+		],
+		"topdown_target": [
+			10.5,
+			0.0,
+			-4.73999977111816
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": true,
+		"file": "2_raw_floor_patch.png",
+		"fov": 54.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"coverage": [
+			"P12",
+			"P13"
+		],
+		"diagnostic": true,
+		"file": "2_denoised_floor_patch.png",
+		"fov": 54.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	}
+]

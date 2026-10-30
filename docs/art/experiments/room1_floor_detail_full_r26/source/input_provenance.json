@@ -1,0 +1,30 @@
+{
+  "guide_sources": [
+    "r15 original native PixelLab floor",
+    "r25 approved C effective material",
+    "r22 occupied hidden pixels only"
+  ],
+  "canvas": [
+    1648,
+    728
+  ],
+  "mapping": "u=(world_x-.2)*80; v=(world_z+9.3)*80",
+  "native_tile_size": [
+    256,
+    256
+  ],
+  "new_original_requests": 21,
+  "resampling": false,
+  "PixelCanals_content_submitted": false,
+  "r25_old_8px_sample_join": "Not retained as a frame; the whole-floor material reconnects these pixels.",
+  "fixed_leaks": [
+    "P03",
+    "P06",
+    "P13",
+    "P18"
+  ],
+  "occupied_mask_source": "current_pod_footprints.json",
+  "script_material_art": false,
+  "C_area_excluded_from_first21_requests": 41452,
+  "final_C_reintegration": "PixelLab c_reintegrate; original C is not reused as a final layer"
+}
