@@ -1,0 +1,380 @@
+[
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"diagnostic": false,
+		"file": "1_game_floor_patch_closed.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": false,
+		"file": "1_floor_patch_full.png",
+		"fov": 54.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.698639, -0.715474), Z: (0.0, 0.715474, 0.698639), O: (3.38, 0.85, -5.62)]",
+		"diagnostic": false,
+		"file": "1_p12_p13_contact_detail.png",
+		"fov": 44.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001196, 0.0), Z: (-0.001196, 0.999999, -0.0), O: (4.0, 8.0, -6.5)]",
+		"diagnostic": true,
+		"file": "1_floor_patch_topdown.png",
+		"fov": 46.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001465, 0.0), Z: (-0.001465, 0.999999, -0.0), O: (4.0, 6.8, -6.5)]",
+		"diagnostic": true,
+		"file": "1_floor_patch_unoccluded.png",
+		"fov": 48.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"diagnostic": false,
+		"file": "1_game_floor_patch_open.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"diagnostic": false,
+		"file": "2_game_floor_patch_closed.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": false,
+		"file": "2_floor_patch_full.png",
+		"fov": 54.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.698639, -0.715474), Z: (0.0, 0.715474, 0.698639), O: (3.38, 0.85, -5.62)]",
+		"diagnostic": false,
+		"file": "2_p12_p13_contact_detail.png",
+		"fov": 44.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001196, 0.0), Z: (-0.001196, 0.999999, -0.0), O: (4.0, 8.0, -6.5)]",
+		"diagnostic": true,
+		"file": "2_floor_patch_topdown.png",
+		"fov": 46.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001465, 0.0), Z: (-0.001465, 0.999999, -0.0), O: (4.0, 6.8, -6.5)]",
+		"diagnostic": true,
+		"file": "2_floor_patch_unoccluded.png",
+		"fov": 48.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"diagnostic": false,
+		"file": "2_game_floor_patch_open.png",
+		"fov": 50.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"diagnostic": false,
+		"file": "3_game_floor_patch_closed.png",
+		"fov": 50.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": false,
+		"file": "3_floor_patch_full.png",
+		"fov": 54.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.698639, -0.715474), Z: (0.0, 0.715474, 0.698639), O: (3.38, 0.85, -5.62)]",
+		"diagnostic": false,
+		"file": "3_p12_p13_contact_detail.png",
+		"fov": 44.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001196, 0.0), Z: (-0.001196, 0.999999, -0.0), O: (4.0, 8.0, -6.5)]",
+		"diagnostic": true,
+		"file": "3_floor_patch_topdown.png",
+		"fov": 46.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001465, 0.0), Z: (-0.001465, 0.999999, -0.0), O: (4.0, 6.8, -6.5)]",
+		"diagnostic": true,
+		"file": "3_floor_patch_unoccluded.png",
+		"fov": 48.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (4.2, 2.25, 2.65)]",
+		"diagnostic": false,
+		"file": "3_game_floor_patch_open.png",
+		"fov": 50.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": false,
+		"file": "1_restore_floor_patch.png",
+		"fov": 54.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": true,
+		"file": "1_base_color_floor_patch.png",
+		"fov": 54.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001465, 0.0), Z: (-0.001465, 0.999999, -0.0), O: (4.0, 6.8, -6.5)]",
+		"diagnostic": true,
+		"file": "1_base_color_floor_unoccluded.png",
+		"fov": 48.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": true,
+		"file": "2_base_color_floor_patch.png",
+		"fov": 54.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001465, 0.0), Z: (-0.001465, 0.999999, -0.0), O: (4.0, 6.8, -6.5)]",
+		"diagnostic": true,
+		"file": "2_base_color_floor_unoccluded.png",
+		"fov": 48.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": true,
+		"file": "3_base_color_floor_patch.png",
+		"fov": 54.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.999999, 0.001465, 0.0), Z: (-0.001465, 0.999999, -0.0), O: (4.0, 6.8, -6.5)]",
+		"diagnostic": true,
+		"file": "3_base_color_floor_unoccluded.png",
+		"fov": 48.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": true,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": true,
+		"file": "3_raw_floor_patch.png",
+		"fov": 54.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.782601, -0.622524), Z: (0.0, 0.622524, 0.782601), O: (4.0, 1.75, -4.65)]",
+		"diagnostic": true,
+		"file": "3_denoised_floor_patch.png",
+		"fov": 54.0,
+		"mode": 3,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"pods_hidden": false,
+		"resolution": [
+			1280,
+			720
+		]
+	}
+]

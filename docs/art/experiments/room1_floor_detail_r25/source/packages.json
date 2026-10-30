@@ -1,0 +1,30 @@
+[
+  {
+    "key": "reference",
+    "output": "assets/art/room1_floor_detail_r25/floor_reference.png",
+    "sha256": "0967d469931fb7a3604e7795ea067a1a4b53964102adccab16598eee50fdc7ab",
+    "native_patch": [
+      168,
+      96,
+      424,
+      352
+    ],
+    "resampling": false,
+    "mask": "mask_candidate.png",
+    "replace": "binary 0/255, no old age layer under edited pixels"
+  },
+  {
+    "key": "candidate",
+    "output": "assets/art/room1_floor_detail_r25/floor_candidate.png",
+    "sha256": "02a1dbe667f5f9b7470d27735caed18bc7b79e16f487f51ee6ffd0ff8d37e90f",
+    "native_patch": [
+      168,
+      96,
+      424,
+      352
+    ],
+    "resampling": false,
+    "mask": "mask_candidate.png",
+    "replace": "binary 0/255, no old age layer under edited pixels"
+  }
+]

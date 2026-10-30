@@ -1,0 +1,30 @@
+{
+  "sources": [
+    "assets/art/room1_floor_variants_r15/floor_with_leaks.png",
+    "assets/art/room1_pixel_unify_r22/floor_with_leaks.png",
+    "docs/art/experiments/room1_floor_variants_r15/source/pod_footprints.json"
+  ],
+  "patch_px": [
+    168,
+    96,
+    424,
+    352
+  ],
+  "world_x_m": [
+    2.3,
+    5.5
+  ],
+  "world_z_m": [
+    -8.1,
+    -4.9
+  ],
+  "native_size": [
+    256,
+    256
+  ],
+  "resampling": false,
+  "technical_guide": "r15 material with exact current r22 protected occupied areas and 8px boundary",
+  "creative_production": "PixelLab /v2/inpaint-v3",
+  "PixelCanals_content_submitted": false,
+  "scope": "floor PATCH only; r24 walls and other room assets unchanged"
+}

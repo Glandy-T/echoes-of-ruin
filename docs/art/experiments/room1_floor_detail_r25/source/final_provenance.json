@@ -1,0 +1,21 @@
+{
+  "method": "official PixelLab API",
+  "endpoint": "POST /v2/inpaint-v3",
+  "background_job_id": "626e0e53-333e-4b0c-bdc6-566424bdde7b",
+  "native_size": [
+    256,
+    256
+  ],
+  "actual_usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "source_input": "own project r15 floor with exact r22 occupied/boundary guide pixels",
+  "prompt_sha256": "6768b950eefbac6eb7f8f42bf27c4c9fe005a02937e04d135f77a61a50d1163b",
+  "guide_sha256": "d7612fff3a7acbf6dfeff126daf5429aa6707e83b744728d421fb5f2e6c4572b",
+  "mask_sha256": "0f613a663b9b8d050c2099afd13822b5360323b5383ff40c3f26300c94911eba",
+  "raw_sha256": "f6b8b934649b2b074cf2a509645a63754f39efd6fbe84af37a8f95cc28386780",
+  "PixelCanals_content_submitted": false,
+  "manual_material_art": false,
+  "resampling": false
+}

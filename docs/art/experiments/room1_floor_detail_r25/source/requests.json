@@ -1,0 +1,14 @@
+[
+  {
+    "name": "candidate",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_candidate.txt",
+    "guide": "guide_candidate.png",
+    "mask": "mask_candidate.png",
+    "seed": 2026103551,
+    "native_size": [
+      256,
+      256
+    ]
+  }
+]

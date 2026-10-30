@@ -1,0 +1,27 @@
+{
+  "status": "creator reviewed; user selection pending",
+  "views_opened": [
+    "1_floor_patch_full",
+    "2_floor_patch_full",
+    "3_floor_patch_full",
+    "1_game_floor_patch_closed",
+    "3_game_floor_patch_closed",
+    "3_p12_p13_contact_detail",
+    "3_floor_patch_unoccluded",
+    "3_base_color_floor_patch",
+    "3_raw_floor_patch",
+    "1_base_color_floor_unoccluded",
+    "2_base_color_floor_unoccluded",
+    "3_base_color_floor_unoccluded"
+  ],
+  "findings": [
+    "r22 contains larger block groups, not a missing file",
+    "new candidate has finer attached contact transitions",
+    "normal emergency-dark game view compresses A/C differences; improvement is local, not a whole-room art approval",
+    "no white join line or old-layer blending observed",
+    "unoccluded diagnostic temporarily hides pods; existing GI shadows remain except basecolor, and protected occupied floor pixels remain current r22"
+  ],
+  "scope": "fixed floor patch only; no model/layout/light changes",
+  "independent_review": "No blocking issue; normal-light difference remains limited",
+  "user_approved": false
+}

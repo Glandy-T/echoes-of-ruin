@@ -1,0 +1,250 @@
+{
+  "result": "PASS",
+  "frames": 27,
+  "checks": {
+    "1_game_floor_patch_closed.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 884432,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "1_floor_patch_full.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 876252,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "1_p12_p13_contact_detail.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 845720,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "1_floor_patch_topdown.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 904143,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "1_floor_patch_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 791632,
+      "diagnostic": true,
+      "pods_hidden": true
+    },
+    "1_game_floor_patch_open.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 882187,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "2_game_floor_patch_closed.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 884558,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "2_floor_patch_full.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 879828,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "2_p12_p13_contact_detail.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 849428,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "2_floor_patch_topdown.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 904920,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "2_floor_patch_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 792754,
+      "diagnostic": true,
+      "pods_hidden": true
+    },
+    "2_game_floor_patch_open.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 883182,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "3_game_floor_patch_closed.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 884524,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "3_floor_patch_full.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 879265,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "3_p12_p13_contact_detail.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 848817,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "3_floor_patch_topdown.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 904696,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "3_floor_patch_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 792405,
+      "diagnostic": true,
+      "pods_hidden": true
+    },
+    "3_game_floor_patch_open.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 882749,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "1_restore_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 876252,
+      "diagnostic": false,
+      "pods_hidden": false
+    },
+    "1_base_color_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 885076,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "1_base_color_floor_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 921600,
+      "diagnostic": true,
+      "pods_hidden": true
+    },
+    "2_base_color_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 885076,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "2_base_color_floor_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 921600,
+      "diagnostic": true,
+      "pods_hidden": true
+    },
+    "3_base_color_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 885076,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "3_base_color_floor_unoccluded.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 921600,
+      "diagnostic": true,
+      "pods_hidden": true
+    },
+    "3_raw_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 879424,
+      "diagnostic": true,
+      "pods_hidden": false
+    },
+    "3_denoised_floor_patch.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "nonblack_pixels": 879265,
+      "diagnostic": true,
+      "pods_hidden": false
+    }
+  },
+  "scope": "A/B/C floor patch; normal game views keep pods, while unoccluded/topdown/base-color views are labelled diagnostics."
+}
