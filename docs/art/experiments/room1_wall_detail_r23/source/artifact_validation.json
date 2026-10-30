@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "immutable_files": 213,
+  "Aseprite_exact_readbacks": 3,
+  "actual_successful_requests": 2,
+  "generations_used": 20.0,
+  "new_native_art_size": [
+    256,
+    256
+  ],
+  "third_party_reference_uploaded": false
+}

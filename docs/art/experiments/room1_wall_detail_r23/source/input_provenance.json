@@ -1,0 +1,20 @@
+{
+  "original_project_input": "assets/art/room1_wall_lamp_r13/wall_rear.png",
+  "original_pixel_art_source": "PixelLab r11/r12 material and r13 lamp",
+  "patch": [
+    944,
+    16,
+    1200,
+    272
+  ],
+  "world_sample": "rear wall x=12.0..15.2m; z=-9.3m",
+  "native_size": [
+    256,
+    256
+  ],
+  "resampling": false,
+  "retained_construction": "r12 clean rear wall + exact r13 lamp; no old aging under the editable replacement",
+  "third_party_content_submitted": false,
+  "Pixel_Canals": "human technical reference only, NoAI content not submitted",
+  "scope": "two wall bays only; all other r22 materials, shaders, GI, models, layout untouched"
+}

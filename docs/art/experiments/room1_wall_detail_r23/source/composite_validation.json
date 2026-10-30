@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "patch": [
+    944,
+    16,
+    1200,
+    272
+  ],
+  "records": [
+    {
+      "variant": "reference",
+      "outside_patch_exact": true,
+      "all_protected_pixels_exact": true,
+      "lamp_exact": true,
+      "resampled": false,
+      "native_size": [
+        256,
+        256
+      ],
+      "source": "r13 project PixelLab reference"
+    },
+    {
+      "variant": "a",
+      "outside_patch_exact": true,
+      "all_protected_pixels_exact": true,
+      "lamp_exact": true,
+      "resampled": false,
+      "native_size": [
+        256,
+        256
+      ],
+      "source": "new PixelLab inpaint-v3"
+    },
+    {
+      "variant": "b",
+      "outside_patch_exact": true,
+      "all_protected_pixels_exact": true,
+      "lamp_exact": true,
+      "resampled": false,
+      "native_size": [
+        256,
+        256
+      ],
+      "source": "new PixelLab inpaint-v3"
+    }
+  ],
+  "operations": [
+    "binary exact protection mask",
+    "native-pixel placement",
+    "no painted or procedural age",
+    "no old aging overlay in editable pixels"
+  ]
+}

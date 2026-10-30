@@ -1,0 +1,26 @@
+[
+  {
+    "name": "a",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_a.txt",
+    "guide": "guide_a.png",
+    "mask": "mask.png",
+    "seed": 2026103340,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "b",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_b.txt",
+    "guide": "guide_b.png",
+    "mask": "mask.png",
+    "seed": 2026103341,
+    "native_size": [
+      256,
+      256
+    ]
+  }
+]
