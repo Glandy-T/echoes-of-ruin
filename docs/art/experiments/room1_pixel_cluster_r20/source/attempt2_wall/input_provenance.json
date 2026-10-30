@@ -1,0 +1,56 @@
+{
+  "inputs": [
+    {
+      "role": "wall",
+      "source": "docs/art/experiments/room1_wall_pixellab_r12/source/clean_left.png",
+      "source_sha256": "221541eb050335c0d51655449f5e86dd754acbfa25c94246460f975b98037d74",
+      "source_has_legacy_aging": false,
+      "native_grid_scale": 2,
+      "mask_method": "2x2 conservative minimum; exact full-size mask restored after nearest enlargement",
+      "wall_crop": [
+        432,
+        16,
+        688,
+        272
+      ]
+    },
+    {
+      "role": "lid",
+      "source": "docs/art/experiments/room1_pod_pixellab_r16/source/clean_lid.png",
+      "source_sha256": "c1d10c8f22aaf8ebc3afa3589ccd34f79f8044eb05e12b056bba86d344f7f72e",
+      "source_has_legacy_aging": false,
+      "native_grid_scale": 2,
+      "mask_method": "2x2 conservative minimum; exact full-size mask restored after nearest enlargement",
+      "wall_crop": null
+    },
+    {
+      "role": "shell_side",
+      "source": "docs/art/experiments/room1_pod_pixellab_r16/source/clean_shell_side.png",
+      "source_sha256": "37300d7a6dbce9b4e7a7915635b0a36cacd3040075bc3008f8d712f192583be6",
+      "source_has_legacy_aging": false,
+      "native_grid_scale": 2,
+      "mask_method": "2x2 conservative minimum; exact full-size mask restored after nearest enlargement",
+      "wall_crop": null
+    },
+    {
+      "role": "shell_end",
+      "source": "docs/art/experiments/room1_pod_pixellab_r16/source/clean_shell_end.png",
+      "source_sha256": "0ac8246de5a750f88bc2778d8a6d7aff238c0b171f5e672276351ca6445e42ae",
+      "source_has_legacy_aging": false,
+      "native_grid_scale": 2,
+      "mask_method": "2x2 conservative minimum; exact full-size mask restored after nearest enlargement",
+      "wall_crop": null
+    }
+  ],
+  "third_party_images_submitted": false,
+  "unchanged": [
+    "models",
+    "UV",
+    "layout",
+    "camera",
+    "resolution",
+    "source lightmaps",
+    "formal entry",
+    "all other nineteen pods"
+  ]
+}

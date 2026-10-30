@@ -1,0 +1,87 @@
+{
+  "result": "PASS",
+  "records": [
+    {
+      "role": "wall",
+      "output": "assets/art/room1_pixel_cluster_r20/wall_left.png",
+      "native_size": [
+        128,
+        128
+      ],
+      "atlas_size": [
+        728,
+        272
+      ],
+      "grid_scale": 2,
+      "rgb_colors": 143,
+      "protected_exact": true,
+      "outside_wall_patch_exact": true,
+      "changed_pixels_vs_current": 7219,
+      "raw_sha256": "98265c51bc265185d74ac8434635d920dc9ebcdc6f40bfc097d20e237f4a904b",
+      "final_sha256": "951ac5af988aa4a609726227e0cf94f98ef424f2761fe74e4963227ad228ccb8"
+    },
+    {
+      "role": "lid",
+      "output": "assets/art/room1_pixel_cluster_r20/pod_lid.png",
+      "native_size": [
+        64,
+        128
+      ],
+      "atlas_size": [
+        128,
+        256
+      ],
+      "grid_scale": 2,
+      "rgb_colors": 10,
+      "protected_exact": true,
+      "outside_wall_patch_exact": null,
+      "changed_pixels_vs_current": 9342,
+      "raw_sha256": "61a3452d7c4ce690fe8292b4e4066d6458622e76ebc9d3afb02b26f86f84692d",
+      "final_sha256": "4de3d7c0f770b1e891581d9fd54b8753f61cc28099fa0b447d6593cd81bae348"
+    },
+    {
+      "role": "shell_side",
+      "output": "assets/art/room1_pixel_cluster_r20/pod_shell_side.png",
+      "native_size": [
+        128,
+        40
+      ],
+      "atlas_size": [
+        256,
+        80
+      ],
+      "grid_scale": 2,
+      "rgb_colors": 10,
+      "protected_exact": true,
+      "outside_wall_patch_exact": null,
+      "changed_pixels_vs_current": 2608,
+      "raw_sha256": "f41eae45754dfd2502c14048c2c5ed7d98f80ac85b4e89df988c3d95ec0a203d",
+      "final_sha256": "9d09a75b308bb03b234b7ac77a8c59a5988ef63ffe29a585f44e52803b39a3eb"
+    },
+    {
+      "role": "shell_end",
+      "output": "assets/art/room1_pixel_cluster_r20/pod_shell_end.png",
+      "native_size": [
+        64,
+        40
+      ],
+      "atlas_size": [
+        128,
+        80
+      ],
+      "grid_scale": 2,
+      "rgb_colors": 11,
+      "protected_exact": true,
+      "outside_wall_patch_exact": null,
+      "changed_pixels_vs_current": 4706,
+      "raw_sha256": "a6f9b02cb8aebbc772452ee0648591b9132c48726fd5c157556d402446750014",
+      "final_sha256": "e74b11834a0b6327f7e180c94de3d36da8b485984e8193be70f6f8e596446d3b"
+    }
+  ],
+  "technical_operations": [
+    "2x integer nearest enlargement",
+    "conservative binary masks",
+    "exact existing ID/structure preservation"
+  ],
+  "art_pixels_source": "PixelLab inpaint-v3 only; no procedural aging or manual repaint"
+}

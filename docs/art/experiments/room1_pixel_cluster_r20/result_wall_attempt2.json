@@ -1,0 +1,14 @@
+{
+  "name": "wall",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "f6a5b767-1606-4212-95e3-1a823accfac6",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    128,
+    128
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "wall",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_wall.txt",
+    "guide": "guide_wall.png",
+    "mask": "mask_wall.png",
+    "seed": 2026103020,
+    "native_size": [
+      128,
+      128
+    ],
+    "atlas_size": [
+      256,
+      256
+    ]
+  },
+  {
+    "name": "lid",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_lid.txt",
+    "guide": "guide_lid.png",
+    "mask": "mask_lid.png",
+    "seed": 2026103021,
+    "native_size": [
+      64,
+      128
+    ],
+    "atlas_size": [
+      128,
+      256
+    ]
+  },
+  {
+    "name": "shell_side",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_shell_side.txt",
+    "guide": "guide_shell_side.png",
+    "mask": "mask_shell_side.png",
+    "seed": 2026103022,
+    "native_size": [
+      128,
+      40
+    ],
+    "atlas_size": [
+      256,
+      80
+    ]
+  },
+  {
+    "name": "shell_end",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_shell_end.txt",
+    "guide": "guide_shell_end.png",
+    "mask": "mask_shell_end.png",
+    "seed": 2026103023,
+    "native_size": [
+      64,
+      40
+    ],
+    "atlas_size": [
+      128,
+      80
+    ]
+  }
+]

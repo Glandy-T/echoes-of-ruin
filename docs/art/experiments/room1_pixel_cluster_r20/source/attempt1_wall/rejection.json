@@ -1,0 +1,5 @@
+{
+  "status": "rejected",
+  "reason": "The initial material mask protected 20 extra rows below the actual lamp, retaining fine old aging in the new wall composite; raw output also included detached lower material islands. Preserve the attempt but do not use it in the candidate.",
+  "fix": "Use actual lamp alpha and existing construction mask; PixelLab regenerates the wall. No hand-painted replacement."
+}

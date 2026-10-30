@@ -1,0 +1,5 @@
+{
+  "status": "rejected",
+  "reason": "PixelLab invented inset dark frames and rounded pillow-like face shading; the original surface is a flat architectural wall.",
+  "fix": "Explicit flat-albedo wall-only prompt and a new recorded seed; no hand-painted correction."
+}

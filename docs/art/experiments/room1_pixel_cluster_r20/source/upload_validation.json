@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "date": "2026-10-30",
+  "checkout": "independent upload checkout at r19 main baseline",
+  "steps": {
+    "import": {
+      "error_count": 0,
+      "result_lines": []
+    },
+    "verify": {
+      "error_count": 0,
+      "result_lines": [
+        "R20_CLUSTER_RUNTIME PASS checks=22950 errors=[]"
+      ]
+    }
+  },
+  "formal_entry": "unchanged r19",
+  "baseline_files_exact": 14,
+  "pixel_art_generated_by": "PixelLab inpaint-v3; 6 actual jobs / 60 generations / 4 accepted maps"
+}

@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "exact_aseprite_composites": {
+    "wall_left": true,
+    "pod_lid": true,
+    "pod_shell_side": true,
+    "pod_shell_end": true
+  },
+  "immutable_baseline_files": 14,
+  "changed_baseline_files": [],
+  "actual_PixelLab_jobs": 6,
+  "accepted_maps": 4,
+  "generations_used": 60.0
+}
