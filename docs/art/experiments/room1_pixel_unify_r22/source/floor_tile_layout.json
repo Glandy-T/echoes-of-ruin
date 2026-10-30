@@ -1,0 +1,115 @@
+{
+  "native_canvas": [
+    824,
+    364
+  ],
+  "grid_scale": 2,
+  "tiles": [
+    {
+      "name": "floor_tile_01",
+      "native_origin": [
+        0,
+        0
+      ],
+      "row": 0,
+      "column": 0,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_02",
+      "native_origin": [
+        192,
+        0
+      ],
+      "row": 0,
+      "column": 1,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_03",
+      "native_origin": [
+        384,
+        0
+      ],
+      "row": 0,
+      "column": 2,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_04",
+      "native_origin": [
+        568,
+        0
+      ],
+      "row": 0,
+      "column": 3,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_05",
+      "native_origin": [
+        0,
+        108
+      ],
+      "row": 1,
+      "column": 0,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_06",
+      "native_origin": [
+        192,
+        108
+      ],
+      "row": 1,
+      "column": 1,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_07",
+      "native_origin": [
+        384,
+        108
+      ],
+      "row": 1,
+      "column": 2,
+      "native_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "floor_tile_08",
+      "native_origin": [
+        568,
+        108
+      ],
+      "row": 1,
+      "column": 3,
+      "native_size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "reason": "Initial 448x364 edit failed: Tier 2 required; recorded USD usage 0.0. Subsequent requests use already proven 256px native canvases within existing plan. No subscription change.",
+  "initial_floor_2": "withdrawn before submission"
+}

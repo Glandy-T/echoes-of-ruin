@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "objects": 131,
+  "external_unpacked": 250,
+  "r22_image_paths": 69,
+  "missing_images": [],
+  "absolute_paths": [],
+  "blend_modified": false
+}

@@ -1,0 +1,35 @@
+{
+  "portal": {
+    "reason": "AI invented an inset rectangle/rim on an originally flat wide ceramic bay",
+    "raw_preserved": "raw/portal.png",
+    "replacement_request": "portal_fix",
+    "manual_painting_used": false
+  },
+  "b_lid": {
+    "reason": "Invented inner pane/inset rectangle on an opaque ceramic panel; D also added broad warm-brown plane shading. Geometry not changed.",
+    "raw_preserved": "raw/b_lid.png",
+    "replacement_request": "b_lid_fix",
+    "manual_painting_used": false
+  },
+  "d_lid": {
+    "reason": "Invented inner pane/inset rectangle on an opaque ceramic panel; D also added broad warm-brown plane shading. Geometry not changed.",
+    "raw_preserved": "raw/d_lid.png",
+    "replacement_request": "d_lid_fix",
+    "manual_painting_used": false
+  },
+  "floor_tile_02": {
+    "reason": "Bright white painted halos outside occupied footprints, inconsistent with matte blue-gray floor",
+    "white_editable_native_pixels": 3339,
+    "repair_mask_pixels": 5088,
+    "raw_preserved": "raw/floor_tile_02.png",
+    "replacement_request": "floor_02_fix",
+    "repair_method": "two real PixelLab outputs combined only inside exact native repair mask",
+    "manual_painting_used": false
+  },
+  "floor_tile_08": {
+    "reason": "Extensive white missing-material/paint-like output instead of blue-gray floor; rejected before runtime",
+    "raw_preserved": "raw/floor_tile_08.png",
+    "replacement_request": "floor_08_fix",
+    "manual_painting_used": false
+  }
+}

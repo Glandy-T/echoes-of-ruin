@@ -1,0 +1,669 @@
+{
+  "actual_completed_jobs": [
+    {
+      "name": "wall_1",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "00a6ed1f-3af7-4151-9124-17a8c13449af",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "ec2aa0d941ecbcfd809d5fc1e28eea01a8b2f8eafba5ea293eb1a1a4a8769714",
+      "guide_sha256": "3814b34b557337cc8f6785bf705f83331857341eae2bd222a2ec3768620ce7e7",
+      "mask_sha256": "b1e86c11ae4014f41277d41d3b96f6c03257efa455cfa95796daece789f33147",
+      "raw_sha256": "6d266c799cab9e047d8a622dff9576729b11361c0eecf0d32bf69971e0116ded"
+    },
+    {
+      "name": "wall_2",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "7ae333f5-9635-4242-895c-21b61e6f01b8",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "1afb58a50765d2842a34839db3416859eec9ed8c2e0a271adab45c41373caeff",
+      "guide_sha256": "3814b34b557337cc8f6785bf705f83331857341eae2bd222a2ec3768620ce7e7",
+      "mask_sha256": "b1e86c11ae4014f41277d41d3b96f6c03257efa455cfa95796daece789f33147",
+      "raw_sha256": "8cf4f82d714cf85f34d66629a77f62f4b628aca8ccfede249555f560a3db8e32"
+    },
+    {
+      "name": "wall_3",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "44825766-70a1-4804-875c-1d0b16feb2d2",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "0428ff585918f4a4d89a598c0c5b16e030450c9dd96e96b42bbf5dd1f335f05b",
+      "guide_sha256": "3814b34b557337cc8f6785bf705f83331857341eae2bd222a2ec3768620ce7e7",
+      "mask_sha256": "b1e86c11ae4014f41277d41d3b96f6c03257efa455cfa95796daece789f33147",
+      "raw_sha256": "22c5e8f8d19818f976b50ab6b50abd7ca9b933687d0dcb938a84f10ae0fadf72"
+    },
+    {
+      "name": "wall_4",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "a531b72d-c697-4bed-a8c0-d7f23ac25eb7",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "64ca26626f871f1c0b96b760119e65c719ca3430855696039ae1d35977c4fa3d",
+      "guide_sha256": "3814b34b557337cc8f6785bf705f83331857341eae2bd222a2ec3768620ce7e7",
+      "mask_sha256": "b1e86c11ae4014f41277d41d3b96f6c03257efa455cfa95796daece789f33147",
+      "raw_sha256": "35c71351d42c8cd3da02288c4747b130380f86e3c67cac21d486701edd57dd3e"
+    },
+    {
+      "name": "wall_5",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "d814c18a-acbd-4ebb-be28-d8dc97f47e09",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "fac3ae5b4472ffbe40ee99e7fc828646753cd30649350caa4c2e5a33cb0a7444",
+      "guide_sha256": "3814b34b557337cc8f6785bf705f83331857341eae2bd222a2ec3768620ce7e7",
+      "mask_sha256": "b1e86c11ae4014f41277d41d3b96f6c03257efa455cfa95796daece789f33147",
+      "raw_sha256": "14a168088a5403412dbe16ccda8b47e1cfafc26e365f75c5a148a1d4c8ab3b2a"
+    },
+    {
+      "name": "portal",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "77e9e292-c1fb-4f14-ba6d-d121d3d2448e",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "1c82de961ccdcd7f19c6aa6d73ace45a674d1fac23f141bb8b048ffb9a619fa0",
+      "guide_sha256": "eed32e0f7b2bc8cf49febd05c7ab6380a279af512c8417854fa8515b6aa8e1b2",
+      "mask_sha256": "7bab42d3dd4c373775df5adf5ccea50a75144d7277cf44d8cbb5364c45b4438d",
+      "raw_sha256": "70306a2c2913f790d3ce5a029a4160c2f33fc843092dc8c6deb06340193b1455"
+    },
+    {
+      "name": "b_lid",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "681d2e9b-e8d8-4acf-9ace-d6155cb01a66",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        128
+      ],
+      "prompt_sha256": "62ae225201d6a81a3a9d0310654a48f412d5745ce60bb3dcef69370d8dfb7c9a",
+      "guide_sha256": "d30ca159903e495a1bd5bda2a117fb2cdd430c53b601a22c5ed2b4205bdc9e41",
+      "mask_sha256": "b5305d856fa5ec484ce68474bee316746a77644056a591af8e88128709afd37c",
+      "raw_sha256": "0a107a167aeb39d27f62d28324a1798c2cb0112ee5e3a6cad2f5fc62d4daaabd"
+    },
+    {
+      "name": "b_shell_side",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "5e5a5a3f-0961-4ce6-9eee-334a8c9c6dbd",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        40
+      ],
+      "prompt_sha256": "4ec2a31b088645e3ffe6c9376bdfede8f6d58198ce55378c61149b25b1a07b60",
+      "guide_sha256": "5b3dbb92249d4f5805a1a7b1b21974e253d06f7413bd8972181870446a857ef5",
+      "mask_sha256": "c5c069278164937de44d904ce6a17846ffcf6a818978b635abe5d715533c24f8",
+      "raw_sha256": "12a9b4295abf1d336ac2a43c5d93085c837a31d598c12ff09b672c26ec070f7a"
+    },
+    {
+      "name": "b_shell_end",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "4a1f5169-296c-4dbc-a9c9-6818c43bba86",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        40
+      ],
+      "prompt_sha256": "437ec8eca3c503aa8ea0707b0909eab311eba9790912edf9477d72f585c80427",
+      "guide_sha256": "52cfa73bd6fda651c87a029cb87acc3301f50e80a166d37f0f22a6b2f11d926e",
+      "mask_sha256": "1327d1142d427ed7803256e48d02be8e7d3d752ed734f6cbc46cb3a425b3288d",
+      "raw_sha256": "b113c6cce14d154b87a769a9418e0c1046ac58e9bb0515c42bbb08e75ca32605"
+    },
+    {
+      "name": "c_lid",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "55dbf4c0-e6bb-4c18-8252-e1e7c8698816",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        128
+      ],
+      "prompt_sha256": "46a9fea03058793e44144e6e3e558e43c633eb54e9195c2debdf96753b487209",
+      "guide_sha256": "d30ca159903e495a1bd5bda2a117fb2cdd430c53b601a22c5ed2b4205bdc9e41",
+      "mask_sha256": "b5305d856fa5ec484ce68474bee316746a77644056a591af8e88128709afd37c",
+      "raw_sha256": "a60a2dac9c6e719cb756727d1f847703fdbbf80b58ec88f4a0cb2b0fa977a7a4"
+    },
+    {
+      "name": "c_shell_side",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "3baafb36-dc26-4a7c-a7c0-fb122b0eaa24",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        40
+      ],
+      "prompt_sha256": "ecef88c25c114ec157ab0b0a881dd29dda39f665ff6088ca8e999ecc8e775926",
+      "guide_sha256": "5b3dbb92249d4f5805a1a7b1b21974e253d06f7413bd8972181870446a857ef5",
+      "mask_sha256": "c5c069278164937de44d904ce6a17846ffcf6a818978b635abe5d715533c24f8",
+      "raw_sha256": "3f6d70b72e49ce6f9232cd44dd84aceb9dc4e1fa2a9a2a9e197d73228b782143"
+    },
+    {
+      "name": "c_shell_end",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "bebc16b6-cb13-4fdc-822d-862240565774",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        40
+      ],
+      "prompt_sha256": "06b74cf1c6c7d95c0731a226641b890942b8928b5322f91fa8ee4efc25135db8",
+      "guide_sha256": "52cfa73bd6fda651c87a029cb87acc3301f50e80a166d37f0f22a6b2f11d926e",
+      "mask_sha256": "1327d1142d427ed7803256e48d02be8e7d3d752ed734f6cbc46cb3a425b3288d",
+      "raw_sha256": "0abf0693b43fb00bf6b8d653f4781565bd609e9c77019ad6126dca9d63063045"
+    },
+    {
+      "name": "d_lid",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "ea907064-f29e-4ebb-ab9a-398be3272b12",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        128
+      ],
+      "prompt_sha256": "97c462347acdb0c7819677001b25170c1e318b96d971308842c51cb422722e9a",
+      "guide_sha256": "d30ca159903e495a1bd5bda2a117fb2cdd430c53b601a22c5ed2b4205bdc9e41",
+      "mask_sha256": "b5305d856fa5ec484ce68474bee316746a77644056a591af8e88128709afd37c",
+      "raw_sha256": "e390d8f6206abc001890ff5293f25aa2bf7e3177876b82ac0b40142eff88a36b"
+    },
+    {
+      "name": "d_shell_side",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "060a456a-0684-4593-89f5-8510b6998041",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        40
+      ],
+      "prompt_sha256": "8ac1cc0d16bdec6f020c576e6bbbbe98cdda65e888a5a23e0f6b7645d66ff8e4",
+      "guide_sha256": "5b3dbb92249d4f5805a1a7b1b21974e253d06f7413bd8972181870446a857ef5",
+      "mask_sha256": "c5c069278164937de44d904ce6a17846ffcf6a818978b635abe5d715533c24f8",
+      "raw_sha256": "43c50db48ccfa1e177cde3206595dd00217d2ef9101d91b118af66b8ec0287d2"
+    },
+    {
+      "name": "d_shell_end",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "cdd93f97-d112-4120-92e0-1ae138d2bcdf",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        40
+      ],
+      "prompt_sha256": "54c2319f56d9f4d98a4a4c59244ee9a1c5e3c4197e0685f6951a0a33eb804afc",
+      "guide_sha256": "52cfa73bd6fda651c87a029cb87acc3301f50e80a166d37f0f22a6b2f11d926e",
+      "mask_sha256": "1327d1142d427ed7803256e48d02be8e7d3d752ed734f6cbc46cb3a425b3288d",
+      "raw_sha256": "e10076ae6b23e3c4ee9396b82e40b54141d228445c4c9fc54e4a849b8248245e"
+    },
+    {
+      "name": "portal_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "a1688e1b-3baf-4f07-b5cf-a65b13f5ec1c",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        128,
+        128
+      ],
+      "prompt_sha256": "4589cb088795088d27792d98c371a75885a80190a52490f6fe452fc6f7d334d1",
+      "guide_sha256": "eed32e0f7b2bc8cf49febd05c7ab6380a279af512c8417854fa8515b6aa8e1b2",
+      "mask_sha256": "7bab42d3dd4c373775df5adf5ccea50a75144d7277cf44d8cbb5364c45b4438d",
+      "raw_sha256": "9c74a8337c3e9e53cfa3cdf9f4fa31817e5b2386b41863ac8af47fd9ce66bd98"
+    },
+    {
+      "name": "floor_tile_01",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "0a68c277-eb0f-4a69-8ff8-38273ea438a1",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "1614cc3e9b52ea4edf9301c90e97529238e507d23a08aa94f30c4851d5766c0b",
+      "mask_sha256": "61ec0e9faaa1b2984effb6eeb17ae38787aa9586dd9bdab93722df8864d85fd0",
+      "raw_sha256": "4b86e3cf85630ce6f9176856db1b9cf55a06d103e53b3b26d601bf26d401d138"
+    },
+    {
+      "name": "floor_tile_02",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "8b0ff620-587c-47fa-bcef-64608558a30d",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "c9cc20c767d6d74168176ff1dce34c04b6ade0b25cd6e3b4cbe9372e6992760c",
+      "mask_sha256": "4fac98da7fdeef7ebca2aa859fc22f70ed1d90198b0cfacdfa0a37f056a91002",
+      "raw_sha256": "85dac5f34bc8b045effa8f89cf19677b393fe0ce32303bfda6a53d7fa164215b"
+    },
+    {
+      "name": "floor_tile_03",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "8d3e3e17-8a7c-465e-8c6c-71792f9885f8",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "dea533547fb9da850f8e386e660defd05591a8a3b552380c7758f87060587193",
+      "mask_sha256": "d4386754ff3b0e7fa5a6b1fa195841510f2cd610f4ff65c89c02b368ab24d7db",
+      "raw_sha256": "79066b9e883c497ee39884b3c9d3c86af65a70fccd08fbdad477a5d354599e4e"
+    },
+    {
+      "name": "floor_tile_04",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "d922c404-b944-4231-8306-c436f08b70de",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "707671906328a1fd09b166d1ca245902ef09a2c3a77e167b74c7694129c789f6",
+      "mask_sha256": "2670f3443910d1134a1c568c2d2a74667b602ff29c8cb622a996544f87de0f4a",
+      "raw_sha256": "48acec64bd055caf794fdc46cd5371b90b084e69ccc5557076d8efeafbb240cd"
+    },
+    {
+      "name": "floor_tile_05",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "d704a17d-f905-49dd-97c4-c58096f201eb",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "0620bd5f4eab6a4564ad4bbb226e945a9feefcd7fa7686baa7a9024e1b0bb2b6",
+      "mask_sha256": "a6f97636594ed4ef64c2d1c31e96b465696d992a8984471b2e0568a3cd325b24",
+      "raw_sha256": "955e46822c1b1562e4de9bb44f4e29a69e537c8664d805e15453c9adc596d811"
+    },
+    {
+      "name": "floor_tile_06",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "aab01caf-5447-4fbc-ab5a-87dc353ce5e7",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "c774997432876d51185c3e1b49ef9be4e7142fe615b4c45cd4f79212fc0f218d",
+      "mask_sha256": "84f667916389a4d5a4d5808bb0ff0c50bcedebfdc8242deb2d8ec78e2a2b2567",
+      "raw_sha256": "cae40b9b62cfdb9b083c4a658ef8e307ad037746c87bfb6ab034c6eb6f8e3276"
+    },
+    {
+      "name": "floor_tile_07",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "9248dd85-4fa2-43a2-ad1c-dbc4528887a0",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "e03159beade973437b991bf79935c4a10a6e5aec01721d4d682eddd69455924b",
+      "mask_sha256": "958b9307aa51c11355cac3a007c23969e3664101fc29d8b52c9af43c60dfaf05",
+      "raw_sha256": "d19b75b3f91cf70ba33525a7e812d4f005381d0ea7f799c22559ddae95900dbd"
+    },
+    {
+      "name": "floor_tile_08",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "95e0a3cf-6565-4d8a-9b7d-fe48fc3e7dd7",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "0587ca0e0ff92fb29b840a2c8a9ed001d082806c37474e9761abd7edb92b8517",
+      "guide_sha256": "e4222a0a1d575080840a12f644549396164a84118a3fc4a2bf751d7b7086c302",
+      "mask_sha256": "4a9573696b2681897f5eee2deb508b14b5e5390ada3d7ee17a326e0152453a05",
+      "raw_sha256": "048ba01e6a07a3e86ea8bbbef8863ef23a80702897e4456762cdc91fb85b6a86"
+    },
+    {
+      "name": "b_lid_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "607f110f-31d7-4ac1-8fd0-0ca2a31b952f",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        128
+      ],
+      "prompt_sha256": "ef5813047b464092ffd41c09b637ad34fbe4188cb7acf410fd843e21133416a0",
+      "guide_sha256": "d30ca159903e495a1bd5bda2a117fb2cdd430c53b601a22c5ed2b4205bdc9e41",
+      "mask_sha256": "b5305d856fa5ec484ce68474bee316746a77644056a591af8e88128709afd37c",
+      "raw_sha256": "eebf09cc25a11c8c5536dbd3f007675b2edf5c4ea89f8a66ddf6d9d9b8e7f54b"
+    },
+    {
+      "name": "d_lid_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "3e00ae89-a8c6-4115-b095-03cd86587b58",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        64,
+        128
+      ],
+      "prompt_sha256": "2aaeb8aacdb3e4d617a3b50fa5adb750ff508f0ca5cd97c1ecbc89a015279870",
+      "guide_sha256": "d30ca159903e495a1bd5bda2a117fb2cdd430c53b601a22c5ed2b4205bdc9e41",
+      "mask_sha256": "b5305d856fa5ec484ce68474bee316746a77644056a591af8e88128709afd37c",
+      "raw_sha256": "770e6cc25ef827f798f0ab3178493ec707a1eefab6f8938604c604d49254051c"
+    },
+    {
+      "name": "floor_02_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "f53ef813-9953-406c-a77e-a01d87b49645",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "1c782a5f390763434f22fb67ab6dde27f6319fec820053dac1f9e440a3fdc1e4",
+      "guide_sha256": "77df8cbf6446a08d16966fec7073f2cdaad396f4b98e9c5d9bba2dcfae5abcbc",
+      "mask_sha256": "a3af968861122a1d757c93675a3fb4af8904e2b3871802106650dffdb76477cc",
+      "raw_sha256": "a7857b534f92fe02ac8b1b13a973567f638bb952e5f37f12226b60b52463bcaf"
+    },
+    {
+      "name": "floor_08_fix",
+      "endpoint": "/inpaint-v3",
+      "background_job_id": "71ac648e-9d55-401c-9ad1-974d5a79b4b7",
+      "usage": {
+        "type": "generations",
+        "generations": 10.0
+      },
+      "native_size": [
+        256,
+        256
+      ],
+      "prompt_sha256": "1b8d7f1a0df5e2c9e423e595c2f3ff051d1dccb9a6915f2d1d03c42129f10608",
+      "guide_sha256": "e4222a0a1d575080840a12f644549396164a84118a3fc4a2bf751d7b7086c302",
+      "mask_sha256": "4a9573696b2681897f5eee2deb508b14b5e5390ada3d7ee17a326e0152453a05",
+      "raw_sha256": "062bcf7d861d2b0023afed7ad5e51190eaed22c6234cf64426bd27635df61c25"
+    }
+  ],
+  "accepted_art_sources": {
+    "walls": {
+      "existing_r20": "original accepted wall pair",
+      "new": [
+        "wall_1",
+        "wall_2",
+        "wall_3",
+        "wall_4",
+        "wall_5"
+      ],
+      "portal": "portal_fix"
+    },
+    "pod_a": "reused accepted r20 lid / shell_side / shell_end",
+    "pod_b": [
+      "b_lid_fix",
+      "b_shell_side",
+      "b_shell_end"
+    ],
+    "pod_c": [
+      "c_lid",
+      "c_shell_side",
+      "c_shell_end"
+    ],
+    "pod_d": [
+      "d_lid_fix",
+      "d_shell_side",
+      "d_shell_end"
+    ],
+    "floor": "8 world-aligned tiles; tile 02 exact native repair composite with floor_02_fix, tile 08 uses floor_08_fix"
+  },
+  "rejected": {
+    "portal": {
+      "reason": "AI invented an inset rectangle/rim on an originally flat wide ceramic bay",
+      "raw_preserved": "raw/portal.png",
+      "replacement_request": "portal_fix",
+      "manual_painting_used": false
+    },
+    "b_lid": {
+      "reason": "Invented inner pane/inset rectangle on an opaque ceramic panel; D also added broad warm-brown plane shading. Geometry not changed.",
+      "raw_preserved": "raw/b_lid.png",
+      "replacement_request": "b_lid_fix",
+      "manual_painting_used": false
+    },
+    "d_lid": {
+      "reason": "Invented inner pane/inset rectangle on an opaque ceramic panel; D also added broad warm-brown plane shading. Geometry not changed.",
+      "raw_preserved": "raw/d_lid.png",
+      "replacement_request": "d_lid_fix",
+      "manual_painting_used": false
+    },
+    "floor_tile_02": {
+      "reason": "Bright white painted halos outside occupied footprints, inconsistent with matte blue-gray floor",
+      "white_editable_native_pixels": 3339,
+      "repair_mask_pixels": 5088,
+      "raw_preserved": "raw/floor_tile_02.png",
+      "replacement_request": "floor_02_fix",
+      "repair_method": "two real PixelLab outputs combined only inside exact native repair mask",
+      "manual_painting_used": false
+    },
+    "floor_tile_08": {
+      "reason": "Extensive white missing-material/paint-like output instead of blue-gray floor; rejected before runtime",
+      "raw_preserved": "raw/floor_tile_08.png",
+      "replacement_request": "floor_08_fix",
+      "manual_painting_used": false
+    }
+  },
+  "current_floor_layout": {
+    "native_canvas": [
+      824,
+      364
+    ],
+    "grid_scale": 2,
+    "tiles": [
+      {
+        "name": "floor_tile_01",
+        "native_origin": [
+          0,
+          0
+        ],
+        "row": 0,
+        "column": 0,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_02",
+        "native_origin": [
+          192,
+          0
+        ],
+        "row": 0,
+        "column": 1,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_03",
+        "native_origin": [
+          384,
+          0
+        ],
+        "row": 0,
+        "column": 2,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_04",
+        "native_origin": [
+          568,
+          0
+        ],
+        "row": 0,
+        "column": 3,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_05",
+        "native_origin": [
+          0,
+          108
+        ],
+        "row": 1,
+        "column": 0,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_06",
+        "native_origin": [
+          192,
+          108
+        ],
+        "row": 1,
+        "column": 1,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_07",
+        "native_origin": [
+          384,
+          108
+        ],
+        "row": 1,
+        "column": 2,
+        "native_size": [
+          256,
+          256
+        ]
+      },
+      {
+        "name": "floor_tile_08",
+        "native_origin": [
+          568,
+          108
+        ],
+        "row": 1,
+        "column": 3,
+        "native_size": [
+          256,
+          256
+        ]
+      }
+    ],
+    "reason": "Initial 448x364 edit failed: Tier 2 required; recorded USD usage 0.0. Subsequent requests use already proven 256px native canvases within existing plan. No subscription change.",
+    "initial_floor_2": "withdrawn before submission"
+  },
+  "failed_request_record": "failed_floor_1_status.json",
+  "withdrawn_without_POST": [
+    "floor_2"
+  ],
+  "model_UVs_layout_camera_light_parameters_changed": false,
+  "reference_content_submitted": false,
+  "manual_material_painting": false,
+  "shared_interior_glass_screens_lamps_door": "existing accepted assets unchanged",
+  "generation_total": 280.0
+}

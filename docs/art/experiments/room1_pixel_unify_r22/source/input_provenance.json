@@ -1,0 +1,170 @@
+{
+  "jobs": [
+    {
+      "name": "wall_1",
+      "original_project_sources": [
+        "r20 clean wall guide and mask"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "wall_2",
+      "original_project_sources": [
+        "r20 clean wall guide and mask"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "wall_3",
+      "original_project_sources": [
+        "r20 clean wall guide and mask"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "wall_4",
+      "original_project_sources": [
+        "r20 clean wall guide and mask"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "wall_5",
+      "original_project_sources": [
+        "r20 clean wall guide and mask"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "portal",
+      "original_project_sources": [
+        "r12 clean rear wall at existing portal",
+        "r13 exact portal mask and lamp alpha"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "b_lid",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "b_shell_side",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "b_shell_end",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "c_lid",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "c_shell_side",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "c_shell_end",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "d_lid",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "d_shell_side",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "d_shell_end",
+      "original_project_sources": [
+        "r16 original clean structural guide and exact final protection mask",
+        "r20 accepted cluster language"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "floor_1",
+      "original_project_sources": [
+        "r15 PixelLab floor_with_leaks, same exact world coordinates",
+        "measured existing pod footprint polygons"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    },
+    {
+      "name": "floor_2",
+      "original_project_sources": [
+        "r15 PixelLab floor_with_leaks, same exact world coordinates",
+        "measured existing pod footprint polygons"
+      ],
+      "grid_scale": 2,
+      "third_party_images": false
+    }
+  ],
+  "third_party_content_submitted": false,
+  "no_procedural_art": true,
+  "wall_original_r20_reused": true,
+  "pod_variant_a_original_r20_reused": true,
+  "floor_crops": [
+    [
+      0,
+      0,
+      896,
+      728
+    ],
+    [
+      752,
+      0,
+      1648,
+      728
+    ]
+  ]
+}

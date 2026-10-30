@@ -1,0 +1,5 @@
+{
+  "result": "PASS",
+  "runtime_PNGs_unchanged": 57,
+  "reason": "Aseprite/Pillow fractional lamp alpha rounding differed by +/-1 RGB only; original RGBA preserved, registered opaque lamp layer uses exact already-approved composite pixels; no texture art was repainted."
+}

@@ -1,0 +1,145 @@
+[
+	{
+		"file": "00_a_start.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "01_a_repeat.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "02_b_closed.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 2,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "03_a_after_material_switch.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "04_a_open.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 1.0,
+			"pose": "open",
+			"room_pose_blend": 1.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "05_a_after_open_close.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "06_b_open.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 2,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 1.0,
+			"pose": "open",
+			"room_pose_blend": 1.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "07_a_after_b_open_close.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "08_a_final_repeat.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "09_a_after_room_camera_sweep.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	},
+	{
+		"file": "10_a_after_pod_camera_sweep.png",
+		"state": {
+			"closed_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_closed.exr",
+			"mode": 1,
+			"open_irradiance": "res://assets/art/room1_complete_r19/lighting/P12_open.exr",
+			"pod_pose_blend": 0.0,
+			"pose": "closed",
+			"room_pose_blend": 0.0,
+			"strip_irradiance": "res://assets/art/room1_complete_r19/lighting/room_closed.exr",
+			"strip_irradiance_open": "res://assets/art/room1_complete_r19/lighting/room_open.exr"
+		}
+	}
+]

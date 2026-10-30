@@ -1,0 +1,290 @@
+[
+  {
+    "name": "wall_left",
+    "base": "source/layers/wall_left/base.png",
+    "layers": [
+      [
+        "PixelLab_2x_material",
+        "source/layers/wall_left/00_PixelLab_2x_material.png"
+      ],
+      [
+        "retained_lamp_exact_registered",
+        "source/layers/wall_left/01_retained_lamp_exact_registered.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/wall_left.png",
+    "size": [
+      728,
+      272
+    ],
+    "sha256": "ab50db4547a013cd163a461c56989cd02bcac33cd2dd20fc255fecbd4f7df5af"
+  },
+  {
+    "name": "wall_right",
+    "base": "source/layers/wall_right/base.png",
+    "layers": [
+      [
+        "PixelLab_2x_material",
+        "source/layers/wall_right/00_PixelLab_2x_material.png"
+      ],
+      [
+        "retained_lamp_exact_registered",
+        "source/layers/wall_right/01_retained_lamp_exact_registered.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/wall_right.png",
+    "size": [
+      728,
+      272
+    ],
+    "sha256": "fa2f6c9ea237f05d381fcd4985e9885d668edb702ab01ca3d51b19cd2da6399f"
+  },
+  {
+    "name": "wall_front",
+    "base": "source/layers/wall_front/base.png",
+    "layers": [
+      [
+        "PixelLab_2x_material",
+        "source/layers/wall_front/00_PixelLab_2x_material.png"
+      ],
+      [
+        "retained_lamp_exact_registered",
+        "source/layers/wall_front/01_retained_lamp_exact_registered.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/wall_front.png",
+    "size": [
+      1648,
+      272
+    ],
+    "sha256": "486f3f8ddd8698eeeed560e4470caba9063d42d5c04797b0199273f3a77bcfa6"
+  },
+  {
+    "name": "wall_rear",
+    "base": "source/layers/wall_rear/base.png",
+    "layers": [
+      [
+        "PixelLab_2x_material",
+        "source/layers/wall_rear/00_PixelLab_2x_material.png"
+      ],
+      [
+        "retained_lamp_exact_registered",
+        "source/layers/wall_rear/01_retained_lamp_exact_registered.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/wall_rear.png",
+    "size": [
+      1648,
+      272
+    ],
+    "sha256": "2789d61501b2360f2e6555a2a1a9b205c8aa5d1b1888ba2b27a3e48fa91f7eff"
+  },
+  {
+    "name": "pod_a_lid",
+    "base": "source/layers/pod_a_lid/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_a_lid/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_a/lid.png",
+    "size": [
+      128,
+      256
+    ],
+    "sha256": "4de3d7c0f770b1e891581d9fd54b8753f61cc28099fa0b447d6593cd81bae348"
+  },
+  {
+    "name": "pod_a_shell_side",
+    "base": "source/layers/pod_a_shell_side/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_a_shell_side/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_a/shell_side.png",
+    "size": [
+      256,
+      80
+    ],
+    "sha256": "9d09a75b308bb03b234b7ac77a8c59a5988ef63ffe29a585f44e52803b39a3eb"
+  },
+  {
+    "name": "pod_a_shell_end",
+    "base": "source/layers/pod_a_shell_end/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_a_shell_end/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_a/shell_end.png",
+    "size": [
+      128,
+      80
+    ],
+    "sha256": "e74b11834a0b6327f7e180c94de3d36da8b485984e8193be70f6f8e596446d3b"
+  },
+  {
+    "name": "pod_b_lid",
+    "base": "source/layers/pod_b_lid/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_b_lid/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_b/lid.png",
+    "size": [
+      128,
+      256
+    ],
+    "sha256": "d6ebabcb53cf7e1d051d20903129b4ca6c97281761f15d5533914dc660142e6f"
+  },
+  {
+    "name": "pod_b_shell_side",
+    "base": "source/layers/pod_b_shell_side/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_b_shell_side/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_b/shell_side.png",
+    "size": [
+      256,
+      80
+    ],
+    "sha256": "f09570ab233512c55862aaea53879d853dbec36a4c2d81c4c0955fbdd4481f0c"
+  },
+  {
+    "name": "pod_b_shell_end",
+    "base": "source/layers/pod_b_shell_end/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_b_shell_end/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_b/shell_end.png",
+    "size": [
+      128,
+      80
+    ],
+    "sha256": "b34d449ed736d999424e78fb048453a369bf9b39f61187cf8ba624a5f6d4efa0"
+  },
+  {
+    "name": "pod_c_lid",
+    "base": "source/layers/pod_c_lid/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_c_lid/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_c/lid.png",
+    "size": [
+      128,
+      256
+    ],
+    "sha256": "fd01a96673bef0043ec57d8c9f69edd85484f8c06041a4fc9e13f12dc1603b5a"
+  },
+  {
+    "name": "pod_c_shell_side",
+    "base": "source/layers/pod_c_shell_side/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_c_shell_side/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_c/shell_side.png",
+    "size": [
+      256,
+      80
+    ],
+    "sha256": "4460004f7239c6cf0872cee4dc56eae1901c24850ccef816bd7ffd1386322c37"
+  },
+  {
+    "name": "pod_c_shell_end",
+    "base": "source/layers/pod_c_shell_end/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_c_shell_end/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_c/shell_end.png",
+    "size": [
+      128,
+      80
+    ],
+    "sha256": "62f075dfcf3a4f1d30cf2d8c2f0b9d3de1377eba21c08ab25fbc0326d9ed1be5"
+  },
+  {
+    "name": "pod_d_lid",
+    "base": "source/layers/pod_d_lid/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_d_lid/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_d/lid.png",
+    "size": [
+      128,
+      256
+    ],
+    "sha256": "292e5c140736f17803780646faedeb72e8376360fb1739747a368ababc995520"
+  },
+  {
+    "name": "pod_d_shell_side",
+    "base": "source/layers/pod_d_shell_side/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_d_shell_side/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_d/shell_side.png",
+    "size": [
+      256,
+      80
+    ],
+    "sha256": "4c997bb0c3f96d7e2d8fdf6a132f159be2bf87c0495fccc11da43c568ec5227b"
+  },
+  {
+    "name": "pod_d_shell_end",
+    "base": "source/layers/pod_d_shell_end/base.png",
+    "layers": [
+      [
+        "PixelLab_material_2x",
+        "source/layers/pod_d_shell_end/00_PixelLab_material_2x.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/variant_d/shell_end.png",
+    "size": [
+      128,
+      80
+    ],
+    "sha256": "e130b1dbdbb69808b597494f03943a25ddfab3c3b947672936de6e956dd869b8"
+  },
+  {
+    "name": "floor_with_leaks",
+    "base": "source/layers/floor_with_leaks/base.png",
+    "layers": [
+      [
+        "PixelLab_world_aligned_2x_floor",
+        "source/layers/floor_with_leaks/00_PixelLab_world_aligned_2x_floor.png"
+      ]
+    ],
+    "final": "assets/art/room1_pixel_unify_r22/floor_with_leaks.png",
+    "size": [
+      1648,
+      728
+    ],
+    "sha256": "b62a7102ed8098b6f775da26c7d023c6a86b9f1da68b2808c7eb02687ed8a143"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "floor_02_fix",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "f53ef813-9953-406c-a77e-a01d87b49645",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "floor_tile_02",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "8b0ff620-587c-47fa-bcef-64608558a30d",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

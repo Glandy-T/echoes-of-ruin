@@ -1,0 +1,1191 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/.gitignore",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/README.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/closed_irradiance.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/closed_raw_irradiance.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8.glb",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed.glb",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_display.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_glass.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_interior.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_mattress.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_section.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_closed_shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_display.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_glass.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_interior.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_mattress.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open.glb",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_display.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_glass.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_interior.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_mattress.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_section.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_open_shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_section.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/cryopod_standard_v8_shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/open_irradiance.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/cryopod_standard_v8/open_raw_irradiance.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/layout.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P01_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P01_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P02_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P02_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P03_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P03_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P04_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P04_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P05_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P05_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P06_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P06_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P07_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P07_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P08_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P08_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P09_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P09_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P10_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P10_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P11_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P11_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P12_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P12_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P12_open.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P12_open_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P13_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P13_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P14_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P14_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P15_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P15_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P16_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P16_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P17_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P17_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P18_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P18_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P19_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P19_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P20_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/P20_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/room_closed.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/room_closed_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/room_open.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/lighting/room_open_raw.exr",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P01_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P01_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P02_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P02_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P03_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P03_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P04_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P04_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P05_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P05_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P06_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P06_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P07_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P07_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P08_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P08_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P09_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P09_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P10_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P10_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P11_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P11_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P12_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P12_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P13_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P13_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P14_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P14_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P15_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P15_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P16_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P16_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P17_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P17_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P18_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P18_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P19_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P19_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P20_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_complete_r19/numbered/P20_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_floor_variants_r15/floor_aged.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_floor_variants_r15/floor_with_leaks.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r20/pod_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r20/pod_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r20/pod_shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r20/wall_left.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r21/pod_lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r21/pod_shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r21/pod_shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pixel_cluster_r21/wall_left.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/shared/interior.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/shared/mattress.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/shared/section.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_a/lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_a/shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_b/lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_b/shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_b/shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_c/lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_c/shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_c/shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_d/lid.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_d/shell_end.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_pod_pixellab_r16/variant_d/shell_side.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_wall_lamp_r13/wall_front.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_wall_lamp_r13/wall_left.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_wall_lamp_r13/wall_rear.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:assets/art/room1_wall_lamp_r13/wall_right.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged:project.godot",
+      "pass": true
+    },
+    {
+      "name": "unchanged:scenes/areas/military_facility/cryo_room_4f_01_3d.tscn",
+      "pass": true
+    },
+    {
+      "name": "unchanged:scripts/core/title_screen.gd",
+      "pass": true
+    },
+    {
+      "name": "unchanged:scripts/dev/room1_complete_r19.gd",
+      "pass": true
+    },
+    {
+      "name": "unchanged:scripts/dev/room1_complete_surface_r19.gdshader",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback wall_left",
+      "pass": true
+    },
+    {
+      "name": "final content hash wall_left",
+      "pass": true
+    },
+    {
+      "name": "opaque wall_left",
+      "pass": true
+    },
+    {
+      "name": "clean construction exact wall_left",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback wall_right",
+      "pass": true
+    },
+    {
+      "name": "final content hash wall_right",
+      "pass": true
+    },
+    {
+      "name": "opaque wall_right",
+      "pass": true
+    },
+    {
+      "name": "clean construction exact wall_right",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback wall_front",
+      "pass": true
+    },
+    {
+      "name": "final content hash wall_front",
+      "pass": true
+    },
+    {
+      "name": "opaque wall_front",
+      "pass": true
+    },
+    {
+      "name": "clean construction exact wall_front",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback wall_rear",
+      "pass": true
+    },
+    {
+      "name": "final content hash wall_rear",
+      "pass": true
+    },
+    {
+      "name": "opaque wall_rear",
+      "pass": true
+    },
+    {
+      "name": "clean construction exact wall_rear",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_a_lid",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_a_lid",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_a_lid",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_a_shell_side",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_a_shell_side",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_a_shell_side",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_a_shell_end",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_a_shell_end",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_a_shell_end",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_b_lid",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_b_lid",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_b_lid",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_b_shell_side",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_b_shell_side",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_b_shell_side",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_b_shell_end",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_b_shell_end",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_b_shell_end",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_c_lid",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_c_lid",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_c_lid",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_c_shell_side",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_c_shell_side",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_c_shell_side",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_c_shell_end",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_c_shell_end",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_c_shell_end",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_d_lid",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_d_lid",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_d_lid",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_d_shell_side",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_d_shell_side",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_d_shell_side",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback pod_d_shell_end",
+      "pass": true
+    },
+    {
+      "name": "final content hash pod_d_shell_end",
+      "pass": true
+    },
+    {
+      "name": "opaque pod_d_shell_end",
+      "pass": true
+    },
+    {
+      "name": "Aseprite readback floor_with_leaks",
+      "pass": true
+    },
+    {
+      "name": "final content hash floor_with_leaks",
+      "pass": true
+    },
+    {
+      "name": "opaque floor_with_leaks",
+      "pass": true
+    },
+    {
+      "name": "protected occupied floor exact",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P01 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P01 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P01 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P01 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P02 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P02 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P02 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P02 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P03 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P03 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P03 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P03 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P04 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P04 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P04 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P04 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P05 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P05 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P05 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P05 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P06 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P06 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P06 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P06 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P07 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P07 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P07 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P07 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P08 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P08 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P08 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P08 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P09 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P09 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P09 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P09 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P10 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P10 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P10 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P10 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P11 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P11 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P11 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P11 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P12 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P12 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P12 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P12 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P13 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P13 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P13 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P13 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P14 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P14 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P14 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P14 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P15 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P15 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P15 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P15 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P16 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P16 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P16 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P16 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P17 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P17 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P17 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P17 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P18 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P18 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P18 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P18 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P19 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P19 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P19 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P19 shell_end",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P20 lid",
+      "pass": true
+    },
+    {
+      "name": "correct variant P20 lid",
+      "pass": true
+    },
+    {
+      "name": "functional ID exact P20 shell_end",
+      "pass": true
+    },
+    {
+      "name": "correct variant P20 shell_end",
+      "pass": true
+    },
+    {
+      "name": "all successful material jobs completed",
+      "pass": true
+    },
+    {
+      "name": "actual results match persistent requests",
+      "pass": true
+    }
+  ],
+  "immutable_files": 154,
+  "editable_packages": 17,
+  "numbered_maps": 40,
+  "actual_API_posts": 29,
+  "successful_API_jobs": 28,
+  "failed_API_jobs": [
+    {
+      "id": "8cb7fb79-e966-46c7-abef-ab416561dd05",
+      "status": "failed",
+      "usage": {
+        "type": "usd",
+        "usd": 0.0
+      }
+    }
+  ],
+  "generations_used": 280.0,
+  "PixelLab_only_art": true,
+  "reference_content_submitted": false
+}
