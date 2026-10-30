@@ -1,0 +1,12 @@
+{
+  "endpoint": "/inpaint-v3",
+  "input": "raw/shell_end.png",
+  "guide": "source/guide_end_repair.png",
+  "mask": "source/mask_end_repair.png",
+  "prompt": "source/prompt_end_repair.txt",
+  "seed": 2026103051,
+  "rejected_native_pixels": 4,
+  "repair_mask_native_pixels": 16,
+  "input_guide_operation": "Only rejected near-black pixels restored from original clean guide before PixelLab edits; never used directly as final art.",
+  "reason": "In actual Godot image, generated near-black material was read as a missing/chipped corner, not intended graphic shading."
+}

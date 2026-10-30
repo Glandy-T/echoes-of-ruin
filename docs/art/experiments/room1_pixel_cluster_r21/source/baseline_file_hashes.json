@@ -1,0 +1,23 @@
+{
+  "project.godot": "6847b9da818345315ae2431cbeda366ae263eee91c2dbbf39320f6a9322808fe",
+  "scripts/core/title_screen.gd": "695e2c06f0dea16d334d9ab467504f87b83c909155e682aeb04798b0d6e283fc",
+  "scripts/dev/room1_complete_r19.gd": "240df9fd5c2a216f3639c08830057562524ba5ee2d93a395bc23d2f69eb88584",
+  "scripts/dev/room1_complete_surface_r19.gdshader": "44a07c43021ff3c246a473acd4d7d6da3898ad8503b3b68e25cbb929db07fd2e",
+  "scripts/props/cryopod_standard_v8_surface.gdshader": "375a7a23729f96b9a75f5823c1bbd8049761500d6f170354b3fcbeb9a99859b6",
+  "scenes/areas/military_facility/cryo_room_4f_01_3d.tscn": "94d6455192cfd1a41ab33aae64076ad85955a4f714455cc0a76d26f36f749e12",
+  "assets/art/room1_complete_r19/layout.json": "66dcd3bbee078524669d1a84153784ba9ae5629adbc55042e280ac8edd557706",
+  "assets/art/room1_wall_lamp_r13/wall_left.png": "42687ae14d405fda79a03d165b84c79d311a85c4aeb7dbb60af5eb401d72a848",
+  "assets/art/cryopod_standard_v8/cryopod_standard_v8.glb": "a810ae275e56fc0fe6a94ac8f33de53bdbd326a143dec1e46175c7acd7b2bd9b",
+  "assets/art/cryopod_standard_v8/cryopod_standard_v8_closed.glb": "cb14ad719397f6434256da8c665ab9335a9845a9b607ac18d907bd9de68cc3c7",
+  "assets/art/cryopod_standard_v8/cryopod_standard_v8_open.glb": "f34dd8b0804c39cc0513d619f1b4c3c4d09a9efbf977541b5f56b5bbbf971d35",
+  "assets/art/room1_pod_pixellab_r16/variant_a/lid.png": "2cb8df9288440e04e0ebb410700a036dfcb0276ed907bb88e2d83cc25d67b1ef",
+  "assets/art/room1_pod_pixellab_r16/variant_a/shell_side.png": "42b30c4565abbf9514c0edb89cd80251a0e0a95b114713c819249ba26bb250a5",
+  "assets/art/room1_pod_pixellab_r16/variant_a/shell_end.png": "a56f9b0d48bafab246a78a960c42e4e057f85865851e95a322b555cb3cb1ae7c",
+  "assets/art/room1_pixel_cluster_r20/pod_lid.png": "4de3d7c0f770b1e891581d9fd54b8753f61cc28099fa0b447d6593cd81bae348",
+  "assets/art/room1_pixel_cluster_r20/pod_shell_end.png": "e74b11834a0b6327f7e180c94de3d36da8b485984e8193be70f6f8e596446d3b",
+  "assets/art/room1_pixel_cluster_r20/pod_shell_side.png": "9d09a75b308bb03b234b7ac77a8c59a5988ef63ffe29a585f44e52803b39a3eb",
+  "assets/art/room1_pixel_cluster_r20/wall_left.png": "951ac5af988aa4a609726227e0cf94f98ef424f2761fe74e4963227ad228ccb8",
+  "scripts/dev/room1_pixel_cluster_r20.gd": "b8e3959319315ff45adceee60c24da4103934d9d4a9618018fd2edf82e06f009",
+  "scripts/dev/room1_pixel_cluster_wall_r20.gdshader": "7055b7e0872a288721789143fda5bbf134b383a5bf277d83a75014368c691411",
+  "scripts/dev/room1_pixel_cluster_pod_r20.gdshader": "3f41499ba54699ce085ffa02e77ca79cdd4e740de946e7ce050a0fc6c0bbb7c4"
+}

@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "aseprite_exact": {
+    "wall_left": true,
+    "pod_lid": true,
+    "pod_shell_side": true,
+    "pod_shell_end": true
+  },
+  "immutable_files": 21,
+  "changed_baselines": [],
+  "actual_API_jobs": 5,
+  "accepted_maps": 4,
+  "generations_used": 50.0
+}

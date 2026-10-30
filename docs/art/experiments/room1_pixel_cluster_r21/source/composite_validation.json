@@ -1,0 +1,106 @@
+{
+  "result": "PASS",
+  "rows": [
+    {
+      "role": "wall",
+      "canvas_size": [
+        64,
+        64
+      ],
+      "native_content_size": [
+        64,
+        64
+      ],
+      "output_size": [
+        728,
+        272
+      ],
+      "scale": 4,
+      "protected_pixels_exact": true,
+      "wall_outside_exact": true,
+      "changed_pixels": 10093,
+      "raw_sha256": "40ad8b02ef3791284a5b53b44fcfac3dff4b69489e371ff565550c9d108a9e4c",
+      "PixelLab_correction": null,
+      "final_sha256": "82598fafc7fa7017c7bd76d8a5110284fe1f58fe88016126c8da60a05576c849"
+    },
+    {
+      "role": "lid",
+      "canvas_size": [
+        32,
+        64
+      ],
+      "native_content_size": [
+        32,
+        64
+      ],
+      "output_size": [
+        128,
+        256
+      ],
+      "scale": 4,
+      "protected_pixels_exact": true,
+      "wall_outside_exact": null,
+      "changed_pixels": 11960,
+      "raw_sha256": "b57aa10fc60a74f60c5bf46d346f87593530c39ecec5a015ee8eb9c4d67576e9",
+      "PixelLab_correction": null,
+      "final_sha256": "b811dc572547f0cd41531c79df6b00fc39cc1ad03f088efc5f7277306343c521"
+    },
+    {
+      "role": "shell_side",
+      "canvas_size": [
+        64,
+        32
+      ],
+      "native_content_size": [
+        64,
+        20
+      ],
+      "output_size": [
+        256,
+        80
+      ],
+      "scale": 4,
+      "protected_pixels_exact": true,
+      "wall_outside_exact": null,
+      "changed_pixels": 3178,
+      "raw_sha256": "4fa957dbc5218c580a917370cf17d9b9b8c245b26ebdf090a4169911d9fcbc95",
+      "PixelLab_correction": null,
+      "final_sha256": "028e460d1b64c7c22e895a2f8851e2d831aae5dc725b83e0a2ab6c05db19791c"
+    },
+    {
+      "role": "shell_end",
+      "canvas_size": [
+        32,
+        32
+      ],
+      "native_content_size": [
+        32,
+        20
+      ],
+      "output_size": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "protected_pixels_exact": true,
+      "wall_outside_exact": null,
+      "changed_pixels": 2193,
+      "raw_sha256": "2594fec81723ea4ebd44b5b1e75cb0ec63d1cca2a94155c92b56fcf5147e176c",
+      "PixelLab_correction": {
+        "original_raw": "raw/shell_end.png",
+        "PixelLab_repair_raw": "raw/shell_end_fix.png",
+        "mask": "source/mask_end_repair.png",
+        "repaired_raw_sha256": "427115665df91bca8e6abbd1d3632bb5b4025c8174089e09e07020aa122c86ba",
+        "remaining_editable_near_black_pixels": 0,
+        "unmasked_original_AI_pixels_exact": true
+      },
+      "final_sha256": "28107140573c954afadb03d6a4dd92c851f3e70a4beb22706d96454c3577b370"
+    }
+  ],
+  "technical_operations_only": [
+    "remove black-masked API padding",
+    "4x integer nearest enlargement",
+    "binary structural/ID protection"
+  ],
+  "new_material_art": "PixelLab only"
+}

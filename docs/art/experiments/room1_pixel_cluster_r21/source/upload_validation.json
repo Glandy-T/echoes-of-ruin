@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "date": "2026-10-30",
+  "checkout": "independent upload checkout on latest main",
+  "steps": {
+    "import": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence": []
+    },
+    "verify": {
+      "result": "PASS",
+      "error_count": 0,
+      "evidence": [
+        "R21_CLUSTER_RUNTIME PASS checks=22958 errors=[]"
+      ]
+    }
+  },
+  "runtime_checks": 22958,
+  "visual_checks": 60,
+  "screenshots": 27,
+  "immutable_files": 21,
+  "actual_API_jobs": 5,
+  "generations_used": 50.0,
+  "formal_scene": "r19 unchanged",
+  "shader_and_lighting": "original r19/v8 in all three comparison modes"
+}

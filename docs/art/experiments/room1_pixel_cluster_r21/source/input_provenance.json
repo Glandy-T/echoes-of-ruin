@@ -1,0 +1,42 @@
+{
+  "inputs": [
+    {
+      "role": "wall",
+      "source": "docs/art/experiments/room1_pixel_cluster_r20/source/guide_full_wall.png",
+      "sha256": "040e5764acb99c99190eea8150f9834fc7865ed84041ff839978aa2f20af4273",
+      "scale": 4,
+      "canvas_padding_black_masked": false,
+      "mask": "4x4 minimum; no partially protected block is editable",
+      "old_aging_submitted": false
+    },
+    {
+      "role": "lid",
+      "source": "docs/art/experiments/room1_pixel_cluster_r20/source/guide_full_lid.png",
+      "sha256": "c1d10c8f22aaf8ebc3afa3589ccd34f79f8044eb05e12b056bba86d344f7f72e",
+      "scale": 4,
+      "canvas_padding_black_masked": false,
+      "mask": "4x4 minimum; no partially protected block is editable",
+      "old_aging_submitted": false
+    },
+    {
+      "role": "shell_side",
+      "source": "docs/art/experiments/room1_pixel_cluster_r20/source/guide_full_shell_side.png",
+      "sha256": "37300d7a6dbce9b4e7a7915635b0a36cacd3040075bc3008f8d712f192583be6",
+      "scale": 4,
+      "canvas_padding_black_masked": true,
+      "mask": "4x4 minimum; no partially protected block is editable",
+      "old_aging_submitted": false
+    },
+    {
+      "role": "shell_end",
+      "source": "docs/art/experiments/room1_pixel_cluster_r20/source/guide_full_shell_end.png",
+      "sha256": "0ac8246de5a750f88bc2778d8a6d7aff238c0b171f5e672276351ca6445e42ae",
+      "scale": 4,
+      "canvas_padding_black_masked": true,
+      "mask": "4x4 minimum; no partially protected block is editable",
+      "old_aging_submitted": false
+    }
+  ],
+  "third_party_images_submitted": false,
+  "art_synthesis_by_scripts": false
+}
