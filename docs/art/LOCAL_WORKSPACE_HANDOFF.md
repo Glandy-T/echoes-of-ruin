@@ -25,7 +25,7 @@
 恢复main中的某个历史实验时，在项目根目录执行，例如：
 
 ```powershell
-git sparse-checkout add --no-cone /docs/art/experiments/room1_pixel_cluster_r20/
+git sparse-checkout add /docs/art/experiments/room1_pixel_cluster_r20/
 ```
 
 需要临时恢复main全部历史源：`git sparse-checkout disable`。这只恢复当前main文件，不回退整个工程。重新精简前先检查本地新修改。

@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "asset_import": {
+    "command": "Godot --headless --editor --path . --import --quit",
+    "source_md5_matches_import_md5": true,
+    "maps": {
+      "lid": {
+        "source_png_md5": "60d681b7a0527b721adf61e8a27b8622",
+        "import_source_md5": "60d681b7a0527b721adf61e8a27b8622",
+        "runtime_size": [96, 184],
+        "runtime_decoded_pixel_md5": "7edcc6bce977c4a8dec93f46b1dd5f7f"
+      },
+      "shell_side": {
+        "source_png_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+        "import_source_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+        "runtime_size": [184, 56],
+        "runtime_decoded_pixel_md5": "361059b99273dcc36caa2d603fd6af93"
+      },
+      "shell_end": {
+        "source_png_md5": "72e27d2ab03980118fef5783e9715611",
+        "import_source_md5": "72e27d2ab03980118fef5783e9715611",
+        "runtime_size": [96, 56],
+        "runtime_decoded_pixel_md5": "884937e85910d801e455bccf850b8727"
+      }
+    }
+  },
+  "capture": {
+    "driver": "opengl3",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "resolution": [1280, 720],
+    "png_count": 17,
+    "records_include_runtime_maps": true,
+    "three_quarter_closed_sha256": {
+      "A_r26_baseline": "879295afee2b24a84eb73e778d10ad06e166c2a6fe7763c366f4d5bed0a36177",
+      "B_r27_candidate": "074e5a8ae75acf6cd9b597e97fa88449565639f9ba16f3a1b5c3199aaaa9c17d",
+      "A_restore": "879295afee2b24a84eb73e778d10ad06e166c2a6fe7763c366f4d5bed0a36177",
+      "A_differs_from_B": true,
+      "A_equals_restore": true
+    }
+  },
+  "runtime_verification": "PASS: 28 checks, including actual imported Texture2D dimensions for all three r27 maps."
+}

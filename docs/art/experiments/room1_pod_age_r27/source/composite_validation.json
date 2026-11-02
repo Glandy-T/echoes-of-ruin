@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "records": [
+    {
+      "role": "lid",
+      "native_size": [
+        96,
+        184
+      ],
+      "creative_output_resized": false,
+      "editable_pixels": 16255,
+      "protected_pixels": 1409,
+      "final_sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30",
+      "AI_result": "raw/lid_native_fix.png",
+      "manual_refinements": []
+    },
+    {
+      "role": "shell_side",
+      "native_size": [
+        184,
+        56
+      ],
+      "creative_output_resized": false,
+      "editable_pixels": 7551,
+      "protected_pixels": 2753,
+      "final_sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634",
+      "AI_result": "raw/shell_side.png",
+      "manual_refinements": []
+    },
+    {
+      "role": "shell_end",
+      "native_size": [
+        96,
+        56
+      ],
+      "creative_output_resized": false,
+      "editable_pixels": 4131,
+      "protected_pixels": 1245,
+      "final_sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04",
+      "AI_result": "raw/shell_end.png",
+      "manual_refinements": []
+    }
+  ],
+  "scope": "P12 exterior color maps only; no geometry/UV/light edits"
+}

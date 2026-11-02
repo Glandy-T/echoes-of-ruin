@@ -1,0 +1,29 @@
+{
+	"checks": {
+		"aba_r26_p12_restored": true,
+		"all_other_pod_bindings_1": true,
+		"all_other_pod_bindings_2": true,
+		"closed_protected_1": true,
+		"closed_protected_2": true,
+		"lights_1": true,
+		"lights_2": true,
+		"mesh_uv_1": true,
+		"mesh_uv_2": true,
+		"mode_1": true,
+		"mode_2": true,
+		"only_color_map_1": true,
+		"only_color_map_2": true,
+		"open_protected_1": true,
+		"open_protected_2": true,
+		"p12_candidate_lid": true,
+		"p12_candidate_shell_end": true,
+		"p12_candidate_shell_side": true,
+		"p12_exterior_captured": true,
+		"r27_assets_present": true,
+		"screen_glass_transform_1": true,
+		"screen_glass_transform_2": true
+	},
+	"errors": [],
+	"result": "PASS",
+	"scope": "r27 A/B/A changes only P12 lid, shell_side and shell_end color_map bindings. The r26 room remains the baseline: P12 mesh UVs, all lights, screen, glass, number-bearing source maps, P12 open/closed state and the other 19 pods are verified unchanged."
+}

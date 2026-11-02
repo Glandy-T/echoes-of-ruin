@@ -1,0 +1,57 @@
+{
+  "reviewer": "final-validator",
+  "review_type": "read-only artifact and image review after final re-import/capture",
+  "result": "PASS",
+  "scope": "P12 exterior lid, shell_side and shell_end color maps only; not an overall Room 1 art-approval decision.",
+  "checks": {
+    "native_outputs_no_resize": {
+      "result": "PASS",
+      "lid": [96, 184],
+      "shell_side": [184, 56],
+      "shell_end": [96, 56],
+      "evidence": "final assets, raw sources, guides, masks and Aseprite readbacks have matching native dimensions; final requests name lid_native_fix rather than the rejected 96x256 lid."
+    },
+    "structure_and_identity_protection": {
+      "result": "PASS",
+      "evidence": "independent RGBA comparison found every protected final pixel equal to its guide. Final maps visibly retain P12's 12 identifier."
+    },
+    "aseprite_readback": {
+      "result": "PASS",
+      "evidence": "all three readback PNGs are byte/pixel-identical to their final PNGs; editable files contain named base, PixelLab, functional-ID and empty local-refinement layers."
+    },
+    "pixel_density": {
+      "result": "PASS_WITH_DOCUMENTED_BEVEL_LIMIT",
+      "evidence": "final UV measurement reports main principal medians approximately lid 80.01px/m, side 80.00px/m and end 83.48px/m. Packed strips/small bevels are explicitly excluded from a blanket 80px/m claim."
+    },
+    "blender_scope": {
+      "result": "PASS",
+      "evidence": "final Blender readback reports 131 frozen objects, exact geometry/UV/transform/light/camera state, exactly three P12 map bindings, 253 relative external images, and no missing images or new bake."
+    },
+    "godot_import_and_runtime_evidence": {
+      "result": "PASS",
+      "evidence": "final import source MD5 for lid matches 60d681b7a0527b721adf61e8a27b8622. capture_validation reports the three final runtime Texture2D sizes as 96x184, 184x56 and 96x56; runtime_validation reports 28/28 checks passing."
+    },
+    "capture_coverage": {
+      "result": "PASS",
+      "evidence": "17/17 PNGs have matching capture records at 1280x720. Mode 2 records reference only r27 paths and final native dimensions; mode 1 records reference r26 baseline paths. Baseline/restore three-quarter closed PNG hashes are exactly equal."
+    }
+  },
+  "resolved_issue": {
+    "issue": "The first post-native-fix capture still had a stale imported lid cache: its import MD5 was 378dfde9158712f017bf3a43d1a6bb3c while the native 96x184 source was 60d681b7a0527b721adf61e8a27b8622.",
+    "resolution": "A full Godot editor import updated the cache to the final source MD5 before the final runtime verification and 17-frame recapture. The earlier capture is not used as final evidence."
+  },
+  "visual_review": {
+    "inspected": [
+      "mode-2 game-near closed and open",
+      "mode-2 three-quarter closed and open",
+      "mode-2 long-side closed, end closed and inner-lid open",
+      "mode-2 base-color three-quarter closed and inner-lid open"
+    ],
+    "finding": "The final candidate shows readable, crisp pixel-cluster wear concentrated on shell edges, recesses and lid margins while retaining an intact institutional silhouette. P12/12 remains legible; open-lid, glass/window, display and interior lighting remain visually present without a new geometry or layout discontinuity.",
+    "limits": "This is technical and visual-QA evidence, not final user art acceptance. The review frames are intentionally dim and the existing Room 1 wall/floor treatment was outside r27 scope."
+  },
+  "not_reexecuted_by_reviewer": [
+    "Godot GPU capture and runtime test were reviewed from their final artifacts rather than launched again by this reviewer.",
+    "Aseprite and Blender were verified by final editable/readback artifacts and their recorded readbacks; they were not reopened interactively by this reviewer."
+  ]
+}

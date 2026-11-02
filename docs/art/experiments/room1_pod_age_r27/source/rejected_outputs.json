@@ -1,0 +1,10 @@
+[
+  {
+    "raw": "raw/lid.png",
+    "size": [
+      96,
+      256
+    ],
+    "reason": "Measured GLB UV gives main lid long-axis density111px/m, target80; rejected in favor of a fresh native96x184 PixelLab output. No creative output resizing."
+  }
+]

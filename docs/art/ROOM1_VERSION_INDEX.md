@@ -6,6 +6,8 @@
 
 整室入口：`scenes/dev/room1_floor_detail_full_r26.tscn`（F6）。
 
+**P12单舱待审候选r27**：[开闭同机位对比](experiments/room1_pod_age_r27/preview.html)／[来源与验证](experiments/room1_pod_age_r27/README.md)，F6 `scenes/dev/room1_pod_age_r27.tscn`。仅P12三张外壳图统一原生颗粒并补足做旧；未推广其他舱。完整Blender候选与三份Aseprite位于该实验目录；全室其余部分仍以下表r26来源为准。
+
 | 部分 | 实际来源 | 可编辑源／说明 |
 |---|---|---|
 | 四墙 | `assets/art/room1_wall_detail_full_r24/` | [r24](experiments/room1_wall_detail_full_r24/README.md)，四墙Aseprite在`editable/`。 |
@@ -16,7 +18,7 @@
 | 房壳、布局与全室光照 | `assets/art/room1_complete_r19/`等继承资源 | [r19](experiments/room1_complete_r19/README.md)。本轮未重烘。 |
 | 最新整室Blender | `experiments/room1_floor_detail_full_r26/room1_floor_detail_full_r26.blend` | 使用同一仓库的相对路径图；不是独立于仓库的单文件交付。 |
 
-细节完成度参照是用户已认可的[墙面r23](experiments/room1_wall_detail_r23/README.md)与[地板r25 C](experiments/room1_floor_detail_r25/README.md)。差分分布可变，但不能退回近乎空白。整室候选与局部基准的审查状态分别记录。**当前r22舱外壳待统一原生密度并补足可读做旧，不作为长期密度例外；返修尚未实施。**
+细节完成度参照是用户已认可的[墙面r23](experiments/room1_wall_detail_r23/README.md)与[地板r25 C](experiments/room1_floor_detail_r25/README.md)。差分分布可变，但不能退回近乎空白。整室候选与局部基准的审查状态分别记录。**r22舱外壳不作为长期密度例外；r27已完成代表舱候选，等待审图，其他19舱尚未推广。**
 
 ## 正式游戏基线
 

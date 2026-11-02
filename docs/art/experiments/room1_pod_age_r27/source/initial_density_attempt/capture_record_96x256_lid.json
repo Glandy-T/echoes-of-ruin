@@ -1,0 +1,223 @@
+[
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 3.25)]",
+		"diagnostic": false,
+		"file": "1_game_near_p12_closed.png",
+		"fov": 50.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"diagnostic": false,
+		"file": "1_p12_three_quarter_closed.png",
+		"fov": 44.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.303774, 0.0, 0.952744), Y: (0.541297, 0.822928, -0.172587), Z: (-0.78404, 0.568145, 0.249984), O: (1.8, 1.6, -7.1)]",
+		"diagnostic": false,
+		"file": "1_p12_long_side_closed.png",
+		"fov": 55.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.405521, 0.0, 0.914086), Y: (0.381113, 0.908937, 0.169076), Z: (-0.830846, 0.416934, -0.368593), O: (2.15, 1.22, -8.9)]",
+		"diagnostic": false,
+		"file": "1_p12_end_closed.png",
+		"fov": 48.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 3.25)]",
+		"diagnostic": false,
+		"file": "1_game_near_p12_open.png",
+		"fov": 48.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"diagnostic": false,
+		"file": "1_p12_three_quarter_open.png",
+		"fov": 44.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.380112, 0.0, 0.92494), Y: (0.320944, 0.937869, -0.131895), Z: (-0.867473, 0.346989, 0.356496), O: (1.7, 1.55, -6.9)]",
+		"diagnostic": false,
+		"file": "1_p12_inner_lid_open.png",
+		"fov": 52.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 3.25)]",
+		"diagnostic": false,
+		"file": "2_game_near_p12_closed.png",
+		"fov": 52.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"diagnostic": false,
+		"file": "2_p12_three_quarter_closed.png",
+		"fov": 44.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.303774, 0.0, 0.952744), Y: (0.541297, 0.822928, -0.172587), Z: (-0.78404, 0.568145, 0.249984), O: (1.8, 1.6, -7.1)]",
+		"diagnostic": false,
+		"file": "2_p12_long_side_closed.png",
+		"fov": 55.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (-0.405521, 0.0, 0.914086), Y: (0.381113, 0.908937, 0.169076), Z: (-0.830846, 0.416934, -0.368593), O: (2.15, 1.22, -8.9)]",
+		"diagnostic": false,
+		"file": "2_p12_end_closed.png",
+		"fov": 48.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.525, 2.25, 3.25)]",
+		"diagnostic": false,
+		"file": "2_game_near_p12_open.png",
+		"fov": 48.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"diagnostic": false,
+		"file": "2_p12_three_quarter_open.png",
+		"fov": 44.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.380112, 0.0, 0.92494), Y: (0.320944, 0.937869, -0.131895), Z: (-0.867473, 0.346989, 0.356496), O: (1.7, 1.55, -6.9)]",
+		"diagnostic": false,
+		"file": "2_p12_inner_lid_open.png",
+		"fov": 52.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"diagnostic": true,
+		"file": "2_basecolor_three_quarter_closed.png",
+		"fov": 44.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.380112, 0.0, 0.92494), Y: (0.320944, 0.937869, -0.131895), Z: (-0.867473, 0.346989, 0.356496), O: (1.7, 1.55, -6.9)]",
+		"diagnostic": true,
+		"file": "2_basecolor_inner_lid_open.png",
+		"fov": 52.0,
+		"mode": 2,
+		"overlays_frozen": true,
+		"p12_pose": "open",
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.862799, 0.0, 0.505547), Y: (0.175173, 0.938049, -0.298962), Z: (-0.474227, 0.346502, 0.809348), O: (1.775, 1.8, -4.45)]",
+		"diagnostic": false,
+		"file": "1_restore_three_quarter_closed.png",
+		"fov": 44.0,
+		"mode": 1,
+		"overlays_frozen": true,
+		"p12_pose": "closed",
+		"resolution": [
+			1280,
+			720
+		]
+	}
+]

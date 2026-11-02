@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "frozen_objects": 131,
+  "geometry_UVs_transforms_lights_cameras_exact": true,
+  "changes": [
+    {
+      "object": "R19_P12_closed_receiver",
+      "role": "lid",
+      "old": "assets/art/room1_pixel_unify_r22/numbered/P12_lid.png",
+      "new": "assets/art/room1_pod_age_r27/lid.png"
+    },
+    {
+      "object": "R19_P12_closed_receiver",
+      "role": "shell_side",
+      "old": "assets/art/room1_pixel_unify_r22/variant_a/shell_side.png",
+      "new": "assets/art/room1_pod_age_r27/shell_side.png"
+    },
+    {
+      "object": "R19_P12_closed_receiver",
+      "role": "shell_end",
+      "old": "assets/art/room1_pixel_unify_r22/numbered/P12_shell_end.png",
+      "new": "assets/art/room1_pod_age_r27/shell_end.png"
+    }
+  ],
+  "external_images": 253,
+  "missing": [],
+  "absolute_paths": [],
+  "new_bake": false
+}

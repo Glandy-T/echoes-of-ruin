@@ -1,0 +1,38 @@
+[
+  {
+    "role": "lid",
+    "source": "docs/art/experiments/room1_pod_pixellab_r16/source/clean_lid.png",
+    "source_sha256": "c1d10c8f22aaf8ebc3afa3589ccd34f79f8044eb05e12b056bba86d344f7f72e",
+    "native_size": [
+      96,
+      184
+    ],
+    "guide_only_nearest_registration": true,
+    "creative_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "role": "shell_side",
+    "source": "docs/art/experiments/room1_pod_pixellab_r16/source/clean_shell_side.png",
+    "source_sha256": "37300d7a6dbce9b4e7a7915635b0a36cacd3040075bc3008f8d712f192583be6",
+    "native_size": [
+      184,
+      56
+    ],
+    "guide_only_nearest_registration": true,
+    "creative_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "role": "shell_end",
+    "source": "docs/art/experiments/room1_pod_pixellab_r16/source/clean_shell_end.png",
+    "source_sha256": "0ac8246de5a750f88bc2778d8a6d7aff238c0b171f5e672276351ca6445e42ae",
+    "native_size": [
+      96,
+      56
+    ],
+    "guide_only_nearest_registration": true,
+    "creative_output_resizing": false,
+    "third_party_input": false
+  }
+]

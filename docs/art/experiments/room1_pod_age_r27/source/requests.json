@@ -1,0 +1,41 @@
+[
+  {
+    "name": "lid_native_fix",
+    "role": "lid",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_lid.txt",
+    "guide": "guide_lid.png",
+    "mask": "mask_lid.png",
+    "seed": 2026110210,
+    "native_size": [
+      96,
+      184
+    ]
+  },
+  {
+    "name": "shell_side",
+    "role": "shell_side",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_shell_side.txt",
+    "guide": "guide_shell_side.png",
+    "mask": "mask_shell_side.png",
+    "seed": 2026110211,
+    "native_size": [
+      184,
+      56
+    ]
+  },
+  {
+    "name": "shell_end",
+    "role": "shell_end",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_shell_end.txt",
+    "guide": "guide_shell_end.png",
+    "mask": "mask_shell_end.png",
+    "seed": 2026110212,
+    "native_size": [
+      96,
+      56
+    ]
+  }
+]

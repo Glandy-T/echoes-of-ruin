@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "checks": {
+    "lid_size": true,
+    "lid_aseprite_readback": true,
+    "lid_opaque": true,
+    "lid_editable": true,
+    "shell_side_size": true,
+    "shell_side_aseprite_readback": true,
+    "shell_side_opaque": true,
+    "shell_side_editable": true,
+    "shell_end_size": true,
+    "shell_end_aseprite_readback": true,
+    "shell_end_opaque": true,
+    "shell_end_editable": true,
+    "result_lid_real_job": true,
+    "result_lid_native_fix_real_job": true,
+    "result_shell_end_real_job": true,
+    "result_shell_side_real_job": true,
+    "four_successful_calls": true,
+    "usage_40": true,
+    "blend_scope": true,
+    "blend_dependencies": true
+  },
+  "usage_generations": 40.0,
+  "successful_calls": 4,
+  "final_selected_outputs": 3,
+  "Aseprite_local_paint_edits": 0,
+  "note": "Independent local refinement layer retained empty; structure and ID registration only. Existing GI not rebaked."
+}

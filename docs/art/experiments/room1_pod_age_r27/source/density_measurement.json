@@ -1,0 +1,186 @@
+{
+  "creative_output_scale": 1,
+  "geometry_or_UV_changed": false,
+  "measurements": [
+    {
+      "role": "lid",
+      "mesh": "ONE_PIECE_COVER_head_window_mesh.001",
+      "material": "POD_V8_lid",
+      "native_size": [
+        96,
+        184
+      ],
+      "triangles": 166,
+      "surface_m2": 2.200175224104896,
+      "largest_triangle_samples": [
+        {
+          "triangle_area_m2": 0.29724499583244324,
+          "density": [
+            83.47826695651628,
+            80.00000456145054
+          ]
+        },
+        {
+          "triangle_area_m2": 0.29724499583244324,
+          "density": [
+            83.47827262885376,
+            79.99999866653705
+          ]
+        },
+        {
+          "triangle_area_m2": 0.12113239616155624,
+          "density": [
+            79.99999402335338,
+            57.87472978134209
+          ]
+        },
+        {
+          "triangle_area_m2": 0.12113239616155624,
+          "density": [
+            79.99999402335335,
+            57.87474609319638
+          ]
+        }
+      ],
+      "principal_density_weighted_mean": [
+        81.32322064469922,
+        61.00638316718945
+      ],
+      "principal_density_median": [
+        80.01431339295141,
+        57.814245505053925
+      ],
+      "principal_density_p10_p90": [
+        [
+          79.99998875430283,
+          4.630444280164621
+        ],
+        [
+          80.74510416833834,
+          76.88052640572465
+        ]
+      ],
+      "note": "Principal values include small bevels and packed strips; lower extremes are not a main-face target. GLB model has unit scale; rotations do not affect this metric."
+    },
+    {
+      "role": "shell_side",
+      "mesh": "Fixed_low_basin_mesh.001",
+      "material": "POD_V8_shell_side",
+      "native_size": [
+        184,
+        56
+      ],
+      "triangles": 144,
+      "surface_m2": 4.039269002852961,
+      "largest_triangle_samples": [
+        {
+          "triangle_area_m2": 0.31136250495910645,
+          "density": [
+            80.00000242998782,
+            77.91302994472757
+          ]
+        },
+        {
+          "triangle_area_m2": 0.31136250495910645,
+          "density": [
+            80.00000242998782,
+            77.91302994472757
+          ]
+        },
+        {
+          "triangle_area_m2": 0.31136247515678406,
+          "density": [
+            80.00000713786723,
+            77.91303259179381
+          ]
+        },
+        {
+          "triangle_area_m2": 0.31136247515678406,
+          "density": [
+            80.00000713786723,
+            77.91303259179381
+          ]
+        }
+      ],
+      "principal_density_weighted_mean": [
+        79.94688721052724,
+        75.88736328905046
+      ],
+      "principal_density_median": [
+        79.99999247734168,
+        75.94333931086777
+      ],
+      "principal_density_p10_p90": [
+        [
+          77.9131087402079,
+          55.092945784922044
+        ],
+        [
+          80.00006387935532,
+          77.91304414741307
+        ]
+      ],
+      "note": "Principal values include small bevels and packed strips; lower extremes are not a main-face target. GLB model has unit scale; rotations do not affect this metric."
+    },
+    {
+      "role": "shell_end",
+      "mesh": "Fixed_low_basin_mesh.002",
+      "material": "POD_V8_shell_end",
+      "native_size": [
+        96,
+        56
+      ],
+      "triangles": 174,
+      "surface_m2": 1.7784744261880405,
+      "largest_triangle_samples": [
+        {
+          "triangle_area_m2": 0.1364850103855133,
+          "density": [
+            83.47826164614,
+            77.91304416942715
+          ]
+        },
+        {
+          "triangle_area_m2": 0.12042674422264099,
+          "density": [
+            83.478268359609,
+            77.91304166719739
+          ]
+        },
+        {
+          "triangle_area_m2": 0.07734150439500809,
+          "density": [
+            83.47825534897693,
+            77.91303790933733
+          ]
+        },
+        {
+          "triangle_area_m2": 0.07497898489236832,
+          "density": [
+            83.47826679866554,
+            77.31139150520252
+          ]
+        }
+      ],
+      "principal_density_weighted_mean": [
+        83.09919343602186,
+        71.12097144007215
+      ],
+      "principal_density_median": [
+        83.47807751184075,
+        66.58078169494209
+      ],
+      "principal_density_p10_p90": [
+        [
+          80.28105917861747,
+          30.768811437406274
+        ],
+        [
+          83.47826627622347,
+          77.91304392933648
+        ]
+      ],
+      "note": "Principal values include small bevels and packed strips; lower extremes are not a main-face target. GLB model has unit scale; rotations do not affect this metric."
+    }
+  ]
+}
