@@ -1,0 +1,23 @@
+{
+  "project.godot": "6847b9da818345315ae2431cbeda366ae263eee91c2dbbf39320f6a9322808fe",
+  "scenes/areas/military_facility/cryo_room_4f_01_3d.tscn": "94d6455192cfd1a41ab33aae64076ad85955a4f714455cc0a76d26f36f749e12",
+  "scenes/props/cryopod_standard_v8.tscn": "c5e2c923977d90bcdad31144473516998546c85fca3e1c6875c01e1fc5ede079",
+  "scripts/props/cryopod_standard_v8_surface.gdshader": "375a7a23729f96b9a75f5823c1bbd8049761500d6f170354b3fcbeb9a99859b6",
+  "scripts/dev/room1_camera_follow_test.gd": "c66bc74928e8a36fb8c602011b8ce6cbb6880d5b3f09ac27fa447d284281e8b4",
+  "scripts/dev/room1_complete_surface_r19.gdshader": "779f5b4dc17c11881c3a0e413b494e8c5be11d971b62a10f282a64eeb1577314",
+  "assets/art/cryopod_standard_v8/cryopod_standard_v8.glb": "a810ae275e56fc0fe6a94ac8f33de53bdbd326a143dec1e46175c7acd7b2bd9b",
+  "assets/art/room1_complete_r19/layout.json": "66dcd3bbee078524669d1a84153784ba9ae5629adbc55042e280ac8edd557706",
+  "assets/art/room1_complete_r19/lighting/P12_closed.exr": "ee3e17d6f48f794ae54b48e6bbe9014f15c9ccbd37fe2956bce28303f8ba9744",
+  "assets/art/room1_complete_r19/lighting/P12_open.exr": "abb78663919114c963f8c1277a03c9e8d34abcdd2250d74714401212852de46b",
+  "assets/art/room1_floor_detail_full_r26/floor_with_leaks.png": "72b42743d17d67f75a8437b50ab463dcc21fd47becaa56776eae2ab979bb0164",
+  "assets/art/room1_wall_detail_full_r24/wall_left.png": "4f98201517a4f9347f3fe2acf2721569dc862687c2526c24fe3698da67eb98aa",
+  "assets/art/room1_wall_detail_full_r24/wall_right.png": "f2ccdc4c2c8e0fccafa305e1d1315a8cd5fd2192d52de04f12cb48c9e7a76576",
+  "assets/art/room1_wall_detail_full_r24/wall_front.png": "8eae01026ddc464c101d7f08d6603bc69a5bbeb60e8c45c0ef4c487ae30a9065",
+  "assets/art/room1_wall_detail_full_r24/wall_rear.png": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+  "assets/art/room1_pixel_unify_r22/numbered/P12_lid.png": "4de3d7c0f770b1e891581d9fd54b8753f61cc28099fa0b447d6593cd81bae348",
+  "assets/art/room1_pixel_unify_r22/numbered/P12_shell_end.png": "e74b11834a0b6327f7e180c94de3d36da8b485984e8193be70f6f8e596446d3b",
+  "assets/art/room1_pod_age_r27/lid.png": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30",
+  "assets/art/room1_pod_age_r27/shell_side.png": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634",
+  "assets/art/room1_pod_age_r27/shell_end.png": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04",
+  "docs/art/experiments/room1_pod_age_r27/room1_pod_age_r27.blend": "29818b21ca9a439cec2ffd6746821f173202f4568ddd216a20baa531cab3bdbb"
+}

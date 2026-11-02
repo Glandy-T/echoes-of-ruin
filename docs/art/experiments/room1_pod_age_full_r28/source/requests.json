@@ -1,0 +1,142 @@
+[
+  {
+    "name": "b_lid",
+    "role": "lid",
+    "variant": "b",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_b_lid.txt",
+    "guide": "guide_b_lid.png",
+    "mask": "mask_b_lid.png",
+    "seed": 2026110240,
+    "native_size": [
+      96,
+      184
+    ]
+  },
+  {
+    "name": "b_shell_side",
+    "role": "shell_side",
+    "variant": "b",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_b_shell_side.txt",
+    "guide": "guide_b_shell_side.png",
+    "mask": "mask_b_shell_side.png",
+    "seed": 2026110241,
+    "native_size": [
+      184,
+      56
+    ]
+  },
+  {
+    "name": "b_shell_end",
+    "role": "shell_end",
+    "variant": "b",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_b_shell_end.txt",
+    "guide": "guide_b_shell_end.png",
+    "mask": "mask_b_shell_end.png",
+    "seed": 2026110242,
+    "native_size": [
+      96,
+      56
+    ]
+  },
+  {
+    "name": "c_lid",
+    "role": "lid",
+    "variant": "c",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_c_lid.txt",
+    "guide": "guide_c_lid.png",
+    "mask": "mask_c_lid.png",
+    "seed": 2026110243,
+    "native_size": [
+      96,
+      184
+    ]
+  },
+  {
+    "name": "c_shell_side",
+    "role": "shell_side",
+    "variant": "c",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_c_shell_side.txt",
+    "guide": "guide_c_shell_side.png",
+    "mask": "mask_c_shell_side.png",
+    "seed": 2026110244,
+    "native_size": [
+      184,
+      56
+    ]
+  },
+  {
+    "name": "c_shell_end",
+    "role": "shell_end",
+    "variant": "c",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_c_shell_end.txt",
+    "guide": "guide_c_shell_end.png",
+    "mask": "mask_c_shell_end.png",
+    "seed": 2026110245,
+    "native_size": [
+      96,
+      56
+    ]
+  },
+  {
+    "name": "d_lid",
+    "role": "lid",
+    "variant": "d",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_d_lid.txt",
+    "guide": "guide_d_lid.png",
+    "mask": "mask_d_lid.png",
+    "seed": 2026110246,
+    "native_size": [
+      96,
+      184
+    ]
+  },
+  {
+    "name": "d_shell_side",
+    "role": "shell_side",
+    "variant": "d",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_d_shell_side.txt",
+    "guide": "guide_d_shell_side.png",
+    "mask": "mask_d_shell_side.png",
+    "seed": 2026110247,
+    "native_size": [
+      184,
+      56
+    ]
+  },
+  {
+    "name": "d_shell_end",
+    "role": "shell_end",
+    "variant": "d",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_d_shell_end.txt",
+    "guide": "guide_d_shell_end.png",
+    "mask": "mask_d_shell_end.png",
+    "seed": 2026110248,
+    "native_size": [
+      96,
+      56
+    ]
+  },
+  {
+    "name": "d_shell_end_fix",
+    "role": "shell_end",
+    "variant": "d",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_d_shell_end_fix.txt",
+    "guide": "guide_d_shell_end_fix.png",
+    "mask": "mask_d_shell_end_fix.png",
+    "seed": 2026110299,
+    "native_size": [
+      96,
+      56
+    ]
+  }
+]

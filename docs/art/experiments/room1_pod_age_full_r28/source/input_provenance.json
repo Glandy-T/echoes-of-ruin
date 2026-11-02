@@ -1,0 +1,101 @@
+[
+  {
+    "name": "b_lid",
+    "source": "assets/art/room1_pod_age_r27/lid.png",
+    "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30",
+    "native_size": [
+      96,
+      184
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "b_shell_side",
+    "source": "assets/art/room1_pod_age_r27/shell_side.png",
+    "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634",
+    "native_size": [
+      184,
+      56
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "b_shell_end",
+    "source": "assets/art/room1_pod_age_r27/shell_end.png",
+    "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04",
+    "native_size": [
+      96,
+      56
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "c_lid",
+    "source": "assets/art/room1_pod_age_r27/lid.png",
+    "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30",
+    "native_size": [
+      96,
+      184
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "c_shell_side",
+    "source": "assets/art/room1_pod_age_r27/shell_side.png",
+    "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634",
+    "native_size": [
+      184,
+      56
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "c_shell_end",
+    "source": "assets/art/room1_pod_age_r27/shell_end.png",
+    "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04",
+    "native_size": [
+      96,
+      56
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "d_lid",
+    "source": "assets/art/room1_pod_age_r27/lid.png",
+    "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30",
+    "native_size": [
+      96,
+      184
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "d_shell_side",
+    "source": "assets/art/room1_pod_age_r27/shell_side.png",
+    "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634",
+    "native_size": [
+      184,
+      56
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  },
+  {
+    "name": "d_shell_end",
+    "source": "assets/art/room1_pod_age_r27/shell_end.png",
+    "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04",
+    "native_size": [
+      96,
+      56
+    ],
+    "input_or_output_resizing": false,
+    "third_party_input": false
+  }
+]

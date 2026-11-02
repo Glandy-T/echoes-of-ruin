@@ -1,6 +1,6 @@
 # Room 1 单舱颗粒与做旧 r27
 
-2026-11-02。状态：**P12代表舱已制作，等待用户审图；未推广其他19舱，未替换正式F5。**
+2026-11-02。状态：**用户已认可P12代表舱，并要求其他舱采用不同做旧；全室推广见[r28](../room1_pod_age_full_r28/README.md)。本目录保留为认可基准，正式F5未切换。**
 
 按[新制作基准](../../PIXEL_ART_PRODUCTION_STANDARD.md)执行：Pixel Canals作为实际颗粒、像素簇和表面完成度参考；PixelLab主体制作，Aseprite允许局部精修。本轮只提交本项目原创结构导图，没有向AI上传参考作品的NoAI内容。
 
@@ -37,4 +37,4 @@ Aseprite母版分为原创结构、PixelLab新材质、功能编号和独立局�
 
 复现不需新生成：用已有raw运行`source/compose.py`，Aseprite批处理运行`source/package.lua`（参数`root`为本实验绝对路径），再运行`check_artifacts.py`。`prepare.py`只重建原创输入；不要为重新打包再次付费请求。Blender源由`source/blender_material_source.py`从r26另存。Godot验证／捕获入口为同名`*_verify.tscn`／`*_capture.tscn`，GPU捕获参数使用`--rendering-driver opengl3`。
 
-技术通过不替代用户对做旧强度和颗粒的最终认可。代表舱确认后才推广差分；不在本轮自由重做全室或开始主角建模。
+本代表舱的颗粒与做旧已获用户认可，随后授权的全20舱差分见r28；r28整室推广结果另行审图，不扩大为自动批准。此目录继续保留单舱基准，不自由重做模型或启动主角建模。

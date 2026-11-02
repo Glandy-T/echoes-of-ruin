@@ -1,0 +1,14 @@
+{
+  "name": "c_lid",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "856ea49e-ee7b-4c81-817f-d8e5187e8d9d",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    96,
+    184
+  ]
+}

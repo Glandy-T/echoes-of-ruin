@@ -1,0 +1,1445 @@
+{
+  "scope": "20 exterior color maps,4lids4sides3ends,20uniquecombinations,P12exact. Existing model/UV/layout/GI/gameplay unchanged.",
+  "files": [
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/.gitignore",
+      "bytes": 70,
+      "sha256": "3e2e95e604ee9086abbe8db8e6addf3c701687347cb9db226da40dbf62012fb8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/a_lid_r28.aseprite",
+      "bytes": 4394,
+      "sha256": "1dc0c21a43569dce50c249140bd04dc25de0b6b5e37cb6cb14909f68e80fe55d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/a_shell_end_r28.aseprite",
+      "bytes": 2423,
+      "sha256": "70ccbbf6dc61be1c98979258de4698667c551c4ee3ec64ff3a3ae4a6ebd541bf"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/a_shell_side_r28.aseprite",
+      "bytes": 3548,
+      "sha256": "de02b96d68a404708d53e44cb5fec6551920999f6d55a99aee5a050caaeaf089"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/b_lid_r28.aseprite",
+      "bytes": 5432,
+      "sha256": "9d2c3d7b72ced79c9c45218b3ee74e0f3b61650805f202181fe8898fb0a394a6"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/b_shell_end_r28.aseprite",
+      "bytes": 2451,
+      "sha256": "af1ba0cd8f894f16f0abd6e27fd44358873bef000b01949b787e893212151e80"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/b_shell_side_r28.aseprite",
+      "bytes": 3615,
+      "sha256": "0e203d0c7e41b7cf71d91f117ac54f772de29e07c80e3de36530f0562e5c7cf1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/c_lid_r28.aseprite",
+      "bytes": 4253,
+      "sha256": "de75ed802862ec094917e1b54a44428fb8e7e218280b4f9848f88f0103bfbd6f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/c_shell_end_r28.aseprite",
+      "bytes": 2446,
+      "sha256": "a96028675363f032dcb126185826104661df1831a6ecd0df7556e9f8152a1ddd"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/c_shell_side_r28.aseprite",
+      "bytes": 3615,
+      "sha256": "df3ae6f1e199aa8c04040a49ed51827a8cb81fc33eb605b679544a57d062c64a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/d_lid_r28.aseprite",
+      "bytes": 3800,
+      "sha256": "91b59fcbd4b5c6ca03605a07ecdcce96d3cef1c3cfba56af550104ed32b4c84e"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/editable/d_shell_side_r28.aseprite",
+      "bytes": 3577,
+      "sha256": "624677534221bc00f3d7c73289fd2dbd9e974b462f5eabc4be4d45ec9f0d87a6"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_game_back_left.png",
+      "bytes": 381251,
+      "sha256": "7dce255f5e5bc975e93051110e0bd7b583a5b1c6a76c506c513a268de9c78c02"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_game_back_middle.png",
+      "bytes": 268507,
+      "sha256": "1537b6e3729adcd8649e2eac7a98f2f8cb7a18275bfcf4e75d9546d2722f006b"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_game_back_right.png",
+      "bytes": 312922,
+      "sha256": "a2dd9a56c18f9cce1f6487cf6e14a467ea2af768eff4a071f3f8887184c92404"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_game_front_left.png",
+      "bytes": 497563,
+      "sha256": "82a6855d25dcbcd5b92f1c6b7b509ef66585f49a65e5f2ee17f1fe42b5b090c5"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_game_front_middle.png",
+      "bytes": 385767,
+      "sha256": "4d0501836e30f6060bacf5ce7e17ca0f9446fb4c17cb3348780404cddf075e7a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_game_front_right.png",
+      "bytes": 449292,
+      "sha256": "228b3a5719fc64bd97043504e9fde2bf209f51a729e061b903d9a366084ea370"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/1_restore_game_front_left.png",
+      "bytes": 497563,
+      "sha256": "82a6855d25dcbcd5b92f1c6b7b509ef66585f49a65e5f2ee17f1fe42b5b090c5"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_basecolor_overview.png",
+      "bytes": 411549,
+      "sha256": "85ea0fd71e74517499d01d106883e0eb8ae4919b5148d96316ff9c1bf9c7ef6a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_corner_back_left.png",
+      "bytes": 144744,
+      "sha256": "81d15f7891d200872c909198df8c607b75e2bc5906363813f86ac0a53aa7a44a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_corner_back_right.png",
+      "bytes": 123891,
+      "sha256": "e438632ef4bb66d9f3ec794a8067818f6dccf238310d9e54306b3728640b5da4"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_corner_front_left.png",
+      "bytes": 110525,
+      "sha256": "08b002b62984a254fa106a229abe6b00ccf515ae112ecb357f14a35eae9db99f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_corner_front_right.png",
+      "bytes": 112828,
+      "sha256": "7b54651362680f1c4c57e451a0e1ef5ddc7cd35a003bf090e2c867bc02f2b116"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_game_back_left.png",
+      "bytes": 386722,
+      "sha256": "f705e3e9c474fcc464fa93eed7f93121ef407469d0ab1d8f1cf995b2be520837"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_game_back_middle.png",
+      "bytes": 274236,
+      "sha256": "1668fb32b7a234a9333965e4d51a1a68f843f681a2d1fcff9b2d355e3be69063"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_game_back_right.png",
+      "bytes": 319482,
+      "sha256": "f4c6d7c2d82bd7f78ab74b8ddec74227741802501f254a944ca024cdbda88f82"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_game_front_left.png",
+      "bytes": 508961,
+      "sha256": "3b90883315947ff78b6a06bab5bfe3c1e9e7f72482cff46ea0ab35c7d42d5537"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_game_front_middle.png",
+      "bytes": 392279,
+      "sha256": "1ab74f811a68b19fd986e6c5fcb782cf8e179c2aba634b5ff4bb922e5ef2e078"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_game_front_right.png",
+      "bytes": 462165,
+      "sha256": "af4d1650f4cc72724ae875dfe2edf9bc18cf9d377d5b868c0946d4fa95fdc6da"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p01_exterior_closed.png",
+      "bytes": 287132,
+      "sha256": "aa5bff516b0e944b12eef597989d3dc5ea59e6ee6c7f77e810b70ada2bd50aa5"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p01_exterior_variant_b_closed.png",
+      "bytes": 287132,
+      "sha256": "aa5bff516b0e944b12eef597989d3dc5ea59e6ee6c7f77e810b70ada2bd50aa5"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p02_exterior_closed.png",
+      "bytes": 302360,
+      "sha256": "46e13492116d60478b40c32e4726ae34faf9495a1b9f99f864719b468b473f2d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p02_exterior_variant_c_closed.png",
+      "bytes": 302360,
+      "sha256": "46e13492116d60478b40c32e4726ae34faf9495a1b9f99f864719b468b473f2d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p03_exterior_closed.png",
+      "bytes": 280152,
+      "sha256": "adac23ef888e063e92929f98c51257a4d58b4e13b5f050fe58a6c0d108c0575d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p03_exterior_variant_d_closed.png",
+      "bytes": 280152,
+      "sha256": "adac23ef888e063e92929f98c51257a4d58b4e13b5f050fe58a6c0d108c0575d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p04_exterior_closed.png",
+      "bytes": 260875,
+      "sha256": "fd401bf4ce704d8f561f2b85a8ade14ba2af0df4d82d594ae25d003acd4bf3f8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p05_exterior_closed.png",
+      "bytes": 234129,
+      "sha256": "450f3fdcee094b9c8a3a039239a51c4dc1bb98e7225291ae8ceab79e351447a1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p06_exterior_closed.png",
+      "bytes": 242373,
+      "sha256": "419064e9d182d1be58eb680be69dcd120b5e6b82e294b2bea42e0638583b1bb2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p07_exterior_closed.png",
+      "bytes": 249369,
+      "sha256": "e0b0b4adbedd82029b66e83329442ee0bce622b9c905b3bd7da8012ae8f19635"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p08_exterior_closed.png",
+      "bytes": 254739,
+      "sha256": "d0f74f178a66e27c776af0e21272145ba4248e0936f33522d9d13b359f3f9f5d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p09_exterior_closed.png",
+      "bytes": 270456,
+      "sha256": "05a27125fc9c1d5c47f7ecd031bb8ad298c5b0107fc411ace011dc1a6f77825c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p10_exterior_closed.png",
+      "bytes": 278386,
+      "sha256": "aa7cc8a42c314ce0060001903633c79a92a33da4f35277a5e76673f6640f1390"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p11_exterior_closed.png",
+      "bytes": 344085,
+      "sha256": "cc03fc95d3031c6e98923468a5226d6ea3b1a29e93476f0e6c217e7122e4efc4"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p12_exterior_closed.png",
+      "bytes": 387538,
+      "sha256": "ca1773da78aa5c62b3484933780c223ae21a0caf8018ce78a77dc7e74ecc2afe"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p12_exterior_p12_closed.png",
+      "bytes": 387538,
+      "sha256": "ca1773da78aa5c62b3484933780c223ae21a0caf8018ce78a77dc7e74ecc2afe"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p12_exterior_p12_open.png",
+      "bytes": 390008,
+      "sha256": "e8891eab6851e4d0d25bdf9cebdc466bef79d076aeeb4f46ab4226b6855cfdb5"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p13_exterior_closed.png",
+      "bytes": 332495,
+      "sha256": "93457890a4e56df747070708fe35afc610e95245565703ececcf7fc23fc8bc25"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p14_exterior_closed.png",
+      "bytes": 313868,
+      "sha256": "6e5d678d428f8e76a32b4526f6707373a77c9491f553fefe866f88012f6c7243"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p15_exterior_closed.png",
+      "bytes": 275092,
+      "sha256": "355f920e76c2d6849dd78d0db98fc4e574a4c4faa3a4ea3892460c5e045a2c45"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p16_exterior_closed.png",
+      "bytes": 288223,
+      "sha256": "f7860836df34a95007498e93f678a18199266e5a05fc96e6d2144f81dc5831b4"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p17_exterior_closed.png",
+      "bytes": 328355,
+      "sha256": "fa0f62dfd64fa3bd3a766139bfbd5f767263baf637316eddb7f65e6512aec96f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p18_exterior_closed.png",
+      "bytes": 319200,
+      "sha256": "f36bb5317c3d68e638952156d23ad0a8a68e4409a01d0f600366d20d7da677cc"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p19_exterior_closed.png",
+      "bytes": 322861,
+      "sha256": "87c888607421895a974252d6da64f292713a05b3363d9bb14874add90a337a11"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/2_pod_p20_exterior_closed.png",
+      "bytes": 295498,
+      "sha256": "b4f0024f68c7df11873483559022e75d2e6dfd16527461ef0c8c9085f3f8191f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/capture_record.json",
+      "bytes": 532646,
+      "sha256": "cbcf9ecc4d6dbe8ab7db51c7d8748189dd9e7f03a5a3eb05b5ef69c00bf6f478"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/native_variation_sheet.png",
+      "bytes": 46128,
+      "sha256": "7f31e0837f0c0410f0573c002a772d25e61e21f193c7411cbe30f5e29498f576"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/evidence/pod_contact_sheet.png",
+      "bytes": 974788,
+      "sha256": "0bb69b2df4fead624f83110ea958a6e9373615396705e74852e5124219892836"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/preview.html",
+      "bytes": 10934,
+      "sha256": "a9d7897afcfec8abb2c7b50db8906dcfb18dc222982142c7447642c2f6584a7a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/b_lid.png",
+      "bytes": 6275,
+      "sha256": "89c0b5a611c10bf6dc9a0399a01d534831350dfffe909e956facba36b70ee085"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/b_shell_end.png",
+      "bytes": 1957,
+      "sha256": "2f7a79ba10da43af20342920381485372406b014a5616bb571f2e6a99db3c3e9"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/b_shell_side.png",
+      "bytes": 2993,
+      "sha256": "a98206ae3339c4bc4ca2bf8a11112768421ede70a70c3412304e4649f5252423"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/c_lid.png",
+      "bytes": 4451,
+      "sha256": "27a6659c07137a875c5e7dbc47c8cedf588e8c803479cace02099fb97ba3b59c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/c_shell_end.png",
+      "bytes": 1952,
+      "sha256": "7a83ba90e03d0fa9c5befec1a02c18ace7b9ada85f0a2182421dfa87318b99aa"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/c_shell_side.png",
+      "bytes": 3249,
+      "sha256": "c97b09215127e3440057045709580ba7d6821f459d8213d0075ff7855bd74440"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/d_lid.png",
+      "bytes": 3709,
+      "sha256": "d801e81c397a0296bf8acf96ff37695fce14ac44c8e7c390a7e5c7d654ff34bb"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/d_shell_end.png",
+      "bytes": 1875,
+      "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/d_shell_end_fix.png",
+      "bytes": 1112,
+      "sha256": "42d74057ede478572a4dd6f07b709626e0eef3fc9eef8ff7574db773cadb557a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/raw/d_shell_side.png",
+      "bytes": 3004,
+      "sha256": "762ec2d8ffa80d89960d08f4b6840dff7a7f368d2ef774b387a6faa75f36b2f1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/README.md",
+      "bytes": 5451,
+      "sha256": "76070a545b61d01932dd8f28a79408725d5f3150d7cdb1aa58992255fbe76e28"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_b_lid.json",
+      "bytes": 260,
+      "sha256": "df20f1e526647f88c822846c68e798ce8cc27b2789552f9a059a9ed5977ddd78"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_b_shell_end.json",
+      "bytes": 265,
+      "sha256": "f27bd1284c5eb747e5f2365218441c75af429544a291455ad72444534438ccef"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_b_shell_side.json",
+      "bytes": 267,
+      "sha256": "975abdf85b00976e31d0da090bda6ea628892f83bafd44f9c478e24c936df726"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_c_lid.json",
+      "bytes": 260,
+      "sha256": "18831e30f9a6efa74e8dfa4b59417c7f1b1f6f1aad19ddc7220c8427d8cbc9ff"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_c_shell_end.json",
+      "bytes": 265,
+      "sha256": "15d6cf90a01b77a8504c6af7664a8f80415b21e8a1e1bf6f330687a6cc84fa86"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_c_shell_side.json",
+      "bytes": 267,
+      "sha256": "d6133062993800b106aff4bf3d9b03cffee5f0ceced50d14b83c69c2e454b80a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_d_lid.json",
+      "bytes": 260,
+      "sha256": "0de5e3c69af28b687597a2d68ad5aafaeb60a852e8004c55e4eaebf705126e2f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_d_shell_end.json",
+      "bytes": 265,
+      "sha256": "8542799f7c434e58c157b79d6b42224ceefe78ebc0fd83d332fe42861355c5e3"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_d_shell_end_fix.json",
+      "bytes": 269,
+      "sha256": "9c2615dbd7251e1596657d53c81836b8384bbb2189a4d27c777d85704397f582"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/result_d_shell_side.json",
+      "bytes": 267,
+      "sha256": "5917f3772b1950f6290a94d2fb1ace65bc864f6fed65787cafa5ce9d8ceeccfb"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/room1_pod_age_full_r28.blend",
+      "bytes": 856953,
+      "sha256": "615740b2a68e7d6c3b572e1d8d6ff16a2b99312eea3cd03dacc57bbfea572b92"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/artifact_validation.json",
+      "bytes": 4926,
+      "sha256": "61ba0b726d0a5cc0562275d3c27f28c01c6b28b33010710b8ae5ccb4c55c138e"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/baseline_hashes.json",
+      "bytes": 2577,
+      "sha256": "4b3222235878c14829aecce2acd029771447bfe516c00fb49c0956e7ece771e2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/blender_material_source.py",
+      "bytes": 3606,
+      "sha256": "885e4eae93e1d33f0d9bf496acff2598d4c9a603858ed2bd2ce336c8e03b1347"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/blender_readback.json",
+      "bytes": 12832,
+      "sha256": "61d09fc3c6c36632c715a0d1b220ccb7c08b9cb495279b9ce064d7c50eebfc7c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/build_preview.py",
+      "bytes": 3447,
+      "sha256": "bfcb312a65c2d67f7f51c0d991d32545a8a0f0732c7c647645113e4401559ac3"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/capture_contact_sheet.py",
+      "bytes": 632,
+      "sha256": "b01f4015ab4a467971a82991c87ea55913c2aaf361e9141de8f30784e479859f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/capture_validation.json",
+      "bytes": 21421,
+      "sha256": "770d4398a23644c22478ea31c29030b0cbbdedf94dcd62617100a711518847a6"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/check_artifacts.py",
+      "bytes": 3033,
+      "sha256": "ecb88a8f23c14b0fdeef7a5bc74ab1719a373402c5147bc810b905870ad4d5f7"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/compose.py",
+      "bytes": 4075,
+      "sha256": "95315ee5324a19153ed68028d42ea0eee378965fcc2298ab7f36c5bec78ec9f1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/composite_validation.json",
+      "bytes": 11932,
+      "sha256": "a455940165916b253dbca0c67a5d9b65733ff691a87086b055b85fe698ac9298"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/freeze_baseline.py",
+      "bytes": 785,
+      "sha256": "5017a10bff0156a0676afe78f5b86526a18ef2acf84f37f359e8b06c21626499"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_b_lid.png",
+      "bytes": 4489,
+      "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_b_shell_end.png",
+      "bytes": 1875,
+      "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_b_shell_side.png",
+      "bytes": 3066,
+      "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_c_lid.png",
+      "bytes": 4489,
+      "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_c_shell_end.png",
+      "bytes": 1875,
+      "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_c_shell_side.png",
+      "bytes": 3066,
+      "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_d_lid.png",
+      "bytes": 4489,
+      "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_d_shell_end.png",
+      "bytes": 1875,
+      "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_d_shell_end_fix.png",
+      "bytes": 900,
+      "sha256": "91c68414fe5724f6b1575a4d95746875da1d244fba483d0c39e3f5a03e81e5db"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/guide_d_shell_side.png",
+      "bytes": 3066,
+      "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/independent_review.json",
+      "bytes": 3365,
+      "sha256": "730b7517fafdb32942be2c437542c8e5d3c6fa2d8307d07988b4e3a719ec7166"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/input_provenance.json",
+      "bytes": 2733,
+      "sha256": "4eb50154b8319fde5438d422d21592b639a3dd1c301399fe54f9574624252579"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_b_lid.json",
+      "bytes": 112,
+      "sha256": "ddea94652eed568df735afaf963cb9a7e0a5066b84f89a9a8f4a8b4f889062ed"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_b_shell_end.json",
+      "bytes": 112,
+      "sha256": "62854d5def83ffac30440a20e7e6468380c4f8a52a977ff09117c2fe6595eb09"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_b_shell_side.json",
+      "bytes": 112,
+      "sha256": "3407b996aac0cb984529e1cb1df75e444a4c99ad27b92d905d250f0ad12cd845"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_c_lid.json",
+      "bytes": 112,
+      "sha256": "2b4f70c3e7786a9717264aabbcee39eaaeca26743b822a2d5c299bcef8980c76"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_c_shell_end.json",
+      "bytes": 112,
+      "sha256": "9ae3d916b5756c8379d53a32511d4798f9bf9e54b5863d5f879ffc88a4e804e7"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_c_shell_side.json",
+      "bytes": 112,
+      "sha256": "a629421bd565f97626f745abc9500dee629d918bc0b4bd5b072d24c95e6f5c94"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_d_lid.json",
+      "bytes": 112,
+      "sha256": "81828e4eb1a9c6fb4c5048fddf3741ab8280a6e357fd8f0544c9a66f9b42d304"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_d_shell_end.json",
+      "bytes": 112,
+      "sha256": "9bc8936c56e62c4ed483b3da03354efe7cb03e51f4207ad861a087ac6d54d773"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_d_shell_end_fix.json",
+      "bytes": 112,
+      "sha256": "de6eb66b202280d223819a094d7658aff9bb1b693930caeedab1cc3774040667"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/job_d_shell_side.json",
+      "bytes": 112,
+      "sha256": "88cf10b9f75cee1796e5b1a37e487c9a3ccc857e0711a7639388feea0168ca23"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/jobs.py",
+      "bytes": 3333,
+      "sha256": "f81b83f8f4bcbbaeb333fdcc96d44b23187e2787838371ee7bf7443b80940f97"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/lid_base.png",
+      "bytes": 1197,
+      "sha256": "09d02e91bfb424b7feacd65c3fabac0c053421233a32e8c79a3764478a3ae4e1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/lid_identity.png",
+      "bytes": 263,
+      "sha256": "6f2711fe4d848b4be95b9d1aef2c0c1b5276ac43f75ea343742a97ee7aed95ee"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/lid_PixelLab.png",
+      "bytes": 4601,
+      "sha256": "3ef7e4cc86dab9e311c53adbef0b00b8b40fe922d94f0788c3a10baa32769e6f"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/shell_end_base.png",
+      "bytes": 900,
+      "sha256": "91c68414fe5724f6b1575a4d95746875da1d244fba483d0c39e3f5a03e81e5db"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/shell_end_identity.png",
+      "bytes": 217,
+      "sha256": "f9457a4ae5b8179c87209456fdc4e96d2e2e71d251ac41ebd80c73811fabb763"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/shell_end_PixelLab.png",
+      "bytes": 1947,
+      "sha256": "e63df6e7847fcfd7969bed135ab13052d275d69ebbd532fd6973d972c1bcdb49"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/shell_side_base.png",
+      "bytes": 1538,
+      "sha256": "72ed88a2d5d74453f3d72c2b648b6561642d39b879c0edf4fbb01dd8e9ab9661"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/shell_side_identity.png",
+      "bytes": 119,
+      "sha256": "8466c87e09ade38e91442974690ab3445e5421a668cbc9c9e61f4b43adf46826"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_a/shell_side_PixelLab.png",
+      "bytes": 3205,
+      "sha256": "87d78f21744e5bb5d8bf7e7ed4149643e7e0da8c61a0899876234dd3344111a2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/lid_base.png",
+      "bytes": 1197,
+      "sha256": "09d02e91bfb424b7feacd65c3fabac0c053421233a32e8c79a3764478a3ae4e1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/lid_identity.png",
+      "bytes": 263,
+      "sha256": "6f2711fe4d848b4be95b9d1aef2c0c1b5276ac43f75ea343742a97ee7aed95ee"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/lid_PixelLab.png",
+      "bytes": 6433,
+      "sha256": "7a53a47c10192eeba54eb0f2f635307e28590bf593cbc3feefb99424ea0a9fdb"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/shell_end_base.png",
+      "bytes": 900,
+      "sha256": "91c68414fe5724f6b1575a4d95746875da1d244fba483d0c39e3f5a03e81e5db"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/shell_end_identity.png",
+      "bytes": 217,
+      "sha256": "f9457a4ae5b8179c87209456fdc4e96d2e2e71d251ac41ebd80c73811fabb763"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/shell_end_PixelLab.png",
+      "bytes": 2044,
+      "sha256": "93bdb2f2c3200deea246d26c4066e20b9342921294b419077b089170e2ab75f1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/shell_side_base.png",
+      "bytes": 1538,
+      "sha256": "72ed88a2d5d74453f3d72c2b648b6561642d39b879c0edf4fbb01dd8e9ab9661"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/shell_side_identity.png",
+      "bytes": 119,
+      "sha256": "8466c87e09ade38e91442974690ab3445e5421a668cbc9c9e61f4b43adf46826"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_b/shell_side_PixelLab.png",
+      "bytes": 3180,
+      "sha256": "0bb75acd605990cc1e23ad0715c86f2077d70bb90a814ceac84d12841826f6af"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/lid_base.png",
+      "bytes": 1197,
+      "sha256": "09d02e91bfb424b7feacd65c3fabac0c053421233a32e8c79a3764478a3ae4e1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/lid_identity.png",
+      "bytes": 263,
+      "sha256": "6f2711fe4d848b4be95b9d1aef2c0c1b5276ac43f75ea343742a97ee7aed95ee"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/lid_PixelLab.png",
+      "bytes": 4540,
+      "sha256": "f8e0ac13d4ea159dcde0af3c58f97c4c8f9e011bdfb96ee18ce90dc847d83ece"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/shell_end_base.png",
+      "bytes": 900,
+      "sha256": "91c68414fe5724f6b1575a4d95746875da1d244fba483d0c39e3f5a03e81e5db"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/shell_end_identity.png",
+      "bytes": 217,
+      "sha256": "f9457a4ae5b8179c87209456fdc4e96d2e2e71d251ac41ebd80c73811fabb763"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/shell_end_PixelLab.png",
+      "bytes": 2045,
+      "sha256": "10a5caacef4b17ee7fdacecfe5b55669f158cf4c43c960faccd1fd1d885b5b04"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/shell_side_base.png",
+      "bytes": 1538,
+      "sha256": "72ed88a2d5d74453f3d72c2b648b6561642d39b879c0edf4fbb01dd8e9ab9661"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/shell_side_identity.png",
+      "bytes": 119,
+      "sha256": "8466c87e09ade38e91442974690ab3445e5421a668cbc9c9e61f4b43adf46826"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_c/shell_side_PixelLab.png",
+      "bytes": 3380,
+      "sha256": "349d6f20d8705198e3b7a671eb1a5bfde463d7d93cc24ace057f729ac2baf92c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_d/lid_base.png",
+      "bytes": 1197,
+      "sha256": "09d02e91bfb424b7feacd65c3fabac0c053421233a32e8c79a3764478a3ae4e1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_d/lid_identity.png",
+      "bytes": 263,
+      "sha256": "6f2711fe4d848b4be95b9d1aef2c0c1b5276ac43f75ea343742a97ee7aed95ee"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_d/lid_PixelLab.png",
+      "bytes": 3813,
+      "sha256": "cdfd7d7f6ef89dd254170b25aea9c137ddf62d67dcf55ffbd55274b5627185cc"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_d/shell_side_base.png",
+      "bytes": 1538,
+      "sha256": "72ed88a2d5d74453f3d72c2b648b6561642d39b879c0edf4fbb01dd8e9ab9661"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_d/shell_side_identity.png",
+      "bytes": 119,
+      "sha256": "8466c87e09ade38e91442974690ab3445e5421a668cbc9c9e61f4b43adf46826"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layers/variant_d/shell_side_PixelLab.png",
+      "bytes": 3132,
+      "sha256": "bcba8bfc2d18f8756e5dabc41706315e68852456404d71aac89ce1dce6826e74"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layout.py",
+      "bytes": 2255,
+      "sha256": "461e1b70c576fad683b97ce46d740fa6857eeddbcd2d026aa2398da70f3e3bb8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/layout_variants.json",
+      "bytes": 8849,
+      "sha256": "76b0904b4394e7140904712d1569e91787c418adaff35ad748947cb870fb1b9c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_b_lid.png",
+      "bytes": 324,
+      "sha256": "27e57a7bb310cf391ca2d479d7d38bf049fe445d143f37a8b01cd1698144984c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_b_shell_end.png",
+      "bytes": 226,
+      "sha256": "49276d27e108ca89cfb59cd43975b456fa76640fb2846a01aac04d6cf1c906e8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_b_shell_side.png",
+      "bytes": 286,
+      "sha256": "b81f0ca46baca03d42128e077262c9243f120f86d95ff79f2e3b7dc7b649d955"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_c_lid.png",
+      "bytes": 324,
+      "sha256": "27e57a7bb310cf391ca2d479d7d38bf049fe445d143f37a8b01cd1698144984c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_c_shell_end.png",
+      "bytes": 226,
+      "sha256": "49276d27e108ca89cfb59cd43975b456fa76640fb2846a01aac04d6cf1c906e8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_c_shell_side.png",
+      "bytes": 286,
+      "sha256": "b81f0ca46baca03d42128e077262c9243f120f86d95ff79f2e3b7dc7b649d955"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_d_lid.png",
+      "bytes": 324,
+      "sha256": "27e57a7bb310cf391ca2d479d7d38bf049fe445d143f37a8b01cd1698144984c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_d_shell_end.png",
+      "bytes": 226,
+      "sha256": "49276d27e108ca89cfb59cd43975b456fa76640fb2846a01aac04d6cf1c906e8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_d_shell_end_fix.png",
+      "bytes": 226,
+      "sha256": "49276d27e108ca89cfb59cd43975b456fa76640fb2846a01aac04d6cf1c906e8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/mask_d_shell_side.png",
+      "bytes": 286,
+      "sha256": "b81f0ca46baca03d42128e077262c9243f120f86d95ff79f2e3b7dc7b649d955"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P01_lid.png",
+      "bytes": 257,
+      "sha256": "05a2fd920d2ae4311f5f574484af053af8fae8bd5af0d5206764e04b7ef841ce"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P01_shell_end.png",
+      "bytes": 200,
+      "sha256": "56d8ad785ff1950d866ea244ce04f959cd2ab69e4801c8a212ec1f68a25d40f9"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P02_lid.png",
+      "bytes": 257,
+      "sha256": "3ee75d6e6431fce980f81925c917920e08ceafada31e3acef306923f96002df2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P02_shell_end.png",
+      "bytes": 206,
+      "sha256": "02897395d51b9abf154a81d888fd78ec4fef6a82733823988f138a95aa9d3a98"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P03_lid.png",
+      "bytes": 254,
+      "sha256": "b0b63cbbfa42168b5d792503b6e9adcfa0a7db51955ed35ecc6b4d4b099806e1"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P03_shell_end.png",
+      "bytes": 202,
+      "sha256": "166f95a40f7f454002eb1c04f6cfdc5b17bf6f2d664954bb64b905c2c7511340"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P04_lid.png",
+      "bytes": 248,
+      "sha256": "187325c126333266df468743a9793c40979521cd6cb0c6e6d71d37772f105172"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P04_shell_end.png",
+      "bytes": 199,
+      "sha256": "0da105fedd749e3650d715ac71a2ae846ef0f706fefa3a50192eda996ca6b405"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P05_lid.png",
+      "bytes": 249,
+      "sha256": "ae79e78621e0882c5aeca9cc904d194e52b1063eb40adc19d42ed03d0ee1b87c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P05_shell_end.png",
+      "bytes": 203,
+      "sha256": "48402274cf34a834df05bb110ddd7a6b0a33b067b3bdefdea44fdb4c60ef96b8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P06_lid.png",
+      "bytes": 246,
+      "sha256": "2cfa175d679ac7f804ceb76f2462c4ec8d1ba69113f81f29e415df792f6b34e7"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P06_shell_end.png",
+      "bytes": 202,
+      "sha256": "9332a6732d75f6b0638ee01944af3699647c6a35c03e9fe7772ac770b35e11c0"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P07_lid.png",
+      "bytes": 239,
+      "sha256": "f2aeaa91105e40b6102a0e37883348e8924bceb92d66471ce9f069addf0363af"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P07_shell_end.png",
+      "bytes": 194,
+      "sha256": "6d11e94881d143d6e97e87ee95b16c2a5a91c7859893d1ac1bf9c6a5ce23ad47"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P08_lid.png",
+      "bytes": 242,
+      "sha256": "7f61aec4548030c450541ea375fd618471736a64224f93099e20f62c93a55ad7"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P08_shell_end.png",
+      "bytes": 196,
+      "sha256": "10993436c2be9d9158105ccc722f57b0b6b6e5ef19d7257d1b6f943eef8f22c0"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P09_lid.png",
+      "bytes": 250,
+      "sha256": "6b7ff76ea9e05177371776f31cca9a9597fbf768b7ede9dc9b5cd3f1ed7803aa"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P09_shell_end.png",
+      "bytes": 204,
+      "sha256": "b7ac27077a356858d60acc55e9059d19f213c9eeb0066e5483590223c7c8d24a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P10_lid.png",
+      "bytes": 253,
+      "sha256": "2fc3eb7dc1ebb45b684a097b326a8b836a8ef9011805771ba65bd230a2658ce0"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P10_shell_end.png",
+      "bytes": 205,
+      "sha256": "10c953cf886b3d0dea53fe9f35badbf419e995364634660f48473fb9deb636b6"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P11_lid.png",
+      "bytes": 251,
+      "sha256": "b255b2f8cb71fe290934202fd0884f6c4f441fc012a08718b7ea882d079b677e"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P11_shell_end.png",
+      "bytes": 194,
+      "sha256": "f425bcd1397d47a52983e9297f84cb03d6e0e8432871a606a0624ca65d06a273"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P12_lid.png",
+      "bytes": 263,
+      "sha256": "6f2711fe4d848b4be95b9d1aef2c0c1b5276ac43f75ea343742a97ee7aed95ee"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P12_shell_end.png",
+      "bytes": 217,
+      "sha256": "f9457a4ae5b8179c87209456fdc4e96d2e2e71d251ac41ebd80c73811fabb763"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P13_lid.png",
+      "bytes": 259,
+      "sha256": "72f17b52ceb11ea805f76e654ca27078e2b84086e2a096c602f5a645c77af038"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P13_shell_end.png",
+      "bytes": 215,
+      "sha256": "9b09b00502cd142e8a7978d520cbc17f07d76b89bd544e8783ecab0342f5fa90"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P14_lid.png",
+      "bytes": 257,
+      "sha256": "6eca95cec0c9d6eed4e10c8cf24483c3828e635f12147468a8508bfbff5e793c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P14_shell_end.png",
+      "bytes": 197,
+      "sha256": "f08228ad6b3eaddde13c51fe48f8d6e1bd27d81bebbabf47c923e89f65d26dbb"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P15_lid.png",
+      "bytes": 263,
+      "sha256": "1338f6d504ebdde4e4699b9b8f162b58215987beb4b816a3173d8fd0b8e361d4"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P15_shell_end.png",
+      "bytes": 216,
+      "sha256": "1768e008b421095959a71ae5bf8d366fb1891216d5cd30d726887aed5e9be263"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P16_lid.png",
+      "bytes": 259,
+      "sha256": "e22f6ed49a3fb9a075336755186ecb9d404e283ccf970ccc7a95e93aa019cdb2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P16_shell_end.png",
+      "bytes": 213,
+      "sha256": "843e6dc1ae3baa0f6e7030c4c61b1a09b66b3863fa9e2ce487d7313f645e9f3c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P17_lid.png",
+      "bytes": 251,
+      "sha256": "9418611177d76a48efca2cbac476cd7d6e0c7cd6346954ec4595d353d241811a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P17_shell_end.png",
+      "bytes": 202,
+      "sha256": "ddc1020c57904aad518960f0f48261cb80a264d4e8b33ca237c9b53b31f9c6e4"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P18_lid.png",
+      "bytes": 260,
+      "sha256": "1ddb3c4138d1c0b2e62a67cb2f21df6545a9232e2c285bfd23349b3a1ffe424a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P18_shell_end.png",
+      "bytes": 206,
+      "sha256": "cdbc217b5136f9ede57538ed264a131c7076d4cac195095b338914f0c7fdc812"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P19_lid.png",
+      "bytes": 263,
+      "sha256": "54b6b8c897e1acd8b718508e369e8a2e164faea8cbde758da0abd9c62d68c7ac"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P19_shell_end.png",
+      "bytes": 216,
+      "sha256": "20b018f74249c0af015844adcf9910297da56b658558462662d967c5e71aa706"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P20_lid.png",
+      "bytes": 256,
+      "sha256": "d6c3ba443de8d604efb794a968bf431e7756d1b8ec51d6ca3dafdae68f736fcc"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/number_layers/P20_shell_end.png",
+      "bytes": 206,
+      "sha256": "d3c4df764369077bf51086ecb09f4be9046f421de52c7e52bfb37fcd6d1c2bd3"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/package.lua",
+      "bytes": 860,
+      "sha256": "9219247a0b8f295089ed4667f85f0ecc68c17de637ed7f86e0aff5cc57412b81"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/package_delivery.py",
+      "bytes": 1323,
+      "sha256": "7d0fe2af8db566da216fc9c3e52d2aab759ca708e1ca31e67db641cc1655ac3a"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/pixellab_api.py",
+      "bytes": 1339,
+      "sha256": "b0ad109e12f2c09930489e730b74e4851c56cde3659ecc45ebf2d99f211cc578"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prepare.py",
+      "bytes": 4327,
+      "sha256": "5f75e50ccd993ca5946ebab2032300063855419ea1aaaf7b3051d3d2c8e92fe0"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_b_lid.txt",
+      "bytes": 1404,
+      "sha256": "aba2da8c34d182303a535bf0ad2d0cf654e8de787dae25d43d299a0f1349a6f2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_b_shell_end.txt",
+      "bytes": 1402,
+      "sha256": "744647aa229fb47d81cbbe509e5df06310fd810400ddeb8b758e178a12b8f6d8"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_b_shell_side.txt",
+      "bytes": 1452,
+      "sha256": "fb4110e0ec8ace804d5d2e736e2578fc224fba7c1a26c8b3234cf48f8e7e0be9"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_c_lid.txt",
+      "bytes": 1401,
+      "sha256": "2dbca590952cf390479734727460e69660a2b266493e1d5c8a61ea83da0fdffb"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_c_shell_end.txt",
+      "bytes": 1399,
+      "sha256": "703c4783e65d2faa92e5bef9a14e3ce2c48e0f453fa07a280567ab7b70a0f714"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_c_shell_side.txt",
+      "bytes": 1449,
+      "sha256": "68e56688bc83731ae34097d55089362bfdf7dfa8ee44848f6e44821d1f1273f6"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_d_lid.txt",
+      "bytes": 1390,
+      "sha256": "53ebb1a57094074561791728c12fe864ecea7e4349965c49c0372558c5c4a2de"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_d_shell_end.txt",
+      "bytes": 1388,
+      "sha256": "538891854e196bb283ce578cefd0b4e3e4cea24f1b1aae883368cc2235415519"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_d_shell_end_fix.txt",
+      "bytes": 1612,
+      "sha256": "ad504a2546b81f7e12ccaeefffe8f3071341a58046c792dcfef2091024b9cd60"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/prompt_d_shell_side.txt",
+      "bytes": 1438,
+      "sha256": "8aec2c8c4797a25c686c0d6f477881c1a77ae48abf9dc48ce38b9ad11ebbd0df"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_a_lid.png",
+      "bytes": 4855,
+      "sha256": "5af7f198ff5f89b593d976a3d00437bde0a754e55bd1f51fbdb6f8c9ab1c2782"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_a_shell_end.png",
+      "bytes": 2090,
+      "sha256": "719a23ea2ae513c22fe431ebf4741625197a872419ca0db09eab9686135e3b17"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_a_shell_side.png",
+      "bytes": 3676,
+      "sha256": "b2ab6509bbbd5af53726ea2c4afd1a357f325fb7bd90be3c5d24e102742d78fb"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_b_lid.png",
+      "bytes": 7087,
+      "sha256": "bca8cb711e8088b01ed83c72ece14e71c348cd5fbde230bb470b46e09e83348b"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_b_shell_end.png",
+      "bytes": 2131,
+      "sha256": "f341c41a4b8394a42a5aca83ded6ba051a4197a7bef9d72bea6a6f0007d8e545"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_b_shell_side.png",
+      "bytes": 3597,
+      "sha256": "969ce91d68e8e853fb99f85b2bd6b3b4223a61e600ffaa2021713c9f9478c9b9"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_c_lid.png",
+      "bytes": 4841,
+      "sha256": "f72a87c92d5dff5736836713e09cc1651c0d07ff45de2cc046dfeef10ea87d2d"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_c_shell_end.png",
+      "bytes": 2238,
+      "sha256": "0b090a715b6a19478aa23efbea9c5d25fbaf7aa9b9b5a4279c0bd50054ec68e2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_c_shell_side.png",
+      "bytes": 3849,
+      "sha256": "939d6c01d87b4199ed24fca3483dfdc42f2d0e3c1e2be9dae537bb2a1ae8123e"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_d_lid.png",
+      "bytes": 4068,
+      "sha256": "d4bc140bdc0846b36e7327ac7454823daae35c06654d9fcbe9a07d1ad66a2984"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/readback_d_shell_side.png",
+      "bytes": 3135,
+      "sha256": "0cffb04e86684e7e09ddcec79179bbdd8325eb18457d38bf7b7f6bc6ce105749"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/rejected_outputs.json",
+      "bytes": 459,
+      "sha256": "604f39c583b5dd47a20b515987babc35a31a4c60e2a10a09a9c5034ee84e89ee"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/requests.json",
+      "bytes": 3050,
+      "sha256": "c49c9c7022a102fe54cfc8d4d6c43a8d985c9f0701d480cd14478c7ec9246787"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/runtime_validation.json",
+      "bytes": 6357,
+      "sha256": "34d65e5bbc52978aa2195e67fde16f071774adc426a41af1bbccfe0b200480d2"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/serve_preview.py",
+      "bytes": 583,
+      "sha256": "06cacf213f703191e72cf5aef9b7346453badc5316e3e0869ad6823087f3bc9c"
+    },
+    {
+      "path": "docs/art/experiments/room1_pod_age_full_r28/source/texture_sheet.py",
+      "bytes": 1090,
+      "sha256": "4e8014ecc244e03fcbf0be791c77c3cd8a3aad7ab8003e6fa66bb9856ea48d27"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/layout_variants.json",
+      "bytes": 8849,
+      "sha256": "76b0904b4394e7140904712d1569e91787c418adaff35ad748947cb870fb1b9c"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P01_lid.png",
+      "bytes": 6215,
+      "sha256": "e4d15e533921eae7d2e90bae89134aa665eb307d5dd97507caf82c9af0ab53b7"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P01_shell_end.png",
+      "bytes": 1967,
+      "sha256": "fa350c848f663c7dc5a80cc757352bbef1ecfb7d709eb8e1fc1f0df509094b06"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P02_lid.png",
+      "bytes": 4438,
+      "sha256": "7c5fc12fe438a5ec934f9c562461836ebae527851d753f1baf989a7bb0e98470"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P02_shell_end.png",
+      "bytes": 1923,
+      "sha256": "3a69819704ca9c5be49ff435e4540aefa9d7f8752f68e026245f91d79cadc793"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P03_lid.png",
+      "bytes": 3701,
+      "sha256": "165fc23d54cdcdba77a73c76ac04e389c40739535c8dda8dffdb3f3384a941ee"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P03_shell_end.png",
+      "bytes": 1968,
+      "sha256": "51a853a1c0e6aa47599ea9e310e4c66feec85ac2a13ecef3d84ea10b0983859a"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P04_lid.png",
+      "bytes": 4467,
+      "sha256": "883d80cf0c087a48c50f861fb67f441abb499274372c13f5403b1dabf4240a4b"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P04_shell_end.png",
+      "bytes": 1869,
+      "sha256": "b8e0e9328c77ed3b685b87983e12caab28fe9ddf0b0c7725778a0d88b53fefbb"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P05_lid.png",
+      "bytes": 6214,
+      "sha256": "2ecb9961d397181391ae73e8e70bca4203825a83b940c6394e344c4e2d690ad6"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P05_shell_end.png",
+      "bytes": 1917,
+      "sha256": "244fa80591ff41671f6f83f14080b3a3636ace37fa108c7793a01af7bc81a86b"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P06_lid.png",
+      "bytes": 4427,
+      "sha256": "2776134030f834c20170511980b1037b37d1481b243e4d83822b4fd12a7d462b"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P06_shell_end.png",
+      "bytes": 1964,
+      "sha256": "90703aadeea11926f7514fe465042c87f16cb00b8762e667b8cd72b5fd678346"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P07_lid.png",
+      "bytes": 3675,
+      "sha256": "b17609a532dbd3be2b91c27a6a73353c1337a04c4991dd26a853bd7baec5724c"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P07_shell_end.png",
+      "bytes": 1860,
+      "sha256": "438835d48cfe7f48f0b9de216fbbd86f15882ee4d95c0df18021d77ae289fd92"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P08_lid.png",
+      "bytes": 4466,
+      "sha256": "f9fb1ee9b9e745b84eca699ecaeeeee337388930b67ee2fb478d7ee679b0148e"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P08_shell_end.png",
+      "bytes": 1920,
+      "sha256": "89fa39ce9e21dbce8d9868b9eb7d208046358e360f64bb6e6814d0ce1be3bb0c"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P09_lid.png",
+      "bytes": 6210,
+      "sha256": "dff379d44434077ac5944eacba74a5acc3a1f0cf4b1b4d84dc093a261e5fccbb"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P09_shell_end.png",
+      "bytes": 1871,
+      "sha256": "70f2332f29762da6037d538d2b3328a590570f61c3757cd054bf4586fba66822"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P10_lid.png",
+      "bytes": 4432,
+      "sha256": "236f7ac24e77dc6a5b6e782b1b6897398ffc75f309bd3d0de7e7d2cb46b155e0"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P10_shell_end.png",
+      "bytes": 1922,
+      "sha256": "932257824871ccc46cc482a54f7723f3808160ba472e1d8e99acf0e5ca113bef"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P11_lid.png",
+      "bytes": 3688,
+      "sha256": "d65cc4250e607361bdca726ef3d865351ace0f9d10f3212ab8e5f02e2ce3af5a"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P11_shell_end.png",
+      "bytes": 1915,
+      "sha256": "a8e1ec0d4fa821a85540133db97ed13887e62649ddfc75994494048aa92ceaea"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P12_lid.png",
+      "bytes": 4489,
+      "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P12_shell_end.png",
+      "bytes": 1875,
+      "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P13_lid.png",
+      "bytes": 6231,
+      "sha256": "ac1f5a4559587f1a8151fd3481c54d15d6ed809c11fcdbcc8be73988a0cd6635"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P13_shell_end.png",
+      "bytes": 1925,
+      "sha256": "afa4512322577baaddd656096b8609b6232918f9e0b7149e1d523ce040dc29e9"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P14_lid.png",
+      "bytes": 4435,
+      "sha256": "a5344ba3c56e4796b049098f7c4a23676e3584797da69b14e5bac1e77347ee53"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P14_shell_end.png",
+      "bytes": 1962,
+      "sha256": "dfc2844133041948735b3837eee194939da3688afe2ab7c2730d9d7d60c46b31"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P15_lid.png",
+      "bytes": 3705,
+      "sha256": "1c6ba23be498bf5ebeb5ec33fa70a24a4ab6a60d89c7f3d070055171052b0f90"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P15_shell_end.png",
+      "bytes": 1875,
+      "sha256": "074c83bafcca5befc64b7cb5551a6891080024dff05c9b3853559fe5402d371e"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P16_lid.png",
+      "bytes": 4482,
+      "sha256": "dd5a331e817679d479450ab85ebab5740ff79e82f090d9ba02f7d11deb8ee32d"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P16_shell_end.png",
+      "bytes": 1931,
+      "sha256": "4ed136076a1624df814b5b8593342191a42e13b9d8ad4bd842b87132774516ed"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P17_lid.png",
+      "bytes": 6221,
+      "sha256": "68a22e345f40228722ee04e423d13b8b7fe9a6671bb19ebd8fb85eb6331058ee"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P17_shell_end.png",
+      "bytes": 1963,
+      "sha256": "8201e8c3d989d889bcac3e162db3054a02973e55dfb2b27569aa7f7c9c7d4022"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P18_lid.png",
+      "bytes": 4438,
+      "sha256": "69c066cd9a893ce5190c689dec7067ff7b64506f2e37b05d960c2039f31ace4c"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P18_shell_end.png",
+      "bytes": 1870,
+      "sha256": "2dae9bd3d271e82b337064177f044d129bb397bcdd25ce9f727e6bee356728bf"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P19_lid.png",
+      "bytes": 3703,
+      "sha256": "a78ff00842e1d49b5800e79ef84a349d81f5bfcf5a883ca718eb004aa5e52a75"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P19_shell_end.png",
+      "bytes": 1975,
+      "sha256": "1ae661162bd6d8b25c36cf0a1d003db6cf54751a8880950ee628bd7442613738"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P20_lid.png",
+      "bytes": 4481,
+      "sha256": "96fb9fb300c48f143bcbdee78a75f933c34225d40a4420345bae0854f53c21d4"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/numbered/P20_shell_end.png",
+      "bytes": 1875,
+      "sha256": "46851422f9658a427f30ab00d26817276ffe0977395cbf59513002936c405fe6"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_a/lid.png",
+      "bytes": 4489,
+      "sha256": "1f9341d45a9898081171632b598b5dc82737cf80fc21fedbbdb7212e2b70ad30"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_a/shell_end.png",
+      "bytes": 1875,
+      "sha256": "fa3c2d4f73388dea217f05a3ba655950b20790be4d9863802a8ee42dfcd18b04"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_a/shell_side.png",
+      "bytes": 3066,
+      "sha256": "bf9625103f54643a66cfe64237b838fbb1e82a6f8f23dee3ed38563111ec9634"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_b/lid.png",
+      "bytes": 6232,
+      "sha256": "89654694209cb55cd0fe5b6626262a00f33fe4ebca5d6c0d8f9f593f28618adc"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_b/shell_end.png",
+      "bytes": 1931,
+      "sha256": "17e632c0ec57be702d1eb97027363e29b9b7a999622bf3ad270bd1fa037f7d04"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_b/shell_side.png",
+      "bytes": 2874,
+      "sha256": "682d01ca2243ca43946c5cf3157ee2aa63e481fdaaf0757ce9f827bb2a2e8df9"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_c/lid.png",
+      "bytes": 4442,
+      "sha256": "a5204e55dd2658d5c8a6dbaf853b5f9dc4831e5a516b7e9b545d80b629ffa2c7"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_c/shell_end.png",
+      "bytes": 1973,
+      "sha256": "1efc846de424efae3e755a7c68ebfb802ded3db486f6474606565d8efd5c14f8"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_c/shell_side.png",
+      "bytes": 3237,
+      "sha256": "8a8c1bff02b886df044ecf039abd06825e3ddd2d9e8bd78118cd212bd55e8d33"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_d/lid.png",
+      "bytes": 3705,
+      "sha256": "f33ac6033ef1f97c9bf7a525b5ac91f0365766b60a00245679063b5cd5e5fcb5"
+    },
+    {
+      "path": "assets/art/room1_pod_age_full_r28/variant_d/shell_side.png",
+      "bytes": 2698,
+      "sha256": "b4c810d23f6d301205f2ba10b48b8c7f423b7fae0e7f3edeb16fd2374f11649e"
+    },
+    {
+      "path": "scripts/dev/room1_pod_age_full_r28.gd",
+      "bytes": 5626,
+      "sha256": "e3a93a1f45db49fea5fa62ca65116149dc2a7d6b2138a7fdcd84c7f1e071916a"
+    },
+    {
+      "path": "scripts/dev/capture_room1_pod_age_full_r28.gd",
+      "bytes": 6890,
+      "sha256": "6590be3b78ca103750bcf3f0ffd7ea07efbcaf36ecd5562c2a7cda9cee2b8c2c"
+    },
+    {
+      "path": "scripts/dev/verify_room1_pod_age_full_r28.gd",
+      "bytes": 8218,
+      "sha256": "2c107c7b149eb46315a4d6c3f64818e5d625b391f77b9d3174e847de45addf3b"
+    },
+    {
+      "path": "scenes/dev/room1_pod_age_full_r28.tscn",
+      "bytes": 295,
+      "sha256": "0e68f5c2ab7c4f43eeb56a30ae55e269e39b92c432d8aae51989b9015bb081f0"
+    },
+    {
+      "path": "scenes/dev/room1_pod_age_full_r28_capture.tscn",
+      "bytes": 361,
+      "sha256": "e675377feeabbe9b1c65e76f102fde9015f2627d352f4ecc7832d334bbaf9448"
+    },
+    {
+      "path": "scenes/dev/room1_pod_age_full_r28_verify.tscn",
+      "bytes": 358,
+      "sha256": "aaccb34f37d29bb73be07334ec76bdeafc2f1de5793c6c0c54586d21afee6688"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "reviewer": "independent_final_validator",
+  "review_scope": "Room 1 pod aging variation r28; read-only validation of artifacts, Godot import/runtime evidence, Blender source readback, and rendered evidence. No assets or scene files were changed by this review.",
+  "result": "PASS_WITH_USER_ART_REVIEW_PENDING",
+  "reviewed_at_local": "2026-11-02T22:54:00+09:00",
+  "artifact_checks": {
+    "artifact_validation_result": "PASS",
+    "artifact_validation_checks_passed": 95,
+    "variant_surfaces": {
+      "lid": 4,
+      "shell_side": 4,
+      "shell_end": 3
+    },
+    "all_11_variant_surface_sha256_values_unique": true,
+    "native_dimensions_verified": {
+      "lid": "96x184",
+      "shell_side": "184x56",
+      "shell_end": "96x56"
+    },
+    "p12_variant_a_matches_r27_sha256": {
+      "lid": true,
+      "shell_side": true,
+      "shell_end": true
+    },
+    "layout_counts": {
+      "pods": 20,
+      "unique_combinations": 20,
+      "lid_A_B_C_D": [5, 5, 5, 5],
+      "side_A_B_C_D": [5, 5, 5, 5],
+      "end_A_B_C": [7, 7, 6]
+    },
+    "numbered_exports": 40,
+    "aseprite_masters": 11,
+    "D_end_absence_is_intentional": true,
+    "rejected_D_end_outputs_not_bound": true,
+    "no_creative_resizing": true,
+    "no_procedural_aging": true
+  },
+  "godot_import_checks": {
+    "png_imports_present_and_ctex_destinations_exist": "51/51",
+    "import_source_md5_matches_current_png": "51/51",
+    "runtime_validation_result": "PASS",
+    "runtime_validation_checks_passed": 216,
+    "runtime_validation_errors": [],
+    "post_capture_validation_result": "PASS",
+    "post_capture_validation_driver": "opengl3",
+    "post_capture_validation_import_source_md5_all_match": true,
+    "r28_runtime_frames_have_60_of_60_r28_texture_paths": 36,
+    "r28_runtime_texture_dimensions": ["96x184", "184x56", "96x56"],
+    "p12_open_frames": 1,
+    "other_pod_open_frames": 0,
+    "aba_restore_front_left_byte_identical": true
+  },
+  "blender_source_checks": {
+    "result": "PASS",
+    "frozen_objects": 131,
+    "geometry_uvs_transforms_lights_cameras_exact": true,
+    "exterior_color_map_bindings_changed": 60,
+    "missing_external_images": 0,
+    "absolute_image_paths": 0,
+    "new_bake": false
+  },
+  "rendered_evidence_checks": {
+    "actual_gpu_frame_count": 43,
+    "derived_sheets_excluded_from_frame_count": ["native_variation_sheet.png", "pod_contact_sheet.png"],
+    "all_actual_frames_resolution": "1280x720",
+    "views_inspected": [
+      "2_game_front_middle.png",
+      "pod_contact_sheet.png (P01-P20)",
+      "2_pod_p01_exterior_closed.png",
+      "2_pod_p11_exterior_closed.png",
+      "2_pod_p12_exterior_p12_open.png",
+      "2_pod_p20_exterior_closed.png",
+      "2_corner_front_left.png"
+    ],
+    "visual_observations": {
+      "all_20_numbers_readable_in_contact_sheet": true,
+      "variation_distribution_visibly_non_identical": true,
+      "palette_and_pixel_density_consistent_across_variants": true,
+      "P01_P11_P20_closeups_show_no_wall_crossing_or_missing_texture": true,
+      "P12_open_and_closed_are_both_rendered": true,
+      "pause_ui_in_top_right_present_but_not_material_evidence_failure": true
+    }
+  },
+  "not_asserted": [
+    "User final art-direction approval has not occurred in this review.",
+    "This technical/rendered review does not establish gameplay interaction or final lighting approval."
+  ]
+}

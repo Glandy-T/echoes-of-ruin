@@ -1,0 +1,624 @@
+{
+	"asset_import": {
+		"all_source_md5_match_import": true,
+		"maps": {
+			"P01/lid": {
+				"import_source_md5": "429dc19ba60c024ddc7d9de24b7e2d2b",
+				"runtime": {
+					"decoded_pixel_md5": "191fd845155684426721267113f4c2bd",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P01_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "429dc19ba60c024ddc7d9de24b7e2d2b"
+			},
+			"P01/shell_end": {
+				"import_source_md5": "fab57f1f4e1454584cd203a9cdba579c",
+				"runtime": {
+					"decoded_pixel_md5": "0ba4d2c4a10fda905b2e0e69dc2ac2b6",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P01_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "fab57f1f4e1454584cd203a9cdba579c"
+			},
+			"P01/shell_side": {
+				"import_source_md5": "feb4e189f042e8ccbffd81e165c952be",
+				"runtime": {
+					"decoded_pixel_md5": "5b5b3e11b6511b02bcf23c4c66d09c82",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_b/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "feb4e189f042e8ccbffd81e165c952be"
+			},
+			"P02/lid": {
+				"import_source_md5": "883b571b0dc19e3ac351443a738942a8",
+				"runtime": {
+					"decoded_pixel_md5": "34ea5bdb00711849dd52f5dbb6607e2c",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P02_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "883b571b0dc19e3ac351443a738942a8"
+			},
+			"P02/shell_end": {
+				"import_source_md5": "2f8a6e126ea5ff471df9392a5ff0c655",
+				"runtime": {
+					"decoded_pixel_md5": "f5938643769c81102ee56866b6b13dda",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P02_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "2f8a6e126ea5ff471df9392a5ff0c655"
+			},
+			"P02/shell_side": {
+				"import_source_md5": "f79b0cbc3981e861bd4444b4aee52dea",
+				"runtime": {
+					"decoded_pixel_md5": "dbcefc2c969fdd9c365affdb1efca8db",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_d/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "f79b0cbc3981e861bd4444b4aee52dea"
+			},
+			"P03/lid": {
+				"import_source_md5": "6224512e78a991b9949b0a2cd6db0fc8",
+				"runtime": {
+					"decoded_pixel_md5": "bb7beee5b88db3af0239fd936decf056",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P03_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "6224512e78a991b9949b0a2cd6db0fc8"
+			},
+			"P03/shell_end": {
+				"import_source_md5": "824254488f1ff0651449717575237700",
+				"runtime": {
+					"decoded_pixel_md5": "43d8ee63a71ee5016604788be558e634",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P03_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "824254488f1ff0651449717575237700"
+			},
+			"P03/shell_side": {
+				"import_source_md5": "d11a405e2e794abfa03d58d788378dd6",
+				"runtime": {
+					"decoded_pixel_md5": "4552c682f4f616c05f01b130e38d2fa0",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_c/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "d11a405e2e794abfa03d58d788378dd6"
+			},
+			"P04/lid": {
+				"import_source_md5": "95ff54c7951f486e047435fa96324e4f",
+				"runtime": {
+					"decoded_pixel_md5": "fcc556d5b6c3108ac536cf8bccba172a",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P04_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "95ff54c7951f486e047435fa96324e4f"
+			},
+			"P04/shell_end": {
+				"import_source_md5": "d0828dbcb3c1e30aa8d89d377edf8ea4",
+				"runtime": {
+					"decoded_pixel_md5": "29601be13a92c89717bc739c6545b20a",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P04_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "d0828dbcb3c1e30aa8d89d377edf8ea4"
+			},
+			"P04/shell_side": {
+				"import_source_md5": "f79b0cbc3981e861bd4444b4aee52dea",
+				"runtime": {
+					"decoded_pixel_md5": "dbcefc2c969fdd9c365affdb1efca8db",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_d/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "f79b0cbc3981e861bd4444b4aee52dea"
+			},
+			"P05/lid": {
+				"import_source_md5": "96963e7ac6d798b61a1447eee6304743",
+				"runtime": {
+					"decoded_pixel_md5": "bc892b4aedc23708802c85e2de15765f",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P05_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "96963e7ac6d798b61a1447eee6304743"
+			},
+			"P05/shell_end": {
+				"import_source_md5": "3237a4f2d61251623349ca5830719127",
+				"runtime": {
+					"decoded_pixel_md5": "860b00bf5a1c9ba8692295a27aaa86af",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P05_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "3237a4f2d61251623349ca5830719127"
+			},
+			"P05/shell_side": {
+				"import_source_md5": "d11a405e2e794abfa03d58d788378dd6",
+				"runtime": {
+					"decoded_pixel_md5": "4552c682f4f616c05f01b130e38d2fa0",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_c/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "d11a405e2e794abfa03d58d788378dd6"
+			},
+			"P06/lid": {
+				"import_source_md5": "ab1961c2fd9691ac8e63c439a3288328",
+				"runtime": {
+					"decoded_pixel_md5": "fef536e176fb5077b4da29bce5775701",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P06_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "ab1961c2fd9691ac8e63c439a3288328"
+			},
+			"P06/shell_end": {
+				"import_source_md5": "687d3cf8918ae847f56ebc8b630954a1",
+				"runtime": {
+					"decoded_pixel_md5": "219157994b2d9ad901e174205d307a69",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P06_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "687d3cf8918ae847f56ebc8b630954a1"
+			},
+			"P06/shell_side": {
+				"import_source_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+				"runtime": {
+					"decoded_pixel_md5": "361059b99273dcc36caa2d603fd6af93",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_a/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce"
+			},
+			"P07/lid": {
+				"import_source_md5": "5a49ec2ba7dd387e05bfd487121592cb",
+				"runtime": {
+					"decoded_pixel_md5": "48e1e9bf195c54d3395a9832f66cde0c",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P07_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "5a49ec2ba7dd387e05bfd487121592cb"
+			},
+			"P07/shell_end": {
+				"import_source_md5": "119d634eafe5d017f7c2f1e56aade124",
+				"runtime": {
+					"decoded_pixel_md5": "2b25b395b2be49a04f492993b4a37b3f",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P07_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "119d634eafe5d017f7c2f1e56aade124"
+			},
+			"P07/shell_side": {
+				"import_source_md5": "feb4e189f042e8ccbffd81e165c952be",
+				"runtime": {
+					"decoded_pixel_md5": "5b5b3e11b6511b02bcf23c4c66d09c82",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_b/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "feb4e189f042e8ccbffd81e165c952be"
+			},
+			"P08/lid": {
+				"import_source_md5": "48cb775427677333e5819a915ddd4a9a",
+				"runtime": {
+					"decoded_pixel_md5": "dbfc65528694af54994bf730cf72de1e",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P08_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "48cb775427677333e5819a915ddd4a9a"
+			},
+			"P08/shell_end": {
+				"import_source_md5": "fa09df07e25828e1cd8d2fc0ed7939e6",
+				"runtime": {
+					"decoded_pixel_md5": "023d8959e8a36cd9432f319773b92c3e",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P08_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "fa09df07e25828e1cd8d2fc0ed7939e6"
+			},
+			"P08/shell_side": {
+				"import_source_md5": "f79b0cbc3981e861bd4444b4aee52dea",
+				"runtime": {
+					"decoded_pixel_md5": "dbcefc2c969fdd9c365affdb1efca8db",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_d/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "f79b0cbc3981e861bd4444b4aee52dea"
+			},
+			"P09/lid": {
+				"import_source_md5": "0d39bdbbbd03b02010602870b55622d4",
+				"runtime": {
+					"decoded_pixel_md5": "516c4d4403dd1e77bcc7079753e9869b",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P09_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "0d39bdbbbd03b02010602870b55622d4"
+			},
+			"P09/shell_end": {
+				"import_source_md5": "bf70aa3b9a11493c6047d4c8ea23435a",
+				"runtime": {
+					"decoded_pixel_md5": "392589f470111a0ec1c40775f92c1f46",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P09_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "bf70aa3b9a11493c6047d4c8ea23435a"
+			},
+			"P09/shell_side": {
+				"import_source_md5": "feb4e189f042e8ccbffd81e165c952be",
+				"runtime": {
+					"decoded_pixel_md5": "5b5b3e11b6511b02bcf23c4c66d09c82",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_b/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "feb4e189f042e8ccbffd81e165c952be"
+			},
+			"P10/lid": {
+				"import_source_md5": "23da3f02e5cd9f455a3e8559e3fc85d1",
+				"runtime": {
+					"decoded_pixel_md5": "8f84cbc5bff7c42efffe7c4ea589dd5a",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P10_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "23da3f02e5cd9f455a3e8559e3fc85d1"
+			},
+			"P10/shell_end": {
+				"import_source_md5": "fc9e182d5392f7ae2527929d60f30300",
+				"runtime": {
+					"decoded_pixel_md5": "68d551507a59d8036bb8e8b97d2443fe",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P10_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "fc9e182d5392f7ae2527929d60f30300"
+			},
+			"P10/shell_side": {
+				"import_source_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+				"runtime": {
+					"decoded_pixel_md5": "361059b99273dcc36caa2d603fd6af93",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_a/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce"
+			},
+			"P11/lid": {
+				"import_source_md5": "59a6f6c75cdcb485fb209fa7d453d6f9",
+				"runtime": {
+					"decoded_pixel_md5": "b8bb04f5f27d88cda86035f29d958ebd",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P11_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "59a6f6c75cdcb485fb209fa7d453d6f9"
+			},
+			"P11/shell_end": {
+				"import_source_md5": "2c399732e4033091b49893bae1a803df",
+				"runtime": {
+					"decoded_pixel_md5": "97def76380735700a2c23bff7d6ebc8e",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P11_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "2c399732e4033091b49893bae1a803df"
+			},
+			"P11/shell_side": {
+				"import_source_md5": "d11a405e2e794abfa03d58d788378dd6",
+				"runtime": {
+					"decoded_pixel_md5": "4552c682f4f616c05f01b130e38d2fa0",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_c/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "d11a405e2e794abfa03d58d788378dd6"
+			},
+			"P12/lid": {
+				"import_source_md5": "60d681b7a0527b721adf61e8a27b8622",
+				"runtime": {
+					"decoded_pixel_md5": "7edcc6bce977c4a8dec93f46b1dd5f7f",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P12_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "60d681b7a0527b721adf61e8a27b8622"
+			},
+			"P12/shell_end": {
+				"import_source_md5": "72e27d2ab03980118fef5783e9715611",
+				"runtime": {
+					"decoded_pixel_md5": "884937e85910d801e455bccf850b8727",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P12_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "72e27d2ab03980118fef5783e9715611"
+			},
+			"P12/shell_side": {
+				"import_source_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+				"runtime": {
+					"decoded_pixel_md5": "361059b99273dcc36caa2d603fd6af93",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_a/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce"
+			},
+			"P13/lid": {
+				"import_source_md5": "51e8d663bf05679c0cdd4a73a9d82f39",
+				"runtime": {
+					"decoded_pixel_md5": "619ddfae23661697776aa8e20d6c2517",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P13_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "51e8d663bf05679c0cdd4a73a9d82f39"
+			},
+			"P13/shell_end": {
+				"import_source_md5": "4f28a8659e65de18534bfa2ddfca8c60",
+				"runtime": {
+					"decoded_pixel_md5": "4649beb5bc400d9f0ced3ecfc157e842",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P13_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "4f28a8659e65de18534bfa2ddfca8c60"
+			},
+			"P13/shell_side": {
+				"import_source_md5": "feb4e189f042e8ccbffd81e165c952be",
+				"runtime": {
+					"decoded_pixel_md5": "5b5b3e11b6511b02bcf23c4c66d09c82",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_b/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "feb4e189f042e8ccbffd81e165c952be"
+			},
+			"P14/lid": {
+				"import_source_md5": "3b2454961e19a092cc208d83e9175d49",
+				"runtime": {
+					"decoded_pixel_md5": "d9da196da7d60f5bbaf36fa43ea24ba7",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P14_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "3b2454961e19a092cc208d83e9175d49"
+			},
+			"P14/shell_end": {
+				"import_source_md5": "a56db8c2bbf89c0d8ee8451a0203de5a",
+				"runtime": {
+					"decoded_pixel_md5": "3f33054355be21d89de64b160e1ec03e",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P14_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "a56db8c2bbf89c0d8ee8451a0203de5a"
+			},
+			"P14/shell_side": {
+				"import_source_md5": "d11a405e2e794abfa03d58d788378dd6",
+				"runtime": {
+					"decoded_pixel_md5": "4552c682f4f616c05f01b130e38d2fa0",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_c/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "d11a405e2e794abfa03d58d788378dd6"
+			},
+			"P15/lid": {
+				"import_source_md5": "6f4e4ef63026405a2dadd3d121c8a1a9",
+				"runtime": {
+					"decoded_pixel_md5": "36fb11f9be963eb1ecb99e16cd1858ea",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P15_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "6f4e4ef63026405a2dadd3d121c8a1a9"
+			},
+			"P15/shell_end": {
+				"import_source_md5": "78c4fcf2b5f633febfddba9fef2bcf9c",
+				"runtime": {
+					"decoded_pixel_md5": "3a992a4d9d4b9acc9ac49a2aa18728d7",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P15_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "78c4fcf2b5f633febfddba9fef2bcf9c"
+			},
+			"P15/shell_side": {
+				"import_source_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+				"runtime": {
+					"decoded_pixel_md5": "361059b99273dcc36caa2d603fd6af93",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_a/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce"
+			},
+			"P16/lid": {
+				"import_source_md5": "8355783f7e5ee0cd97995b09b7ed1742",
+				"runtime": {
+					"decoded_pixel_md5": "d06b147787baf085dd6f0d8b94ad5d07",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P16_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "8355783f7e5ee0cd97995b09b7ed1742"
+			},
+			"P16/shell_end": {
+				"import_source_md5": "e4bcf7778d9981467c15561401e95e0f",
+				"runtime": {
+					"decoded_pixel_md5": "de203a8a8c8007797c01db175d474844",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P16_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "e4bcf7778d9981467c15561401e95e0f"
+			},
+			"P16/shell_side": {
+				"import_source_md5": "feb4e189f042e8ccbffd81e165c952be",
+				"runtime": {
+					"decoded_pixel_md5": "5b5b3e11b6511b02bcf23c4c66d09c82",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_b/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "feb4e189f042e8ccbffd81e165c952be"
+			},
+			"P17/lid": {
+				"import_source_md5": "ccb282afe71f4e789fcfdb486842712e",
+				"runtime": {
+					"decoded_pixel_md5": "d135bd02dfa2949b4aee8e9642db3f7a",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P17_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "ccb282afe71f4e789fcfdb486842712e"
+			},
+			"P17/shell_end": {
+				"import_source_md5": "ceadf481abcbbf42b932d96c221bc261",
+				"runtime": {
+					"decoded_pixel_md5": "ea41c1b1caa0deecdd150b247475fb47",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P17_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "ceadf481abcbbf42b932d96c221bc261"
+			},
+			"P17/shell_side": {
+				"import_source_md5": "f79b0cbc3981e861bd4444b4aee52dea",
+				"runtime": {
+					"decoded_pixel_md5": "dbcefc2c969fdd9c365affdb1efca8db",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_d/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "f79b0cbc3981e861bd4444b4aee52dea"
+			},
+			"P18/lid": {
+				"import_source_md5": "cc6bb6448e99e3c8d94560f37c508217",
+				"runtime": {
+					"decoded_pixel_md5": "e3c3ed12d57d773cff5bd69f8ebb923e",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P18_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "cc6bb6448e99e3c8d94560f37c508217"
+			},
+			"P18/shell_end": {
+				"import_source_md5": "95c5462209cd95954d6c838cdacff4c0",
+				"runtime": {
+					"decoded_pixel_md5": "cb117fb314b581942b3cbc00c82e123f",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P18_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "95c5462209cd95954d6c838cdacff4c0"
+			},
+			"P18/shell_side": {
+				"import_source_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce",
+				"runtime": {
+					"decoded_pixel_md5": "361059b99273dcc36caa2d603fd6af93",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_a/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "0ff5202345a6d78d1e8b57fe7eb6e4ce"
+			},
+			"P19/lid": {
+				"import_source_md5": "264e28944e316350311b99547ddbece9",
+				"runtime": {
+					"decoded_pixel_md5": "44180590092b647476a0c4fccdff831b",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P19_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "264e28944e316350311b99547ddbece9"
+			},
+			"P19/shell_end": {
+				"import_source_md5": "22ef8801d3b675c7ba9ee079f7e33483",
+				"runtime": {
+					"decoded_pixel_md5": "5ebb14739505fc27cc23e5870a2769ae",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P19_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "22ef8801d3b675c7ba9ee079f7e33483"
+			},
+			"P19/shell_side": {
+				"import_source_md5": "f79b0cbc3981e861bd4444b4aee52dea",
+				"runtime": {
+					"decoded_pixel_md5": "dbcefc2c969fdd9c365affdb1efca8db",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_d/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "f79b0cbc3981e861bd4444b4aee52dea"
+			},
+			"P20/lid": {
+				"import_source_md5": "8d1c9decdce55f87cf161159b7663a63",
+				"runtime": {
+					"decoded_pixel_md5": "e157d494861fa51dbeeea93b5f1ecbb1",
+					"height": 184,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P20_lid.png",
+					"width": 96
+				},
+				"source_png_md5": "8d1c9decdce55f87cf161159b7663a63"
+			},
+			"P20/shell_end": {
+				"import_source_md5": "3fe0dd856135a0ef9af3e458aeb58b67",
+				"runtime": {
+					"decoded_pixel_md5": "874342c827533bfc2842b7b8336a11cb",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/numbered/P20_shell_end.png",
+					"width": 96
+				},
+				"source_png_md5": "3fe0dd856135a0ef9af3e458aeb58b67"
+			},
+			"P20/shell_side": {
+				"import_source_md5": "d11a405e2e794abfa03d58d788378dd6",
+				"runtime": {
+					"decoded_pixel_md5": "4552c682f4f616c05f01b130e38d2fa0",
+					"height": 56,
+					"path": "res://assets/art/room1_pod_age_full_r28/variant_c/shell_side.png",
+					"width": 184
+				},
+				"source_png_md5": "d11a405e2e794abfa03d58d788378dd6"
+			}
+		}
+	},
+	"capture": {
+		"aba_game_front_left": {
+			"A_differs_from_B": true,
+			"A_equals_restore": true,
+			"A_r27_baseline": "82a6855d25dcbcd5b92f1c6b7b509ef66585f49a65e5f2ee17f1fe42b5b090c5",
+			"A_restore": "82a6855d25dcbcd5b92f1c6b7b509ef66585f49a65e5f2ee17f1fe42b5b090c5",
+			"B_r28_candidate": "3b90883315947ff78b6a06bab5bfe3c1e9e7f72482cff46ea0ab35c7d42d5537"
+		},
+		"driver": "opengl3",
+		"png_count": 45,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	"result": "PASS",
+	"runtime_verification": "PASS"
+}
