@@ -1,6 +1,6 @@
 # Room 1：当前、正式与历史版本索引
 
-核对日期：2026-11-02。此索引区分用途，不宣布新的美术或像素技术参数已经定案。
+核对日期：2026-11-02。此索引区分素材用途；用户已更新视觉与制作约束，见[像素美术制作基准](PIXEL_ART_PRODUCTION_STANDARD.md)。约束更新不代表下表素材已经返修或验收通过。
 
 ## 最新美术工作集
 
@@ -16,7 +16,7 @@
 | 房壳、布局与全室光照 | `assets/art/room1_complete_r19/`等继承资源 | [r19](experiments/room1_complete_r19/README.md)。本轮未重烘。 |
 | 最新整室Blender | `experiments/room1_floor_detail_full_r26/room1_floor_detail_full_r26.blend` | 使用同一仓库的相对路径图；不是独立于仓库的单文件交付。 |
 
-细节完成度参照是用户已认可的[墙面r23](experiments/room1_wall_detail_r23/README.md)与[地板r25 C](experiments/room1_floor_detail_r25/README.md)。差分分布可变，但不能退回近乎空白。整室候选与局部基准的审查状态分别记录。
+细节完成度参照是用户已认可的[墙面r23](experiments/room1_wall_detail_r23/README.md)与[地板r25 C](experiments/room1_floor_detail_r25/README.md)。差分分布可变，但不能退回近乎空白。整室候选与局部基准的审查状态分别记录。**当前r22舱外壳待统一原生密度并补足可读做旧，不作为长期密度例外；返修尚未实施。**
 
 ## 正式游戏基线
 
@@ -37,4 +37,4 @@ F5标题进入`scenes/areas/military_facility/cryo_room_4f_01_3d.tscn`，继承r
 
 ## 后续更新规则
 
-每次完成新候选，只更新本索引对应部分，写清替代了哪一层、仍继承什么、正式入口是否切换。像素与镜头规格要经用户确认后单独固化，不能从某一版文件属性自动推导为已批准标准。
+每次完成新候选，只更新本索引对应部分，写清替代了哪一层、仍继承什么、正式入口是否切换。后续遵从2026-11-02制作基准，认可后冻结，不能从任一旧版文件属性推导新规格，也不继续无目标扩展试验。
