@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "checks": {
+    "runtime_size": true,
+    "request_size": true,
+    "ASE_readback_exact": true,
+    "new_material_raw_pixels_exact": true,
+    "protected_seal_status_exact": true,
+    "opaque": true,
+    "editable_master": true,
+    "real_job": true,
+    "10_generations": true,
+    "blender_only_one_image": true,
+    "blender_dependencies": true
+  },
+  "used_AI_requests": 1,
+  "usage_generations": 10,
+  "creative_resizing": false,
+  "manual_paint_edits": 0,
+  "scope": "door pixel_map only; all r28 material and existing shader unchanged"
+}

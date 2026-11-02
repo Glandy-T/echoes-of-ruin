@@ -1,0 +1,295 @@
+{
+  "scope": "Only door pixel_map replaced; all approvedr28 room materials,geometry,UV,shader,lights and behavior unchanged.",
+  "files": [
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/.gitignore",
+      "bytes": 70,
+      "sha256": "3e2e95e604ee9086abbe8db8e6addf3c701687347cb9db226da40dbf62012fb8"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/editable/door_front_r29.aseprite",
+      "bytes": 5593,
+      "sha256": "b36fad151767fdf19896b29ea1aa1fd7aded3c81b86491b5964764caf45bb576"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/1_a_door_wall_front.png",
+      "bytes": 116371,
+      "sha256": "13e9c5f61081b05dd0a0c20eb340e9130efb6be546a21413c6be17f5070adf9f"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/1_a_door_wall_oblique.png",
+      "bytes": 161969,
+      "sha256": "3cb002ad4576af46154b559c4f781fe80fcd61cdf3da5c01983b9ac9be248c1a"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/1_a_game_door_closed.png",
+      "bytes": 371661,
+      "sha256": "08aa9575bedea4af266fcbd5e1ccb2cfb105060c2ef9f5fd955a4c46b9675495"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/1_a_restore_door_wall_front.png",
+      "bytes": 116371,
+      "sha256": "13e9c5f61081b05dd0a0c20eb340e9130efb6be546a21413c6be17f5070adf9f"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/1_a_restore_game_door_closed.png",
+      "bytes": 371661,
+      "sha256": "08aa9575bedea4af266fcbd5e1ccb2cfb105060c2ef9f5fd955a4c46b9675495"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_door_front_close.png",
+      "bytes": 69866,
+      "sha256": "aa821f78c6695f77edfbdf0ed911fa4151fceede6cba237c0bca4ade323a7618"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_door_oblique_close.png",
+      "bytes": 87865,
+      "sha256": "5df9cad30fd2c04a15b2b9b5ff4e81ac565411aafe2bf9bc4e50793ff63673d9"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_door_wall_front.png",
+      "bytes": 116736,
+      "sha256": "4cbe7b59dafc4d67782c4dd5182491defa9c3192d9b55d0749b9ac9fbf2bc2da"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_door_wall_oblique.png",
+      "bytes": 161377,
+      "sha256": "c366b1726a414ade7b2a3ce41027a16a2d95ec9c18f38706ff87d44037696234"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_game_door_closed.png",
+      "bytes": 371910,
+      "sha256": "04078239d69b65475d880f6a8a20ededb9fbc3f526c706ba5b2bf321afea3f80"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_game_door_open.png",
+      "bytes": 371965,
+      "sha256": "22e84a35455c501dee920197fe54bd6c2a645b24fce5a252704c2a3e43621094"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_open_green_soft_glow.png",
+      "bytes": 135988,
+      "sha256": "85207cce4637c4ae2cd0e65eb6ee3615a24e2b67af8d7d36fd1eca6c33a5323c"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_open_oblique_close.png",
+      "bytes": 180788,
+      "sha256": "0440e9959362da565356cdc18782619e9c3a8b3dabd761724bd1a6e67d5330a8"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_opening_green_reveal.png",
+      "bytes": 161822,
+      "sha256": "6d533e7b62abac1ef314d861803e9895b4ae02f9ed3b245e6ee933354069efe5"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/2_b_scanning_yellow_window.png",
+      "bytes": 89711,
+      "sha256": "49a5d45ba7ec83869d8d00a18e2d2eab60ef560f10849418d3a27ed530b5cd0c"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/evidence/capture_record.json",
+      "bytes": 9310,
+      "sha256": "0f4dcdb8b4ea1c23953cca1cb48e968cc5c92e863f46198718bf27a90483182a"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/preview.html",
+      "bytes": 3872,
+      "sha256": "5d4ad98e20377e18845aaa22d8464446a376ceac998e98fdeffcfee912e7ea94"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/raw/door.png",
+      "bytes": 14594,
+      "sha256": "1c7ffcd3a5b9c78a30bbcb0cb87fcae63fe71b2443917fd4aa2bfb65fb53d55f"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/README.md",
+      "bytes": 4231,
+      "sha256": "1f9016503922b9963f461808c8b997c4b8a9d96173a08bb481f61a5fa1a1221f"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/result_door.json",
+      "bytes": 260,
+      "sha256": "7005bee7efd1704fe685884688cb7dfe35db3987e8c9d74999849d6c54cd5dad"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/room1_door_material_r29.blend",
+      "bytes": 853667,
+      "sha256": "7bf7dc2cc1867e76ab843d0272e613fdbf34b51fb5a2447dd4bca3069013b267"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/artifact_validation.json",
+      "bytes": 588,
+      "sha256": "a1ae86676bb2a18a9037fdda9f4b49ab9c4bd90fd4c1e6eb816d09a5ef035f33"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/baseline_hashes.json",
+      "bytes": 10188,
+      "sha256": "c8cae485b2cd4fced6c231b26b8bccdedaa82d5d17757d0abdf6a8c9c27470fc"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/blender_material_source.py",
+      "bytes": 2664,
+      "sha256": "1b59b4a3698654222a77ad245dad2d573d1770a485a7786e6d8382523e436a9f"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/blender_readback.json",
+      "bytes": 433,
+      "sha256": "37d169f4a5810ae283443d67e10276e06e2a8529b31ce20a462b43d11c478d18"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/build_preview.py",
+      "bytes": 2515,
+      "sha256": "60f227f2467ea0b3e96143961f3542696230b529427feeb74feba8fd8ebedc7b"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/capture_validation.json",
+      "bytes": 955,
+      "sha256": "3f01cbf4a8c6cca496ad48cebea9962eb0df7d1bcf4dcb6dee97bbfac6e25cbf"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/check_artifacts.py",
+      "bytes": 1884,
+      "sha256": "17b29e69f6d6bc28b9071f83364e8d9f64c6fb7a6b5c8e8560f53f7351790b6a"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/compose.py",
+      "bytes": 1418,
+      "sha256": "792dcdc1e16431a062c1b90fb3e28ffab35060f265b18907e348dbcd6ed17971"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/composite_validation.json",
+      "bytes": 420,
+      "sha256": "f0be4bd02b501a69e1fcc46266e30cc6d575722caf10c26710ba7115d92610ab"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/door_clean_structure.png",
+      "bytes": 1029,
+      "sha256": "5c70fba98b8aa80dac8e47c771c243d1a7205d3397ac526747e2ac6ed39f797a"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/door_mask.png",
+      "bytes": 326,
+      "sha256": "a3289530b6d6b0a7eee51c52fec1b4a9ba77bca4ae61d0630f285faea21e2c18"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/freeze_baseline.py",
+      "bytes": 1054,
+      "sha256": "5ccd3e0e404674af0ab98d0488580c3e99201d8510ef2d5cc1454753dc24b2d5"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/guide_door.png",
+      "bytes": 8804,
+      "sha256": "ac60971825bd62d8c8ed6643f5c39f480c0ed6132b0ea7f4b2cd7bd020ca9a72"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/input_provenance.json",
+      "bytes": 685,
+      "sha256": "c1655fc3068db10ba9e7c4a160abdcc72cff1625abb17ba3965ecf07ddf58fa8"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/job_door.json",
+      "bytes": 112,
+      "sha256": "c6612668b0e8c9eb1b7394bfd058371a598d9fed187edc64a3ac2a5105e7830e"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/jobs.py",
+      "bytes": 3333,
+      "sha256": "8360463b909a3ab41bc97301d65cad6ddcec188d7473d294d50f69e1fc8cab8e"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/layers/PixelLab_matte_composite_age.png",
+      "bytes": 6862,
+      "sha256": "c117330f28220bd586a720c4f58044f66a33cf26a4ef9366b50c209d91bca9e7"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/layers/protected_structure_clean_base.png",
+      "bytes": 1029,
+      "sha256": "5c70fba98b8aa80dac8e47c771c243d1a7205d3397ac526747e2ac6ed39f797a"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/mask_door.png",
+      "bytes": 388,
+      "sha256": "0b4a3a167638682bb5eeec5d0370aeb551800895b5ae27fb6fa42d02c3f24045"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/package.lua",
+      "bytes": 538,
+      "sha256": "74e40b3a0577dbf368569266adcf58c126dd11ae848885d331ad5e76fe9f7727"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/package_delivery.py",
+      "bytes": 1236,
+      "sha256": "ca8e4846e2205ad3097de91c03f069abe0286b24ee6a6b983ac75cf4169b71b9"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/pixellab_api.py",
+      "bytes": 1339,
+      "sha256": "b0ad109e12f2c09930489e730b74e4851c56cde3659ecc45ebf2d99f211cc578"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/prepare.py",
+      "bytes": 4296,
+      "sha256": "38a29df327398c3ce9a089ff8fc907abf48fe03b3e504923afbf93744171c77e"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/prompt_door.txt",
+      "bytes": 1643,
+      "sha256": "eff86d929a6e8d907e6934ea9bf4de364bf4ae964076b7eccdd2f601452254fa"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/readback_door.png",
+      "bytes": 6822,
+      "sha256": "f1cba7ea49bb340451af681d7eceffa4649987a60a50760b11713bcd78637b9e"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/requests.json",
+      "bytes": 318,
+      "sha256": "3e97101bfbdf5a9792130430a830f3aba89bc153cb3fbab4d751eacf941f3e56"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/runtime_validation.json",
+      "bytes": 1037,
+      "sha256": "cdb0fa1d126e3821106249de85e458cd9246cd5bd91a4921b08e809685083852"
+    },
+    {
+      "path": "docs/art/experiments/room1_door_material_r29/source/serve_preview.py",
+      "bytes": 583,
+      "sha256": "0333c50a5b1e39c4dfea57b5b576cc0f9eb9b4fd1bb229da73513b09bb6b6108"
+    },
+    {
+      "path": "assets/art/room1_door_material_r29/door_front.png",
+      "bytes": 6152,
+      "sha256": "86671ae5733c776e896d0c81b4bbcbf45bc1378de2104ab3c2710fa87fbca7d0"
+    },
+    {
+      "path": "scripts/dev/room1_door_material_r29.gd",
+      "bytes": 2714,
+      "sha256": "1d2b0a94e3332a304e2322f810415601e88fcf6ac4ec428595d80e3223303165"
+    },
+    {
+      "path": "scripts/dev/capture_room1_door_material_r29.gd",
+      "bytes": 5812,
+      "sha256": "55d06b59921adf2b2c6e966eceb773bb56608b3a2bb64f01930bac3d1f109c50"
+    },
+    {
+      "path": "scripts/dev/verify_room1_door_material_r29.gd",
+      "bytes": 8015,
+      "sha256": "cd8d60ea79c51d6bc6536c087d88cfeecc10426e710d55105fedbff591393bb4"
+    },
+    {
+      "path": "scenes/dev/room1_door_material_r29.tscn",
+      "bytes": 327,
+      "sha256": "3d87fb08e7db06db721fac65131695f6eca52077d87b5f3452c25ad0fedb372b"
+    },
+    {
+      "path": "scenes/dev/room1_door_material_r29_capture.tscn",
+      "bytes": 389,
+      "sha256": "837aa161f7f3f5a7f6f11ffed3f291b207cb864a3b8f59150c961b762ad0764d"
+    },
+    {
+      "path": "scenes/dev/room1_door_material_r29_verify.tscn",
+      "bytes": 386,
+      "sha256": "8c808cd591b56688f1f6f3ec05ebcc1e472c8fb5a812edda396a1894c9cb7622"
+    }
+  ]
+}

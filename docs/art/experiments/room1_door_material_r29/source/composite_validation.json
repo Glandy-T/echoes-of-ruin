@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "request_canvas": [
+    256,
+    192
+  ],
+  "native_door_crop": [
+    4,
+    4,
+    116,
+    188
+  ],
+  "runtime_size": [
+    112,
+    184
+  ],
+  "output_resized": false,
+  "protected_pixels": 2048,
+  "changed_pixels": 18557,
+  "protected_structure_exact": true,
+  "final_sha256": "86671ae5733c776e896d0c81b4bbcbf45bc1378de2104ab3c2710fa87fbca7d0",
+  "manual_art_edits": 0
+}

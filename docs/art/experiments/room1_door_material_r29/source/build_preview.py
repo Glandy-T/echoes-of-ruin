@@ -1,0 +1,14 @@
+from pathlib import Path
+import json
+HERE=Path(__file__).resolve().parent;EXP=HERE.parent
+rows=json.loads((EXP/'evidence/capture_record.json').read_text());names={r['file'] for r in rows};pairs=[]
+for a in sorted(names):
+ if a.startswith('1_a_') and ('2_b_'+a[4:]) in names:pairs.append((a,'2_b_'+a[4:]))
+sections=[]
+for a,b in pairs:
+ title=a[4:-4].replace('_',' ')
+ sections.append('<section><h2>'+title+'</h2><div class="pair">'+''.join('<figure><figcaption>'+label+'</figcaption><a href="evidence/'+name+'"><img loading="lazy" src="evidence/'+name+'"></a></figure>' for name,label in [(a,'A · 原v7门面'),(b,'B · r29哑光复合涂层')])+'</div></section>')
+extras=[n for n in sorted(names) if n.startswith('2_b_') and not any(n==b for _,b in pairs)]
+gallery=''.join('<figure><figcaption>'+n[4:-4].replace('_',' ')+'</figcaption><a href="evidence/'+n+'"><img loading="lazy" src="evidence/'+n+'"></a></figure>' for n in extras)
+page='''<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Room 1 门面材质 r29</title><style>body{background:#131b1c;color:#d9e3de;font:16px/1.6 system-ui;margin:24px auto;padding:0 20px;max-width:1600px}h1{font-size:26px}h2{font-size:19px;margin-top:32px}a{color:#a7d3d8}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0;background:#202b2c;padding:10px}figcaption{margin-bottom:8px}img{display:block;width:100%;height:auto;image-rendering:pixelated}p{max-width:1080px}@media(max-width:800px){.pair{grid-template-columns:1fr}}</style><h1>Room 1 · 门面哑光材质与做旧 r29</h1><p>只更换门的一张颜色图：去掉原图斜向亮带，改为与房间相符的哑光矿物／陶瓷复合涂层，补足细碎接触旧化和主面材料变化。门形、UV、Shader、状态窗、自动开闭、框内绿灯／柔光、全室灯光、已认可20舱和墙地保持。</p><p>PixelLab原生制作，Aseprite分层；112×184原生裁切，无缩放，无脚本污斑。正式F5未切换；本页为独立审查。<a href="README.md">来源与检查</a> · <a href="room1_door_material_r29.blend">完整Blender</a> · <a href="editable/door_front_r29.aseprite">Aseprite母版</a></p>'''+''.join(sections)+'<h2>认证、开启与材质近景</h2><div class="pair">'+gallery+'</div><h2>原生门面</h2><img style="width:224px" src="source/readback_door.png"></html>'
+(EXP/'preview.html').write_text(page,encoding='utf8');print('R29_PREVIEW',len(pairs),'actualA/Bpairs')

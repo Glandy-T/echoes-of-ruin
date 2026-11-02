@@ -1,0 +1,20 @@
+[
+  {
+    "name": "door",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_door.txt",
+    "guide": "guide_door.png",
+    "mask": "mask_door.png",
+    "seed": 2026110270,
+    "native_size": [
+      256,
+      192
+    ],
+    "output_door_crop": [
+      4,
+      4,
+      116,
+      188
+    ]
+  }
+]

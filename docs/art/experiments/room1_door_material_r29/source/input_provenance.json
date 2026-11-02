@@ -1,0 +1,25 @@
+{
+  "original_door": "assets/art/room1_integrated_door_pixellab_v7/door_front.png",
+  "old_sha256": "29f63325c403560d8712cff18627a38e5a9837d7fbc0f03fc79af294c8c34125",
+  "flat_guide_color": "#D3D6C9",
+  "removed_from_guide": [
+    "old diagonal broad light bands",
+    "old material age in white edit area"
+  ],
+  "owned_style_context": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+  "wall_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+  "wall_crop_native": [
+    172,
+    56,
+    284,
+    240
+  ],
+  "door_native_crop": [
+    4,
+    4,
+    116,
+    188
+  ],
+  "creative_resize": false,
+  "third_party_AI_input": false
+}

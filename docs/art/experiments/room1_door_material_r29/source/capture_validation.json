@@ -1,0 +1,34 @@
+{
+	"asset_import": {
+		"import_source_md5": "219e81674f071086b0ded7241cc234b9",
+		"runtime": {
+			"baseline_path": "res://assets/art/room1_integrated_door_pixellab_v7/door_front.png",
+			"decoded_pixel_md5": "2a522ebec691fd0610d0e028b659f59f",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"width": 112
+		},
+		"source_png_md5": "219e81674f071086b0ded7241cc234b9"
+	},
+	"capture": {
+		"aba_closed_idle": {
+			"A_differs_from_B": true,
+			"A_equals_restore": true,
+			"A_r28_v7": "08aa9575bedea4af266fcbd5e1ccb2cfb105060c2ef9f5fd955a4c46b9675495",
+			"A_restore": "08aa9575bedea4af266fcbd5e1ccb2cfb105060c2ef9f5fd955a4c46b9675495",
+			"B_r29": "04078239d69b65475d880f6a8a20ededb9fbc3f526c706ba5b2bf321afea3f80"
+		},
+		"driver": "opengl3",
+		"png_count": 15,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	"result": "PASS",
+	"runtime_verification": "PASS"
+}
