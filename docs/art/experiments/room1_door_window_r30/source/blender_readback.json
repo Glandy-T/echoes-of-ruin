@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "frozen_objects": 131,
+  "geometry_UVs_transforms_material_slots_lights_cameras_exact": true,
+  "image_changes": [
+    {
+      "image": "door_front.png",
+      "old": "assets/art/room1_door_material_r29/door_front.png",
+      "new": "assets/art/room1_door_window_r30/door_front.png"
+    }
+  ],
+  "external_images": 234,
+  "missing": [],
+  "absolute_paths": [],
+  "new_bake": false
+}

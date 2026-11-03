@@ -1,0 +1,4 @@
+*.log
+*.err
+*.blend1
+__pycache__/

@@ -1,12 +1,12 @@
 # Room 1：当前、正式与历史版本索引
 
-核对日期：2026-11-02。此索引区分素材用途；用户已更新视觉与制作约束，见[像素美术制作基准](PIXEL_ART_PRODUCTION_STANDARD.md)。约束更新不代表下表素材已经返修或验收通过。
+核对日期：2026-11-03。此索引区分素材用途；用户已更新视觉与制作约束，见[像素美术制作基准](PIXEL_ART_PRODUCTION_STANDARD.md)。约束更新不代表下表素材已经返修或验收通过。
 
 ## 最新美术工作集
 
-最新整室入口：`scenes/dev/room1_door_material_r29.tscn`（F6）。[门面与通行状态比较](experiments/room1_door_material_r29/preview.html)／[来源与验证](experiments/room1_door_material_r29/README.md)。用户已认可r28其余房间效果；r29只替换门面一个`pixel_map`，其余房间冻结，门形、开闭和灯语保持。
+最新整室入口：`scenes/dev/room1_door_window_r30.tscn`（F6）。[门面与通行状态比较](experiments/room1_door_window_r30/preview.html)／[来源与验证](experiments/room1_door_window_r30/README.md)。用户已认可r28其余房间效果；r30在r29基础上只精修门面一个`pixel_map`，其余房间冻结，门形、开闭和灯语保持。
 
-**已认可舱体／墙地基线r28**：[整室与逐舱比较](experiments/room1_pod_age_full_r28/preview.html)。4盖／4侧／3端合格面图组成20个唯一组合，编号01–20，非20套独立AI原图；r27 P12保持。用户表示其余效果可以，本轮只剩门面r29待审，不重开其他材质。
+**已认可舱体／墙地基线r28**：[整室与逐舱比较](experiments/room1_pod_age_full_r28/preview.html)。4盖／4侧／3端合格面图组成20个唯一组合，编号01–20，非20套独立AI原图；r27 P12保持。用户表示其余效果可以，本轮只剩门面r30待审，不重开其他材质。
 
 | 部分 | 实际来源 | 可编辑源／说明 |
 |---|---|---|
@@ -14,11 +14,11 @@
 | 连续无缝地坪 | `assets/art/room1_floor_detail_full_r26/` | [r26](experiments/room1_floor_detail_full_r26/README.md)，地板Aseprite在`editable/`。 |
 | 20舱外壳 | `assets/art/room1_pod_age_full_r28/` | [r28](experiments/room1_pod_age_full_r28/README.md)：11张母材质、40张编号导出与固定安排JSON；原r22仍是A比较与继承依赖，不是最新外壳。 |
 | 舱内、玻璃、屏幕、动画及共用部件 | v8几何、r16共用材质、r19运行整合 | [v8母版](experiments/room1_pod_standard_v8/README.md)／[r16来源](experiments/room1_pod_pixellab_r16/README.md)。 |
-| 门面 | `assets/art/room1_door_material_r29/` | [r29](experiments/room1_door_material_r29/README.md)待审；只换颜色图，v7作A基线，灯芯r17／柔光r18保持。 |
+| 门面 | `assets/art/room1_door_window_r30/` | [r30](experiments/room1_door_window_r30/README.md)待审；只去认证窗白边；保留r29 PixelLab主体，r29作A基线，灯芯r17／柔光r18保持。 |
 | 房壳、布局与全室光照 | `assets/art/room1_complete_r19/`等继承资源 | [r19](experiments/room1_complete_r19/README.md)。本轮未重烘。 |
-| 最新整室Blender | `experiments/room1_door_material_r29/room1_door_material_r29.blend` | 使用同一仓库的相对路径图；不是独立于仓库的单文件交付。 |
+| 最新整室Blender | `experiments/room1_door_window_r30/room1_door_window_r30.blend` | 使用同一仓库的相对路径图；不是独立于仓库的单文件交付。 |
 
-细节完成度参照是已认可的墙r23、地坪r25 C和舱r27，完整实施基线为r28。主要面原生密度与做旧已推广，用户本轮认可其余效果；只有门r29待审，不再把r22旧缩放方案当长期例外。
+细节完成度参照是已认可的墙r23、地坪r25 C和舱r27，完整实施基线为r28。主要面原生密度与做旧已推广，用户本轮认可其余效果；只有门r30待审，不再把r22旧缩放方案当长期例外。
 
 ## 正式游戏基线
 
@@ -26,7 +26,7 @@ F5标题进入`scenes/areas/military_facility/cryo_room_4f_01_3d.tscn`，继承r
 
 ## 历史与仍在使用的依赖
 
-当前控制脚本继承链包含 **r29 → r28 → r27 → r26 → r25 → r24 → r22 → r19**，再继承更早实现。编号旧不代表文件无用。旧名称资源可能仍参与加载；保留运行依赖，不按编号删除父脚本。
+当前控制脚本继承链包含 **r30 → r29 → r28 → r27 → r26 → r25 → r24 → r22 → r19**，再继承更早实现。编号旧不代表文件无用。旧名称资源可能仍参与加载；保留运行依赖，不按编号删除父脚本。
 
 以下只作历史参考，不作新制作标准：
 

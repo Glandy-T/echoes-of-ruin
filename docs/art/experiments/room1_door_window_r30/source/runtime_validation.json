@@ -1,0 +1,36 @@
+{
+	"checks": {
+		"a_map_restored": true,
+		"aba_a_restored": true,
+		"authorized_green_preserved": true,
+		"b_decoded_pixels": true,
+		"b_path": true,
+		"b_size": true,
+		"b_source_md5_matches_import": true,
+		"idle_state_preserved": true,
+		"mode_1": true,
+		"mode_2": true,
+		"only_pixel_map_1": true,
+		"only_pixel_map_2": true,
+		"protected_1": true,
+		"protected_2": true,
+		"r30_asset_imported": true,
+		"r30_single_binding_ready": true,
+		"yellow_scan_preserved": true
+	},
+	"errors": [],
+	"result": "PASS",
+	"runtime": {
+		"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+		"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+		"height": 184,
+		"mode": 2,
+		"mutated_uniforms": [
+			"pixel_map"
+		],
+		"path": "res://assets/art/room1_door_window_r30/door_front.png",
+		"width": 112
+	},
+	"schema": "room1_door_window_r30",
+	"scope": "ABA validates only DoorPanel pixel_map. Existing r28 pods, wall/floor maps, lights, mesh UV, authorization feedback and door behavior are protected."
+}

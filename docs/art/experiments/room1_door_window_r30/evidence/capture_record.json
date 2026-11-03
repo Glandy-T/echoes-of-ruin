@@ -1,0 +1,347 @@
+[
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "2a522ebec691fd0610d0e028b659f59f",
+			"height": 184,
+			"mode": 1,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "1_a_game_door_closed.png",
+		"fov": 50.0,
+		"mode": 1,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (10.5, 1.2, -3.8)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "2a522ebec691fd0610d0e028b659f59f",
+			"height": 184,
+			"mode": 1,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "1_a_door_wall_front.png",
+		"fov": 44.0,
+		"mode": 1,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.855829, 0.0, 0.517259), Y: (0.009728, 0.999823, -0.016095), Z: (-0.517168, 0.018806, 0.855677), O: (7.7, 1.45, -4.65)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "2a522ebec691fd0610d0e028b659f59f",
+			"height": 184,
+			"mode": 1,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "1_a_door_wall_oblique.png",
+		"fov": 47.0,
+		"mode": 1,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "2_b_game_door_closed.png",
+		"fov": 50.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (10.5, 1.2, -3.8)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "2_b_door_wall_front.png",
+		"fov": 44.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.855829, 0.0, 0.517259), Y: (0.009728, 0.999823, -0.016095), Z: (-0.517168, 0.018806, 0.855677), O: (7.7, 1.45, -4.65)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "2_b_door_wall_oblique.png",
+		"fov": 47.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.903738, 0.0, 0.428086), Y: (-0.004072, 0.999955, 0.008597), Z: (-0.428067, -0.009513, 0.903697), O: (9.05, 1.25, -6.35)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "2_b_door_front_close.png",
+		"fov": 52.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.872758, 0.0, -0.488153), Y: (0.0, 1.0, 0.0), Z: (0.488153, 0.0, 0.872758), O: (12.15, 1.25, -6.25)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "2_b_door_oblique_close.png",
+		"fov": 52.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "scanning",
+		"file": "2_b_scanning_yellow_window.png",
+		"fov": 47.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+		"door_fraction": 0.22,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "pass",
+		"file": "2_b_opening_green_reveal.png",
+		"fov": 47.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+		"door_fraction": 1.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "pass",
+		"file": "2_b_game_door_open.png",
+		"fov": 50.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999957, -0.009259), Z: (0.0, 0.009259, 0.999957), O: (10.5, 1.2, -3.8)]",
+		"door_fraction": 1.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "pass",
+		"file": "2_b_open_green_soft_glow.png",
+		"fov": 47.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (0.864789, 0.0, 0.502136), Y: (0.018664, 0.999309, -0.032144), Z: (-0.501789, 0.03717, 0.864191), O: (7.8, 1.35, -4.55)]",
+		"door_fraction": 1.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "38f156ff9385ff6f278b82f141683e2b",
+			"height": 184,
+			"mode": 2,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_window_r30/door_front.png",
+			"width": 112
+		},
+		"feedback": "pass",
+		"file": "2_b_open_oblique_close.png",
+		"fov": 50.0,
+		"mode": 2,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "2a522ebec691fd0610d0e028b659f59f",
+			"height": 184,
+			"mode": 1,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "1_a_restore_game_door_closed.png",
+		"fov": 50.0,
+		"mode": 1,
+		"resolution": [
+			1280,
+			720
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (10.5, 1.2, -3.8)]",
+		"door_fraction": 0.0,
+		"door_map": {
+			"baseline_path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"decoded_pixel_md5": "2a522ebec691fd0610d0e028b659f59f",
+			"height": 184,
+			"mode": 1,
+			"mutated_uniforms": [
+				"pixel_map"
+			],
+			"path": "res://assets/art/room1_door_material_r29/door_front.png",
+			"width": 112
+		},
+		"feedback": "idle",
+		"file": "1_a_restore_door_wall_front.png",
+		"fov": 44.0,
+		"mode": 1,
+		"resolution": [
+			1280,
+			720
+		]
+	}
+]

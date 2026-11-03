@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "checks": {
+    "native112x184": true,
+    "only_window_22x14_region": true,
+    "inner_aperture_exact": true,
+    "white_bezel_removed": true,
+    "ASE_export_exact": true,
+    "frozen_inputs": true,
+    "runtime_PASS": true,
+    "15_gpu_frames": true,
+    "ABA_exact_game_door_closed": true,
+    "ABA_exact_door_wall_front": true
+  },
+  "changed_pixels": 224,
+  "edit_bounds_xy_inclusive": [
+    45,
+    61,
+    66,
+    74
+  ],
+  "preserved_inputs": 81,
+  "drift": [],
+  "new_PixelLab_calls": 0,
+  "new_generations": 0,
+  "art_refinement": "Aseprite named local layer; remove legacy white bezel, keep one native pixel dark recess; no procedural weathering"
+}
