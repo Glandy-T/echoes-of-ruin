@@ -1,0 +1,40 @@
+{
+  "baseline": "protagonist_turnaround_v1",
+  "baseline_hashes": {
+    "views/front.png": "7f49c5be689a590e6f8037aa847f7b4177c44000b9bdc0f434c4e8b7acdd3090",
+    "views/side.png": "47fc4c38e238ae6928fcfa836c32a71cb1c6134d2c77c887a456b053746077a2",
+    "views/back.png": "0bd16198b769a932f3641b7d04c7bbbec7c79fff7f206eb5e3029c96bb756b59",
+    "editable/front.aseprite": "8cbc1a0f1efe44fe8b3ea0ebacfacdada03af9560fdee04a17c4b908c0a53c9e",
+    "editable/side.aseprite": "4a93d699bf14ac39de73d3c646e2f9b07d892b731ab899d51109ef6918106cb5",
+    "editable/back.aseprite": "436b877f8e61cdc5d2d2718018b9db9fd66a41f25a1d1ff4862f07a3e82731e3"
+  },
+  "repair_regions_xy_inclusive": {
+    "left_hand": [
+      41,
+      125,
+      65,
+      151
+    ],
+    "right_hand": [
+      127,
+      125,
+      154,
+      151
+    ],
+    "left_ankle_heel": [
+      57,
+      213,
+      92,
+      246
+    ],
+    "right_ankle_heel": [
+      101,
+      213,
+      138,
+      246
+    ]
+  },
+  "scope": "back hands and ankles/heels only; alpha may change within those bounded boxes",
+  "third_party_reference_uploads": false,
+  "creative_resize": false
+}

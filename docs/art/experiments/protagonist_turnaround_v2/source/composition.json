@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "outside_mask_exact": true,
+  "native_size": [
+    192,
+    256
+  ],
+  "changed_RGBA_pixels": 1097,
+  "alpha_changed_pixels": 353,
+  "creative_resizing": false,
+  "manual_art_edits": 0
+}

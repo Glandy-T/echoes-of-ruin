@@ -1,0 +1,9 @@
+{
+  "endpoint": "/inpaint-v3",
+  "input": "back_v1.png",
+  "mask": "repair_mask.png",
+  "description_file": "prompt_back.txt",
+  "seed": 2026110305,
+  "no_background": true,
+  "crop_to_mask": false
+}

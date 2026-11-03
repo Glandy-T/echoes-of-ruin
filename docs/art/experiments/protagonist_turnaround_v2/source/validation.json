@@ -1,0 +1,49 @@
+{
+  "result": "PASS",
+  "checks": {
+    "frozen_v1_views/front.png": true,
+    "frozen_v1_views/side.png": true,
+    "frozen_v1_views/back.png": true,
+    "frozen_v1_editable/front.aseprite": true,
+    "frozen_v1_editable/side.aseprite": true,
+    "frozen_v1_editable/back.aseprite": true,
+    "front_PNG_exact": true,
+    "front_ASE_exact": true,
+    "side_PNG_exact": true,
+    "side_ASE_exact": true,
+    "back_outside4regions_exact": true,
+    "ASE_visible_and_alpha_exact": true,
+    "all_native192x256": true,
+    "real_completed_PixelLab_job": true
+  },
+  "bounds_xy_exclusive": {
+    "front": [
+      45,
+      11,
+      148,
+      245
+    ],
+    "side": [
+      61,
+      11,
+      117,
+      245
+    ],
+    "back": [
+      45,
+      11,
+      147,
+      245
+    ]
+  },
+  "new_PixelLab_requests": 1,
+  "actual_generations": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "creative_resize": false,
+  "manual_art_refinement_pixels": 0,
+  "silhouette_alpha_changes_allowed_only_inside4limb_boxes": true,
+  "anatomy_visual_review": "Recorded separately; hashes and matching bbox do not verify posterior anatomy.",
+  "user_approval": false
+}
