@@ -1,0 +1,10 @@
+from pathlib import Path
+import shutil
+from PIL import Image
+HERE=Path(__file__).resolve().parent;EXP=HERE.parent
+shutil.copyfile(HERE/'input_front_v1.png',EXP/'before_v1.png')
+for name,source in [('face_before','before_v1.png'),('face_after','front_design_v2.png')]:
+ Image.open(EXP/source).crop((78,14,116,59)).save(EXP/(name+'.png'))
+page='''<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主角正面 v2 · 弱五官与肤色</title><style>body{max-width:1200px;margin:30px auto;padding:0 20px;background:#172020;color:#e2e5dd;font:16px/1.7 system-ui}a{color:#a6d5d3}.pair{display:flex;flex-wrap:wrap;gap:28px}figure{margin:0 0 24px}img{display:block;image-rendering:pixelated;background:#858d8b;max-width:100%;height:auto}h1{font-size:25px}</style><h1>主角正面 v2 · 弱化五官、提浅肤色</h1><p>按用户确认方向只调整脸、脖子、手和脚。白袍、头发、姿势、比例与透明轮廓均保留v1原像素。少量面部色块承担朝向和体积，省略明确眉眼与嘴角。本页为造型候选，侧面、背面和3D模型尚未制作。</p><p>主体修改来自一次PixelLab局部编辑。Aseprite保留原始底稿和独立AI修改层；没有本地程序绘画或美术精修。<a href="README.md">来源与验证</a> · <a href="editable/front_design_v2.aseprite">Aseprite母版</a> · <a href="front_design_v2.png">最终PNG</a></p><h2>全身对比（2倍查看）</h2><div class="pair"><figure><figcaption>A · v1</figcaption><img width="384" height="512" src="before_v1.png"></figure><figure><figcaption>B · v2</figcaption><img width="384" height="512" src="front_design_v2.png"></figure></div><h2>同区域面部（6倍查看，展示用裁片）</h2><div class="pair"><figure><figcaption>A · v1</figcaption><img width="228" height="270" src="face_before.png"></figure><figure><figcaption>B · v2</figcaption><img width="228" height="270" src="face_after.png"></figure></div></html>'''
+page=page.replace('没有本地程序绘画或美术精修','另有54像素的Aseprite局部精修，清理AI残留眉眼与嘴线，独立图层保留；没有程序化做旧')
+(EXP/'preview.html').write_text(page,encoding='utf8')

@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "checks": {
+    "native192x256": true,
+    "outside_final_skin_face_scope_exact": true,
+    "original_alpha_exact": true,
+    "ASE_visible_pixels_exact": true,
+    "v1_source_unchanged": true,
+    "one_completed_job": true,
+    "actual10_generations": true
+  },
+  "changed_pixels_from_v1": 1427,
+  "Aseprite_art_refinement_pixels_after_AI": 54,
+  "manual_refinement_bounds_xy": [
+    90,
+    27,
+    105,
+    41
+  ],
+  "transparent_RGB_storage_normalized_only": 36245,
+  "creative_resize": false,
+  "game_scene_modified": false,
+  "user_visual_approval": false
+}

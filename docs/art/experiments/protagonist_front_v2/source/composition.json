@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "size": [
+    192,
+    256
+  ],
+  "changed_pixels": 1420,
+  "protected_pixels_exact": true,
+  "alpha_exact": true,
+  "creative_resizing": false,
+  "manual_art_edits": 0
+}

@@ -1,0 +1,8 @@
+{
+  "input": "docs/art/experiments/protagonist_front_v1/raw/front.png",
+  "sha256": "6ba9a6a2e77d41fc776a5c1988353bbc67bc5a70a695c129af9a3c545cb490b2",
+  "mask_pixels": 1431,
+  "external_reference_upload": false,
+  "creative_resize": false,
+  "scope": "skin and inner facial detail only"
+}

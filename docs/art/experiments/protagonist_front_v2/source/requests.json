@@ -1,0 +1,10 @@
+[
+  {
+    "name": "front",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_front.txt",
+    "guide": "input_front_v1.png",
+    "mask": "skin_face_mask.png",
+    "seed": 2026110302
+  }
+]
