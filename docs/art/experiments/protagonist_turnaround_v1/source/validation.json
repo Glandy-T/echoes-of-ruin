@@ -1,0 +1,43 @@
+{
+  "result": "PASS",
+  "checks": {
+    "front_native192x256": true,
+    "side_native192x256": true,
+    "side_ASE_visible_and_alpha_exact": true,
+    "side_real_completed_job": true,
+    "back_native192x256": true,
+    "back_ASE_visible_and_alpha_exact": true,
+    "back_real_completed_job": true,
+    "front_v2_file_exact": true,
+    "head_top_and_floor_aligned": true
+  },
+  "alpha_bounds_xy_exclusive": {
+    "front": [
+      45,
+      11,
+      148,
+      245
+    ],
+    "side": [
+      61,
+      11,
+      117,
+      245
+    ],
+    "back": [
+      45,
+      11,
+      147,
+      245
+    ]
+  },
+  "head_top_y": 11,
+  "soles_last_y": 244,
+  "new_PixelLab_requests": 2,
+  "actual_generations": 18.0,
+  "creative_resizing": false,
+  "manual_art_refinement_pixels": 0,
+  "new_3D_models": 0,
+  "user_turnaround_approval": false,
+  "boundary": "matching alpha endpoints does not prove every hidden joint or hair contour metrically identical; back hair and back garment are inferred design candidates"
+}

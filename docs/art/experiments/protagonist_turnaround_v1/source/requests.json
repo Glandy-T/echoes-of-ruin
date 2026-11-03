@@ -1,0 +1,16 @@
+[
+  {
+    "name": "side",
+    "endpoint": "/edit-image-pro-flash",
+    "input": "approved_front_v2.png",
+    "prompt": "prompt_side.txt",
+    "seed": 2026110303
+  },
+  {
+    "name": "back",
+    "endpoint": "/edit-image-pro-flash",
+    "input": "approved_front_v2.png",
+    "prompt": "prompt_back.txt",
+    "seed": 2026110304
+  }
+]

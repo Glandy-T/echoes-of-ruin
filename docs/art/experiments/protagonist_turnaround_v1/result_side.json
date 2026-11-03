@@ -1,0 +1,15 @@
+{
+  "name": "side",
+  "endpoint": "/edit-image-pro-flash",
+  "background_job_id": "c7381bd1-9d77-4990-81cf-fa399c1bcc66",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 9.0
+  },
+  "native_size": [
+    192,
+    256
+  ],
+  "source_image_id": "27a8581f-d577-52e9-8b99-ea477a879160"
+}
