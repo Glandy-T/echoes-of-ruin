@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "checks": {
+    "native_requested192x256": true,
+    "transparent_background": true,
+    "opaque_subject": true,
+    "ASE_exact_pixel_readback": true,
+    "one_completed_job": true,
+    "actual9_generations": true,
+    "editable_master": true
+  },
+  "raw_sha256": "6ba9a6a2e77d41fc776a5c1988353bbc67bc5a70a695c129af9a3c545cb490b2",
+  "alpha_bbox": [
+    45,
+    11,
+    148,
+    245
+  ],
+  "local_resizing": false,
+  "manual_art_edits": 0,
+  "scene_changes": false,
+  "user_visual_approval": false,
+  "scope": "Front design candidate only; not a final game asset or a 3D modeling approval."
+}

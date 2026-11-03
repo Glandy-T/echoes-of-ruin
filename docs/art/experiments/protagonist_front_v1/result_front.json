@@ -1,0 +1,15 @@
+{
+  "endpoint": "/create-image-pro-flash",
+  "background_job_id": "cbfee5a0-f73c-414b-a0d9-6ff2e6ac7deb",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 9.0
+  },
+  "native_size": [
+    192,
+    256
+  ],
+  "source_image_id": "e1dcb3b6-4dfe-5390-a3e2-473689a2cf7a",
+  "input": "Text only; no external or NoAI reference uploaded."
+}
