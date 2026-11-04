@@ -22,6 +22,7 @@ var updating_floor_camera := false
 var room_wall_occlusion_enabled := true
 var map_labels: Node3D
 var locked_door_feedback: Dictionary = {}
+var main_prompt_text := ""
 const WALL_OCCLUSION_OPACITY := .42
 const LOCKED_RED_SECONDS := 1.5
 
@@ -69,6 +70,7 @@ func _ready() -> void:
 			mesh.material_override=mat;baked_materials.append(mat)
 			if kind!="floor":_register_ghost(mesh,mat)
 			else:_attach_solid(mesh)
+	_assign_facade_planes()
 	_build_locked_door_feedback()
 	var stairs := OTHER_STAIRS.instantiate() as Node3D
 	stairs.name="Other4FStairEntrances";add_child(stairs);stairs.position=Vector3(93.2,-11.4,-38.9)
@@ -160,12 +162,54 @@ func _occlusion_probe_offsets() -> Array[Vector3]:
 func _occlusion_opacity() -> float:
 	return WALL_OCCLUSION_OPACITY
 
-func _occlusion_offsets_for(mesh: MeshInstance3D) -> Array[Vector3]:
-	# Door leaves must not respond to wide aisle/header probes beside the actor.
-	# Only an actual camera-to-body obstruction can fade a door.
-	if str(mesh.name).begins_with("LockedDoor_") or str(mesh.name).begins_with("Face_Door_"):
-		return [Vector3(0,.85,0)]
-	return _occlusion_probe_offsets()
+func _assign_facade_planes() -> void:
+	for entry in occluders:
+		var mesh := entry.mesh as MeshInstance3D
+		if not corridor_sample.is_ancestor_of(mesh):continue
+		var bounds := mesh.global_transform*mesh.get_aabb()
+		var axis := -1
+		if bounds.size.z<.25 and bounds.size.x>.3:axis=2
+		elif bounds.size.x<.25 and bounds.size.z>.3:axis=0
+		if axis<0:continue
+		var surface_plane := bounds.get_center()[axis]
+		var plane := surface_plane
+		var best := .14
+		for d: Dictionary in floor_layout.doors:
+			if (d.orientation=="H")!=(axis==2):continue
+			var distance: float=absf(surface_plane-float(d.godot[axis]))
+			if distance<best:best=distance;plane=float(d.godot[axis])
+		mesh.set_meta("occlusion_plane_axis",axis);mesh.set_meta("occlusion_plane",plane)
+
+func _occlusion_mesh_blocks(mesh: MeshInstance3D,camera: Camera3D) -> bool:
+	if mesh.has_meta("occlusion_plane_axis"):
+		var axis: int=mesh.get_meta("occlusion_plane_axis")
+		var plane: float=mesh.get_meta("occlusion_plane")
+		# All parts of one facade use its wall centre plane, including the door
+		# and header. Moving sideways cannot turn just the door opaque again.
+		return (camera.global_position[axis]-plane)*(player.global_position[axis]-plane)<0.0
+	return super._occlusion_mesh_blocks(mesh,camera)
+
+func _interaction_door_target() -> Dictionary:
+	if not is_instance_valid(player) or overview_on:return {}
+	var best_distance := 1.5
+	var target: Dictionary={}
+	var main_distance := Vector2(player.position.x-door_closed_position.x,player.position.z-door_closed_position.z).length()
+	if main_distance<=best_distance:
+		best_distance=main_distance
+		target={"id":"D001","kind":"room1_portal"}
+	if corridor_view:
+		for d: Dictionary in floor_layout.get("doors",[]):
+			if not d.locked:continue
+			var distance := Vector2(player.position.x-d.godot[0],player.position.z-d.godot[2]).length()
+			if distance<best_distance-.001:best_distance=distance;target=d
+	return target
+
+func _near_authentication_door() -> bool:
+	if floor_layout.is_empty():return super._near_authentication_door()
+	return _interaction_door_target().get("id","")=="D001"
+
+func _authentication_prompt_enabled() -> bool:
+	return false # This scene owns both door prompts using the same target resolver.
 
 func _build_locked_door_feedback() -> void:
 	for d: Dictionary in floor_layout.doors:
@@ -219,19 +263,19 @@ func _process(delta: float) -> void:
 	super._process(delta)
 	if not locked_anchor or not player:return
 	_update_locked_feedback(delta)
-	var show := _near_authentication_door() and door_fraction>=.99 and not switching_view
-	if show!=portal_prompt_visible:
-		portal_prompt_visible=show
-		if show:review_ui.show_interaction_name(door_sensor,"E：休眠室へ" if corridor_view else "E：廊下へ",exit_anchor,Vector2(0,-35))
+	var target := _interaction_door_target()
+	var can_show: bool=not switching_view and review_ui.can_accept_world_interaction()
+	var desired_text := ""
+	if target.get("id","")=="D001" and can_show:
+		if door_fraction>=.99:desired_text="E：休眠室へ" if corridor_view else "E：廊下へ"
+		elif not authentication_requested:desired_text="E：ドア認証"
+	if desired_text!=main_prompt_text:
+		main_prompt_text=desired_text;portal_prompt_visible=not desired_text.is_empty()
+		if portal_prompt_visible:review_ui.show_interaction_name(door_sensor,desired_text,exit_anchor,Vector2(0,-35))
 		else:review_ui.hide_interaction_name(door_sensor)
 	nearest_locked_door={}
-	if corridor_view and not overview_on:
-		var distance := 1.5
-		for d: Dictionary in floor_layout.get("doors",[]):
-			if not d.locked:continue
-			var p := Vector3(d.godot[0],0,d.godot[2]);var current := Vector2(player.position.x-p.x,player.position.z-p.z).length()
-			if current<distance:distance=current;nearest_locked_door=d
-	var locked_show := not nearest_locked_door.is_empty() and not switching_view
+	if target.get("locked",false):nearest_locked_door=target
+	var locked_show: bool=not nearest_locked_door.is_empty() and can_show
 	if locked_show:
 		var p: Array=nearest_locked_door.godot
 		locked_anchor.position=$ReviewCamera.unproject_position(Vector3(p[0],1.2,p[2]))
@@ -242,9 +286,11 @@ func _process(delta: float) -> void:
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("interact") and not switching_view and review_ui.can_accept_world_interaction():
-		if _near_authentication_door() and door_fraction>=.99:
+		var target := _interaction_door_target()
+		if target.get("id","")=="D001" and door_fraction>=.99:
 			portal_transfer_approved=true;_switch_view(not corridor_view);get_viewport().set_input_as_handled();return
-		if not nearest_locked_door.is_empty():
+		if target.get("locked",false):
+			nearest_locked_door=target
 			var elevator: bool = nearest_locked_door.kind=="elevator"
 			if elevator:
 				last_locked_interaction={"id":nearest_locked_door.id,"kind":nearest_locked_door.kind,"outcome":"stopped"}
@@ -256,7 +302,7 @@ func _unhandled_input(event: InputEvent) -> void:
 func _switch_view(outside: bool) -> void:
 	if not portal_transfer_approved:return
 	portal_transfer_approved=false;switching_view=true
-	portal_prompt_visible=false;review_ui.hide_interaction_name(door_sensor)
+	portal_prompt_visible=false;main_prompt_text="";review_ui.hide_interaction_name(door_sensor)
 	portal_events.append({"event":"portal_interact","outside":outside})
 	camera_events.append({"event":"fade_out","outside":outside})
 	var tween := create_tween();tween.tween_property(fade_rect,"color:a",1.0,.22);await tween.finished

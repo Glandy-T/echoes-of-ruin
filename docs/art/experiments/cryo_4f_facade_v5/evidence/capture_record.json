@@ -1,0 +1,250 @@
+[
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "lateral_9_15.png",
+		"last_interaction": {
+
+		},
+		"locked_prompt": false,
+		"main_prompt": "",
+		"position": "(9.15, 0.003333, -10.7)",
+		"target": ""
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "lateral_9_8.png",
+		"last_interaction": {
+
+		},
+		"locked_prompt": false,
+		"main_prompt": "E：ドア認証",
+		"position": "(9.8, 0.003333, -10.7)",
+		"target": "D001"
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "lateral_10_5.png",
+		"last_interaction": {
+
+		},
+		"locked_prompt": false,
+		"main_prompt": "E：ドア認証",
+		"position": "(10.5, 0.003333, -10.7)",
+		"target": "D001"
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "lateral_11_4.png",
+		"last_interaction": {
+
+		},
+		"locked_prompt": false,
+		"main_prompt": "",
+		"position": "(11.4, 0.003333, -10.7)",
+		"target": ""
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "walk_crossing.png",
+		"last_interaction": {
+
+		},
+		"locked_prompt": false,
+		"main_prompt": "E：ドア認証",
+		"position": "(10.46668, 0.003871, -10.7)",
+		"target": "D001"
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "opposite_target.png",
+		"last_interaction": {
+
+		},
+		"locked_prompt": true,
+		"main_prompt": "",
+		"position": "(10.5, 0.003333, -11.4)",
+		"target": "D005"
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "opposite_yellow.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "scanning"
+		},
+		"locked_prompt": true,
+		"main_prompt": "",
+		"position": "(10.5, 0.003333, -11.4)",
+		"target": "D005"
+	},
+	{
+		"door_fraction": 0.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "opposite_red.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "denied"
+		},
+		"locked_prompt": true,
+		"main_prompt": "",
+		"position": "(10.5, 0.003333, -11.4)",
+		"target": "D005"
+	},
+	{
+		"door_fraction": 1.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "open_main_opposite_target.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "denied"
+		},
+		"locked_prompt": true,
+		"main_prompt": "",
+		"position": "(10.5, 0.003333, -11.4)",
+		"target": "D005"
+	},
+	{
+		"door_fraction": 1.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "open_main_opposite_yellow.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "scanning"
+		},
+		"locked_prompt": true,
+		"main_prompt": "",
+		"position": "(10.5, 0.003333, -11.4)",
+		"target": "D005"
+	},
+	{
+		"door_fraction": 0.683333333333334,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "open_main_opposite_red.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "denied"
+		},
+		"locked_prompt": true,
+		"main_prompt": "",
+		"position": "(10.5, 0.003333, -11.4)",
+		"target": "D005"
+	},
+	{
+		"door_fraction": 1.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 0.42,
+			"Header_D005": 0.42,
+			"LockedDoor_D005": 0.42,
+			"Shell_W032": 0.42,
+			"Shell_W033": 0.42
+		},
+		"file": "main_return_target.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "denied"
+		},
+		"locked_prompt": false,
+		"main_prompt": "E：休眠室へ",
+		"position": "(10.5, 0.003333, -10.0)",
+		"target": "D001"
+	},
+	{
+		"door_fraction": 1.0,
+		"facade_alphas": {
+			"Face_Door_D005_x_-1_0": 1.0,
+			"Header_D005": 1.0,
+			"LockedDoor_D005": 1.0,
+			"Shell_W032": 1.0,
+			"Shell_W033": 1.0
+		},
+		"file": "returned_inside.png",
+		"last_interaction": {
+			"id": "D005",
+			"kind": "room",
+			"outcome": "denied"
+		},
+		"locked_prompt": false,
+		"main_prompt": "E：廊下へ",
+		"position": "(10.5, 0.000052, -8.2)",
+		"target": "D001"
+	}
+]

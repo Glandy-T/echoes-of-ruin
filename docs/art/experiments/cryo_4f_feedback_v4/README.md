@@ -1,5 +1,7 @@
 # 4F 半透明与门禁拒绝反馈修正 v4
 
+**2026-11-04横移修正v5：** F6仍为 `scenes/dev/cryo_4f_complete_v3.tscn`。门、门楣和墙板按同一墙中心平面保持42%半透明，补齐六处横向走位回归；主门／对门只选最近一个交互目标，主门开着时也不会抢走对门E。完整回归通过。最新实机：`docs/art/experiments/cryo_4f_facade_v5/preview.html`（仓库根路径）；v4单独门射线策略已被替代。
+
 2026-11-04。用户实机反馈后的针对性修正，继续使用F6 `scenes/dev/cryo_4f_complete_v3.tscn`。[实际前后对照及灯语](preview.html)。门后灰色场景按用户要求留待后续，本轮不制作室内或更改烘焙。
 
 ## 半透明

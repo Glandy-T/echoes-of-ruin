@@ -1,5 +1,5 @@
 extends Node
-const OUT := "res://docs/art/experiments/cryo_4f_feedback_v4/"
+const OUT := "res://docs/art/experiments/cryo_4f_facade_v5/"
 var level: Node3D
 var errors: Array[String] = []
 var result: Dictionary = {}
@@ -29,6 +29,19 @@ func run() -> void:
 	result['inside_walk_stop']=str(level.player.position)
 	interact();await frames(60)
 	check(level.corridor_view and level.player.position.z< -10.0,"Second E did not enter corridor")
+	# Both doors are nearby: opening Room1 must not steal E at the opposite door.
+	level.teleport_player(Vector3(10.5,.05,-11.4));await frames(3)
+	check(level._interaction_door_target().get("id")=="D005","Opposite door did not become the only interaction target")
+	check(level.main_prompt_text.is_empty() and level.locked_prompt_visible,"Both door prompts remained active")
+	var event_count: int=level.portal_events.size()
+	interact();await frames(3)
+	check(level.corridor_view and level.portal_events.size()==event_count,"Opposite-door E entered Room1")
+	check(level.last_locked_interaction.get("id")=="D005" and level.last_locked_interaction.get("outcome")=="scanning","E authenticated the wrong door")
+	await frames(100)
+	check(level.last_locked_interaction.get("outcome")=="denied","Opposite door did not deny access")
+	level.teleport_player(Vector3(10.5,.05,-10.0));await frames(5)
+	check(level._interaction_door_target().get("id")=="D001","Returning to Room1 did not switch target")
+	if level.door_fraction<.99:interact();await frames(310)
 	await movement(Vector2(0,1),150)
 	check(level.corridor_view and level.player.position.z< -9.4,"Outside walking bypassed return interaction")
 	result['outside_walk_stop']=str(level.player.position)
@@ -84,9 +97,16 @@ func run() -> void:
 	check(level.locked_door_feedback["D005"].state=="idle","Red denial did not reset")
 	check(level._occlusion_opacity()>=.4,"Occlusion erased original surface")
 	for entry in level.locked_door_feedback.values():check(not entry.windows.is_empty() and entry.door.kind!="elevator","Authentication window missing or added to disabled elevator")
-	level.review_teleport(Vector3(8.0,.05,-10.7));await frames(40)
-	for entry in level.occluders:
-		if "Door_D005" in str(entry.mesh.name):check(entry.get("alpha",1.0)>.999,"Side probe faded door outside actual body sightline")
+	var lateral_samples: Array=[]
+	for x in [8.0,9.15,9.8,10.5,11.4,13.0]:
+		level.review_teleport(Vector3(x,.05,-10.7));await frames(40)
+		var sample: Dictionary={"x":x}
+		for entry in level.occluders:
+			if "Door_D005" in str(entry.mesh.name) or str(entry.mesh.name) in ["Header_D005","Shell_W032","Shell_W033"]:
+				var alpha: float=entry.get("alpha",1.0);sample[str(entry.mesh.name)]=alpha
+				check(absf(alpha-.42)<.001,"Facade part changed opacity during lateral movement: "+str(entry.mesh.name))
+		lateral_samples.append(sample)
+	result['lateral_facade_samples']=lateral_samples
 	level.review_teleport(Vector3(10.5,.05,-10.7));await frames(40)
 	var far: Dictionary={}
 	for entry in level.occluders:

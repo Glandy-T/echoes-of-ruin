@@ -124,13 +124,7 @@ func _update_occlusion() -> void:
 		if not in_view_strip and not entry.active:continue
 		if not mesh.is_visible_in_tree() and not entry.active:continue
 		if corridor_view and in_view_strip:
-			var inverse := mesh.global_transform.affine_inverse()
-			# Cover the visible aisle around the actor, not just a person-sized hole.
-			# Otherwise the adjacent room's two long wall bays still cover the screen.
-			for offset in _occlusion_offsets_for(mesh):
-				if mesh.get_aabb().grow(.08).intersects_segment(inverse*camera.global_position,inverse*(player.global_position+offset)) != null:
-					blocked=true
-					break
+			blocked=_occlusion_mesh_blocks(mesh,camera)
 		var alpha := float(entry.get("alpha",1.0))
 		alpha=move_toward(alpha,_occlusion_opacity() if blocked else 1.0,get_physics_process_delta_time()*4.4)
 		entry.alpha=alpha
@@ -150,6 +144,12 @@ func _occlusion_probe_offsets() -> Array[Vector3]:
 
 func _occlusion_offsets_for(_mesh: MeshInstance3D) -> Array[Vector3]:
 	return _occlusion_probe_offsets()
+
+func _occlusion_mesh_blocks(mesh: MeshInstance3D,camera: Camera3D) -> bool:
+	var inverse := mesh.global_transform.affine_inverse()
+	for offset in _occlusion_offsets_for(mesh):
+		if mesh.get_aabb().grow(.08).intersects_segment(inverse*camera.global_position,inverse*(player.global_position+offset))!=null:return true
+	return false
 
 func _occlusion_opacity() -> float:
 	return .12
@@ -188,11 +188,14 @@ func _near_authentication_door() -> bool:
 func _process(delta: float) -> void:
 	super._process(delta)
 	if not is_instance_valid(exit_anchor):return
-	var show := _near_authentication_door() and not authentication_requested and not switching_view
+	var show := _authentication_prompt_enabled() and _near_authentication_door() and not authentication_requested and not switching_view
 	if show!=authentication_prompt_visible:
 		authentication_prompt_visible=show
 		if show:review_ui.show_interaction_name(door_sensor,"E：ドア認証",exit_anchor,Vector2(0,-35))
 		else:review_ui.hide_interaction_name(door_sensor)
+
+func _authentication_prompt_enabled() -> bool:
+	return true
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("interact") and not switching_view and _near_authentication_door() and review_ui.can_accept_world_interaction():
