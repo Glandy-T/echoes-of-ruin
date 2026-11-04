@@ -1,0 +1,24 @@
+{
+  "source": "assets/art/room1_wall_detail_full_r24/wall_left.png",
+  "crop_xyxy": [
+    48,
+    0,
+    304,
+    272
+  ],
+  "native_size": [
+    256,
+    272
+  ],
+  "world_size_m": [
+    3.2,
+    3.4
+  ],
+  "lamp_rows": [
+    18,
+    36
+  ],
+  "resampled": false,
+  "new_generations": 0,
+  "geometry": "single continuous wall face; no added horizontal housings"
+}

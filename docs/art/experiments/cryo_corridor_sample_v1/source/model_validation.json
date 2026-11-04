@@ -5,11 +5,11 @@
       "object": "Wall_3p2m_TwoBays",
       "pixels": [
         256,
-        256
+        272
       ],
       "meters": [
         3.2,
-        3.2
+        3.4
       ],
       "uv": [
         [
@@ -36,11 +36,11 @@
       "object": "Room1_Exterior_Wall_Module",
       "pixels": [
         256,
-        256
+        272
       ],
       "meters": [
         3.2,
-        3.2
+        3.4
       ],
       "uv": [
         [
@@ -99,5 +99,5 @@
   "primary_density_px_m": 80,
   "visual_offset_m": 0.003,
   "route_collision_modified": false,
-  "objects": 11
+  "objects": 3
 }

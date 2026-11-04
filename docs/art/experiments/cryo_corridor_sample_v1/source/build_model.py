@@ -22,26 +22,16 @@ def mesh(name,verts,faces,uvs,mat):
  ob=bpy.data.objects.new(name,me);bpy.context.collection.objects.link(ob);me.materials.append(mat)
  ob['scope']='visual cladding only; existing route collision retained';return ob
 
-wall=material('Corridor_Wall_PixelLab','wall.png');floor=material('Corridor_Floor_Reused_R26','floor.png');trim=material('Corridor_Dark_Trim',color=(.12,.17,.18,1))
+wall=material('Corridor_Wall_Reused_R24','wall.png');floor=material('Corridor_Floor_Reused_R26','floor.png');trim=material('Corridor_Dark_Trim',color=(.12,.17,.18,1))
+em=wall.node_tree.nodes.new('ShaderNodeTexImage');em.image=bpy.data.images.load(str(DEST/'wall_emission.png'));em.interpolation='Closest'
+wall_bsdf=next(n for n in wall.node_tree.nodes if n.type=='BSDF_PRINCIPLED');wall.node_tree.links.new(em.outputs['Color'],wall_bsdf.inputs['Emission Color']);wall_bsdf.inputs['Emission Strength'].default_value=.35
 # Front wall veneer occupies the existing wall thickness; visible face offset 3mm to avoid coplanar overlap.
-w=mesh('Wall_3p2m_TwoBays',[(6.6,0,-11.897),(9.8,0,-11.897),(9.8,3.2,-11.897),(6.6,3.2,-11.897)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],wall)
-wr=mesh('Room1_Exterior_Wall_Module',[(9.8,0,-9.503),(6.6,0,-9.503),(6.6,3.2,-9.503),(9.8,3.2,-9.503)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],wall)
+w=mesh('Wall_3p2m_TwoBays',[(6.6,0,-11.897),(9.8,0,-11.897),(9.8,3.4,-11.897),(6.6,3.4,-11.897)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],wall)
+wr=mesh('Room1_Exterior_Wall_Module',[(9.8,0,-9.503),(6.6,0,-9.503),(6.6,3.4,-9.503),(9.8,3.4,-9.503)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],wall)
 f=mesh('Floor_3p2m_Unique',[(6.6,.003,-9.5),(9.8,.003,-9.5),(9.8,.003,-11.9),(6.6,.003,-11.9)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],floor)
-def box(name,center,size,mat):
- x,y,z=center;sx,sy,sz=[q/2 for q in size]
- bpy.ops.mesh.primitive_cube_add(size=1,location=(x,-z,y));o=bpy.context.object;o.name=name;o.dimensions=(size[0],size[2],size[1]);bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);o.data.materials.append(mat);return o
-box('Wall_Top_Cap',(8.2,3.3,-11.99),(3.2,.2,.18),trim)
-box('Panel_Central_Recess',(8.2,1.75,-11.889),(.025,2.9,.012),trim)
-box('Light_Channel',(8.2,2.89,-11.88),(3.2,.075,.03),trim)
-lamp=material('Corridor_Lamp_Diffuser',color=(.64,.76,.75,1))
-box('Light_Diffuser',(8.2,2.89,-11.86),(3.14,.025,.018),lamp)
-box('Room1_Exterior_Top_Cap',(8.2,3.3,-9.41),(3.2,.2,.18),trim)
-box('Room1_Exterior_Central_Recess',(8.2,1.75,-9.511),(.025,2.9,.012),trim)
-box('Room1_Exterior_Light_Channel',(8.2,2.89,-9.52),(3.2,.075,.03),trim)
-box('Room1_Exterior_Light_Diffuser',(8.2,2.89,-9.54),(3.14,.025,.018),lamp)
 # Verify both primary surfaces have nondegenerate, bounded UV and 80 native texels/m.
 report={'result':'PASS','UV0':[],'lightmap':'Not used: sample-only realtime lights. No stale bake attached.','primary_density_px_m':80,'visual_offset_m':.003,'route_collision_modified':False}
-for ob,sz,world in [(w,(256,256),(3.2,3.2)),(wr,(256,256),(3.2,3.2)),(f,(256,192),(3.2,2.4))]:
+for ob,sz,world in [(w,(256,272),(3.2,3.4)),(wr,(256,272),(3.2,3.4)),(f,(256,192),(3.2,2.4))]:
  uv=[tuple(v.uv) for v in ob.data.uv_layers.active.data]
  assert all(0<=u<=1 and 0<=v<=1 for u,v in uv)
  assert all(abs(a/b-80)<1e-7 for a,b in zip(sz,world))

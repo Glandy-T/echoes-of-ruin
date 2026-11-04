@@ -13,6 +13,8 @@ var camera_events: Array[Dictionary] = []
 var input_release_required := false
 var authentication_requested := false
 var authentication_prompt_visible := false
+var corridor_lamps_on := true
+var corridor_lamp_materials: Array[StandardMaterial3D] = []
 
 func _ready() -> void:
 	super._ready()
@@ -33,21 +35,28 @@ func _ready() -> void:
 			mat.texture_filter=BaseMaterial3D.TEXTURE_FILTER_NEAREST
 			mat.roughness=1.0
 			mat.metallic_specular=0.0
-			if "Diffuser" in str(mesh.name):
-				mat.shading_mode=BaseMaterial3D.SHADING_MODE_UNSHADED
+			if "Wall" in str(mesh.name):
+				mat.shading_mode=BaseMaterial3D.SHADING_MODE_PER_PIXEL
+				mat.emission_enabled=true
+				mat.emission=Color(.65,.85,.9)
+				mat.emission_texture=load("res://assets/art/cryo_corridor_sample_v1/wall_emission.png")
+				mat.emission_operator=BaseMaterial3D.EMISSION_OP_MULTIPLY
+				mat.emission_energy_multiplier=0.35
+				corridor_lamp_materials.append(mat)
 			mesh.set_surface_override_material(i,mat)
 	sample_lights=Node3D.new()
 	sample_lights.name="CorridorSampleLights"
 	add_child(sample_lights)
-	for x in [7.15,8.2,9.25]:
-		var light := OmniLight3D.new()
-		light.position=Vector3(x,2.82,-11.55)
-		light.omni_range=4.4
-		light.light_energy=0.8
-		light.light_color=Color(.80,.91,1.0)
-		light.light_cull_mask=SAMPLE_LAYER
-		light.shadow_enabled=false
-		sample_lights.add_child(light)
+	for z in [-11.65,-9.75]:
+		for x in [7.15,8.2,9.25]:
+			var light := OmniLight3D.new()
+			light.position=Vector3(x,3.04,z)
+			light.omni_range=4.4
+			light.light_energy=0.5
+			light.light_color=Color(.80,.91,1.0)
+			light.light_cull_mask=SAMPLE_LAYER
+			light.shadow_enabled=false
+			sample_lights.add_child(light)
 	var canvas := CanvasLayer.new()
 	canvas.layer=100
 	add_child(canvas)
@@ -77,8 +86,18 @@ func _ready() -> void:
 func set_sample_visible(enabled: bool) -> void:
 	sample_on=enabled
 	corridor_sample.visible=enabled
-	sample_lights.visible=enabled
+	sample_lights.visible=enabled and corridor_lamps_on
 	_update_info()
+
+func set_corridor_lamps(enabled: bool) -> void:
+	corridor_lamps_on=enabled
+	sample_lights.visible=sample_on and enabled
+	for mat in corridor_lamp_materials:
+		mat.emission_enabled=enabled
+	for entry in occluders:
+		if "Wall" in str(entry.mesh.name):
+			for mat in entry.faded:
+				mat.emission_enabled=enabled
 
 func update_follow_camera() -> void:
 	super.update_follow_camera()
@@ -182,10 +201,14 @@ func _switch_view(outside: bool) -> void:
 func _update_info() -> void:
 	super._update_info()
 	if info:
-		info.text="4F走廊小样 v1 / " + ("墙板候选 · 复用r26地坪" if sample_on else "原灰盒") + "\nE 门认证 · F7 灰盒/小样 · F8 小样位置 · WASD 移动。门洞双面黑色；黑屏＋180°镜头。"
+		info.text="4F走廊小样 v1 / " + ("墙板候选 · 复用r26地坪" if sample_on else "原灰盒") + "\nE 门认证 · F7 灰盒/小样 · F8 小样位置 · F9灯带 · WASD移动。门洞双面黑色。"
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
+		if event.physical_keycode==KEY_F9:
+			set_corridor_lamps(not corridor_lamps_on)
+			get_viewport().set_input_as_handled()
+			return
 		if event.physical_keycode==KEY_F7:
 			set_sample_visible(not sample_on)
 			get_viewport().set_input_as_handled()

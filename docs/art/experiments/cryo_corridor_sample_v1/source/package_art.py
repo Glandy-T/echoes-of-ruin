@@ -5,8 +5,13 @@ from PIL import Image
 HERE=Path(__file__).resolve().parent;EXP=HERE.parent;ROOT=HERE.parents[4]
 DEST=ROOT/'assets/art/cryo_corridor_sample_v1';DEST.mkdir(parents=True,exist_ok=True)
 report=[]
-for name,rawname,expected in [('wall','wall',(256,256)),('floor','floor_reused_r26',(256,192))]:
+for name,rawname,expected in [('wall','wall_reused_r24',(256,272)),('floor','floor_reused_r26',(256,192))]:
  raw=EXP/'raw'/f'{rawname}.png'
+ if name=='wall':
+  origin=ROOT/'assets/art/room1_wall_detail_full_r24/wall_left.png'
+  Image.open(origin).crop((48,0,304,272)).save(raw)
+  mask=Image.new('RGB',(256,272),(0,0,0));mask.paste(Image.open(raw).convert('RGB').crop((0,18,256,36)),(0,18));mask.save(DEST/'wall_emission.png')
+  (HERE/'wall_reuse_provenance.json').write_text(json.dumps({'source':origin.relative_to(ROOT).as_posix(),'crop_xyxy':[48,0,304,272],'native_size':[256,272],'world_size_m':[3.2,3.4],'lamp_rows':[18,36],'resampled':False,'new_generations':0,'geometry':'single continuous wall face; no added horizontal housings'},indent=2))
  if name=='floor':
   origin=ROOT/'assets/art/room1_floor_detail_full_r26/floor_with_leaks.png'
   Image.open(origin).crop((768,256,1024,448)).save(raw)

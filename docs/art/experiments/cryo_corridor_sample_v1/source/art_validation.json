@@ -1,15 +1,15 @@
 [
   {
     "name": "wall",
-    "source": "docs\\art\\experiments\\cryo_corridor_sample_v1\\raw\\wall.png",
+    "source": "docs\\art\\experiments\\cryo_corridor_sample_v1\\raw\\wall_reused_r24.png",
     "native_size": [
       256,
-      256
+      272
     ],
-    "sha256": "edc7ea1e52ea2e392cad36610461289b2c11d151508370874ccfde74e9f7fc40",
+    "sha256": "353263e04c71335226eea299a478fc3e039534f262ce1a85e0e239ef7ca57feb",
     "resampled": false,
     "retouched": false,
-    "unique_colors": 5,
+    "unique_colors": 182,
     "art_status": "candidate pending user review",
     "editable": "OpenRaster, original-only layer; no Aseprite edits"
   },

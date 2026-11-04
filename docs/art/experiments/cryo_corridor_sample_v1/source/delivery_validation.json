@@ -34,5 +34,8 @@
     1024,
     448
   ],
-  "new_generations_this_revision": 0
+  "new_generations_this_revision": 0,
+  "wall_art_status": "reused room r24 native wall and pixel lamp band",
+  "lamp_on_off_on": "PASS; 4 restored pixels differ by at most 1/255, no visible change",
+  "lighting_bake_status": "not baked: realtime corridor sample only"
 }

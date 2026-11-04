@@ -1,0 +1,16 @@
+{
+  "result": "PASS with stated 1-code-value restore tolerance",
+  "restore_changed_pixels": 4,
+  "restore_max_channel_difference": 1,
+  "on_frame_mean": 75.30595811631945,
+  "off_frame_mean": 22.449566695601852,
+  "wall_native_r24_crop_exact": true,
+  "standalone_added_tubes": 0,
+  "geometry_meshes": 3,
+  "new_generations": 0,
+  "lighting": "sample-only realtime; not an equivalent room bake",
+  "emission_band_image_rows": [
+    18,
+    36
+  ]
+}

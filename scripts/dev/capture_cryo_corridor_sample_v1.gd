@@ -69,5 +69,21 @@ func run() -> void:
 			room._update_occlusion()
 			await frames(1)
 		await shot(prefix+"_reverse180",Vector3(8.2,2.25,-18.7),Vector3(8.2,.90,-10.7))
+	assert(room.corridor_lamp_materials.size()==2)
+	assert(room.sample_lights.get_child_count()==6)
+	for light in room.sample_lights.get_children():assert(light.light_cull_mask==room.SAMPLE_LAYER)
+	for key in ["paper_hero","bloom_paper_hero"]:
+		var actor := room.get(key) as Sprite3D
+		if actor:actor.visible=false
+	room.corridor_view=false
+	for i in 24:
+		room._update_occlusion()
+		await frames(1)
+	room.set_corridor_lamps(true)
+	await shot("lamp_fix/on_wall",Vector3(8.2,1.7,-9.65),Vector3(8.2,1.7,-11.9),110.0)
+	room.set_corridor_lamps(false)
+	await shot("lamp_fix/off_wall",Vector3(8.2,1.7,-9.65),Vector3(8.2,1.7,-11.9),110.0)
+	room.set_corridor_lamps(true)
+	await shot("lamp_fix/restored_wall",Vector3(8.2,1.7,-9.65),Vector3(8.2,1.7,-11.9),110.0)
 	FileAccess.open(OUT+"capture_record.json",FileAccess.WRITE).store_string(JSON.stringify(records,"\t"))
 	get_tree().quit()
