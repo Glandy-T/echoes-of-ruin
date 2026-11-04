@@ -1,0 +1,5 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://scenes/dev/cryo_4f_complete_v3.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/cryo_4f_camera_compare_v6.gd" id="2"]
+[node name="Cryo4FCameraCompareV6" instance=ExtResource("1")]
+script = ExtResource("2")

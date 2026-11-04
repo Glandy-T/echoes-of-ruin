@@ -1,0 +1,101 @@
+{
+  "metrics": [
+    {
+      "case": "A",
+      "hero_actual_height_px": 232,
+      "foreground_empty_percent": 22.63,
+      "wall_clearance_m": 6.6,
+      "half_contrast_retention": 0.5027,
+      "solid_contrast_retention": 0.0,
+      "signal": {
+        "hidden": 1505216,
+        "half": 756682,
+        "solid": 0
+      },
+      "visible_pixels": {
+        "hidden": 17854,
+        "half": 17618,
+        "solid": 0
+      }
+    },
+    {
+      "case": "B",
+      "hero_actual_height_px": 302,
+      "foreground_empty_percent": 10.5,
+      "wall_clearance_m": 4.6,
+      "half_contrast_retention": 0.5028,
+      "solid_contrast_retention": 0.0,
+      "signal": {
+        "hidden": 2538048,
+        "half": 1276116,
+        "solid": 0
+      },
+      "visible_pixels": {
+        "hidden": 30581,
+        "half": 30141,
+        "solid": 0
+      }
+    },
+    {
+      "case": "C",
+      "hero_actual_height_px": 310,
+      "foreground_empty_percent": 13.45,
+      "wall_clearance_m": 6.6,
+      "half_contrast_retention": 0.5027,
+      "solid_contrast_retention": 0.0,
+      "signal": {
+        "hidden": 2689625,
+        "half": 1352085,
+        "solid": 0
+      },
+      "visible_pixels": {
+        "hidden": 31830,
+        "half": 31415,
+        "solid": 0
+      }
+    },
+    {
+      "case": "D",
+      "hero_actual_height_px": 304,
+      "foreground_empty_percent": 12.58,
+      "wall_clearance_m": 5.6,
+      "half_contrast_retention": 0.5027,
+      "solid_contrast_retention": 0.0,
+      "signal": {
+        "hidden": 2578262,
+        "half": 1296096,
+        "solid": 0
+      },
+      "visible_pixels": {
+        "hidden": 30689,
+        "half": 30286,
+        "solid": 0
+      }
+    },
+    {
+      "case": "E",
+      "hero_actual_height_px": 423,
+      "foreground_empty_percent": 0.0,
+      "wall_clearance_m": 2.6,
+      "half_contrast_retention": 0.5012,
+      "solid_contrast_retention": 0.0,
+      "signal": {
+        "hidden": 4951352,
+        "half": 2481416,
+        "solid": 0
+      },
+      "visible_pixels": {
+        "hidden": 62067,
+        "half": 61196,
+        "solid": 0
+      }
+    }
+  ],
+  "functional_result": "PASS",
+  "motion_sequences": {
+    "distance_approach": 24,
+    "distance_lateral": 24,
+    "region_approach": 24,
+    "region_lateral": 24
+  }
+}
