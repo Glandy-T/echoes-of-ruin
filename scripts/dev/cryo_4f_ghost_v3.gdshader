@@ -1,4 +1,7 @@
 shader_type spatial;
+// The follow camera is behind the room-facing cladding when it occludes the
+// actor. Retain the same pixel surface on that back face while alpha blended.
+render_mode cull_disabled;
 uniform sampler2D color_map : source_color, filter_nearest, repeat_enable;
 uniform sampler2D emission_map : source_color, filter_nearest, repeat_enable;
 uniform sampler2D irradiance_map : filter_linear, repeat_disable;

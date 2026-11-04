@@ -1,0 +1,17 @@
+{
+	"door_alpha_far": {
+		"Face_Door_D005_x_-1_0": 0.42,
+		"LockedDoor_D005": 0.42
+	},
+	"door_alpha_near": {
+		"Face_Door_D005_x_-1_0": 0.42,
+		"LockedDoor_D005": 0.42
+	},
+	"door_state": "denied",
+	"history": [
+		"scanning",
+		"denied"
+	],
+	"no_modal_text": true,
+	"wall_opacity": 0.42
+}

@@ -24,5 +24,6 @@ for i in range(8):
  parts.append('</details>')
 for mode in ['raw','denoised']:parts.append(f'<details><summary>全部分段地坪 {mode}</summary><img loading="lazy" src="evidence/contact_{mode}_floors.jpg"></details>')
 parts.append('<h2>当前边界</h2><p>这是整层外壳和走廊的试运行候选，等待用户判断空壳透明效果；其他房间没有可进入室内。楼梯入口、公共区专用门型、电梯和正式3D主角尚未完成美术。保留既有权限与剧情，未扩展至1F室外。全层光图密度16px/m，低于局部v2的120px/m；材质仍80px/m，光照平滑程度与像素原画密度分别记录。</p>')
-(EXP/'preview.html').write_text(''.join(parts),encoding='utf-8')
+notice='<p class="note"><strong>后续修正v4：</strong>半透明提高至42%并保留背面墙纹理；其他认证门接入黄闪→红灯拒绝，取消权限不足弹窗。F6入口保持本场景。<a href="../cryo_4f_feedback_v4/preview.html">查看最新实机对照</a>。以下v3截图为修正前记录。</p>'
+(EXP/'preview.html').write_text(''.join(parts).replace('<h1>',notice+'<h1>',1),encoding='utf-8')
 print('REVIEW_PAGE_READY')

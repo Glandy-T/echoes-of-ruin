@@ -127,12 +127,12 @@ func _update_occlusion() -> void:
 			var inverse := mesh.global_transform.affine_inverse()
 			# Cover the visible aisle around the actor, not just a person-sized hole.
 			# Otherwise the adjacent room's two long wall bays still cover the screen.
-			for offset in _occlusion_probe_offsets():
+			for offset in _occlusion_offsets_for(mesh):
 				if mesh.get_aabb().grow(.08).intersects_segment(inverse*camera.global_position,inverse*(player.global_position+offset)) != null:
 					blocked=true
 					break
 		var alpha := float(entry.get("alpha",1.0))
-		alpha=move_toward(alpha,.12 if blocked else 1.0,get_physics_process_delta_time()*4.4)
+		alpha=move_toward(alpha,_occlusion_opacity() if blocked else 1.0,get_physics_process_delta_time()*4.4)
 		entry.alpha=alpha
 		if alpha < .999:
 			mesh.material_override=null
@@ -147,6 +147,12 @@ func _update_occlusion() -> void:
 
 func _occlusion_probe_offsets() -> Array[Vector3]:
 	return [Vector3(-4,.15,0),Vector3(-2,.15,0),Vector3(0,.15,0),Vector3(2,.15,0),Vector3(4,.15,0),Vector3(-4,1.65,0),Vector3(-2,1.65,0),Vector3(0,1.65,0),Vector3(2,1.65,0),Vector3(4,1.65,0)]
+
+func _occlusion_offsets_for(_mesh: MeshInstance3D) -> Array[Vector3]:
+	return _occlusion_probe_offsets()
+
+func _occlusion_opacity() -> float:
+	return .12
 
 func _physics_process(delta: float) -> void:
 	var near_door := _near_authentication_door()

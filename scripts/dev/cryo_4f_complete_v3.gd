@@ -21,6 +21,9 @@ var last_locked_interaction: Dictionary = {}
 var updating_floor_camera := false
 var room_wall_occlusion_enabled := true
 var map_labels: Node3D
+var locked_door_feedback: Dictionary = {}
+const WALL_OCCLUSION_OPACITY := .42
+const LOCKED_RED_SECONDS := 1.5
 
 func _ready() -> void:
 	super._ready()
@@ -66,6 +69,7 @@ func _ready() -> void:
 			mesh.material_override=mat;baked_materials.append(mat)
 			if kind!="floor":_register_ghost(mesh,mat)
 			else:_attach_solid(mesh)
+	_build_locked_door_feedback()
 	var stairs := OTHER_STAIRS.instantiate() as Node3D
 	stairs.name="Other4FStairEntrances";add_child(stairs);stairs.position=Vector3(93.2,-11.4,-38.9)
 	for mesh in stairs.find_children("*","MeshInstance3D",true,false):
@@ -153,9 +157,68 @@ func _occlusion_probe_offsets() -> Array[Vector3]:
 	for x in [-4.0,-2.0,0.0,2.0,4.0]:points.append(Vector3(x,3.35,0))
 	return points
 
+func _occlusion_opacity() -> float:
+	return WALL_OCCLUSION_OPACITY
+
+func _occlusion_offsets_for(mesh: MeshInstance3D) -> Array[Vector3]:
+	# Door leaves must not respond to wide aisle/header probes beside the actor.
+	# Only an actual camera-to-body obstruction can fade a door.
+	if str(mesh.name).begins_with("LockedDoor_") or str(mesh.name).begins_with("Face_Door_"):
+		return [Vector3(0,.85,0)]
+	return _occlusion_probe_offsets()
+
+func _build_locked_door_feedback() -> void:
+	for d: Dictionary in floor_layout.doors:
+		if not d.locked or d.kind=="elevator":continue
+		var material := _unshaded_color(Color(.025,.045,.05))
+		locked_door_feedback[d.id]={"door":d,"state":"idle","elapsed":0.0,"material":material,"windows":[],"history":[]}
+		var entry: Dictionary=locked_door_feedback[d.id]
+		# Build both faces even for gates without a corridor-side bake receiver.
+		for side in [-1.0,1.0]:
+			var window := MeshInstance3D.new();window.name="AuthenticationWindow_"+d.id+str(side)
+			var quad := QuadMesh.new();quad.size=Vector2(.115,.045);window.mesh=quad
+			window.material_override=material;window.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+			add_child(window);window.position=Vector3(d.godot[0],1.518,d.godot[2])
+			# UV0 uses the existing 1.4m door map at native density. Wider gates
+			# keep its status recess at u=.5, rather than at the geometric centre.
+			var recess_offset: float=.7-float(d.width)*.5
+			if d.orientation=="H":window.position.z+=side*.042;window.position.x+=recess_offset
+			else:window.rotation.y=PI*.5;window.position.x+=side*.042;window.position.z-=recess_offset
+			entry.windows.append(window)
+
+func _start_locked_authentication(id: String) -> void:
+	var entry: Dictionary=locked_door_feedback[id]
+	if entry.state=="scanning":return
+	entry.state="scanning";entry.elapsed=0.0;entry.history.append("scanning")
+	entry.material.albedo_color=Color(.69,.50,.19)
+	last_locked_interaction={"id":id,"kind":entry.door.kind,"outcome":"scanning"}
+
+func _update_locked_feedback(delta: float) -> void:
+	for id: String in locked_door_feedback:
+		var entry: Dictionary=locked_door_feedback[id]
+		if entry.state=="idle":continue
+		entry.elapsed+=delta
+		var d: Dictionary=entry.door
+		var distance := Vector2(player.position.x-d.godot[0],player.position.z-d.godot[2]).length()
+		if entry.state=="scanning":
+			if distance>1.8 or not corridor_view:
+				entry.state="idle";entry.history.append("cancelled")
+			elif entry.elapsed>=SCAN_SECONDS:
+				entry.state="denied";entry.elapsed=0.0;entry.history.append("denied")
+				last_locked_interaction={"id":id,"kind":d.kind,"outcome":"denied"}
+			else:
+				var flash := fmod(entry.elapsed,.5)<.30
+				entry.material.albedo_color=Color(.69,.50,.19) if flash else Color(.18,.15,.08)
+		if entry.state=="denied":
+			entry.material.albedo_color=Color(.66,.20,.16)
+			if entry.elapsed>=LOCKED_RED_SECONDS:
+				entry.state="idle";entry.history.append("idle")
+		if entry.state=="idle":entry.material.albedo_color=Color(.025,.045,.05)
+
 func _process(delta: float) -> void:
 	super._process(delta)
 	if not locked_anchor or not player:return
+	_update_locked_feedback(delta)
 	var show := _near_authentication_door() and door_fraction>=.99 and not switching_view
 	if show!=portal_prompt_visible:
 		portal_prompt_visible=show
@@ -183,8 +246,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			portal_transfer_approved=true;_switch_view(not corridor_view);get_viewport().set_input_as_handled();return
 		if not nearest_locked_door.is_empty():
 			var elevator: bool = nearest_locked_door.kind=="elevator"
-			last_locked_interaction={"id":nearest_locked_door.id,"kind":nearest_locked_door.kind,"outcome":"stopped" if elevator else "denied"}
-			review_ui.show_text("非常電源モード。人員昇降機は停止している。" if elevator else "この区画へのアクセス権限がない。")
+			if elevator:
+				last_locked_interaction={"id":nearest_locked_door.id,"kind":nearest_locked_door.kind,"outcome":"stopped"}
+				review_ui.show_text("非常電源モード。人員昇降機は停止している。")
+			else:_start_locked_authentication(nearest_locked_door.id)
 			get_viewport().set_input_as_handled();return
 	super._unhandled_input(event)
 

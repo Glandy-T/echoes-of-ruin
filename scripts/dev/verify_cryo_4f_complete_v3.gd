@@ -1,5 +1,5 @@
 extends Node
-const OUT := "res://docs/art/experiments/cryo_4f_complete_v3/"
+const OUT := "res://docs/art/experiments/cryo_4f_feedback_v4/"
 var level: Node3D
 var errors: Array[String] = []
 var result: Dictionary = {}
@@ -51,6 +51,9 @@ func run() -> void:
 	result['inner_gate_stop']=str(level.player.position)
 	interact();await frames(2)
 	check(not level.last_locked_interaction.is_empty(),"Inner gate has no interaction response")
+	check(level.last_locked_interaction.get("outcome")=="scanning","Inner gate did not start yellow authentication")
+	await frames(100)
+	check(level.last_locked_interaction.get("outcome")=="denied","Inner gate did not finish with red denial")
 	result['inner_gate_response']=level.last_locked_interaction.duplicate(true)
 	level.review_ui.close_dialogue()
 	# Foyer joins the second corridor without crossing a locked room.
@@ -67,8 +70,31 @@ func run() -> void:
 	await movement(Vector2(0,-1),100)
 	check(level.player.position.z> -12.0,"Neighbor room collision allowed entry")
 	interact();await frames(2)
+	check(level.last_locked_interaction.get("outcome")=="scanning","Neighbor room did not start yellow authentication")
+	var elapsed: float=level.locked_door_feedback["D005"].elapsed
+	interact();await frames(2)
+	check(level.locked_door_feedback["D005"].elapsed>=elapsed,"Repeated E restarted pending authentication")
+	await frames(100)
 	check(level.last_locked_interaction.get("outcome")=="denied","Neighbor room did not deny access")
+	check(level.review_ui.can_accept_world_interaction(),"Door denial opened a modal text box")
+	check(level.locked_door_feedback["D005"].state=="denied","Door has no red-window state")
 	result['neighbor_room_response']=level.last_locked_interaction.duplicate(true)
+	result['neighbor_feedback_history']=level.locked_door_feedback["D005"].history.duplicate()
+	await frames(100)
+	check(level.locked_door_feedback["D005"].state=="idle","Red denial did not reset")
+	check(level._occlusion_opacity()>=.4,"Occlusion erased original surface")
+	for entry in level.locked_door_feedback.values():check(not entry.windows.is_empty() and entry.door.kind!="elevator","Authentication window missing or added to disabled elevator")
+	level.review_teleport(Vector3(8.0,.05,-10.7));await frames(40)
+	for entry in level.occluders:
+		if "Door_D005" in str(entry.mesh.name):check(entry.get("alpha",1.0)>.999,"Side probe faded door outside actual body sightline")
+	level.review_teleport(Vector3(10.5,.05,-10.7));await frames(40)
+	var far: Dictionary={}
+	for entry in level.occluders:
+		if "Door_D005" in str(entry.mesh.name):far[str(entry.mesh.name)]=entry.get("alpha",1.0)
+	await movement(Vector2(0,-1),100)
+	for entry in level.occluders:
+		if "Door_D005" in str(entry.mesh.name):check(absf(entry.get("alpha",1.0)-far[str(entry.mesh.name)])<.001,"Approach changed foreground door opacity")
+	result['foreground_door_opacity']=far
 	level.review_ui.close_dialogue()
 	# All eight corridor centerlines have real floor, not just an overview mesh.
 	var rays: Array = []
