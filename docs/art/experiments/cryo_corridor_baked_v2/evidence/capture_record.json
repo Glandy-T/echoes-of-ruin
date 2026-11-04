@@ -1,0 +1,149 @@
+[
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.986059, 0.166397), Z: (-0.0, 0.166397, -0.986059), O: (8.2, 2.25, -18.7)]",
+		"file": "raw_game.png",
+		"fov": 50.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (8.2, 1.7, -9.65)]",
+		"file": "raw_north_wall.png",
+		"fov": 110.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (-0.0, 0.0, -1.0), O: (8.2, 1.7, -11.75)]",
+		"file": "raw_south_wall.png",
+		"fov": 110.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.049938, -0.998752), Z: (0.0, 0.998752, 0.049938), O: (8.9, 6.0, -10.4)]",
+		"file": "raw_floor.png",
+		"fov": 65.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (0.902861, 0.0, -0.429934), Y: (-0.271989, 0.774454, -0.571177), Z: (0.332964, 0.632631, 0.699224), O: (7.2, 1.15, -10.7)]",
+		"file": "raw_west_wall_feet.png",
+		"fov": 75.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-0.902861, 0.0, 0.429933), Y: (0.271989, 0.774454, 0.571177), Z: (-0.332963, 0.632631, -0.699224), O: (9.2, 1.15, -10.7)]",
+		"file": "raw_east_wall_feet.png",
+		"fov": 75.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (0.902861, 0.0, 0.429934), Y: (0.271989, 0.774454, -0.571177), Z: (-0.332964, 0.632631, 0.699224), O: (9.2, 1.15, -10.7)]",
+		"file": "raw_north_east_foot.png",
+		"fov": 75.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-0.902861, 0.0, -0.429933), Y: (-0.271989, 0.774454, 0.571177), Z: (0.332963, 0.632631, -0.699224), O: (7.2, 1.15, -10.7)]",
+		"file": "raw_south_west_foot.png",
+		"fov": 75.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.996888, 0.078826), Z: (0.0, -0.078826, 0.996888), O: (8.2, 2.9, -10.0)]",
+		"file": "raw_lamp_close.png",
+		"fov": 65.0,
+		"raw": true,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.986059, 0.166397), Z: (-0.0, 0.166397, -0.986059), O: (8.2, 2.25, -18.7)]",
+		"file": "denoised_game.png",
+		"fov": 50.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (8.2, 1.7, -9.65)]",
+		"file": "denoised_north_wall.png",
+		"fov": 110.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (-0.0, 0.0, -1.0), O: (8.2, 1.7, -11.75)]",
+		"file": "denoised_south_wall.png",
+		"fov": 110.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.049938, -0.998752), Z: (0.0, 0.998752, 0.049938), O: (8.9, 6.0, -10.4)]",
+		"file": "denoised_floor.png",
+		"fov": 65.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (0.902861, 0.0, -0.429934), Y: (-0.271989, 0.774454, -0.571177), Z: (0.332964, 0.632631, 0.699224), O: (7.2, 1.15, -10.7)]",
+		"file": "denoised_west_wall_feet.png",
+		"fov": 75.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-0.902861, 0.0, 0.429933), Y: (0.271989, 0.774454, 0.571177), Z: (-0.332963, 0.632631, -0.699224), O: (9.2, 1.15, -10.7)]",
+		"file": "denoised_east_wall_feet.png",
+		"fov": 75.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (0.902861, 0.0, 0.429934), Y: (0.271989, 0.774454, -0.571177), Z: (-0.332964, 0.632631, 0.699224), O: (9.2, 1.15, -10.7)]",
+		"file": "denoised_north_east_foot.png",
+		"fov": 75.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (-0.902861, 0.0, -0.429933), Y: (-0.271989, 0.774454, 0.571177), Z: (0.332963, 0.632631, -0.699224), O: (7.2, 1.15, -10.7)]",
+		"file": "denoised_south_west_foot.png",
+		"fov": 75.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.996888, 0.078826), Z: (0.0, -0.078826, 0.996888), O: (8.2, 2.9, -10.0)]",
+		"file": "denoised_lamp_close.png",
+		"fov": 65.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (8.2, 1.7, -9.65)]",
+		"file": "on_wall.png",
+		"fov": 110.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (8.2, 1.7, -9.65)]",
+		"file": "off_wall.png",
+		"fov": 110.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (8.2, 1.7, -9.65)]",
+		"file": "restored_wall.png",
+		"fov": 110.0,
+		"raw": false,
+		"realtime_lights_visible": false
+	}
+]

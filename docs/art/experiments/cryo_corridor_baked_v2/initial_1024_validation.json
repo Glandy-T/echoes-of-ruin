@@ -1,0 +1,58 @@
+{
+  "UV2": {
+    "receiver_triangle_count": 6,
+    "candidate_triangle_pairs": 3,
+    "positive_area_overlap_count": 0,
+    "positive_area_overlaps": [],
+    "geometry_non_degenerate_triangle_count": 6,
+    "uv_non_degenerate_triangle_count": 6,
+    "uv_degenerate_triangle_count": 0,
+    "out_of_atlas_vertex_count": 0,
+    "out_of_atlas_vertices": []
+  },
+  "HDR": {
+    "raw": {
+      "min": 0.0,
+      "max": 0.456245481967926,
+      "mean": 0.06080405414104462
+    },
+    "denoised": {
+      "min": 0.0,
+      "max": 0.34339821338653564,
+      "mean": 0.06071237847208977
+    }
+  },
+  "charts": {
+    "Wall_3p2m_TwoBays": {
+      "raw_neighbor_residual": 0.011314263567328453,
+      "denoised_neighbor_residual": 0.0002483840798959136,
+      "raw_mean": 0.15622635185718536,
+      "denoised_mean": 0.1560126692056656,
+      "mean_abs_denoise_delta": 0.007598207797855139,
+      "edge_ring_nonnegative": true
+    },
+    "Room1_Exterior_Wall_Module": {
+      "raw_neighbor_residual": 0.011467628180980682,
+      "denoised_neighbor_residual": 0.000227003067266196,
+      "raw_mean": 0.15689979493618011,
+      "denoised_mean": 0.15671837329864502,
+      "mean_abs_denoise_delta": 0.0077261412516236305,
+      "edge_ring_nonnegative": true
+    },
+    "Floor_3p2m_Unique": {
+      "raw_neighbor_residual": 0.01327535230666399,
+      "denoised_neighbor_residual": 0.00024572049733251333,
+      "raw_mean": 0.12130207568407059,
+      "denoised_mean": 0.12114149332046509,
+      "mean_abs_denoise_delta": 0.009268924593925476,
+      "edge_ring_nonnegative": true
+    }
+  },
+  "sampler": "lightmap linear, albedo nearest",
+  "margin_px": 4,
+  "unexpanded_chart_gap_px": 16,
+  "remaining_clear_gap_after_two_4px_dilations": 8,
+  "context": "floor, opposite walls, actual frozen route walls plus cutaway ceiling; source retained",
+  "runtime_lights": 0,
+  "manifest_hashes_match": true
+}

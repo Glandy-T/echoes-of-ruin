@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "raw_noise_4096_to_1024_ratio": {
+    "Wall_3p2m_TwoBays": 0.48747324588401064,
+    "Room1_Exterior_Wall_Module": 0.4903168304898974,
+    "Floor_3p2m_Unique": 0.48244438643466275
+  },
+  "baseline_room_unchanged": true,
+  "samples": 4096,
+  "new_generations": 0,
+  "scope": "3.2m corridor sample; 3 receivers, not entire graybox route",
+  "lighting": "DIRECT+INDIRECT irradiance, COLOR off; independent luminous strip",
+  "visual_review": "inspected game, both walls, full floor, four wall-foot corners and lamp; no new UV seams or triangle lighting patches observed; room-like low exposure remains dark and awaits user review",
+  "lamp_restore": {
+    "changed_pixels": 0,
+    "max_channel_difference": 0
+  },
+  "runtime_report": "PASS"
+}

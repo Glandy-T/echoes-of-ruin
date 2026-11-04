@@ -1,0 +1,18 @@
+{
+  "samples": 4096,
+  "device": "CUDA",
+  "seconds": 239.75,
+  "receivers": 3,
+  "context_meshes": 9,
+  "atlas": 1024,
+  "pass": "DIFFUSE DIRECT+INDIRECT, COLOR off",
+  "ribbon_strength": 5.333333333333333,
+  "bounces": 4,
+  "world_illumination": 0,
+  "runtime_realtime_lights": 0,
+  "files": {
+    "corridor_baked_v2.glb": "03d2ac814d924421aae072810a8ecd9ffd734d030fd4da7bf4421310302d93d7",
+    "strip_irradiance.exr": "2e01e12707f7ddab182bed3f67bc5ff2e59ae2e3bb770c84c7c60349fb9e2b9b",
+    "strip_irradiance_denoised.exr": "ff6cd6e1a1eddb586d037f681ee92543e07683158683f92834885c52c5795f89"
+  }
+}

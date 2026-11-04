@@ -1,0 +1,51 @@
+{
+	"authentication": "proximity stays idle; explicit E starts scan",
+	"collision_bodies": 64,
+	"errors": [],
+	"events": [
+		{
+			"event": "fade_out",
+			"outside": true
+		},
+		{
+			"alpha": 1.0,
+			"event": "rotated_under_black",
+			"outside": true
+		},
+		{
+			"event": "fade_in_complete",
+			"outside": true
+		},
+		{
+			"event": "fade_out",
+			"outside": false
+		},
+		{
+			"alpha": 1.0,
+			"event": "rotated_under_black",
+			"outside": false
+		},
+		{
+			"event": "fade_in_complete",
+			"outside": false
+		}
+	],
+	"ghosts_outside": [
+		"R4F_4F_D005_LockedDoor_Placeholder",
+		"R4F_4F_W032",
+		"R4F_4F_W033",
+		"Wall_3p2m_TwoBays"
+	],
+	"imported_uv2": {
+		"Floor_3p2m_Unique": "[(0.015625, 0.5625), (0.390625, 0.28125), (0.390625, 0.5625), (0.015625, 0.28125)]",
+		"Room1_Exterior_Wall_Module": "[(0.40625, 0.984375), (0.78125, 0.585938), (0.78125, 0.984375), (0.40625, 0.585938)]",
+		"Wall_3p2m_TwoBays": "[(0.015625, 0.984375), (0.390625, 0.585938), (0.390625, 0.984375), (0.015625, 0.585938)]"
+	},
+	"outside_D_world_delta_x": -0.616672515869141,
+	"portal_black_double_sided": true,
+	"r30_mode": 2,
+	"realtime_lights_visible": false,
+	"result": "PASS",
+	"rotation_black_alpha": 1.0,
+	"yaw_dot": -1.0
+}

@@ -131,7 +131,8 @@ func _update_occlusion() -> void:
 		if alpha < .999:
 			mesh.material_override=null
 			for i in entry.faded.size():
-				entry.faded[i].albedo_color.a=alpha
+				if entry.faded[i] is ShaderMaterial:entry.faded[i].set_shader_parameter("opacity",alpha)
+				else:entry.faded[i].albedo_color.a=alpha
 				mesh.set_surface_override_material(i,entry.faded[i])
 		elif entry.active:
 			mesh.material_override=entry.override
