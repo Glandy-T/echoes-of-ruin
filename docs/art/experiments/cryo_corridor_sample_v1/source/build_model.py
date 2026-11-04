@@ -22,7 +22,7 @@ def mesh(name,verts,faces,uvs,mat):
  ob=bpy.data.objects.new(name,me);bpy.context.collection.objects.link(ob);me.materials.append(mat)
  ob['scope']='visual cladding only; existing route collision retained';return ob
 
-wall=material('Corridor_Wall_PixelLab','wall.png');floor=material('Corridor_Floor_Placeholder','floor.png');trim=material('Corridor_Dark_Trim',color=(.12,.17,.18,1))
+wall=material('Corridor_Wall_PixelLab','wall.png');floor=material('Corridor_Floor_Reused_R26','floor.png');trim=material('Corridor_Dark_Trim',color=(.12,.17,.18,1))
 # Front wall veneer occupies the existing wall thickness; visible face offset 3mm to avoid coplanar overlap.
 w=mesh('Wall_3p2m_TwoBays',[(6.6,0,-11.897),(9.8,0,-11.897),(9.8,3.2,-11.897),(6.6,3.2,-11.897)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],wall)
 wr=mesh('Room1_Exterior_Wall_Module',[(9.8,0,-9.503),(6.6,0,-9.503),(6.6,3.2,-9.503),(9.8,3.2,-9.503)],[(0,1,2,3)],[[(0,0),(1,0),(1,1),(0,1)]],wall)

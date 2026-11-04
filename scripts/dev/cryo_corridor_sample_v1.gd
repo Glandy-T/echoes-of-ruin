@@ -11,10 +11,17 @@ var fade_rect: ColorRect
 var occluders: Array[Dictionary] = []
 var camera_events: Array[Dictionary] = []
 var input_release_required := false
+var authentication_requested := false
+var authentication_prompt_visible := false
 
 func _ready() -> void:
 	super._ready()
 	if Engine.is_editor_hint(): return
+	# Stationary, opaque, double-sided portal curtain: never reveal the other area.
+	var curtain := get_node("BlackDoorway") as MeshInstance3D
+	curtain.mesh=curtain.mesh.duplicate()
+	(curtain.mesh as QuadMesh).size=Vector2(1.44,2.44)
+	curtain.visible=true
 	corridor_sample=SAMPLE.instantiate()
 	corridor_sample.name="CorridorSampleV1"
 	add_child(corridor_sample)
@@ -113,6 +120,10 @@ func _update_occlusion() -> void:
 		entry.active=alpha < .999
 
 func _physics_process(delta: float) -> void:
+	var near_door := _near_authentication_door()
+	if not near_door:authentication_requested=false
+	# Gate the inherited sensor/scan state before its physics update.
+	door_occupied=near_door and authentication_requested
 	var saved_mode := test_mode
 	var saved_input := test_input
 	var raw_input := Vector2(float(Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT))-float(Input.is_physical_key_pressed(KEY_A) or Input.is_physical_key_pressed(KEY_LEFT)),float(Input.is_physical_key_pressed(KEY_S) or Input.is_physical_key_pressed(KEY_DOWN))-float(Input.is_physical_key_pressed(KEY_W) or Input.is_physical_key_pressed(KEY_UP)))
@@ -129,6 +140,25 @@ func _physics_process(delta: float) -> void:
 	if fade_rect and player and not switching_view:
 		if not corridor_view and player.position.z < -9.72: _switch_view(true)
 		elif corridor_view and player.position.z > -9.25: _switch_view(false)
+
+func _near_authentication_door() -> bool:
+	return is_instance_valid(player) and is_instance_valid(door_mesh) and absf(player.position.x-door_closed_position.x)<1.35 and absf(player.position.z-door_closed_position.z)<1.8
+
+func _process(delta: float) -> void:
+	super._process(delta)
+	if not is_instance_valid(exit_anchor):return
+	var show := _near_authentication_door() and not authentication_requested and not switching_view
+	if show!=authentication_prompt_visible:
+		authentication_prompt_visible=show
+		if show:review_ui.show_interaction_name(door_sensor,"E：ドア認証",exit_anchor,Vector2(0,-35))
+		else:review_ui.hide_interaction_name(door_sensor)
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("interact") and not switching_view and _near_authentication_door() and review_ui.can_accept_world_interaction():
+		authentication_requested=true
+		get_viewport().set_input_as_handled()
+		return
+	super._unhandled_input(event)
 
 func _switch_view(outside: bool) -> void:
 	switching_view=true
@@ -152,7 +182,7 @@ func _switch_view(outside: bool) -> void:
 func _update_info() -> void:
 	super._update_info()
 	if info:
-		info.text="4F走廊小样 v1 / " + ("墙板候选 · 地坪占位" if sample_on else "原灰盒") + "\nF7 灰盒/小样 · F8 小样位置 · WASD 移动。出门黑屏＋180°反向镜头；遮挡墙体透明。"
+		info.text="4F走廊小样 v1 / " + ("墙板候选 · 复用r26地坪" if sample_on else "原灰盒") + "\nE 门认证 · F7 灰盒/小样 · F8 小样位置 · WASD 移动。门洞双面黑色；黑屏＋180°镜头。"
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:

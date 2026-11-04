@@ -15,16 +15,16 @@
   },
   {
     "name": "floor",
-    "source": "docs\\art\\experiments\\cryo_corridor_sample_v1\\raw\\floor_256.png",
+    "source": "docs\\art\\experiments\\cryo_corridor_sample_v1\\raw\\floor_reused_r26.png",
     "native_size": [
       256,
       192
     ],
-    "sha256": "8b2154612f9f09829015139f8a0f531e6499a525854bb55b82ac1d8d49e2456a",
+    "sha256": "89ee5c1c864e2a5f1936e9933bf57a3bcb0b9d9f29523724036a772587a38322",
     "resampled": false,
     "retouched": false,
-    "unique_colors": 1,
-    "art_status": "rejected: flat placeholder only",
+    "unique_colors": 7,
+    "art_status": "candidate pending user review",
     "editable": "OpenRaster, original-only layer; no Aseprite edits"
   }
 ]

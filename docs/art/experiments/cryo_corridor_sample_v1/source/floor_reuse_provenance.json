@@ -1,0 +1,22 @@
+{
+  "source": "assets/art/room1_floor_detail_full_r26/floor_with_leaks.png",
+  "source_sha256": "72b42743d17d67f75a8437b50ab463dcc21fd47becaa56776eae2ab979bb0164",
+  "crop_xyxy": [
+    768,
+    256,
+    1024,
+    448
+  ],
+  "source_region": "central aisle, between both pod rows; excludes rectangular pod footprints and leaks",
+  "native_size": [
+    256,
+    192
+  ],
+  "world_size_m": [
+    3.2,
+    2.4
+  ],
+  "resampled": false,
+  "paint_changes": false,
+  "new_generations": 0
+}

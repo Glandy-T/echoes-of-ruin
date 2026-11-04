@@ -2,15 +2,15 @@
 <title>4F走廊小样 · 180°镜头与遮挡</title>
 <style>body{margin:30px auto;padding:0 22px;max-width:1320px;background:#142022;color:#dce6e4;font:16px/1.7 system-ui}h1{font-size:28px}button,select{font:inherit;padding:8px 14px;margin:4px;background:#2b4548;border:1px solid #789391;color:inherit;border-radius:5px}img{display:block;width:100%;height:auto;image-rendering:pixelated}figure{margin:22px 0}a{color:#a0d4d1}.notice{border-left:3px solid #cab58b;padding:10px 16px;background:#243336}.raw{display:flex;gap:30px;align-items:flex-start}.raw img{width:auto;max-width:45%;border:1px solid #506766}.small{color:#afc1bd}button[aria-pressed=true]{background:#49756d}</style>
 <h1>4F门外走廊 · 小样 v1</h1>
-<p>继承r30的独立F6候选。出门黑屏 → 镜头反向180° → 邻室遮挡透明；返回室内恢复。</p>
-<p class="notice">墙板为待审候选；地坪两次生成均返回纯色，仍是占位。本轮共用30次额度，已停止生成。下图均为实际Godot输出，不是效果示意图。</p>
+<p>继承r30的独立F6候选。E互动认证 → 黑色门洞 → 出门黑屏 → 镜头反向180° → 邻室遮挡透明；返回室内恢复。</p>
+<p class="notice">墙板为待审候选；地坪复用r26中央过道，避开舱位痕迹和漏液。靠近门按E后认证，门洞两面始终为黑色。此前生成用30次，本次复用与门逻辑修改0次。下图均为实际Godot输出，不是效果示意图。</p>
 <p><a href="README.md">来源、操作与验证</a> · F6：scenes/dev/cryo_corridor_sample_v1.tscn · F8到小样，F7切换灰盒／小样。</p>
-<select id="view" aria-label="比较机位"><option value="reverse180">180°反向游戏镜头</option><option value="wall">完整墙板技术审图</option><option value="oblique">走廊内斜向技术审图</option><option value="door_link">室内开门衔接</option><option value="floor">地坪范围（占位）</option></select>
+<select id="view" aria-label="比较机位"><option value="reverse180">180°反向游戏镜头</option><option value="wall">完整墙板技术审图</option><option value="oblique">走廊内斜向技术审图</option><option value="door_link">室内开门衔接</option><option value="floor">复用地坪范围</option></select>
 <button id="old" onclick="setMode('baseline')">原灰盒</button><button id="new" onclick="setMode('sample')">小样</button>
 <figure><img id="main" src="evidence/sample_reverse180.png" alt="小样180度镜头"><figcaption id="caption"></figcaption></figure>
 <h2>真实进出门状态</h2><p class="small">以下是连续操作的四个状态截图；黑屏帧是真实全黑输出。实际淡黑0.22秒、黑屏保持0.08秒、淡入0.30秒。</p>
 <button onclick="phase(0)">1 室内出门前</button><button onclick="phase(1)">2 全黑时旋转</button><button onclick="phase(2)">3 反向镜头＋透明</button><button onclick="phase(3)">4 返回室内</button>
 <figure><img id="transition" src="evidence/transition_03_reverse180.png" alt="出门后的反向视角"></figure>
-<h2>原生材质与未完成项</h2><div class="raw"><img src="raw/wall.png" alt="PixelLab墙板原图256×256"><img src="raw/floor_detail.png" alt="不合格地坪：纯色占位"></div>
-<p class="small">左：墙板原图，复用到走廊两侧。右：地坪返修原图仍为单色，未通过美术检查。没有插值放大，也没有用脚本添污斑。</p>
-<script>let mode='sample';const v=document.getElementById('view');function setMode(m){mode=m;document.getElementById('main').src='evidence/'+mode+'_'+v.value+'.png';document.getElementById('caption').textContent=(mode==='sample'?'小样（墙板候选／地坪占位）':'原灰盒')+' · '+v.options[v.selectedIndex].text+' · 1280×720';document.getElementById('old').setAttribute('aria-pressed',mode==='baseline');document.getElementById('new').setAttribute('aria-pressed',mode==='sample')}v.onchange=()=>setMode(mode);function phase(i){document.getElementById('transition').src='evidence/'+['transition_01_inside','transition_02_black','transition_03_reverse180','transition_04_inside_restored'][i]+'.png'}setMode(mode);</script></html>
+<h2>原生材质与未完成项</h2><div class="raw"><img src="raw/wall.png" alt="PixelLab墙板原图256×256"><img src="raw/floor_reused_r26.png" alt="r26中央过道原生裁片"></div>
+<p class="small">左：墙板原图，复用到走廊两侧。右：r26中央过道的256×192原生裁片，没有舱底轮廓。没有插值放大，也没有用脚本添污斑。</p>
+<script>let mode='sample';const v=document.getElementById('view');function setMode(m){mode=m;document.getElementById('main').src='evidence/'+mode+'_'+v.value+'.png';document.getElementById('caption').textContent=(mode==='sample'?'小样（墙板候选／r26复用地坪）':'原灰盒')+' · '+v.options[v.selectedIndex].text+' · 1280×720';document.getElementById('old').setAttribute('aria-pressed',mode==='baseline');document.getElementById('new').setAttribute('aria-pressed',mode==='sample')}v.onchange=()=>setMode(mode);function phase(i){document.getElementById('transition').src='evidence/'+['transition_01_inside','transition_02_black','transition_03_reverse180','transition_04_inside_restored'][i]+'.png'}setMode(mode);</script></html>

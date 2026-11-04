@@ -35,6 +35,7 @@ func run() -> void:
 	room.info.get_parent().hide()
 	room.set_process(false)
 	room.set_physics_process(false)
+	room.review_ui.hide_interaction_name(room.door_sensor)
 	room.set("chip_enabled",true)
 	room.set("door_occupied",true)
 	room.set("scan_complete",true)

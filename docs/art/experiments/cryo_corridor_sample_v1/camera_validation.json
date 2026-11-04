@@ -1,4 +1,5 @@
 {
+	"authentication": "proximity stays idle; explicit E starts scan",
 	"collision_bodies": 64,
 	"errors": [],
 	"events": [
@@ -36,6 +37,7 @@
 		"Wall_3p2m_TwoBays"
 	],
 	"outside_D_world_delta_x": -0.616672515869141,
+	"portal_black_double_sided": true,
 	"r30_mode": 2,
 	"result": "PASS",
 	"rotation_black_alpha": 1.0,

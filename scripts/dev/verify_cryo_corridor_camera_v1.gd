@@ -36,6 +36,12 @@ func run() -> void:
 	room.test_mode=true
 	room.test_input=Vector2.ZERO
 	room.teleport_player(Vector3(10.5,.05,-8.6))
+	await frames(120)
+	check(room.scan_time==0.0 and room.door_fraction==0.0,"Proximity started authentication without interaction")
+	var interact := InputEventAction.new()
+	interact.action="interact"
+	interact.pressed=true
+	Input.parse_input_event(interact)
 	await frames(310)
 	check(room.door_fraction>.95,"Room 1 door did not open")
 	var before := (room.get_node("ReviewCamera") as Camera3D).global_basis.z
@@ -89,6 +95,8 @@ func run() -> void:
 	data['outside_D_world_delta_x']=new_x-old_x
 	room.test_mode=true
 	room.teleport_player(Vector3(10.5,.05,-10.1))
+	Input.parse_input_event(interact)
+	await frames(310)
 	room.test_input=Vector2(0,1)
 	for i in 180:
 		await frames(1)
@@ -107,6 +115,8 @@ func run() -> void:
 	data['events']=room.camera_events
 	data['r30_mode']=room.r30_mode
 	data['collision_bodies']=room.route_bodies.size()
+	data['authentication']='proximity stays idle; explicit E starts scan'
+	data['portal_black_double_sided']=room.get_node("BlackDoorway").visible
 	FileAccess.open(OUT+"camera_validation.json",FileAccess.WRITE).store_string(JSON.stringify(data,"\t"))
 	print("CORRIDOR_CAMERA ",JSON.stringify(data))
 	get_tree().quit(0 if errors.is_empty() else 1)

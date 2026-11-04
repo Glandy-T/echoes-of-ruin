@@ -19,8 +19,8 @@ func _run() -> void:
 	if level.get_node_or_null("TemporaryExitBoundary"):
 		errors.append("old artificial Room 1 exit blocker remains")
 	var black := level.get_node_or_null("BlackDoorway") as MeshInstance3D
-	if black and black.visible:
-		errors.append("old black doorway remains visible")
+	if not black or not black.visible:
+		errors.append("required double-sided black doorway missing")
 	if level.get_node_or_null("OutsideRoute") == null:
 		errors.append("outside route GLB missing")
 
@@ -45,6 +45,13 @@ func _run() -> void:
 	level.call("teleport_player", Vector3(10.5, 0.05, -8.6))
 	level.set("test_mode", true)
 	level.set("test_input", Vector2.ZERO)
+	level.review_ui.close_dialogue()
+	for i in 120:await get_tree().physics_frame
+	if level.scan_time!=0.0 or level.door_fraction!=0.0:errors.append("proximity auto-started door scan")
+	var interact := InputEventAction.new()
+	interact.action="interact"
+	interact.pressed=true
+	Input.parse_input_event(interact)
 	for i in 310:
 		await get_tree().physics_frame
 	var door_open_fraction := float(level.get("door_fraction"))

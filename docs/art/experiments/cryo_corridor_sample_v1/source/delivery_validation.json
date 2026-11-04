@@ -21,11 +21,18 @@
     720
   ],
   "black_frame_exact": true,
-  "floor_art_status": "rejected: both native 256x192 outputs have one RGB color",
+  "floor_art_status": "reused r26 central aisle native crop; rejected generation attempts retained as history",
   "actual_generations_used": 30.0,
   "budget_ceiling": 30,
   "third_party_reference_uploaded": false,
   "credentials_in_deliverables": false,
   "source_floor_384": "rejected by service, zero usage",
-  "API_balance_readonly": "passed before generation"
+  "API_balance_readonly": "passed before generation",
+  "floor_crop": [
+    768,
+    256,
+    1024,
+    448
+  ],
+  "new_generations_this_revision": 0
 }
