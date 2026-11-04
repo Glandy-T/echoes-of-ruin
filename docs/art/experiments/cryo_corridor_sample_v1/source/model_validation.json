@@ -1,0 +1,103 @@
+{
+  "result": "PASS",
+  "UV0": [
+    {
+      "object": "Wall_3p2m_TwoBays",
+      "pixels": [
+        256,
+        256
+      ],
+      "meters": [
+        3.2,
+        3.2
+      ],
+      "uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "density": 80,
+      "overlap": "one continuous quad per unique texture; no islands overlap"
+    },
+    {
+      "object": "Room1_Exterior_Wall_Module",
+      "pixels": [
+        256,
+        256
+      ],
+      "meters": [
+        3.2,
+        3.2
+      ],
+      "uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "density": 80,
+      "overlap": "one continuous quad per unique texture; no islands overlap"
+    },
+    {
+      "object": "Floor_3p2m_Unique",
+      "pixels": [
+        256,
+        192
+      ],
+      "meters": [
+        3.2,
+        2.4
+      ],
+      "uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "density": 80,
+      "overlap": "one continuous quad per unique texture; no islands overlap"
+    }
+  ],
+  "lightmap": "Not used: sample-only realtime lights. No stale bake attached.",
+  "primary_density_px_m": 80,
+  "visual_offset_m": 0.003,
+  "route_collision_modified": false,
+  "objects": 11
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "wall",
+    "source": "docs\\art\\experiments\\cryo_corridor_sample_v1\\raw\\wall.png",
+    "native_size": [
+      256,
+      256
+    ],
+    "sha256": "edc7ea1e52ea2e392cad36610461289b2c11d151508370874ccfde74e9f7fc40",
+    "resampled": false,
+    "retouched": false,
+    "unique_colors": 5,
+    "art_status": "candidate pending user review",
+    "editable": "OpenRaster, original-only layer; no Aseprite edits"
+  },
+  {
+    "name": "floor",
+    "source": "docs\\art\\experiments\\cryo_corridor_sample_v1\\raw\\floor_256.png",
+    "native_size": [
+      256,
+      192
+    ],
+    "sha256": "8b2154612f9f09829015139f8a0f531e6499a525854bb55b82ac1d8d49e2456a",
+    "resampled": false,
+    "retouched": false,
+    "unique_colors": 1,
+    "art_status": "rejected: flat placeholder only",
+    "editable": "OpenRaster, original-only layer; no Aseprite edits"
+  }
+]

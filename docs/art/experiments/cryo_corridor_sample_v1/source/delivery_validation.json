@@ -1,0 +1,31 @@
+{
+  "baseline_hashes_unchanged": 4,
+  "screenshots": [
+    "baseline_door_link.png",
+    "baseline_floor.png",
+    "baseline_oblique.png",
+    "baseline_reverse180.png",
+    "baseline_wall.png",
+    "sample_door_link.png",
+    "sample_floor.png",
+    "sample_oblique.png",
+    "sample_reverse180.png",
+    "sample_wall.png",
+    "transition_01_inside.png",
+    "transition_02_black.png",
+    "transition_03_reverse180.png",
+    "transition_04_inside_restored.png"
+  ],
+  "resolution": [
+    1280,
+    720
+  ],
+  "black_frame_exact": true,
+  "floor_art_status": "rejected: both native 256x192 outputs have one RGB color",
+  "actual_generations_used": 30.0,
+  "budget_ceiling": 30,
+  "third_party_reference_uploaded": false,
+  "credentials_in_deliverables": false,
+  "source_floor_384": "rejected by service, zero usage",
+  "API_balance_readonly": "passed before generation"
+}

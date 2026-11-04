@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dev/cryo_corridor_sample_v1.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/dev/verify_cryo_corridor_sample_v1.gd" id="2"]
+
+[node name="CorridorSampleVerify" instance=ExtResource("1")]
+
+[node name="Verify" type="Node" parent="."]
+script = ExtResource("2")

@@ -1,0 +1,26 @@
+{
+  "inputs": "Original flat structural guides prepared by prepare.py; no aging painted by script",
+  "third_party_images_uploaded": false,
+  "native_density_px_m": 80,
+  "wall_bounds_godot": [
+    6.6,
+    9.8,
+    0,
+    3.2,
+    -11.9
+  ],
+  "floor_bounds_godot": [
+    6.6,
+    9.8,
+    -11.9,
+    -9.5
+  ],
+  "source": "Frozen route_v3 GLB, W032 front z=-11.9, corridor width 2.4m",
+  "baseline_commit": "68360d5",
+  "lighting": "New sample-only realtime lights; no inherited lightmap reused",
+  "floor_input": "guide_floor_256.png",
+  "floor_native_resolution": [
+    256,
+    192
+  ]
+}

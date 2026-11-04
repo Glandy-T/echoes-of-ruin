@@ -1,5 +1,7 @@
 # Room 1：当前、正式与历史版本索引
 
+2026-11-04新增独立[4F走廊小样v1](experiments/cryo_corridor_sample_v1/README.md)：继承r30，墙板候选、地坪占位；黑屏180°转向与邻室遮挡透明已实现并测试，正式F5未迁移。F6 `scenes/dev/cryo_corridor_sample_v1.tscn`，不替换下方室内素材基线。
+
 核对日期：2026-11-03。此索引区分素材用途；用户已更新视觉与制作约束，见[像素美术制作基准](PIXEL_ART_PRODUCTION_STANDARD.md)。约束更新不代表下表素材已经返修或验收通过。
 
 ## 最新美术工作集

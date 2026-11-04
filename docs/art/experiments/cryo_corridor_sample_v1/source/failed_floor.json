@@ -1,0 +1,11 @@
+{
+  "id": "a6eb1ebc-6e9c-48e7-a21e-060f0450be1d",
+  "status": "failed",
+  "reason": "Tier 2 is required for this",
+  "usage": 0,
+  "resolution": [
+    384,
+    192
+  ],
+  "replacement": "floor_256, native 256x192 for 3.2x2.4m, no rescaling"
+}

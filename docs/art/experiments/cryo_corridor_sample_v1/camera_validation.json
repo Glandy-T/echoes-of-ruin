@@ -1,0 +1,43 @@
+{
+	"collision_bodies": 64,
+	"errors": [],
+	"events": [
+		{
+			"event": "fade_out",
+			"outside": true
+		},
+		{
+			"alpha": 1.0,
+			"event": "rotated_under_black",
+			"outside": true
+		},
+		{
+			"event": "fade_in_complete",
+			"outside": true
+		},
+		{
+			"event": "fade_out",
+			"outside": false
+		},
+		{
+			"alpha": 1.0,
+			"event": "rotated_under_black",
+			"outside": false
+		},
+		{
+			"event": "fade_in_complete",
+			"outside": false
+		}
+	],
+	"ghosts_outside": [
+		"R4F_4F_D005_LockedDoor_Placeholder",
+		"R4F_4F_W032",
+		"R4F_4F_W033",
+		"Wall_3p2m_TwoBays"
+	],
+	"outside_D_world_delta_x": -0.616672515869141,
+	"r30_mode": 2,
+	"result": "PASS",
+	"rotation_black_alpha": 1.0,
+	"yaw_dot": -1.0
+}

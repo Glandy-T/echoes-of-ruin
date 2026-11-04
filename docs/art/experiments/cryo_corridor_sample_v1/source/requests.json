@@ -1,0 +1,34 @@
+[
+  {
+    "name": "wall",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_wall.txt",
+    "guide": "guide_wall.png",
+    "mask": "mask_wall.png",
+    "seed": 2026110401
+  },
+  {
+    "name": "floor",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor.txt",
+    "guide": "guide_floor.png",
+    "mask": "mask_floor.png",
+    "seed": 2026110402
+  },
+  {
+    "name": "floor_256",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_256.txt",
+    "guide": "guide_floor_256.png",
+    "mask": "mask_floor_256.png",
+    "seed": 2026110402
+  },
+  {
+    "name": "floor_detail",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_floor_detail.txt",
+    "guide": "guide_floor_256.png",
+    "mask": "mask_floor_256.png",
+    "seed": 2026110403
+  }
+]
