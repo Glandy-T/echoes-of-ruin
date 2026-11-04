@@ -1,0 +1,7291 @@
+{
+  "rooms": [
+    {
+      "x1": 0.0,
+      "y1": 4.2,
+      "x2": 21.0,
+      "y2": 13.7,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+0*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-01",
+      "zone": "SW",
+      "row": 0,
+      "col": 0,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 20.8,
+      "y1": 4.2,
+      "x2": 41.8,
+      "y2": 13.7,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+1*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-02",
+      "zone": "SW",
+      "row": 0,
+      "col": 1,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 41.6,
+      "y1": 4.2,
+      "x2": 62.6,
+      "y2": 13.7,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+2*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-03",
+      "zone": "SW",
+      "row": 0,
+      "col": 2,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 62.400000000000006,
+      "y1": 4.2,
+      "x2": 83.4,
+      "y2": 13.7,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+3*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-04",
+      "zone": "SW",
+      "row": 0,
+      "col": 3,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 0.0,
+      "y1": 16.1,
+      "x2": 21.0,
+      "y2": 25.6,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+0*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-05",
+      "zone": "SW",
+      "row": 1,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 20.8,
+      "y1": 16.1,
+      "x2": 41.8,
+      "y2": 25.6,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+1*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-06",
+      "zone": "SW",
+      "row": 1,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 41.6,
+      "y1": 16.1,
+      "x2": 62.6,
+      "y2": 25.6,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+2*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-07",
+      "zone": "SW",
+      "row": 1,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 62.400000000000006,
+      "y1": 16.1,
+      "x2": 83.4,
+      "y2": 25.6,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+3*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-08",
+      "zone": "SW",
+      "row": 1,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 0.0,
+      "y1": 28.0,
+      "x2": 21.0,
+      "y2": 37.5,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+0*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-09",
+      "zone": "SW",
+      "row": 2,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 20.8,
+      "y1": 28.0,
+      "x2": 41.8,
+      "y2": 37.5,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+1*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-10",
+      "zone": "SW",
+      "row": 2,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 41.6,
+      "y1": 28.0,
+      "x2": 62.6,
+      "y2": 37.5,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+2*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-11",
+      "zone": "SW",
+      "row": 2,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 62.400000000000006,
+      "y1": 28.0,
+      "x2": 83.4,
+      "y2": 37.5,
+      "tag": "SW_Room",
+      "expressions": {
+        "x": "(0)+3*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SW-12",
+      "zone": "SW",
+      "row": 2,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 103.0,
+      "y1": 4.2,
+      "x2": 124.0,
+      "y2": 13.7,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+0*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-01",
+      "zone": "SE",
+      "row": 0,
+      "col": 0,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 123.8,
+      "y1": 4.2,
+      "x2": 144.8,
+      "y2": 13.7,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+1*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-02",
+      "zone": "SE",
+      "row": 0,
+      "col": 1,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 144.6,
+      "y1": 4.2,
+      "x2": 165.6,
+      "y2": 13.7,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+2*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-03",
+      "zone": "SE",
+      "row": 0,
+      "col": 2,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 165.4,
+      "y1": 4.2,
+      "x2": 186.4,
+      "y2": 13.7,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+3*RoomPitch",
+        "y": "(FloorSouth)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-04",
+      "zone": "SE",
+      "row": 0,
+      "col": 3,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 103.0,
+      "y1": 16.1,
+      "x2": 124.0,
+      "y2": 25.6,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+0*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-05",
+      "zone": "SE",
+      "row": 1,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 123.8,
+      "y1": 16.1,
+      "x2": 144.8,
+      "y2": 25.6,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+1*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-06",
+      "zone": "SE",
+      "row": 1,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 144.6,
+      "y1": 16.1,
+      "x2": 165.6,
+      "y2": 25.6,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+2*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-07",
+      "zone": "SE",
+      "row": 1,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 165.4,
+      "y1": 16.1,
+      "x2": 186.4,
+      "y2": 25.6,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+3*RoomPitch",
+        "y": "(FloorSouth)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-08",
+      "zone": "SE",
+      "row": 1,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 103.0,
+      "y1": 28.0,
+      "x2": 124.0,
+      "y2": 37.5,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+0*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-09",
+      "zone": "SE",
+      "row": 2,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 123.8,
+      "y1": 28.0,
+      "x2": 144.8,
+      "y2": 37.5,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+1*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-10",
+      "zone": "SE",
+      "row": 2,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 144.6,
+      "y1": 28.0,
+      "x2": 165.6,
+      "y2": 37.5,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+2*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-11",
+      "zone": "SE",
+      "row": 2,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 165.4,
+      "y1": 28.0,
+      "x2": 186.4,
+      "y2": 37.5,
+      "tag": "SE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+3*RoomPitch",
+        "y": "(FloorSouth)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "SE-12",
+      "zone": "SE",
+      "row": 2,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 0.0,
+      "y1": 48.699999999999996,
+      "x2": 21.0,
+      "y2": 58.199999999999996,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+0*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-01",
+      "zone": "NW",
+      "row": 0,
+      "col": 0,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 20.8,
+      "y1": 48.699999999999996,
+      "x2": 41.8,
+      "y2": 58.199999999999996,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+1*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-02",
+      "zone": "NW",
+      "row": 0,
+      "col": 1,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 41.6,
+      "y1": 48.699999999999996,
+      "x2": 62.6,
+      "y2": 58.199999999999996,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+2*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-03",
+      "zone": "NW",
+      "row": 0,
+      "col": 2,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 62.400000000000006,
+      "y1": 48.699999999999996,
+      "x2": 83.4,
+      "y2": 58.199999999999996,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+3*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-04",
+      "zone": "NW",
+      "row": 0,
+      "col": 3,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 0.0,
+      "y1": 60.599999999999994,
+      "x2": 21.0,
+      "y2": 70.1,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+0*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-05",
+      "zone": "NW",
+      "row": 1,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 20.8,
+      "y1": 60.599999999999994,
+      "x2": 41.8,
+      "y2": 70.1,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+1*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-06",
+      "zone": "NW",
+      "row": 1,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 41.6,
+      "y1": 60.599999999999994,
+      "x2": 62.6,
+      "y2": 70.1,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+2*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-07",
+      "zone": "NW",
+      "row": 1,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 62.400000000000006,
+      "y1": 60.599999999999994,
+      "x2": 83.4,
+      "y2": 70.1,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+3*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-08",
+      "zone": "NW",
+      "row": 1,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 0.0,
+      "y1": 72.5,
+      "x2": 21.0,
+      "y2": 82.0,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+0*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-09",
+      "zone": "NW",
+      "row": 2,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 20.8,
+      "y1": 72.5,
+      "x2": 41.8,
+      "y2": 82.0,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+1*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-10",
+      "zone": "NW",
+      "row": 2,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 41.6,
+      "y1": 72.5,
+      "x2": 62.6,
+      "y2": 82.0,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+2*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-11",
+      "zone": "NW",
+      "row": 2,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 62.400000000000006,
+      "y1": 72.5,
+      "x2": 83.4,
+      "y2": 82.0,
+      "tag": "NW_Room",
+      "expressions": {
+        "x": "(0)+3*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NW-12",
+      "zone": "NW",
+      "row": 2,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 103.0,
+      "y1": 48.699999999999996,
+      "x2": 124.0,
+      "y2": 58.199999999999996,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+0*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-01",
+      "zone": "NE",
+      "row": 0,
+      "col": 0,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 123.8,
+      "y1": 48.699999999999996,
+      "x2": 144.8,
+      "y2": 58.199999999999996,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+1*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-02",
+      "zone": "NE",
+      "row": 0,
+      "col": 1,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 144.6,
+      "y1": 48.699999999999996,
+      "x2": 165.6,
+      "y2": 58.199999999999996,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+2*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-03",
+      "zone": "NE",
+      "row": 0,
+      "col": 2,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 165.4,
+      "y1": 48.699999999999996,
+      "x2": 186.4,
+      "y2": 58.199999999999996,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+3*RoomPitch",
+        "y": "(NorthZoneY)+0*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-04",
+      "zone": "NE",
+      "row": 0,
+      "col": 3,
+      "capacity": 20,
+      "south_door": false,
+      "north_door": true
+    },
+    {
+      "x1": 103.0,
+      "y1": 60.599999999999994,
+      "x2": 124.0,
+      "y2": 70.1,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+0*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-05",
+      "zone": "NE",
+      "row": 1,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 123.8,
+      "y1": 60.599999999999994,
+      "x2": 144.8,
+      "y2": 70.1,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+1*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-06",
+      "zone": "NE",
+      "row": 1,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 144.6,
+      "y1": 60.599999999999994,
+      "x2": 165.6,
+      "y2": 70.1,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+2*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-07",
+      "zone": "NE",
+      "row": 1,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 165.4,
+      "y1": 60.599999999999994,
+      "x2": 186.4,
+      "y2": 70.1,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+3*RoomPitch",
+        "y": "(NorthZoneY)+1*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-08",
+      "zone": "NE",
+      "row": 1,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": true
+    },
+    {
+      "x1": 103.0,
+      "y1": 72.5,
+      "x2": 124.0,
+      "y2": 82.0,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+0*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-09",
+      "zone": "NE",
+      "row": 2,
+      "col": 0,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 123.8,
+      "y1": 72.5,
+      "x2": 144.8,
+      "y2": 82.0,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+1*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-10",
+      "zone": "NE",
+      "row": 2,
+      "col": 1,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 144.6,
+      "y1": 72.5,
+      "x2": 165.6,
+      "y2": 82.0,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+2*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-11",
+      "zone": "NE",
+      "row": 2,
+      "col": 2,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    },
+    {
+      "x1": 165.4,
+      "y1": 72.5,
+      "x2": 186.4,
+      "y2": 82.0,
+      "tag": "NE_Room",
+      "expressions": {
+        "x": "(EastZoneX)+3*RoomPitch",
+        "y": "(NorthZoneY)+2*RowPitch",
+        "w": "RoomWidth",
+        "d": "RoomDepth"
+      },
+      "id": "NE-12",
+      "zone": "NE",
+      "row": 2,
+      "col": 3,
+      "capacity": 20,
+      "south_door": true,
+      "north_door": false
+    }
+  ],
+  "room_count": 48,
+  "other_room_pods": 0,
+  "walk_rects": [
+    [
+      0.2,
+      13.7,
+      83.2,
+      16.099999999999998
+    ],
+    [
+      0.2,
+      25.6,
+      83.2,
+      28.0
+    ],
+    [
+      103.2,
+      13.7,
+      186.2,
+      16.099999999999998
+    ],
+    [
+      103.2,
+      25.6,
+      186.2,
+      28.0
+    ],
+    [
+      0.2,
+      58.199999999999996,
+      83.2,
+      60.599999999999994
+    ],
+    [
+      0.2,
+      70.1,
+      83.2,
+      72.5
+    ],
+    [
+      103.2,
+      58.199999999999996,
+      186.2,
+      60.599999999999994
+    ],
+    [
+      103.2,
+      70.1,
+      186.2,
+      72.5
+    ],
+    [
+      -2.4,
+      28.0,
+      0.0,
+      41.199999999999996
+    ],
+    [
+      -2.4,
+      44.99999999999999,
+      0.0,
+      58.199999999999996
+    ],
+    [
+      186.4,
+      28.0,
+      188.8,
+      41.199999999999996
+    ],
+    [
+      186.4,
+      44.99999999999999,
+      188.8,
+      58.199999999999996
+    ],
+    [
+      -2.6,
+      13.5,
+      0.19999999999999973,
+      28.200000000000003
+    ],
+    [
+      186.2,
+      13.5,
+      189.0,
+      28.200000000000003
+    ],
+    [
+      -2.6,
+      57.99999999999999,
+      0.19999999999999973,
+      72.69999999999999
+    ],
+    [
+      186.2,
+      57.99999999999999,
+      189.0,
+      72.69999999999999
+    ]
+  ],
+  "doors": [
+    {
+      "id": "D001",
+      "x": 10.5,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-01",
+      "godot": [
+        10.5,
+        0,
+        -9.399999999999999
+      ],
+      "locked": false
+    },
+    {
+      "id": "D002",
+      "x": 31.3,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-02",
+      "godot": [
+        31.3,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D003",
+      "x": 52.1,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-03",
+      "godot": [
+        52.1,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D004",
+      "x": 72.9,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-04",
+      "godot": [
+        72.9,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D005",
+      "x": 10.5,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-05",
+      "godot": [
+        10.5,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D006",
+      "x": 10.5,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-05",
+      "godot": [
+        10.5,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D007",
+      "x": 31.3,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-06",
+      "godot": [
+        31.3,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D008",
+      "x": 31.3,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-06",
+      "godot": [
+        31.3,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D009",
+      "x": 52.1,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-07",
+      "godot": [
+        52.1,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D010",
+      "x": 52.1,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-07",
+      "godot": [
+        52.1,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D011",
+      "x": 72.9,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-08",
+      "godot": [
+        72.9,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D012",
+      "x": 72.9,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-08",
+      "godot": [
+        72.9,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D013",
+      "x": 10.5,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-09",
+      "godot": [
+        10.5,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D014",
+      "x": 31.3,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-10",
+      "godot": [
+        31.3,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D015",
+      "x": 52.1,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-11",
+      "godot": [
+        52.1,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D016",
+      "x": 72.9,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SW-12",
+      "godot": [
+        72.9,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D017",
+      "x": 83.3,
+      "y": 14.899999999999999,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "SW_InnerGate",
+      "godot": [
+        83.3,
+        0,
+        -10.7
+      ],
+      "locked": true
+    },
+    {
+      "id": "D018",
+      "x": 83.3,
+      "y": 26.8,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "SW_InnerGate",
+      "godot": [
+        83.3,
+        0,
+        -22.6
+      ],
+      "locked": true
+    },
+    {
+      "id": "D019",
+      "x": -2.5,
+      "y": 20.849999999999998,
+      "width": 1.4,
+      "orientation": "V",
+      "kind": "elevator",
+      "tag": "SW_LiftDoor",
+      "godot": [
+        -2.5,
+        0,
+        -16.65
+      ],
+      "locked": true
+    },
+    {
+      "id": "D020",
+      "x": 113.5,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-01",
+      "godot": [
+        113.5,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D021",
+      "x": 134.3,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-02",
+      "godot": [
+        134.3,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D022",
+      "x": 155.1,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-03",
+      "godot": [
+        155.1,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D023",
+      "x": 175.9,
+      "y": 13.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-04",
+      "godot": [
+        175.9,
+        0,
+        -9.399999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D024",
+      "x": 113.5,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-05",
+      "godot": [
+        113.5,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D025",
+      "x": 113.5,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-05",
+      "godot": [
+        113.5,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D026",
+      "x": 134.3,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-06",
+      "godot": [
+        134.3,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D027",
+      "x": 134.3,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-06",
+      "godot": [
+        134.3,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D028",
+      "x": 155.1,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-07",
+      "godot": [
+        155.1,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D029",
+      "x": 155.1,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-07",
+      "godot": [
+        155.1,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D030",
+      "x": 175.9,
+      "y": 16.200000000000003,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-08",
+      "godot": [
+        175.9,
+        0,
+        -12.000000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D031",
+      "x": 175.9,
+      "y": 25.500000000000004,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-08",
+      "godot": [
+        175.9,
+        0,
+        -21.300000000000004
+      ],
+      "locked": true
+    },
+    {
+      "id": "D032",
+      "x": 113.5,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-09",
+      "godot": [
+        113.5,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D033",
+      "x": 134.3,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-10",
+      "godot": [
+        134.3,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D034",
+      "x": 155.1,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-11",
+      "godot": [
+        155.1,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D035",
+      "x": 175.9,
+      "y": 28.1,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "SE-12",
+      "godot": [
+        175.9,
+        0,
+        -23.900000000000002
+      ],
+      "locked": true
+    },
+    {
+      "id": "D036",
+      "x": 103.1,
+      "y": 14.899999999999999,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "SE_InnerGate",
+      "godot": [
+        103.1,
+        0,
+        -10.7
+      ],
+      "locked": true
+    },
+    {
+      "id": "D037",
+      "x": 103.1,
+      "y": 26.8,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "SE_InnerGate",
+      "godot": [
+        103.1,
+        0,
+        -22.6
+      ],
+      "locked": true
+    },
+    {
+      "id": "D038",
+      "x": 188.9,
+      "y": 20.849999999999998,
+      "width": 1.4,
+      "orientation": "V",
+      "kind": "elevator",
+      "tag": "SE_LiftDoor",
+      "godot": [
+        188.9,
+        0,
+        -16.65
+      ],
+      "locked": true
+    },
+    {
+      "id": "D039",
+      "x": 10.5,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-01",
+      "godot": [
+        10.5,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D040",
+      "x": 31.3,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-02",
+      "godot": [
+        31.3,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D041",
+      "x": 52.1,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-03",
+      "godot": [
+        52.1,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D042",
+      "x": 72.9,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-04",
+      "godot": [
+        72.9,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D043",
+      "x": 10.5,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-05",
+      "godot": [
+        10.5,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D044",
+      "x": 10.5,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-05",
+      "godot": [
+        10.5,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D045",
+      "x": 31.3,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-06",
+      "godot": [
+        31.3,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D046",
+      "x": 31.3,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-06",
+      "godot": [
+        31.3,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D047",
+      "x": 52.1,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-07",
+      "godot": [
+        52.1,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D048",
+      "x": 52.1,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-07",
+      "godot": [
+        52.1,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D049",
+      "x": 72.9,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-08",
+      "godot": [
+        72.9,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D050",
+      "x": 72.9,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-08",
+      "godot": [
+        72.9,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D051",
+      "x": 10.5,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-09",
+      "godot": [
+        10.5,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D052",
+      "x": 31.3,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-10",
+      "godot": [
+        31.3,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D053",
+      "x": 52.1,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-11",
+      "godot": [
+        52.1,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D054",
+      "x": 72.9,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NW-12",
+      "godot": [
+        72.9,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D055",
+      "x": 83.3,
+      "y": 59.4,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "NW_InnerGate",
+      "godot": [
+        83.3,
+        0,
+        -55.199999999999996
+      ],
+      "locked": true
+    },
+    {
+      "id": "D056",
+      "x": 83.3,
+      "y": 71.3,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "NW_InnerGate",
+      "godot": [
+        83.3,
+        0,
+        -67.1
+      ],
+      "locked": true
+    },
+    {
+      "id": "D057",
+      "x": -2.5,
+      "y": 65.35,
+      "width": 1.4,
+      "orientation": "V",
+      "kind": "elevator",
+      "tag": "NW_LiftDoor",
+      "godot": [
+        -2.5,
+        0,
+        -61.14999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D058",
+      "x": 113.5,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-01",
+      "godot": [
+        113.5,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D059",
+      "x": 134.3,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-02",
+      "godot": [
+        134.3,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D060",
+      "x": 155.1,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-03",
+      "godot": [
+        155.1,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D061",
+      "x": 175.9,
+      "y": 58.099999999999994,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-04",
+      "godot": [
+        175.9,
+        0,
+        -53.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D062",
+      "x": 113.5,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-05",
+      "godot": [
+        113.5,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D063",
+      "x": 113.5,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-05",
+      "godot": [
+        113.5,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D064",
+      "x": 134.3,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-06",
+      "godot": [
+        134.3,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D065",
+      "x": 134.3,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-06",
+      "godot": [
+        134.3,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D066",
+      "x": 155.1,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-07",
+      "godot": [
+        155.1,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D067",
+      "x": 155.1,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-07",
+      "godot": [
+        155.1,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D068",
+      "x": 175.9,
+      "y": 60.699999999999996,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-08",
+      "godot": [
+        175.9,
+        0,
+        -56.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D069",
+      "x": 175.9,
+      "y": 69.99999999999999,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-08",
+      "godot": [
+        175.9,
+        0,
+        -65.79999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D070",
+      "x": 113.5,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-09",
+      "godot": [
+        113.5,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D071",
+      "x": 134.3,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-10",
+      "godot": [
+        134.3,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D072",
+      "x": 155.1,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-11",
+      "godot": [
+        155.1,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D073",
+      "x": 175.9,
+      "y": 72.6,
+      "width": 1.4,
+      "orientation": "H",
+      "kind": "room",
+      "tag": "NE-12",
+      "godot": [
+        175.9,
+        0,
+        -68.39999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D074",
+      "x": 103.1,
+      "y": 59.4,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "NE_InnerGate",
+      "godot": [
+        103.1,
+        0,
+        -55.199999999999996
+      ],
+      "locked": true
+    },
+    {
+      "id": "D075",
+      "x": 103.1,
+      "y": 71.3,
+      "width": 1.8,
+      "orientation": "V",
+      "kind": "emergency",
+      "tag": "NE_InnerGate",
+      "godot": [
+        103.1,
+        0,
+        -67.1
+      ],
+      "locked": true
+    },
+    {
+      "id": "D076",
+      "x": 188.9,
+      "y": 65.35,
+      "width": 1.4,
+      "orientation": "V",
+      "kind": "elevator",
+      "tag": "NE_LiftDoor",
+      "godot": [
+        188.9,
+        0,
+        -61.14999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D077",
+      "x": -1.5,
+      "y": 41.099999999999994,
+      "width": 1.8,
+      "orientation": "H",
+      "kind": "stair",
+      "tag": "West_StairDirectEntry",
+      "godot": [
+        -1.5,
+        0,
+        -36.89999999999999
+      ],
+      "locked": false
+    },
+    {
+      "id": "D078",
+      "x": -1.5,
+      "y": 45.099999999999994,
+      "width": 1.8,
+      "orientation": "H",
+      "kind": "stair",
+      "tag": "West_StairDirectEntry",
+      "godot": [
+        -1.5,
+        0,
+        -40.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D079",
+      "x": 187.9,
+      "y": 41.099999999999994,
+      "width": 1.8,
+      "orientation": "H",
+      "kind": "stair",
+      "tag": "East_StairDirectEntry",
+      "godot": [
+        187.9,
+        0,
+        -36.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D080",
+      "x": 187.9,
+      "y": 45.099999999999994,
+      "width": 1.8,
+      "orientation": "H",
+      "kind": "stair",
+      "tag": "East_StairDirectEntry",
+      "godot": [
+        187.9,
+        0,
+        -40.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D081",
+      "x": 93.2,
+      "y": 74.79999999999998,
+      "width": 1.8,
+      "orientation": "H",
+      "kind": "stair",
+      "tag": "North_StairDirectEntry",
+      "godot": [
+        93.2,
+        0,
+        -70.59999999999998
+      ],
+      "locked": true
+    },
+    {
+      "id": "D082",
+      "x": 93.2,
+      "y": 11.4,
+      "width": 1.8,
+      "orientation": "H",
+      "kind": "stair",
+      "tag": "South_StairDirectEntry",
+      "godot": [
+        93.2,
+        0,
+        -7.2
+      ],
+      "locked": true
+    },
+    {
+      "id": "D083",
+      "x": 93.2,
+      "y": 29.0,
+      "width": 19.6,
+      "orientation": "H",
+      "kind": "personnel_exclusion",
+      "tag": "CorePersonnelExclusion",
+      "godot": [
+        93.2,
+        0,
+        -24.8
+      ],
+      "locked": true
+    },
+    {
+      "id": "D084",
+      "x": 93.2,
+      "y": 57.199999999999996,
+      "width": 19.6,
+      "orientation": "H",
+      "kind": "personnel_exclusion",
+      "tag": "CorePersonnelExclusion",
+      "godot": [
+        93.2,
+        0,
+        -52.99999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D085",
+      "x": 93.2,
+      "y": 48.8,
+      "width": 2.4,
+      "orientation": "H",
+      "kind": "freight",
+      "tag": "FN_Door",
+      "godot": [
+        93.2,
+        0,
+        -44.599999999999994
+      ],
+      "locked": true
+    },
+    {
+      "id": "D086",
+      "x": 93.2,
+      "y": 37.4,
+      "width": 2.4,
+      "orientation": "H",
+      "kind": "freight",
+      "tag": "FS_Door",
+      "godot": [
+        93.2,
+        0,
+        -33.199999999999996
+      ],
+      "locked": true
+    },
+    {
+      "id": "D087",
+      "x": 87.5,
+      "y": 43.099999999999994,
+      "width": 2.4,
+      "orientation": "V",
+      "kind": "freight",
+      "tag": "FW_Door",
+      "godot": [
+        87.5,
+        0,
+        -38.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D088",
+      "x": 98.89999999999999,
+      "y": 43.099999999999994,
+      "width": 2.4,
+      "orientation": "V",
+      "kind": "freight",
+      "tag": "FE_Door",
+      "godot": [
+        98.89999999999999,
+        0,
+        -38.89999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D089",
+      "x": 89.8,
+      "y": 33.4,
+      "width": 2.4,
+      "orientation": "H",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        89.8,
+        0,
+        -29.2
+      ],
+      "locked": true
+    },
+    {
+      "id": "D090",
+      "x": 96.60000000000001,
+      "y": 33.4,
+      "width": 2.4,
+      "orientation": "H",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        96.60000000000001,
+        0,
+        -29.2
+      ],
+      "locked": true
+    },
+    {
+      "id": "D091",
+      "x": 89.8,
+      "y": 52.8,
+      "width": 2.4,
+      "orientation": "H",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        89.8,
+        0,
+        -48.599999999999994
+      ],
+      "locked": true
+    },
+    {
+      "id": "D092",
+      "x": 96.60000000000001,
+      "y": 52.8,
+      "width": 2.4,
+      "orientation": "H",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        96.60000000000001,
+        0,
+        -48.599999999999994
+      ],
+      "locked": true
+    },
+    {
+      "id": "D093",
+      "x": 83.5,
+      "y": 39.699999999999996,
+      "width": 2.4,
+      "orientation": "V",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        83.5,
+        0,
+        -35.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D094",
+      "x": 83.5,
+      "y": 46.49999999999999,
+      "width": 2.4,
+      "orientation": "V",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        83.5,
+        0,
+        -42.29999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D095",
+      "x": 102.89999999999999,
+      "y": 39.699999999999996,
+      "width": 2.4,
+      "orientation": "V",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        102.89999999999999,
+        0,
+        -35.49999999999999
+      ],
+      "locked": true
+    },
+    {
+      "id": "D096",
+      "x": 102.89999999999999,
+      "y": 46.49999999999999,
+      "width": 2.4,
+      "orientation": "V",
+      "kind": "machine_portal",
+      "tag": "CoreBypass",
+      "godot": [
+        102.89999999999999,
+        0,
+        -42.29999999999999
+      ],
+      "locked": true
+    }
+  ],
+  "receivers": {
+    "Face_W002_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1824.0,
+        1005.2006439293198,
+        1879.0
+      ],
+      "chart_group": 27
+    },
+    "Face_W013_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        1824.0,
+        3985.0,
+        1879.0
+      ],
+      "chart_group": 27
+    },
+    "Face_W016_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        972.0,
+        63.0,
+        1170.4258888899788
+      ],
+      "chart_group": 1
+    },
+    "Face_W017_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        1192.8288055525586,
+        63.0,
+        1503.2693159073874
+      ],
+      "chart_group": 1
+    },
+    "Face_W018_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        1525.6722325699675,
+        63.0,
+        1836.1127581855762
+      ],
+      "chart_group": 1
+    },
+    "Face_W019_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        1858.515644326596,
+        63.0,
+        2168.956108899085
+      ],
+      "chart_group": 1
+    },
+    "Face_W020_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        2191.359056083225,
+        63.0,
+        2344.9790734960934
+      ],
+      "chart_group": 1
+    },
+    "Face_W021_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        2665.0208273088365,
+        63.0,
+        2818.640966807945
+      ],
+      "chart_group": 1
+    },
+    "Face_W022_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        2841.043791905845,
+        63.0,
+        3151.484439607694
+      ],
+      "chart_group": 1
+    },
+    "Face_W023_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        3173.8872647055937,
+        63.0,
+        3484.3276682349624
+      ],
+      "chart_group": 1
+    },
+    "Face_W024_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        3506.730737505343,
+        63.0,
+        3817.171141034711
+      ],
+      "chart_group": 1
+    },
+    "Face_W025_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        3839.5742103050916,
+        63.0,
+        4038.0
+      ],
+      "chart_group": 1
+    },
+    "Face_W026_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        79.0,
+        972.0,
+        134.0,
+        975.2004144859715
+      ],
+      "chart_group": 2
+    },
+    "Face_W026_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        150.0,
+        972.0,
+        205.0,
+        975.2004144859715
+      ],
+      "chart_group": 3
+    },
+    "Face_W026_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        8.0,
+        3145.0,
+        100.01955304725527
+      ],
+      "chart_group": 45
+    },
+    "Face_W027_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        8.0,
+        3216.0,
+        12.801023211393645
+      ],
+      "chart_group": 46
+    },
+    "Face_W028_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        8.0,
+        3287.0,
+        12.801023211393645
+      ],
+      "chart_group": 47
+    },
+    "Face_W029_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        79.0,
+        4034.7996312963687,
+        134.0,
+        4038.0
+      ],
+      "chart_group": 2
+    },
+    "Face_W029_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        150.0,
+        4034.7996312963687,
+        205.0,
+        4038.0
+      ],
+      "chart_group": 3
+    },
+    "Face_W029_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        8.0,
+        3358.0,
+        100.01955304725527
+      ],
+      "chart_group": 48
+    },
+    "Face_W030_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        41.607147217723444,
+        3216.0,
+        46.40815516708503
+      ],
+      "chart_group": 46
+    },
+    "Face_W031_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        41.607147217723444,
+        3287.0,
+        46.40815516708503
+      ],
+      "chart_group": 47
+    },
+    "Face_W032_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1895.0,
+        1158.8315532520705,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W032_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1966.0,
+        1005.2006439293198,
+        2021.0
+      ],
+      "chart_group": 29
+    },
+    "Face_W032_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3198.0,
+        3145.0,
+        3201.203715811704
+      ],
+      "chart_group": 53
+    },
+    "Face_W033_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1181.2360543187121,
+        1895.0,
+        1491.6985199935984,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W034_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1514.1030210602403,
+        1895.0,
+        1824.5655019969859,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W035_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1846.9699725399091,
+        1895.0,
+        2157.4323924292175,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W036_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2179.836924019578,
+        1895.0,
+        2333.467805918675,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W037_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2653.532194081325,
+        1895.0,
+        2807.163198075297,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W038_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2829.5676075707825,
+        1895.0,
+        3140.030210602403,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W039_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3162.4346200978885,
+        1895.0,
+        3472.8969789397597,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W040_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3495.301632624995,
+        1895.0,
+        3805.7639914668657,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W041_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3828.168645152101,
+        1895.0,
+        3985.0,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_W041_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        1966.0,
+        3985.0,
+        2021.0
+      ],
+      "chart_group": 29
+    },
+    "Face_W041_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3198.0,
+        3216.0,
+        3201.203715811704
+      ],
+      "chart_group": 54
+    },
+    "Face_W042_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2037.0,
+        1005.2006439293198,
+        2092.0
+      ],
+      "chart_group": 30
+    },
+    "Face_W042_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2108.0,
+        1005.2006439293198,
+        2163.0
+      ],
+      "chart_group": 31
+    },
+    "Face_W042_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3201.203715811704,
+        3145.0,
+        3346.972235292073
+      ],
+      "chart_group": 53
+    },
+    "Face_W051_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2037.0,
+        3985.0,
+        2092.0
+      ],
+      "chart_group": 30
+    },
+    "Face_W051_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2108.0,
+        3985.0,
+        2163.0
+      ],
+      "chart_group": 31
+    },
+    "Face_W051_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3201.203715811704,
+        3216.0,
+        3346.972235292073
+      ],
+      "chart_group": 54
+    },
+    "Face_W052_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        221.0,
+        972.0,
+        276.0,
+        975.2004144859715
+      ],
+      "chart_group": 4
+    },
+    "Face_W052_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        292.0,
+        972.0,
+        347.0,
+        975.2004144859715
+      ],
+      "chart_group": 5
+    },
+    "Face_W052_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        100.01955304725527,
+        3145.0,
+        103.22023010084035
+      ],
+      "chart_group": 45
+    },
+    "Face_W053_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        221.0,
+        4034.7996312963687,
+        276.0,
+        4038.0
+      ],
+      "chart_group": 4
+    },
+    "Face_W053_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        292.0,
+        4034.7996312963687,
+        347.0,
+        4038.0
+      ],
+      "chart_group": 5
+    },
+    "Face_W053_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        100.01955304725527,
+        3358.0,
+        103.22023010084035
+      ],
+      "chart_group": 48
+    },
+    "Face_W055_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        363.0,
+        972.0,
+        418.0,
+        975.2004144859715
+      ],
+      "chart_group": 6
+    },
+    "Face_W055_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        434.0,
+        972.0,
+        489.0,
+        975.2004144859715
+      ],
+      "chart_group": 7
+    },
+    "Face_W055_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        103.22023010084035,
+        3145.0,
+        111.22193036581908
+      ],
+      "chart_group": 45
+    },
+    "Face_W056_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        363.0,
+        4034.7996312963687,
+        418.0,
+        4038.0
+      ],
+      "chart_group": 6
+    },
+    "Face_W056_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        434.0,
+        4034.7996312963687,
+        489.0,
+        4038.0
+      ],
+      "chart_group": 7
+    },
+    "Face_W056_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        103.22023010084035,
+        3358.0,
+        111.22193036581908
+      ],
+      "chart_group": 48
+    },
+    "Face_W058_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        505.0,
+        972.0,
+        560.0,
+        975.2004144859715
+      ],
+      "chart_group": 8
+    },
+    "Face_W058_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        576.0,
+        972.0,
+        631.0,
+        975.2004144859715
+      ],
+      "chart_group": 9
+    },
+    "Face_W058_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        133.6267002649787,
+        3145.0,
+        141.62840052995745
+      ],
+      "chart_group": 45
+    },
+    "Face_W059_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        505.0,
+        4034.7996312963687,
+        560.0,
+        4038.0
+      ],
+      "chart_group": 8
+    },
+    "Face_W059_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        576.0,
+        4034.7996312963687,
+        631.0,
+        4038.0
+      ],
+      "chart_group": 9
+    },
+    "Face_W059_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        133.6267002649787,
+        3358.0,
+        141.62840052995745
+      ],
+      "chart_group": 48
+    },
+    "Face_W060_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        647.0,
+        972.0,
+        702.0,
+        975.2004144859715
+      ],
+      "chart_group": 10
+    },
+    "Face_W060_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        718.0,
+        972.0,
+        773.0,
+        975.2004144859715
+      ],
+      "chart_group": 11
+    },
+    "Face_W060_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        141.62840052995745,
+        3145.0,
+        144.82906232151046
+      ],
+      "chart_group": 45
+    },
+    "Face_W061_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        647.0,
+        4034.7996312963687,
+        702.0,
+        4038.0
+      ],
+      "chart_group": 10
+    },
+    "Face_W061_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        718.0,
+        4034.7996312963687,
+        773.0,
+        4038.0
+      ],
+      "chart_group": 11
+    },
+    "Face_W061_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        141.62840052995745,
+        3358.0,
+        144.82906232151046
+      ],
+      "chart_group": 48
+    },
+    "Face_W062_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        789.0,
+        972.0,
+        844.0,
+        975.2004144859715
+      ],
+      "chart_group": 12
+    },
+    "Face_W062_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        860.0,
+        972.0,
+        915.0,
+        975.2004144859715
+      ],
+      "chart_group": 13
+    },
+    "Face_W062_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        144.82906232151046,
+        3145.0,
+        448.09351457382957
+      ],
+      "chart_group": 45
+    },
+    "Face_W062_y_1_1": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        508.9064243780422,
+        3145.0,
+        812.1708766303612
+      ],
+      "chart_group": 45
+    },
+    "Face_W063_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        789.0,
+        4034.7996312963687,
+        844.0,
+        4038.0
+      ],
+      "chart_group": 12
+    },
+    "Face_W063_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        860.0,
+        4034.7996312963687,
+        915.0,
+        4038.0
+      ],
+      "chart_group": 13
+    },
+    "Face_W063_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        144.82906232151046,
+        3358.0,
+        448.09351457382957
+      ],
+      "chart_group": 48
+    },
+    "Face_W063_y_-1_1": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        508.9064243780422,
+        3358.0,
+        812.1708766303612
+      ],
+      "chart_group": 48
+    },
+    "Face_W064_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2179.0,
+        1005.2006439293198,
+        2234.0
+      ],
+      "chart_group": 32
+    },
+    "Face_W064_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2250.0,
+        1158.8315532520705,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W064_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3346.972235292073,
+        3145.0,
+        3350.175920550879
+      ],
+      "chart_group": 53
+    },
+    "Face_W065_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1181.2360543187121,
+        2250.0,
+        1491.6985199935984,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W066_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1514.1030210602403,
+        2250.0,
+        1824.5655019969859,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W067_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1846.9699725399091,
+        2250.0,
+        2157.4323924292175,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W068_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2179.836924019578,
+        2250.0,
+        2333.467805918675,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W069_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2653.532194081325,
+        2250.0,
+        2807.163198075297,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W070_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2829.5676075707825,
+        2250.0,
+        3140.030210602403,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W071_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3162.4346200978885,
+        2250.0,
+        3472.8969789397597,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W072_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3495.301632624995,
+        2250.0,
+        3805.7639914668657,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W073_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2179.0,
+        3985.0,
+        2234.0
+      ],
+      "chart_group": 32
+    },
+    "Face_W073_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3828.168645152101,
+        2250.0,
+        3985.0,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_W073_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3346.972235292073,
+        3216.0,
+        3350.175920550879
+      ],
+      "chart_group": 54
+    },
+    "Face_W074_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        198.4404602016807,
+        3216.0,
+        203.2414986751064
+      ],
+      "chart_group": 46
+    },
+    "Face_W075_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        198.4404602016807,
+        3287.0,
+        203.2414986751064
+      ],
+      "chart_group": 47
+    },
+    "Face_W076_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        232.04760741940413,
+        3216.0,
+        236.84861536876573
+      ],
+      "chart_group": 46
+    },
+    "Face_W077_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        232.04760741940413,
+        3287.0,
+        236.84861536876573
+      ],
+      "chart_group": 47
+    },
+    "Face_W078_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2321.0,
+        1158.8315532520705,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W078_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3388.6203575268373,
+        3145.0,
+        3391.8240733385414
+      ],
+      "chart_group": 53
+    },
+    "Face_W079_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1181.2360543187121,
+        2321.0,
+        1491.6985199935984,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W080_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1514.1030210602403,
+        2321.0,
+        1824.5655019969859,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W081_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1846.9699725399091,
+        2321.0,
+        2157.4323924292175,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W082_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2179.836924019578,
+        2321.0,
+        2333.467805918675,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W083_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2653.532194081325,
+        2321.0,
+        2807.163198075297,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W084_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2829.5676075707825,
+        2321.0,
+        3140.030210602403,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W085_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3162.4346200978885,
+        2321.0,
+        3472.8969789397597,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W086_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3495.301632624995,
+        2321.0,
+        3805.7639914668657,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W087_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3828.168645152101,
+        2321.0,
+        3985.0,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_W087_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3388.6203575268373,
+        3216.0,
+        3391.8240733385414
+      ],
+      "chart_group": 54
+    },
+    "Face_W088_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2392.0,
+        1005.2006439293198,
+        2447.0
+      ],
+      "chart_group": 35
+    },
+    "Face_W088_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3391.8240733385414,
+        3145.0,
+        3537.592562266012
+      ],
+      "chart_group": 53
+    },
+    "Face_W097_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2392.0,
+        3985.0,
+        2447.0
+      ],
+      "chart_group": 35
+    },
+    "Face_W097_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3391.8240733385414,
+        3216.0,
+        3537.592562266012
+      ],
+      "chart_group": 54
+    },
+    "Face_W105_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3537.592562266012,
+        3145.0,
+        3540.796278077716
+      ],
+      "chart_group": 53
+    },
+    "Face_W108_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3537.592562266012,
+        3216.0,
+        3540.796278077716
+      ],
+      "chart_group": 54
+    },
+    "Face_W109_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3540.796278077716,
+        3145.0,
+        3596.861090912251
+      ],
+      "chart_group": 53
+    },
+    "Face_W112_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3540.796278077716,
+        3216.0,
+        3596.861090912251
+      ],
+      "chart_group": 54
+    },
+    "Face_W115_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1030.8075320512937,
+        1682.0,
+        1040.4100427350581,
+        1737.0
+      ],
+      "chart_group": 25
+    },
+    "Face_W115_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4001.0,
+        1824.0,
+        4004.238107002239,
+        1879.0
+      ],
+      "chart_group": 55
+    },
+    "Face_W116_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4023.5898122685403,
+        1682.0,
+        4033.192420252522,
+        1737.0
+      ],
+      "chart_group": 25
+    },
+    "Face_W116_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4001.0,
+        1895.0,
+        4004.238107002239,
+        1950.0
+      ],
+      "chart_group": 56
+    },
+    "Face_W131_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1030.8075320512937,
+        1753.0,
+        1040.4100427350581,
+        1808.0
+      ],
+      "chart_group": 26
+    },
+    "Face_W131_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4065.761892997761,
+        1824.0,
+        4069.0,
+        1879.0
+      ],
+      "chart_group": 55
+    },
+    "Face_W132_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4023.5898122685403,
+        1753.0,
+        4033.192420252522,
+        1808.0
+      ],
+      "chart_group": 26
+    },
+    "Face_W132_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4065.761892997761,
+        1895.0,
+        4069.0,
+        1950.0
+      ],
+      "chart_group": 56
+    },
+    "Face_W133_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3664.1388785348513,
+        3145.0,
+        3720.2036913693855
+      ],
+      "chart_group": 53
+    },
+    "Face_W134_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3664.1388785348513,
+        3216.0,
+        3720.2036913693855
+      ],
+      "chart_group": 54
+    },
+    "Face_W137_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3720.2036913693855,
+        3145.0,
+        3723.4074071810896
+      ],
+      "chart_group": 53
+    },
+    "Face_W140_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3720.2036913693855,
+        3216.0,
+        3723.4074071810896
+      ],
+      "chart_group": 54
+    },
+    "Face_W141_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2463.0,
+        1005.2006439293198,
+        2518.0
+      ],
+      "chart_group": 36
+    },
+    "Face_W141_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3723.4074071810896,
+        3145.0,
+        3869.17589610856
+      ],
+      "chart_group": 53
+    },
+    "Face_W152_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2463.0,
+        3985.0,
+        2518.0
+      ],
+      "chart_group": 36
+    },
+    "Face_W152_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3723.4074071810896,
+        3216.0,
+        3869.17589610856
+      ],
+      "chart_group": 54
+    },
+    "Face_W158_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2534.0,
+        1158.8315532520705,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W158_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3869.17589610856,
+        3145.0,
+        3872.3796119202643
+      ],
+      "chart_group": 53
+    },
+    "Face_W159_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1181.2360543187121,
+        2534.0,
+        1491.6985199935984,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W160_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1514.1030210602403,
+        2534.0,
+        1824.5655019969859,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W161_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1846.9699725399091,
+        2534.0,
+        2157.4323924292175,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W162_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2179.836924019578,
+        2534.0,
+        2333.467805918675,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W163_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2653.532194081325,
+        2534.0,
+        2807.163198075297,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W164_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2829.5676075707825,
+        2534.0,
+        3140.030210602403,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W165_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3162.4346200978885,
+        2534.0,
+        3472.8969789397597,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W166_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3495.301632624995,
+        2534.0,
+        3805.7639914668657,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W167_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3828.168645152101,
+        2534.0,
+        3985.0,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_W167_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3869.17589610856,
+        3216.0,
+        3872.3796119202643
+      ],
+      "chart_group": 54
+    },
+    "Face_W168_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        720.1513235831061,
+        3216.0,
+        724.9523315324676
+      ],
+      "chart_group": 46
+    },
+    "Face_W169_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        720.1513235831061,
+        3287.0,
+        724.9523315324676
+      ],
+      "chart_group": 47
+    },
+    "Face_W170_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        753.7584402767653,
+        3216.0,
+        758.5595092742552
+      ],
+      "chart_group": 46
+    },
+    "Face_W171_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        753.7584402767653,
+        3287.0,
+        758.5595092742552
+      ],
+      "chart_group": 47
+    },
+    "Face_W172_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2605.0,
+        1158.8315532520705,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W172_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2676.0,
+        1005.2006439293198,
+        2731.0
+      ],
+      "chart_group": 39
+    },
+    "Face_W172_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3910.824079449121,
+        3145.0,
+        3914.0277341550286
+      ],
+      "chart_group": 53
+    },
+    "Face_W173_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1181.2360543187121,
+        2605.0,
+        1491.6985199935984,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W174_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1514.1030210602403,
+        2605.0,
+        1824.5655019969859,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W175_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1846.9699725399091,
+        2605.0,
+        2157.4323924292175,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W176_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2179.836924019578,
+        2605.0,
+        2333.467805918675,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W177_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2653.532194081325,
+        2605.0,
+        2807.163198075297,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W178_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2829.5676075707825,
+        2605.0,
+        3140.030210602403,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W179_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3162.4346200978885,
+        2605.0,
+        3472.8969789397597,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W180_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3495.301632624995,
+        2605.0,
+        3805.7639914668657,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W181_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3828.168645152101,
+        2605.0,
+        3985.0,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_W181_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2676.0,
+        3985.0,
+        2731.0
+      ],
+      "chart_group": 39
+    },
+    "Face_W181_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3910.824079449121,
+        3216.0,
+        3914.0277341550286
+      ],
+      "chart_group": 54
+    },
+    "Face_W182_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2747.0,
+        1005.2006439293198,
+        2802.0
+      ],
+      "chart_group": 40
+    },
+    "Face_W182_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2818.0,
+        1005.2006439293198,
+        2873.0
+      ],
+      "chart_group": 41
+    },
+    "Face_W182_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        3914.0277341550286,
+        3145.0,
+        4059.796223082499
+      ],
+      "chart_group": 53
+    },
+    "Face_W191_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2747.0,
+        3985.0,
+        2802.0
+      ],
+      "chart_group": 40
+    },
+    "Face_W191_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2818.0,
+        3985.0,
+        2873.0
+      ],
+      "chart_group": 41
+    },
+    "Face_W191_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        3914.0277341550286,
+        3216.0,
+        4059.796223082499
+      ],
+      "chart_group": 54
+    },
+    "Face_W192_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        931.0,
+        972.0,
+        986.0,
+        975.2004144859715
+      ],
+      "chart_group": 14
+    },
+    "Face_W192_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        972.0,
+        1005.2004144859715,
+        1027.0
+      ],
+      "chart_group": 15
+    },
+    "Face_W192_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        812.1708766303612,
+        3145.0,
+        815.3715689459784
+      ],
+      "chart_group": 45
+    },
+    "Face_W193_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        931.0,
+        4034.7996312963687,
+        986.0,
+        4038.0
+      ],
+      "chart_group": 14
+    },
+    "Face_W193_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        972.0,
+        4068.0,
+        1027.0
+      ],
+      "chart_group": 15
+    },
+    "Face_W193_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        812.1708766303612,
+        3358.0,
+        815.3715689459784
+      ],
+      "chart_group": 48
+    },
+    "Face_W195_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1043.0,
+        1005.2004144859715,
+        1098.0
+      ],
+      "chart_group": 16
+    },
+    "Face_W195_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1114.0,
+        1005.2004144859715,
+        1169.0
+      ],
+      "chart_group": 17
+    },
+    "Face_W195_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        815.3715689459784,
+        3145.0,
+        823.3732692109572
+      ],
+      "chart_group": 45
+    },
+    "Face_W196_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1043.0,
+        4068.0,
+        1098.0
+      ],
+      "chart_group": 16
+    },
+    "Face_W196_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1114.0,
+        4068.0,
+        1169.0
+      ],
+      "chart_group": 17
+    },
+    "Face_W196_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        815.3715689459784,
+        3358.0,
+        823.3732692109572
+      ],
+      "chart_group": 48
+    },
+    "Face_W198_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1185.0,
+        1005.2004144859715,
+        1240.0
+      ],
+      "chart_group": 18
+    },
+    "Face_W198_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1256.0,
+        1005.2004144859715,
+        1311.0
+      ],
+      "chart_group": 19
+    },
+    "Face_W198_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        845.7779933240206,
+        3145.0,
+        853.7796935889994
+      ],
+      "chart_group": 45
+    },
+    "Face_W199_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1185.0,
+        4068.0,
+        1240.0
+      ],
+      "chart_group": 18
+    },
+    "Face_W199_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1256.0,
+        4068.0,
+        1311.0
+      ],
+      "chart_group": 19
+    },
+    "Face_W199_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        845.7779933240206,
+        3358.0,
+        853.7796935889994
+      ],
+      "chart_group": 48
+    },
+    "Face_W200_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1327.0,
+        1005.2004144859715,
+        1382.0
+      ],
+      "chart_group": 20
+    },
+    "Face_W200_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1398.0,
+        1005.2004144859715,
+        1453.0
+      ],
+      "chart_group": 21
+    },
+    "Face_W200_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        853.7796935889994,
+        3145.0,
+        856.9803859046165
+      ],
+      "chart_group": 45
+    },
+    "Face_W201_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1327.0,
+        4068.0,
+        1382.0
+      ],
+      "chart_group": 20
+    },
+    "Face_W201_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1398.0,
+        4068.0,
+        1453.0
+      ],
+      "chart_group": 21
+    },
+    "Face_W201_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        853.7796935889994,
+        3358.0,
+        856.9803859046165
+      ],
+      "chart_group": 48
+    },
+    "Face_W202_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1469.0,
+        1005.2004144859715,
+        1524.0
+      ],
+      "chart_group": 22
+    },
+    "Face_W202_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1540.0,
+        1005.2004144859715,
+        1595.0
+      ],
+      "chart_group": 23
+    },
+    "Face_W202_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        856.9803859046165,
+        3145.0,
+        949.0
+      ],
+      "chart_group": 45
+    },
+    "Face_W203_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1469.0,
+        4068.0,
+        1524.0
+      ],
+      "chart_group": 22
+    },
+    "Face_W203_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        1540.0,
+        4068.0,
+        1595.0
+      ],
+      "chart_group": 23
+    },
+    "Face_W203_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3303.0,
+        856.9803859046165,
+        3358.0,
+        949.0
+      ],
+      "chart_group": 48
+    },
+    "Face_W204_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2889.0,
+        1005.2006439293198,
+        2944.0
+      ],
+      "chart_group": 42
+    },
+    "Face_W204_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        2960.0,
+        1158.8315532520705,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W204_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3090.0,
+        4059.796223082499,
+        3145.0,
+        4063.0
+      ],
+      "chart_group": 53
+    },
+    "Face_W205_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1181.2360543187121,
+        2960.0,
+        1491.6985199935984,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W206_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1514.1030210602403,
+        2960.0,
+        1824.5655019969859,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W207_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1846.9699725399091,
+        2960.0,
+        2157.4323924292175,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W208_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2179.836924019578,
+        2960.0,
+        2333.467805918675,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W209_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2653.532194081325,
+        2960.0,
+        2807.163198075297,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W210_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2829.5676075707825,
+        2960.0,
+        3140.030210602403,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W211_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3162.4346200978885,
+        2960.0,
+        3472.8969789397597,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W212_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3495.301632624995,
+        2960.0,
+        3805.7639914668657,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W213_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        2889.0,
+        3985.0,
+        2944.0
+      ],
+      "chart_group": 42
+    },
+    "Face_W213_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3828.168645152101,
+        2960.0,
+        3985.0,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_W213_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        4059.796223082499,
+        3216.0,
+        4063.0
+      ],
+      "chart_group": 54
+    },
+    "Face_W214_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        910.5918143088509,
+        3216.0,
+        915.3927612100841
+      ],
+      "chart_group": 46
+    },
+    "Face_W215_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        910.5918143088509,
+        3287.0,
+        915.3927612100841
+      ],
+      "chart_group": 47
+    },
+    "Face_W216_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3161.0,
+        944.1989310025101,
+        3216.0,
+        949.0
+      ],
+      "chart_group": 46
+    },
+    "Face_W217_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3232.0,
+        944.1989310025101,
+        3287.0,
+        949.0
+      ],
+      "chart_group": 47
+    },
+    "Face_W218_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1611.0,
+        1200.4258888899788,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W219_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1222.8288055525586,
+        1611.0,
+        1533.2693159073874,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W220_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1555.6722325699675,
+        1611.0,
+        1866.1127581855762,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W221_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1888.515644326596,
+        1611.0,
+        2198.956108899085,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W222_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2221.359056083225,
+        1611.0,
+        2374.9790734960934,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W223_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2695.0208273088365,
+        1611.0,
+        2848.640966807945,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W224_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2871.043791905845,
+        1611.0,
+        3181.484439607694,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W225_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3203.8872647055937,
+        1611.0,
+        3514.3276682349624,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W226_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3536.730737505343,
+        1611.0,
+        3847.171141034711,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W227_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3869.5742103050916,
+        1611.0,
+        4068.0,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_W228_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        3031.0,
+        1005.2006439293198,
+        3086.0
+      ],
+      "chart_group": 44
+    },
+    "Face_W237_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3981.7994049563235,
+        3031.0,
+        3985.0,
+        3086.0
+      ],
+      "chart_group": 44
+    },
+    "Face_Header_D001_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        1170.4258888899788,
+        63.0,
+        1192.8288055525586
+      ],
+      "chart_group": 1
+    },
+    "Face_Header_D002_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        1503.2693159073874,
+        63.0,
+        1525.6722325699675
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D002_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2890.0,
+        4040.0,
+        2913.0
+      ],
+      "chart_group": 96
+    },
+    "Face_Header_D003_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        1836.1127581855762,
+        63.0,
+        1858.515644326596
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D003_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3759.0,
+        8.0,
+        3798.0,
+        31.0
+      ],
+      "chart_group": 111
+    },
+    "Face_Header_D004_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        2168.956108899085,
+        63.0,
+        2191.359056083225
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D004_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2656.0,
+        4040.0,
+        2679.0
+      ],
+      "chart_group": 86
+    },
+    "Face_Header_D005_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1158.8315532520705,
+        1933.8235298655025,
+        1181.2360543187121,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D005_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2910.0,
+        4079.0,
+        2949.0
+      ],
+      "chart_group": 97
+    },
+    "Face_Header_D006_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1158.8315532520705,
+        2288.8235298655027,
+        1181.2360543187121,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D006_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2929.0,
+        4040.0,
+        2952.0
+      ],
+      "chart_group": 98
+    },
+    "Face_Header_D007_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1491.6985199935984,
+        1933.8235298655025,
+        1514.1030210602403,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D007_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2965.0,
+        4079.0,
+        3004.0
+      ],
+      "chart_group": 99
+    },
+    "Face_Header_D008_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1491.6985199935984,
+        2288.8235298655027,
+        1514.1030210602403,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D008_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2968.0,
+        4040.0,
+        2991.0
+      ],
+      "chart_group": 100
+    },
+    "Face_Header_D009_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1824.5655019969859,
+        1933.8235298655025,
+        1846.9699725399091,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D009_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3814.0,
+        8.0,
+        3853.0,
+        31.0
+      ],
+      "chart_group": 112
+    },
+    "Face_Header_D010_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1824.5655019969859,
+        2288.8235298655027,
+        1846.9699725399091,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D010_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3869.0,
+        8.0,
+        3908.0,
+        31.0
+      ],
+      "chart_group": 113
+    },
+    "Face_Header_D011_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2157.4323924292175,
+        1933.8235298655025,
+        2179.836924019578,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D011_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2690.0,
+        4079.0,
+        2729.0
+      ],
+      "chart_group": 87
+    },
+    "Face_Header_D012_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2157.4323924292175,
+        2288.8235298655027,
+        2179.836924019578,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D012_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2695.0,
+        4040.0,
+        2718.0
+      ],
+      "chart_group": 88
+    },
+    "Face_Header_D013_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1158.8315532520705,
+        2359.8235298655027,
+        1181.2360543187121,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D013_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        3007.0,
+        4040.0,
+        3030.0
+      ],
+      "chart_group": 101
+    },
+    "Face_Header_D014_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1491.6985199935984,
+        2359.8235298655027,
+        1514.1030210602403,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D014_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        3046.0,
+        4024.0,
+        3085.0
+      ],
+      "chart_group": 102
+    },
+    "Face_Header_D015_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1824.5655019969859,
+        2359.8235298655027,
+        1846.9699725399091,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D015_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3924.0,
+        8.0,
+        3963.0,
+        31.0
+      ],
+      "chart_group": 114
+    },
+    "Face_Header_D016_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2157.4323924292175,
+        2359.8235298655027,
+        2179.836924019578,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D016_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2734.0,
+        4040.0,
+        2757.0
+      ],
+      "chart_group": 89
+    },
+    "Face_Header_D017_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3199.8235298655027,
+        12.801023211393645,
+        3216.0,
+        41.607147217723444
+      ],
+      "chart_group": 46
+    },
+    "Face_Door_D017_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2056.0,
+        4040.0,
+        2085.0
+      ],
+      "chart_group": 61
+    },
+    "Face_Header_D018_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3199.8235298655027,
+        203.2414986751064,
+        3216.0,
+        232.04760741940413
+      ],
+      "chart_group": 46
+    },
+    "Face_Door_D018_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2131.0,
+        4085.0,
+        2170.0
+      ],
+      "chart_group": 64
+    },
+    "Face_Header_D019_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        8.0,
+        4054.0,
+        11.200414485971422,
+        4070.0
+      ],
+      "chart_group": 49
+    },
+    "Face_Header_D019_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        3102.0,
+        1005.2004144859715,
+        3118.0
+      ],
+      "chart_group": 50
+    },
+    "Face_Header_D019_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3128.8235298655027,
+        111.22193036581908,
+        3145.0,
+        133.6267002649787
+      ],
+      "chart_group": 45
+    },
+    "Face_Door_D019_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        8.0,
+        4086.0,
+        47.0,
+        4088.0
+      ],
+      "chart_group": 137
+    },
+    "Face_Door_D019_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        63.0,
+        4086.0,
+        102.0,
+        4088.0
+      ],
+      "chart_group": 138
+    },
+    "Face_Door_D019_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2851.0,
+        4040.0,
+        2874.0
+      ],
+      "chart_group": 94
+    },
+    "Face_Header_D020_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        2818.640966807945,
+        63.0,
+        2841.043791905845
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D020_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3594.0,
+        47.0,
+        3633.0,
+        70.0
+      ],
+      "chart_group": 121
+    },
+    "Face_Header_D021_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        3151.484439607694,
+        63.0,
+        3173.8872647055937
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D021_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3649.0,
+        47.0,
+        3688.0,
+        70.0
+      ],
+      "chart_group": 122
+    },
+    "Face_Header_D022_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        3484.3276682349624,
+        63.0,
+        3506.730737505343
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D022_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2305.0,
+        4040.0,
+        2328.0
+      ],
+      "chart_group": 70
+    },
+    "Face_Header_D023_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        46.82352986550247,
+        3817.171141034711,
+        63.0,
+        3839.5742103050916
+      ],
+      "chart_group": 1
+    },
+    "Face_Door_D023_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2305.0,
+        4079.0,
+        2344.0
+      ],
+      "chart_group": 71
+    },
+    "Face_Header_D024_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2807.163198075297,
+        1933.8235298655025,
+        2829.5676075707825,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D024_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3704.0,
+        47.0,
+        3743.0,
+        70.0
+      ],
+      "chart_group": 123
+    },
+    "Face_Header_D025_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2807.163198075297,
+        2288.8235298655027,
+        2829.5676075707825,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D025_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3759.0,
+        47.0,
+        3798.0,
+        70.0
+      ],
+      "chart_group": 124
+    },
+    "Face_Header_D026_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3140.030210602403,
+        1933.8235298655025,
+        3162.4346200978885,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D026_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3814.0,
+        47.0,
+        3853.0,
+        70.0
+      ],
+      "chart_group": 125
+    },
+    "Face_Header_D027_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3140.030210602403,
+        2288.8235298655027,
+        3162.4346200978885,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D027_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3869.0,
+        47.0,
+        3908.0,
+        70.0
+      ],
+      "chart_group": 126
+    },
+    "Face_Header_D028_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3472.8969789397597,
+        1933.8235298655025,
+        3495.301632624995,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D028_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2344.0,
+        4040.0,
+        2367.0
+      ],
+      "chart_group": 72
+    },
+    "Face_Header_D029_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3472.8969789397597,
+        2288.8235298655027,
+        3495.301632624995,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D029_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2360.0,
+        4079.0,
+        2399.0
+      ],
+      "chart_group": 73
+    },
+    "Face_Header_D030_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3805.7639914668657,
+        1933.8235298655025,
+        3828.168645152101,
+        1950.0
+      ],
+      "chart_group": 28
+    },
+    "Face_Door_D030_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2383.0,
+        4040.0,
+        2406.0
+      ],
+      "chart_group": 74
+    },
+    "Face_Header_D031_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3805.7639914668657,
+        2288.8235298655027,
+        3828.168645152101,
+        2305.0
+      ],
+      "chart_group": 33
+    },
+    "Face_Door_D031_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2415.0,
+        4079.0,
+        2454.0
+      ],
+      "chart_group": 75
+    },
+    "Face_Header_D032_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2807.163198075297,
+        2359.8235298655027,
+        2829.5676075707825,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D032_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3924.0,
+        47.0,
+        3963.0,
+        70.0
+      ],
+      "chart_group": 127
+    },
+    "Face_Header_D033_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3140.030210602403,
+        2359.8235298655027,
+        3162.4346200978885,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D033_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3979.0,
+        47.0,
+        4018.0,
+        70.0
+      ],
+      "chart_group": 128
+    },
+    "Face_Header_D034_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3472.8969789397597,
+        2359.8235298655027,
+        3495.301632624995,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D034_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2422.0,
+        4040.0,
+        2445.0
+      ],
+      "chart_group": 76
+    },
+    "Face_Header_D035_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3805.7639914668657,
+        2359.8235298655027,
+        3828.168645152101,
+        2376.0
+      ],
+      "chart_group": 34
+    },
+    "Face_Door_D035_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2461.0,
+        4040.0,
+        2484.0
+      ],
+      "chart_group": 77
+    },
+    "Face_Header_D036_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3270.8235298655027,
+        12.801023211393645,
+        3287.0,
+        41.607147217723444
+      ],
+      "chart_group": 47
+    },
+    "Face_Door_D036_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2076.0,
+        4085.0,
+        2115.0
+      ],
+      "chart_group": 62
+    },
+    "Face_Header_D037_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3270.8235298655027,
+        203.2414986751064,
+        3287.0,
+        232.04760741940413
+      ],
+      "chart_group": 47
+    },
+    "Face_Door_D037_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2146.0,
+        4040.0,
+        2175.0
+      ],
+      "chart_group": 65
+    },
+    "Face_Header_D038_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3070.7996312963687,
+        4054.0,
+        3074.0,
+        4070.0
+      ],
+      "chart_group": 49
+    },
+    "Face_Header_D038_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        3102.0,
+        4068.0,
+        3118.0
+      ],
+      "chart_group": 50
+    },
+    "Face_Header_D038_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3341.8235298655027,
+        111.22193036581908,
+        3358.0,
+        133.6267002649787
+      ],
+      "chart_group": 48
+    },
+    "Face_Door_D038_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        393.0,
+        4086.0,
+        432.0,
+        4088.0
+      ],
+      "chart_group": 144
+    },
+    "Face_Door_D038_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        448.0,
+        4086.0,
+        487.0,
+        4088.0
+      ],
+      "chart_group": 145
+    },
+    "Face_Door_D038_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2855.0,
+        4079.0,
+        2894.0
+      ],
+      "chart_group": 95
+    },
+    "Face_Header_D039_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1158.8315532520705,
+        2572.8235298655027,
+        1181.2360543187121,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D039_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4040.0,
+        3046.0,
+        4063.0,
+        3085.0
+      ],
+      "chart_group": 103
+    },
+    "Face_Header_D040_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1491.6985199935984,
+        2572.8235298655027,
+        1514.1030210602403,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D040_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3374.0,
+        8.0,
+        3413.0,
+        31.0
+      ],
+      "chart_group": 104
+    },
+    "Face_Header_D041_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1824.5655019969859,
+        2572.8235298655027,
+        1846.9699725399091,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D041_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3979.0,
+        8.0,
+        4018.0,
+        31.0
+      ],
+      "chart_group": 115
+    },
+    "Face_Header_D042_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2157.4323924292175,
+        2572.8235298655027,
+        2179.836924019578,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D042_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2745.0,
+        4079.0,
+        2784.0
+      ],
+      "chart_group": 90
+    },
+    "Face_Header_D043_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1158.8315532520705,
+        2643.8235298655027,
+        1181.2360543187121,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D043_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3429.0,
+        8.0,
+        3468.0,
+        31.0
+      ],
+      "chart_group": 105
+    },
+    "Face_Header_D044_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1158.8315532520705,
+        2998.8235298655027,
+        1181.2360543187121,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D044_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3484.0,
+        8.0,
+        3523.0,
+        31.0
+      ],
+      "chart_group": 106
+    },
+    "Face_Header_D045_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1491.6985199935984,
+        2643.8235298655027,
+        1514.1030210602403,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D045_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3539.0,
+        8.0,
+        3578.0,
+        31.0
+      ],
+      "chart_group": 107
+    },
+    "Face_Header_D046_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1491.6985199935984,
+        2998.8235298655027,
+        1514.1030210602403,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D046_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3594.0,
+        8.0,
+        3633.0,
+        31.0
+      ],
+      "chart_group": 108
+    },
+    "Face_Header_D047_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1824.5655019969859,
+        2643.8235298655027,
+        1846.9699725399091,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D047_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4034.0,
+        8.0,
+        4073.0,
+        31.0
+      ],
+      "chart_group": 116
+    },
+    "Face_Header_D048_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1824.5655019969859,
+        2998.8235298655027,
+        1846.9699725399091,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D048_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3374.0,
+        47.0,
+        3413.0,
+        70.0
+      ],
+      "chart_group": 117
+    },
+    "Face_Header_D049_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2157.4323924292175,
+        2643.8235298655027,
+        2179.836924019578,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D049_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2773.0,
+        4040.0,
+        2796.0
+      ],
+      "chart_group": 91
+    },
+    "Face_Header_D050_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2157.4323924292175,
+        2998.8235298655027,
+        2179.836924019578,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D050_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2800.0,
+        4079.0,
+        2839.0
+      ],
+      "chart_group": 92
+    },
+    "Face_Header_D051_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1200.4258888899788,
+        1649.8235298655025,
+        1222.8288055525586,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D051_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3649.0,
+        8.0,
+        3688.0,
+        31.0
+      ],
+      "chart_group": 109
+    },
+    "Face_Header_D052_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1533.2693159073874,
+        1649.8235298655025,
+        1555.6722325699675,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D052_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3704.0,
+        8.0,
+        3743.0,
+        31.0
+      ],
+      "chart_group": 110
+    },
+    "Face_Header_D053_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1866.1127581855762,
+        1649.8235298655025,
+        1888.515644326596,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D053_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3429.0,
+        47.0,
+        3468.0,
+        70.0
+      ],
+      "chart_group": 118
+    },
+    "Face_Header_D054_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2198.956108899085,
+        1649.8235298655025,
+        2221.359056083225,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D054_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2812.0,
+        4040.0,
+        2835.0
+      ],
+      "chart_group": 93
+    },
+    "Face_Header_D055_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3199.8235298655027,
+        724.9523315324676,
+        3216.0,
+        753.7584402767653
+      ],
+      "chart_group": 46
+    },
+    "Face_Door_D055_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2186.0,
+        4085.0,
+        2225.0
+      ],
+      "chart_group": 66
+    },
+    "Face_Header_D056_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3199.8235298655027,
+        915.3927612100841,
+        3216.0,
+        944.1989310025101
+      ],
+      "chart_group": 46
+    },
+    "Face_Door_D056_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        1966.0,
+        4040.0,
+        1995.0
+      ],
+      "chart_group": 57
+    },
+    "Face_Header_D057_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        3134.0,
+        1005.2004144859715,
+        3150.0
+      ],
+      "chart_group": 51
+    },
+    "Face_Header_D057_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        3166.0,
+        1005.2004144859715,
+        3182.0
+      ],
+      "chart_group": 52
+    },
+    "Face_Header_D057_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3128.8235298655027,
+        823.3732692109572,
+        3145.0,
+        845.7779933240206
+      ],
+      "chart_group": 45
+    },
+    "Face_Door_D057_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        118.0,
+        4086.0,
+        157.0,
+        4088.0
+      ],
+      "chart_group": 139
+    },
+    "Face_Door_D057_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        173.0,
+        4086.0,
+        212.0,
+        4088.0
+      ],
+      "chart_group": 140
+    },
+    "Face_Door_D057_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3484.0,
+        47.0,
+        3523.0,
+        70.0
+      ],
+      "chart_group": 119
+    },
+    "Face_Header_D058_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2807.163198075297,
+        2572.8235298655027,
+        2829.5676075707825,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D058_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4034.0,
+        47.0,
+        4073.0,
+        70.0
+      ],
+      "chart_group": 129
+    },
+    "Face_Header_D059_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3140.030210602403,
+        2572.8235298655027,
+        3162.4346200978885,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D059_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3374.0,
+        86.0,
+        3413.0,
+        109.0
+      ],
+      "chart_group": 130
+    },
+    "Face_Header_D060_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3472.8969789397597,
+        2572.8235298655027,
+        3495.301632624995,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D060_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2470.0,
+        4079.0,
+        2509.0
+      ],
+      "chart_group": 78
+    },
+    "Face_Header_D061_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3805.7639914668657,
+        2572.8235298655027,
+        3828.168645152101,
+        2589.0
+      ],
+      "chart_group": 37
+    },
+    "Face_Door_D061_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2500.0,
+        4040.0,
+        2523.0
+      ],
+      "chart_group": 79
+    },
+    "Face_Header_D062_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2807.163198075297,
+        2643.8235298655027,
+        2829.5676075707825,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D062_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3429.0,
+        86.0,
+        3468.0,
+        109.0
+      ],
+      "chart_group": 131
+    },
+    "Face_Header_D063_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2807.163198075297,
+        2998.8235298655027,
+        2829.5676075707825,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D063_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3484.0,
+        86.0,
+        3523.0,
+        109.0
+      ],
+      "chart_group": 132
+    },
+    "Face_Header_D064_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3140.030210602403,
+        2643.8235298655027,
+        3162.4346200978885,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D064_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3539.0,
+        86.0,
+        3578.0,
+        109.0
+      ],
+      "chart_group": 133
+    },
+    "Face_Header_D065_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3140.030210602403,
+        2998.8235298655027,
+        3162.4346200978885,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D065_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3594.0,
+        86.0,
+        3633.0,
+        109.0
+      ],
+      "chart_group": 134
+    },
+    "Face_Header_D066_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3472.8969789397597,
+        2643.8235298655027,
+        3495.301632624995,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D066_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2525.0,
+        4079.0,
+        2564.0
+      ],
+      "chart_group": 80
+    },
+    "Face_Header_D067_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3472.8969789397597,
+        2998.8235298655027,
+        3495.301632624995,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D067_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2539.0,
+        4040.0,
+        2562.0
+      ],
+      "chart_group": 81
+    },
+    "Face_Header_D068_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3805.7639914668657,
+        2643.8235298655027,
+        3828.168645152101,
+        2660.0
+      ],
+      "chart_group": 38
+    },
+    "Face_Door_D068_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2578.0,
+        4040.0,
+        2601.0
+      ],
+      "chart_group": 82
+    },
+    "Face_Header_D069_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3805.7639914668657,
+        2998.8235298655027,
+        3828.168645152101,
+        3015.0
+      ],
+      "chart_group": 43
+    },
+    "Face_Door_D069_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2580.0,
+        4079.0,
+        2619.0
+      ],
+      "chart_group": 83
+    },
+    "Face_Header_D070_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        2848.640966807945,
+        1649.8235298655025,
+        2871.043791905845,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D070_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3649.0,
+        86.0,
+        3688.0,
+        109.0
+      ],
+      "chart_group": 135
+    },
+    "Face_Header_D071_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3181.484439607694,
+        1649.8235298655025,
+        3203.8872647055937,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D071_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3704.0,
+        86.0,
+        3743.0,
+        109.0
+      ],
+      "chart_group": 136
+    },
+    "Face_Header_D072_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3514.3276682349624,
+        1649.8235298655025,
+        3536.730737505343,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D072_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2617.0,
+        4040.0,
+        2640.0
+      ],
+      "chart_group": 84
+    },
+    "Face_Header_D073_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3847.171141034711,
+        1649.8235298655025,
+        3869.5742103050916,
+        1666.0
+      ],
+      "chart_group": 24
+    },
+    "Face_Door_D073_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2635.0,
+        4079.0,
+        2674.0
+      ],
+      "chart_group": 85
+    },
+    "Face_Header_D074_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3270.8235298655027,
+        724.9523315324676,
+        3287.0,
+        753.7584402767653
+      ],
+      "chart_group": 47
+    },
+    "Face_Door_D074_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2191.0,
+        4040.0,
+        2220.0
+      ],
+      "chart_group": 67
+    },
+    "Face_Header_D075_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3270.8235298655027,
+        915.3927612100841,
+        3287.0,
+        944.1989310025101
+      ],
+      "chart_group": 47
+    },
+    "Face_Door_D075_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        1966.0,
+        4085.0,
+        2005.0
+      ],
+      "chart_group": 58
+    },
+    "Face_Header_D076_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        3134.0,
+        4068.0,
+        3150.0
+      ],
+      "chart_group": 51
+    },
+    "Face_Header_D076_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4064.7996312963687,
+        3166.0,
+        4068.0,
+        3182.0
+      ],
+      "chart_group": 52
+    },
+    "Face_Header_D076_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        3341.8235298655027,
+        823.3732692109572,
+        3358.0,
+        845.7779933240206
+      ],
+      "chart_group": 48
+    },
+    "Face_Door_D076_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        503.0,
+        4086.0,
+        542.0,
+        4088.0
+      ],
+      "chart_group": 146
+    },
+    "Face_Door_D076_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        558.0,
+        4086.0,
+        597.0,
+        4088.0
+      ],
+      "chart_group": 147
+    },
+    "Face_Door_D076_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        3539.0,
+        47.0,
+        3578.0,
+        70.0
+      ],
+      "chart_group": 120
+    },
+    "Face_Header_D077_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1720.8235298655025,
+        1030.8075320512937,
+        1737.0
+      ],
+      "chart_group": 25
+    },
+    "Face_Header_D077_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2241.0,
+        4004.238107002239,
+        2257.0
+      ],
+      "chart_group": 68
+    },
+    "Face_Header_D078_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        1002.0,
+        1791.8235298655025,
+        1030.8075320512937,
+        1808.0
+      ],
+      "chart_group": 26
+    },
+    "Face_Header_D078_y_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4065.761892997761,
+        2241.0,
+        4069.0,
+        2257.0
+      ],
+      "chart_group": 68
+    },
+    "Face_Door_D078_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2101.0,
+        4040.0,
+        2130.0
+      ],
+      "chart_group": 63
+    },
+    "Face_Door_D078_y_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        228.0,
+        4086.0,
+        267.0,
+        4088.0
+      ],
+      "chart_group": 141
+    },
+    "Face_Header_D079_x_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4033.192420252522,
+        1720.8235298655025,
+        4062.0,
+        1737.0
+      ],
+      "chart_group": 25
+    },
+    "Face_Header_D079_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2273.0,
+        4004.238107002239,
+        2289.0
+      ],
+      "chart_group": 69
+    },
+    "Face_Door_D079_x_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4001.0,
+        2011.0,
+        4040.0,
+        2040.0
+      ],
+      "chart_group": 59
+    },
+    "Face_Door_D079_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        283.0,
+        4086.0,
+        322.0,
+        4088.0
+      ],
+      "chart_group": 142
+    },
+    "Face_Header_D080_x_1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4033.192420252522,
+        1791.8235298655025,
+        4062.0,
+        1808.0
+      ],
+      "chart_group": 26
+    },
+    "Face_Header_D080_y_-1_0": {
+      "kind": "wall",
+      "zone": "",
+      "chart": [
+        4065.761892997761,
+        2273.0,
+        4069.0,
+        2289.0
+      ],
+      "chart_group": 69
+    },
+    "Face_Door_D080_x_1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        4056.0,
+        2021.0,
+        4085.0,
+        2060.0
+      ],
+      "chart_group": 60
+    },
+    "Face_Door_D080_y_-1_0": {
+      "kind": "door",
+      "zone": "",
+      "chart": [
+        338.0,
+        4086.0,
+        377.0,
+        4088.0
+      ],
+      "chart_group": 143
+    },
+    "Floor_0_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        8.0,
+        52.80584405539595,
+        11.202699658686083
+      ],
+      "chart_group": 0
+    },
+    "Floor_0_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3029.19410563172,
+        8.0,
+        3074.0,
+        11.202699658686083
+      ],
+      "chart_group": 0
+    },
+    "Floor_1_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        11.202699658686083,
+        1380.9790734960934,
+        49.63512610627228
+      ],
+      "chart_group": 0
+    },
+    "Floor_1_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        1701.0208273088363,
+        11.202699658686083,
+        3074.0,
+        49.63512610627228
+      ],
+      "chart_group": 0
+    },
+    "Floor_2_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        49.63512610627228,
+        52.80584405539595,
+        201.76350497478893
+      ],
+      "chart_group": 0
+    },
+    "Floor_2_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3029.19410563172,
+        49.63512610627228,
+        3074.0,
+        201.76350497478893
+      ],
+      "chart_group": 0
+    },
+    "Floor_3_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        201.76350497478893,
+        1380.9790734960934,
+        240.1959314223751
+      ],
+      "chart_group": 0
+    },
+    "Floor_3_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        1701.0208273088363,
+        201.76350497478893,
+        3074.0,
+        240.1959314223751
+      ],
+      "chart_group": 0
+    },
+    "Floor_4_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        240.1959314223751,
+        52.80584405539595,
+        243.3986463527378
+      ],
+      "chart_group": 0
+    },
+    "Floor_4_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3029.19410563172,
+        240.1959314223751,
+        3074.0,
+        243.3986463527378
+      ],
+      "chart_group": 0
+    },
+    "Floor_5_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        11.200414485971422,
+        243.3986463527378,
+        49.60542646957859,
+        451.574322699129
+      ],
+      "chart_group": 0
+    },
+    "Floor_5_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3032.3944743353513,
+        243.3986463527378,
+        3070.7996312963687,
+        451.574322699129
+      ],
+      "chart_group": 0
+    },
+    "Floor_7_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        11.200414485971422,
+        512.4256620291944,
+        49.60542646957859,
+        720.6013383755856
+      ],
+      "chart_group": 0
+    },
+    "Floor_7_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3032.3944743353513,
+        512.4256620291944,
+        3070.7996312963687,
+        720.6013383755856
+      ],
+      "chart_group": 0
+    },
+    "Floor_8_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        720.6013383755856,
+        52.80584405539595,
+        723.8040533059483
+      ],
+      "chart_group": 0
+    },
+    "Floor_8_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3029.19410563172,
+        720.6013383755856,
+        3074.0,
+        723.8040533059483
+      ],
+      "chart_group": 0
+    },
+    "Floor_9_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        723.8040533059483,
+        1380.9790734960934,
+        762.2365102968877
+      ],
+      "chart_group": 0
+    },
+    "Floor_9_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        1701.0208273088363,
+        723.8040533059483,
+        3074.0,
+        762.2365102968877
+      ],
+      "chart_group": 0
+    },
+    "Floor_10_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        762.2365102968877,
+        52.80584405539595,
+        914.3648891654043
+      ],
+      "chart_group": 0
+    },
+    "Floor_10_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3029.19410563172,
+        762.2365102968877,
+        3074.0,
+        914.3648891654043
+      ],
+      "chart_group": 0
+    },
+    "Floor_11_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        914.3648891654043,
+        1380.9790734960934,
+        952.7973461563438
+      ],
+      "chart_group": 0
+    },
+    "Floor_11_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        1701.0208273088363,
+        914.3648891654043,
+        3074.0,
+        952.7973461563438
+      ],
+      "chart_group": 0
+    },
+    "Floor_12_0": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        8.0,
+        952.7973461563438,
+        52.80584405539595,
+        956.0
+      ],
+      "chart_group": 0
+    },
+    "Floor_12_1": {
+      "kind": "floor",
+      "zone": "",
+      "chart": [
+        3029.19410563172,
+        952.7973461563438,
+        3074.0,
+        956.0
+      ],
+      "chart_group": 0
+    }
+  },
+  "stairs": [
+    {
+      "x1": -2.6,
+      "y1": 40.99999999999999,
+      "x2": 4.700000000000001,
+      "y2": 45.199999999999996,
+      "tag": "West_Stair",
+      "expressions": {
+        "x": "-ConnectorClear-Wall",
+        "y": "CenterY-StairWidth/2",
+        "w": "StairLength",
+        "d": "StairWidth"
+      },
+      "id": "West_Stair",
+      "side": "West"
+    },
+    {
+      "x1": 181.7,
+      "y1": 40.99999999999999,
+      "x2": 189.0,
+      "y2": 45.199999999999996,
+      "tag": "East_Stair",
+      "expressions": {
+        "x": "MainWidth-(-ConnectorClear-Wall)-(StairLength)",
+        "y": "CenterY-StairWidth/2",
+        "w": "StairLength",
+        "d": "StairWidth"
+      },
+      "id": "East_Stair",
+      "side": "East"
+    },
+    {
+      "x1": 91.10000000000001,
+      "y1": 74.69999999999999,
+      "x2": 95.30000000000001,
+      "y2": 81.99999999999999,
+      "tag": "North_Stair",
+      "expressions": {
+        "x": "CenterX-StairWidth/2",
+        "y": "NorthStairInner",
+        "w": "StairWidth",
+        "d": "StairLength"
+      },
+      "id": "North_Stair",
+      "side": "North"
+    },
+    {
+      "x1": 91.10000000000001,
+      "y1": 4.2,
+      "x2": 95.30000000000001,
+      "y2": 11.5,
+      "tag": "South_Stair",
+      "expressions": {
+        "x": "CenterX-StairWidth/2",
+        "y": "MaxSouth",
+        "w": "StairWidth",
+        "d": "StairLength"
+      },
+      "id": "South_Stair",
+      "side": "South"
+    }
+  ],
+  "source_sha256": "9c1829b876129ee26a21874b803b3c761af7b9bcddda3d025af8c6d61c57c715",
+  "atlas": 4096
+}

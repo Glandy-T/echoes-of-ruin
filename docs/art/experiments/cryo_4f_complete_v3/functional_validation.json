@@ -1,0 +1,108 @@
+{
+	"bake_available": true,
+	"errors": [],
+	"full_floor_collision_bodies": 469,
+	"inner_gate_response": {
+		"id": "D017",
+		"kind": "emergency",
+		"outcome": "denied"
+	},
+	"inner_gate_stop": "(83.04328, 0.002398, -10.70001)",
+	"inside_walk_stop": "(10.5, -0.000591, -9.150619)",
+	"neighbor_room_response": {
+		"id": "D005",
+		"kind": "room",
+		"outcome": "denied"
+	},
+	"other_room_pods": 0,
+	"outside_walk_stop": "(10.5, 0.003877, -9.693428)",
+	"portal_events": [
+		{
+			"event": "portal_interact",
+			"outside": true
+		},
+		{
+			"alpha": 1.0,
+			"event": "transfer_under_black",
+			"outside": true
+		},
+		{
+			"event": "portal_interact",
+			"outside": false
+		},
+		{
+			"alpha": 1.0,
+			"event": "transfer_under_black",
+			"outside": false
+		}
+	],
+	"result": "PASS",
+	"room_count": 48.0,
+	"second_corridor_end": "(10.91003, 0.003877, -22.6)",
+	"walk_floor_rays": [
+		{
+			"collider": "Solid4F_Floor_1_0",
+			"point": "(41.7, 0.6, -10.7)"
+		},
+		{
+			"collider": "Solid4F_Floor_3_0",
+			"point": "(41.7, 0.6, -22.6)"
+		},
+		{
+			"collider": "Solid4F_Floor_1_1",
+			"point": "(144.7, 0.6, -10.7)"
+		},
+		{
+			"collider": "Solid4F_Floor_3_1",
+			"point": "(144.7, 0.6, -22.6)"
+		},
+		{
+			"collider": "Solid4F_Floor_9_0",
+			"point": "(41.7, 0.6, -55.2)"
+		},
+		{
+			"collider": "Solid4F_Floor_11_0",
+			"point": "(41.7, 0.6, -67.1)"
+		},
+		{
+			"collider": "Solid4F_Floor_9_1",
+			"point": "(144.7, 0.6, -55.2)"
+		},
+		{
+			"collider": "Solid4F_Floor_11_1",
+			"point": "(144.7, 0.6, -67.1)"
+		},
+		{
+			"collider": "Solid4F_Floor_5_0",
+			"point": "(-1.2, 0.6, -30.4)"
+		},
+		{
+			"collider": "Solid4F_Floor_7_0",
+			"point": "(-1.2, 0.6, -47.4)"
+		},
+		{
+			"collider": "Solid4F_Floor_5_1",
+			"point": "(187.6, 0.6, -30.4)"
+		},
+		{
+			"collider": "Solid4F_Floor_7_1",
+			"point": "(187.6, 0.6, -47.4)"
+		},
+		{
+			"collider": "Solid4F_Floor_2_0",
+			"point": "(-1.2, 0.6, -16.65)"
+		},
+		{
+			"collider": "Solid4F_Floor_2_1",
+			"point": "(187.6, 0.6, -16.65)"
+		},
+		{
+			"collider": "Solid4F_Floor_10_0",
+			"point": "(-1.2, 0.6, -61.15)"
+		},
+		{
+			"collider": "Solid4F_Floor_10_1",
+			"point": "(187.6, 0.6, -61.15)"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+# Embedded GLB textures extracted by Godot; runtime uses original Room1 sources.
+cryo_4f_complete_v3_*.png*
+source_geometry_*.png*
+source_geometry.glb.import
+source_*.exr.import

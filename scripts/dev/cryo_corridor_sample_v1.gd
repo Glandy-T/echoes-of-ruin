@@ -117,11 +117,17 @@ func _update_occlusion() -> void:
 	for entry in occluders:
 		var mesh := entry.mesh as MeshInstance3D
 		var blocked := false
-		if corridor_view:
+		if not entry.has("world_box"):entry.world_box=mesh.global_transform*mesh.get_aabb()
+		var bounds: AABB=entry.world_box
+		var end := bounds.position+bounds.size
+		var in_view_strip := end.x>=minf(camera.position.x,player.position.x)-4.1 and bounds.position.x<=maxf(camera.position.x,player.position.x)+4.1 and end.z>=minf(camera.position.z,player.position.z)-.15 and bounds.position.z<=maxf(camera.position.z,player.position.z)+.15 and end.y>=player.position.y and bounds.position.y<=camera.position.y+1.0
+		if not in_view_strip and not entry.active:continue
+		if not mesh.is_visible_in_tree() and not entry.active:continue
+		if corridor_view and in_view_strip:
 			var inverse := mesh.global_transform.affine_inverse()
 			# Cover the visible aisle around the actor, not just a person-sized hole.
 			# Otherwise the adjacent room's two long wall bays still cover the screen.
-			for offset in [Vector3(-4,.15,0),Vector3(-2,.15,0),Vector3(0,.15,0),Vector3(2,.15,0),Vector3(4,.15,0),Vector3(-4,1.65,0),Vector3(-2,1.65,0),Vector3(0,1.65,0),Vector3(2,1.65,0),Vector3(4,1.65,0)]:
+			for offset in _occlusion_probe_offsets():
 				if mesh.get_aabb().grow(.08).intersects_segment(inverse*camera.global_position,inverse*(player.global_position+offset)) != null:
 					blocked=true
 					break
@@ -139,6 +145,9 @@ func _update_occlusion() -> void:
 			for i in entry.originals.size():mesh.set_surface_override_material(i,entry.originals[i])
 		entry.active=alpha < .999
 
+func _occlusion_probe_offsets() -> Array[Vector3]:
+	return [Vector3(-4,.15,0),Vector3(-2,.15,0),Vector3(0,.15,0),Vector3(2,.15,0),Vector3(4,.15,0),Vector3(-4,1.65,0),Vector3(-2,1.65,0),Vector3(0,1.65,0),Vector3(2,1.65,0),Vector3(4,1.65,0)]
+
 func _physics_process(delta: float) -> void:
 	var near_door := _near_authentication_door()
 	if not near_door:authentication_requested=false
@@ -151,15 +160,21 @@ func _physics_process(delta: float) -> void:
 	if switching_view or (input_release_required and not test_mode):
 		test_mode=true
 		test_input=Vector2.ZERO
-	elif corridor_view and player and player.position.z > -36.2 and not test_mode:
+	elif _reverse_corridor_controls() and not test_mode:
 		test_mode=true
 		test_input=-raw_input
 	super._physics_process(delta)
 	test_mode=saved_mode
 	test_input=saved_input
-	if fade_rect and player and not switching_view:
+	if fade_rect and player and not switching_view and _automatic_portal_crossing_enabled():
 		if not corridor_view and player.position.z < -9.72: _switch_view(true)
 		elif corridor_view and player.position.z > -9.25: _switch_view(false)
+
+func _automatic_portal_crossing_enabled() -> bool:
+	return true
+
+func _reverse_corridor_controls() -> bool:
+	return corridor_view and player and player.position.z > -36.2
 
 func _near_authentication_door() -> bool:
 	return is_instance_valid(player) and is_instance_valid(door_mesh) and absf(player.position.x-door_closed_position.x)<1.35 and absf(player.position.z-door_closed_position.z)<1.8

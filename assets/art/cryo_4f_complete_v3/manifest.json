@@ -1,0 +1,28 @@
+{
+  "samples": 4096,
+  "device": "CUDA",
+  "bake_seconds": 1491.75,
+  "atlas": 4096,
+  "receiver_count": 429,
+  "shell_count": 430,
+  "room_count": 48,
+  "other_room_pods": 0,
+  "lightmap_density": 16,
+  "lightmap_storage": "linear 16-bit half float ZIP EXR",
+  "pass": "DIFFUSE DIRECT+INDIRECT; COLOR off",
+  "chart_gap": 16,
+  "dilation": 4,
+  "files": {
+    "cryo_4f_complete_v3.glb": "0765f53dcf0fa302e60073def4e2877f5f115ba1f1beb30e45ebc14937616635",
+    "layout.json": "cae373eeb7ed0f4bcaf3db3236b6aefbae2162b13d5d4bcf03f4e556bf80a8db",
+    "other_4f_stairs.glb": "8c09728ce9b5d19a9bbc3a8d8912a2e9ca6c08b65282742ba19271379b16c67a",
+    "source_geometry.glb": "e1e622557c789b4ec0e2fe81f9f44eac2c034e293dfab0fb20e8584e51ea18d5",
+    "source_strip_irradiance.exr": "9da2706d95e0ff362b508f6288198ca6ada0a7668d0b45456f7402c274996bd8",
+    "source_strip_irradiance_denoised.exr": "834686d80f7282d943e7db0fd662d07066ae81f722ab106085193a499f50e739",
+    "strip_irradiance.exr": "6b1b7801cd19300d74aec5d0ff2de038574ab91fe8f83434fbfb22f803c34075",
+    "strip_irradiance_denoised.exr": "933fef82838ffad5e563d7e577c56174626f10c776d0acaea4312873b64e9d35"
+  },
+  "continuous_UV2_transfer": true,
+  "source_raw_preserved": true,
+  "shared_plane_groups": 148
+}

@@ -1,0 +1,69 @@
+{
+  "exported_glb_uv_audit": {
+    "receiver_triangle_count": 858,
+    "candidate_triangle_pairs": 3961,
+    "positive_area_overlap_count": 0,
+    "positive_area_overlaps": [],
+    "geometry_non_degenerate_triangle_count": 858,
+    "uv_non_degenerate_triangle_count": 858,
+    "uv_degenerate_triangle_count": 0,
+    "out_of_atlas_vertex_count": 0,
+    "out_of_atlas_vertices": []
+  },
+  "manifest_hashes": {
+    "cryo_4f_complete_v3.glb": true,
+    "layout.json": true,
+    "other_4f_stairs.glb": true,
+    "source_geometry.glb": true,
+    "source_strip_irradiance.exr": true,
+    "source_strip_irradiance_denoised.exr": true,
+    "strip_irradiance.exr": true,
+    "strip_irradiance_denoised.exr": true
+  },
+  "max_exported_chart_error_px": 0.00014591280171316612,
+  "measured_chart_rectangle_gap_px": 16.0,
+  "remaining_after_two_4px_dilations": 8.0,
+  "hdr": {
+    "strip_irradiance.exr": {
+      "size": [
+        4096,
+        4096
+      ],
+      "finite": true,
+      "minimum": 0.0,
+      "maximum": 2.912109375,
+      "nonzero_components": 6931938
+    },
+    "strip_irradiance_denoised.exr": {
+      "size": [
+        4096,
+        4096
+      ],
+      "finite": true,
+      "minimum": 0.0,
+      "maximum": 3.060546875,
+      "nonzero_components": 6940282
+    },
+    "source_strip_irradiance.exr": {
+      "size": [
+        4096,
+        4096
+      ],
+      "finite": true,
+      "minimum": 0.0,
+      "maximum": 2.95703125,
+      "nonzero_components": 6749331
+    },
+    "source_strip_irradiance_denoised.exr": {
+      "size": [
+        4096,
+        4096
+      ],
+      "finite": true,
+      "minimum": 0.0,
+      "maximum": 3.12890625,
+      "nonzero_components": 7595985
+    }
+  },
+  "result": "PASS"
+}

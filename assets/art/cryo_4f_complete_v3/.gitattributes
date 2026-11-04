@@ -1,0 +1,2 @@
+# Manifest hashes refer to exact JSON bytes generated alongside the bake.
+*.json -text
