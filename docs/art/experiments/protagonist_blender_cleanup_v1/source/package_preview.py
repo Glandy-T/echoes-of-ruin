@@ -22,5 +22,7 @@ page=f'''<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewpo
 for name,label in [('back','背面：原碎发与新发块'),('front','正面：侧分与弱五官'),('side','侧面：头发厚度与人体轮廓'),('quarter','前斜侧'),('back_quarter','后斜侧：肩背也要看')]:
  page+=f'<figure><figcaption>{label}</figcaption><a href="evidence/comparison_{name}.jpg"><img src="evidence/comparison_{name}.jpg"></a></figure>'
 page+='</div><h2>制作参考</h2><p>沿用项目自身三视图v2，侧分长发、弱五官、简单统一休眠袍。下图仅作设计参考，不是已经完成的角色贴图。</p><img width="192" height="256" src="../protagonist_turnaround_v2/views/front.png"></html>'
+page=page.replace('<title>主角本地修模试作 v1</title>','<title>未采用｜主角本地修模试作 v1</title>')
+page=page.replace('<h1>主角本地修模试作 v1</h1>','<h1>未采用：主角本地修模试作 v1</h1><div class="warning"><strong>2026-11-05用户已否决：“确实不太行，负优化了”。</strong>本地修模路线停止；仅保留历史对比，不作制作基线，不继续UV／贴图／绑定／场景替换。等待用户明确恢复。</div>')
 (EXP/'preview.html').write_text(page,encoding='utf8')
 print('PACKAGED_LOCAL_CLEANUP_REVIEW')
