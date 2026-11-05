@@ -1,0 +1,393 @@
+{
+  "raw_SHA256": "04227946df3e2ccd11952bc6084086521a13c3839f716fa73d4392af9d47a2a2",
+  "expected_raw_SHA256": "04227946df3e2ccd11952bc6084086521a13c3839f716fa73d4392af9d47a2a2",
+  "saved_blend_meshes": [
+    {
+      "name": "Gown_Continuous",
+      "vertices": 2661,
+      "polygons": 3540,
+      "triangles": 5306,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.218353271484375,
+          0.21709060668945312
+        ],
+        [
+          -0.1202893778681755,
+          0.099029541015625
+        ],
+        [
+          0.16500000655651093,
+          0.8349999785423279
+        ]
+      ]
+    },
+    {
+      "name": "Hands_Source",
+      "vertices": 173,
+      "polygons": 193,
+      "triangles": 330,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.2255401611328125,
+          0.2255401611328125
+        ],
+        [
+          -0.05578991770744324,
+          0.06876376271247864
+        ],
+        [
+          0.4162750244140625,
+          0.5231271982192993
+        ]
+      ]
+    },
+    {
+      "name": "Feet_Source",
+      "vertices": 489,
+      "polygons": 537,
+      "triangles": 966,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.1677551120519638,
+          0.1621551662683487
+        ],
+        [
+          -0.1231537014245987,
+          0.09799957275390625
+        ],
+        [
+          0.0,
+          0.16500000655651093
+        ]
+      ]
+    },
+    {
+      "name": "Head_Clean_WeakFeatures",
+      "vertices": 192,
+      "polygons": 170,
+      "triangles": 380,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": false,
+      "bounds": [
+        [
+          -0.057999998331069946,
+          0.057999998331069946
+        ],
+        [
+          -0.05920000001788139,
+          0.03700000047683716
+        ],
+        [
+          0.8519999980926514,
+          0.9959999918937683
+        ]
+      ]
+    },
+    {
+      "name": "Neck_Clean",
+      "vertices": 36,
+      "polygons": 26,
+      "triangles": 68,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": false,
+      "bounds": [
+        [
+          -0.027000000700354576,
+          0.027000000700354576
+        ],
+        [
+          -0.028999999165534973,
+          0.02500000037252903
+        ],
+        [
+          0.8050000071525574,
+          0.8740000128746033
+        ]
+      ]
+    },
+    {
+      "name": "Hair_Main_Clean",
+      "vertices": 1026,
+      "polygons": 1056,
+      "triangles": 2048,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": false,
+      "bounds": [
+        [
+          -0.10671918094158173,
+          0.10671918094158173
+        ],
+        [
+          -0.05994820222258568,
+          0.105918750166893
+        ],
+        [
+          0.6510000228881836,
+          1.00600004196167
+        ]
+      ]
+    },
+    {
+      "name": "Hair_Fringe_Clean",
+      "vertices": 20,
+      "polygons": 18,
+      "triangles": 36,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": false,
+      "bounds": [
+        [
+          -0.06317006796598434,
+          0.027688447386026382
+        ],
+        [
+          -0.06499999761581421,
+          -0.020999999716877937
+        ],
+        [
+          0.9139285683631897,
+          0.9951474070549011
+        ]
+      ]
+    }
+  ],
+  "reimported_GLB_meshes": [
+    {
+      "name": "Gown_Continuous",
+      "vertices": 3031,
+      "polygons": 5306,
+      "triangles": 5306,
+      "boundary_edges": 728,
+      "non_manifold_edges": 730,
+      "non_manifold_vertices": 9,
+      "degenerate_faces": 2,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.218353271484375,
+          0.21709060668945312
+        ],
+        [
+          -0.1202893778681755,
+          0.099029541015625
+        ],
+        [
+          0.16500000655651093,
+          0.8349999785423279
+        ]
+      ]
+    },
+    {
+      "name": "Hands_Source",
+      "vertices": 246,
+      "polygons": 330,
+      "triangles": 330,
+      "boundary_edges": 146,
+      "non_manifold_edges": 146,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.2255401611328125,
+          0.2255401611328125
+        ],
+        [
+          -0.05578991770744324,
+          0.06876376271247864
+        ],
+        [
+          0.4162750244140625,
+          0.5231271982192993
+        ]
+      ]
+    },
+    {
+      "name": "Feet_Source",
+      "vertices": 613,
+      "polygons": 966,
+      "triangles": 966,
+      "boundary_edges": 248,
+      "non_manifold_edges": 248,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 4,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.1677551120519638,
+          0.1621551662683487
+        ],
+        [
+          -0.1231537014245987,
+          0.09799957275390625
+        ],
+        [
+          0.0,
+          0.16500000655651093
+        ]
+      ]
+    },
+    {
+      "name": "Head_Clean_WeakFeatures",
+      "vertices": 192,
+      "polygons": 380,
+      "triangles": 380,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.057999998331069946,
+          0.057999998331069946
+        ],
+        [
+          -0.05920000001788139,
+          0.03700000047683716
+        ],
+        [
+          0.8519999980926514,
+          0.9959999918937683
+        ]
+      ]
+    },
+    {
+      "name": "Neck_Clean",
+      "vertices": 36,
+      "polygons": 68,
+      "triangles": 68,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.027000000700354576,
+          0.027000000700354576
+        ],
+        [
+          -0.028999999165534973,
+          0.02500000037252903
+        ],
+        [
+          0.8050000071525574,
+          0.8740000128746033
+        ]
+      ]
+    },
+    {
+      "name": "Hair_Main_Clean",
+      "vertices": 1026,
+      "polygons": 2048,
+      "triangles": 2048,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.10671918094158173,
+          0.10671918094158173
+        ],
+        [
+          -0.05994820222258568,
+          0.105918750166893
+        ],
+        [
+          0.6510000228881836,
+          1.00600004196167
+        ]
+      ]
+    },
+    {
+      "name": "Hair_Fringe_Clean",
+      "vertices": 20,
+      "polygons": 36,
+      "triangles": 36,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "degenerate_faces": 0,
+      "UV_layers": 0,
+      "has_custom_normals": true,
+      "bounds": [
+        [
+          -0.06317006796598434,
+          0.027688447386026382
+        ],
+        [
+          -0.06499999761581421,
+          -0.020999999716877937
+        ],
+        [
+          0.9139285683631897,
+          0.9951474070549011
+        ]
+      ]
+    }
+  ],
+  "GLB_triangle_count_matches": true,
+  "GLB_contains_only_candidate_meshes": true,
+  "original_reference_bounds": [
+    [
+      -0.2255401611328125,
+      0.2255401611328125
+    ],
+    [
+      -0.1231537014245987,
+      0.1231537014245987
+    ],
+    [
+      0.0,
+      0.99798583984375
+    ]
+  ],
+  "cloud_calls": 0,
+  "new_textures": 0,
+  "UV_created": false,
+  "animation_or_art_approval": false,
+  "note": "Static file readback and topology statistics only. Remaining source defects are reported per object; this is not rig-ready certification."
+}

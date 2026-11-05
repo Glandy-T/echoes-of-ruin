@@ -1,0 +1,51 @@
+{
+  "source_sha256": "04227946df3e2ccd11952bc6084086521a13c3839f716fa73d4392af9d47a2a2",
+  "removed_disconnected_vertices": 40,
+  "parts": [
+    {
+      "name": "Gown_Continuous",
+      "vertices": 2661,
+      "faces": 3540
+    },
+    {
+      "name": "Hands_Source",
+      "vertices": 173,
+      "faces": 193
+    },
+    {
+      "name": "Feet_Source",
+      "vertices": 489,
+      "faces": 537
+    },
+    {
+      "name": "Head_Clean_WeakFeatures",
+      "vertices": 192,
+      "faces": 170
+    },
+    {
+      "name": "Neck_Clean",
+      "vertices": 36,
+      "faces": 26
+    },
+    {
+      "name": "Hair_Main_Clean",
+      "vertices": 1026,
+      "faces": 1056
+    },
+    {
+      "name": "Hair_Fringe_Clean",
+      "vertices": 20,
+      "faces": 18
+    }
+  ],
+  "geometry_modified": true,
+  "UV_unwrapped": false,
+  "cloud_calls": 0,
+  "paid_credits_used": 0,
+  "silhouette_approval": false,
+  "remaining": [
+    "Hands and feet retain coarse source geometry",
+    "Gown still contains source triangulation and local support caps",
+    "No deformation-topology, UV or animation approval"
+  ]
+}

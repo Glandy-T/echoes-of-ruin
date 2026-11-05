@@ -1,0 +1,6 @@
+source/raw_geometry_diagnostic.json
+source/*_full.jpg
+*.blend1
+*.log
+*.err
+__pycache__/
