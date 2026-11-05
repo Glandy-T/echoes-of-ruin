@@ -15,7 +15,8 @@
       0,
       192,
       256
-    ]
+    ],
+    "adopted": false
   },
   {
     "name": "mineral_b",
@@ -52,5 +53,66 @@
       192,
       64
     ]
+  },
+  {
+    "name": "mineral_a_quiet",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_mineral_a_quiet.txt",
+    "guide": "guide_mineral_a_quiet.png",
+    "mask": "mask_mineral_a_quiet.png",
+    "seed": 2026110504,
+    "native_size": [
+      256,
+      256
+    ],
+    "retained_crop": [
+      0,
+      0,
+      192,
+      256
+    ],
+    "output_name": "mineral_a",
+    "adopted": false
+  },
+  {
+    "name": "mineral_a_middle",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_mineral_a_middle.txt",
+    "guide": "guide_mineral_a_middle.png",
+    "mask": "mask_mineral_a_middle.png",
+    "seed": 2026110505,
+    "native_size": [
+      256,
+      256
+    ],
+    "retained_crop": [
+      0,
+      0,
+      192,
+      256
+    ],
+    "output_name": "mineral_a",
+    "adopted": false
+  },
+  {
+    "name": "mineral_a_masked_middle",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_mineral_a_masked_middle.txt",
+    "guide": "guide_mineral_a_masked_middle.png",
+    "mask": "mask_mineral_a_masked_middle.png",
+    "seed": 2026110506,
+    "native_size": [
+      256,
+      256
+    ],
+    "retained_crop": [
+      0,
+      0,
+      192,
+      256
+    ],
+    "output_name": "mineral_a",
+    "adopted": true,
+    "edit_scope": "three existing high-contrast patch bounds; no procedural art"
   }
 ]

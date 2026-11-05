@@ -1,0 +1,14 @@
+{
+  "name": "mineral_a_quiet",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "539b066a-2658-48ea-ba54-fe7e97461876",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

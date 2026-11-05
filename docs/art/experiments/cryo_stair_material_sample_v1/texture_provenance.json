@@ -1,22 +1,7 @@
 [
   {
-    "name": "mineral_a",
-    "raw_sha256": "bf99f0e290bf47702c52953ec076582dc65bb1270a7e20cd9fdb5e4603c60938",
-    "crop": [
-      0,
-      0,
-      192,
-      256
-    ],
-    "export_size": [
-      192,
-      256
-    ],
-    "export_sha256": "9a5c4613a1229566acda9c0b4b9f84cf7d49ee78237c134b01f9114e8d846db4",
-    "operation": "native crop only; no artistic pixel edits"
-  },
-  {
     "name": "mineral_b",
+    "output_name": "mineral_b",
     "raw_sha256": "8eb0b1471c70ed757516f852d9c4c92f189e8b4f1c8ddd87294609fe66a049df",
     "crop": [
       0,
@@ -28,11 +13,14 @@
       192,
       256
     ],
-    "export_sha256": "080a0d593d598903698024983648ed6ba818ca52e50ad9ba9f37d511a3640971",
-    "operation": "native crop only; no artistic pixel edits"
+    "operation": "native crop only; no artistic pixel edits",
+    "final_runtime_png_sha256": "2990979ec4898c8b8b010783a02c77dbe7d0ae4ece9da102e1719742b9d0ded1",
+    "local_refinement": "none; Aseprite packaging only",
+    "native_crop_png_sha256": "080a0d593d598903698024983648ed6ba818ca52e50ad9ba9f37d511a3640971"
   },
   {
     "name": "tread_edge",
+    "output_name": "tread_edge",
     "raw_sha256": "751a3cd7ad7588de18776e3a18bf493ab9239c3d6823587451e5b8d96e4d0414",
     "crop": [
       0,
@@ -44,7 +32,28 @@
       192,
       16
     ],
-    "export_sha256": "561f966cefc33315535251a377a5eea41fcf6daab68215458329d5fb2158253d",
-    "operation": "native crop only; no artistic pixel edits"
+    "operation": "native crop only; no artistic pixel edits",
+    "final_runtime_png_sha256": "a6cd9bcbc9664f9a9d4820d16fbd80026b2c609dc695cd984b11eae9c7f87cb8",
+    "local_refinement": "none; Aseprite packaging only",
+    "native_crop_png_sha256": "561f966cefc33315535251a377a5eea41fcf6daab68215458329d5fb2158253d"
+  },
+  {
+    "name": "mineral_a_masked_middle",
+    "output_name": "mineral_a",
+    "raw_sha256": "b68764258726264f9e6aedb6a5bfd4e9351103804c10f7f946237e3be63c6bd4",
+    "crop": [
+      0,
+      0,
+      192,
+      256
+    ],
+    "export_size": [
+      192,
+      256
+    ],
+    "operation": "native crop only; no artistic pixel edits",
+    "final_runtime_png_sha256": "0c5295d2e42821462435e3ce4ecb677de26f76f13c2575c7c4fb1cc405889ed4",
+    "local_refinement": "Aseprite one flat background color corrected on independent layer",
+    "native_crop_png_sha256": "66c95ce6487ecd44b4f7bf5035fd81eb35ca639718ffa87652f503d1cd97c074"
   }
 ]

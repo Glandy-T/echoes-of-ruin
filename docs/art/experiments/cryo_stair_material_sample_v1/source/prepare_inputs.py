@@ -4,6 +4,9 @@ import json
 from PIL import Image, ImageDraw
 
 HERE=Path(__file__).resolve().parent
+if (HERE/'requests.json').exists():
+    print('Existing request history retained; use saved jobs or targeted revision scripts.')
+    raise SystemExit
 ROOT=HERE.parents[4]
 ASSET=ROOT/'assets/art/cryo_stair_material_sample_v1'
 ASSET.mkdir(parents=True,exist_ok=True)

@@ -1,6 +1,6 @@
 # 学校交接：2026-11-04／4F镜头与门墙显现停在v6待选
 
-**2026-11-05当前场景工作：消防楼梯材质小样 v1。** 用户确认踏步＋平台采用灰色哑光矿物复合面，墙沿用 r24。已新建[独立审图小样](experiments/cryo_stair_material_sample_v1/preview.html)，包含一个梯跑及两平台，PixelLab 原始输出、Aseprite 母版、Blender 和 GLB 一并保留。Godot 用 `scenes/dev/cryo_stair_material_sample_v1.tscn` 按 F6，1/2/3 切换机位。先看主候选 A 的颗粒和灰度，再决定是否推广到实际楼梯；粗颗粒 B 仅对照。**不是整栋楼梯完工，不是用户已认可材质；未实现最终灯带与运动感应。** Room 1、4F v6、正式 F5 均保持，主角仍暂停。
+**2026-11-05当前场景工作：消防楼梯材质小样 v1／局部折中候选。** 踏步＋平台采用灰色哑光矿物复合面，墙沿用 r24。首轮被反馈“有点花”，quiet1又被指出“矫枉过正”，不能沿用近乎纯色版。当前从首版回退做三处局部 PixelLab 对比收敛；Aseprite独立层仅修遮罩新增的偏青底色。先审[同机位对比](experiments/cryo_stair_material_sample_v1/preview.html)，不要视为已认可材质。小样包含一个梯跑及两平台，原始输出、Aseprite 母版、Blender 和 GLB 一并保留。Godot 用 `scenes/dev/cryo_stair_material_sample_v1.tscn` 按 F6，1/2/3 切换机位。**不是整栋楼梯完工，当前仍待用户审图；未实现最终灯带与运动感应。** Room 1、4F v6、正式 F5 均保持，主角仍暂停。
 
 **2026-11-05最新用户决定：本地Blender修模v1未采用，主角制作暂停。**用户评价“确实不太行，负优化了”，停止这条本地修模路线。[历史试作](experiments/protagonist_blender_cleanup_v1/README.md)只留追溯，不能当作当前基线接着做UV、贴图、绑定或替换角色。原始H2.5、P2.0网页试作与已有参考保留，等待用户明确恢复。Room1／4F与v6待选状态保持。
 
