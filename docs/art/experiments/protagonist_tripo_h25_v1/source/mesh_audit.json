@@ -1,0 +1,65 @@
+{
+  "raw_file": "protagonist_tripo_h25_v1_raw.glb",
+  "raw_sha256": "04227946df3e2ccd11952bc6084086521a13c3839f716fa73d4392af9d47a2a2",
+  "blender_version": "5.0.1",
+  "mesh_objects": 1,
+  "armatures": 0,
+  "image_datablocks": 0,
+  "bounds_in_imported_units": {
+    "min": [
+      -0.2255401611328125,
+      -0.1231537014245987,
+      0.0
+    ],
+    "max": [
+      0.2255401611328125,
+      0.1231537014245987,
+      0.99798583984375
+    ],
+    "dimensions": [
+      0.451080322265625,
+      0.2463074028491974,
+      0.99798583984375
+    ]
+  },
+  "scale_status": "Raw GLB scale retained. Physical character height not approved.",
+  "meshes": [
+    {
+      "object": "tripo_node_282ea73b-a469-40b7-a227-386ea38bb451",
+      "vertices": 1463,
+      "edges": 4422,
+      "polygons": 2943,
+      "triangles": 2943,
+      "triangle_faces": 2943,
+      "quad_faces": 0,
+      "connected_components": 8,
+      "component_vertex_counts": [
+        1423,
+        21,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "boundary_edges": 15,
+      "loose_edges": 0,
+      "edges_with_more_than_2_faces": 0,
+      "zero_area_faces": 0,
+      "UV_layers": [],
+      "materials": [
+        "material"
+      ],
+      "vertex_groups": 0,
+      "shape_keys": [],
+      "armature_modifiers": []
+    }
+  ],
+  "limits": [
+    "Connected components do not establish semantic body/gown/hair separation.",
+    "UV layer presence is not UV overlap or painting-readiness validation.",
+    "No rigging, animation or Godot validation.",
+    "No cleanup, decimation, UV unwrap, new textures or silhouette edits performed."
+  ]
+}

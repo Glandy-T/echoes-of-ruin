@@ -1,0 +1,5 @@
+source/*_full.jpg
+*.log
+*.err
+__pycache__/
+*.blend1

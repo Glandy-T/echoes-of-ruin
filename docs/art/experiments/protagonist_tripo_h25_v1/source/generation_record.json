@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05",
+  "provider": "Tripo Studio official web UI via Chrome extension",
+  "model_id": "0d9ffe69-a83a-43dc-a2cf-ec9c967dae4e",
+  "model_url": "https://studio.tripo3d.ai/workspace/generate/0d9ffe69-a83a-43dc-a2cf-ec9c967dae4e",
+  "input": {
+    "file": "input_front.png",
+    "sha256": "7f49c5be689a590e6f8037aa847f7b4177c44000b9bdc0f434c4e8b7acdd3090",
+    "views": [
+      "front"
+    ],
+    "NoAI_reference_uploaded": false
+  },
+  "settings": {
+    "path": "HD Model",
+    "AI_model": "H2.5 Legacy",
+    "target_polygons": 3000,
+    "topology": "Triangle",
+    "Texture": false,
+    "Generate_in_Parts": false,
+    "8K_Texture": false,
+    "AI_Complete": false,
+    "privacy": "Public",
+    "generation_count": 1
+  },
+  "credits": {
+    "before": 200,
+    "after": 185,
+    "consumed": 15,
+    "paid_purchase": false
+  },
+  "download": {
+    "method": "Official Export button, GLB",
+    "initial_free_exports_UI": 15,
+    "three_local_files_found": true,
+    "all_three_SHA256_equal": true,
+    "selected_raw_sha256": "04227946df3e2ccd11952bc6084086521a13c3839f716fa73d4392af9d47a2a2",
+    "bytes": 71604,
+    "original_downloads_preserved": true,
+    "notes": "Browser download event timed out while normal exports wrote files to a custom download folder. User identified folder. No internal model extraction."
+  },
+  "blender": {
+    "version": "5.0.1",
+    "source": "model/protagonist_h25_inspection.blend",
+    "mesh_objects": 1,
+    "vertices": 1463,
+    "triangles": 2943,
+    "UV_layers": 0,
+    "armatures": 0,
+    "raw_geometry_modified": false,
+    "preview_resolution": [
+      1280,
+      720
+    ]
+  },
+  "visual_review": {
+    "views": [
+      "front",
+      "side",
+      "back",
+      "quarter"
+    ],
+    "issues": [
+      "Jagged fragmented/folded rear hair geometry visible in back and side views",
+      "Hands reduced to coarse merged finger blocks",
+      "Body, gown and hair not semantically separated"
+    ],
+    "user_approval": false,
+    "ready_for_final_textures_or_animation": false
+  },
+  "scope": "Single free gray-model trial, actual download and Blender inspection. No scene edits, new textures, rigging or Godot replacement."
+}
