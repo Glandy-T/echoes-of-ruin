@@ -1,0 +1,57 @@
+[
+	{
+		"file": "gray_overview.png",
+		"fov": 48.0,
+		"lighting": "temporary neutral realtime review; not final motion lighting",
+		"position": "(5.3, 4.7, 5.1)",
+		"resolution": [
+			1280,
+			720
+		],
+		"transform": "[X: (0.774484, 0.0, -0.632594), Y: (-0.250668, 0.918141, -0.306892), Z: (0.58081, 0.396254, 0.711085), O: (5.3, 4.7, 5.1)]"
+	},
+	{
+		"file": "material_overview.png",
+		"fov": 48.0,
+		"lighting": "temporary neutral realtime review; not final motion lighting",
+		"position": "(5.3, 4.7, 5.1)",
+		"resolution": [
+			1280,
+			720
+		],
+		"transform": "[X: (0.774484, 0.0, -0.632594), Y: (-0.250668, 0.918141, -0.306892), Z: (0.58081, 0.396254, 0.711085), O: (5.3, 4.7, 5.1)]"
+	},
+	{
+		"file": "material_treads.png",
+		"fov": 48.0,
+		"lighting": "temporary neutral realtime review; not final motion lighting",
+		"position": "(3.1, 2.0, 1.6)",
+		"resolution": [
+			1280,
+			720
+		],
+		"transform": "[X: (0.795122, 0.0, -0.606449), Y: (-0.207367, 0.939723, -0.271881), Z: (0.569894, 0.341937, 0.747195), O: (3.1, 2.0, 1.6)]"
+	},
+	{
+		"file": "material_landing.png",
+		"fov": 48.0,
+		"lighting": "temporary neutral realtime review; not final motion lighting",
+		"position": "(4.4, 5.4, -0.2)",
+		"resolution": [
+			1280,
+			720
+		],
+		"transform": "[X: (0.630913, 0.0, -0.775853), Y: (-0.397609, 0.858699, -0.323331), Z: (0.666224, 0.51248, 0.541765), O: (4.4, 5.4, -0.2)]"
+	},
+	{
+		"file": "candidate_b_overview.png",
+		"fov": 48.0,
+		"lighting": "temporary neutral realtime review; not final motion lighting",
+		"position": "(5.3, 4.7, 5.1)",
+		"resolution": [
+			1280,
+			720
+		],
+		"transform": "[X: (0.774484, 0.0, -0.632594), Y: (-0.250668, 0.918141, -0.306892), Z: (0.58081, 0.396254, 0.711085), O: (5.3, 4.7, 5.1)]"
+	}
+]

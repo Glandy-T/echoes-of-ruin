@@ -1,0 +1,56 @@
+[
+  {
+    "name": "mineral_a",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_mineral_a.txt",
+    "guide": "guide_mineral_a.png",
+    "mask": "mask_mineral_a.png",
+    "seed": 2026110501,
+    "native_size": [
+      256,
+      256
+    ],
+    "retained_crop": [
+      0,
+      0,
+      192,
+      256
+    ]
+  },
+  {
+    "name": "mineral_b",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_mineral_b.txt",
+    "guide": "guide_mineral_b.png",
+    "mask": "mask_mineral_b.png",
+    "seed": 2026110502,
+    "native_size": [
+      256,
+      256
+    ],
+    "retained_crop": [
+      0,
+      0,
+      192,
+      256
+    ]
+  },
+  {
+    "name": "tread_edge",
+    "endpoint": "/inpaint-v3",
+    "prompt": "prompt_tread_edge.txt",
+    "guide": "guide_tread_edge.png",
+    "mask": "mask_tread_edge.png",
+    "seed": 2026110503,
+    "native_size": [
+      256,
+      256
+    ],
+    "retained_crop": [
+      0,
+      48,
+      192,
+      64
+    ]
+  }
+]

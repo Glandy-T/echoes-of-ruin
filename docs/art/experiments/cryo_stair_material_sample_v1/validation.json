@@ -1,0 +1,56 @@
+{
+  "status": "TECHNICAL_CHECKS_PASS",
+  "checks": {
+    "mineral_a_native_crop": true,
+    "mineral_a_aseprite_readback": true,
+    "mineral_a_context_excluded_from_export": true,
+    "mineral_a_job_completed": true,
+    "mineral_b_native_crop": true,
+    "mineral_b_aseprite_readback": true,
+    "mineral_b_context_excluded_from_export": true,
+    "mineral_b_job_completed": true,
+    "tread_edge_native_crop": true,
+    "tread_edge_aseprite_readback": true,
+    "tread_edge_context_excluded_from_export": true,
+    "tread_edge_job_completed": true,
+    "wall_exact_r24_native_crop": true,
+    "wall_aseprite_readback": true,
+    "glb2_valid_header": true,
+    "glb_images_embedded": true,
+    "glb_no_camera_or_lights": true,
+    "glb_nearest_magnification": true,
+    "five_runtime_captures": true,
+    "capture_resolution": true,
+    "comparison_camera_identical": true,
+    "comparison_fov_identical": true,
+    "candidate_b_visibly_different_bytes": true,
+    "three_requests_total30": true
+  },
+  "unexported_protected_context_changed_pixels": {
+    "mineral_a": 1,
+    "mineral_b": 3,
+    "tread_edge": 15
+  },
+  "context_note": "Service changed a few protected-context pixels; context excluded from every exported mineral/edge texture. Not claimed pixel-exact outside mask.",
+  "usage_generations": 30.0,
+  "remaining_generations_after_batch": 131,
+  "glb_sha256": "f4b6913f035d50bebd4ed169991649e4cea24f8f6ab0d8ca47a3f02c830ab5fc",
+  "blend_sha256": "036086b06af597bbb22fa41e706ad98e4a183f20e324b70565e775643f3a9b14",
+  "capture_script_sha256": "af33bddf0a960882d71910410dcb45a96ec3df3da1b835c91cd961061fbe9ffa",
+  "evidence_sha256": {
+    "gray_overview.png": "998a4904131c2105fa0a58870875e42c50295c29dcdf24172ab883f7bc0f5b09",
+    "material_overview.png": "b6161c242c7ade961773f88aa5b5e3a29c5ac7cfc0ed299a7653dcd8b0ca1621",
+    "material_treads.png": "5b58b158239d26f5e3f098bbdba94df555304fbfea2e29cfb66f8ac28b73a3fe",
+    "material_landing.png": "bf1b94c4bf0c54d29e8339bcd1a9b83647fa53eec86eb80afff0ed9c199e0900",
+    "candidate_b_overview.png": "c3a08bcd2b797f5f5627f6cf50026508a1c0145835511f6bd636f49e7732fed1"
+  },
+  "visual_review": {
+    "observed": "A renders as matte gray fine-cluster mineral; step front edges are readable; reused r24 lower-wall material visible; B is substantially coarser. Distinct UV phases reduce exact two-step repetition.",
+    "limitations": [
+      "A still has broad darker patina patches and visibly reused grain; user must review whether these suit the fine mineral direction.",
+      "No full stairwell, return flight, ceiling, full-wall treatment, final handrail, movement validation, motion lighting or final bake.",
+      "The stair side/support and cropped wall edges are technical cutaway surfaces, not final architectural finish."
+    ],
+    "user_acceptance": "PENDING"
+  }
+}

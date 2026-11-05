@@ -1,0 +1,5 @@
+source/__pycache__/
+source/balance_*.json
+*.log
+*.blend1
+model/*.blend1

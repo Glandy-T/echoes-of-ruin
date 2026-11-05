@@ -1,5 +1,7 @@
 # 学校交接：2026-11-04／4F镜头与门墙显现停在v6待选
 
+**2026-11-05当前场景工作：消防楼梯材质小样 v1。** 用户确认踏步＋平台采用灰色哑光矿物复合面，墙沿用 r24。已新建[独立审图小样](experiments/cryo_stair_material_sample_v1/preview.html)，包含一个梯跑及两平台，PixelLab 原始输出、Aseprite 母版、Blender 和 GLB 一并保留。Godot 用 `scenes/dev/cryo_stair_material_sample_v1.tscn` 按 F6，1/2/3 切换机位。先看主候选 A 的颗粒和灰度，再决定是否推广到实际楼梯；粗颗粒 B 仅对照。**不是整栋楼梯完工，不是用户已认可材质；未实现最终灯带与运动感应。** Room 1、4F v6、正式 F5 均保持，主角仍暂停。
+
 **2026-11-05最新用户决定：本地Blender修模v1未采用，主角制作暂停。**用户评价“确实不太行，负优化了”，停止这条本地修模路线。[历史试作](experiments/protagonist_blender_cleanup_v1/README.md)只留追溯，不能当作当前基线接着做UV、贴图、绑定或替换角色。原始H2.5、P2.0网页试作与已有参考保留，等待用户明确恢复。Room1／4F与v6待选状态保持。
 
 **2026-11-05最新补充：**[主角H2.5免费试作](experiments/protagonist_tripo_h25_v1/README.md)已通过官方Export下载GLB，并在Blender打开；原始模型、`.blend`、实际四视图及检查报告均随仓库保存。2943三角面，无UV／骨架，后发背面碎裂、手指粗块、部件未合理分离，不能直接进入正式贴图和绑定。下面“无可带去学校的网格”仅指前一轮P2.0；目前已有H2.5，但不是认可的最终角色。Room1及4F场景、原占位主角、v6待选状态都保持。

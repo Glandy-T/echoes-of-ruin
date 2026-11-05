@@ -1,0 +1,14 @@
+{
+  "name": "mineral_b",
+  "endpoint": "/inpaint-v3",
+  "background_job_id": "8c5e5a95-4efc-405f-94f2-c0202b6013ae",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10.0
+  },
+  "native_size": [
+    256,
+    256
+  ]
+}

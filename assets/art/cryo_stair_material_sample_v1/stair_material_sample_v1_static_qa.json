@@ -1,0 +1,104 @@
+{
+  "schema": "cryo_stair_material_sample_v1_static_qa",
+  "status": "STATIC_GEOMETRY_AND_UV_PASS__RUNTIME_UNVERIFIED",
+  "scope": "one_rising_flight_entry_and_half_turn_landing__return_flight_roof_upper_wall_game_scene_omitted",
+  "coordinates": "x_width__y_run__z_up",
+  "dimensions_m": {
+    "flight_width": 1.8,
+    "flight_run": 3.3,
+    "flight_rise": 1.9,
+    "treads": 11,
+    "tread_depth": 0.3,
+    "entry_landing": [
+      3.8,
+      1.8
+    ],
+    "turn_landing": [
+      3.8,
+      1.8
+    ],
+    "lower_wall_y": [
+      -1.8,
+      1.1
+    ],
+    "lower_wall_z": [
+      -0.18,
+      2.72
+    ]
+  },
+  "images": {
+    "mineral_a.png": {
+      "pixels": [
+        192,
+        256
+      ],
+      "physical_metres": [
+        2.4,
+        3.2
+      ]
+    },
+    "mineral_b.png": {
+      "pixels": [
+        192,
+        256
+      ],
+      "physical_metres": [
+        2.4,
+        3.2
+      ]
+    },
+    "tread_edge.png": {
+      "pixels": [
+        192,
+        16
+      ],
+      "physical_metres": [
+        2.4,
+        0.2
+      ]
+    },
+    "wall_body.png": {
+      "pixels": [
+        728,
+        232
+      ],
+      "physical_metres": [
+        9.1,
+        2.9
+      ]
+    }
+  },
+  "density_px_per_m": 80,
+  "default_stair_material": "M_Stair_Mineral_A",
+  "unassigned_candidate_material": "M_Stair_Mineral_B",
+  "uv_phase_policy": {
+    "step": "((index*0.137)%1, (index*0.211)%1)",
+    "entry_landing": [
+      0.071,
+      0.173
+    ],
+    "turn_landing": [
+      0.613,
+      0.419
+    ],
+    "purpose": "deterministic_distinct_phase_without_changing_80px_per_m_density"
+  },
+  "fallback_materials": [],
+  "intentionally_untextured": [
+    "M_Provisional_Handrail_Matte"
+  ],
+  "closed_step_meshes": 11,
+  "closed_step_meshes_manifold": true,
+  "uv0_finite": true,
+  "tread_edge": {
+    "front": "lower_y_y1",
+    "physical_depth_m": 0.045,
+    "image_top_blender_v": 1.0
+  },
+  "wall": {
+    "inner_face": "x=0",
+    "vertical_tiling": false,
+    "u": "(y+1.8)*80/728",
+    "v": "(z+0.18)*80/232"
+  }
+}

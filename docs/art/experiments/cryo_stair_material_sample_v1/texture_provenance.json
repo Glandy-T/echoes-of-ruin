@@ -1,0 +1,50 @@
+[
+  {
+    "name": "mineral_a",
+    "raw_sha256": "bf99f0e290bf47702c52953ec076582dc65bb1270a7e20cd9fdb5e4603c60938",
+    "crop": [
+      0,
+      0,
+      192,
+      256
+    ],
+    "export_size": [
+      192,
+      256
+    ],
+    "export_sha256": "9a5c4613a1229566acda9c0b4b9f84cf7d49ee78237c134b01f9114e8d846db4",
+    "operation": "native crop only; no artistic pixel edits"
+  },
+  {
+    "name": "mineral_b",
+    "raw_sha256": "8eb0b1471c70ed757516f852d9c4c92f189e8b4f1c8ddd87294609fe66a049df",
+    "crop": [
+      0,
+      0,
+      192,
+      256
+    ],
+    "export_size": [
+      192,
+      256
+    ],
+    "export_sha256": "080a0d593d598903698024983648ed6ba818ca52e50ad9ba9f37d511a3640971",
+    "operation": "native crop only; no artistic pixel edits"
+  },
+  {
+    "name": "tread_edge",
+    "raw_sha256": "751a3cd7ad7588de18776e3a18bf493ab9239c3d6823587451e5b8d96e4d0414",
+    "crop": [
+      0,
+      48,
+      192,
+      64
+    ],
+    "export_size": [
+      192,
+      16
+    ],
+    "export_sha256": "561f966cefc33315535251a377a5eea41fcf6daab68215458329d5fb2158253d",
+    "operation": "native crop only; no artistic pixel edits"
+  }
+]
