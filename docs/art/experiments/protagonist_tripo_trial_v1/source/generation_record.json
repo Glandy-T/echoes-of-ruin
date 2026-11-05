@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-05",
+  "provider": "Tripo Studio",
+  "generation_channel": "Chrome extension controlled official web UI, not API",
+  "model_url": "https://studio.tripo3d.ai/workspace/generate/7407fbd8-8ff0-4ae7-bca8-2223e003c137",
+  "model_id": "7407fbd8-8ff0-4ae7-bca8-2223e003c137",
+  "input": {
+    "path": "docs/art/experiments/protagonist_turnaround_v2/views/front.png",
+    "sha256": "7f49c5be689a590e6f8037aa847f7b4177c44000b9bdc0f434c4e8b7acdd3090",
+    "size": [
+      192,
+      256
+    ],
+    "used_views": [
+      "front"
+    ],
+    "uploaded_NoAI_reference": false
+  },
+  "requested": {
+    "mode": "Smart Mesh",
+    "AI_model": "P2.0",
+    "topology": "Quad",
+    "target_polygons": 3000,
+    "number_of_generation": 1,
+    "privacy": "Public",
+    "textures_generated": false
+  },
+  "observed_UI": {
+    "faces": 3211,
+    "vertices": 3161,
+    "topology": "Quad",
+    "credits_before": 200,
+    "credits_after": 200,
+    "trial_count_before": 2,
+    "trial_count_after": 1,
+    "charged_credits_observed": 0
+  },
+  "export": {
+    "attempted_format": "GLB",
+    "filename": "protagonist_tripo_trial_v1_raw",
+    "result": "Upgrade to export ready-to-use 3D assets in multiple formats",
+    "model_file_downloaded": false,
+    "paid_subscription_purchased": false,
+    "local_Blender_source_created": false
+  },
+  "review": {
+    "front_side_back_and_quarter_seen": true,
+    "positive": [
+      "Recognizable clothed figure and natural body volume",
+      "Gown, sleeves and hair are volumetric rather than only image planes"
+    ],
+    "issues": [
+      "Back hair inferred too long with pointed jagged ends compared with working back reference",
+      "Upper gown follows chest form more closely than simple loose garment reference",
+      "Thin raised strand-like shapes near forehead/hair need cleanup"
+    ],
+    "not_verified": [
+      "Actual mesh connectivity or body/clothing/hair separation",
+      "UVs, normals, manifoldness and deformation topology",
+      "Physical scale, rigging and Godot import",
+      "Raw mesh statistics independent of UI report"
+    ],
+    "user_art_approval": false
+  },
+  "screenshot_capture": {
+    "original_UI_size": [
+      1920,
+      855
+    ],
+    "same_crop_xy_exclusive": [
+      800,
+      160,
+      1180,
+      742
+    ],
+    "model_images_rescaled": false,
+    "full_UI_screenshots": "Local only, excluded from Git to omit account UI and unrelated asset thumbnails"
+  },
+  "scope": "One free untextured cloud-model trial. No new PixelLab generations, no game scene or lighting changes."
+}
