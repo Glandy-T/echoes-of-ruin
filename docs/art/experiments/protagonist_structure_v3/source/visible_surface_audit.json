@@ -1,0 +1,128 @@
+[
+  {
+    "pixel": [
+      650,
+      300
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 171,
+    "world_point": [
+      0.052997589111328125,
+      -0.04708310589194298,
+      0.4400997757911682
+    ],
+    "attrs": {
+      "raw_obj_face_index": 753,
+      "surface_kind": 0
+    }
+  },
+  {
+    "pixel": [
+      650,
+      320
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 167,
+    "world_point": [
+      0.05315089225769043,
+      -0.04727432131767273,
+      0.4157516360282898
+    ],
+    "attrs": {
+      "raw_obj_face_index": 749,
+      "surface_kind": 0
+    }
+  },
+  {
+    "pixel": [
+      650,
+      340
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 165,
+    "world_point": [
+      0.05310988426208496,
+      -0.04722282290458679,
+      0.3913428783416748
+    ],
+    "attrs": {
+      "raw_obj_face_index": 747,
+      "surface_kind": 0
+    }
+  },
+  {
+    "pixel": [
+      651,
+      480
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 100,
+    "world_point": [
+      0.054390668869018555,
+      -0.04690717160701752,
+      0.22067928314208984
+    ],
+    "attrs": {
+      "raw_obj_face_index": 673,
+      "surface_kind": 0
+    }
+  },
+  {
+    "pixel": [
+      640,
+      500
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 93,
+    "world_point": [
+      0.04291367530822754,
+      -0.05364249646663666,
+      0.19591045379638672
+    ],
+    "attrs": {
+      "raw_obj_face_index": 663,
+      "surface_kind": 0
+    }
+  },
+  {
+    "pixel": [
+      580,
+      350
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 125,
+    "world_point": [
+      0.012562990188598633,
+      -0.1306907832622528,
+      0.3869239091873169
+    ],
+    "attrs": {
+      "raw_obj_face_index": 706,
+      "surface_kind": 0
+    }
+  },
+  {
+    "pixel": [
+      590,
+      360
+    ],
+    "hit": true,
+    "object": "Robe_Outer_Inner_Rims",
+    "face": 131,
+    "world_point": [
+      0.017065048217773438,
+      -0.1171540915966034,
+      0.37321144342422485
+    ],
+    "attrs": {
+      "raw_obj_face_index": 712,
+      "surface_kind": 0
+    }
+  }
+]

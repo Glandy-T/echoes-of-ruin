@@ -1,0 +1,3117 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "v2_blend_hash_unchanged": true,
+    "raw_source_obj_hash_unchanged": true,
+    "before_v2_is_single_unchanged_mesh": true,
+    "after_v3_has_exact_four_declared_parts": true,
+    "all_parts_have_v2_rotation_x90_transform": true,
+    "before_v2_raw_faces_match_v2_baseline": true,
+    "before_v2_geometry_and_corner_normals_unchanged": true,
+    "all_retained_v2_faces_present_once_except_40_approved_caps": true,
+    "only_approved_caps_absent_from_v2": true,
+    "retained_source_coordinates_exact": true,
+    "retained_source_custom_corner_normals_within_002": true,
+    "all_90_unclassified_source_faces_preserved": true,
+    "new_faces_do_not_spoof_source_ids": true,
+    "robe_tissue_closed_manifold_no_boundary_or_nonmanifold_edges": true,
+    "robe_outer_inner_rim_single_connected_tissue": true,
+    "robe_has_no_degenerate_faces": true,
+    "inner_matches_outer_exact_triangle_parent_histogram": true,
+    "inner_vs_outer_bvh_has_no_triangle_intersections": false,
+    "body_proxy_vs_robe_outer_bvh_has_no_triangle_intersections": false,
+    "all_parts_have_actual_uv_layer": true,
+    "uv_island_counts_match_structural_trial": true,
+    "uv_all_parts_within_independent_unit_tiles": true,
+    "uv_no_zero_area_triangles": true,
+    "uv_no_positive_triangle_overlap_per_part": false,
+    "glb_is_valid_v2_and_has_four_meshes": true,
+    "glb_excludes_cameras_lights_skins_animations": true
+  },
+  "failed_checks": [
+    "inner_vs_outer_bvh_has_no_triangle_intersections",
+    "body_proxy_vs_robe_outer_bvh_has_no_triangle_intersections",
+    "uv_no_positive_triangle_overlap_per_part"
+  ],
+  "metrics": {
+    "collection_snapshot_before_readback": {
+      "AFTER_V3": [
+        "Hair_Main",
+        "Robe_Outer_Inner_Rims",
+        "Body_Base_Separate_From_Clothes",
+        "Preserved_Unclassified_Source_Details"
+      ],
+      "BEFORE_V2": [
+        "V2_Baseline_Unchanged"
+      ]
+    },
+    "v2_collection_objects": {
+      "AFTER_V2": [
+        "CN_P20_V2_AFTER"
+      ],
+      "BEFORE_V1": [
+        "CN_P20_V1_BEFORE"
+      ]
+    },
+    "before_v2_raw_face_count": 2582,
+    "before_v2_max_coordinate_delta": 0,
+    "before_v2_max_corner_normal_delta": 0,
+    "retained_raw_face_count": 2542,
+    "expected_retained_raw_face_count": 2542,
+    "missing_retained_raw_ids": [],
+    "unexpected_retained_raw_ids": [],
+    "duplicate_retained_raw_ids": [],
+    "retained_max_coordinate_delta": 0,
+    "retained_max_corner_normal_delta": 0.0005826914405459953,
+    "loop_mismatch_raw_ids": [],
+    "surface_kind_face_counts": {
+      "0": 2542,
+      "4": 1,
+      "1": 1298,
+      "2": 70,
+      "3": 34,
+      "5": 65,
+      "6": 30
+    },
+    "unclassified_detail_raw_ids": [
+      13,
+      77,
+      78,
+      196,
+      197,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      208,
+      209,
+      210,
+      211,
+      217,
+      218,
+      219,
+      220,
+      302,
+      358,
+      359,
+      435,
+      436,
+      438,
+      439,
+      440,
+      441,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      478,
+      479,
+      482,
+      483,
+      577,
+      583,
+      584,
+      728,
+      1083,
+      1114,
+      1115,
+      1116,
+      1117,
+      1199,
+      1200,
+      1209,
+      1210,
+      1211,
+      1212,
+      1226,
+      1229,
+      1236,
+      1237,
+      1239,
+      1240,
+      1294,
+      1296,
+      1307,
+      1310,
+      1311,
+      1831,
+      1832,
+      1833,
+      1999,
+      2303,
+      2304,
+      2305,
+      2306,
+      2307,
+      2385,
+      2386,
+      2388,
+      2389,
+      2390,
+      2392,
+      2401,
+      2404,
+      2406,
+      2407,
+      2409,
+      2410,
+      2554,
+      2555,
+      2575,
+      2577,
+      2578
+    ],
+    "robe": {
+      "outer_faces": 686,
+      "inner_faces": 1298,
+      "rim_faces": 70,
+      "topology": {
+        "edge_count": 3422,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      },
+      "face_components": 1,
+      "degenerate_face_ids": [],
+      "outer_triangle_count": 1298,
+      "inner_triangle_count": 1298,
+      "inner_parent_histogram_matches": true,
+      "inner_vs_outer_bvh": {
+        "pair_count": 116,
+        "pairs_sample": [
+          {
+            "a_polygon": 154,
+            "b_polygon": 931,
+            "approx_local_position": [
+              0.004701892379671335,
+              0.44487592577934265,
+              0.06539398431777954
+            ]
+          },
+          {
+            "a_polygon": 154,
+            "b_polygon": 931,
+            "approx_local_position": [
+              0.001121161854825914,
+              0.44072553515434265,
+              0.06645192950963974
+            ]
+          },
+          {
+            "a_polygon": 160,
+            "b_polygon": 969,
+            "approx_local_position": [
+              0.004630944691598415,
+              0.46010714769363403,
+              0.062886543571949
+            ]
+          },
+          {
+            "a_polygon": 160,
+            "b_polygon": 969,
+            "approx_local_position": [
+              0.0016198763623833656,
+              0.45807263255119324,
+              0.0625610202550888
+            ]
+          },
+          {
+            "a_polygon": 324,
+            "b_polygon": 1256,
+            "approx_local_position": [
+              -0.01572568528354168,
+              0.4586462378501892,
+              0.06121787428855896
+            ]
+          },
+          {
+            "a_polygon": 324,
+            "b_polygon": 1256,
+            "approx_local_position": [
+              -0.012877378612756729,
+              0.4573441445827484,
+              0.06121787428855896
+            ]
+          },
+          {
+            "a_polygon": 159,
+            "b_polygon": 969,
+            "approx_local_position": [
+              0.004305425100028515,
+              0.45668917894363403,
+              0.0641886293888092
+            ]
+          },
+          {
+            "a_polygon": 159,
+            "b_polygon": 969,
+            "approx_local_position": [
+              0.0012129764072597027,
+              0.45489880442619324,
+              0.0645141452550888
+            ]
+          },
+          {
+            "a_polygon": 159,
+            "b_polygon": 921,
+            "approx_local_position": [
+              0.001208391971886158,
+              0.4405638873577118,
+              0.06581710278987885
+            ]
+          },
+          {
+            "a_polygon": 159,
+            "b_polygon": 920,
+            "approx_local_position": [
+              0.004755724221467972,
+              0.444719135761261,
+              0.06476163119077682
+            ]
+          },
+          {
+            "a_polygon": 159,
+            "b_polygon": 1248,
+            "approx_local_position": [
+              -0.004884642548859119,
+              0.4448796510696411,
+              0.06510049104690552
+            ]
+          },
+          {
+            "a_polygon": 319,
+            "b_polygon": 1256,
+            "approx_local_position": [
+              -0.013121518306434155,
+              0.4552282691001892,
+              0.06227581948041916
+            ]
+          },
+          {
+            "a_polygon": 319,
+            "b_polygon": 1248,
+            "approx_local_position": [
+              -0.010662637650966644,
+              0.4451237916946411,
+              0.06387978792190552
+            ]
+          },
+          {
+            "a_polygon": 318,
+            "b_polygon": 931,
+            "approx_local_position": [
+              -0.005063734948635101,
+              0.44503867626190186,
+              0.06571950763463974
+            ]
+          },
+          {
+            "a_polygon": 318,
+            "b_polygon": 1251,
+            "approx_local_position": [
+              -0.0107165751978755,
+              0.4452855885028839,
+              0.06451918184757233
+            ]
+          },
+          {
+            "a_polygon": 476,
+            "b_polygon": 1513,
+            "approx_local_position": [
+              0.0046309479512274265,
+              0.46010714769363403,
+              -0.06288662552833557
+            ]
+          },
+          {
+            "a_polygon": 477,
+            "b_polygon": 1513,
+            "approx_local_position": [
+              0.0013757392298430204,
+              0.45595675706863403,
+              -0.06361904740333557
+            ]
+          },
+          {
+            "a_polygon": 477,
+            "b_polygon": 1511,
+            "approx_local_position": [
+              0.0012910868972539902,
+              0.44594112038612366,
+              -0.06443295627832413
+            ]
+          },
+          {
+            "a_polygon": 477,
+            "b_polygon": 1798,
+            "approx_local_position": [
+              -0.005049095954746008,
+              0.4419456720352173,
+              -0.06453028321266174
+            ]
+          },
+          {
+            "a_polygon": 477,
+            "b_polygon": 1799,
+            "approx_local_position": [
+              -0.007514732889831066,
+              0.4460974335670471,
+              -0.06324723362922668
+            ]
+          },
+          {
+            "a_polygon": 449,
+            "b_polygon": 1567,
+            "approx_local_position": [
+              0.0011923566926270723,
+              0.4460943341255188,
+              -0.06505808979272842
+            ]
+          },
+          {
+            "a_polygon": 476,
+            "b_polygon": 1513,
+            "approx_local_position": [
+              0.0016198791563510895,
+              0.45807263255119324,
+              -0.06256110221147537
+            ]
+          },
+          {
+            "a_polygon": 594,
+            "b_polygon": 1810,
+            "approx_local_position": [
+              -0.010171137750148773,
+              0.45863819122314453,
+              -0.06176390498876572
+            ]
+          },
+          {
+            "a_polygon": 595,
+            "b_polygon": 1810,
+            "approx_local_position": [
+              -0.013670486398041248,
+              0.4550574719905853,
+              -0.06331013143062592
+            ]
+          },
+          {
+            "a_polygon": 594,
+            "b_polygon": 1810,
+            "approx_local_position": [
+              -0.013263584114611149,
+              0.4574988782405853,
+              -0.06217080354690552
+            ]
+          },
+          {
+            "a_polygon": 593,
+            "b_polygon": 1567,
+            "approx_local_position": [
+              -0.007759466767311096,
+              0.4462571144104004,
+              -0.06383738666772842
+            ]
+          },
+          {
+            "a_polygon": 593,
+            "b_polygon": 1802,
+            "approx_local_position": [
+              -0.01381194032728672,
+              0.4443790912628174,
+              -0.0644432008266449
+            ]
+          },
+          {
+            "a_polygon": 593,
+            "b_polygon": 1567,
+            "approx_local_position": [
+              -0.005236680153757334,
+              0.4421067237854004,
+              -0.06513947248458862
+            ]
+          },
+          {
+            "a_polygon": 595,
+            "b_polygon": 1810,
+            "approx_local_position": [
+              -0.010822178795933723,
+              0.4540809094905853,
+              -0.06396117061376572
+            ]
+          },
+          {
+            "a_polygon": 595,
+            "b_polygon": 1799,
+            "approx_local_position": [
+              -0.01369963027536869,
+              0.4442256689071655,
+              -0.06381689012050629
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 937,
+            "approx_local_position": [
+              0.0019350622314959764,
+              0.4634063243865967,
+              0.06281214952468872
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 936,
+            "approx_local_position": [
+              0.004953271243721247,
+              0.46658071875572205,
+              0.06310389935970306
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 941,
+            "approx_local_position": [
+              0.002506881020963192,
+              0.4699082374572754,
+              0.0627334713935852
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 930,
+            "approx_local_position": [
+              0.004134771879762411,
+              0.45683279633522034,
+              0.06478343904018402
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 931,
+            "approx_local_position": [
+              0.001121161738410592,
+              0.45504844188690186,
+              0.06514984369277954
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 932,
+            "approx_local_position": [
+              0.004458810202777386,
+              0.46018335223197937,
+              0.06349563598632812
+            ]
+          },
+          {
+            "a_polygon": 178,
+            "b_polygon": 933,
+            "approx_local_position": [
+              0.0015191263519227505,
+              0.45818737149238586,
+              0.06319396197795868
+            ]
+          },
+          {
+            "a_polygon": 322,
+            "b_polygon": 941,
+            "approx_local_position": [
+              -0.0035966357681900263,
+              0.4758489727973938,
+              0.0621638149023056
+            ]
+          },
+          {
+            "a_polygon": 322,
+            "b_polygon": 1295,
+            "approx_local_position": [
+              -0.009015400893986225,
+              0.4768231511116028,
+              0.061704955995082855
+            ]
+          },
+          {
+            "a_polygon": 322,
+            "b_polygon": 1294,
+            "approx_local_position": [
+              -0.011984163895249367,
+              0.4752788543701172,
+              0.061537064611911774
+            ]
+          }
+        ]
+      }
+    },
+    "body_proxy": {
+      "kind_triangle_counts": {
+        "3": 76,
+        "5": 142,
+        "6": 66
+      },
+      "vs_robe_outer_bvh": {
+        "pair_count": 121,
+        "pairs_sample": [
+          {
+            "a_polygon": 1037,
+            "b_polygon": 370,
+            "approx_local_position": [
+              -0.03632216900587082,
+              0.5103353261947632,
+              0.04630036652088165
+            ]
+          },
+          {
+            "a_polygon": 1037,
+            "b_polygon": 370,
+            "approx_local_position": [
+              -0.03648492693901062,
+              0.506103515625,
+              0.044265858829021454
+            ]
+          },
+          {
+            "a_polygon": 1037,
+            "b_polygon": 362,
+            "approx_local_position": [
+              -0.03477594256401062,
+              0.50830078125,
+              0.050369374454021454
+            ]
+          },
+          {
+            "a_polygon": 1037,
+            "b_polygon": 362,
+            "approx_local_position": [
+              -0.03192763775587082,
+              0.5013021230697632,
+              0.051590077579021454
+            ]
+          },
+          {
+            "a_polygon": 1037,
+            "b_polygon": 346,
+            "approx_local_position": [
+              -0.03510146588087082,
+              0.4971517026424408,
+              0.04491690173745155
+            ]
+          },
+          {
+            "a_polygon": 1037,
+            "b_polygon": 347,
+            "approx_local_position": [
+              -0.03689182922244072,
+              0.4967448115348816,
+              0.03970856964588165
+            ]
+          },
+          {
+            "a_polygon": 1037,
+            "b_polygon": 362,
+            "approx_local_position": [
+              -0.030887454748153687,
+              0.49130210280418396,
+              0.05316833406686783
+            ]
+          },
+          {
+            "a_polygon": 1039,
+            "b_polygon": 322,
+            "approx_local_position": [
+              -0.010528610087931156,
+              0.47689780592918396,
+              0.06181076541543007
+            ]
+          },
+          {
+            "a_polygon": 1039,
+            "b_polygon": 322,
+            "approx_local_position": [
+              -0.013132777065038681,
+              0.47103843092918396,
+              0.06132248416543007
+            ]
+          },
+          {
+            "a_polygon": 1039,
+            "b_polygon": 341,
+            "approx_local_position": [
+              -0.014190718531608582,
+              0.47836264967918396,
+              0.06140386685729027
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 322,
+            "approx_local_position": [
+              -0.006954348646104336,
+              0.4868977963924408,
+              0.06309657543897629
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 368,
+            "approx_local_position": [
+              -0.007361248135566711,
+              0.4925130307674408,
+              0.06285243481397629
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 369,
+            "approx_local_position": [
+              -0.007035728543996811,
+              0.492919921875,
+              0.06252691149711609
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 369,
+            "approx_local_position": [
+              -0.009884035214781761,
+              0.4930013120174408,
+              0.06212001293897629
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 368,
+            "approx_local_position": [
+              -0.010209554806351662,
+              0.4917806088924408,
+              0.06260829418897629
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 341,
+            "approx_local_position": [
+              -0.007605388294905424,
+              0.4899088740348816,
+              0.06285243481397629
+            ]
+          },
+          {
+            "a_polygon": 1040,
+            "b_polygon": 341,
+            "approx_local_position": [
+              -0.010616457089781761,
+              0.4883626401424408,
+              0.06268967688083649
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 361,
+            "approx_local_position": [
+              -0.027658767998218536,
+              0.5021159052848816,
+              0.06143947318196297
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 362,
+            "approx_local_position": [
+              -0.027007726952433586,
+              0.5013021230697632,
+              0.05948634818196297
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 361,
+            "approx_local_position": [
+              -0.026388633996248245,
+              0.49211591482162476,
+              0.060608021914958954
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 361,
+            "approx_local_position": [
+              -0.024191366508603096,
+              0.48609375953674316,
+              0.06020112335681915
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 343,
+            "approx_local_position": [
+              -0.024435508996248245,
+              0.48405927419662476,
+              0.060363881289958954
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 342,
+            "approx_local_position": [
+              -0.023621706292033195,
+              0.47543296217918396,
+              0.055887967348098755
+            ]
+          },
+          {
+            "a_polygon": 1038,
+            "b_polygon": 341,
+            "approx_local_position": [
+              -0.019389934837818146,
+              0.47836264967918396,
+              0.05979422107338905
+            ]
+          },
+          {
+            "a_polygon": 1039,
+            "b_polygon": 322,
+            "approx_local_position": [
+              -0.014772572554647923,
+              0.4810384213924408,
+              0.06339939683675766
+            ]
+          },
+          {
+            "a_polygon": 1039,
+            "b_polygon": 342,
+            "approx_local_position": [
+              -0.020062284544110298,
+              0.4854329526424408,
+              0.05957452580332756
+            ]
+          },
+          {
+            "a_polygon": 1039,
+            "b_polygon": 341,
+            "approx_local_position": [
+              -0.01583051308989525,
+              0.4883626401424408,
+              0.06348077952861786
+            ]
+          },
+          {
+            "a_polygon": 1036,
+            "b_polygon": 374,
+            "approx_local_position": [
+              -0.0430021807551384,
+              0.505126953125,
+              0.010114873759448528
+            ]
+          },
+          {
+            "a_polygon": 1036,
+            "b_polygon": 347,
+            "approx_local_position": [
+              -0.0403166338801384,
+              0.4967448115348816,
+              0.023949511349201202
+            ]
+          },
+          {
+            "a_polygon": 1036,
+            "b_polygon": 347,
+            "approx_local_position": [
+              -0.0404793918132782,
+              0.4922688901424408,
+              0.021019821986556053
+            ]
+          },
+          {
+            "a_polygon": 1036,
+            "b_polygon": 350,
+            "approx_local_position": [
+              -0.0417814776301384,
+              0.4962565302848816,
+              0.013939743861556053
+            ]
+          },
+          {
+            "a_polygon": 1036,
+            "b_polygon": 635,
+            "approx_local_position": [
+              -0.0437346026301384,
+              0.509765625,
+              0.0031161755323410034
+            ]
+          },
+          {
+            "a_polygon": 1036,
+            "b_polygon": 347,
+            "approx_local_position": [
+              -0.040298786014318466,
+              0.48674482107162476,
+              0.029398301616311073
+            ]
+          },
+          {
+            "a_polygon": 1035,
+            "b_polygon": 353,
+            "approx_local_position": [
+              -0.040363892912864685,
+              0.491943359375,
+              -0.019479641690850258
+            ]
+          },
+          {
+            "a_polygon": 1035,
+            "b_polygon": 353,
+            "approx_local_position": [
+              -0.040933556854724884,
+              0.49609375,
+              -0.015736153349280357
+            ]
+          },
+          {
+            "a_polygon": 1035,
+            "b_polygon": 590,
+            "approx_local_position": [
+              -0.040038373321294785,
+              0.49658203125,
+              -0.026234200224280357
+            ]
+          },
+          {
+            "a_polygon": 1035,
+            "b_polygon": 635,
+            "approx_local_position": [
+              -0.044568851590156555,
+              0.49976563453674316,
+              -0.008948100730776787
+            ]
+          },
+          {
+            "a_polygon": 1035,
+            "b_polygon": 635,
+            "approx_local_position": [
+              -0.043755047023296356,
+              0.49520835280418396,
+              -0.012528829276561737
+            ]
+          },
+          {
+            "a_polygon": 1035,
+            "b_polygon": 353,
+            "approx_local_position": [
+              -0.042778484523296356,
+              0.48609375953674316,
+              -0.009110858663916588
+            ]
+          },
+          {
+            "a_polygon": 1034,
+            "b_polygon": 603,
+            "approx_local_position": [
+              -0.03237553685903549,
+              0.48438477516174316,
+              -0.045745715498924255
+            ]
+          }
+        ]
+      },
+      "inter_proxy_bvh_documentation": {
+        "3_vs_5": {
+          "pair_count": 57,
+          "pairs_sample": [
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1062,
+              "approx_local_position": [
+                0.00026960973627865314,
+                0.3449999988079071,
+                -0.03501402586698532
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1067,
+              "approx_local_position": [
+                -0.039052918553352356,
+                0.35499998927116394,
+                -0.024128615856170654
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1066,
+              "approx_local_position": [
+                -0.03724820911884308,
+                0.3449999988079071,
+                -0.03178006410598755
+              ]
+            },
+            {
+              "a_polygon": 989,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.03789278864860535,
+                0.29666668176651,
+                0.027752909809350967
+              ]
+            },
+            {
+              "a_polygon": 989,
+              "b_polygon": 1068,
+              "approx_local_position": [
+                -0.03888101503252983,
+                0.30666667222976685,
+                0.02442280948162079
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1065,
+              "approx_local_position": [
+                -0.023146675899624825,
+                0.3449999988079071,
+                -0.050095900893211365
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1065,
+              "approx_local_position": [
+                -0.02118522860109806,
+                0.35499998927116394,
+                -0.05004395917057991
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1064,
+              "approx_local_position": [
+                -0.01643100008368492,
+                0.35499998927116394,
+                -0.05133663862943649
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1064,
+              "approx_local_position": [
+                -0.018152516335248947,
+                0.3449999988079071,
+                -0.05231279879808426
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1063,
+              "approx_local_position": [
+                -0.012733092531561852,
+                0.3449999988079071,
+                -0.05172935128211975
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1063,
+              "approx_local_position": [
+                -0.011076625436544418,
+                0.35499998927116394,
+                -0.049757108092308044
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1065,
+              "approx_local_position": [
+                -0.02334524318575859,
+                0.3449999988079071,
+                -0.041209183633327484
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1066,
+              "approx_local_position": [
+                -0.028411947190761566,
+                0.3449999988079071,
+                -0.03510037809610367
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1066,
+              "approx_local_position": [
+                -0.026073835790157318,
+                0.35499998927116394,
+                -0.03678876906633377
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1062,
+              "approx_local_position": [
+                -0.006978110410273075,
+                0.3449999988079071,
+                -0.03833433985710144
+              ]
+            },
+            {
+              "a_polygon": 1009,
+              "b_polygon": 1063,
+              "approx_local_position": [
+                -0.01127519179135561,
+                0.35499998927116394,
+                -0.040870390832424164
+              ]
+            },
+            {
+              "a_polygon": 1001,
+              "b_polygon": 1062,
+              "approx_local_position": [
+                0.003591345390304923,
+                0.3258333206176758,
+                -0.0378759503364563
+              ]
+            },
+            {
+              "a_polygon": 1001,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                0.0004777574213221669,
+                0.31583333015441895,
+                -0.02526705712080002
+              ]
+            },
+            {
+              "a_polygon": 1001,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.003724477021023631,
+                0.31583333015441895,
+                -0.0395074225962162
+              ]
+            },
+            {
+              "a_polygon": 1001,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                0.0019348782952874899,
+                0.31583333015441895,
+                -0.039848193526268005
+              ]
+            },
+            {
+              "a_polygon": 1001,
+              "b_polygon": 1062,
+              "approx_local_position": [
+                0.0052610645070672035,
+                0.30666667222976685,
+                -0.0427154079079628
+              ]
+            },
+            {
+              "a_polygon": 1001,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                0.0036045971792191267,
+                0.29666668176651,
+                -0.044687651097774506
+              ]
+            },
+            {
+              "a_polygon": 1003,
+              "b_polygon": 1067,
+              "approx_local_position": [
+                -0.03977451100945473,
+                0.3258333206176758,
+                -0.018431557342410088
+              ]
+            },
+            {
+              "a_polygon": 1003,
+              "b_polygon": 1067,
+              "approx_local_position": [
+                -0.03795774653553963,
+                0.3358333110809326,
+                -0.022742485627532005
+              ]
+            },
+            {
+              "a_polygon": 1003,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.03614743798971176,
+                0.31583333015441895,
+                -0.013381334953010082
+              ]
+            },
+            {
+              "a_polygon": 1003,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.025588614866137505,
+                0.31583333015441895,
+                -0.008058115839958191
+              ]
+            },
+            {
+              "a_polygon": 1003,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.03796980157494545,
+                0.31583333015441895,
+                -0.026083005592226982
+              ]
+            },
+            {
+              "a_polygon": 1003,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.022639598697423935,
+                0.29666668176651,
+                -0.008149037137627602
+              ]
+            },
+            {
+              "a_polygon": 1002,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.01648705080151558,
+                0.31583333015441895,
+                -0.006214855704456568
+              ]
+            },
+            {
+              "a_polygon": 1002,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.00873122550547123,
+                0.31583333015441895,
+                -0.01917574554681778
+              ]
+            },
+            {
+              "a_polygon": 1002,
+              "b_polygon": 1074,
+              "approx_local_position": [
+                -0.00540948985144496,
+                0.29666668176651,
+                -0.02203766256570816
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1069,
+              "approx_local_position": [
+                -0.026894763112068176,
+                0.3449999988079071,
+                0.03745250403881073
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1069,
+              "approx_local_position": [
+                -0.027882983908057213,
+                0.35499998927116394,
+                0.03412240371108055
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1072,
+              "approx_local_position": [
+                -0.011193846352398396,
+                0.3449999988079071,
+                0.04203847423195839
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1073,
+              "approx_local_position": [
+                -0.007800883613526821,
+                0.35499998927116394,
+                0.03766729682683945
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1070,
+              "approx_local_position": [
+                -0.02311667986214161,
+                0.35499998927116394,
+                0.040077872574329376
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1071,
+              "approx_local_position": [
+                -0.01823960244655609,
+                0.35499998927116394,
+                0.051152121275663376
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1071,
+              "approx_local_position": [
+                -0.01665148138999939,
+                0.3449999988079071,
+                0.05247536301612854
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1072,
+              "approx_local_position": [
+                -0.013189012184739113,
+                0.35499998927116394,
+                0.05069108307361603
+              ]
+            },
+            {
+              "a_polygon": 992,
+              "b_polygon": 1072,
+              "approx_local_position": [
+                -0.01099527720361948,
+                0.3449999988079071,
+                0.05092519149184227
+              ]
+            }
+          ]
+        },
+        "3_vs_6": {
+          "pair_count": 0,
+          "pairs_sample": []
+        },
+        "5_vs_6": {
+          "pair_count": 35,
+          "pairs_sample": [
+            {
+              "a_polygon": 1038,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.02307858318090439,
+                0.5051004886627197,
+                0.06633734703063965
+              ]
+            },
+            {
+              "a_polygon": 1038,
+              "b_polygon": 1082,
+              "approx_local_position": [
+                -0.02506989985704422,
+                0.49246108531951904,
+                0.06671637296676636
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.007159342058002949,
+                0.5049108266830444,
+                0.06812433153390884
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1083,
+              "approx_local_position": [
+                -0.007238461170345545,
+                0.4916461408138275,
+                0.06699258089065552
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.005842607468366623,
+                0.502922534942627,
+                0.06315722316503525
+              ]
+            },
+            {
+              "a_polygon": 1039,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.01073360349982977,
+                0.4949108362197876,
+                0.06683852523565292
+              ]
+            },
+            {
+              "a_polygon": 1039,
+              "b_polygon": 1083,
+              "approx_local_position": [
+                -0.010812722146511078,
+                0.4816461503505707,
+                0.0657067745923996
+              ]
+            },
+            {
+              "a_polygon": 1039,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.0182490274310112,
+                0.5051004886627197,
+                0.06919245421886444
+              ]
+            },
+            {
+              "a_polygon": 1039,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.01237339898943901,
+                0.5049108266830444,
+                0.06891543418169022
+              ]
+            },
+            {
+              "a_polygon": 1039,
+              "b_polygon": 1083,
+              "approx_local_position": [
+                -0.012452518567442894,
+                0.4916461408138275,
+                0.06778368353843689
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1084,
+              "approx_local_position": [
+                0.0006283756229095161,
+                0.4826962649822235,
+                0.06651134043931961
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1083,
+              "approx_local_position": [
+                -0.004984606988728046,
+                0.4816461503505707,
+                0.0636720359325409
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1084,
+              "approx_local_position": [
+                -0.0007674781372770667,
+                0.47141990065574646,
+                0.07034669816493988
+              ]
+            },
+            {
+              "a_polygon": 1040,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.0035887532867491245,
+                0.49292251467704773,
+                0.05983667075634003
+              ]
+            },
+            {
+              "a_polygon": 1038,
+              "b_polygon": 1089,
+              "approx_local_position": [
+                -0.021808449178934097,
+                0.4951005280017853,
+                0.06550589948892593
+              ]
+            },
+            {
+              "a_polygon": 1038,
+              "b_polygon": 1082,
+              "approx_local_position": [
+                -0.02379976399242878,
+                0.4824610948562622,
+                0.06588492542505264
+              ]
+            },
+            {
+              "a_polygon": 1038,
+              "b_polygon": 1083,
+              "approx_local_position": [
+                -0.019319990649819374,
+                0.4709950387477875,
+                0.06944326311349869
+              ]
+            },
+            {
+              "a_polygon": 1038,
+              "b_polygon": 1083,
+              "approx_local_position": [
+                -0.01601194031536579,
+                0.4816461503505707,
+                0.06409712880849838
+              ]
+            },
+            {
+              "a_polygon": 1032,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.015751324594020844,
+                0.49370577931404114,
+                -0.0634334608912468
+              ]
+            },
+            {
+              "a_polygon": 1032,
+              "b_polygon": 1103,
+              "approx_local_position": [
+                -0.015371669083833694,
+                0.4816778600215912,
+                -0.06543516367673874
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.008451510220766068,
+                0.5037057399749756,
+                -0.06396347284317017
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1102,
+              "approx_local_position": [
+                -0.000364339561201632,
+                0.49220162630081177,
+                -0.06754933297634125
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.0036698393523693085,
+                0.502922534942627,
+                -0.06215275079011917
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1103,
+              "approx_local_position": [
+                -0.004766354337334633,
+                0.4809569716453552,
+                -0.07136175781488419
+              ]
+            },
+            {
+              "a_polygon": 1033,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.018885519355535507,
+                0.5037057399749756,
+                -0.06406174600124359
+              ]
+            },
+            {
+              "a_polygon": 1033,
+              "b_polygon": 1097,
+              "approx_local_position": [
+                -0.02426609769463539,
+                0.49308204650878906,
+                -0.06940604001283646
+              ]
+            },
+            {
+              "a_polygon": 1033,
+              "b_polygon": 1103,
+              "approx_local_position": [
+                -0.018505863845348358,
+                0.491677850484848,
+                -0.06606344878673553
+              ]
+            },
+            {
+              "a_polygon": 1033,
+              "b_polygon": 1097,
+              "approx_local_position": [
+                -0.022792484611272812,
+                0.4816477298736572,
+                -0.07294144481420517
+              ]
+            },
+            {
+              "a_polygon": 1032,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.013978060334920883,
+                0.5037057399749756,
+                -0.0659569501876831
+              ]
+            },
+            {
+              "a_polygon": 1032,
+              "b_polygon": 1103,
+              "approx_local_position": [
+                -0.013598404824733734,
+                0.491677850484848,
+                -0.06795865297317505
+              ]
+            },
+            {
+              "a_polygon": 1032,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.011687404476106167,
+                0.5056560039520264,
+                -0.07095156610012054
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.01016819104552269,
+                0.49370577931404114,
+                -0.06288082897663116
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1103,
+              "approx_local_position": [
+                -0.009788533672690392,
+                0.4816778600215912,
+                -0.06488253176212311
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1103,
+              "approx_local_position": [
+                -0.006483034696429968,
+                0.4709569811820984,
+                -0.07027911394834518
+              ]
+            },
+            {
+              "a_polygon": 1031,
+              "b_polygon": 1104,
+              "approx_local_position": [
+                -0.007877534255385399,
+                0.49565601348876953,
+                -0.0678754597902298
+              ]
+            }
+          ]
+        }
+      },
+      "limit": "Shoulder/hip proxy overlap remains provisional; not animation-ready or final retopology."
+    },
+    "uv_trial_independent": {
+      "Hair_Main": {
+        "missing_uv": false,
+        "islands": 30,
+        "faces": 791,
+        "uv_loop_count": 2990,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.6187156201019054,
+        "positive_overlap_pair_count": 117,
+        "positive_overlap_pairs_sample": [
+          {
+            "face_a": 103,
+            "face_b": 465,
+            "area": 0.00023784855198136223
+          },
+          {
+            "face_a": 103,
+            "face_b": 465,
+            "area": 7.603657141735942e-05
+          },
+          {
+            "face_a": 156,
+            "face_b": 157,
+            "area": 1.0066658617802204e-10
+          },
+          {
+            "face_a": 157,
+            "face_b": 721,
+            "area": 1.149920852983044e-10
+          },
+          {
+            "face_a": 164,
+            "face_b": 489,
+            "area": 1.0217908463783232e-10
+          },
+          {
+            "face_a": 164,
+            "face_b": 716,
+            "area": 1.0234391112362573e-10
+          },
+          {
+            "face_a": 165,
+            "face_b": 489,
+            "area": 1.111053915536786e-09
+          },
+          {
+            "face_a": 165,
+            "face_b": 489,
+            "area": 3.599983713908905e-10
+          },
+          {
+            "face_a": 165,
+            "face_b": 716,
+            "area": 7.510555510847894e-10
+          },
+          {
+            "face_a": 165,
+            "face_b": 716,
+            "area": 1.111053915536786e-09
+          },
+          {
+            "face_a": 256,
+            "face_b": 510,
+            "area": 8.730435041570672e-09
+          },
+          {
+            "face_a": 256,
+            "face_b": 510,
+            "area": 8.176064270060124e-09
+          },
+          {
+            "face_a": 256,
+            "face_b": 512,
+            "area": 1.0157618586248418e-06
+          },
+          {
+            "face_a": 256,
+            "face_b": 512,
+            "area": 3.475670204977632e-07
+          },
+          {
+            "face_a": 256,
+            "face_b": 514,
+            "area": 4.020113308911277e-08
+          },
+          {
+            "face_a": 256,
+            "face_b": 514,
+            "area": 3.752792485101075e-08
+          },
+          {
+            "face_a": 365,
+            "face_b": 365,
+            "area": 6.394638063511593e-08
+          },
+          {
+            "face_a": 365,
+            "face_b": 366,
+            "area": 6.394638060736035e-08
+          },
+          {
+            "face_a": 365,
+            "face_b": 366,
+            "area": 7.062458529105697e-08
+          },
+          {
+            "face_a": 365,
+            "face_b": 375,
+            "area": 6.678204655941045e-09
+          },
+          {
+            "face_a": 366,
+            "face_b": 375,
+            "area": 1.9003807555373342e-08
+          },
+          {
+            "face_a": 366,
+            "face_b": 376,
+            "area": 1.2325602899432297e-08
+          },
+          {
+            "face_a": 375,
+            "face_b": 376,
+            "area": 3.666333608653982e-07
+          },
+          {
+            "face_a": 375,
+            "face_b": 376,
+            "area": 3.789589637648305e-07
+          },
+          {
+            "face_a": 376,
+            "face_b": 376,
+            "area": 3.666333608653982e-07
+          },
+          {
+            "face_a": 426,
+            "face_b": 700,
+            "area": 5.127818699379727e-07
+          },
+          {
+            "face_a": 426,
+            "face_b": 715,
+            "area": 8.13721329762096e-08
+          },
+          {
+            "face_a": 426,
+            "face_b": 700,
+            "area": 1.6314510411410965e-05
+          },
+          {
+            "face_a": 426,
+            "face_b": 715,
+            "area": 1.16236478220344e-08
+          },
+          {
+            "face_a": 431,
+            "face_b": 715,
+            "area": 2.7703082302030224e-05
+          },
+          {
+            "face_a": 431,
+            "face_b": 715,
+            "area": 4.054104258827129e-07
+          },
+          {
+            "face_a": 448,
+            "face_b": 452,
+            "area": 1.5165468880695698e-10
+          },
+          {
+            "face_a": 448,
+            "face_b": 457,
+            "area": 1.5165468880695698e-10
+          },
+          {
+            "face_a": 450,
+            "face_b": 453,
+            "area": 1.1153371632932618e-06
+          },
+          {
+            "face_a": 451,
+            "face_b": 452,
+            "area": 2.7826937282204867e-07
+          },
+          {
+            "face_a": 451,
+            "face_b": 452,
+            "area": 1.2877132766764277e-06
+          },
+          {
+            "face_a": 451,
+            "face_b": 453,
+            "area": 1.0930585341850652e-06
+          },
+          {
+            "face_a": 451,
+            "face_b": 453,
+            "area": 1.4201759882537246e-06
+          },
+          {
+            "face_a": 451,
+            "face_b": 452,
+            "area": 1.3217757661720952e-06
+          },
+          {
+            "face_a": 452,
+            "face_b": 455,
+            "area": 1.195775495288487e-08
+          },
+          {
+            "face_a": 452,
+            "face_b": 456,
+            "area": 3.204156939773384e-10
+          },
+          {
+            "face_a": 452,
+            "face_b": 456,
+            "area": 1.5085035443007655e-09
+          },
+          {
+            "face_a": 452,
+            "face_b": 457,
+            "area": 1.6064464758436259e-09
+          },
+          {
+            "face_a": 452,
+            "face_b": 457,
+            "area": 2.2039372937765478e-08
+          },
+          {
+            "face_a": 452,
+            "face_b": 458,
+            "area": 2.4559929201473096e-08
+          },
+          {
+            "face_a": 452,
+            "face_b": 458,
+            "area": 1.399014948333388e-08
+          },
+          {
+            "face_a": 452,
+            "face_b": 455,
+            "area": 5.146835062030952e-07
+          },
+          {
+            "face_a": 452,
+            "face_b": 455,
+            "area": 8.838896509155703e-08
+          },
+          {
+            "face_a": 453,
+            "face_b": 454,
+            "area": 3.5263858817469185e-06
+          },
+          {
+            "face_a": 453,
+            "face_b": 454,
+            "area": 1.3868269249428522e-05
+          },
+          {
+            "face_a": 453,
+            "face_b": 455,
+            "area": 1.5712258746858332e-06
+          },
+          {
+            "face_a": 453,
+            "face_b": 455,
+            "area": 1.2488039602409629e-08
+          },
+          {
+            "face_a": 453,
+            "face_b": 455,
+            "area": 3.086985833067324e-06
+          },
+          {
+            "face_a": 453,
+            "face_b": 455,
+            "area": 5.452640711167689e-08
+          },
+          {
+            "face_a": 456,
+            "face_b": 457,
+            "area": 3.204156939773384e-10
+          },
+          {
+            "face_a": 456,
+            "face_b": 457,
+            "area": 1.498534796251505e-09
+          },
+          {
+            "face_a": 457,
+            "face_b": 457,
+            "area": 1.6064465313547771e-09
+          },
+          {
+            "face_a": 457,
+            "face_b": 458,
+            "area": 3.3285466605192937e-09
+          },
+          {
+            "face_a": 458,
+            "face_b": 458,
+            "area": 1.0638559588826979e-08
+          },
+          {
+            "face_a": 489,
+            "face_b": 489,
+            "area": 7.5467392468553385e-06
+          },
+          {
+            "face_a": 489,
+            "face_b": 716,
+            "area": 1.9875556755977186e-08
+          },
+          {
+            "face_a": 489,
+            "face_b": 716,
+            "area": 4.142109773230818e-09
+          },
+          {
+            "face_a": 489,
+            "face_b": 718,
+            "area": 4.981478493593094e-10
+          },
+          {
+            "face_a": 489,
+            "face_b": 718,
+            "area": 3.007468371563071e-10
+          },
+          {
+            "face_a": 489,
+            "face_b": 719,
+            "area": 1.829768350725125e-10
+          },
+          {
+            "face_a": 489,
+            "face_b": 716,
+            "area": 2.2522286674542258e-09
+          },
+          {
+            "face_a": 489,
+            "face_b": 718,
+            "area": 4.981478493593094e-10
+          },
+          {
+            "face_a": 489,
+            "face_b": 718,
+            "area": 3.007468371563071e-10
+          },
+          {
+            "face_a": 489,
+            "face_b": 719,
+            "area": 1.829768350725125e-10
+          },
+          {
+            "face_a": 510,
+            "face_b": 510,
+            "area": 4.2038013348122405e-09
+          },
+          {
+            "face_a": 510,
+            "face_b": 512,
+            "area": 3.972262935247883e-09
+          },
+          {
+            "face_a": 512,
+            "face_b": 514,
+            "area": 4.020113308911277e-08
+          },
+          {
+            "face_a": 512,
+            "face_b": 514,
+            "area": 3.752792485101075e-08
+          },
+          {
+            "face_a": 538,
+            "face_b": 539,
+            "area": 1.2632388847466647e-07
+          },
+          {
+            "face_a": 539,
+            "face_b": 756,
+            "area": 4.995044031175233e-09
+          },
+          {
+            "face_a": 716,
+            "face_b": 716,
+            "area": 1.8898811127154858e-09
+          },
+          {
+            "face_a": 716,
+            "face_b": 718,
+            "area": 5.023403915060953e-10
+          },
+          {
+            "face_a": 716,
+            "face_b": 718,
+            "area": 3.5043123958189426e-10
+          },
+          {
+            "face_a": 716,
+            "face_b": 719,
+            "area": 1.8372459109627925e-10
+          },
+          {
+            "face_a": 720,
+            "face_b": 721,
+            "area": 2.3232995804978174e-09
+          },
+          {
+            "face_a": 720,
+            "face_b": 721,
+            "area": 6.949073504125547e-09
+          },
+          {
+            "face_a": 720,
+            "face_b": 721,
+            "area": 2.2940334354348835e-10
+          },
+          {
+            "face_a": 722,
+            "face_b": 731,
+            "area": 1.3000711618360583e-10
+          },
+          {
+            "face_a": 722,
+            "face_b": 731,
+            "area": 2.026250278674979e-09
+          },
+          {
+            "face_a": 723,
+            "face_b": 731,
+            "area": 1.9206414236805358e-10
+          },
+          {
+            "face_a": 723,
+            "face_b": 731,
+            "area": 2.031923074241604e-09
+          },
+          {
+            "face_a": 725,
+            "face_b": 731,
+            "area": 4.5592246422643257e-08
+          },
+          {
+            "face_a": 725,
+            "face_b": 729,
+            "area": 4.771798028657681e-07
+          },
+          {
+            "face_a": 725,
+            "face_b": 729,
+            "area": 4.874166234514199e-08
+          },
+          {
+            "face_a": 725,
+            "face_b": 731,
+            "area": 1.433710921650011e-07
+          },
+          {
+            "face_a": 726,
+            "face_b": 731,
+            "area": 5.1424187574866664e-08
+          },
+          {
+            "face_a": 726,
+            "face_b": 731,
+            "area": 8.251751655308226e-07
+          },
+          {
+            "face_a": 754,
+            "face_b": 757,
+            "area": 8.917240279515681e-10
+          },
+          {
+            "face_a": 754,
+            "face_b": 756,
+            "area": 5.410287037821426e-09
+          },
+          {
+            "face_a": 754,
+            "face_b": 757,
+            "area": 4.549181725765905e-10
+          },
+          {
+            "face_a": 755,
+            "face_b": 757,
+            "area": 4.744927117883435e-09
+          },
+          {
+            "face_a": 755,
+            "face_b": 757,
+            "area": 1.9850201482540797e-09
+          },
+          {
+            "face_a": 770,
+            "face_b": 778,
+            "area": 5.741633003764068e-07
+          },
+          {
+            "face_a": 770,
+            "face_b": 779,
+            "area": 1.1221368556579847e-08
+          },
+          {
+            "face_a": 770,
+            "face_b": 779,
+            "area": 6.331618951360696e-08
+          },
+          {
+            "face_a": 774,
+            "face_b": 777,
+            "area": 4.348944435683677e-07
+          },
+          {
+            "face_a": 774,
+            "face_b": 777,
+            "area": 1.4450335733551256e-08
+          },
+          {
+            "face_a": 777,
+            "face_b": 778,
+            "area": 9.034737158408745e-07
+          },
+          {
+            "face_a": 777,
+            "face_b": 780,
+            "area": 1.39107428119567e-05
+          },
+          {
+            "face_a": 777,
+            "face_b": 780,
+            "area": 3.717365372274406e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 782,
+            "area": 7.641896301868734e-08
+          },
+          {
+            "face_a": 777,
+            "face_b": 782,
+            "area": 2.7891801168689057e-07
+          },
+          {
+            "face_a": 777,
+            "face_b": 778,
+            "area": 1.2722613820792539e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 778,
+            "area": 2.5209711211893193e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 779,
+            "area": 2.9559578063054204e-08
+          },
+          {
+            "face_a": 777,
+            "face_b": 779,
+            "area": 4.632037421403723e-07
+          },
+          {
+            "face_a": 777,
+            "face_b": 780,
+            "area": 1.2522487020938389e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 780,
+            "area": 1.2115789113364972e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 782,
+            "area": 1.0715007855710557e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 782,
+            "area": 3.00882037826411e-06
+          },
+          {
+            "face_a": 777,
+            "face_b": 784,
+            "area": 2.2195395121826778e-07
+          },
+          {
+            "face_a": 777,
+            "face_b": 784,
+            "area": 1.2940701310526492e-07
+          }
+        ],
+        "spatial_hash_grid": "32x32"
+      },
+      "Robe_Outer_Inner_Rims": {
+        "missing_uv": false,
+        "islands": 16,
+        "faces": 2054,
+        "uv_loop_count": 6844,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.40150206112294506,
+        "positive_overlap_pair_count": 55,
+        "positive_overlap_pairs_sample": [
+          {
+            "face_a": 40,
+            "face_b": 368,
+            "area": 5.3468999394734595e-08
+          },
+          {
+            "face_a": 69,
+            "face_b": 639,
+            "area": 5.432102753721857e-08
+          },
+          {
+            "face_a": 340,
+            "face_b": 342,
+            "area": 2.9569153373182333e-05
+          },
+          {
+            "face_a": 341,
+            "face_b": 342,
+            "area": 1.2401323271959974e-05
+          },
+          {
+            "face_a": 341,
+            "face_b": 342,
+            "area": 4.805804859900342e-05
+          },
+          {
+            "face_a": 342,
+            "face_b": 368,
+            "area": 2.1742780120126426e-05
+          },
+          {
+            "face_a": 342,
+            "face_b": 368,
+            "area": 1.525851461645078e-05
+          },
+          {
+            "face_a": 346,
+            "face_b": 368,
+            "area": 6.21242299270186e-09
+          },
+          {
+            "face_a": 592,
+            "face_b": 604,
+            "area": 1.103607435866405e-05
+          },
+          {
+            "face_a": 592,
+            "face_b": 604,
+            "area": 8.363048147608243e-07
+          },
+          {
+            "face_a": 596,
+            "face_b": 598,
+            "area": 2.9391084247737398e-05
+          },
+          {
+            "face_a": 597,
+            "face_b": 598,
+            "area": 1.2389561449527298e-05
+          },
+          {
+            "face_a": 597,
+            "face_b": 598,
+            "area": 4.8281626721380366e-05
+          },
+          {
+            "face_a": 598,
+            "face_b": 639,
+            "area": 2.1858338137392685e-05
+          },
+          {
+            "face_a": 598,
+            "face_b": 639,
+            "area": 1.532710657314862e-05
+          },
+          {
+            "face_a": 603,
+            "face_b": 639,
+            "area": 6.333112034795363e-09
+          },
+          {
+            "face_a": 1256,
+            "face_b": 1260,
+            "area": 3.915148474864516e-06
+          },
+          {
+            "face_a": 1256,
+            "face_b": 1261,
+            "area": 1.758924707914722e-05
+          },
+          {
+            "face_a": 1256,
+            "face_b": 1293,
+            "area": 4.250509580736028e-05
+          },
+          {
+            "face_a": 1256,
+            "face_b": 1294,
+            "area": 1.9303472288081935e-05
+          },
+          {
+            "face_a": 1256,
+            "face_b": 1349,
+            "area": 3.3679667392205737e-06
+          },
+          {
+            "face_a": 1256,
+            "face_b": 1351,
+            "area": 1.1342321789772902e-06
+          },
+          {
+            "face_a": 1257,
+            "face_b": 1292,
+            "area": 2.6531755824399372e-05
+          },
+          {
+            "face_a": 1257,
+            "face_b": 1295,
+            "area": 4.951726990665151e-06
+          },
+          {
+            "face_a": 1257,
+            "face_b": 1348,
+            "area": 5.0467048586799734e-06
+          },
+          {
+            "face_a": 1292,
+            "face_b": 1348,
+            "area": 2.2597907473054235e-07
+          },
+          {
+            "face_a": 1292,
+            "face_b": 1350,
+            "area": 2.146681228665237e-06
+          },
+          {
+            "face_a": 1294,
+            "face_b": 1297,
+            "area": 1.2332686707319795e-05
+          },
+          {
+            "face_a": 1294,
+            "face_b": 1351,
+            "area": 6.7643403557429704e-06
+          },
+          {
+            "face_a": 1295,
+            "face_b": 1348,
+            "area": 3.785473439765763e-06
+          },
+          {
+            "face_a": 1295,
+            "face_b": 1350,
+            "area": 2.384091370766228e-06
+          },
+          {
+            "face_a": 1297,
+            "face_b": 1349,
+            "area": 1.5229549597109426e-05
+          },
+          {
+            "face_a": 1348,
+            "face_b": 1350,
+            "area": 3.110898964209241e-06
+          },
+          {
+            "face_a": 1349,
+            "face_b": 1351,
+            "area": 8.708769637953695e-06
+          },
+          {
+            "face_a": 1799,
+            "face_b": 1800,
+            "area": 1.6336242068461237e-05
+          },
+          {
+            "face_a": 1799,
+            "face_b": 1801,
+            "area": 1.253509664253527e-05
+          },
+          {
+            "face_a": 1799,
+            "face_b": 1802,
+            "area": 6.115151365830573e-06
+          },
+          {
+            "face_a": 1799,
+            "face_b": 1803,
+            "area": 4.637581161613669e-06
+          },
+          {
+            "face_a": 1804,
+            "face_b": 1890,
+            "area": 2.4633318351785505e-07
+          },
+          {
+            "face_a": 1804,
+            "face_b": 1893,
+            "area": 7.325953315651113e-07
+          },
+          {
+            "face_a": 1805,
+            "face_b": 1811,
+            "area": 7.935853142265747e-07
+          },
+          {
+            "face_a": 1806,
+            "face_b": 1809,
+            "area": 1.1193229350260625e-05
+          },
+          {
+            "face_a": 1806,
+            "face_b": 1811,
+            "area": 4.455653992076897e-05
+          },
+          {
+            "face_a": 1806,
+            "face_b": 1892,
+            "area": 6.9001077109484554e-06
+          },
+          {
+            "face_a": 1807,
+            "face_b": 1890,
+            "area": 3.48211123352149e-06
+          },
+          {
+            "face_a": 1807,
+            "face_b": 1893,
+            "area": 1.7380374917053132e-10
+          },
+          {
+            "face_a": 1809,
+            "face_b": 1891,
+            "area": 1.2782208644437909e-05
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1814,
+            "area": 7.648833621982931e-06
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1816,
+            "area": 1.6317467339564684e-05
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1817,
+            "area": 1.1213955694241995e-05
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1891,
+            "area": 1.2299344266490653e-05
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1892,
+            "area": 1.7443595624222485e-05
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1894,
+            "area": 8.232414299702562e-07
+          },
+          {
+            "face_a": 1811,
+            "face_b": 1895,
+            "area": 1.834447434442832e-07
+          },
+          {
+            "face_a": 1891,
+            "face_b": 1892,
+            "area": 8.2103220850685e-06
+          }
+        ],
+        "spatial_hash_grid": "32x32"
+      },
+      "Body_Base_Separate_From_Clothes": {
+        "missing_uv": false,
+        "islands": 47,
+        "faces": 1105,
+        "uv_loop_count": 4234,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.5585910791343977,
+        "positive_overlap_pair_count": 116,
+        "positive_overlap_pairs_sample": [
+          {
+            "face_a": 255,
+            "face_b": 255,
+            "area": 1.921485193179251e-10
+          },
+          {
+            "face_a": 255,
+            "face_b": 256,
+            "area": 2.0494353436539825e-10
+          },
+          {
+            "face_a": 255,
+            "face_b": 256,
+            "area": 1.8507870236383894e-10
+          },
+          {
+            "face_a": 265,
+            "face_b": 268,
+            "area": 5.429257043942926e-10
+          },
+          {
+            "face_a": 265,
+            "face_b": 268,
+            "area": 5.429257043942926e-10
+          },
+          {
+            "face_a": 268,
+            "face_b": 268,
+            "area": 5.774714040285289e-10
+          },
+          {
+            "face_a": 444,
+            "face_b": 447,
+            "area": 2.130751539375364e-07
+          },
+          {
+            "face_a": 444,
+            "face_b": 447,
+            "area": 2.130751539375364e-07
+          },
+          {
+            "face_a": 444,
+            "face_b": 447,
+            "area": 1.00260290347709e-09
+          },
+          {
+            "face_a": 444,
+            "face_b": 447,
+            "area": 1.00260290347709e-09
+          },
+          {
+            "face_a": 447,
+            "face_b": 447,
+            "area": 2.1831635166336127e-07
+          },
+          {
+            "face_a": 448,
+            "face_b": 448,
+            "area": 4.168251854785865e-10
+          },
+          {
+            "face_a": 448,
+            "face_b": 450,
+            "area": 4.20122492350572e-10
+          },
+          {
+            "face_a": 448,
+            "face_b": 450,
+            "area": 4.1431075237241544e-10
+          },
+          {
+            "face_a": 457,
+            "face_b": 476,
+            "area": 2.975934554338977e-09
+          },
+          {
+            "face_a": 457,
+            "face_b": 476,
+            "area": 2.975934554338977e-09
+          },
+          {
+            "face_a": 457,
+            "face_b": 476,
+            "area": 5.675941994187639e-09
+          },
+          {
+            "face_a": 457,
+            "face_b": 476,
+            "area": 5.675941994187639e-09
+          },
+          {
+            "face_a": 460,
+            "face_b": 474,
+            "area": 4.432023481548697e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 474,
+            "area": 4.432023481548697e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 476,
+            "area": 8.965095527058153e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 476,
+            "area": 8.965095527058153e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 474,
+            "area": 2.058578857377924e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 474,
+            "area": 2.058578857377924e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 476,
+            "area": 1.921179249020355e-08
+          },
+          {
+            "face_a": 460,
+            "face_b": 476,
+            "area": 1.921179249020355e-08
+          },
+          {
+            "face_a": 461,
+            "face_b": 476,
+            "area": 6.8597013624938086e-09
+          },
+          {
+            "face_a": 461,
+            "face_b": 476,
+            "area": 6.8597013624938086e-09
+          },
+          {
+            "face_a": 462,
+            "face_b": 474,
+            "area": 3.841800311210619e-08
+          },
+          {
+            "face_a": 462,
+            "face_b": 474,
+            "area": 3.841800311210619e-08
+          },
+          {
+            "face_a": 462,
+            "face_b": 476,
+            "area": 8.683169607337504e-06
+          },
+          {
+            "face_a": 462,
+            "face_b": 476,
+            "area": 8.683169607337504e-06
+          },
+          {
+            "face_a": 462,
+            "face_b": 476,
+            "area": 4.27258224952598e-06
+          },
+          {
+            "face_a": 462,
+            "face_b": 476,
+            "area": 4.27258224952598e-06
+          },
+          {
+            "face_a": 473,
+            "face_b": 474,
+            "area": 6.815321068609492e-08
+          },
+          {
+            "face_a": 473,
+            "face_b": 474,
+            "area": 6.815321068609492e-08
+          },
+          {
+            "face_a": 473,
+            "face_b": 474,
+            "area": 2.5132879999389957e-08
+          },
+          {
+            "face_a": 473,
+            "face_b": 474,
+            "area": 2.5132879999389957e-08
+          },
+          {
+            "face_a": 474,
+            "face_b": 474,
+            "area": 1.503553789916623e-05
+          },
+          {
+            "face_a": 474,
+            "face_b": 475,
+            "area": 3.463563080785548e-08
+          },
+          {
+            "face_a": 474,
+            "face_b": 475,
+            "area": 1.2292203960262427e-07
+          },
+          {
+            "face_a": 474,
+            "face_b": 476,
+            "area": 1.938649139554549e-07
+          },
+          {
+            "face_a": 474,
+            "face_b": 476,
+            "area": 1.4875235025413325e-05
+          },
+          {
+            "face_a": 474,
+            "face_b": 475,
+            "area": 3.463563080785548e-08
+          },
+          {
+            "face_a": 474,
+            "face_b": 475,
+            "area": 1.2292203960262427e-07
+          },
+          {
+            "face_a": 474,
+            "face_b": 476,
+            "area": 1.9386491401096606e-07
+          },
+          {
+            "face_a": 474,
+            "face_b": 476,
+            "area": 1.4875235025413325e-05
+          },
+          {
+            "face_a": 475,
+            "face_b": 476,
+            "area": 1.9442901177946226e-08
+          },
+          {
+            "face_a": 475,
+            "face_b": 476,
+            "area": 1.9442901177946226e-08
+          },
+          {
+            "face_a": 475,
+            "face_b": 476,
+            "area": 7.298915161157993e-08
+          },
+          {
+            "face_a": 475,
+            "face_b": 476,
+            "area": 7.298915161157993e-08
+          },
+          {
+            "face_a": 476,
+            "face_b": 476,
+            "area": 1.317255823529706e-05
+          },
+          {
+            "face_a": 501,
+            "face_b": 503,
+            "area": 2.8252345185553196e-09
+          },
+          {
+            "face_a": 501,
+            "face_b": 503,
+            "area": 2.8252345185553196e-09
+          },
+          {
+            "face_a": 503,
+            "face_b": 503,
+            "area": 7.426567272261764e-08
+          },
+          {
+            "face_a": 503,
+            "face_b": 506,
+            "area": 2.3822996353395354e-10
+          },
+          {
+            "face_a": 503,
+            "face_b": 507,
+            "area": 7.119634584662471e-08
+          },
+          {
+            "face_a": 503,
+            "face_b": 506,
+            "area": 2.3822999128952915e-10
+          },
+          {
+            "face_a": 503,
+            "face_b": 507,
+            "area": 7.119634584662471e-08
+          },
+          {
+            "face_a": 649,
+            "face_b": 653,
+            "area": 5.381650680646999e-10
+          },
+          {
+            "face_a": 649,
+            "face_b": 653,
+            "area": 5.381650680646999e-10
+          },
+          {
+            "face_a": 650,
+            "face_b": 650,
+            "area": 1.8664270129420402e-10
+          },
+          {
+            "face_a": 650,
+            "face_b": 655,
+            "area": 1.8156776082633996e-10
+          },
+          {
+            "face_a": 650,
+            "face_b": 655,
+            "area": 1.8156776082633996e-10
+          },
+          {
+            "face_a": 653,
+            "face_b": 653,
+            "area": 5.755165233267689e-10
+          },
+          {
+            "face_a": 826,
+            "face_b": 828,
+            "area": 9.242353241067924e-08
+          },
+          {
+            "face_a": 826,
+            "face_b": 828,
+            "area": 9.242353241067924e-08
+          },
+          {
+            "face_a": 828,
+            "face_b": 828,
+            "area": 1.3172515251236305e-05
+          },
+          {
+            "face_a": 828,
+            "face_b": 830,
+            "area": 1.0252744951644299e-07
+          },
+          {
+            "face_a": 828,
+            "face_b": 830,
+            "area": 6.3575522415981744e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 831,
+            "area": 4.06780133535567e-08
+          },
+          {
+            "face_a": 828,
+            "face_b": 831,
+            "area": 1.2996345030533152e-05
+          },
+          {
+            "face_a": 828,
+            "face_b": 857,
+            "area": 2.981342450691926e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 857,
+            "area": 5.68584974242059e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 859,
+            "area": 1.1349590017806221e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 859,
+            "area": 8.007466710535649e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 830,
+            "area": 1.0252744951644299e-07
+          },
+          {
+            "face_a": 828,
+            "face_b": 830,
+            "area": 6.3575522415981744e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 831,
+            "area": 4.06780133535567e-08
+          },
+          {
+            "face_a": 828,
+            "face_b": 831,
+            "area": 1.2996345030533152e-05
+          },
+          {
+            "face_a": 828,
+            "face_b": 857,
+            "area": 2.981342450691926e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 857,
+            "area": 5.685849735481696e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 859,
+            "area": 1.134959008719516e-09
+          },
+          {
+            "face_a": 828,
+            "face_b": 859,
+            "area": 8.007466710535649e-09
+          },
+          {
+            "face_a": 830,
+            "face_b": 831,
+            "area": 2.516188818413312e-08
+          },
+          {
+            "face_a": 830,
+            "face_b": 831,
+            "area": 2.516188818413312e-08
+          },
+          {
+            "face_a": 830,
+            "face_b": 831,
+            "area": 1.8987988403829092e-09
+          },
+          {
+            "face_a": 830,
+            "face_b": 831,
+            "area": 1.8987988403829092e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 831,
+            "area": 3.895660701358494e-06
+          },
+          {
+            "face_a": 831,
+            "face_b": 857,
+            "area": 1.551209216632543e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 857,
+            "area": 6.675085081897514e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 859,
+            "area": 2.0871984696135826e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 859,
+            "area": 3.862460918508531e-06
+          },
+          {
+            "face_a": 831,
+            "face_b": 857,
+            "area": 1.551209216632543e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 857,
+            "area": 6.67508507495862e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 859,
+            "area": 2.0871984626746887e-09
+          },
+          {
+            "face_a": 831,
+            "face_b": 859,
+            "area": 3.862460918501592e-06
+          },
+          {
+            "face_a": 849,
+            "face_b": 849,
+            "area": 4.2189520627067267e-10
+          },
+          {
+            "face_a": 849,
+            "face_b": 852,
+            "area": 4.25278527671491e-10
+          },
+          {
+            "face_a": 849,
+            "face_b": 852,
+            "area": 4.193181843414884e-10
+          },
+          {
+            "face_a": 856,
+            "face_b": 859,
+            "area": 5.824178445079653e-09
+          },
+          {
+            "face_a": 856,
+            "face_b": 859,
+            "area": 5.824178445079653e-09
+          },
+          {
+            "face_a": 857,
+            "face_b": 859,
+            "area": 1.7475005643918795e-08
+          },
+          {
+            "face_a": 857,
+            "face_b": 859,
+            "area": 1.7475005643918795e-08
+          },
+          {
+            "face_a": 858,
+            "face_b": 859,
+            "area": 2.9920026047430825e-06
+          },
+          {
+            "face_a": 858,
+            "face_b": 859,
+            "area": 2.9920026047430825e-06
+          },
+          {
+            "face_a": 859,
+            "face_b": 859,
+            "area": 3.01530178883902e-06
+          },
+          {
+            "face_a": 882,
+            "face_b": 888,
+            "area": 3.2416040407490243e-09
+          },
+          {
+            "face_a": 882,
+            "face_b": 888,
+            "area": 3.2416040407490243e-09
+          },
+          {
+            "face_a": 888,
+            "face_b": 888,
+            "area": 8.591465316953872e-08
+          },
+          {
+            "face_a": 888,
+            "face_b": 895,
+            "area": 2.4021706845900326e-10
+          },
+          {
+            "face_a": 888,
+            "face_b": 898,
+            "area": 4.1819397944564685e-10
+          },
+          {
+            "face_a": 888,
+            "face_b": 898,
+            "area": 8.19394317397304e-08
+          },
+          {
+            "face_a": 888,
+            "face_b": 895,
+            "area": 2.402171239701545e-10
+          },
+          {
+            "face_a": 888,
+            "face_b": 898,
+            "area": 4.1819397944564685e-10
+          },
+          {
+            "face_a": 888,
+            "face_b": 898,
+            "area": 8.19394317397304e-08
+          }
+        ],
+        "spatial_hash_grid": "32x32"
+      },
+      "Preserved_Unclassified_Source_Details": {
+        "missing_uv": false,
+        "islands": 46,
+        "faces": 90,
+        "uv_loop_count": 322,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.4671727757159498,
+        "positive_overlap_pair_count": 0,
+        "positive_overlap_pairs_sample": [],
+        "spatial_hash_grid": "32x32"
+      }
+    }
+  },
+  "artifact_sha256": {
+    "v2_blend": "9f5fd46d630c318108ebbe16dcc46aef9a837234f51ac4685f1e0f8390b80105",
+    "raw_source_obj": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6",
+    "v3_blend": "453dd558b0cb07b78840490581b28fca03e661bec709d8809cba8a192085a449",
+    "v3_glb": "2f2a71c26c31a4bba9bf0e67aeee862a19bebdbef724f291dfe78e45fb944042"
+  },
+  "test_scope": {
+    "file_side": "hashes, saved blend/GLB readback, source retention, topology, BVH collision, exact UV triangle overlap.",
+    "runtime_not_tested": "No rigging, animation, Godot import/runtime, final texture painting, or game camera acceptance.",
+    "visual_not_yet_scored": "Five matched QA captures and technical cuff/underhem/checker images require separate image review after capture freeze."
+  }
+}

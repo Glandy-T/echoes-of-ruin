@@ -1,0 +1,37 @@
+{
+  "colors": {
+    "gray": "current v2 context",
+    "orange": "hem cap candidate",
+    "cyan": "component3 cuff candidate",
+    "yellow": "component20 cuff candidate",
+    "purple": "collar-adjacent faces"
+  },
+  "renders": [
+    {
+      "view": "front",
+      "file": "garment_caps_front.png",
+      "sha256": "6ffde0604c97e948238732715fbca667f56dc10213dd51336964332d36a1eea5"
+    },
+    {
+      "view": "side",
+      "file": "garment_caps_side.png",
+      "sha256": "3ae3a90f6e0942e00b31fc35ce4aa93b3b9ef29f5319014a9fd555615c7e5577"
+    },
+    {
+      "view": "quarter",
+      "file": "garment_caps_quarter.png",
+      "sha256": "e4397e89ad3d61966b87e91722946e870b2de9242a556824d5789a43c7061fa7"
+    },
+    {
+      "view": "head_back",
+      "file": "garment_caps_head_back.png",
+      "sha256": "7416345488b8259dce2190adb839ca8515ad790a1ee8b8a81df871edae24c928"
+    },
+    {
+      "view": "underside",
+      "file": "garment_caps_underside.png",
+      "sha256": "69706dd212e9f262731f07cb64946c3b29f45cfa971ed191c15a9250251f26eb"
+    }
+  ],
+  "boundary": "Selection overlay only; it does not claim cap faces have been deleted or openings made."
+}

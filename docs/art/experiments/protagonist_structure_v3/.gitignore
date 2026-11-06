@@ -1,0 +1,5 @@
+*.log
+*.blend1
+__pycache__/
+
+source/scratch_uv/

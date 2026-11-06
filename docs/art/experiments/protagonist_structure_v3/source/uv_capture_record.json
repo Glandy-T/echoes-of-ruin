@@ -1,0 +1,70 @@
+{
+  "captures": [
+    {
+      "file": "structure_uv_checker_front.png",
+      "camera": "QA_front",
+      "sha256": "ce5390e8592590130e371aa55ffe38afe47c821761810f3cf37819d88f0d52ab",
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "structure_uv_checker_back.png",
+      "camera": "QA_back",
+      "sha256": "582b3f9db749ba391a183d70a5c07f3f5de427dd7860f6348d72190e65ed24d4",
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "structure_uv_checker_quarter.png",
+      "camera": "QA_quarter",
+      "sha256": "9d487e809b6018c52a9f69aea61355661c1c7a9b88359f15a84ebde82ba77556",
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "body_base_separate_front.png",
+      "camera": "QA_front",
+      "sha256": "e20bfca6b1f451e7fe769a1c87416dbefd15c27d3192ee55ee843f42a91e8c71",
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "body_base_separate_side.png",
+      "camera": "QA_side",
+      "sha256": "5532b2ffbacaa3634caa561705d51b572f8e1d7d86709fa6c63b39ef10857b79",
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "robe_separate_front.png",
+      "camera": "QA_front",
+      "sha256": "3cb8f2233ef154e052d3c811d5c90d47648a37c93be8c06ca1068a4f8f863ae6",
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "robe_separate_back.png",
+      "camera": "QA_back",
+      "sha256": "68a6aaeeff20b7fac39cc57eb1807aa0f296d77ca88538c7576fd435bea7d539",
+      "resolution": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "checker_vector_source": "ShaderNodeUVMap(UV_Trial) -> ShaderNodeTexChecker.Vector; NOT generated coordinates.",
+  "meaning": "Calibration of each separate part tile only; no final pixel-art or density approval.",
+  "model_modified_or_saved": false
+}

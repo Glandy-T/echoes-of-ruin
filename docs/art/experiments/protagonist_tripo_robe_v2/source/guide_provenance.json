@@ -1,0 +1,71 @@
+{
+  "source_model": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_structure_v3\\model\\protagonist_structure_v3.blend",
+  "source_sha256": "453dd558b0cb07b78840490581b28fca03e661bec709d8809cba8a192085a449",
+  "included_object": "Robe_Outer_Inner_Rims",
+  "excluded": "All body, hands, feet, hair and other details; no PixelCanals imagery.",
+  "meaning": "Own gray model rendering for 3D silhouette guidance only; source v3 is not a final topology/UV asset.",
+  "guides": [
+    {
+      "view": "front",
+      "file": "guide_front.png",
+      "sha256": "aad43e96d529eec8e90b5dc145ff3610974e88a0ab045af174ffcb0f74f651d2",
+      "camera_world_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          2.9873046875
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          5.960464477539063e-08
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.33837890625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "back",
+      "file": "guide_back.png",
+      "sha256": "98420563851bc01eaa612cdf341b28da386f9c2b4b30b16f66563e9e3b979fa8",
+      "camera_world_matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -3.0126953125
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          5.960464477539063e-08
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.33837890625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

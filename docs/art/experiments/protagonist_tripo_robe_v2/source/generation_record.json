@@ -1,0 +1,48 @@
+{
+  "status": "SILHOUETTE_CANDIDATE_ONLY_STATIC_TOPOLOGY_FAILED",
+  "model_id": "3c2082da-675c-4fce-90ef-260b44962aa2",
+  "url": "https://studio.tripo3d.com/workspace/generate/3c2082da-675c-4fce-90ef-260b44962aa2",
+  "service": "Tripo China Studio",
+  "model": "P2.0 SmartMesh",
+  "mode": "front/back multi-view",
+  "prompt": null,
+  "input": "Project-owned robe-only gray renders; see guide_provenance.json. No Pixel Canals data uploaded.",
+  "privacy": "Private",
+  "count": 1,
+  "topology": "Quad",
+  "target_faces": 2000,
+  "web_faces": 2167,
+  "web_vertices": 2020,
+  "displayed_cost": 100,
+  "credits_before": 3090,
+  "credits_after_generation": 2935,
+  "billing_limit": "Account delta 155 is not verified per-job billing; other account work was visible concurrently.",
+  "submitted_generations": 1,
+  "local_retries_submitted": 0,
+  "art_approved": false,
+  "rigged": false,
+  "raw_files": [
+    {
+      "file": "protagonist_tripo_robe_v2_raw.glb",
+      "bytes": 98668,
+      "sha256": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7"
+    },
+    {
+      "file": "protagonist_tripo_robe_v2_raw.mtl",
+      "bytes": 263,
+      "sha256": "c19b6a8f9f92fc4fa5f8769b3f6d25235439b53611cb61922bda5f6adb20040c"
+    },
+    {
+      "file": "protagonist_tripo_robe_v2_raw.obj",
+      "bytes": 257476,
+      "sha256": "daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09"
+    },
+    {
+      "file": "protagonist_tripo_robe_v2_raw.zip",
+      "bytes": 78674,
+      "sha256": "a2c600504f1ab8a4a9b8da5170045d0abc5460c202e78f91d0fb0492510b5769"
+    }
+  ],
+  "static_qa": "source/robe_topology_check.json",
+  "binding_ready": false
+}

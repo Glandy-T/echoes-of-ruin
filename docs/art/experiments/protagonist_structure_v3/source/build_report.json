@@ -1,0 +1,317 @@
+{
+  "baseline": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_cn_cleanup_v2\\model\\protagonist_cn_cleanup_v2.blend",
+  "baseline_sha256": "9f5fd46d630c318108ebbe16dcc46aef9a837234f51ac4685f1e0f8390b80105",
+  "removed_cap_raw_face_ids": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    62,
+    63,
+    64,
+    66,
+    297,
+    298,
+    299,
+    300,
+    301,
+    318,
+    319,
+    362,
+    364,
+    369,
+    370,
+    582,
+    671,
+    701,
+    704,
+    705,
+    1198,
+    1205,
+    1259,
+    1262,
+    1829,
+    1884,
+    2018,
+    2119,
+    2120,
+    2372,
+    2379,
+    2876,
+    2879
+  ],
+  "restored_noncap_raw_faces": [
+    68,
+    372
+  ],
+  "rear_hole_repair_coordinates": [
+    [
+      [
+        0.01879882998764515,
+        0.39892578125,
+        -0.06713870167732239
+      ],
+      [
+        -0.004150390159338713,
+        0.400390625,
+        -0.06811525672674179
+      ],
+      [
+        -0.0222168006002903,
+        0.40234375,
+        -0.06274417042732239
+      ],
+      [
+        -0.004150390159338713,
+        0.400390625,
+        -0.06762698292732239
+      ]
+    ]
+  ],
+  "cloth_opening_rings_before_inner_shell": [
+    {
+      "vertices": 32,
+      "center_local": [
+        0.0089111328125,
+        0.104827880859375,
+        -1.527223503217101e-05
+      ]
+    },
+    {
+      "vertices": 10,
+      "center_local": [
+        -0.00605468824505806,
+        0.367919921875,
+        0.13461913168430328
+      ]
+    },
+    {
+      "vertices": 10,
+      "center_local": [
+        -0.006005859933793545,
+        0.367919921875,
+        -0.13466797769069672
+      ]
+    },
+    {
+      "vertices": 18,
+      "center_local": [
+        -0.007378472946584225,
+        0.5691189169883728,
+        -2.716719791351352e-05
+      ]
+    }
+  ],
+  "cloth_thickness_raw_units": 0.0007,
+  "cloth_outer_faces": 686,
+  "cloth_inner_faces": 1298,
+  "cloth_rim_faces": 70,
+  "covered_leg_extensions": [
+    {
+      "source_component": 0,
+      "source_ankle_ring": [
+        988,
+        989,
+        1317,
+        1318,
+        1323,
+        1324,
+        1332,
+        991
+      ],
+      "levels_local_y": [
+        0.235,
+        0.35
+      ]
+    },
+    {
+      "source_component": 19,
+      "source_ankle_ring": [
+        1858,
+        1859,
+        2167,
+        2168,
+        2170,
+        2185,
+        2183,
+        1861
+      ],
+      "levels_local_y": [
+        0.235,
+        0.35
+      ]
+    }
+  ],
+  "wardrobe_body_base": {
+    "head_neck_ring": [
+      1135,
+      1136,
+      1144,
+      2014,
+      2018,
+      2021,
+      2026,
+      2400,
+      2402,
+      2401,
+      1673,
+      1634,
+      1629,
+      1627,
+      1139,
+      1137
+    ],
+    "new_neutral_torso": true,
+    "forearms_connected_to_existing_wrist_rings": true,
+    "future_retopology": "Shoulder and hip proxy joins still overlap; not animation-ready or a finalized unclothed body design."
+  },
+  "parts": [
+    {
+      "name": "Hair_Main",
+      "vertices": 771,
+      "faces": 791
+    },
+    {
+      "name": "Robe_Outer_Inner_Rims",
+      "vertices": 1364,
+      "faces": 2054
+    },
+    {
+      "name": "Body_Base_Separate_From_Clothes",
+      "vertices": 1024,
+      "faces": 1105
+    },
+    {
+      "name": "Preserved_Unclassified_Source_Details",
+      "vertices": 156,
+      "faces": 90
+    }
+  ],
+  "source_unclassified_details_preserved": 90,
+  "source_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      7.549790126404332e-08,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      7.549790126404332e-08,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "scope": "Static clothing structure and UV trial; no rigging, final pixel art, final texel-density or game integration approval.",
+  "uv_trial": {
+    "status": "Editable seam-based calibration; not final painting UV or a shared atlas. Shoulder/hip body joins and source hair topology still need deformation cleanup.",
+    "method": "Structural front/back and surface-role seams with angle-based unwrap; only preserved unclassified fragments use automatic projection. Original corner normals restored after edit-mode operation.",
+    "parts": {
+      "Hair_Main": {
+        "islands": 30,
+        "faces": 791,
+        "uv_loop_count": 2990,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.6187156201019054,
+        "uv_space": "Independent per-part unit tile; tiles are not a shared atlas and have no final texel density.",
+        "layout": "uv_trial/Hair_Main.svg",
+        "marked_seam_edges": 223,
+        "locally_reprojected_collapsed_faces": [
+          161,
+          162,
+          163,
+          436,
+          437,
+          439,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          667,
+          668,
+          672,
+          673,
+          702,
+          703,
+          705,
+          706,
+          709,
+          712
+        ]
+      },
+      "Robe_Outer_Inner_Rims": {
+        "islands": 16,
+        "faces": 2054,
+        "uv_loop_count": 6844,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.40150206112294506,
+        "uv_space": "Independent per-part unit tile; tiles are not a shared atlas and have no final texel density.",
+        "layout": "uv_trial/Robe_Outer_Inner_Rims.svg",
+        "marked_seam_edges": 352,
+        "locally_reprojected_collapsed_faces": []
+      },
+      "Body_Base_Separate_From_Clothes": {
+        "islands": 47,
+        "faces": 1105,
+        "uv_loop_count": 4234,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.5585910791343977,
+        "uv_space": "Independent per-part unit tile; tiles are not a shared atlas and have no final texel density.",
+        "layout": "uv_trial/Body_Base_Separate_From_Clothes.svg",
+        "marked_seam_edges": 286,
+        "locally_reprojected_collapsed_faces": [
+          17,
+          18,
+          19,
+          88,
+          89,
+          90,
+          128,
+          129,
+          130,
+          189,
+          190,
+          191,
+          264,
+          269,
+          502,
+          645,
+          647,
+          648
+        ]
+      },
+      "Preserved_Unclassified_Source_Details": {
+        "islands": 46,
+        "faces": 90,
+        "uv_loop_count": 322,
+        "outside_unit_square": 0,
+        "zero_area_triangle_parent_faces": [],
+        "sum_triangle_uv_area": 0.46717277571594984,
+        "uv_space": "Independent per-part unit tile; tiles are not a shared atlas and have no final texel density.",
+        "layout": "uv_trial/Preserved_Unclassified_Source_Details.svg",
+        "marked_seam_edges": 0,
+        "locally_reprojected_collapsed_faces": []
+      }
+    }
+  }
+}

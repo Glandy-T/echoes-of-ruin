@@ -1,0 +1,506 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主角分件候选 · 身体与白袍</title>
+<style>body{max-width:1600px;margin:32px auto;padding:0 24px;background:#142023;color:#e0e6df;font:17px/1.65 system-ui}h1{font-size:29px}h2{font-size:21px}a{color:#b9d9d7}p{max-width:1150px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}img{width:100%;display:block;background:#293536}figcaption{padding:8px 0}.notice{padding:16px 20px;border:1px solid #859c96;background:#223237}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px}@media(max-width:800px){.pair{grid-template-columns:1fr}}</style>
+<h1>主角分件候选：身体 v1＋白袍 v2</h1>
+<p>2026-11-06 · Tripo 国内版 P2.0 · 独立网格，为换装与共享骨架准备。四组图均为 Blender 原始导入，1280×720。每件各自居中构图，<strong>不代表两者已对齐、试穿或同尺度</strong>。</p>
+<p class="notice">当前门槛：审看外形→处理静态问题→统一身高与休止姿势→试穿→共享骨架与抬臂／弯肘／行走测试→最终UV和PixelLab贴图。当前没有骨架、权重、最终UV、贴图或游戏替换。身体脚趾局部28对相交必须先简化；白袍272对相交、2条非流形边，须重新整理腋下与内外层拓扑，不能直接绑骨。</p>
+<p><a href="README.md">当前说明</a> · <a href="model/protagonist_robe_v2_inspection.blend">白袍 Blender</a> · <a href="../protagonist_tripo_body_v1/model/protagonist_body_v1_inspection.blend">身体 Blender</a> · <a href="source/generation_record.json">生成记录</a> · <a href="source/mesh_audit.json">导入统计</a></p>
+<section><h2>正面</h2><div class="pair"><figure><img src="../protagonist_tripo_body_v1/evidence/blender_front.png"><figcaption>身体 v1 · 原始导入</figcaption></figure><figure><img src="evidence/blender_front.png"><figcaption>白袍 v2 · 外形参考，结构未通过</figcaption></figure></div></section><section><h2>侧面</h2><div class="pair"><figure><img src="../protagonist_tripo_body_v1/evidence/blender_side.png"><figcaption>身体 v1 · 原始导入</figcaption></figure><figure><img src="evidence/blender_side.png"><figcaption>白袍 v2 · 外形参考，结构未通过</figcaption></figure></div></section><section><h2>背面</h2><div class="pair"><figure><img src="../protagonist_tripo_body_v1/evidence/blender_back.png"><figcaption>身体 v1 · 原始导入</figcaption></figure><figure><img src="evidence/blender_back.png"><figcaption>白袍 v2 · 外形参考，结构未通过</figcaption></figure></div></section><section><h2>斜视</h2><div class="pair"><figure><img src="../protagonist_tripo_body_v1/evidence/blender_quarter.png"><figcaption>身体 v1 · 原始导入</figcaption></figure><figure><img src="evidence/blender_quarter.png"><figcaption>白袍 v2 · 外形参考，结构未通过</figcaption></figure></div></section><h2>白袍生成结果实拍</h2><p>用项目自有仅衣服灰模正反面引导；未上传Pixel Canals内容。文字第一稿附带手脚已拒绝，本稿无附带人形。画面上的网格不是变形或动画验收。</p><figure style="max-width:650px"><img src="evidence/tripo_robe_front.png"><figcaption>Tripo网页生成结果</figcaption></figure><h2>白袍独立静态检查：未通过</h2><figure><img src="evidence/independent_underhem_opening.png"><figcaption>下摆开口技术图；开口成立不等于整件拓扑通过。</figcaption></figure><p><a href="source/robe_topology_check.json">完整QA记录</a> · <a href="../protagonist_tripo_body_v1/source/body_topology_check.json">身体QA</a></p><pre>{
+  &quot;status&quot;: &quot;FAIL_STATIC_ROBE_CANDIDATE&quot;,
+  &quot;checks&quot;: {
+    &quot;raw_glb_hash_unchanged&quot;: true,
+    &quot;raw_obj_hash_unchanged&quot;: true,
+    &quot;one_glb_mesh&quot;: true,
+    &quot;glb_single_connected_mesh&quot;: true,
+    &quot;no_degenerate_faces&quot;: true,
+    &quot;no_nonmanifold_edges&quot;: false,
+    &quot;openings_have_uncapped_centerline_evidence&quot;: true,
+    &quot;no_true_nonadjacent_self_intersections&quot;: false,
+    &quot;raw_and_inspection_files_unchanged_during_readback&quot;: true
+  },
+  &quot;failed_checks&quot;: [
+    &quot;no_nonmanifold_edges&quot;,
+    &quot;no_true_nonadjacent_self_intersections&quot;
+  ],
+  &quot;artifact_sha256_before&quot;: {
+    &quot;glb&quot;: &quot;f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7&quot;,
+    &quot;obj&quot;: &quot;daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09&quot;,
+    &quot;inspection_blend&quot;: &quot;3c898025b109c14dc093bc666de62f1f7ce7cc6d8d9c4b023fdf9a9854ba35cd&quot;
+  },
+  &quot;artifact_sha256_after&quot;: {
+    &quot;glb&quot;: &quot;f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7&quot;,
+    &quot;obj&quot;: &quot;daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09&quot;,
+    &quot;inspection_blend&quot;: &quot;3c898025b109c14dc093bc666de62f1f7ce7cc6d8d9c4b023fdf9a9854ba35cd&quot;
+  },
+  &quot;topology&quot;: {
+    &quot;vertices&quot;: 2020,
+    &quot;triangles&quot;: 4049,
+    &quot;connected_components&quot;: 1,
+    &quot;component_vertex_counts_descending&quot;: [
+      2020
+    ],
+    &quot;boundary_edges&quot;: 23,
+    &quot;nonmanifold_edges&quot;: 2,
+    &quot;degenerate_faces&quot;: 0,
+    &quot;uv_layers&quot;: 0,
+    &quot;vertex_groups&quot;: 0,
+    &quot;shape_keys&quot;: false,
+    &quot;armature_modifiers&quot;: 0
+  },
+  &quot;boundary_components&quot;: [
+    {
+      &quot;vertices&quot;: 10,
+      &quot;edges&quot;: 9,
+      &quot;closed_simple_ring&quot;: false,
+      &quot;center&quot;: [
+        -0.05810546875,
+        -0.12270507961511612,
+        0.618115246295929
+      ],
+      &quot;bounds&quot;: {
+        &quot;min&quot;: [
+          -0.125244140625,
+          -0.141357421875,
+          0.61474609375
+        ],
+        &quot;max&quot;: [
+          0.006591796875,
+          -0.0749511644244194,
+          0.62109375
+        ]
+      },
+      &quot;vertex_ids&quot;: [
+        75,
+        76,
+        80,
+        81,
+        195,
+        196,
+        198,
+        200,
+        204,
+        769
+      ]
+    },
+    {
+      &quot;vertices&quot;: 9,
+      &quot;edges&quot;: 9,
+      &quot;closed_simple_ring&quot;: true,
+      &quot;center&quot;: [
+        -0.0506456159055233,
+        0.1280110627412796,
+        0.6182183027267456
+      ],
+      &quot;bounds&quot;: {
+        &quot;min&quot;: [
+          -0.108642578125,
+          0.1052246168255806,
+          0.61474609375
+        ],
+        &quot;max&quot;: [
+          0.006591796875,
+          0.141357421875,
+          0.62109375
+        ]
+      },
+      &quot;vertex_ids&quot;: [
+        320,
+        321,
+        322,
+        327,
+        421,
+        422,
+        423,
+        427,
+        1502
+      ]
+    },
+    {
+      &quot;vertices&quot;: 3,
+      &quot;edges&quot;: 3,
+      &quot;closed_simple_ring&quot;: true,
+      &quot;center&quot;: [
+        -0.081787109375,
+        0.132405623793602,
+        0.8255208730697632
+      ],
+      &quot;bounds&quot;: {
+        &quot;min&quot;: [
+          -0.093994140625,
+          0.1291504055261612,
+          0.81298828125
+        ],
+        &quot;max&quot;: [
+          -0.067138671875,
+          0.1354980617761612,
+          0.84521484375
+        ]
+      },
+      &quot;vertex_ids&quot;: [
+        435,
+        438,
+        1984
+      ]
+    },
+    {
+      &quot;vertices&quot;: 3,
+      &quot;edges&quot;: 2,
+      &quot;closed_simple_ring&quot;: false,
+      &quot;center&quot;: [
+        -0.078369140625,
+        -0.1320800632238388,
+        0.81640625
+      ],
+      &quot;bounds&quot;: {
+        &quot;min&quot;: [
+          -0.084228515625,
+          -0.1345214694738388,
+          0.81298828125
+        ],
+        &quot;max&quot;: [
+          -0.067138671875,
+          -0.1291503757238388,
+          0.818359375
+        ]
+      },
+      &quot;vertex_ids&quot;: [
+        219,
+        222,
+        224
+      ]
+    }
+  ],
+  &quot;nonmanifold_edges&quot;: [
+    {
+      &quot;edge&quot;: [
+        198,
+        204
+      ],
+      &quot;face_count&quot;: 3,
+      &quot;faces&quot;: [
+        121,
+        122,
+        123
+      ],
+      &quot;midpoint&quot;: [
+        -0.114501953125,
+        -0.0900878831744194,
+        0.61767578125
+      ]
+    },
+    {
+      &quot;edge&quot;: [
+        222,
+        224
+      ],
+      &quot;face_count&quot;: 3,
+      &quot;faces&quot;: [
+        137,
+        138,
+        1930
+      ],
+      &quot;midpoint&quot;: [
+        -0.075439453125,
+        -0.1335449069738388,
+        0.8154296875
+      ]
+    }
+  ],
+  &quot;opening_ray_probes&quot;: {
+    &quot;neck&quot;: {
+      &quot;rays&quot;: [
+        {
+          &quot;origin&quot;: [
+            -0.018,
+            -0.018,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            -0.018,
+            0.0,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            -0.018,
+            0.018,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.0,
+            -0.018,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.0,
+            0.0,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.0,
+            0.018,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.018,
+            -0.018,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.018,
+            0.0,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.018,
+            0.018,
+            1.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        }
+      ],
+      &quot;uncapped_centerline_rays&quot;: 9,
+      &quot;immediate_cap_hits_under_002&quot;: 0
+    },
+    &quot;hem&quot;: {
+      &quot;rays&quot;: [
+        {
+          &quot;origin&quot;: [
+            -0.05,
+            -0.05,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            -0.05,
+            0.0,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            -0.05,
+            0.05,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.0,
+            -0.05,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.0,
+            0.0,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.0,
+            0.05,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.05,
+            -0.05,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.05,
+            0.0,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            0.05,
+            0.05,
+            -0.04
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            0.0,
+            1.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        }
+      ],
+      &quot;uncapped_centerline_rays&quot;: 9,
+      &quot;immediate_cap_hits_under_002&quot;: 0
+    },
+    &quot;cuff_negative_y&quot;: {
+      &quot;rays&quot;: [
+        {
+          &quot;origin&quot;: [
+            -0.018,
+            -0.36,
+            0.46
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            1.0,
+            0.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            -0.018,
+            -0.36,
+            0.5
+          ],
+          &quot;direction&quot;: [
+            0.0,
+            1.0,
+            0.0
+          ],
+          &quot;first_hit_distance&quot;: null,
+          &quot;first_hit_polygon&quot;: null
+        },
+        {
+          &quot;origin&quot;: [
+            -0.018,
+</pre><h2>原始来源与旧版</h2><p><a href="source/guide_front.png">原创正面输入</a> · <a href="source/guide_back.png">原创背面输入</a> · <a href="source/guide_provenance.json">输入来源</a> · <a href="model/protagonist_tripo_robe_v2_raw.glb">原始GLB</a> · <a href="model/protagonist_tripo_robe_v2_raw.obj">原始四边面OBJ</a> · <a href="../protagonist_tripo_robe_v1/README.md">失败文字稿</a> · <a href="../protagonist_structure_v3/README.md">停止修补的结构v3</a> · <a href="../protagonist_tripo_cn_cleanup_v2/preview.html">保留的头发v2来源</a></p></html>

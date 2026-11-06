@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-06",
+  "provider": "Tripo Studio China official web UI via Chrome extension",
+  "authorization": "User authorized batch generation after structural repair grew; purchased credits are for this purpose. Body and clothes must be independent for future wardrobe.",
+  "requested_count": 1,
+  "requested_privacy": "Private",
+  "requested_model": "P2.0 SmartMesh",
+  "requested_topology": "Quad target3000",
+  "requested_input": "Text prompt only; no third-party imagery or PixelCanals assets",
+  "credits_before_observed": 3300,
+  "submission_count": 1,
+  "status": "GENERATED_AND_OFFICIAL_RAW_DOWNLOADS_SAVED",
+  "design_status": "Neutral under-clothing body candidate; not approved final anatomy, identity, topology or rig.",
+  "displayed_cost_before_submit": 0,
+  "trial_before_submit": "P2.0 Trial x1",
+  "prompt_characters": 702,
+  "topology_field_confirmed": 3000,
+  "model_id": "ff79c985-2818-4343-83e4-4a1b5cc6dcd9",
+  "model_url": "https://studio.tripo3d.com/workspace/generate/ff79c985-2818-4343-83e4-4a1b5cc6dcd9",
+  "web_faces": 3402,
+  "web_vertices": 3067,
+  "credits_after_generation_observed": 3245,
+  "credits_after_export_observed": 3190,
+  "credits_observation_boundary": "Displayed pre-submit price was0 with P2.0 Trialx1; account decreased3300→3245→3190 across generation/export observation. Exact charge attribution is not verified; do not present account difference as a confirmed single-operation charge.",
+  "download": {
+    "method": "Official export buttons; actual downloaded files checked, no repeatedGLBclick after event timeout",
+    "files": {
+      "protagonist_tripo_body_v1_raw.glb": {
+        "bytes": 148772,
+        "sha256": "b5fe1a0aff5581c47121f935f905bc991fbf0ae6f32aed8f7135c1f35c742069"
+      },
+      "protagonist_tripo_body_v1_raw.mtl": {
+        "bytes": 263,
+        "sha256": "d900de900d4ec68c0e5b01eb99af0e2573bfc82d9c1b47ea83eb92b8c9b8c965"
+      },
+      "protagonist_tripo_body_v1_raw.obj": {
+        "bytes": 407952,
+        "sha256": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb"
+      },
+      "protagonist_tripo_body_v1_raw.zip": {
+        "bytes": 118913,
+        "sha256": "f3f87580176b4e2051ae94533900660a15451ddb9c87c37697a11907700403ce"
+      }
+    }
+  },
+  "new_generation_count": 1
+}

@@ -1,0 +1,213 @@
+{
+  "blender_version": "5.0.1",
+  "provider_ui_reported_target": "2167 Quad / 2020 verts (provider UI observation; not independently verified by this audit)",
+  "primary_rendered_and_saved_export": "protagonist_tripo_robe_v2_raw.obj",
+  "primary_import_axis_note": "Axis candidate from source bbox and visible web model: upright +Z, presumed face toward +X; verify actual anatomical QA views before final labeling. Cameras use +X front, -X back, -Y side; no mesh rotation was applied.",
+  "primary_export": {
+    "file": "protagonist_tripo_robe_v2_raw.obj",
+    "mesh_objects": 1,
+    "armatures": [],
+    "image_datablocks": 0,
+    "bounds_in_imported_units": {
+      "min": [
+        -0.174560546875,
+        -0.317138671875,
+        -2.3943304228168927e-08
+      ],
+      "max": [
+        0.174560546875,
+        0.31713876128196716,
+        0.99951171875
+      ],
+      "dimensions": [
+        0.34912109375,
+        0.6342774629592896,
+        0.99951171875
+      ]
+    },
+    "meshes": [
+      {
+        "object": "protagonist_tripo_robe_v2_raw",
+        "vertices": 2500,
+        "edges": 4697,
+        "polygons": 2167,
+        "triangles_after_triangulation": 4049,
+        "triangle_polygons": 285,
+        "quad_polygons": 1882,
+        "ngon_polygons": 0,
+        "connected_components": 88,
+        "component_vertex_counts_descending": [
+          2018,
+          40,
+          28,
+          23,
+          19,
+          18,
+          10,
+          10,
+          9,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          7,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "boundary_edges": 1012,
+        "loose_edges": 0,
+        "nonmanifold_edges_more_than_two_faces": 1,
+        "degenerate_edges_near_zero": 0,
+        "degenerate_faces_near_zero_area": 0,
+        "finite_vertex_coordinates": true,
+        "uv_layers": [],
+        "materials": [
+          "tripo_751bb9f4_7c1b_457e_a722_203c4830ec7a"
+        ],
+        "vertex_group_count": 0,
+        "shape_keys": [],
+        "armature_modifiers": []
+      }
+    ]
+  },
+  "glb_export_inspected_separately": {
+    "file": "protagonist_tripo_robe_v2_raw.glb",
+    "mesh_objects": 1,
+    "armatures": [],
+    "image_datablocks": 0,
+    "bounds_in_imported_units": {
+      "min": [
+        -0.174560546875,
+        -0.317138671875,
+        0.0
+      ],
+      "max": [
+        0.174560546875,
+        0.317138671875,
+        0.99951171875
+      ],
+      "dimensions": [
+        0.34912109375,
+        0.63427734375,
+        0.99951171875
+      ]
+    },
+    "meshes": [
+      {
+        "object": "tripo_751bb9f4_7c1b_457e_a722_203c4830ec7a",
+        "vertices": 2020,
+        "edges": 6084,
+        "polygons": 4049,
+        "triangles_after_triangulation": 4049,
+        "triangle_polygons": 4049,
+        "quad_polygons": 0,
+        "ngon_polygons": 0,
+        "connected_components": 1,
+        "component_vertex_counts_descending": [
+          2020
+        ],
+        "boundary_edges": 23,
+        "loose_edges": 0,
+        "nonmanifold_edges_more_than_two_faces": 2,
+        "degenerate_edges_near_zero": 0,
+        "degenerate_faces_near_zero_area": 0,
+        "finite_vertex_coordinates": true,
+        "uv_layers": [],
+        "materials": [
+          "tripo_751bb9f4_7c1b_457e_a722_203c4830ec7a"
+        ],
+        "vertex_group_count": 0,
+        "shape_keys": [],
+        "armature_modifiers": []
+      }
+    ]
+  },
+  "raw_sha256_before": {
+    "protagonist_tripo_robe_v2_raw.glb": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "protagonist_tripo_robe_v2_raw.obj": "daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09"
+  },
+  "raw_sha256_after": {
+    "protagonist_tripo_robe_v2_raw.glb": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "protagonist_tripo_robe_v2_raw.obj": "daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09"
+  },
+  "raw_files_unchanged_during_inspection": true,
+  "limits": [
+    "Connected components do not prove a coherent body or animation-ready topology.",
+    "UV layer presence and finite coordinates do not test UV overlap, texel density, seams, or paint readiness.",
+    "GLB triangle totals and OBJ polygon totals are intentionally reported separately; neither proves the provider UI count.",
+    "No cleanup, retopology, UV edits, texture edits, rigging, animation, or Godot validation was performed.",
+    "Workbench evidence is an inspection aid, not user art acceptance."
+  ]
+}

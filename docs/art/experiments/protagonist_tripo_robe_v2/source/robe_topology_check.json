@@ -1,0 +1,4165 @@
+{
+  "status": "FAIL_STATIC_ROBE_CANDIDATE",
+  "checks": {
+    "raw_glb_hash_unchanged": true,
+    "raw_obj_hash_unchanged": true,
+    "one_glb_mesh": true,
+    "glb_single_connected_mesh": true,
+    "no_degenerate_faces": true,
+    "no_nonmanifold_edges": false,
+    "openings_have_uncapped_centerline_evidence": true,
+    "no_true_nonadjacent_self_intersections": false,
+    "raw_and_inspection_files_unchanged_during_readback": true
+  },
+  "failed_checks": [
+    "no_nonmanifold_edges",
+    "no_true_nonadjacent_self_intersections"
+  ],
+  "artifact_sha256_before": {
+    "glb": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "obj": "daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09",
+    "inspection_blend": "3c898025b109c14dc093bc666de62f1f7ce7cc6d8d9c4b023fdf9a9854ba35cd"
+  },
+  "artifact_sha256_after": {
+    "glb": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "obj": "daf2747947c55780b4155fa4995d802eef0473d75ff6574763e8d616e7f34a09",
+    "inspection_blend": "3c898025b109c14dc093bc666de62f1f7ce7cc6d8d9c4b023fdf9a9854ba35cd"
+  },
+  "topology": {
+    "vertices": 2020,
+    "triangles": 4049,
+    "connected_components": 1,
+    "component_vertex_counts_descending": [
+      2020
+    ],
+    "boundary_edges": 23,
+    "nonmanifold_edges": 2,
+    "degenerate_faces": 0,
+    "uv_layers": 0,
+    "vertex_groups": 0,
+    "shape_keys": false,
+    "armature_modifiers": 0
+  },
+  "boundary_components": [
+    {
+      "vertices": 10,
+      "edges": 9,
+      "closed_simple_ring": false,
+      "center": [
+        -0.05810546875,
+        -0.12270507961511612,
+        0.618115246295929
+      ],
+      "bounds": {
+        "min": [
+          -0.125244140625,
+          -0.141357421875,
+          0.61474609375
+        ],
+        "max": [
+          0.006591796875,
+          -0.0749511644244194,
+          0.62109375
+        ]
+      },
+      "vertex_ids": [
+        75,
+        76,
+        80,
+        81,
+        195,
+        196,
+        198,
+        200,
+        204,
+        769
+      ]
+    },
+    {
+      "vertices": 9,
+      "edges": 9,
+      "closed_simple_ring": true,
+      "center": [
+        -0.0506456159055233,
+        0.1280110627412796,
+        0.6182183027267456
+      ],
+      "bounds": {
+        "min": [
+          -0.108642578125,
+          0.1052246168255806,
+          0.61474609375
+        ],
+        "max": [
+          0.006591796875,
+          0.141357421875,
+          0.62109375
+        ]
+      },
+      "vertex_ids": [
+        320,
+        321,
+        322,
+        327,
+        421,
+        422,
+        423,
+        427,
+        1502
+      ]
+    },
+    {
+      "vertices": 3,
+      "edges": 3,
+      "closed_simple_ring": true,
+      "center": [
+        -0.081787109375,
+        0.132405623793602,
+        0.8255208730697632
+      ],
+      "bounds": {
+        "min": [
+          -0.093994140625,
+          0.1291504055261612,
+          0.81298828125
+        ],
+        "max": [
+          -0.067138671875,
+          0.1354980617761612,
+          0.84521484375
+        ]
+      },
+      "vertex_ids": [
+        435,
+        438,
+        1984
+      ]
+    },
+    {
+      "vertices": 3,
+      "edges": 2,
+      "closed_simple_ring": false,
+      "center": [
+        -0.078369140625,
+        -0.1320800632238388,
+        0.81640625
+      ],
+      "bounds": {
+        "min": [
+          -0.084228515625,
+          -0.1345214694738388,
+          0.81298828125
+        ],
+        "max": [
+          -0.067138671875,
+          -0.1291503757238388,
+          0.818359375
+        ]
+      },
+      "vertex_ids": [
+        219,
+        222,
+        224
+      ]
+    }
+  ],
+  "nonmanifold_edges": [
+    {
+      "edge": [
+        198,
+        204
+      ],
+      "face_count": 3,
+      "faces": [
+        121,
+        122,
+        123
+      ],
+      "midpoint": [
+        -0.114501953125,
+        -0.0900878831744194,
+        0.61767578125
+      ]
+    },
+    {
+      "edge": [
+        222,
+        224
+      ],
+      "face_count": 3,
+      "faces": [
+        137,
+        138,
+        1930
+      ],
+      "midpoint": [
+        -0.075439453125,
+        -0.1335449069738388,
+        0.8154296875
+      ]
+    }
+  ],
+  "opening_ray_probes": {
+    "neck": {
+      "rays": [
+        {
+          "origin": [
+            -0.018,
+            -0.018,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.018,
+            0.0,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.018,
+            0.018,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            -0.018,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.0,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.018,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            -0.018,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            0.0,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            0.018,
+            1.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        }
+      ],
+      "uncapped_centerline_rays": 9,
+      "immediate_cap_hits_under_002": 0
+    },
+    "hem": {
+      "rays": [
+        {
+          "origin": [
+            -0.05,
+            -0.05,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.05,
+            0.0,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.05,
+            0.05,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            -0.05,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.0,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.05,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.05,
+            -0.05,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.05,
+            0.0,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.05,
+            0.05,
+            -0.04
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        }
+      ],
+      "uncapped_centerline_rays": 9,
+      "immediate_cap_hits_under_002": 0
+    },
+    "cuff_negative_y": {
+      "rays": [
+        {
+          "origin": [
+            -0.018,
+            -0.36,
+            0.46
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.018,
+            -0.36,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.018,
+            -0.36,
+            0.54
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            -0.36,
+            0.46
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            -0.36,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            -0.36,
+            0.54
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            -0.36,
+            0.46
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            -0.36,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            -0.36,
+            0.54
+          ],
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        }
+      ],
+      "uncapped_centerline_rays": 9,
+      "immediate_cap_hits_under_002": 0
+    },
+    "cuff_positive_y": {
+      "rays": [
+        {
+          "origin": [
+            -0.018,
+            0.36,
+            0.46
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.018,
+            0.36,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            -0.018,
+            0.36,
+            0.54
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.36,
+            0.46
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.36,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.0,
+            0.36,
+            0.54
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            0.36,
+            0.46
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            0.36,
+            0.5
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        },
+        {
+          "origin": [
+            0.018,
+            0.36,
+            0.54
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_polygon": null
+        }
+      ],
+      "uncapped_centerline_rays": 9,
+      "immediate_cap_hits_under_002": 0
+    }
+  },
+  "self_intersection_audit": {
+    "bvh_candidate_pair_count": 599,
+    "classification_counts": {
+      "excluded_shared_vertex_neighbor": 327,
+      "proper_crossing": 272
+    },
+    "true_nonadjacent_intersection_count": 272,
+    "true_nonadjacent_intersections_sample": [
+      {
+        "triangle_a": 41,
+        "triangle_b": 1699,
+        "polygon_a": 41,
+        "polygon_b": 1699,
+        "vertices_a": [
+          76,
+          79,
+          80
+        ],
+        "vertices_b": [
+          78,
+          77,
+          194
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.037261784076690674,
+          -0.14075243473052979,
+          0.6195451021194458
+        ],
+        "intersection_points": [
+          [
+            -0.037269286811351776,
+            -0.1407507359981537,
+            0.6195446848869324
+          ],
+          [
+            -0.03725428134202957,
+            -0.1407541185617447,
+            0.6195454597473145
+          ]
+        ]
+      },
+      {
+        "triangle_a": 42,
+        "triangle_b": 854,
+        "polygon_a": 42,
+        "polygon_b": 854,
+        "vertices_a": [
+          74,
+          77,
+          76
+        ],
+        "vertices_b": [
+          773,
+          75,
+          769
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.02754497155547142,
+          -0.13517236709594727,
+          0.6207233667373657
+        ],
+        "intersection_points": [
+          [
+            -0.03667142614722252,
+            -0.13531175255775452,
+            0.6220778226852417
+          ],
+          [
+            -0.018418515101075172,
+            -0.13503298163414001,
+            0.6193689107894897
+          ]
+        ]
+      },
+      {
+        "triangle_a": 43,
+        "triangle_b": 847,
+        "polygon_a": 43,
+        "polygon_b": 847,
+        "vertices_a": [
+          75,
+          81,
+          74
+        ],
+        "vertices_b": [
+          76,
+          762,
+          768
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0166493970900774,
+          -0.135477676987648,
+          0.6170250177383423
+        ],
+        "intersection_points": [
+          [
+            -0.013709340244531631,
+            -0.13561661541461945,
+            0.6171693801879883
+          ],
+          [
+            -0.01958945393562317,
+            -0.13533873856067657,
+            0.6168806552886963
+          ]
+        ]
+      },
+      {
+        "triangle_a": 43,
+        "triangle_b": 848,
+        "polygon_a": 43,
+        "polygon_b": 848,
+        "vertices_a": [
+          75,
+          81,
+          74
+        ],
+        "vertices_b": [
+          76,
+          768,
+          769
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.027983402833342552,
+          -0.13456520438194275,
+          0.6166671514511108
+        ],
+        "intersection_points": [
+          [
+            -0.036377351731061935,
+            -0.13379165530204773,
+            0.6164537072181702
+          ],
+          [
+            -0.01958945393562317,
+            -0.13533873856067657,
+            0.6168806552886963
+          ]
+        ]
+      },
+      {
+        "triangle_a": 50,
+        "triangle_b": 57,
+        "polygon_a": 50,
+        "polygon_b": 57,
+        "vertices_a": [
+          95,
+          96,
+          97
+        ],
+        "vertices_b": [
+          100,
+          105,
+          106
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0073355515487492085,
+          -0.13021539151668549,
+          0.8188000321388245
+        ],
+        "intersection_points": [
+          [
+            -0.008660229854285717,
+            -0.12911194562911987,
+            0.8184419274330139
+          ],
+          [
+            -0.0060108732432127,
+            -0.1313188374042511,
+            0.819158136844635
+          ]
+        ]
+      },
+      {
+        "triangle_a": 53,
+        "triangle_b": 1031,
+        "polygon_a": 53,
+        "polygon_b": 1031,
+        "vertices_a": [
+          100,
+          101,
+          102
+        ],
+        "vertices_b": [
+          862,
+          91,
+          90
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.002272106008604169,
+          -0.13507266342639923,
+          0.8296891450881958
+        ],
+        "intersection_points": [
+          [
+            0.0011131869396194816,
+            -0.13362973928451538,
+            0.8230271339416504
+          ],
+          [
+            0.0034310249611735344,
+            -0.13651558756828308,
+            0.836351215839386
+          ]
+        ]
+      },
+      {
+        "triangle_a": 54,
+        "triangle_b": 1031,
+        "polygon_a": 54,
+        "polygon_b": 1031,
+        "vertices_a": [
+          102,
+          103,
+          104
+        ],
+        "vertices_b": [
+          862,
+          91,
+          90
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.004163474775850773,
+          -0.1376255750656128,
+          0.839495837688446
+        ],
+        "intersection_points": [
+          [
+            0.003965866751968861,
+            -0.13728295266628265,
+            0.8388797044754028
+          ],
+          [
+            0.004361082799732685,
+            -0.13796819746494293,
+            0.8401119709014893
+          ]
+        ]
+      },
+      {
+        "triangle_a": 55,
+        "triangle_b": 1031,
+        "polygon_a": 55,
+        "polygon_b": 1031,
+        "vertices_a": [
+          102,
+          104,
+          105
+        ],
+        "vertices_b": [
+          862,
+          91,
+          90
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.004040366970002651,
+          -0.13739237189292908,
+          0.8392183184623718
+        ],
+        "intersection_points": [
+          [
+            0.004361082799732685,
+            -0.13796819746494293,
+            0.8401119709014893
+          ],
+          [
+            0.0037196511402726173,
+            -0.13681656122207642,
+            0.8383246660232544
+          ]
+        ]
+      },
+      {
+        "triangle_a": 57,
+        "triangle_b": 132,
+        "polygon_a": 57,
+        "polygon_b": 132,
+        "vertices_a": [
+          100,
+          105,
+          106
+        ],
+        "vertices_b": [
+          109,
+          97,
+          96
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.01217753253877163,
+          -0.12915462255477905,
+          0.8179576396942139
+        ],
+        "intersection_points": [
+          [
+            -0.015694834291934967,
+            -0.12919729948043823,
+            0.817473292350769
+          ],
+          [
+            -0.008660230785608292,
+            -0.12911194562911987,
+            0.8184419274330139
+          ]
+        ]
+      },
+      {
+        "triangle_a": 57,
+        "triangle_b": 1030,
+        "polygon_a": 57,
+        "polygon_b": 1030,
+        "vertices_a": [
+          100,
+          105,
+          106
+        ],
+        "vertices_b": [
+          97,
+          93,
+          95
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.005563042126595974,
+          -0.13240540027618408,
+          0.819391131401062
+        ],
+        "intersection_points": [
+          [
+            -0.005115211009979248,
+            -0.13349196314811707,
+            0.8196241855621338
+          ],
+          [
+            -0.006010872777551413,
+            -0.1313188374042511,
+            0.819158136844635
+          ]
+        ]
+      },
+      {
+        "triangle_a": 58,
+        "triangle_b": 59,
+        "polygon_a": 58,
+        "polygon_b": 59,
+        "vertices_a": [
+          107,
+          106,
+          105
+        ],
+        "vertices_b": [
+          96,
+          108,
+          109
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.019322918727993965,
+          -0.128708615899086,
+          0.8167561292648315
+        ],
+        "intersection_points": [
+          [
+            -0.014153233729302883,
+            -0.1280968338251114,
+            0.8173908591270447
+          ],
+          [
+            -0.024492604658007622,
+            -0.1293203979730606,
+            0.8161213994026184
+          ]
+        ]
+      },
+      {
+        "triangle_a": 58,
+        "triangle_b": 132,
+        "polygon_a": 58,
+        "polygon_b": 132,
+        "vertices_a": [
+          107,
+          106,
+          105
+        ],
+        "vertices_b": [
+          109,
+          97,
+          96
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.02009371854364872,
+          -0.12925884127616882,
+          0.8167973756790161
+        ],
+        "intersection_points": [
+          [
+            -0.015694834291934967,
+            -0.12919729948043823,
+            0.817473292350769
+          ],
+          [
+            -0.024492602795362473,
+            -0.1293203979730606,
+            0.8161213994026184
+          ]
+        ]
+      },
+      {
+        "triangle_a": 58,
+        "triangle_b": 1920,
+        "polygon_a": 58,
+        "polygon_b": 1920,
+        "vertices_a": [
+          107,
+          106,
+          105
+        ],
+        "vertices_b": [
+          832,
+          109,
+          108
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.010629454627633095,
+          -0.12778997421264648,
+          0.8178560733795166
+        ],
+        "intersection_points": [
+          [
+            -0.007105676922947168,
+            -0.12748311460018158,
+            0.8183213472366333
+          ],
+          [
+            -0.014153232797980309,
+            -0.1280968338251114,
+            0.8173908591270447
+          ]
+        ]
+      },
+      {
+        "triangle_a": 114,
+        "triangle_b": 1702,
+        "polygon_a": 114,
+        "polygon_b": 1702,
+        "vertices_a": [
+          193,
+          194,
+          195
+        ],
+        "vertices_b": [
+          196,
+          79,
+          197
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07411229610443115,
+          -0.13092279434204102,
+          0.6190842390060425
+        ],
+        "intersection_points": [
+          [
+            -0.0740530863404274,
+            -0.1309531033039093,
+            0.6190861463546753
+          ],
+          [
+            -0.0741715133190155,
+            -0.13089248538017273,
+            0.6190823316574097
+          ]
+        ]
+      },
+      {
+        "triangle_a": 115,
+        "triangle_b": 1723,
+        "polygon_a": 115,
+        "polygon_b": 1723,
+        "vertices_a": [
+          195,
+          196,
+          197
+        ],
+        "vertices_b": [
+          201,
+          198,
+          205
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07320289313793182,
+          -0.12543585896492004,
+          0.6187113523483276
+        ],
+        "intersection_points": [
+          [
+            -0.07408572733402252,
+            -0.12485167384147644,
+            0.6187348961830139
+          ],
+          [
+            -0.07232005149126053,
+            -0.12602002918720245,
+            0.6186877489089966
+          ]
+        ]
+      },
+      {
+        "triangle_a": 115,
+        "triangle_b": 1724,
+        "polygon_a": 115,
+        "polygon_b": 1724,
+        "vertices_a": [
+          195,
+          196,
+          197
+        ],
+        "vertices_b": [
+          201,
+          205,
+          1140
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07224912941455841,
+          -0.12606430053710938,
+          0.6186857223510742
+        ],
+        "intersection_points": [
+          [
+            -0.07217820733785629,
+            -0.1261085718870163,
+            0.6186836957931519
+          ],
+          [
+            -0.07232005149126053,
+            -0.12602002918720245,
+            0.6186877489089966
+          ]
+        ]
+      },
+      {
+        "triangle_a": 116,
+        "triangle_b": 117,
+        "polygon_a": 116,
+        "polygon_b": 117,
+        "vertices_a": [
+          198,
+          199,
+          200
+        ],
+        "vertices_b": [
+          201,
+          202,
+          203
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0807853639125824,
+          -0.11893194913864136,
+          0.6166836023330688
+        ],
+        "intersection_points": [
+          [
+            -0.07093294709920883,
+            -0.12341289222240448,
+            0.6166383028030396
+          ],
+          [
+            -0.09063777327537537,
+            -0.11445100605487823,
+            0.6167288422584534
+          ]
+        ]
+      },
+      {
+        "triangle_a": 117,
+        "triangle_b": 1706,
+        "polygon_a": 117,
+        "polygon_b": 1706,
+        "vertices_a": [
+          201,
+          202,
+          203
+        ],
+        "vertices_b": [
+          199,
+          81,
+          200
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07086452841758728,
+          -0.12343825399875641,
+          0.6166353225708008
+        ],
+        "intersection_points": [
+          [
+            -0.07079610973596573,
+            -0.12346360832452774,
+            0.616632342338562
+          ],
+          [
+            -0.07093294709920883,
+            -0.12341289222240448,
+            0.6166383028030396
+          ]
+        ]
+      },
+      {
+        "triangle_a": 119,
+        "triangle_b": 1723,
+        "polygon_a": 119,
+        "polygon_b": 1723,
+        "vertices_a": [
+          194,
+          199,
+          195
+        ],
+        "vertices_b": [
+          201,
+          198,
+          205
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.08035045862197876,
+          -0.1206987276673317,
+          0.6201568841934204
+        ],
+        "intersection_points": [
+          [
+            -0.08673001825809479,
+            -0.11648701876401901,
+            0.6187303066253662
+          ],
+          [
+            -0.07397089898586273,
+            -0.12491043657064438,
+            0.6215835213661194
+          ]
+        ]
+      },
+      {
+        "triangle_a": 119,
+        "triangle_b": 1724,
+        "polygon_a": 119,
+        "polygon_b": 1724,
+        "vertices_a": [
+          194,
+          199,
+          195
+        ],
+        "vertices_b": [
+          201,
+          205,
+          1140
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07308146357536316,
+          -0.1254602074623108,
+          0.6217533349990845
+        ],
+        "intersection_points": [
+          [
+            -0.07219202816486359,
+            -0.1260099709033966,
+            0.6219231486320496
+          ],
+          [
+            -0.07397089898586273,
+            -0.12491043657064438,
+            0.6215835213661194
+          ]
+        ]
+      },
+      {
+        "triangle_a": 134,
+        "triangle_b": 139,
+        "polygon_a": 134,
+        "polygon_b": 139,
+        "vertices_a": [
+          106,
+          218,
+          219
+        ],
+        "vertices_b": [
+          221,
+          223,
+          222
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07465918362140656,
+          -0.12917375564575195,
+          0.8173002600669861
+        ],
+        "intersection_points": [
+          [
+            -0.07628791034221649,
+            -0.12807732820510864,
+            0.8175009489059448
+          ],
+          [
+            -0.07303044945001602,
+            -0.13027018308639526,
+            0.8170995712280273
+          ]
+        ]
+      },
+      {
+        "triangle_a": 135,
+        "triangle_b": 139,
+        "polygon_a": 135,
+        "polygon_b": 139,
+        "vertices_a": [
+          106,
+          219,
+          220
+        ],
+        "vertices_b": [
+          221,
+          223,
+          222
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07293108850717545,
+          -0.12995372712612152,
+          0.8163093328475952
+        ],
+        "intersection_points": [
+          [
+            -0.07303044199943542,
+            -0.13027018308639526,
+            0.8170995712280273
+          ],
+          [
+            -0.07283173501491547,
+            -0.12963727116584778,
+            0.8155190944671631
+          ]
+        ]
+      },
+      {
+        "triangle_a": 136,
+        "triangle_b": 1923,
+        "polygon_a": 136,
+        "polygon_b": 1923,
+        "vertices_a": [
+          221,
+          222,
+          109
+        ],
+        "vertices_b": [
+          805,
+          106,
+          220
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06485776603221893,
+          -0.13073253631591797,
+          0.8128911852836609
+        ],
+        "intersection_points": [
+          [
+            -0.071870818734169,
+            -0.12980791926383972,
+            0.8144342303276062
+          ],
+          [
+            -0.05784470587968826,
+            -0.1316571682691574,
+            0.8113481402397156
+          ]
+        ]
+      },
+      {
+        "triangle_a": 136,
+        "triangle_b": 1953,
+        "polygon_a": 136,
+        "polygon_b": 1953,
+        "vertices_a": [
+          221,
+          222,
+          109
+        ],
+        "vertices_b": [
+          1230,
+          219,
+          218
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07361310720443726,
+          -0.1272680163383484,
+          0.8152551651000977
+        ],
+        "intersection_points": [
+          [
+            -0.07569471001625061,
+            -0.12757731974124908,
+            0.8156026005744934
+          ],
+          [
+            -0.0715315043926239,
+            -0.1269587129354477,
+            0.8149077892303467
+          ]
+        ]
+      },
+      {
+        "triangle_a": 136,
+        "triangle_b": 1954,
+        "polygon_a": 136,
+        "polygon_b": 1954,
+        "vertices_a": [
+          221,
+          222,
+          109
+        ],
+        "vertices_b": [
+          1230,
+          218,
+          1227
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06848428398370743,
+          -0.12640942633152008,
+          0.8144174814224243
+        ],
+        "intersection_points": [
+          [
+            -0.06543706357479095,
+            -0.12586013972759247,
+            0.8139272332191467
+          ],
+          [
+            -0.0715315043926239,
+            -0.1269587129354477,
+            0.8149077892303467
+          ]
+        ]
+      },
+      {
+        "triangle_a": 139,
+        "triangle_b": 1923,
+        "polygon_a": 139,
+        "polygon_b": 1923,
+        "vertices_a": [
+          221,
+          223,
+          222
+        ],
+        "vertices_b": [
+          805,
+          106,
+          220
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07235127687454224,
+          -0.12972259521484375,
+          0.814976692199707
+        ],
+        "intersection_points": [
+          [
+            -0.071870818734169,
+            -0.12980791926383972,
+            0.8144342303276062
+          ],
+          [
+            -0.07283173501491547,
+            -0.12963727116584778,
+            0.8155190944671631
+          ]
+        ]
+      },
+      {
+        "triangle_a": 139,
+        "triangle_b": 1953,
+        "polygon_a": 139,
+        "polygon_b": 1953,
+        "vertices_a": [
+          221,
+          223,
+          222
+        ],
+        "vertices_b": [
+          1230,
+          219,
+          218
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07599131017923355,
+          -0.12782731652259827,
+          0.8165518045425415
+        ],
+        "intersection_points": [
+          [
+            -0.07569471001625061,
+            -0.12757731974124908,
+            0.8156026005744934
+          ],
+          [
+            -0.07628791034221649,
+            -0.12807732820510864,
+            0.8175009489059448
+          ]
+        ]
+      },
+      {
+        "triangle_a": 192,
+        "triangle_b": 2659,
+        "polygon_a": 192,
+        "polygon_b": 2659,
+        "vertices_a": [
+          321,
+          319,
+          322
+        ],
+        "vertices_b": [
+          1467,
+          320,
+          1502
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0102127306163311,
+          0.13527971506118774,
+          0.6176057457923889
+        ],
+        "intersection_points": [
+          [
+            -0.009234953671693802,
+            0.13535648584365845,
+            0.6176376342773438
+          ],
+          [
+            -0.011190507560968399,
+            0.13520292937755585,
+            0.6175738573074341
+          ]
+        ]
+      },
+      {
+        "triangle_a": 192,
+        "triangle_b": 2660,
+        "polygon_a": 192,
+        "polygon_b": 2660,
+        "vertices_a": [
+          321,
+          319,
+          322
+        ],
+        "vertices_b": [
+          1467,
+          1502,
+          1501
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.023783765733242035,
+          0.13449622690677643,
+          0.6170143485069275
+        ],
+        "intersection_points": [
+          [
+            -0.03637702390551567,
+            0.133789524435997,
+            0.6164548397064209
+          ],
+          [
+            -0.011190507560968399,
+            0.13520292937755585,
+            0.6175738573074341
+          ]
+        ]
+      },
+      {
+        "triangle_a": 194,
+        "triangle_b": 2658,
+        "polygon_a": 194,
+        "polygon_b": 2658,
+        "vertices_a": [
+          326,
+          319,
+          320
+        ],
+        "vertices_b": [
+          321,
+          1488,
+          1502
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.02754496969282627,
+          0.13517236709594727,
+          0.6207233667373657
+        ],
+        "intersection_points": [
+          [
+            -0.03667142614722252,
+            0.13531175255775452,
+            0.6220778226852417
+          ],
+          [
+            -0.018418513238430023,
+            0.13503298163414001,
+            0.6193689107894897
+          ]
+        ]
+      },
+      {
+        "triangle_a": 195,
+        "triangle_b": 3523,
+        "polygon_a": 195,
+        "polygon_b": 3523,
+        "vertices_a": [
+          320,
+          327,
+          328
+        ],
+        "vertices_b": [
+          326,
+          329,
+          425
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03726179152727127,
+          0.14075249433517456,
+          0.6195451021194458
+        ],
+        "intersection_points": [
+          [
+            -0.03726929798722267,
+            0.14075088500976562,
+            0.6195446848869324
+          ],
+          [
+            -0.03725428134202957,
+            0.1407541185617447,
+            0.6195454597473145
+          ]
+        ]
+      },
+      {
+        "triangle_a": 208,
+        "triangle_b": 2998,
+        "polygon_a": 208,
+        "polygon_b": 2998,
+        "vertices_a": [
+          349,
+          350,
+          351
+        ],
+        "vertices_b": [
+          393,
+          400,
+          391
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0051965839229524136,
+          0.133350670337677,
+          0.819297194480896
+        ],
+        "intersection_points": [
+          [
+            -0.005277957767248154,
+            0.13320934772491455,
+            0.8189701437950134
+          ],
+          [
+            -0.005115210078656673,
+            0.13349199295043945,
+            0.8196241855621338
+          ]
+        ]
+      },
+      {
+        "triangle_a": 209,
+        "triangle_b": 3884,
+        "polygon_a": 209,
+        "polygon_b": 3884,
+        "vertices_a": [
+          352,
+          353,
+          354
+        ],
+        "vertices_b": [
+          1650,
+          351,
+          432
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.019322916865348816,
+          0.1287086457014084,
+          0.8167561292648315
+        ],
+        "intersection_points": [
+          [
+            -0.014153232797980309,
+            0.12809686362743378,
+            0.8173908591270447
+          ],
+          [
+            -0.024492602795362473,
+            0.129320427775383,
+            0.8161213994026184
+          ]
+        ]
+      },
+      {
+        "triangle_a": 238,
+        "triangle_b": 2995,
+        "polygon_a": 238,
+        "polygon_b": 2995,
+        "vertices_a": [
+          397,
+          398,
+          399
+        ],
+        "vertices_b": [
+          390,
+          389,
+          1652
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.004163474775850773,
+          0.13762560486793518,
+          0.839495837688446
+        ],
+        "intersection_points": [
+          [
+            0.003965866751968861,
+            0.13728298246860504,
+            0.8388797044754028
+          ],
+          [
+            0.004361082799732685,
+            0.13796822726726532,
+            0.8401119709014893
+          ]
+        ]
+      },
+      {
+        "triangle_a": 239,
+        "triangle_b": 2991,
+        "polygon_a": 239,
+        "polygon_b": 2991,
+        "vertices_a": [
+          400,
+          354,
+          391
+        ],
+        "vertices_b": [
+          399,
+          349,
+          1650
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.006137355230748653,
+          0.13117192685604095,
+          0.8188656568527222
+        ],
+        "intersection_points": [
+          [
+            -0.006005052477121353,
+            0.1313280165195465,
+            0.8191863894462585
+          ],
+          [
+            -0.006269657984375954,
+            0.1310158371925354,
+            0.8185449242591858
+          ]
+        ]
+      },
+      {
+        "triangle_a": 239,
+        "triangle_b": 3883,
+        "polygon_a": 239,
+        "polygon_b": 3883,
+        "vertices_a": [
+          400,
+          354,
+          391
+        ],
+        "vertices_b": [
+          1650,
+          349,
+          351
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.007440325804054737,
+          0.13007211685180664,
+          0.8184236884117126
+        ],
+        "intersection_points": [
+          [
+            -0.00861099362373352,
+            0.1291283816099167,
+            0.8183024525642395
+          ],
+          [
+            -0.006269657984375954,
+            0.1310158371925354,
+            0.8185449242591858
+          ]
+        ]
+      },
+      {
+        "triangle_a": 246,
+        "triangle_b": 247,
+        "polygon_a": 246,
+        "polygon_b": 247,
+        "vertices_a": [
+          417,
+          418,
+          419
+        ],
+        "vertices_b": [
+          420,
+          421,
+          422
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0807853639125824,
+          0.11893195658922195,
+          0.6166836023330688
+        ],
+        "intersection_points": [
+          [
+            -0.09063777327537537,
+            0.11445101350545883,
+            0.6167288422584534
+          ],
+          [
+            -0.07093294709920883,
+            0.12341289967298508,
+            0.6166383028030396
+          ]
+        ]
+      },
+      {
+        "triangle_a": 246,
+        "triangle_b": 3434,
+        "polygon_a": 246,
+        "polygon_b": 3434,
+        "vertices_a": [
+          417,
+          418,
+          419
+        ],
+        "vertices_b": [
+          322,
+          420,
+          422
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07086452841758728,
+          0.12343825399875641,
+          0.6166353225708008
+        ],
+        "intersection_points": [
+          [
+            -0.07079610973596573,
+            0.12346361577510834,
+            0.616632342338562
+          ],
+          [
+            -0.07093294709920883,
+            0.12341289967298508,
+            0.6166383028030396
+          ]
+        ]
+      },
+      {
+        "triangle_a": 248,
+        "triangle_b": 3522,
+        "polygon_a": 248,
+        "polygon_b": 3522,
+        "vertices_a": [
+          423,
+          424,
+          425
+        ],
+        "vertices_b": [
+          426,
+          327,
+          427
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07411228120326996,
+          0.13092274963855743,
+          0.6190842390060425
+        ],
+        "intersection_points": [
+          [
+            -0.07405304908752441,
+            0.13095301389694214,
+            0.6190862059593201
+          ],
+          [
+            -0.0741715133190155,
+            0.13089248538017273,
+            0.6190823316574097
+          ]
+        ]
+      },
+      {
+        "triangle_a": 249,
+        "triangle_b": 3447,
+        "polygon_a": 249,
+        "polygon_b": 3447,
+        "vertices_a": [
+          426,
+          427,
+          423
+        ],
+        "vertices_b": [
+          421,
+          417,
+          1831
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07310470938682556,
+          0.1254889965057373,
+          0.6187080144882202
+        ],
+        "intersection_points": [
+          [
+            -0.0721762627363205,
+            0.12610389292240143,
+            0.6186832785606384
+          ],
+          [
+            -0.07403314858675003,
+            0.12487411499023438,
+            0.6187328100204468
+          ]
+        ]
+      },
+      {
+        "triangle_a": 255,
+        "triangle_b": 257,
+        "polygon_a": 255,
+        "polygon_b": 257,
+        "vertices_a": [
+          434,
+          433,
+          351
+        ],
+        "vertices_b": [
+          436,
+          352,
+          437
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06385055184364319,
+          0.1283707320690155,
+          0.8160949945449829
+        ],
+        "intersection_points": [
+          [
+            -0.06754136830568314,
+            0.1273220032453537,
+            0.816521167755127
+          ],
+          [
+            -0.06015973538160324,
+            0.1294194608926773,
+            0.8156687617301941
+          ]
+        ]
+      },
+      {
+        "triangle_a": 255,
+        "triangle_b": 258,
+        "polygon_a": 255,
+        "polygon_b": 258,
+        "vertices_a": [
+          434,
+          433,
+          351
+        ],
+        "vertices_b": [
+          352,
+          438,
+          437
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06590387970209122,
+          0.13027241826057434,
+          0.8162224292755127
+        ],
+        "intersection_points": [
+          [
+            -0.0716480240225792,
+            0.13112537562847137,
+            0.8167761564254761
+          ],
+          [
+            -0.06015973538160324,
+            0.1294194608926773,
+            0.8156687617301941
+          ]
+        ]
+      },
+      {
+        "triangle_a": 255,
+        "triangle_b": 3909,
+        "polygon_a": 255,
+        "polygon_b": 3909,
+        "vertices_a": [
+          434,
+          433,
+          351
+        ],
+        "vertices_b": [
+          1937,
+          437,
+          438
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07085070013999939,
+          0.13181988894939423,
+          0.816663384437561
+        ],
+        "intersection_points": [
+          [
+            -0.0716480240225792,
+            0.13112537562847137,
+            0.8167761564254761
+          ],
+          [
+            -0.07005337625741959,
+            0.13251440227031708,
+            0.8165506720542908
+          ]
+        ]
+      },
+      {
+        "triangle_a": 255,
+        "triangle_b": 3910,
+        "polygon_a": 255,
+        "polygon_b": 3910,
+        "vertices_a": [
+          434,
+          433,
+          351
+        ],
+        "vertices_b": [
+          1937,
+          438,
+          1984
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07007531821727753,
+          0.1327027678489685,
+          0.8165446519851685
+        ],
+        "intersection_points": [
+          [
+            -0.07005337625741959,
+            0.13251440227031708,
+            0.8165506720542908
+          ],
+          [
+            -0.07009726762771606,
+            0.13289113342761993,
+            0.8165385723114014
+          ]
+        ]
+      },
+      {
+        "triangle_a": 256,
+        "triangle_b": 257,
+        "polygon_a": 256,
+        "polygon_b": 257,
+        "vertices_a": [
+          434,
+          435,
+          433
+        ],
+        "vertices_b": [
+          436,
+          352,
+          437
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06807756423950195,
+          0.12718114256858826,
+          0.816596269607544
+        ],
+        "intersection_points": [
+          [
+            -0.06861375272274017,
+            0.127040296792984,
+            0.8166713118553162
+          ],
+          [
+            -0.06754136830568314,
+            0.1273220032453537,
+            0.816521167755127
+          ]
+        ]
+      },
+      {
+        "triangle_a": 257,
+        "triangle_b": 3680,
+        "polygon_a": 257,
+        "polygon_b": 3680,
+        "vertices_a": [
+          436,
+          352,
+          437
+        ],
+        "vertices_b": [
+          435,
+          1921,
+          433
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06703536212444305,
+          0.126448392868042,
+          0.8153015375137329
+        ],
+        "intersection_points": [
+          [
+            -0.06545697897672653,
+            0.12585650384426117,
+            0.8139318227767944
+          ],
+          [
+            -0.06861375272274017,
+            0.127040296792984,
+            0.8166713118553162
+          ]
+        ]
+      },
+      {
+        "triangle_a": 258,
+        "triangle_b": 259,
+        "polygon_a": 258,
+        "polygon_b": 259,
+        "vertices_a": [
+          352,
+          438,
+          437
+        ],
+        "vertices_b": [
+          351,
+          439,
+          434
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06742462515830994,
+          0.13108763098716736,
+          0.8154335618019104
+        ],
+        "intersection_points": [
+          [
+            -0.07051627337932587,
+            0.13148754835128784,
+            0.8158254623413086
+          ],
+          [
+            -0.0643329843878746,
+            0.13068769872188568,
+            0.8150416612625122
+          ]
+        ]
+      },
+      {
+        "triangle_a": 258,
+        "triangle_b": 3878,
+        "polygon_a": 258,
+        "polygon_b": 3878,
+        "vertices_a": [
+          352,
+          438,
+          437
+        ],
+        "vertices_b": [
+          1560,
+          439,
+          351
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06108884513378143,
+          0.13117244839668274,
+          0.8131948709487915
+        ],
+        "intersection_points": [
+          [
+            -0.05784470587968826,
+            0.1316571980714798,
+            0.8113481402397156
+          ],
+          [
+            -0.0643329843878746,
+            0.13068769872188568,
+            0.8150416612625122
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 282,
+        "polygon_a": 259,
+        "polygon_b": 282,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          435,
+          438,
+          475
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.08054974675178528,
+          0.13025036454200745,
+          0.8163899779319763
+        ],
+        "intersection_points": [
+          [
+            -0.07727567106485367,
+            0.13054096698760986,
+            0.8161742091178894
+          ],
+          [
+            -0.08382382988929749,
+            0.12995977699756622,
+            0.8166057467460632
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3679,
+        "polygon_a": 259,
+        "polygon_b": 3679,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          435,
+          1923,
+          1921
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.08393600583076477,
+          0.1285860389471054,
+          0.8162325620651245
+        ],
+        "intersection_points": [
+          [
+            -0.08290135115385056,
+            0.12839274108409882,
+            0.8160848021507263
+          ],
+          [
+            -0.08497066795825958,
+            0.128779336810112,
+            0.8163803219795227
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3889,
+        "polygon_a": 259,
+        "polygon_b": 3889,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          1982,
+          475,
+          1905
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0845756083726883,
+          0.1333136111497879,
+          0.8176097869873047
+        ],
+        "intersection_points": [
+          [
+            -0.08458180725574493,
+            0.13334329426288605,
+            0.8176186084747314
+          ],
+          [
+            -0.08456941694021225,
+            0.13328392803668976,
+            0.8176009058952332
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3893,
+        "polygon_a": 259,
+        "polygon_b": 3893,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          1984,
+          435,
+          475
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.08420883119106293,
+          0.13129843771457672,
+          0.817014217376709
+        ],
+        "intersection_points": [
+          [
+            -0.08382382988929749,
+            0.12995977699756622,
+            0.8166057467460632
+          ],
+          [
+            -0.08459383994340897,
+            0.13263709843158722,
+            0.81742262840271
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3894,
+        "polygon_a": 259,
+        "polygon_b": 3894,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          1984,
+          475,
+          1982
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.08458162844181061,
+          0.1329605132341385,
+          0.817511796951294
+        ],
+        "intersection_points": [
+          [
+            -0.08459383994340897,
+            0.13263709843158722,
+            0.81742262840271
+          ],
+          [
+            -0.08456941694021225,
+            0.13328392803668976,
+            0.8176009058952332
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3895,
+        "polygon_a": 259,
+        "polygon_b": 3895,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          1923,
+          435,
+          1985
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.086323082447052,
+          0.12889572978019714,
+          0.8165354132652283
+        ],
+        "intersection_points": [
+          [
+            -0.08767548948526382,
+            0.12901213765144348,
+            0.8166905045509338
+          ],
+          [
+            -0.08497066795825958,
+            0.128779336810112,
+            0.8163803219795227
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3909,
+        "polygon_a": 259,
+        "polygon_b": 3909,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          1937,
+          437,
+          438
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.07007340341806412,
+          0.13200488686561584,
+          0.815929651260376
+        ],
+        "intersection_points": [
+          [
+            -0.07051627337932587,
+            0.13148754835128784,
+            0.8158254623413086
+          ],
+          [
+            -0.06963053345680237,
+            0.13252222537994385,
+            0.8160338997840881
+          ]
+        ]
+      },
+      {
+        "triangle_a": 259,
+        "triangle_b": 3910,
+        "polygon_a": 259,
+        "polygon_b": 3910,
+        "vertices_a": [
+          351,
+          439,
+          434
+        ],
+        "vertices_b": [
+          1937,
+          438,
+          1984
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0696973204612732,
+          0.132688507437706,
+          0.8160863518714905
+        ],
+        "intersection_points": [
+          [
+            -0.06963053345680237,
+            0.13252222537994385,
+            0.8160338997840881
+          ],
+          [
+            -0.06976410001516342,
+            0.13285478949546814,
+            0.8161388039588928
+          ]
+        ]
+      },
+      {
+        "triangle_a": 281,
+        "triangle_b": 3878,
+        "polygon_a": 281,
+        "polygon_b": 3878,
+        "vertices_a": [
+          474,
+          475,
+          438
+        ],
+        "vertices_b": [
+          1560,
+          439,
+          351
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.06845442950725555,
+          0.13054460287094116,
+          0.8079966306686401
+        ],
+        "intersection_points": [
+          [
+            -0.07233701646327972,
+            0.13012509047985077,
+            0.807015597820282
+          ],
+          [
+            -0.06457185000181198,
+            0.13096411526203156,
+            0.8089776039123535
+          ]
+        ]
+      },
+      {
+        "triangle_a": 848,
+        "triangle_b": 1705,
+        "polygon_a": 848,
+        "polygon_b": 1705,
+        "vertices_a": [
+          76,
+          768,
+          769
+        ],
+        "vertices_b": [
+          199,
+          74,
+          81
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03640691190958023,
+          -0.1337873339653015,
+          0.6164513826370239
+        ],
+        "intersection_points": [
+          [
+            -0.036436475813388824,
+            -0.1337830126285553,
+            0.6164489984512329
+          ],
+          [
+            -0.036377351731061935,
+            -0.13379165530204773,
+            0.6164537072181702
+          ]
+        ]
+      },
+      {
+        "triangle_a": 854,
+        "triangle_b": 1711,
+        "polygon_a": 854,
+        "polygon_b": 1711,
+        "vertices_a": [
+          773,
+          75,
+          769
+        ],
+        "vertices_b": [
+          77,
+          74,
+          199
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.036786675453186035,
+          -0.13531316816806793,
+          0.6221023201942444
+        ],
+        "intersection_points": [
+          [
+            -0.03690192475914955,
+            -0.13531458377838135,
+            0.6221268177032471
+          ],
+          [
+            -0.03667142614722252,
+            -0.13531175255775452,
+            0.6220778226852417
+          ]
+        ]
+      },
+      {
+        "triangle_a": 901,
+        "triangle_b": 905,
+        "polygon_a": 901,
+        "polygon_b": 905,
+        "vertices_a": [
+          802,
+          801,
+          786
+        ],
+        "vertices_b": [
+          805,
+          794,
+          793
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.02259209379553795,
+          -0.13388386368751526,
+          0.7336242198944092
+        ],
+        "intersection_points": [
+          [
+            -0.021808534860610962,
+            -0.1337505280971527,
+            0.7343705296516418
+          ],
+          [
+            -0.023375650867819786,
+            -0.134017214179039,
+            0.7328779697418213
+          ]
+        ]
+      },
+      {
+        "triangle_a": 902,
+        "triangle_b": 905,
+        "polygon_a": 902,
+        "polygon_b": 905,
+        "vertices_a": [
+          802,
+          786,
+          799
+        ],
+        "vertices_b": [
+          805,
+          794,
+          793
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.023935042321681976,
+          -0.1341259479522705,
+          0.7319884300231934
+        ],
+        "intersection_points": [
+          [
+            -0.023375650867819786,
+            -0.134017214179039,
+            0.7328779697418213
+          ],
+          [
+            -0.024494431912899017,
+            -0.1342346966266632,
+            0.7310988903045654
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1761,
+        "polygon_a": 905,
+        "polygon_b": 1761,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          801,
+          802,
+          1158
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.020350906997919083,
+          -0.13334421813488007,
+          0.7399239540100098
+        ],
+        "intersection_points": [
+          [
+            -0.021808534860610962,
+            -0.1337505280971527,
+            0.7343705296516418
+          ],
+          [
+            -0.018893279135227203,
+            -0.13293790817260742,
+            0.7454773187637329
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1762,
+        "polygon_a": 905,
+        "polygon_b": 1762,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          801,
+          1158,
+          854
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.016585785895586014,
+          -0.13254868984222412,
+          0.7475845813751221
+        ],
+        "intersection_points": [
+          [
+            -0.014278292655944824,
+            -0.13215945661067963,
+            0.749691903591156
+          ],
+          [
+            -0.018893277272582054,
+            -0.13293790817260742,
+            0.7454773187637329
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1765,
+        "polygon_a": 905,
+        "polygon_b": 1765,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          1160,
+          802,
+          799
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03183535486459732,
+          -0.13527511060237885,
+          0.7296017408370972
+        ],
+        "intersection_points": [
+          [
+            -0.03917628154158592,
+            -0.13631552457809448,
+            0.7281045913696289
+          ],
+          [
+            -0.024494431912899017,
+            -0.1342346966266632,
+            0.7310988903045654
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1769,
+        "polygon_a": 905,
+        "polygon_b": 1769,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          1156,
+          1157,
+          1162
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03777854144573212,
+          -0.13545376062393188,
+          0.7458553314208984
+        ],
+        "intersection_points": [
+          [
+            -0.040276430547237396,
+            -0.13582655787467957,
+            0.7448513507843018
+          ],
+          [
+            -0.035280656069517136,
+            -0.135080948472023,
+            0.7468592524528503
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1772,
+        "polygon_a": 905,
+        "polygon_b": 1772,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          1157,
+          857,
+          1163
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.025587404146790504,
+          -0.13341358304023743,
+          0.7565619945526123
+        ],
+        "intersection_points": [
+          [
+            -0.023436568677425385,
+            -0.13290707767009735,
+            0.76230788230896
+          ],
+          [
+            -0.027738239616155624,
+            -0.1339200735092163,
+            0.7508161664009094
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1773,
+        "polygon_a": 905,
+        "polygon_b": 1773,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          1164,
+          1162,
+          1157
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.032378651201725006,
+          -0.1346411406993866,
+          0.748201310634613
+        ],
+        "intersection_points": [
+          [
+            -0.035280659794807434,
+            -0.135080948472023,
+            0.7468592524528503
+          ],
+          [
+            -0.02947664074599743,
+            -0.13420134782791138,
+            0.7495433688163757
+          ]
+        ]
+      },
+      {
+        "triangle_a": 905,
+        "triangle_b": 1774,
+        "polygon_a": 905,
+        "polygon_b": 1774,
+        "vertices_a": [
+          805,
+          794,
+          793
+        ],
+        "vertices_b": [
+          1164,
+          1157,
+          1163
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.028607439249753952,
+          -0.13406071066856384,
+          0.7501797676086426
+        ],
+        "intersection_points": [
+          [
+            -0.02947664074599743,
+            -0.13420134782791138,
+            0.7495433688163757
+          ],
+          [
+            -0.027738239616155624,
+            -0.1339200735092163,
+            0.7508161664009094
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1017,
+        "polygon_a": 906,
+        "polygon_b": 1017,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          856,
+          90,
+          843
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.002977777970954776,
+          -0.13216114044189453,
+          0.793411374092102
+        ],
+        "intersection_points": [
+          [
+            -0.0026852735318243504,
+            -0.13219229876995087,
+            0.7965382933616638
+          ],
+          [
+            -0.0032702824100852013,
+            -0.1321299970149994,
+            0.7902845144271851
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1018,
+        "polygon_a": 906,
+        "polygon_b": 1018,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          856,
+          843,
+          854
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.00321970134973526,
+          -0.1319001317024231,
+          0.7757339477539062
+        ],
+        "intersection_points": [
+          [
+            -0.0032702824100852013,
+            -0.1321299970149994,
+            0.7902845144271851
+          ],
+          [
+            -0.0031691205222159624,
+            -0.131670281291008,
+            0.7611833810806274
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1019,
+        "polygon_a": 906,
+        "polygon_b": 1019,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          847,
+          93,
+          857
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.008761895820498466,
+          -0.13249333202838898,
+          0.7923988103866577
+        ],
+        "intersection_points": [
+          [
+            -0.008647600188851357,
+            -0.13250932097434998,
+            0.7938652634620667
+          ],
+          [
+            -0.008876192383468151,
+            -0.13247734308242798,
+            0.7909323573112488
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1020,
+        "polygon_a": 906,
+        "polygon_b": 1020,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          847,
+          857,
+          855
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.008832165971398354,
+          -0.13241900503635406,
+          0.7873596549034119
+        ],
+        "intersection_points": [
+          [
+            -0.008876192383468151,
+            -0.13247734308242798,
+            0.7909323573112488
+          ],
+          [
+            -0.008788138628005981,
+            -0.13236066699028015,
+            0.783786952495575
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1029,
+        "polygon_a": 906,
+        "polygon_b": 1029,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          97,
+          857,
+          93
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.008536431938409805,
+          -0.13251575827598572,
+          0.7947069406509399
+        ],
+        "intersection_points": [
+          [
+            -0.008425263687968254,
+            -0.13252218067646027,
+            0.795548677444458
+          ],
+          [
+            -0.008647600188851357,
+            -0.13250932097434998,
+            0.7938652634620667
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1762,
+        "polygon_a": 906,
+        "polygon_b": 1762,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          801,
+          1158,
+          854
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.011066798120737076,
+          -0.13200202584266663,
+          0.7519857883453369
+        ],
+        "intersection_points": [
+          [
+            -0.014278292655944824,
+            -0.13215945661067963,
+            0.749691903591156
+          ],
+          [
+            -0.007855303585529327,
+            -0.13184458017349243,
+            0.7542797327041626
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1771,
+        "polygon_a": 906,
+        "polygon_b": 1771,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          1157,
+          855,
+          857
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.013400275260210037,
+          -0.13253527879714966,
+          0.7771892547607422
+        ],
+        "intersection_points": [
+          [
+            -0.008788138628005981,
+            -0.13236066699028015,
+            0.783786952495575
+          ],
+          [
+            -0.018012411892414093,
+            -0.13270989060401917,
+            0.7705914974212646
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1772,
+        "polygon_a": 906,
+        "polygon_b": 1772,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          1157,
+          857,
+          1163
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.02072449028491974,
+          -0.13280847668647766,
+          0.7664496898651123
+        ],
+        "intersection_points": [
+          [
+            -0.023436566814780235,
+            -0.13290707767009735,
+            0.76230788230896
+          ],
+          [
+            -0.018012411892414093,
+            -0.13270989060401917,
+            0.7705914974212646
+          ]
+        ]
+      },
+      {
+        "triangle_a": 906,
+        "triangle_b": 1775,
+        "polygon_a": 906,
+        "polygon_b": 1775,
+        "vertices_a": [
+          805,
+          793,
+          804
+        ],
+        "vertices_b": [
+          856,
+          854,
+          1158
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.005512211937457323,
+          -0.1317574381828308,
+          0.757731556892395
+        ],
+        "intersection_points": [
+          [
+            -0.0031691205222159624,
+            -0.131670281291008,
+            0.7611833810806274
+          ],
+          [
+            -0.007855303585529327,
+            -0.13184458017349243,
+            0.7542797327041626
+          ]
+        ]
+      },
+      {
+        "triangle_a": 977,
+        "triangle_b": 1776,
+        "polygon_a": 977,
+        "polygon_b": 1776,
+        "vertices_a": [
+          796,
+          797,
+          833
+        ],
+        "vertices_b": [
+          856,
+          1158,
+          1165
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.02652900293469429,
+          -0.126475989818573,
+          0.7615596055984497
+        ],
+        "intersection_points": [
+          [
+            -0.025402313098311424,
+            -0.12621130049228668,
+            0.7644887566566467
+          ],
+          [
+            -0.027655692771077156,
+            -0.12674067914485931,
+            0.7586305141448975
+          ]
+        ]
+      },
+      {
+        "triangle_a": 977,
+        "triangle_b": 1777,
+        "polygon_a": 977,
+        "polygon_b": 1777,
+        "vertices_a": [
+          796,
+          797,
+          833
+        ],
+        "vertices_b": [
+          1158,
+          1161,
+          1166
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03771272301673889,
+          -0.12835198640823364,
+          0.7527786493301392
+        ],
+        "intersection_points": [
+          [
+            -0.040505990386009216,
+            -0.1287948489189148,
+            0.7512795925140381
+          ],
+          [
+            -0.03491945192217827,
+            -0.1279091238975525,
+            0.754277765750885
+          ]
+        ]
+      },
+      {
+        "triangle_a": 977,
+        "triangle_b": 1778,
+        "polygon_a": 977,
+        "polygon_b": 1778,
+        "vertices_a": [
+          796,
+          797,
+          833
+        ],
+        "vertices_b": [
+          1158,
+          1166,
+          1165
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03128757327795029,
+          -0.1273249089717865,
+          0.7564541101455688
+        ],
+        "intersection_points": [
+          [
+            -0.03491945192217827,
+            -0.1279091238975525,
+            0.754277765750885
+          ],
+          [
+            -0.027655692771077156,
+            -0.12674067914485931,
+            0.7586305141448975
+          ]
+        ]
+      },
+      {
+        "triangle_a": 978,
+        "triangle_b": 1776,
+        "polygon_a": 978,
+        "polygon_b": 1776,
+        "vertices_a": [
+          796,
+          833,
+          832
+        ],
+        "vertices_b": [
+          856,
+          1158,
+          1165
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.017714079469442368,
+          -0.12591755390167236,
+          0.7764421701431274
+        ],
+        "intersection_points": [
+          [
+            -0.025402313098311424,
+            -0.12621130049228668,
+            0.7644887566566467
+          ],
+          [
+            -0.01002584770321846,
+            -0.12562380731105804,
+            0.7883956432342529
+          ]
+        ]
+      },
+      {
+        "triangle_a": 978,
+        "triangle_b": 1912,
+        "polygon_a": 978,
+        "polygon_b": 1912,
+        "vertices_a": [
+          796,
+          833,
+          832
+        ],
+        "vertices_b": [
+          1224,
+          1163,
+          217
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.031124010682106018,
+          -0.12699246406555176,
+          0.7915968894958496
+        ],
+        "intersection_points": [
+          [
+            -0.0317697674036026,
+            -0.12703345715999603,
+            0.7916374206542969
+          ],
+          [
+            -0.030478253960609436,
+            -0.12695147097110748,
+            0.7915563583374023
+          ]
+        ]
+      },
+      {
+        "triangle_a": 978,
+        "triangle_b": 1914,
+        "polygon_a": 978,
+        "polygon_b": 1914,
+        "vertices_a": [
+          796,
+          833,
+          832
+        ],
+        "vertices_b": [
+          1163,
+          97,
+          217
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.03039746917784214,
+          -0.1269492208957672,
+          0.7917352914810181
+        ],
+        "intersection_points": [
+          [
+            -0.030316684395074844,
+            -0.12694697082042694,
+            0.7919142246246338
+          ],
+          [
+            -0.030478253960609436,
+            -0.12695147097110748,
+            0.7915563583374023
+          ]
+        ]
+      },
+      {
+        "triangle_a": 978,
+        "triangle_b": 1915,
+        "polygon_a": 978,
+        "polygon_b": 1915,
+        "vertices_a": [
+          796,
+          833,
+          832
+        ],
+        "vertices_b": [
+          856,
+          1165,
+          1225
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.009333016350865364,
+          -0.12560516595840454,
+          0.7899737358093262
+        ],
+        "intersection_points": [
+          [
+            -0.01002584956586361,
+            -0.12562380731105804,
+            0.7883956432342529
+          ],
+          [
+            -0.008640183135867119,
+            -0.12558652460575104,
+            0.7915517687797546
+          ]
+        ]
+      },
+      {
+        "triangle_a": 978,
+        "triangle_b": 1916,
+        "polygon_a": 978,
+        "polygon_b": 1916,
+        "vertices_a": [
+          796,
+          833,
+          832
+        ],
+        "vertices_b": [
+          856,
+          1225,
+          862
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.007544507272541523,
+          -0.12555639445781708,
+          0.7940061092376709
+        ],
+        "intersection_points": [
+          [
+            -0.006448831409215927,
+            -0.12552626430988312,
+            0.7964604496955872
+          ],
+          [
+            -0.008640183135867119,
+            -0.12558652460575104,
+            0.7915517687797546
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1017,
+        "triangle_b": 1917,
+        "polygon_a": 1017,
+        "polygon_b": 1917,
+        "vertices_a": [
+          856,
+          90,
+          843
+        ],
+        "vertices_b": [
+          106,
+          805,
+          804
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0026551035698503256,
+          -0.13215696811676025,
+          0.7970706224441528
+        ],
+        "intersection_points": [
+          [
+            -0.002685271203517914,
+            -0.13219229876995087,
+            0.7965382933616638
+          ],
+          [
+            -0.0026249359361827374,
+            -0.13212165236473083,
+            0.7976028919219971
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1017,
+        "triangle_b": 1918,
+        "polygon_a": 1017,
+        "polygon_b": 1918,
+        "vertices_a": [
+          856,
+          90,
+          843
+        ],
+        "vertices_b": [
+          106,
+          804,
+          100
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0024169068783521652,
+          -0.1322312355041504,
+          0.7993507385253906
+        ],
+        "intersection_points": [
+          [
+            -0.002208877122029662,
+            -0.13234083354473114,
+            0.8010985255241394
+          ],
+          [
+            -0.0026249364018440247,
+            -0.13212165236473083,
+            0.7976028919219971
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1029,
+        "triangle_b": 1917,
+        "polygon_a": 1029,
+        "polygon_b": 1917,
+        "vertices_a": [
+          97,
+          857,
+          93
+        ],
+        "vertices_b": [
+          106,
+          805,
+          804
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.008209673687815666,
+          -0.1323809176683426,
+          0.7976083159446716
+        ],
+        "intersection_points": [
+          [
+            -0.008425265550613403,
+            -0.13252218067646027,
+            0.795548677444458
+          ],
+          [
+            -0.007994081825017929,
+            -0.13223965466022491,
+            0.7996679544448853
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1029,
+        "triangle_b": 1918,
+        "polygon_a": 1029,
+        "polygon_b": 1918,
+        "vertices_a": [
+          97,
+          857,
+          93
+        ],
+        "vertices_b": [
+          106,
+          804,
+          100
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0067137680016458035,
+          -0.13276873528957367,
+          0.8080971240997314
+        ],
+        "intersection_points": [
+          [
+            -0.005433454178273678,
+            -0.13329781591892242,
+            0.8165262341499329
+          ],
+          [
+            -0.007994081825017929,
+            -0.13223965466022491,
+            0.7996679544448853
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1030,
+        "triangle_b": 1918,
+        "polygon_a": 1030,
+        "polygon_b": 1918,
+        "vertices_a": [
+          97,
+          93,
+          95
+        ],
+        "vertices_b": [
+          106,
+          804,
+          100
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.005274332128465176,
+          -0.13339489698410034,
+          0.8180751800537109
+        ],
+        "intersection_points": [
+          [
+            -0.005433454178273678,
+            -0.13329781591892242,
+            0.8165262341499329
+          ],
+          [
+            -0.005115210078656673,
+            -0.13349196314811707,
+            0.8196241855621338
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1031,
+        "triangle_b": 1033,
+        "polygon_a": 1031,
+        "polygon_b": 1033,
+        "vertices_a": [
+          862,
+          91,
+          90
+        ],
+        "vertices_b": [
+          102,
+          101,
+          863
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.0035815569572150707,
+          -0.13671544194221497,
+          0.8371496200561523
+        ],
+        "intersection_points": [
+          [
+            0.0034310249611735344,
+            -0.13651558756828308,
+            0.836351215839386
+          ],
+          [
+            0.003732088953256607,
+            -0.13691531121730804,
+            0.8379480242729187
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1031,
+        "triangle_b": 1034,
+        "polygon_a": 1031,
+        "polygon_b": 1034,
+        "vertices_a": [
+          862,
+          91,
+          90
+        ],
+        "vertices_b": [
+          102,
+          863,
+          103
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.003848977852612734,
+          -0.13709913194179535,
+          0.8384138345718384
+        ],
+        "intersection_points": [
+          [
+            0.003732088953256607,
+            -0.13691531121730804,
+            0.8379480242729187
+          ],
+          [
+            0.003965866751968861,
+            -0.13728295266628265,
+            0.8388797044754028
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1031,
+        "triangle_b": 1036,
+        "polygon_a": 1031,
+        "polygon_b": 1036,
+        "vertices_a": [
+          862,
+          91,
+          90
+        ],
+        "vertices_b": [
+          864,
+          101,
+          100
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.0009447682532481849,
+          -0.13346487283706665,
+          0.8218177556991577
+        ],
+        "intersection_points": [
+          [
+            0.0011131870560348034,
+            -0.13362973928451538,
+            0.8230271339416504
+          ],
+          [
+            0.0007763494504615664,
+            -0.13329999148845673,
+            0.8206084370613098
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1031,
+        "triangle_b": 1135,
+        "polygon_a": 1031,
+        "polygon_b": 1135,
+        "vertices_a": [
+          862,
+          91,
+          90
+        ],
+        "vertices_b": [
+          100,
+          804,
+          803
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.0006882278248667717,
+          -0.13328218460083008,
+          0.8196071982383728
+        ],
+        "intersection_points": [
+          [
+            0.0006490256637334824,
+            -0.1332647204399109,
+            0.8192131519317627
+          ],
+          [
+            0.000727429986000061,
+            -0.13329964876174927,
+            0.8200012445449829
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1031,
+        "triangle_b": 1136,
+        "polygon_a": 1031,
+        "polygon_b": 1136,
+        "vertices_a": [
+          862,
+          91,
+          90
+        ],
+        "vertices_b": [
+          100,
+          803,
+          864
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.0007518903585150838,
+          -0.1332998275756836,
+          0.8203048706054688
+        ],
+        "intersection_points": [
+          [
+            0.0007274302770383656,
+            -0.13329964876174927,
+            0.8200012445449829
+          ],
+          [
+            0.0007763504981994629,
+            -0.13329999148845673,
+            0.8206084370613098
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1031,
+        "triangle_b": 1920,
+        "polygon_a": 1031,
+        "polygon_b": 1920,
+        "vertices_a": [
+          862,
+          91,
+          90
+        ],
+        "vertices_b": [
+          832,
+          109,
+          108
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.002231908729299903,
+          -0.12693297863006592,
+          0.8174247741699219
+        ],
+        "intersection_points": [
+          [
+            -0.0020114905200898647,
+            -0.12707361578941345,
+            0.8194118738174438
+          ],
+          [
+            -0.002452326938509941,
+            -0.1267923265695572,
+            0.8154376149177551
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1032,
+        "triangle_b": 1135,
+        "polygon_a": 1032,
+        "polygon_b": 1135,
+        "vertices_a": [
+          862,
+          90,
+          856
+        ],
+        "vertices_b": [
+          100,
+          804,
+          803
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          0.00011735329462680966,
+          -0.13314954936504364,
+          0.8156785368919373
+        ],
+        "intersection_points": [
+          [
+            0.0006490256637334824,
+            -0.1332647204399109,
+            0.8192131519317627
+          ],
+          [
+            -0.00041431907447986305,
+            -0.1330343782901764,
+            0.8121439218521118
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1032,
+        "triangle_b": 1918,
+        "polygon_a": 1032,
+        "polygon_b": 1918,
+        "vertices_a": [
+          862,
+          90,
+          856
+        ],
+        "vertices_b": [
+          106,
+          804,
+          100
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0013115982292219996,
+          -0.13268759846687317,
+          0.8066211938858032
+        ],
+        "intersection_points": [
+          [
+            -0.002208877354860306,
+            -0.13234083354473114,
+            0.8010985255241394
+          ],
+          [
+            -0.00041431907447986305,
+            -0.1330343782901764,
+            0.8121439218521118
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1032,
+        "triangle_b": 1919,
+        "polygon_a": 1032,
+        "polygon_b": 1919,
+        "vertices_a": [
+          862,
+          90,
+          856
+        ],
+        "vertices_b": [
+          832,
+          833,
+          109
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.005295666866004467,
+          -0.12564124166965485,
+          0.7980886697769165
+        ],
+        "intersection_points": [
+          [
+            -0.005342503543943167,
+            -0.12561187148094177,
+            0.7978330850601196
+          ],
+          [
+            -0.00524882972240448,
+            -0.12567061185836792,
+            0.7983441948890686
+          ]
+        ]
+      },
+      {
+        "triangle_a": 1032,
+        "triangle_b": 1920,
+        "polygon_a": 1032,
+        "polygon_b": 1920,
+        "vertices_a": [
+          862,
+          90,
+          856
+        ],
+        "vertices_b": [
+          832,
+          109,
+          108
+        ],
+        "kind": "proper_crossing",
+        "position_world": [
+          -0.0038505778647959232,
+          -0.12623146176338196,
+          0.8068909049034119
+        ],
+        "intersection_points": [
+          [
+            -0.002452326938509941,
+            -0.1267923265695572,
+            0.8154376149177551
+          ],
+          [
+            -0.005248828791081905,
+            -0.12567061185836792,
+            0.7983441948890686
+          ]
+        ]
+      }
+    ],
+    "method": "BVH broad-phase then exact segment/coplanar classifier; shared-vertex neighbors excluded; point-touch and coplanar edge contact are not crossings."
+  },
+  "evidence": {
+    "actual_boundary_edge_projection": "evidence/independent_boundary_loops.svg",
+    "underhem_technical_render": {
+      "file": "evidence/independent_underhem_opening.png",
+      "camera_location": [
+        0.3400000035762787,
+        -0.3400000035762787,
+        -0.1599999964237213
+      ],
+      "camera_target": [
+        0.0,
+        0.0,
+        0.12999999523162842
+      ],
+      "scope": "Technical underhem opening view only; camera is not saved into inspection blend."
+    }
+  },
+  "scope": {
+    "static_checked": "raw hashes, mesh counts/connectivity, boundary components, opening centerline ray probes, nonmanifold locations, exact non-neighbor self-intersections.",
+    "not_tested": "Rigging, skin weights, deformation/animation, UV/texture readiness, body fit, Godot import, and final art approval."
+  },
+  "verdict": "Static garment candidate only. Passing opening probes or zero crossings would not establish animation-ready clothing."
+}

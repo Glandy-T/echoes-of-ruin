@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "provider": "Tripo Studio China official web UI via Chrome extension",
+  "authorization": "User authorized separate batches using purchasedTripo credits; clothing/bodyseparate forfuturewardrobe and mustconsiderbone motion.",
+  "status": "REJECTED_AS_STANDALONE_GARMENT_CONTAINS_HANDS_AND_FEET",
+  "submission_count": 1,
+  "requested_count": 1,
+  "requested_privacy": "Private",
+  "requested_model": "P2.0 SmartMesh",
+  "requested_topology": "Quad target2000",
+  "displayed_cost_before_submit": 100,
+  "credits_before_observed": 3190,
+  "requested_input": "Project-authored text only. No PixelCanals/NoAI images uploaded.",
+  "requested_rig_constraints": "Shared adult humanoid skeleton; matchingApose~40deg; continuousshoulder/elbow cloth and clearance armpit/hem. These are requestedconditions, not verifiedoutcomes.",
+  "design_status": "Standalonewhitecalflengthcryosleepgown candidate; nofinalUV/textures/weights/animationclaims.",
+  "prompt_characters": 982,
+  "topology_field_confirmed": 2000,
+  "model_id": "b97f485d-56df-4981-9b99-e27398e5ebf8",
+  "model_url": "https://studio.tripo3d.com/workspace/generate/b97f485d-56df-4981-9b99-e27398e5ebf8",
+  "web_faces": 2203,
+  "web_vertices": 2090,
+  "credits_after_observed": 3090,
+  "account_difference_during_job": 100,
+  "adopted": false,
+  "raw_glb": {
+    "name": "protagonist_tripo_robe_v1_raw.glb",
+    "bytes": 99128,
+    "sha256": "bdec2c7ad2d17bb8e1066bfa54ea7779eafecaa65b7aa670238c1a825bfd8429"
+  }
+}

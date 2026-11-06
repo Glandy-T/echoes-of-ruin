@@ -1,0 +1,2 @@
+model/*.obj whitespace=-blank-at-eof
+model/*.mtl whitespace=-blank-at-eof

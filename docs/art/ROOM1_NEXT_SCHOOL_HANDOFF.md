@@ -1,6 +1,8 @@
-# 学校交接：2026-11-06／主角头发v2与编辑分组待审，4F v6仍待选
+# 学校交接：2026-11-06／主角分件生成与动作准备，4F v6仍待选
 
-**当前优先：主角头发整理v2。** 用户审看v1后要求继续；当前入口是[v1／v2五机位对比](experiments/protagonist_tripo_cn_cleanup_v2/preview.html)，包含Blender与候选GLB。v2去掉左侧小卷丝、局部平顺发尾，保留右后宽发束、头型和人物体积。头发／白袍／头颈／手／脚建立编辑顶点组，尚非完成分件。下一步应整理白袍开口、内侧和必要的腿部代理，再做变形拓扑与UV试展，不直接套贴图绑定。[清理v1](experiments/protagonist_tripo_cn_cleanup_v1/README.md)和[国内版原始导出](experiments/protagonist_tripo_cn_p20_v1/README.md)均保留；本轮无新增生成费用。原游戏角色、Room1、4F、镜头和光照均未替换。
+**当前优先：主角分件候选与绑定前检查。** [总入口](experiments/protagonist_tripo_robe_v2/preview.html)提供身体 v1、白袍 v2 各自的 Blender、原始导出、正侧背与斜视图。用户已要求为换装把身体和衣物分开，并明确考虑后续绑骨运动。白袍文字 v1 附带手脚，已拒绝；灰模正反面引导的 v2 成为衣物候选。手工结构 v3 因源衣服腋下本身自交，已停止继续修补，保留失败证据。
+
+**尚未完成：**新身体脚趾局部28对相交需要简化；新白袍v2有272对相交和2条非流形边，虽开口成立，仍仅作外形候选。先重新整理衣服腋下／内外层变形拓扑并重查，不能直接自动权重。之后统一身体和衣服的身高、关节与休止姿势再试穿，用共享骨架做抬臂／弯肘／行走变形检查，最后才固定UV和PixelLab贴图。没有正式绑骨、权重或动画验收，未替换游戏角色。头发v2仅作为当前发型来源，未装到新身体。
 
 **楼梯材质仍待审：**[局部折中候选](experiments/cryo_stair_material_sample_v1/preview.html)沿用 r24 墙、灰色矿物踏步＋平台。首轮偏花，quiet1过平，当前只作局部折中，不是认可基准。Godot入口 `scenes/dev/cryo_stair_material_sample_v1.tscn`，F6、1/2/3机位。整栋推广及最终运动灯光未完成。
 
@@ -13,10 +15,10 @@
 ## 接手后先做什么
 
 1. 检查本机`git status`并保留已有差异，再同步main。下面列出的未提交文件不能清理或顺手混入本次提交。
-2. 当前先打开[主角v2对比](experiments/protagonist_tripo_cn_cleanup_v2/preview.html)和其中Blender工程，审看去卷丝、发尾及保留的宽发束是否合适。`AFTER_V2`默认可见，`BEFORE_V1`为对照。五个顶点组是编辑选择，不能误当成可动画分件；白袍开口和内侧、必要腿部代理及UV均未完成。详细改动、验证和回退见该目录README。
+2. 当前先打开[身体／白袍分件候选](experiments/protagonist_tripo_robe_v2/preview.html)，确认人体比例、袍型及真正开口；结合静态QA定位问题，再统一姿势、试穿并临时绑骨。不得使用失败的手工 v3 或文字白袍 v1 直接继续UV／贴图；原整人头发v2留作造型来源。
 3. 4F路线另看[五种镜头、两种触发和四段动图](experiments/cryo_4f_camera_compare_v6/preview.html)。Godot打开`scenes/dev/cryo_4f_camera_compare_v6.tscn`，F6运行，F8到走廊；不要用F5判断实验。
 4. 等用户确定v6镜头、触发和显现强度后再收敛，不把默认A／距离规则／50%当成已认可方案，不改回人物周围挖洞。
-5. 楼梯材质仍是局部折中候选，运动灯光未实现；1F室外连接未确定。主角当前已恢复，旧暂停记录只供追溯。
+5. 楼梯材质仍是局部折中候选，运动灯光未实现；1F室外连接未确定。主角当前已恢复并走分件候选路线，旧暂停记录只供追溯。
 
 ## 用户最新要求与已改变的方向
 
@@ -89,7 +91,7 @@
 - v6只改显示和比较控制，未改像素颜色、UV或静态光图，也没有新生成材质。仍遵守[光照／UV检查](ROOM1_LIGHTMAP_QA.md)。
 - 西梯既有4F至1F路线保留，东／南／北有4F入口灰盒。楼梯、公共区专用门型、电梯入口、外立面均未完成正式美术。1F到室外的连接尚未确定，不能声称已做完整栋或已走到室外。
 - 其他房间和楼层权限不开放，F12只是审图跳转。停运电梯不恢复运行。楼梯后续读[感应灯带Brief](CRYO_STAIR_MOTION_LIGHTING_BRIEF.md)，电梯读[入口Brief](CRYO_PASSENGER_LIFT_ENTRANCE_BRIEF.md)。
-- 主角仍为临时纸片，受光沿用已有近似；[三视图v2](experiments/protagonist_turnaround_v2/README.md)和[主角Brief](PROTAGONIST_LOW_POLY_BRIEF.md)保留，未做3D／绑定／替换。不要把旧v1错误背面当建模依据。
+- 主角仍为临时纸片，受光沿用已有近似；[三视图v2](experiments/protagonist_turnaround_v2/README.md)和[主角Brief](PROTAGONIST_LOW_POLY_BRIEF.md)保留，已取得3D分件候选，未完成绑定／替换。不要把旧v1错误背面当建模依据。
 
 ## 主要文件与复现
 
@@ -106,12 +108,12 @@
 | 整层运行资产／烘焙源 | `assets/art/cryo_4f_complete_v3/`；[整层v3源与复建](experiments/cryo_4f_complete_v3/README.md) |
 | 冻结尺寸 | `docs/cad/cryo_standard_floor/v3_trim/floor_layout.json`；[设施布局](../CRYO_FACILITY_LAYOUT.md) |
 
-这台学校机已使用并核对存在：
+11月4日学校机曾使用并核对以下路径（历史环境记录；本轮家中工作区为 `G:/卒業制作/echoes-of-ruin`）：
 
 - Godot：`E:/卒業制作/GODOT/Godot_v4.6.2-stable_win64_console.exe`。
 - Blender：`C:/Program Files/Blender Foundation/Blender 5.0/blender.exe`，附带Python在`5.0/python/bin/python.exe`。
 - Pillow／NumPy补充包：`E:/卒業制作/.runtime/python-packages`，运行Python分析时设置该`PYTHONPATH`。
-- 本轮CLI运行使用`APPDATA=E:/卒業制作/.runtime/roaming`、`LOCALAPPDATA=E:/卒業制作/.runtime/local`；这是代理的验证运行环境，不要求用户手工逐步配置。换机器先核对实际路径。
+- 当时CLI运行使用`APPDATA=E:/卒業制作/.runtime/roaming`、`LOCALAPPDATA=E:/卒業制作/.runtime/local`；这是学校代理的验证运行环境，不要求用户手工逐步配置。换机器先核对实际路径。
 
 需要重跑时由接手代理执行对应验证／捕获／分析；只改交接无需重烘焙。旧日志中的系统根证书读取提示不等于本轮断言失败，判断应读PASS报告及实际画面。
 
@@ -124,7 +126,7 @@
 - 未跟踪`assets/art/room1_integrated_door_v3/room1_integrated_door_v3_door_front.png`。
 - 未跟踪`assets/art/room1_open_hero_bake_r1/strip_irradiance.exr`。
 
-这台机按`AGENTS.md`约定使用独立上传副本`E:/卒業制作/.publish-4f-complete-v3-20261104/`提交自己的文件，核对远端后同步工作分支。不要强制检出或清理这些未提交文件；换机器先看状态再拉取，不覆盖学校或家里的其他成果。
+学校曾使用独立上传副本`E:/卒業制作/.publish-4f-complete-v3-20261104/`；11月6日家中按相同原则在当前仓库 `.delivery_uploads/` 下隔离提交。不要强制检出或清理这些未提交文件；换机器先看状态再拉取，不覆盖学校或家里的其他成果。
 
 ## 工具与生成额度
 

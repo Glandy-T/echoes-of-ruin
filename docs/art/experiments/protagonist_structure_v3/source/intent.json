@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-06",
+  "baseline": "../protagonist_tripo_cn_cleanup_v2/model/protagonist_cn_cleanup_v2.blend",
+  "user_authorization": "Continue whitegown opening/interior and necessary leg structure before UV trial; preserve exterior, appearance and proportions.",
+  "protected": [
+    "Raw Tripo, cleanupv1, cleanupv2",
+    "Hair/face/head/hands/visiblefeet shape",
+    "Existing whitegown outer silhouette and normals",
+    "Room1/currentGodotcharacter/cameras/lights"
+  ],
+  "allowed": [
+    "Proven garmentcap removal",
+    "Minimal inner cloth thickness and opening rims",
+    "Necessary concealed leg proxies using existing ankle attachment",
+    "Actual editablepartseparation",
+    "Technical UV test and checker only ifstructureviable"
+  ],
+  "excluded": [
+    "New finalclothingdesign",
+    "Nudecharacter generation",
+    "Final pixeltexture painting outsidePixelLab",
+    "Rigging/animation/gamecharacterreplacement",
+    "Wholecharacterremesh"
+  ],
+  "validation": "Matched fiveQA cameras1280x720 plusunderhem/cuff structureviews, actualsurface/collision/opening inspection, preservedoutercoordinates/normals, readableparts and export. UV trial notfinalart/animationapproval."
+}

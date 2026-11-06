@@ -1,0 +1,21 @@
+{
+  "scope": "UV preparation code only; generated from an unsaved Blender 5.0.1 scratch session loading the frozen v3 blend.",
+  "audit": {
+    "method": "Exact UV triangle clipping with positive area > 1e-10; triangles belonging to the same source n-gon are excluded because their mutual interior is tessellation, not overlapping surfaces.",
+    "unit_tiles": "Each mesh part is independently packed into its own unit tile. This is not a shared final pixel-art atlas."
+  },
+  "before": {
+    "Hair_Main": {"islands": 30, "positive_overlap_pairs": 110, "zero_area_triangle_parent_faces": 0},
+    "Robe_Outer_Inner_Rims": {"islands": 16, "positive_overlap_pairs": 55, "zero_area_triangle_parent_faces": 0},
+    "Body_Base_Separate_From_Clothes": {"islands": 47, "positive_overlap_pairs": 102, "zero_area_triangle_parent_faces": 0},
+    "Preserved_Unclassified_Source_Details": {"islands": 46, "positive_overlap_pairs": 0, "zero_area_triangle_parent_faces": 0}
+  },
+  "after_scratch_prepare": {
+    "Hair_Main": {"islands": 53, "positive_overlap_pairs": 0, "zero_area_triangle_parent_faces": 0, "overlap_faces_reprojected": 54},
+    "Robe_Outer_Inner_Rims": {"islands": 42, "positive_overlap_pairs": 0, "zero_area_triangle_parent_faces": 0, "overlap_faces_reprojected": 47},
+    "Body_Base_Separate_From_Clothes": {"islands": 69, "positive_overlap_pairs": 0, "zero_area_triangle_parent_faces": 0, "overlap_faces_reprojected": 42},
+    "Preserved_Unclassified_Source_Details": {"islands": 46, "positive_overlap_pairs": 0, "zero_area_triangle_parent_faces": 0, "overlap_faces_reprojected": 0}
+  },
+  "repair": "Preserve structural seams and broad charts; isolate only faces in exact cross-face overlap hits, smart-project the selected subset with BMesh selection-count assertions, then average island scale and repack. A final local correction handles any narrow face collapsed by that repack. Original custom corner normals are restored after all UV operations.",
+  "not_proof_of": "Final pixel texture quality, texel-density approval, Godot import/runtime, animation, or visual art acceptance."
+}
