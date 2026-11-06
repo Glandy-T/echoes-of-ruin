@@ -1,0 +1,1488 @@
+{
+  "status": "FAIL_STATIC_AND_FUNCTIONAL_CANDIDATE",
+  "blender_version": "5.0.1",
+  "raw_obj": {
+    "path": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_robe_h31_v1\\model\\protagonist_tripo_robe_h31_v1_raw.obj",
+    "sha256_before": "ad18e4994d2571e3c779bba23def9e688deb00014ae95af8ea9348de86652db3",
+    "sha256_after": "ad18e4994d2571e3c779bba23def9e688deb00014ae95af8ea9348de86652db3"
+  },
+  "checks": {
+    "one_candidate_mesh_object": true,
+    "raw_source_hash_unchanged": true,
+    "reference_hash_unchanged": true,
+    "finite_vertex_coordinates": true,
+    "single_connected_component": false,
+    "no_loose_edges": true,
+    "no_loose_vertices": true,
+    "no_degenerate_faces": true,
+    "no_nonmanifold_edges": true,
+    "no_true_nonadjacent_self_intersections": true,
+    "hem_center_grid_has_no_low_internal_cap": false
+  },
+  "failed_checks": [
+    "single_connected_component",
+    "hem_center_grid_has_no_low_internal_cap"
+  ],
+  "import_axis": {
+    "up": "+Z is the prior orientation hypothesis; renders preserve import transforms.",
+    "front": "+X is the prior face-direction hypothesis; raw_front/raw_back are labelled by camera axis, not a claim that anatomy was confirmed automatically.",
+    "required_readback": "Compare raw_front.png, raw_back.png, raw_side.png, raw_quarter.png against the visible garment before treating the labels as confirmed."
+  },
+  "bounds_world": {
+    "min": [
+      -0.16839386522769928,
+      -0.3157716393470764,
+      -2.3840096119442933e-08
+    ],
+    "max": [
+      0.16839386522769928,
+      0.3157716989517212,
+      0.9780594110488892
+    ],
+    "dimensions": [
+      0.33678773045539856,
+      0.6315433382987976,
+      0.9780594110488892
+    ]
+  },
+  "topology": [
+    {
+      "object": "protagonist_tripo_robe_h31_v1_raw",
+      "vertices": 3870,
+      "edges": 7721,
+      "polygons": 3853,
+      "triangles_after_triangulation": 7704,
+      "triangle_polygons": 2,
+      "quad_polygons": 3851,
+      "ngon_polygons": 0,
+      "connected_components": 4,
+      "component_vertex_counts_descending": [
+        3850,
+        14,
+        3,
+        3
+      ],
+      "component_details": [
+        {
+          "vertices": 3850,
+          "bounds_local": {
+            "min": [
+              -0.16839386522769928,
+              0.0,
+              -0.3157716393470764
+            ],
+            "max": [
+              0.16839386522769928,
+              0.9780594110488892,
+              0.3157716393470764
+            ]
+          },
+          "bounds_world": {
+            "min": [
+              -0.16839386522769928,
+              -0.31577160954475403,
+              -6.248171313671946e-09
+            ],
+            "max": [
+              0.16839386522769928,
+              0.3157716691493988,
+              0.9780594110488892
+            ]
+          }
+        },
+        {
+          "vertices": 14,
+          "bounds_local": {
+            "min": [
+              -0.0884532779455185,
+              0.8055257797241211,
+              0.1275143176317215
+            ],
+            "max": [
+              -0.08632781356573105,
+              0.8078873157501221,
+              0.12905266880989075
+            ]
+          },
+          "bounds_world": {
+            "min": [
+              -0.0884532779455185,
+              -0.12905260920524597,
+              0.8055257797241211
+            ],
+            "max": [
+              -0.08632781356573105,
+              -0.12751425802707672,
+              0.8078873157501221
+            ]
+          }
+        },
+        {
+          "vertices": 3,
+          "bounds_local": {
+            "min": [
+              -0.09398244321346283,
+              0.7046375274658203,
+              0.11778493970632553
+            ],
+            "max": [
+              -0.07099927961826324,
+              0.7283717393875122,
+              0.13055282831192017
+            ]
+          },
+          "bounds_world": {
+            "min": [
+              -0.09398244321346283,
+              -0.1305527687072754,
+              0.7046375274658203
+            ],
+            "max": [
+              -0.07099927961826324,
+              -0.11778488755226135,
+              0.7283717393875122
+            ]
+          }
+        },
+        {
+          "vertices": 3,
+          "bounds_local": {
+            "min": [
+              -0.05514347180724144,
+              0.6951844692230225,
+              0.13530443608760834
+            ],
+            "max": [
+              -0.04942997917532921,
+              0.7050842046737671,
+              0.1540689617395401
+            ]
+          },
+          "bounds_world": {
+            "min": [
+              -0.05514347180724144,
+              -0.15406890213489532,
+              0.6951844692230225
+            ],
+            "max": [
+              -0.04942997917532921,
+              -0.13530437648296356,
+              0.7050842046737671
+            ]
+          }
+        }
+      ],
+      "boundary_edges": 32,
+      "boundary_components": [
+        {
+          "vertices": 3,
+          "edges": 3,
+          "closed_simple_ring": true,
+          "center_local": [
+            -0.08410447835922241,
+            0.7132271528244019,
+            0.12343110889196396
+          ],
+          "bounds_local": {
+            "min": [
+              -0.09398244321346283,
+              0.7046375274658203,
+              0.11778493970632553
+            ],
+            "max": [
+              -0.07099927961826324,
+              0.7283717393875122,
+              0.13055282831192017
+            ]
+          }
+        },
+        {
+          "vertices": 3,
+          "edges": 3,
+          "closed_simple_ring": true,
+          "center_local": [
+            -0.05276801809668541,
+            0.6990487575531006,
+            0.14674943685531616
+          ],
+          "bounds_local": {
+            "min": [
+              -0.05514347180724144,
+              0.6951844692230225,
+              0.13530443608760834
+            ],
+            "max": [
+              -0.04942997917532921,
+              0.7050842046737671,
+              0.1540689617395401
+            ]
+          }
+        },
+        {
+          "vertices": 3,
+          "edges": 3,
+          "closed_simple_ring": true,
+          "center_local": [
+            -0.08410447835922241,
+            0.7132271528244019,
+            0.12343110889196396
+          ],
+          "bounds_local": {
+            "min": [
+              -0.09398244321346283,
+              0.7046375274658203,
+              0.11778493970632553
+            ],
+            "max": [
+              -0.07099927961826324,
+              0.7283717393875122,
+              0.13055282831192017
+            ]
+          }
+        },
+        {
+          "vertices": 3,
+          "edges": 3,
+          "closed_simple_ring": true,
+          "center_local": [
+            -0.05276801809668541,
+            0.6990487575531006,
+            0.14674943685531616
+          ],
+          "bounds_local": {
+            "min": [
+              -0.05514347180724144,
+              0.6951844692230225,
+              0.13530443608760834
+            ],
+            "max": [
+              -0.04942997917532921,
+              0.7050842046737671,
+              0.1540689617395401
+            ]
+          }
+        },
+        {
+          "vertices": 14,
+          "edges": 14,
+          "closed_simple_ring": true,
+          "center_local": [
+            -0.0875825509428978,
+            0.8067230582237244,
+            0.12848997116088867
+          ],
+          "bounds_local": {
+            "min": [
+              -0.0884532779455185,
+              0.8055257797241211,
+              0.1275143176317215
+            ],
+            "max": [
+              -0.08632781356573105,
+              0.8078873157501221,
+              0.12905266880989075
+            ]
+          }
+        },
+        {
+          "vertices": 6,
+          "edges": 6,
+          "closed_simple_ring": true,
+          "center_local": [
+            0.1199151873588562,
+            0.3938407301902771,
+            -0.07896169275045395
+          ],
+          "bounds_local": {
+            "min": [
+              0.11786192655563354,
+              0.37763074040412903,
+              -0.09422214329242706
+            ],
+            "max": [
+              0.12481527775526047,
+              0.41269388794898987,
+              -0.061623070389032364
+            ]
+          }
+        }
+      ],
+      "loose_edges": 0,
+      "loose_vertices": 0,
+      "vertices_not_referenced_by_faces": 0,
+      "nonmanifold_edges_more_than_two_faces": 0,
+      "nonmanifold_edge_samples": [],
+      "degenerate_edges_near_zero": 0,
+      "degenerate_faces_near_zero_area": 0,
+      "finite_vertex_coordinates": true,
+      "uv_layer_count": 0,
+      "vertex_group_count": 0,
+      "shape_keys_present": false,
+      "armature_modifier_count": 0,
+      "self_intersection_audit": {
+        "bvh_candidate_pair_count": 1294,
+        "classification_counts": {
+          "excluded_shared_vertex_neighbor": 1293,
+          "point_touch": 1
+        },
+        "true_nonadjacent_intersection_count": 0,
+        "true_nonadjacent_intersections_sample": [],
+        "method": "BVH broad phase followed by exact segment/coplanar classification; only triangle pairs sharing a vertex index are excluded as topological neighbors. AABB/BVH overlap alone is not reported as an intersection."
+      }
+    }
+  ],
+  "opening_ray_probes": {
+    "neck_from_plus_z": {
+      "rays": [
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            -0.018946269527077675,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.20793430507183075,
+          "first_hit_triangle": 414,
+          "first_hit_polygon": 208,
+          "first_hit_position_world": [
+            -0.010103631764650345,
+            -0.018946269527077675,
+            0.9168340563774109
+          ],
+          "first_hit_normal_world": [
+            -0.17109154164791107,
+            0.23639075458049774,
+            0.9564763903617859
+          ]
+        },
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            2.9802322387695312e-08,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.21072831749916077,
+          "first_hit_triangle": 411,
+          "first_hit_polygon": 206,
+          "first_hit_position_world": [
+            -0.010103631764650345,
+            2.9802322387695312e-08,
+            0.9140400886535645
+          ],
+          "first_hit_normal_world": [
+            -0.1586446762084961,
+            0.005319031421095133,
+            0.9873214364051819
+          ]
+        },
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            0.01894632913172245,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.20847395062446594,
+          "first_hit_triangle": 406,
+          "first_hit_polygon": 204,
+          "first_hit_position_world": [
+            -0.010103631764650345,
+            0.01894632913172245,
+            0.9162944555282593
+          ],
+          "first_hit_normal_world": [
+            -0.1610327512025833,
+            -0.2101910263299942,
+            0.9643071889877319
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            -0.018946269527077675,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.2058010697364807,
+          "first_hit_triangle": 415,
+          "first_hit_polygon": 208,
+          "first_hit_position_world": [
+            0.0,
+            -0.018946269527077675,
+            0.9189673066139221
+          ],
+          "first_hit_normal_world": [
+            -0.26511693000793457,
+            0.17874912917613983,
+            0.9475029110908508
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            2.9802322387695312e-08,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.2078431397676468,
+          "first_hit_triangle": 416,
+          "first_hit_polygon": 209,
+          "first_hit_position_world": [
+            0.0,
+            2.9802322387695312e-08,
+            0.9169252514839172
+          ],
+          "first_hit_normal_world": [
+            -0.2788165211677551,
+            0.004669342190027237,
+            0.960332989692688
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            0.01894632913172245,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.20597444474697113,
+          "first_hit_triangle": 422,
+          "first_hit_polygon": 212,
+          "first_hit_position_world": [
+            0.0,
+            0.01894632913172245,
+            0.9187939167022705
+          ],
+          "first_hit_normal_world": [
+            -0.2410857081413269,
+            -0.1531669646501541,
+            0.958341121673584
+          ]
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            -0.018946269527077675,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.20045380294322968,
+          "first_hit_triangle": 856,
+          "first_hit_polygon": 429,
+          "first_hit_position_world": [
+            0.010103631764650345,
+            -0.018946269527077675,
+            0.924314558506012
+          ],
+          "first_hit_normal_world": [
+            -0.5599478483200073,
+            0.12328814715147018,
+            0.8193036317825317
+          ]
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            2.9802322387695312e-08,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.20207414031028748,
+          "first_hit_triangle": 419,
+          "first_hit_polygon": 210,
+          "first_hit_position_world": [
+            0.010103631764650345,
+            2.9802322387695312e-08,
+            0.922694206237793
+          ],
+          "first_hit_normal_world": [
+            -0.6324186325073242,
+            -0.005563016980886459,
+            0.7746069431304932
+          ]
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            0.01894632913172245,
+            1.1247683763504028
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "first_hit_distance": 0.20024508237838745,
+          "first_hit_triangle": 420,
+          "first_hit_polygon": 211,
+          "first_hit_position_world": [
+            0.010103631764650345,
+            0.01894632913172245,
+            0.9245232939720154
+          ],
+          "first_hit_normal_world": [
+            -0.6304473280906677,
+            -0.12280102074146271,
+            0.7664568424224854
+          ]
+        }
+      ],
+      "no_hit_within_probe_distance": 0,
+      "immediate_hits_under_5pct_probe": 0
+    },
+    "hem_from_minus_z": {
+      "rays": [
+        {
+          "origin_world": [
+            -0.026943018659949303,
+            -0.050523437559604645,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26033613085746765,
+          "first_hit_triangle": 6530,
+          "first_hit_polygon": 3266,
+          "first_hit_position_world": [
+            -0.026943018659949303,
+            -0.050523437559604645,
+            0.11362719535827637
+          ],
+          "first_hit_normal_world": [
+            0.16793906688690186,
+            0.21894951164722443,
+            -0.9611751437187195
+          ]
+        },
+        {
+          "origin_world": [
+            -0.026943018659949303,
+            2.9802322387695312e-08,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2664515972137451,
+          "first_hit_triangle": 6457,
+          "first_hit_polygon": 3229,
+          "first_hit_position_world": [
+            -0.026943018659949303,
+            2.9802322387695312e-08,
+            0.11974266171455383
+          ],
+          "first_hit_normal_world": [
+            0.39360466599464417,
+            -0.027193710207939148,
+            -0.9188774824142456
+          ]
+        },
+        {
+          "origin_world": [
+            -0.026943018659949303,
+            0.05052349716424942,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2610936462879181,
+          "first_hit_triangle": 6450,
+          "first_hit_polygon": 3226,
+          "first_hit_position_world": [
+            -0.026943018659949303,
+            0.05052349716424942,
+            0.1143847107887268
+          ],
+          "first_hit_normal_world": [
+            0.16131846606731415,
+            -0.27596601843833923,
+            -0.9475331902503967
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            -0.050523437559604645,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2625819444656372,
+          "first_hit_triangle": 6527,
+          "first_hit_polygon": 3264,
+          "first_hit_position_world": [
+            0.0,
+            -0.050523437559604645,
+            0.11587300896644592
+          ],
+          "first_hit_normal_world": [
+            0.06447476893663406,
+            0.3578896224498749,
+            -0.9315353035926819
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            2.9802322387695312e-08,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.27303221821784973,
+          "first_hit_triangle": 6456,
+          "first_hit_polygon": 3229,
+          "first_hit_position_world": [
+            0.0,
+            2.9802322387695312e-08,
+            0.12632328271865845
+          ],
+          "first_hit_normal_world": [
+            0.1661694198846817,
+            -0.021928556263446808,
+            -0.985853374004364
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            0.05052349716424942,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26584547758102417,
+          "first_hit_triangle": 6458,
+          "first_hit_polygon": 3230,
+          "first_hit_position_world": [
+            0.0,
+            0.05052349716424942,
+            0.11913654208183289
+          ],
+          "first_hit_normal_world": [
+            0.1815492957830429,
+            -0.2506432831287384,
+            -0.9509036540985107
+          ]
+        },
+        {
+          "origin_world": [
+            0.026943018659949303,
+            -0.050523437559604645,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2615971565246582,
+          "first_hit_triangle": 6523,
+          "first_hit_polygon": 3262,
+          "first_hit_position_world": [
+            0.026943018659949303,
+            -0.050523437559604645,
+            0.11488822102546692
+          ],
+          "first_hit_normal_world": [
+            -0.20505277812480927,
+            0.17560607194900513,
+            -0.9628686308860779
+          ]
+        },
+        {
+          "origin_world": [
+            0.026943018659949303,
+            2.9802322387695312e-08,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26726052165031433,
+          "first_hit_triangle": 94,
+          "first_hit_polygon": 48,
+          "first_hit_position_world": [
+            0.026943018659949303,
+            2.9802322387695312e-08,
+            0.12055158615112305
+          ],
+          "first_hit_normal_world": [
+            -0.3687279224395752,
+            -0.059095319360494614,
+            -0.9276570081710815
+          ]
+        },
+        {
+          "origin_world": [
+            0.026943018659949303,
+            0.05052349716424942,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26190677285194397,
+          "first_hit_triangle": 6460,
+          "first_hit_polygon": 3231,
+          "first_hit_position_world": [
+            0.026943018659949303,
+            0.05052349716424942,
+            0.11519783735275269
+          ],
+          "first_hit_normal_world": [
+            -0.171539768576622,
+            -0.17024274170398712,
+            -0.9703564643859863
+          ]
+        }
+      ],
+      "no_hit_within_probe_distance": 0,
+      "immediate_hits_under_5pct_probe": 0
+    },
+    "cuff_from_minus_y": {
+      "rays": [
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            -0.4624805450439453,
+            0.4596879184246063
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            -0.4624805450439453,
+            0.4890297055244446
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            -0.4624805450439453,
+            0.5183714628219604
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": 0.25867366790771484,
+          "first_hit_triangle": 7187,
+          "first_hit_polygon": 3594,
+          "first_hit_position_world": [
+            -0.010103631764650345,
+            -0.20380687713623047,
+            0.5183714628219604
+          ],
+          "first_hit_normal_world": [
+            0.18024002015590668,
+            -0.7680066227912903,
+            -0.6145562529563904
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            -0.4624805450439453,
+            0.4596879184246063
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.0,
+            -0.4624805450439453,
+            0.4890297055244446
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.0,
+            -0.4624805450439453,
+            0.5183714628219604
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": 0.2610286474227905,
+          "first_hit_triangle": 7182,
+          "first_hit_polygon": 3592,
+          "first_hit_position_world": [
+            0.0,
+            -0.20145189762115479,
+            0.5183714628219604
+          ],
+          "first_hit_normal_world": [
+            0.08674581348896027,
+            -0.7866322994232178,
+            -0.6112976670265198
+          ]
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            -0.4624805450439453,
+            0.4596879184246063
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            -0.4624805450439453,
+            0.4890297055244446
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            -0.4624805450439453,
+            0.5183714628219604
+          ],
+          "direction_world": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit_distance": 0.26215165853500366,
+          "first_hit_triangle": 7183,
+          "first_hit_polygon": 3592,
+          "first_hit_position_world": [
+            0.010103631764650345,
+            -0.20032888650894165,
+            0.5183714628219604
+          ],
+          "first_hit_normal_world": [
+            0.11390424519777298,
+            -0.7427971959114075,
+            -0.6597561836242676
+          ]
+        }
+      ],
+      "no_hit_within_probe_distance": 6,
+      "immediate_hits_under_5pct_probe": 0
+    },
+    "cuff_from_plus_y": {
+      "rays": [
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            0.4624806046485901,
+            0.4596879184246063
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            0.4624806046485901,
+            0.4890297055244446
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            -0.010103631764650345,
+            0.4624806046485901,
+            0.5183714628219604
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": 0.2570345997810364,
+          "first_hit_triangle": 2653,
+          "first_hit_polygon": 1327,
+          "first_hit_position_world": [
+            -0.010103631764650345,
+            0.2054460048675537,
+            0.5183714628219604
+          ],
+          "first_hit_normal_world": [
+            0.12839938700199127,
+            0.7123512029647827,
+            -0.689977765083313
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            0.4624806046485901,
+            0.4596879184246063
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.0,
+            0.4624806046485901,
+            0.4890297055244446
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.0,
+            0.4624806046485901,
+            0.5183714628219604
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": 0.25915515422821045,
+          "first_hit_triangle": 2652,
+          "first_hit_polygon": 1327,
+          "first_hit_position_world": [
+            0.0,
+            0.20332545042037964,
+            0.5183714628219604
+          ],
+          "first_hit_normal_world": [
+            0.16437025368213654,
+            0.7398642897605896,
+            -0.6523674130439758
+          ]
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            0.4624806046485901,
+            0.4596879184246063
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            0.4624806046485901,
+            0.4890297055244446
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": null,
+          "first_hit_triangle": null
+        },
+        {
+          "origin_world": [
+            0.010103631764650345,
+            0.4624806046485901,
+            0.5183714628219604
+          ],
+          "direction_world": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "first_hit_distance": 0.2606789469718933,
+          "first_hit_triangle": 2657,
+          "first_hit_polygon": 1329,
+          "first_hit_position_world": [
+            0.010103631764650345,
+            0.20180165767669678,
+            0.5183714628219604
+          ],
+          "first_hit_normal_world": [
+            0.10492056608200073,
+            0.752081573009491,
+            -0.6506651639938354
+          ]
+        }
+      ],
+      "no_hit_within_probe_distance": 6,
+      "immediate_hits_under_5pct_probe": 0
+    },
+    "interior_connectivity_interpretation": {
+      "hem_low_blocking_face_samples": [
+        {
+          "origin_world": [
+            -0.026943018659949303,
+            -0.050523437559604645,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26033613085746765,
+          "first_hit_triangle": 6530,
+          "first_hit_polygon": 3266,
+          "first_hit_position_world": [
+            -0.026943018659949303,
+            -0.050523437559604645,
+            0.11362719535827637
+          ],
+          "first_hit_normal_world": [
+            0.16793906688690186,
+            0.21894951164722443,
+            -0.9611751437187195
+          ]
+        },
+        {
+          "origin_world": [
+            -0.026943018659949303,
+            2.9802322387695312e-08,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2664515972137451,
+          "first_hit_triangle": 6457,
+          "first_hit_polygon": 3229,
+          "first_hit_position_world": [
+            -0.026943018659949303,
+            2.9802322387695312e-08,
+            0.11974266171455383
+          ],
+          "first_hit_normal_world": [
+            0.39360466599464417,
+            -0.027193710207939148,
+            -0.9188774824142456
+          ]
+        },
+        {
+          "origin_world": [
+            -0.026943018659949303,
+            0.05052349716424942,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2610936462879181,
+          "first_hit_triangle": 6450,
+          "first_hit_polygon": 3226,
+          "first_hit_position_world": [
+            -0.026943018659949303,
+            0.05052349716424942,
+            0.1143847107887268
+          ],
+          "first_hit_normal_world": [
+            0.16131846606731415,
+            -0.27596601843833923,
+            -0.9475331902503967
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            -0.050523437559604645,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2625819444656372,
+          "first_hit_triangle": 6527,
+          "first_hit_polygon": 3264,
+          "first_hit_position_world": [
+            0.0,
+            -0.050523437559604645,
+            0.11587300896644592
+          ],
+          "first_hit_normal_world": [
+            0.06447476893663406,
+            0.3578896224498749,
+            -0.9315353035926819
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            2.9802322387695312e-08,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.27303221821784973,
+          "first_hit_triangle": 6456,
+          "first_hit_polygon": 3229,
+          "first_hit_position_world": [
+            0.0,
+            2.9802322387695312e-08,
+            0.12632328271865845
+          ],
+          "first_hit_normal_world": [
+            0.1661694198846817,
+            -0.021928556263446808,
+            -0.985853374004364
+          ]
+        },
+        {
+          "origin_world": [
+            0.0,
+            0.05052349716424942,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26584547758102417,
+          "first_hit_triangle": 6458,
+          "first_hit_polygon": 3230,
+          "first_hit_position_world": [
+            0.0,
+            0.05052349716424942,
+            0.11913654208183289
+          ],
+          "first_hit_normal_world": [
+            0.1815492957830429,
+            -0.2506432831287384,
+            -0.9509036540985107
+          ]
+        },
+        {
+          "origin_world": [
+            0.026943018659949303,
+            -0.050523437559604645,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.2615971565246582,
+          "first_hit_triangle": 6523,
+          "first_hit_polygon": 3262,
+          "first_hit_position_world": [
+            0.026943018659949303,
+            -0.050523437559604645,
+            0.11488822102546692
+          ],
+          "first_hit_normal_world": [
+            -0.20505277812480927,
+            0.17560607194900513,
+            -0.9628686308860779
+          ]
+        },
+        {
+          "origin_world": [
+            0.026943018659949303,
+            2.9802322387695312e-08,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26726052165031433,
+          "first_hit_triangle": 94,
+          "first_hit_polygon": 48,
+          "first_hit_position_world": [
+            0.026943018659949303,
+            2.9802322387695312e-08,
+            0.12055158615112305
+          ],
+          "first_hit_normal_world": [
+            -0.3687279224395752,
+            -0.059095319360494614,
+            -0.9276570081710815
+          ]
+        },
+        {
+          "origin_world": [
+            0.026943018659949303,
+            0.05052349716424942,
+            -0.14670893549919128
+          ],
+          "direction_world": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "first_hit_distance": 0.26190677285194397,
+          "first_hit_triangle": 6460,
+          "first_hit_polygon": 3231,
+          "first_hit_position_world": [
+            0.026943018659949303,
+            0.05052349716424942,
+            0.11519783735275269
+          ],
+          "first_hit_normal_world": [
+            -0.171539768576622,
+            -0.17024274170398712,
+            -0.9703564643859863
+          ]
+        }
+      ],
+      "hem_center_grid_has_low_internal_block": true,
+      "interpretation": "A low first-hit surface over the sampled central hem grid is evidence of a capped or internally blocked hem cavity, not an open through-garment. This is a sampled geometric test; it does not prove every off-center route."
+    }
+  },
+  "evidence": {
+    "candidate": {
+      "front": {
+        "file": "evidence/raw_front.png",
+        "camera_location": [
+          3.9122376441955566,
+          2.9802322387695312e-08,
+          0.4890297055244446
+        ],
+        "camera_target": [
+          0.0,
+          2.9802322387695312e-08,
+          0.4890297055244446
+        ],
+        "orthographic_scale": 2.121302189297146
+      },
+      "back": {
+        "file": "evidence/raw_back.png",
+        "camera_location": [
+          -3.9122376441955566,
+          2.9802322387695312e-08,
+          0.4890297055244446
+        ],
+        "camera_target": [
+          0.0,
+          2.9802322387695312e-08,
+          0.4890297055244446
+        ],
+        "orthographic_scale": 2.121302189297146
+      },
+      "side": {
+        "file": "evidence/raw_side.png",
+        "camera_location": [
+          0.0,
+          -3.9122376441955566,
+          0.4890297055244446
+        ],
+        "camera_target": [
+          0.0,
+          2.9802322387695312e-08,
+          0.4890297055244446
+        ],
+        "orthographic_scale": 2.121302189297146
+      },
+      "quarter": {
+        "file": "evidence/raw_quarter.png",
+        "camera_location": [
+          2.7012083530426025,
+          -2.7012083530426025,
+          1.3331573009490967
+        ],
+        "camera_target": [
+          0.0,
+          2.9802322387695312e-08,
+          0.4890297055244446
+        ],
+        "orthographic_scale": 2.121302189297146
+      },
+      "neck": {
+        "file": "evidence/raw_neck.png",
+        "camera_location": [
+          2.3833653926849365,
+          -2.3833653926849365,
+          2.9104039669036865
+        ],
+        "camera_target": [
+          0.0,
+          2.9802322387695312e-08,
+          0.9242661595344543
+        ],
+        "orthographic_scale": 0.5216316858927409
+      },
+      "underhem": {
+        "file": "evidence/raw_underhem.png",
+        "camera_location": [
+          2.460125207901001,
+          -2.460125207901001,
+          -1.6718147993087769
+        ],
+        "camera_target": [
+          0.0,
+          2.9802322387695312e-08,
+          0.11736710369586945
+        ],
+        "orthographic_scale": 1.0780388175116644
+      },
+      "cuff_minus_y": {
+        "file": "evidence/raw_cuff_minus_y.png",
+        "camera_location": [
+          0.0,
+          -4.147343158721924,
+          0.6843975186347961
+        ],
+        "camera_target": [
+          0.0,
+          -0.23998643457889557,
+          0.4890297055244446
+        ],
+        "orthographic_scale": 0.7824475288391113
+      },
+      "cuff_plus_y": {
+        "file": "evidence/raw_cuff_plus_y.png",
+        "camera_location": [
+          0.0,
+          4.147343158721924,
+          0.6843975186347961
+        ],
+        "camera_target": [
+          0.0,
+          0.23998649418354034,
+          0.4890297055244446
+        ],
+        "orthographic_scale": 0.7824475288391113
+      }
+    },
+    "approved_v2_silhouette_reference": {
+      "reference_v2_front": "evidence/raw_reference_v2_front.png",
+      "reference_v2_side": "evidence/raw_reference_v2_side.png"
+    }
+  },
+  "comparison": {
+    "method": "Human visual silhouette comparison only: raw_front.png and raw_side.png use the candidate import; raw_reference_v2_front.png and raw_reference_v2_side.png use the approved original raw v2 import. Each is orthographic, neutral gray, and fitted independently; no scale matching or geometric difference metric was performed.",
+    "result": "READBACK_FAIL_TO_PROMOTE: candidate silhouette is broadly robe-like but has a visible dark torso rectangle and pale adjacent polygon; its 14-, 3-, and 3-vertex disconnected components occupy the same front/side torso zone. This single-color Workbench evidence excludes texture/material variation as the explanation. Relative to v2, the candidate is longer/straighter and smoother, but the visual artifacts and capped openings prevent promotion."
+  },
+  "scope_and_limits": {
+    "checked": "Raw OBJ integrity hash, imported mesh counts, components, loose/boundary/nonmanifold/degenerate topology, exact non-neighbor triangle intersection audit, directional opening probes including a central hem internal-block test, and neutral-gray inspection renders.",
+    "not_checked": "Visual approval, body fit, cloth thickness, UV overlap/density/seams, textures, rigging, weights, deformation, animation, game import, collision, performance, licensing, and whether a detected directional ray corresponds to the intended physical opening.",
+    "no_mesh_mutation": "No mesh cleanup, welding, decimation, rigging, repair, texture work, or design change was performed. The saved .blend is an inspection import with QA cameras only."
+  }
+}

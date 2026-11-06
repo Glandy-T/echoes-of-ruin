@@ -1,0 +1,38 @@
+{
+  "file": "protagonist_tripo_robe_h31_v1_raw.glb",
+  "sha256": "d7e49fa0d03e58898cabbc200a1285d71c17c1c9f297555fdb192b40335d52e5",
+  "method": "Direct raw GLB JSON chunk inventory, no scene defaults or Blender objects.",
+  "asset": {
+    "version": "2.0",
+    "generator": "Beijing VAST-6a9f321d-3ddf-490f-bb34-2fad8a75ef6c-AIGC Content"
+  },
+  "nodes": [
+    {
+      "name": "RootNode",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "tripo_node_6a9f321d",
+      "mesh": 0,
+      "extras": {
+        "UserProperties": "",
+        "IsNull": false,
+        "DefaultAttributeIndex": 0,
+        "InheritType": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tripo_mesh_6a9f321d",
+      "primitives": [
+        {
+          "positions": 3864,
+          "indices": 23112
+        }
+      ]
+    }
+  ]
+}

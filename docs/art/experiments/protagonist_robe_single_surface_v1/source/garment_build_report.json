@@ -1,0 +1,52 @@
+{
+  "status": "PASS_STATIC_CANDIDATE",
+  "source": {
+    "raw_glb": "docs\\art\\experiments\\protagonist_tripo_robe_v2\\model\\protagonist_tripo_robe_v2_raw.glb",
+    "raw_sha256_expected": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "raw_sha256_before": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "raw_sha256_after": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "usage": "radial lower-torso silhouette measurements only; no raw vertices/faces copied"
+  },
+  "topology": {
+    "vertices": 568,
+    "faces": 524,
+    "triangles": 1048,
+    "all_faces_quads": true,
+    "connected_components": 1,
+    "boundary_edges": 92,
+    "boundary_loops": [
+      32,
+      14,
+      32,
+      14
+    ],
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "bvh_nonadjacent_candidates": 0,
+    "exact_nonadjacent_crossings": 0,
+    "crossing_samples": []
+  },
+  "attributes": {
+    "garment_part": {
+      "0": "torso",
+      "1": "positive_y_sleeve",
+      "2": "negative_y_sleeve"
+    },
+    "ring_u": "0 root to 1 cuff on sleeve vertices; torso is -1"
+  },
+  "construction": {
+    "torso_rings": 12,
+    "torso_ring_vertices": 32,
+    "armholes": "two 4-column by 3-interval ports, each 14 boundary edges before bridging",
+    "sleeve_rings_after_port": 6,
+    "openings_expected": [
+      "neck",
+      "hem",
+      "positive_y_cuff",
+      "negative_y_cuff"
+    ],
+    "raw_radial_hits": 222,
+    "raw_radial_samples": 384
+  },
+  "scope": "Static candidate only: no UVs, thickness, materials, skinning, body collision, animation, Godot import, or visual approval."
+}

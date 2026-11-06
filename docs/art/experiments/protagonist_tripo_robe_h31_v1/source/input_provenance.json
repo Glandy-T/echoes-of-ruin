@@ -1,0 +1,133 @@
+{
+  "original_model": "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_robe_v2\\model\\protagonist_robe_v2_inspection.blend",
+  "unchanged_sha256": "3c898025b109c14dc093bc666de62f1f7ce7cc6d8d9c4b023fdf9a9854ba35cd",
+  "included_mesh": "protagonist_tripo_robe_v2_raw",
+  "views": [
+    {
+      "view": "front",
+      "file": "guide_front.png",
+      "sha256": "b7596f9e38b0100d9f70830615ca5bedb5f59818ef26c9efc3c4a8bb63d3c9d9",
+      "camera_world_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          2.9802322387695312e-08
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.499755859375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "left",
+      "file": "guide_left.png",
+      "sha256": "bb3fb567ef3f32b189a676f3c4e57b234d3c7759799567cd2b88ecd0d18b7b78",
+      "camera_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          1.1399865765455465e-14,
+          0.0
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          1.0,
+          3.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          -7.549790126404332e-08,
+          0.499755859375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "right",
+      "file": "guide_right.png",
+      "sha256": "96177111a369b0e9367262dee91830cd2704ab3b6d1d0e5f8040a08ca5fd9cc2",
+      "camera_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -3.0
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.499755859375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "back",
+      "file": "guide_back.png",
+      "sha256": "a59abaaeb259b41a86bf91c545609ad37d0d930e9aaa95cd59e5e2f385fcaca9",
+      "camera_world_matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -3.0
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          2.9802322387695312e-08
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.499755859375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "content": "Project-owned accepted robe silhouette only; no body, no Pixel Canals/NoAI material, no rejected cage.",
+  "limits": "Views constrain design/pose visually. They do not condition on body skeleton or guarantee single-layer/animation-ready topology."
+}

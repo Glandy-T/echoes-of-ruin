@@ -1,0 +1,54 @@
+{
+  "status": "FAIL_STATIC_AND_FUNCTIONAL_CANDIDATE",
+  "model_id": "eea8018f-6e61-40fb-b82f-79ebc0c982be",
+  "url": "https://studio.tripo3d.com/workspace/generate/eea8018f-6e61-40fb-b82f-79ebc0c982be",
+  "service": "Tripo China Studio",
+  "model": "v3.1 High precision",
+  "mode": "front/left/right/back multi-view",
+  "prompt": null,
+  "input_provenance": "input_provenance.json",
+  "privacy": "Private",
+  "submitted_generations": 1,
+  "local_retries_submitted": 0,
+  "ultra_geometry": true,
+  "ai_completion_3d_enhancement": "Disabled in single-image mode; not exposed in multiview UI",
+  "texture_generation": false,
+  "part_generation": false,
+  "topology": "Quad",
+  "target_faces": 4000,
+  "web_faces": 3853,
+  "web_vertices": 3864,
+  "displayed_cost": 35,
+  "credits_before": 2825,
+  "credits_after_generation": 2690,
+  "billing_limit": "Observed account delta 135 is not verified per-job billing. Other account work was visible; displayed submit-button cost was 35. No paid upgrade or subscription change.",
+  "raw_files": [
+    {
+      "file": "protagonist_tripo_robe_h31_v1_raw.glb",
+      "bytes": 186716,
+      "sha256": "d7e49fa0d03e58898cabbc200a1285d71c17c1c9f297555fdb192b40335d52e5"
+    },
+    {
+      "file": "protagonist_tripo_robe_h31_v1_raw.mtl",
+      "bytes": 326,
+      "sha256": "06cd07dbd2a7ed22600d67ee9ca0c6d9a58b50f379e9834b43eac9e283a37e5e"
+    },
+    {
+      "file": "protagonist_tripo_robe_h31_v1_raw.obj",
+      "bytes": 456560,
+      "sha256": "ad18e4994d2571e3c779bba23def9e688deb00014ae95af8ea9348de86652db3"
+    },
+    {
+      "file": "protagonist_tripo_robe_h31_v1_raw.zip",
+      "bytes": 159706,
+      "sha256": "f322f7176932b5507892ded8bc4f51630dfe1fef877c86d30c341e57afe15251"
+    }
+  ],
+  "rigged": false,
+  "binding_ready": false,
+  "art_approved": false,
+  "downloaded_at": "2026-11-07T00:05:05.300855",
+  "static_qa": "raw_audit.json",
+  "glb_inventory": "glb_inventory.json",
+  "adopted": false
+}
