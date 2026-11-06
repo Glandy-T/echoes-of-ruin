@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-06",
+  "provider": "Tripo Studio China official web UI via Chrome extension",
+  "region": "cn",
+  "status": "generated_and_officially_downloaded",
+  "subscription_context": "User confirmed Pro purchased; 3300 credits and private/Smart Mesh options observed. No international paid credits used.",
+  "input": {
+    "front": "input_front.png",
+    "front_sha256": "7f49c5be689a590e6f8037aa847f7b4177c44000b9bdc0f434c4e8b7acdd3090",
+    "back": "input_back.png",
+    "back_sha256": "750f820698c7be44f765108aad2bb11b5be6c02c9b49e787d7713f72e59babf8",
+    "views_uploaded": [
+      "front",
+      "back"
+    ],
+    "working_side_reference_uploaded": false,
+    "source": "Project-owned protagonist_turnaround_v2 independent views; no reference-work screenshots or assets uploaded"
+  },
+  "requested_settings": {
+    "mode": "Smart Mesh multi-view input",
+    "AI_model": "P2.0",
+    "topology": "Quad",
+    "target_polygons": 3000,
+    "generation_count": 1,
+    "privacy": "Private",
+    "texture_generation": "not requested; gray mesh inspection only"
+  },
+  "credits_before": 3300,
+  "complimentary_P20_trials_before": 2,
+  "displayed_cost": "100 struck out, 0 using complimentary P2.0 trial",
+  "paid_period_provenance": "New generation during active paid subscription; not a converted earlier free-model asset.",
+  "user_art_approval": false,
+  "scope": "One new raw mesh plus Blender inspection; no Room1/4F or existing character replacement",
+  "submission_count": 1,
+  "model_id": "e3126d58-b5e2-462f-bcd7-c9f4a8ae5405",
+  "model_url": "https://studio.tripo3d.com/workspace/generate/e3126d58-b5e2-462f-bcd7-c9f4a8ae5405",
+  "credits_after": 3300,
+  "credits_consumed_observed": 0,
+  "complimentary_P20_trials_after": 1,
+  "ui_mesh_statistics": {
+    "topology": "Quad",
+    "faces": 3020,
+    "vertices": 3218
+  },
+  "download": {
+    "method": "Official Export button, one GLB export and one OBJ archive export; normal Chrome Downloads folder",
+    "GLB_download_event_returned_path": false,
+    "retry_policy": "No repeat GLB export; file verified in normal destination",
+    "files": {
+      "protagonist_tripo_cn_p20_v1_raw.glb": {
+        "bytes": 144844,
+        "sha256": "a767ba52fac06744603975cea3deb5a3e591d7e0ac7c8fa42d17165ea7548596"
+      },
+      "protagonist_tripo_cn_p20_v1_raw.mtl": {
+        "bytes": 257,
+        "sha256": "2b1d38c27920131815338ae5c14b65312b5334abbeccf772431a05a76e30d92b"
+      },
+      "protagonist_tripo_cn_p20_v1_raw.obj": {
+        "bytes": 396894,
+        "sha256": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6"
+      },
+      "protagonist_tripo_cn_p20_v1_raw.zip": {
+        "bytes": 119830,
+        "sha256": "e57860460611bb88e4b509b0ca34a8a038e5c55198f2aad6b95201c16ce89539"
+      }
+    }
+  },
+  "blender_inspection": {
+    "version": "5.0.1",
+    "primary_source": "OBJ",
+    "OBJ_polygons": 3020,
+    "OBJ_quads": 2486,
+    "OBJ_triangles": 534,
+    "GLB_triangles": 5506,
+    "raw_geometry_modified": false,
+    "UV_layers": 0,
+    "armatures": 0,
+    "user_art_approval": false
+  }
+}

@@ -1,0 +1,3 @@
+# Official raw exports intentionally retain their original final blank line/hash.
+model/*.obj whitespace=-blank-at-eof
+model/*.mtl whitespace=-blank-at-eof

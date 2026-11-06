@@ -1,0 +1,27 @@
+{
+  "saved_blend": "model/protagonist_cn_p20_inspection.blend",
+  "primary_mesh_objects": 1,
+  "primary_mesh_name": "protagonist_tripo_cn_p20_v1_raw",
+  "vertices": 4110,
+  "polygons": 3020,
+  "quad_polygons": 2486,
+  "triangle_polygons": 534,
+  "ngon_polygons": 0,
+  "mesh_modifiers": {
+    "protagonist_tripo_cn_p20_v1_raw": []
+  },
+  "armature_objects": [],
+  "qa_camera_names": [
+    "QA_back",
+    "QA_front",
+    "QA_head_back",
+    "QA_quarter",
+    "QA_side"
+  ],
+  "qa_camera_count": 5,
+  "active_scene_camera": "QA_quarter",
+  "raw_sha256": {
+    "protagonist_tripo_cn_p20_v1_raw.glb": "a767ba52fac06744603975cea3deb5a3e591d7e0ac7c8fa42d17165ea7548596",
+    "protagonist_tripo_cn_p20_v1_raw.obj": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6"
+  }
+}

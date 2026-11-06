@@ -1,0 +1,67 @@
+{
+  "status": "DELIVERY_CHECKS_PASS",
+  "checks": {
+    "protagonist_tripo_cn_p20_v1_raw.glb_exact_download": true,
+    "protagonist_tripo_cn_p20_v1_raw.mtl_exact_download": true,
+    "protagonist_tripo_cn_p20_v1_raw.obj_exact_download": true,
+    "protagonist_tripo_cn_p20_v1_raw.zip_exact_download": true,
+    "protagonist_tripo_cn_p20_v1_raw.obj_matches_original_archive": true,
+    "protagonist_tripo_cn_p20_v1_raw.mtl_matches_original_archive": true,
+    "front_input_exact": true,
+    "back_input_exact": true,
+    "only_one_generation_recorded": true,
+    "private_generation": true,
+    "no_international_credits_used": true,
+    "raw_preserved_in_inspection": true,
+    "quad_source_kept": true,
+    "glb_triangles_distinguished": true,
+    "no_implicit_uv_or_rig_claim": true,
+    "front_1280x720": true,
+    "side_1280x720": true,
+    "back_1280x720": true,
+    "quarter_1280x720": true,
+    "head_back_1280x720": true,
+    "web_crop_only_model": true,
+    "blend_source_saved": true
+  },
+  "saved_blend_readback": {
+    "saved_blend": "model/protagonist_cn_p20_inspection.blend",
+    "primary_mesh_objects": 1,
+    "primary_mesh_name": "protagonist_tripo_cn_p20_v1_raw",
+    "vertices": 4110,
+    "polygons": 3020,
+    "quad_polygons": 2486,
+    "triangle_polygons": 534,
+    "ngon_polygons": 0,
+    "mesh_modifiers": {
+      "protagonist_tripo_cn_p20_v1_raw": []
+    },
+    "armature_objects": [],
+    "qa_camera_names": [
+      "QA_back",
+      "QA_front",
+      "QA_head_back",
+      "QA_quarter",
+      "QA_side"
+    ],
+    "qa_camera_count": 5,
+    "active_scene_camera": "QA_quarter",
+    "raw_sha256": {
+      "protagonist_tripo_cn_p20_v1_raw.glb": "a767ba52fac06744603975cea3deb5a3e591d7e0ac7c8fa42d17165ea7548596",
+      "protagonist_tripo_cn_p20_v1_raw.obj": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6"
+    }
+  },
+  "art_status": "USER_REVIEW_PENDING_STARTING_MESH_ONLY",
+  "known_limits": [
+    "Exported ground plane included",
+    "Thin hair fragments and rough hands/feet remain",
+    "No UV, skeleton, deformation, game-camera or runtime validation"
+  ],
+  "artifacts_sha256": {
+    "model/protagonist_cn_p20_inspection.blend": "5f357e6cc1068625f892ca214c3b8d98c4f9fbdd1d6539c28ebac7ee4fc91a08",
+    "model/protagonist_tripo_cn_p20_v1_raw.glb": "a767ba52fac06744603975cea3deb5a3e591d7e0ac7c8fa42d17165ea7548596",
+    "model/protagonist_tripo_cn_p20_v1_raw.mtl": "2b1d38c27920131815338ae5c14b65312b5334abbeccf772431a05a76e30d92b",
+    "model/protagonist_tripo_cn_p20_v1_raw.obj": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6",
+    "model/protagonist_tripo_cn_p20_v1_raw.zip": "e57860460611bb88e4b509b0ca34a8a038e5c55198f2aad6b95201c16ce89539"
+  }
+}

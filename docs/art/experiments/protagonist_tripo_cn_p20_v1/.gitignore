@@ -1,0 +1,6 @@
+*.log
+*.blend1
+model/*.blend1
+source/__pycache__/
+source/account_*.json
+source/*full_ui*.png

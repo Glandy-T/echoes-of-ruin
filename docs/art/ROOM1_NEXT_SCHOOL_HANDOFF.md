@@ -1,24 +1,22 @@
-# 学校交接：2026-11-04／4F镜头与门墙显现停在v6待选
+# 学校交接：2026-11-06／国内版主角灰模待审，4F v6仍待选
 
-**2026-11-05当前场景工作：消防楼梯材质小样 v1／局部折中候选。** 踏步＋平台采用灰色哑光矿物复合面，墙沿用 r24。首轮被反馈“有点花”，quiet1又被指出“矫枉过正”，不能沿用近乎纯色版。当前从首版回退做三处局部 PixelLab 对比收敛；Aseprite独立层仅修遮罩新增的偏青底色。先审[同机位对比](experiments/cryo_stair_material_sample_v1/preview.html)，不要视为已认可材质。小样包含一个梯跑及两平台，原始输出、Aseprite 母版、Blender 和 GLB 一并保留。Godot 用 `scenes/dev/cryo_stair_material_sample_v1.tscn` 按 F6，1/2/3 切换机位。**不是整栋楼梯完工，当前仍待用户审图；未实现最终灯带与运动感应。** Room 1、4F v6、正式 F5 均保持，主角仍暂停。
+**当前优先：主角已恢复制作。** 用户明确国内版专业版已购买，可继续制作。新建[国内版P2.0灰模检查](experiments/protagonist_tripo_cn_p20_v1/preview.html)：正面v2＋修正背面v2输入，单个私有灰模，网页3020面；官方GLB与OBJ原包已下载，Blender源和五视图用于审查实际网格。先审外形，再决定分件、UV、像素贴图和绑定。原游戏角色、Room1、4F、镜头和光照均未替换。下方11月5日“主角暂停”是已被本次恢复指令取代的历史状态，旧模型否决仍有效。
 
-**2026-11-05最新用户决定：本地Blender修模v1未采用，主角制作暂停。**用户评价“确实不太行，负优化了”，停止这条本地修模路线。[历史试作](experiments/protagonist_blender_cleanup_v1/README.md)只留追溯，不能当作当前基线接着做UV、贴图、绑定或替换角色。原始H2.5、P2.0网页试作与已有参考保留，等待用户明确恢复。Room1／4F与v6待选状态保持。
+**楼梯材质仍待审：**[局部折中候选](experiments/cryo_stair_material_sample_v1/preview.html)沿用 r24 墙、灰色矿物踏步＋平台。首轮偏花，quiet1过平，当前只作局部折中，不是认可基准。Godot入口 `scenes/dev/cryo_stair_material_sample_v1.tscn`，F6、1/2/3机位。整栋推广及最终运动灯光未完成。
 
-**2026-11-05最新补充：**[主角H2.5免费试作](experiments/protagonist_tripo_h25_v1/README.md)已通过官方Export下载GLB，并在Blender打开；原始模型、`.blend`、实际四视图及检查报告均随仓库保存。2943三角面，无UV／骨架，后发背面碎裂、手指粗块、部件未合理分离，不能直接进入正式贴图和绑定。下面“无可带去学校的网格”仅指前一轮P2.0；目前已有H2.5，但不是认可的最终角色。Room1及4F场景、原占位主角、v6待选状态都保持。
+**历史主角试作，只供追溯：**[本地修模v1](experiments/protagonist_blender_cleanup_v1/README.md)被用户否决；[免费H2.5](experiments/protagonist_tripo_h25_v1/README.md)有后发碎片、无UV／骨架；[国际版P2.0免费试作](experiments/protagonist_tripo_trial_v1/README.md)当时无法下载。旧暂停已被11月6日恢复制作指令取代，旧模型否决并未撤销；不要将这三个版本混入当前国内版原始源。
 
-**2026-11-05补充：**用户改为先试主角建模，旧“主角暂缓”不再是当前优先级。[Tripo免费灰模试作](experiments/protagonist_tripo_trial_v1/README.md)已在线生成，四视图已保存；GLB导出要求升级，因此没有可带去学校的网格／Blender源，未做UV、绑定或替换角色。不要把网页截图当成可导入Godot的资产。v6选择仍未确定，以下保留11月4日学校交接状态。
-
-**接着先看v6对比，由用户选择镜头、触发方式和显现强度。当前没有最终方案，也没有迁移正式F5。** 本次只整理交接，不继续改场景。
+**4F路线仍停在v6待选。** 镜头、触发方式和显现强度尚未由用户选定，也没有迁移正式F5。主角检查不自动确认或改动该路线。
 
 交接前成果基线：[GitHub main 732f226](https://github.com/Glandy-T/echoes-of-ruin/commit/732f2268b4668184160b8d58bfb7177b890b6daf)。本交接随后单独提交。此页已合并11月4日进展，替代原来层层追加的旧计划；11月3日及早期交接可从Git历史追溯。
 
 ## 接手后先做什么
 
 1. 检查本机`git status`并保留已有差异，再同步main。下面列出的未提交文件不能清理或顺手混入本次提交。
-2. 打开[对比页：五种镜头、两种触发和四段动图](experiments/cryo_4f_camera_compare_v6/preview.html)。它是审图页，不能操作角色。
-3. Godot打开`scenes/dev/cryo_4f_camera_compare_v6.tscn`，等导入完成后按F6；从Room1开始，按F8可直接到走廊比较。不要用F5判断这轮实验。
-4. 等用户比较后确定镜头、触发方式和显现强度，再对选中的组合收敛。不要把默认A／距离规则／50%当作已认可方案，也不要自行改回人物周围挖洞。
-5. 当前候选稳定后再继续楼梯与公共区美术。门后灰色环境留待讨论；1F室外连接未确定。主角3D仍暂缓。
+2. 当前先打开[国内版主角五视图](experiments/protagonist_tripo_cn_p20_v1/preview.html)和对应Blender工程，审查头发、袍体、手脚及实际拓扑，未认可前不继续贴图和绑定。
+3. 4F路线另看[五种镜头、两种触发和四段动图](experiments/cryo_4f_camera_compare_v6/preview.html)。Godot打开`scenes/dev/cryo_4f_camera_compare_v6.tscn`，F6运行，F8到走廊；不要用F5判断实验。
+4. 等用户确定v6镜头、触发和显现强度后再收敛，不把默认A／距离规则／50%当成已认可方案，不改回人物周围挖洞。
+5. 楼梯材质仍是局部折中候选，运动灯光未实现；1F室外连接未确定。主角当前已恢复，旧暂停记录只供追溯。
 
 ## 用户最新要求与已改变的方向
 
