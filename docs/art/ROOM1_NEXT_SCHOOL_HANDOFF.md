@@ -1,6 +1,6 @@
-# 学校交接：2026-11-06／主角细发清理候选待审，4F v6仍待选
+# 学校交接：2026-11-06／主角头发v2与编辑分组待审，4F v6仍待选
 
-**当前优先：审查主角有限清理。** 用户已恢复国内版专业版制作，要求先看最新P2.0是否好修，不好修就分件生成；另明确细发丝太多、对贴图无益，头发保留轮廓和少量大块发束。当前入口是[有限清理前后五视图](experiments/protagonist_tripo_cn_cleanup_v1/preview.html)，含可编辑Blender与候选GLB。原始[国内版P2.0导出与检查](experiments/protagonist_tripo_cn_p20_v1/README.md)保留不动。先审外形，再整理分件、UV和变形网格；没有制作最终像素贴图或绑定。原游戏角色、Room1、4F、镜头和光照均未替换。下方11月5日暂停已被恢复指令取代，旧模型否决仍有效。
+**当前优先：主角头发整理v2。** 用户审看v1后要求继续；当前入口是[v1／v2五机位对比](experiments/protagonist_tripo_cn_cleanup_v2/preview.html)，包含Blender与候选GLB。v2去掉左侧小卷丝、局部平顺发尾，保留右后宽发束、头型和人物体积。头发／白袍／头颈／手／脚建立编辑顶点组，尚非完成分件。下一步应整理白袍开口、内侧和必要的腿部代理，再做变形拓扑与UV试展，不直接套贴图绑定。[清理v1](experiments/protagonist_tripo_cn_cleanup_v1/README.md)和[国内版原始导出](experiments/protagonist_tripo_cn_p20_v1/README.md)均保留；本轮无新增生成费用。原游戏角色、Room1、4F、镜头和光照均未替换。
 
 **楼梯材质仍待审：**[局部折中候选](experiments/cryo_stair_material_sample_v1/preview.html)沿用 r24 墙、灰色矿物踏步＋平台。首轮偏花，quiet1过平，当前只作局部折中，不是认可基准。Godot入口 `scenes/dev/cryo_stair_material_sample_v1.tscn`，F6、1/2/3机位。整栋推广及最终运动灯光未完成。
 
@@ -13,7 +13,7 @@
 ## 接手后先做什么
 
 1. 检查本机`git status`并保留已有差异，再同步main。下面列出的未提交文件不能清理或顺手混入本次提交。
-2. 当前先打开[主角有限清理对比](experiments/protagonist_tripo_cn_cleanup_v1/preview.html)和其中Blender工程，审看头发简化是否合适，核对脸、袍体、手脚和原姿势。此轮只做外观清理可行性，不把组件数量、法线或文件检查当作用户认可；未认可前不继续贴图和绑定。详细改动与残留问题见该目录README。
+2. 当前先打开[主角v2对比](experiments/protagonist_tripo_cn_cleanup_v2/preview.html)和其中Blender工程，审看去卷丝、发尾及保留的宽发束是否合适。`AFTER_V2`默认可见，`BEFORE_V1`为对照。五个顶点组是编辑选择，不能误当成可动画分件；白袍开口和内侧、必要腿部代理及UV均未完成。详细改动、验证和回退见该目录README。
 3. 4F路线另看[五种镜头、两种触发和四段动图](experiments/cryo_4f_camera_compare_v6/preview.html)。Godot打开`scenes/dev/cryo_4f_camera_compare_v6.tscn`，F6运行，F8到走廊；不要用F5判断实验。
 4. 等用户确定v6镜头、触发和显现强度后再收敛，不把默认A／距离规则／50%当成已认可方案，不改回人物周围挖洞。
 5. 楼梯材质仍是局部折中候选，运动灯光未实现；1F室外连接未确定。主角当前已恢复，旧暂停记录只供追溯。

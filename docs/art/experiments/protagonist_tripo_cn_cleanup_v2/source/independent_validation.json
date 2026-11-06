@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checks": {
+    "v1_blend_hash_unchanged": true,
+    "raw_obj_hash_unchanged": true,
+    "two_meshes_in_declared_collections": true,
+    "mesh_counts": true,
+    "same_transform": true,
+    "no_uv_rig_modifier_shape_keys": true,
+    "raw_face_and_component_attributes_present": true,
+    "retained_hair_faces_correspond": true,
+    "retained_hair_xz_unchanged": true,
+    "retained_hair_no_fold_or_collapse": true,
+    "five_semantic_groups_exact_membership": true,
+    "glb_candidate_only_no_uv_rig_camera": true
+  },
+  "metrics": {
+    "candidate_hair_faces": 791,
+    "missing_source_raw_faces": [],
+    "loop_mismatch_raw_faces": [],
+    "retained_hair_xz_max_delta": 0.0,
+    "min_oriented_triangle_dot": 0.14002658162950354,
+    "min_area_ratio": 0.12665993046809879,
+    "triangles_checked_both_quad_diagonals": 2642,
+    "semantic_group_vertex_counts": {
+      "Hair_Main": 771,
+      "Robe": 688,
+      "Head_Neck": 334,
+      "Hands": 334,
+      "Feet": 232
+    }
+  },
+  "visual_review": {
+    "actual_views_reviewed": [
+      "front",
+      "side",
+      "back",
+      "quarter",
+      "head_back"
+    ],
+    "finding": "Left exposed loop is gone; lower hair edge is subtly softened. Right broad raised lock remains. No new black triangles, obvious cut, or body/robe shading change is visible in matched views.",
+    "remaining_limits": [
+      "Hair hem remains low-detail and somewhat jagged.",
+      "Hands and feet remain rough starting-mesh geometry.",
+      "Not UV-ready/rig-ready or user-art-approved; no game or runtime test."
+    ]
+  },
+  "artifact_sha256": {
+    "blend": "9f5fd46d630c318108ebbe16dcc46aef9a837234f51ac4685f1e0f8390b80105",
+    "glb": "6371a980ab44f2264689a5e54dadbc01969ec41a41ef1f2428fffc91aaa4ebde"
+  }
+}

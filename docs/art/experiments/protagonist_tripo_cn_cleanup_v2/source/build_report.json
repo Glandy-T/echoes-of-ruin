@@ -1,0 +1,2202 @@
+{
+  "stage": "v2_left_loop_delete_right_lock_preserved",
+  "baseline_blend": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_cn_cleanup_v1\\model\\protagonist_cn_cleanup_v1.blend",
+  "baseline_sha256": "98a8a0bd8c9c7550177f31403e63dbfd5b535cf94c6f4132bc7ad94af136ac0e",
+  "approved_raw_face_deletions": {
+    "left_loop": [
+      2796,
+      2799,
+      2800,
+      2801,
+      2802,
+      2805,
+      2806,
+      2857,
+      2858,
+      2928,
+      2930,
+      2936,
+      2937,
+      3019
+    ],
+    "right_rear_ribbon_preserved": [
+      1620,
+      1621,
+      1622,
+      1623,
+      1624,
+      1625,
+      1626,
+      1627,
+      1633,
+      1746,
+      1747,
+      1750,
+      1751,
+      1753
+    ],
+    "count": 14
+  },
+  "mesh_counts": {
+    "before_vertices": 2536,
+    "before_faces": 2596,
+    "after_vertices": 2515,
+    "after_faces": 2582
+  },
+  "normals": {
+    "source_custom": true,
+    "retained_loops_restored": 9808,
+    "missing": 0,
+    "moved_vertex_adjacent_hair_faces": [
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      259,
+      260,
+      261,
+      263,
+      460,
+      461,
+      462,
+      463,
+      464,
+      466,
+      467,
+      468,
+      469,
+      470,
+      1255,
+      1256,
+      1257,
+      1258,
+      1259,
+      1260,
+      1261,
+      1262,
+      1263,
+      1264,
+      1265,
+      1266,
+      1267,
+      1268,
+      1269,
+      1270,
+      1271,
+      1272,
+      1273,
+      1274,
+      1275,
+      1276,
+      1280,
+      1281,
+      1282,
+      1283,
+      1284,
+      1285,
+      1286,
+      1290,
+      1291,
+      1292,
+      1293,
+      1294,
+      1295,
+      1296,
+      1297,
+      1298,
+      1299,
+      1300,
+      1301,
+      1302,
+      1303,
+      1304,
+      1305,
+      1306,
+      1307,
+      1308,
+      1309,
+      1310,
+      1311,
+      1312,
+      1313,
+      1314,
+      1315,
+      1316,
+      1378,
+      1379,
+      1380,
+      1381,
+      1382,
+      1383,
+      1384,
+      1385,
+      1386,
+      1387,
+      1388,
+      1389,
+      1390,
+      1391,
+      1392,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      2226,
+      2227,
+      2228,
+      2229,
+      2230,
+      2233,
+      2234,
+      2235,
+      2236,
+      2237,
+      2238,
+      2239,
+      2240,
+      2241,
+      2255,
+      2256,
+      2257,
+      2258,
+      2259,
+      2260,
+      2261,
+      2262,
+      2263,
+      2264,
+      2265,
+      2266,
+      2267,
+      2268,
+      2269,
+      2270,
+      2271,
+      2272,
+      2273,
+      2274,
+      2275,
+      2276,
+      2277,
+      2278,
+      2279,
+      2280,
+      2281,
+      2282,
+      2283,
+      2284,
+      2285,
+      2286,
+      2287,
+      2288,
+      2289,
+      2336,
+      2337,
+      2338,
+      2339,
+      2340,
+      2341,
+      2342,
+      2343,
+      2344,
+      2345,
+      2346,
+      2347,
+      2352,
+      2353,
+      2354,
+      2355,
+      2356,
+      2357,
+      2358,
+      2359,
+      2360,
+      2361,
+      2366
+    ],
+    "method": "Original split normals retained on every surviving face, including coordinate-only hem fairing; no flat geometric normal replacement."
+  },
+  "lower_hair_border_fairing": {
+    "changed_vertices": [
+      {
+        "vertex_id": 377,
+        "before_y": 0.4814453125,
+        "after_y": 0.478515625,
+        "delta_y": -0.0029296875,
+        "proposed_delta_y": -0.0029296875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383
+        ]
+      },
+      {
+        "vertex_id": 378,
+        "before_y": 0.48046875,
+        "after_y": 0.47900390625,
+        "delta_y": -0.00146484375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          377,
+          379,
+          380,
+          1494,
+          1502
+        ]
+      },
+      {
+        "vertex_id": 379,
+        "before_y": 0.4765625,
+        "after_y": 0.4755859375,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          377,
+          378,
+          1503,
+          1504,
+          1508
+        ]
+      },
+      {
+        "vertex_id": 380,
+        "before_y": 0.48291015625,
+        "after_y": 0.4825439453125,
+        "delta_y": -0.0003662109375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 0.25,
+        "one_ring_neighbors": [
+          377,
+          378,
+          383,
+          434,
+          1495,
+          1609,
+          1615
+        ]
+      },
+      {
+        "vertex_id": 381,
+        "before_y": 0.4755859375,
+        "after_y": 0.474365234375,
+        "delta_y": -0.001220703125,
+        "proposed_delta_y": -0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          377,
+          382,
+          389,
+          390,
+          1508,
+          1512
+        ]
+      },
+      {
+        "vertex_id": 382,
+        "before_y": 0.4765625,
+        "after_y": 0.4735625,
+        "delta_y": -0.003,
+        "proposed_delta_y": -0.003,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          377,
+          381,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          1525,
+          1531
+        ]
+      },
+      {
+        "vertex_id": 384,
+        "before_y": 0.47607421875,
+        "after_y": 0.474609375,
+        "delta_y": -0.00146484375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          385,
+          386,
+          387,
+          397,
+          398,
+          399,
+          1512
+        ]
+      },
+      {
+        "vertex_id": 385,
+        "before_y": 0.47509765625,
+        "after_y": 0.474853515625,
+        "delta_y": -0.000244140625,
+        "proposed_delta_y": -0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          384,
+          386,
+          1509,
+          1511
+        ]
+      },
+      {
+        "vertex_id": 386,
+        "before_y": 0.4765625,
+        "after_y": 0.475830078125,
+        "delta_y": -0.000732421875,
+        "proposed_delta_y": -0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          384,
+          385,
+          387,
+          388,
+          1504,
+          1510
+        ]
+      },
+      {
+        "vertex_id": 388,
+        "before_y": 0.48095703125,
+        "after_y": 0.47900390625,
+        "delta_y": -0.001953125,
+        "proposed_delta_y": -0.001953125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          386,
+          387,
+          408,
+          1501,
+          1502
+        ]
+      },
+      {
+        "vertex_id": 389,
+        "before_y": 0.47216796875,
+        "after_y": 0.47119140625,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          381,
+          390,
+          1516
+        ]
+      },
+      {
+        "vertex_id": 390,
+        "before_y": 0.47021484375,
+        "after_y": 0.470947265625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          381,
+          382,
+          389,
+          391,
+          1517,
+          1518
+        ]
+      },
+      {
+        "vertex_id": 391,
+        "before_y": 0.4697265625,
+        "after_y": 0.46923828125,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          390,
+          392,
+          1519,
+          1523
+        ]
+      },
+      {
+        "vertex_id": 392,
+        "before_y": 0.46923828125,
+        "after_y": 0.468994140625,
+        "delta_y": -0.000244140625,
+        "proposed_delta_y": -0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          391,
+          1524,
+          1526
+        ]
+      },
+      {
+        "vertex_id": 393,
+        "before_y": 0.46923828125,
+        "after_y": 0.468994140625,
+        "delta_y": -0.000244140625,
+        "proposed_delta_y": -0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          394,
+          1529,
+          2272
+        ]
+      },
+      {
+        "vertex_id": 394,
+        "before_y": 0.4697265625,
+        "after_y": 0.46923828125,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          393,
+          1532,
+          2273,
+          2274
+        ]
+      },
+      {
+        "vertex_id": 395,
+        "before_y": 0.4755859375,
+        "after_y": 0.474365234375,
+        "delta_y": -0.001220703125,
+        "proposed_delta_y": -0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          396,
+          404,
+          405,
+          1532,
+          2279
+        ]
+      },
+      {
+        "vertex_id": 396,
+        "before_y": 0.4814453125,
+        "after_y": 0.4784453125,
+        "delta_y": -0.003,
+        "proposed_delta_y": -0.003,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          395,
+          406,
+          407,
+          444
+        ]
+      },
+      {
+        "vertex_id": 397,
+        "before_y": 0.47119140625,
+        "after_y": 0.4716796875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          384,
+          398,
+          399,
+          410,
+          1517,
+          1534
+        ]
+      },
+      {
+        "vertex_id": 398,
+        "before_y": 0.47265625,
+        "after_y": 0.47119140625,
+        "delta_y": -0.00146484375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          384,
+          397,
+          1516
+        ]
+      },
+      {
+        "vertex_id": 399,
+        "before_y": 0.474609375,
+        "after_y": 0.471609375,
+        "delta_y": -0.003,
+        "proposed_delta_y": -0.003,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          384,
+          397,
+          410,
+          411,
+          412,
+          1533,
+          1537
+        ]
+      },
+      {
+        "vertex_id": 400,
+        "before_y": 0.4658203125,
+        "after_y": 0.466552734375,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          401,
+          402,
+          414,
+          1517,
+          1518,
+          1534
+        ]
+      },
+      {
+        "vertex_id": 401,
+        "before_y": 0.46435546875,
+        "after_y": 0.465087890625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          400,
+          402,
+          403,
+          413
+        ]
+      },
+      {
+        "vertex_id": 402,
+        "before_y": 0.46630859375,
+        "after_y": 0.466552734375,
+        "delta_y": 0.000244140625,
+        "proposed_delta_y": 0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          400,
+          401,
+          403,
+          1519,
+          1523,
+          1535
+        ]
+      },
+      {
+        "vertex_id": 403,
+        "before_y": 0.46435546875,
+        "after_y": 0.465087890625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          401,
+          402,
+          413,
+          416
+        ]
+      },
+      {
+        "vertex_id": 404,
+        "before_y": 0.47119140625,
+        "after_y": 0.473388671875,
+        "delta_y": 0.002197265625,
+        "proposed_delta_y": 0.002197265625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          395,
+          405,
+          789,
+          2278
+        ]
+      },
+      {
+        "vertex_id": 405,
+        "before_y": 0.47412109375,
+        "after_y": 0.474609375,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          395,
+          404,
+          422,
+          2280
+        ]
+      },
+      {
+        "vertex_id": 406,
+        "before_y": 0.48046875,
+        "after_y": 0.47900390625,
+        "delta_y": -0.00146484375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          396,
+          407,
+          445,
+          2296,
+          2302
+        ]
+      },
+      {
+        "vertex_id": 407,
+        "before_y": 0.4765625,
+        "after_y": 0.4755859375,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          396,
+          406,
+          2279,
+          2282,
+          2295
+        ]
+      },
+      {
+        "vertex_id": 408,
+        "before_y": 0.4833984375,
+        "after_y": 0.482421875,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          387,
+          388,
+          409,
+          438,
+          1500,
+          1612,
+          1615
+        ]
+      },
+      {
+        "vertex_id": 410,
+        "before_y": 0.470703125,
+        "after_y": 0.47021484375,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          397,
+          399,
+          412,
+          1523,
+          1535
+        ]
+      },
+      {
+        "vertex_id": 411,
+        "before_y": 0.4677734375,
+        "after_y": 0.468505859375,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          399,
+          412,
+          1527,
+          1536
+        ]
+      },
+      {
+        "vertex_id": 412,
+        "before_y": 0.47021484375,
+        "after_y": 0.469482421875,
+        "delta_y": -0.000732421875,
+        "proposed_delta_y": -0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          399,
+          410,
+          411,
+          1524
+        ]
+      },
+      {
+        "vertex_id": 415,
+        "before_y": 0.46533203125,
+        "after_y": 0.46484375,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          413,
+          414,
+          416,
+          1534
+        ]
+      },
+      {
+        "vertex_id": 416,
+        "before_y": 0.4658203125,
+        "after_y": 0.46484375,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          403,
+          413,
+          415,
+          1535
+        ]
+      },
+      {
+        "vertex_id": 417,
+        "before_y": 0.47021484375,
+        "after_y": 0.469482421875,
+        "delta_y": -0.000732421875,
+        "proposed_delta_y": -0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          418,
+          419,
+          420,
+          2272
+        ]
+      },
+      {
+        "vertex_id": 418,
+        "before_y": 0.4677734375,
+        "after_y": 0.468505859375,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          417,
+          419,
+          1530,
+          1536
+        ]
+      },
+      {
+        "vertex_id": 419,
+        "before_y": 0.474609375,
+        "after_y": 0.471609375,
+        "delta_y": -0.003,
+        "proposed_delta_y": -0.003,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          417,
+          418,
+          420,
+          421,
+          422,
+          1537,
+          1539
+        ]
+      },
+      {
+        "vertex_id": 420,
+        "before_y": 0.470703125,
+        "after_y": 0.47021484375,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          417,
+          419,
+          421,
+          2273,
+          2321
+        ]
+      },
+      {
+        "vertex_id": 421,
+        "before_y": 0.47119140625,
+        "after_y": 0.4716796875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          419,
+          420,
+          422,
+          789,
+          2278,
+          2322
+        ]
+      },
+      {
+        "vertex_id": 422,
+        "before_y": 0.47607421875,
+        "after_y": 0.474609375,
+        "delta_y": -0.00146484375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          405,
+          419,
+          421,
+          789,
+          790,
+          791,
+          792
+        ]
+      },
+      {
+        "vertex_id": 439,
+        "before_y": 0.48291015625,
+        "after_y": 0.484375,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          434,
+          435,
+          438,
+          1607
+        ]
+      },
+      {
+        "vertex_id": 445,
+        "before_y": 0.48291015625,
+        "after_y": 0.481201171875,
+        "delta_y": -0.001708984375,
+        "proposed_delta_y": -0.001708984375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          406,
+          443,
+          444,
+          2305,
+          2309,
+          2359
+        ]
+      },
+      {
+        "vertex_id": 785,
+        "before_y": 0.46630859375,
+        "after_y": 0.466552734375,
+        "delta_y": 0.000244140625,
+        "proposed_delta_y": 0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          786,
+          787,
+          788,
+          2273,
+          2274,
+          2321
+        ]
+      },
+      {
+        "vertex_id": 786,
+        "before_y": 0.46435546875,
+        "after_y": 0.465087890625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          785,
+          787,
+          797,
+          2320
+        ]
+      },
+      {
+        "vertex_id": 787,
+        "before_y": 0.46435546875,
+        "after_y": 0.465087890625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          785,
+          786,
+          788,
+          797
+        ]
+      },
+      {
+        "vertex_id": 788,
+        "before_y": 0.4658203125,
+        "after_y": 0.466552734375,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          785,
+          787,
+          799,
+          2275,
+          2278,
+          2322
+        ]
+      },
+      {
+        "vertex_id": 789,
+        "before_y": 0.47265625,
+        "after_y": 0.47119140625,
+        "delta_y": -0.00146484375,
+        "proposed_delta_y": -0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          404,
+          421,
+          422
+        ]
+      },
+      {
+        "vertex_id": 790,
+        "before_y": 0.4765625,
+        "after_y": 0.475830078125,
+        "delta_y": -0.000732421875,
+        "proposed_delta_y": -0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          422,
+          791,
+          792,
+          796,
+          2295,
+          2298
+        ]
+      },
+      {
+        "vertex_id": 791,
+        "before_y": 0.47509765625,
+        "after_y": 0.474853515625,
+        "delta_y": -0.000244140625,
+        "proposed_delta_y": -0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          422,
+          790,
+          2280,
+          2297
+        ]
+      },
+      {
+        "vertex_id": 796,
+        "before_y": 0.48095703125,
+        "after_y": 0.47900390625,
+        "delta_y": -0.001953125,
+        "proposed_delta_y": -0.001953125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          790,
+          792,
+          801,
+          2296,
+          2318
+        ]
+      },
+      {
+        "vertex_id": 798,
+        "before_y": 0.46533203125,
+        "after_y": 0.46484375,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          797,
+          799,
+          2320,
+          2322
+        ]
+      },
+      {
+        "vertex_id": 801,
+        "before_y": 0.48291015625,
+        "after_y": 0.481201171875,
+        "delta_y": -0.001708984375,
+        "proposed_delta_y": -0.001708984375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          792,
+          796,
+          800,
+          2315,
+          2319,
+          2359
+        ]
+      },
+      {
+        "vertex_id": 1490,
+        "before_y": 0.47607421875,
+        "after_y": 0.4775390625,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1491,
+          1493,
+          1497,
+          1499
+        ]
+      },
+      {
+        "vertex_id": 1493,
+        "before_y": 0.4765625,
+        "after_y": 0.4775390625,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1490,
+          1492,
+          1496,
+          1498
+        ]
+      },
+      {
+        "vertex_id": 1495,
+        "before_y": 0.47998046875,
+        "after_y": 0.47900390625,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          380,
+          1492,
+          1494,
+          1496
+        ]
+      },
+      {
+        "vertex_id": 1496,
+        "before_y": 0.47900390625,
+        "after_y": 0.47998046875,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1493,
+          1495,
+          1500,
+          1615
+        ]
+      },
+      {
+        "vertex_id": 1497,
+        "before_y": 0.47802734375,
+        "after_y": 0.47900390625,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1490,
+          1494,
+          1501,
+          1502
+        ]
+      },
+      {
+        "vertex_id": 1500,
+        "before_y": 0.47998046875,
+        "after_y": 0.47900390625,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          408,
+          1496,
+          1498,
+          1501
+        ]
+      },
+      {
+        "vertex_id": 1502,
+        "before_y": 0.47900390625,
+        "after_y": 0.479248046875,
+        "delta_y": 0.000244140625,
+        "proposed_delta_y": 0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          378,
+          388,
+          1497,
+          1504
+        ]
+      },
+      {
+        "vertex_id": 1503,
+        "before_y": 0.47412109375,
+        "after_y": 0.47314453125,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          379,
+          1505,
+          1507
+        ]
+      },
+      {
+        "vertex_id": 1504,
+        "before_y": 0.4755859375,
+        "after_y": 0.4765625,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          379,
+          386,
+          1502,
+          1505
+        ]
+      },
+      {
+        "vertex_id": 1505,
+        "before_y": 0.47265625,
+        "after_y": 0.47412109375,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1503,
+          1504,
+          1506,
+          1510
+        ]
+      },
+      {
+        "vertex_id": 1506,
+        "before_y": 0.47216796875,
+        "after_y": 0.473388671875,
+        "delta_y": 0.001220703125,
+        "proposed_delta_y": 0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1505,
+          1507,
+          1509,
+          1511
+        ]
+      },
+      {
+        "vertex_id": 1507,
+        "before_y": 0.47314453125,
+        "after_y": 0.47412109375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1503,
+          1506,
+          1508
+        ]
+      },
+      {
+        "vertex_id": 1509,
+        "before_y": 0.4736328125,
+        "after_y": 0.474365234375,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          385,
+          1506,
+          1508,
+          1512
+        ]
+      },
+      {
+        "vertex_id": 1510,
+        "before_y": 0.47412109375,
+        "after_y": 0.4736328125,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          386,
+          1505,
+          1511
+        ]
+      },
+      {
+        "vertex_id": 1511,
+        "before_y": 0.4736328125,
+        "after_y": 0.47412109375,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          385,
+          1506,
+          1510
+        ]
+      },
+      {
+        "vertex_id": 1512,
+        "before_y": 0.47412109375,
+        "after_y": 0.474609375,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          381,
+          384,
+          1509,
+          1516
+        ]
+      },
+      {
+        "vertex_id": 1516,
+        "before_y": 0.47119140625,
+        "after_y": 0.472412109375,
+        "delta_y": 0.001220703125,
+        "proposed_delta_y": 0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          389,
+          398,
+          1512,
+          1517
+        ]
+      },
+      {
+        "vertex_id": 1517,
+        "before_y": 0.46923828125,
+        "after_y": 0.470703125,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          390,
+          397,
+          400,
+          1516
+        ]
+      },
+      {
+        "vertex_id": 1518,
+        "before_y": 0.466796875,
+        "after_y": 0.46728515625,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          390,
+          400,
+          1519
+        ]
+      },
+      {
+        "vertex_id": 1519,
+        "before_y": 0.46728515625,
+        "after_y": 0.466796875,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          391,
+          402,
+          1518
+        ]
+      },
+      {
+        "vertex_id": 1523,
+        "before_y": 0.46875,
+        "after_y": 0.468994140625,
+        "delta_y": 0.000244140625,
+        "proposed_delta_y": 0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          391,
+          402,
+          410,
+          1524
+        ]
+      },
+      {
+        "vertex_id": 1524,
+        "before_y": 0.46826171875,
+        "after_y": 0.468994140625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          392,
+          412,
+          1523,
+          1527
+        ]
+      },
+      {
+        "vertex_id": 1525,
+        "before_y": 0.46533203125,
+        "after_y": 0.46630859375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          382,
+          1526,
+          1528,
+          1529
+        ]
+      },
+      {
+        "vertex_id": 1526,
+        "before_y": 0.46630859375,
+        "after_y": 0.46533203125,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          392,
+          1525,
+          1527
+        ]
+      },
+      {
+        "vertex_id": 1527,
+        "before_y": 0.46533203125,
+        "after_y": 0.467041015625,
+        "delta_y": 0.001708984375,
+        "proposed_delta_y": 0.001708984375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          411,
+          1524,
+          1526,
+          1528
+        ]
+      },
+      {
+        "vertex_id": 1528,
+        "before_y": 0.46435546875,
+        "after_y": 0.46533203125,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1525,
+          1527,
+          1530,
+          1536
+        ]
+      },
+      {
+        "vertex_id": 1529,
+        "before_y": 0.46630859375,
+        "after_y": 0.46533203125,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          393,
+          1525,
+          1530
+        ]
+      },
+      {
+        "vertex_id": 1530,
+        "before_y": 0.46533203125,
+        "after_y": 0.467041015625,
+        "delta_y": 0.001708984375,
+        "proposed_delta_y": 0.001708984375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          418,
+          1528,
+          1529,
+          2272
+        ]
+      },
+      {
+        "vertex_id": 1532,
+        "before_y": 0.47021484375,
+        "after_y": 0.469482421875,
+        "delta_y": -0.000732421875,
+        "proposed_delta_y": -0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          394,
+          395,
+          2275,
+          2278
+        ]
+      },
+      {
+        "vertex_id": 1534,
+        "before_y": 0.46728515625,
+        "after_y": 0.466796875,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          397,
+          400,
+          415,
+          1535
+        ]
+      },
+      {
+        "vertex_id": 1535,
+        "before_y": 0.4677734375,
+        "after_y": 0.466796875,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          402,
+          410,
+          416,
+          1534
+        ]
+      },
+      {
+        "vertex_id": 1536,
+        "before_y": 0.466796875,
+        "after_y": 0.4677734375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          411,
+          418,
+          1528,
+          1537
+        ]
+      },
+      {
+        "vertex_id": 1601,
+        "before_y": 0.4833984375,
+        "after_y": 0.48388671875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          433,
+          1602,
+          1604
+        ]
+      },
+      {
+        "vertex_id": 1603,
+        "before_y": 0.482421875,
+        "after_y": 0.48388671875,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1600,
+          1602,
+          1604,
+          1606
+        ]
+      },
+      {
+        "vertex_id": 1604,
+        "before_y": 0.482421875,
+        "after_y": 0.4833984375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          435,
+          1601,
+          1603,
+          1605
+        ]
+      },
+      {
+        "vertex_id": 1605,
+        "before_y": 0.4833984375,
+        "after_y": 0.48388671875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          409,
+          1604,
+          1606
+        ]
+      },
+      {
+        "vertex_id": 1607,
+        "before_y": 0.48095703125,
+        "after_y": 0.482177734375,
+        "delta_y": 0.001220703125,
+        "proposed_delta_y": 0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          439,
+          1608,
+          1610,
+          1611
+        ]
+      },
+      {
+        "vertex_id": 1610,
+        "before_y": 0.48193359375,
+        "after_y": 0.482421875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          438,
+          1607,
+          1612
+        ]
+      },
+      {
+        "vertex_id": 1611,
+        "before_y": 0.48095703125,
+        "after_y": 0.4814453125,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 0.5,
+        "one_ring_neighbors": [
+          1607,
+          1609,
+          1612,
+          1615
+        ]
+      },
+      {
+        "vertex_id": 1612,
+        "before_y": 0.482421875,
+        "after_y": 0.48193359375,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          408,
+          1610,
+          1611
+        ]
+      },
+      {
+        "vertex_id": 1615,
+        "before_y": 0.4814453125,
+        "after_y": 0.48193359375,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          380,
+          408,
+          1496,
+          1611
+        ]
+      },
+      {
+        "vertex_id": 2272,
+        "before_y": 0.46826171875,
+        "after_y": 0.468994140625,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          393,
+          417,
+          1530,
+          2273
+        ]
+      },
+      {
+        "vertex_id": 2273,
+        "before_y": 0.46875,
+        "after_y": 0.468994140625,
+        "delta_y": 0.000244140625,
+        "proposed_delta_y": 0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          394,
+          420,
+          785,
+          2272
+        ]
+      },
+      {
+        "vertex_id": 2274,
+        "before_y": 0.46728515625,
+        "after_y": 0.466796875,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          394,
+          785,
+          2275
+        ]
+      },
+      {
+        "vertex_id": 2275,
+        "before_y": 0.466796875,
+        "after_y": 0.46728515625,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          788,
+          1532,
+          2274
+        ]
+      },
+      {
+        "vertex_id": 2278,
+        "before_y": 0.46923828125,
+        "after_y": 0.470703125,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          404,
+          421,
+          788,
+          1532
+        ]
+      },
+      {
+        "vertex_id": 2280,
+        "before_y": 0.4736328125,
+        "after_y": 0.474365234375,
+        "delta_y": 0.000732421875,
+        "proposed_delta_y": 0.000732421875,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          405,
+          791,
+          2279,
+          2283
+        ]
+      },
+      {
+        "vertex_id": 2281,
+        "before_y": 0.47314453125,
+        "after_y": 0.47412109375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2279,
+          2282,
+          2283
+        ]
+      },
+      {
+        "vertex_id": 2282,
+        "before_y": 0.47412109375,
+        "after_y": 0.4736328125,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 0.5,
+        "one_ring_neighbors": [
+          407,
+          2281,
+          2294
+        ]
+      },
+      {
+        "vertex_id": 2283,
+        "before_y": 0.47216796875,
+        "after_y": 0.473388671875,
+        "delta_y": 0.001220703125,
+        "proposed_delta_y": 0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2280,
+          2281,
+          2294,
+          2297
+        ]
+      },
+      {
+        "vertex_id": 2294,
+        "before_y": 0.47265625,
+        "after_y": 0.47412109375,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2282,
+          2283,
+          2295,
+          2298
+        ]
+      },
+      {
+        "vertex_id": 2295,
+        "before_y": 0.4755859375,
+        "after_y": 0.4765625,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          407,
+          790,
+          2294,
+          2296
+        ]
+      },
+      {
+        "vertex_id": 2296,
+        "before_y": 0.47900390625,
+        "after_y": 0.479248046875,
+        "delta_y": 0.000244140625,
+        "proposed_delta_y": 0.000244140625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          406,
+          796,
+          2295,
+          2299
+        ]
+      },
+      {
+        "vertex_id": 2297,
+        "before_y": 0.4736328125,
+        "after_y": 0.47412109375,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          791,
+          2283,
+          2298
+        ]
+      },
+      {
+        "vertex_id": 2298,
+        "before_y": 0.47412109375,
+        "after_y": 0.4736328125,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          790,
+          2294,
+          2297
+        ]
+      },
+      {
+        "vertex_id": 2299,
+        "before_y": 0.47802734375,
+        "after_y": 0.47900390625,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2296,
+          2300,
+          2302,
+          2318
+        ]
+      },
+      {
+        "vertex_id": 2300,
+        "before_y": 0.47607421875,
+        "after_y": 0.4775390625,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2299,
+          2301,
+          2303,
+          2316
+        ]
+      },
+      {
+        "vertex_id": 2303,
+        "before_y": 0.47607421875,
+        "after_y": 0.4775390625,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2300,
+          2304,
+          2306,
+          2317
+        ]
+      },
+      {
+        "vertex_id": 2305,
+        "before_y": 0.47998046875,
+        "after_y": 0.4793701171875,
+        "delta_y": -0.0006103515625,
+        "proposed_delta_y": -0.001220703125,
+        "safety_scale": 0.5,
+        "one_ring_neighbors": [
+          445,
+          2302,
+          2304,
+          2306
+        ]
+      },
+      {
+        "vertex_id": 2306,
+        "before_y": 0.478515625,
+        "after_y": 0.47998046875,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2303,
+          2305,
+          2319,
+          2359
+        ]
+      },
+      {
+        "vertex_id": 2307,
+        "before_y": 0.47802734375,
+        "after_y": 0.4794921875,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2308,
+          2310,
+          2312,
+          2313
+        ]
+      },
+      {
+        "vertex_id": 2308,
+        "before_y": 0.4794921875,
+        "after_y": 0.47998046875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2307,
+          2309,
+          2311
+        ]
+      },
+      {
+        "vertex_id": 2310,
+        "before_y": 0.47998046875,
+        "after_y": 0.4805908203125,
+        "delta_y": 0.0006103515625,
+        "proposed_delta_y": 0.001220703125,
+        "safety_scale": 0.5,
+        "one_ring_neighbors": [
+          2307,
+          2309,
+          2315,
+          2359
+        ]
+      },
+      {
+        "vertex_id": 2311,
+        "before_y": 0.47998046875,
+        "after_y": 0.4794921875,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2308,
+          2312,
+          2360
+        ]
+      },
+      {
+        "vertex_id": 2312,
+        "before_y": 0.478515625,
+        "after_y": 0.47998046875,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2307,
+          2311,
+          2314,
+          2361
+        ]
+      },
+      {
+        "vertex_id": 2313,
+        "before_y": 0.4794921875,
+        "after_y": 0.47998046875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2307,
+          2314,
+          2315
+        ]
+      },
+      {
+        "vertex_id": 2314,
+        "before_y": 0.47998046875,
+        "after_y": 0.4794921875,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2312,
+          2313,
+          2362
+        ]
+      },
+      {
+        "vertex_id": 2319,
+        "before_y": 0.47998046875,
+        "after_y": 0.478759765625,
+        "delta_y": -0.001220703125,
+        "proposed_delta_y": -0.001220703125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          801,
+          2306,
+          2317,
+          2318
+        ]
+      },
+      {
+        "vertex_id": 2320,
+        "before_y": 0.4658203125,
+        "after_y": 0.46533203125,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          786,
+          798,
+          2321
+        ]
+      },
+      {
+        "vertex_id": 2321,
+        "before_y": 0.4677734375,
+        "after_y": 0.466796875,
+        "delta_y": -0.0009765625,
+        "proposed_delta_y": -0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          420,
+          785,
+          2320,
+          2322
+        ]
+      },
+      {
+        "vertex_id": 2322,
+        "before_y": 0.46728515625,
+        "after_y": 0.466796875,
+        "delta_y": -0.00048828125,
+        "proposed_delta_y": -0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          421,
+          788,
+          798,
+          2321
+        ]
+      },
+      {
+        "vertex_id": 2323,
+        "before_y": 0.474609375,
+        "after_y": 0.477609375,
+        "delta_y": 0.003,
+        "proposed_delta_y": 0.003,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1694,
+          2324
+        ]
+      },
+      {
+        "vertex_id": 2324,
+        "before_y": 0.474609375,
+        "after_y": 0.4755859375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          1693,
+          2323,
+          2326
+        ]
+      },
+      {
+        "vertex_id": 2326,
+        "before_y": 0.4755859375,
+        "after_y": 0.4785859375,
+        "delta_y": 0.003,
+        "proposed_delta_y": 0.003,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2324,
+          2325
+        ]
+      },
+      {
+        "vertex_id": 2359,
+        "before_y": 0.48095703125,
+        "after_y": 0.4814453125,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          445,
+          801,
+          2306,
+          2310
+        ]
+      },
+      {
+        "vertex_id": 2360,
+        "before_y": 0.4833984375,
+        "after_y": 0.4825439453125,
+        "delta_y": -0.0008544921875,
+        "proposed_delta_y": -0.001708984375,
+        "safety_scale": 0.5,
+        "one_ring_neighbors": [
+          443,
+          2309,
+          2311,
+          2361
+        ]
+      },
+      {
+        "vertex_id": 2361,
+        "before_y": 0.48193359375,
+        "after_y": 0.4833984375,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2312,
+          2360,
+          2362,
+          2368
+        ]
+      },
+      {
+        "vertex_id": 2362,
+        "before_y": 0.4833984375,
+        "after_y": 0.481689453125,
+        "delta_y": -0.001708984375,
+        "proposed_delta_y": -0.001708984375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          800,
+          2314,
+          2315,
+          2361
+        ]
+      },
+      {
+        "vertex_id": 2369,
+        "before_y": 0.482421875,
+        "after_y": 0.48388671875,
+        "delta_y": 0.00146484375,
+        "proposed_delta_y": 0.00146484375,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2370,
+          2372,
+          2373,
+          2374
+        ]
+      },
+      {
+        "vertex_id": 2371,
+        "before_y": 0.4833984375,
+        "after_y": 0.48388671875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          443,
+          2370,
+          2372
+        ]
+      },
+      {
+        "vertex_id": 2372,
+        "before_y": 0.482421875,
+        "after_y": 0.4833984375,
+        "delta_y": 0.0009765625,
+        "proposed_delta_y": 0.0009765625,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          2368,
+          2369,
+          2371,
+          2375
+        ]
+      },
+      {
+        "vertex_id": 2375,
+        "before_y": 0.4833984375,
+        "after_y": 0.48388671875,
+        "delta_y": 0.00048828125,
+        "proposed_delta_y": 0.00048828125,
+        "safety_scale": 1.0,
+        "one_ring_neighbors": [
+          800,
+          2372,
+          2374
+        ]
+      }
+    ],
+    "rejected_vertices": [],
+    "max_displacement": 0.003,
+    "rule": "All hair vertices local y within min+0.02 excluding extent anchors; immutable one-ring neighbor median, y only, clamp .003, per-vertex step backoff.",
+    "oriented_triangle_gate": {
+      "all_final_pass": true,
+      "minimum_retained_triangle_area_ratio": 0.05,
+      "minimum_positive_orientation_dot": 0,
+      "backoff_steps": 9,
+      "checked_triangles": 2642,
+      "note": "Both diagonal choices checked for retained quads. Pre-existing zero-area triangles are outside this no-new-fold gate."
+    }
+  },
+  "parts_inventory": {
+    "Hair_Main": "raw component6",
+    "Robe": "raw component2",
+    "Head_Neck": "raw component5",
+    "Hands": "raw components3 and20",
+    "Feet": "raw components0 and19",
+    "status": "Five editable semantic vertex groups; tiny residual components keep raw-ID attributes. No claim of completed mesh separation, inner garment surfaces or deformation topology."
+  },
+  "residual_topology": {
+    "hair_faces": 791,
+    "hair_min_local_y_before": 0.4638671875,
+    "hair_max_local_y_before": 0.70654296875,
+    "hair_min_local_y_after": 0.4638671875,
+    "hair_max_local_y_after": 0.70654296875
+  },
+  "new_patches": 0,
+  "boundary": "Only exposed left loop removed; source backing hair volume remains. Broad right lock retained after visual comparison rejected cutting its middle."
+}

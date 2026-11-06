@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "status": "active_v2_cleanup",
+  "baseline": "../protagonist_tripo_cn_cleanup_v1/model/protagonist_cn_cleanup_v1.blend",
+  "user_direction": "Continue after v1; remove remaining modeled fine strands and rough hair tips, preserve recognizable head, hair length/volume, robe/body/pose/scale. Prepare sensible parts for later UV.",
+  "allowed": [
+    "Visually selected residual ribbon deletion and local hair-border cleanup",
+    "Local hole repair only where needed after selected detail removal",
+    "Semantic hair/robe/visible body part organization without inventing hidden anatomy"
+  ],
+  "protected": [
+    "v1 and original raw files",
+    "Face, main hair silhouette, hair length, body/robe geometry except proven unwanted tiny surface artifacts",
+    "Room1 and current game character"
+  ],
+  "not_in_scope": [
+    "Final pixel textures",
+    "Rigging/animation",
+    "Whole-head replacement",
+    "Voxel remesh",
+    "Game integration"
+  ],
+  "acceptance": "Matched original five cameras at1280x720, head rear closeup; retain normals on unchanged surfaces; document geometry changes, openings, parts and remaining limits; visual review before rigging."
+}

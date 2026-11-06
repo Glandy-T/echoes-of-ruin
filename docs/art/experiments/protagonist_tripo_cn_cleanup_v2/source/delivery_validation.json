@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checks": {
+    "v1_blend_unchanged": true,
+    "v1_glb_unchanged": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.glb": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.mtl": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.obj": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.zip": true,
+    "one_before_mesh": true,
+    "candidate_mesh_present": true,
+    "all_nonhair_faces_kept": true,
+    "nonhair_coordinates_exact": true,
+    "nonhair_corner_normals_preserved": true,
+    "transforms_unchanged": true,
+    "only_existing_hair_faces_retained": true,
+    "hair_fairing_only_local_y": true,
+    "hair_fairing_within_approved_hem": true,
+    "hair_length_extent_preserved": true,
+    "no_uv_or_rig_claim": true,
+    "valid_glb": true,
+    "only_candidate_glb_meshes": true,
+    "no_before_cameras_or_rig_in_glb": true,
+    "ten_final_images": true,
+    "front_matched_camera": true,
+    "front_intact_images": true,
+    "side_matched_camera": true,
+    "side_intact_images": true,
+    "back_matched_camera": true,
+    "back_intact_images": true,
+    "quarter_matched_camera": true,
+    "quarter_intact_images": true,
+    "head_back_matched_camera": true,
+    "head_back_intact_images": true,
+    "preview_links_exist": true
+  },
+  "untouched_nonhair_faces": 1791,
+  "max_nonhair_normal_component_delta": 0.00018044468015432358,
+  "max_hair_vertex_height_delta": 0.0029999911785125732,
+  "candidate_counts": [
+    {
+      "object": "CN_P20_V2_AFTER",
+      "vertices": 2515,
+      "polygons": 2582
+    }
+  ],
+  "artifact_sha256": {
+    "blend": "9f5fd46d630c318108ebbe16dcc46aef9a837234f51ac4685f1e0f8390b80105",
+    "glb": "6371a980ab44f2264689a5e54dadbc01969ec41a41ef1f2428fffc91aaa4ebde"
+  },
+  "boundary": "File/geometry checks only. User visual approval and UV/rig/deformation/game validation are separate."
+}

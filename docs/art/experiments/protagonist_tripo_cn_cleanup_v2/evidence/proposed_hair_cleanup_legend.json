@@ -1,0 +1,55 @@
+{
+  "purpose": "Proposed v2 visual selection only: orange=left small loop face set; magenta=right rear raised-strip face set. Gray=v1 context. No deletion, normal edit, hole patch, or silhouette edit has occurred.",
+  "source_blend": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_cn_cleanup_v1\\model\\protagonist_cn_cleanup_v1.blend",
+  "left_raw_face_indices_zero_based": [
+    2796,
+    2799,
+    2800,
+    2801,
+    2802,
+    2805,
+    2806,
+    2857,
+    2858,
+    2928,
+    2930,
+    2936,
+    2937,
+    3019
+  ],
+  "right_raw_face_indices_zero_based": [
+    1620,
+    1621,
+    1622,
+    1623,
+    1624,
+    1625,
+    1626,
+    1627,
+    1633,
+    1746,
+    1747,
+    1750,
+    1751,
+    1753
+  ],
+  "selection_method": "QA_head_back camera projection of actual C6 boundary edges; direct rays were occluded at visible outline pixels.",
+  "anticipated_patch_if_approved": "Delete selected ribbon faces only, preserve all other C6 faces, restore retained source custom corner normals, then evaluate whether each deletion leaves a hole requiring a minimal local patch.",
+  "renders": [
+    {
+      "view": "front",
+      "file": "proposed_hair_cleanup_front.png",
+      "sha256": "d844a7af3ef20927cc8c958c92bb06086a79a35fae0163d10884a3c7b9d67775"
+    },
+    {
+      "view": "head_back",
+      "file": "proposed_hair_cleanup_head_back.png",
+      "sha256": "0bfb2a203d321201c713d477202aabaa87aa4e4d3f09191f64220ab10d5ff626"
+    },
+    {
+      "view": "side",
+      "file": "proposed_hair_cleanup_side.png",
+      "sha256": "63693cd458b9ecdb7b6dc78016819914baea08a7f91433cad0f8bca451a89edf"
+    }
+  ]
+}
