@@ -1,0 +1,226 @@
+{
+  "raw_obj_sha256_expected": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb",
+  "raw_obj_sha256_after": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb",
+  "raw_obj_immutable": true,
+  "operation": "Imported v1 OBJ; applied X90 only in working copy; welded exact coincident seam vertices; deleted only vertices x>0.035 and z<0.018; filled resulting foot holes.",
+  "welded_obj_before_repair_self_intersection_audit": {
+    "bvh_candidate_pair_count": 681,
+    "classification_counts": {
+      "proper_crossing": 28,
+      "point_touch": 12,
+      "disjoint": 4
+    },
+    "true_nonadjacent_intersection_count": 28,
+    "sample": [
+      {
+        "triangles": [
+          20,
+          812
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          21,
+          812
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          371,
+          3652
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          372,
+          3652
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          803,
+          812
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          803,
+          815
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          860,
+          876
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          876,
+          886
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          880,
+          887
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          880,
+          889
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          881,
+          887
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          887,
+          921
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          889,
+          891
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          889,
+          929
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3471,
+          3514
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3482,
+          3514
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3482,
+          3520
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3482,
+          3521
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3483,
+          3521
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3483,
+          3536
+        ],
+        "kind": "proper_crossing"
+      }
+    ]
+  },
+  "changed_region_world": {
+    "deletion_rule": "x > 0.035 and z < 0.018",
+    "proof_envelope": "x > 0.022 and z < 0.030 (includes cap boundary and two local face-less source edges)",
+    "crossing_audit_v1_bounds_reference": {
+      "x": [
+        0.0416826531291008,
+        0.053495801985263824
+      ],
+      "z": [
+        0.0023040771484375,
+        0.010825363919138908
+      ]
+    },
+    "repair_applied": true,
+    "deleted_vertices": 251
+  },
+  "untouched_surface_proof": {
+    "post_weld_vertices_before_repair": 3067,
+    "non_toe_surface_vertices_before_repair": 2762,
+    "non_toe_surface_vertices_after_repair": 2762,
+    "non_toe_surface_coordinate_multisets_identical": true,
+    "note": "No non-toe surface vertex was deleted or moved. Two face-less source edges inside the toe patch are discarded; exact seam welding precedes this comparison and can reduce duplicate OBJ vertices without moving unique surface positions."
+  },
+  "topology": {
+    "vertices": 2814,
+    "polygons": 3103,
+    "triangles": 5624,
+    "connected_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "quad_polygons": 2485,
+    "triangle_polygons": 616,
+    "ngon_polygons": 2
+  },
+  "self_intersection_audit": {
+    "bvh_candidate_pair_count": 591,
+    "classification_counts": {},
+    "true_nonadjacent_intersection_count": 0,
+    "sample": []
+  },
+  "limits": [
+    "No UVs, rig, weights, shape keys, animation, clothing separation, or final visual acceptance is claimed.",
+    "The source OBJ remains immutable; v2 is a separate mesh intended for subsequent visual and rig-readiness review."
+  ],
+  "status": "PASS_STATIC_TOE_REPAIR",
+  "exported_glb": {
+    "sha256": "44f6915307c43b3aaf2f7b9776f6714f9e88dd19f82f266b53b9b5b153057e84",
+    "bytes": 102192,
+    "topology": {
+      "vertices": 2814,
+      "polygons": 5624,
+      "triangles": 5624,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "quad_polygons": 0,
+      "triangle_polygons": 5624,
+      "ngon_polygons": 0
+    },
+    "self_intersection_audit": {
+      "bvh_candidate_pair_count": 591,
+      "classification_counts": {},
+      "true_nonadjacent_intersection_count": 0,
+      "sample": []
+    },
+    "matches_static_requirements": true
+  }
+}

@@ -1,5 +1,7 @@
 # 独立休眠袍 v2：正反面引导候选
 
+**本轮用户审看后决定保留白袍外形，暂不重设计；拓扑问题并未因此解除。身体后续修整与临时动作入口见[身体v2](../protagonist_tripo_body_v2/README.md)。**
+
 2026-11-06。**当前仅为外形候选，静态结构检查未通过，不能直接绑骨；尚未试穿或获最终造型批准。** [身体／白袍对照入口](preview.html) · [白袍 Blender](model/protagonist_robe_v2_inspection.blend) · [身体 Blender](../protagonist_tripo_body_v1/model/protagonist_body_v1_inspection.blend)。
 
 纯文字 v1 仍带手脚，已经拒绝。因此用项目自有白袍灰模的正面／背面 PNG 引导 P2.0，私有、数量1、Quad目标2000；没有使用 Pixel Canals 的图像或资产。图像只约束外形，旧 v3 的错误拓扑没有直接作为新网格复制。提示词输入在该多视图模式中不可用，本次没有附加文字提示词。输入、相机与来源哈希见 [guide_provenance.json](source/guide_provenance.json)。

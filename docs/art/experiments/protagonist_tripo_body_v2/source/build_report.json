@@ -1,0 +1,245 @@
+{
+  "raw_obj_sha256_expected": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb",
+  "raw_obj_sha256_after": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb",
+  "raw_obj_immutable": true,
+  "operation": "Imported v1 OBJ; applied X90 only in working copy; welded exact coincident seam vertices; made a true planar forefoot cross-section at x=.026 within z<.070, then built rounded envelope rings at x=.045/.058/.064 and triangulated their planar end caps.",
+  "welded_obj_before_repair_self_intersection_audit": {
+    "bvh_candidate_pair_count": 681,
+    "classification_counts": {
+      "proper_crossing": 28,
+      "point_touch": 12,
+      "disjoint": 4
+    },
+    "true_nonadjacent_intersection_count": 28,
+    "sample": [
+      {
+        "triangles": [
+          20,
+          812
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          21,
+          812
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          371,
+          3652
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          372,
+          3652
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          803,
+          812
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          803,
+          815
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          860,
+          876
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          876,
+          886
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          880,
+          887
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          880,
+          889
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          881,
+          887
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          887,
+          921
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          889,
+          891
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          889,
+          929
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3471,
+          3514
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3482,
+          3514
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3482,
+          3520
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3482,
+          3521
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3483,
+          3521
+        ],
+        "kind": "proper_crossing"
+      },
+      {
+        "triangles": [
+          3483,
+          3536
+        ],
+        "kind": "proper_crossing"
+      }
+    ]
+  },
+  "untouched_custom_corner_normal_restore": {
+    "restored_untouched_face_corners": 11626,
+    "max_corner_normal_vector_error": 0.007191431485604388,
+    "has_custom_normals": true
+  },
+  "changed_region_world": {
+    "deletion_rule": "bmesh bisect_plane: foot faces z<0.070, plane x=0.026, clear_outer",
+    "cut_ring_x_max_deviation": 5.364418041720054e-10,
+    "proof_envelope": "x > 0.022 and z < 0.070 (forefoot envelope)",
+    "crossing_audit_v1_bounds_reference": {
+      "x": [
+        0.0416826531291008,
+        0.053495801985263824
+      ],
+      "z": [
+        0.0023040771484375,
+        0.010825363919138908
+      ]
+    },
+    "repair_applied": true,
+    "deleted_vertices": 249
+  },
+  "untouched_surface_proof": {
+    "post_weld_vertices_before_repair": 3067,
+    "non_toe_surface_vertices_before_repair": 2762,
+    "non_toe_surface_vertices_after_repair": 2762,
+    "non_toe_surface_coordinate_multisets_identical": true,
+    "note": "No non-toe surface vertex was deleted or moved. Two face-less source edges inside the toe patch are discarded; exact seam welding precedes this comparison and can reduce duplicate OBJ vertices without moving unique surface positions."
+  },
+  "topology": {
+    "vertices": 2950,
+    "polygons": 3271,
+    "triangles": 5896,
+    "connected_components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "quad_polygons": 2613,
+    "triangle_polygons": 652,
+    "ngon_polygons": 6
+  },
+  "self_intersection_audit": {
+    "bvh_candidate_pair_count": 634,
+    "classification_counts": {},
+    "true_nonadjacent_intersection_count": 0,
+    "sample": []
+  },
+  "limits": [
+    "No UVs, rig, weights, shape keys, animation, clothing separation, or final visual acceptance is claimed.",
+    "The source OBJ remains immutable; v2 is a separate mesh intended for subsequent visual and rig-readiness review."
+  ],
+  "status": "PASS_STATIC_TOE_REPAIR",
+  "exported_glb": {
+    "sha256": "971f581314f89a90e702e41f4f9954808b9254ed53e886eae194339e485c6b33",
+    "bytes": 107540,
+    "raw_index_topology": {
+      "vertices": 2969,
+      "polygons": 5896,
+      "triangles": 5896,
+      "connected_components": 1,
+      "boundary_edges": 46,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "quad_polygons": 0,
+      "triangle_polygons": 5896,
+      "ngon_polygons": 0
+    },
+    "topology": {
+      "vertices": 2950,
+      "polygons": 5896,
+      "triangles": 5896,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "quad_polygons": 0,
+      "triangle_polygons": 5896,
+      "ngon_polygons": 0
+    },
+    "qa_note": "Connectivity/self-crossings measured after exact coincident-position weld on an unsaved inspection copy; raw file and its normal seams are unchanged.",
+    "self_intersection_audit": {
+      "bvh_candidate_pair_count": 634,
+      "classification_counts": {},
+      "true_nonadjacent_intersection_count": 0,
+      "sample": []
+    },
+    "matches_static_requirements": true
+  }
+}

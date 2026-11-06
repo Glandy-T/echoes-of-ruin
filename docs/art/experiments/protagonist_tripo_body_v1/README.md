@@ -1,5 +1,7 @@
 # 主角独立身体候选 v1
 
+**后续已建立[身体v2](../protagonist_tripo_body_v2/README.md)：修复本页记录的脚趾自交并做独立临时骨架检查；本页保留原始来源，不作当前修后身体。**
+
 2026-11-06。国内版 Tripo P2.0，一次私有文字生成；身体与衣服分开，为后续换装保留基础。
 
 入口：[身体／白袍多角度对照](../protagonist_tripo_robe_v2/preview.html) · [Blender 检查工程](model/protagonist_body_v1_inspection.blend) · [原始 GLB](model/protagonist_tripo_body_v1_raw.glb) · [四边面 OBJ](model/protagonist_tripo_body_v1_raw.obj)。

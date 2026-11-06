@@ -1,0 +1,475 @@
+{
+  "status": "TEMPORARY_BODY_ONLY_PROBE_RENDERED",
+  "master_unchanged_sha256": "be477873cf751a2aa89c6e3a629a2bfaa5e8f094d668fa75630516867e14cefe",
+  "bone_specs": [
+    {
+      "name": "pelvis",
+      "head": [
+        0,
+        0,
+        0.48
+      ],
+      "tail": [
+        0,
+        0,
+        0.56
+      ],
+      "parent": null
+    },
+    {
+      "name": "spine",
+      "head": [
+        0,
+        0,
+        0.56
+      ],
+      "tail": [
+        0,
+        0,
+        0.67
+      ],
+      "parent": "pelvis"
+    },
+    {
+      "name": "chest",
+      "head": [
+        0,
+        0,
+        0.67
+      ],
+      "tail": [
+        0,
+        0,
+        0.8
+      ],
+      "parent": "spine"
+    },
+    {
+      "name": "neck",
+      "head": [
+        0,
+        0,
+        0.8
+      ],
+      "tail": [
+        0,
+        0,
+        0.865
+      ],
+      "parent": "chest"
+    },
+    {
+      "name": "head",
+      "head": [
+        0,
+        0,
+        0.865
+      ],
+      "tail": [
+        0,
+        0,
+        0.99
+      ],
+      "parent": "neck"
+    },
+    {
+      "name": "clavicle.L",
+      "head": [
+        0,
+        0,
+        0.79
+      ],
+      "tail": [
+        0,
+        0.081,
+        0.798
+      ],
+      "parent": "chest"
+    },
+    {
+      "name": "upper_arm.L",
+      "head": [
+        0,
+        0.081,
+        0.798
+      ],
+      "tail": [
+        0,
+        0.181,
+        0.685
+      ],
+      "parent": "clavicle.L"
+    },
+    {
+      "name": "forearm.L",
+      "head": [
+        0,
+        0.181,
+        0.685
+      ],
+      "tail": [
+        0,
+        0.275,
+        0.585
+      ],
+      "parent": "upper_arm.L"
+    },
+    {
+      "name": "hand.L",
+      "head": [
+        0,
+        0.275,
+        0.585
+      ],
+      "tail": [
+        0.002,
+        0.318,
+        0.545
+      ],
+      "parent": "forearm.L"
+    },
+    {
+      "name": "thigh.L",
+      "head": [
+        0,
+        0.048,
+        0.493
+      ],
+      "tail": [
+        0,
+        0.043,
+        0.278
+      ],
+      "parent": "pelvis"
+    },
+    {
+      "name": "shin.L",
+      "head": [
+        0,
+        0.043,
+        0.278
+      ],
+      "tail": [
+        0,
+        0.043,
+        0.055
+      ],
+      "parent": "thigh.L"
+    },
+    {
+      "name": "foot.L",
+      "head": [
+        0,
+        0.043,
+        0.055
+      ],
+      "tail": [
+        0.055,
+        0.047,
+        0.011
+      ],
+      "parent": "shin.L"
+    },
+    {
+      "name": "clavicle.R",
+      "head": [
+        0,
+        0,
+        0.79
+      ],
+      "tail": [
+        0,
+        -0.081,
+        0.798
+      ],
+      "parent": "chest"
+    },
+    {
+      "name": "upper_arm.R",
+      "head": [
+        0,
+        -0.081,
+        0.798
+      ],
+      "tail": [
+        0,
+        -0.181,
+        0.685
+      ],
+      "parent": "clavicle.R"
+    },
+    {
+      "name": "forearm.R",
+      "head": [
+        0,
+        -0.181,
+        0.685
+      ],
+      "tail": [
+        0,
+        -0.275,
+        0.585
+      ],
+      "parent": "upper_arm.R"
+    },
+    {
+      "name": "hand.R",
+      "head": [
+        0,
+        -0.275,
+        0.585
+      ],
+      "tail": [
+        0.002,
+        -0.318,
+        0.545
+      ],
+      "parent": "forearm.R"
+    },
+    {
+      "name": "thigh.R",
+      "head": [
+        0,
+        -0.048,
+        0.493
+      ],
+      "tail": [
+        0,
+        -0.043,
+        0.278
+      ],
+      "parent": "pelvis"
+    },
+    {
+      "name": "shin.R",
+      "head": [
+        0,
+        -0.043,
+        0.278
+      ],
+      "tail": [
+        0,
+        -0.043,
+        0.055
+      ],
+      "parent": "thigh.R"
+    },
+    {
+      "name": "foot.R",
+      "head": [
+        0,
+        -0.043,
+        0.055
+      ],
+      "tail": [
+        0.055,
+        -0.047,
+        0.011
+      ],
+      "parent": "shin.R"
+    }
+  ],
+  "weighting": "Blender automatic heat, preserve volume; top4 influences retained and normalized. Provisional, not hand-corrected production weights. No finger bones.",
+  "initial_heat_max_weight_sum_error": 0.0828961431980133,
+  "vertices_pruned_to_four_influences": 35,
+  "vertices": 2950,
+  "unweighted_vertices": 0,
+  "maximum_weight_sum_error": 4.470348358154297e-08,
+  "maximum_influences": 4,
+  "poses": [
+    {
+      "name": "rest",
+      "frame": 1,
+      "rotations": [],
+      "finite_deformed_vertices": true,
+      "deformed_bounds": {
+        "min": [
+          -0.066162109375,
+          -0.3234863579273224,
+          -3.420216110328056e-09
+        ],
+        "max": [
+          0.066162109375,
+          0.323486328125,
+          0.99951171875
+        ]
+      },
+      "nonadjacent_crossings": 0,
+      "crossing_classifications": {
+        "excluded_shared_vertex_neighbor": 645
+      },
+      "crossing_samples": [],
+      "edge_length_ratio": {
+        "maximum": 1.0000121641386797,
+        "p99": 1.0000003989228383
+      },
+      "note": "Crossing counts and edge-length ratios are diagnostic, not final visual/weight acceptance."
+    },
+    {
+      "name": "raise_arms",
+      "frame": 20,
+      "rotations": [
+        {
+          "bone": "upper_arm.L",
+          "axis_world_rest": [
+            1,
+            0,
+            0
+          ],
+          "degrees": 75
+        },
+        {
+          "bone": "upper_arm.R",
+          "axis_world_rest": [
+            1,
+            0,
+            0
+          ],
+          "degrees": -75
+        }
+      ],
+      "finite_deformed_vertices": true,
+      "deformed_bounds": {
+        "min": [
+          -0.066162109375,
+          -0.428943008184433,
+          -3.420216110328056e-09
+        ],
+        "max": [
+          0.066162109375,
+          0.428943008184433,
+          0.99951171875
+        ]
+      },
+      "nonadjacent_crossings": 0,
+      "crossing_classifications": {
+        "excluded_shared_vertex_neighbor": 905
+      },
+      "crossing_samples": [],
+      "edge_length_ratio": {
+        "maximum": 2.324943122468502,
+        "p99": 1.3007444298122774
+      },
+      "note": "Crossing counts and edge-length ratios are diagnostic, not final visual/weight acceptance."
+    },
+    {
+      "name": "bend_elbows",
+      "frame": 40,
+      "rotations": [
+        {
+          "bone": "forearm.L",
+          "axis_world_rest": [
+            0,
+            1,
+            0
+          ],
+          "degrees": -75
+        },
+        {
+          "bone": "forearm.R",
+          "axis_world_rest": [
+            0,
+            1,
+            0
+          ],
+          "degrees": -75
+        }
+      ],
+      "finite_deformed_vertices": true,
+      "deformed_bounds": {
+        "min": [
+          -0.066162109375,
+          -0.3234863579273224,
+          -3.420216110328056e-09
+        ],
+        "max": [
+          0.18655194342136383,
+          0.323486328125,
+          0.99951171875
+        ]
+      },
+      "nonadjacent_crossings": 0,
+      "crossing_classifications": {
+        "excluded_shared_vertex_neighbor": 692
+      },
+      "crossing_samples": [],
+      "edge_length_ratio": {
+        "maximum": 2.04196113601794,
+        "p99": 1.3600123924267615
+      },
+      "note": "Crossing counts and edge-length ratios are diagnostic, not final visual/weight acceptance."
+    },
+    {
+      "name": "step",
+      "frame": 60,
+      "rotations": [
+        {
+          "bone": "thigh.L",
+          "axis_world_rest": [
+            0,
+            1,
+            0
+          ],
+          "degrees": -30
+        },
+        {
+          "bone": "shin.L",
+          "axis_world_rest": [
+            0,
+            1,
+            0
+          ],
+          "degrees": 55
+        },
+        {
+          "bone": "thigh.R",
+          "axis_world_rest": [
+            0,
+            1,
+            0
+          ],
+          "degrees": 18
+        },
+        {
+          "bone": "shin.R",
+          "axis_world_rest": [
+            0,
+            1,
+            0
+          ],
+          "degrees": 10
+        }
+      ],
+      "finite_deformed_vertices": true,
+      "deformed_bounds": {
+        "min": [
+          -0.24489614367485046,
+          -0.3234863579273224,
+          0.01699046418070793
+        ],
+        "max": [
+          0.1356608271598816,
+          0.323486328125,
+          0.99951171875
+        ]
+      },
+      "nonadjacent_crossings": 0,
+      "crossing_classifications": {
+        "excluded_shared_vertex_neighbor": 735
+      },
+      "crossing_samples": [],
+      "edge_length_ratio": {
+        "maximum": 1.8081951168642119,
+        "p99": 1.1265619643390186
+      },
+      "note": "Crossing counts and edge-length ratios are diagnostic, not final visual/weight acceptance."
+    }
+  ],
+  "not_validated": [
+    "No garment fit or garment skinning. Gown v2 has known structural crossings.",
+    "No Godot import or animation playback.",
+    "These are rendered deformation keyframes, not a production walk-cycle or animation export.",
+    "No final joint/topology/skin-weight/art approval.",
+    "Model stays in original normalized units; final meter height not locked here."
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "status": "PASS_STATIC_WITH_PROBE_LIMITATION",
+  "file_side_validation": {
+    "artifact_sha256_before": {
+      "docs/art/experiments/protagonist_tripo_body_v1/model/protagonist_tripo_body_v1_raw.obj": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb",
+      "docs/art/experiments/protagonist_tripo_body_v1/model/protagonist_tripo_body_v1_raw.glb": "b5fe1a0aff5581c47121f935f905bc991fbf0ae6f32aed8f7135c1f35c742069",
+      "docs/art/experiments/protagonist_tripo_body_v2/model/protagonist_body_v2.blend": "be477873cf751a2aa89c6e3a629a2bfaa5e8f094d668fa75630516867e14cefe",
+      "docs/art/experiments/protagonist_tripo_body_v2/model/protagonist_body_v2.glb": "971f581314f89a90e702e41f4f9954808b9254ed53e886eae194339e485c6b33",
+      "docs/art/experiments/protagonist_tripo_body_v2/model/body_v2_motion_probe.blend": "858912a6771f421f3a9215f7b3d695a64ed54e84ecb21d78a5175f18b6c04ea5"
+    },
+    "artifact_sha256_after": {
+      "docs/art/experiments/protagonist_tripo_body_v1/model/protagonist_tripo_body_v1_raw.obj": "49e3cc0ab87beb4b9ff12688ed64b7df7081d31729baae94a29c88cff86fbaeb",
+      "docs/art/experiments/protagonist_tripo_body_v1/model/protagonist_tripo_body_v1_raw.glb": "b5fe1a0aff5581c47121f935f905bc991fbf0ae6f32aed8f7135c1f35c742069",
+      "docs/art/experiments/protagonist_tripo_body_v2/model/protagonist_body_v2.blend": "be477873cf751a2aa89c6e3a629a2bfaa5e8f094d668fa75630516867e14cefe",
+      "docs/art/experiments/protagonist_tripo_body_v2/model/protagonist_body_v2.glb": "971f581314f89a90e702e41f4f9954808b9254ed53e886eae194339e485c6b33",
+      "docs/art/experiments/protagonist_tripo_body_v2/model/body_v2_motion_probe.blend": "858912a6771f421f3a9215f7b3d695a64ed54e84ecb21d78a5175f18b6c04ea5"
+    },
+    "checks": {
+      "raw_v1_obj_hash_matches_known_immutable_hash": true,
+      "raw_v1_glb_hash_matches_known_immutable_hash": true,
+      "all_read_artifacts_unchanged_during_validation": true,
+      "motion_report_master_hash_matches_current_master": true,
+      "capture_record_master_hash_matches_current_master": true,
+      "build_report_glb_hash_matches_current_delivery_glb": true
+    },
+    "master_blend": {
+      "mesh_object_count": 1,
+      "armature_object_count": 0,
+      "mesh_name": "ProtagonistBodyV2_ToesRepaired",
+      "vertex_group_count": 0,
+      "armature_modifier_count": 0,
+      "raw_topology": {
+        "vertices": 2950,
+        "polygons": 3271,
+        "triangles": 5896,
+        "connected_components": 1,
+        "component_vertex_counts_descending": [
+          2950
+        ],
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      },
+      "after_exact_coordinate_weld": {
+        "topology": {
+          "vertices": 2950,
+          "polygons": 3271,
+          "triangles": 5896,
+          "connected_components": 1,
+          "component_vertex_counts_descending": [
+            2950
+          ],
+          "loose_vertices": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0
+        },
+        "self_intersection_audit": {
+          "bvh_candidate_pair_count": 634,
+          "classification_counts": {
+            "excluded_shared_vertex_neighbor": 634
+          },
+          "true_nonadjacent_intersection_count": 0,
+          "sample": [],
+          "classifier_source": "docs/art/experiments/protagonist_tripo_body_v1/source/body_topology_check.py"
+        }
+      },
+      "passes": true
+    },
+    "glb_reimport": {
+      "mesh_object_count": 1,
+      "armature_object_count": 0,
+      "raw_index_topology": {
+        "vertices": 2969,
+        "polygons": 5896,
+        "triangles": 5896,
+        "connected_components": 1,
+        "component_vertex_counts_descending": [
+          2969
+        ],
+        "loose_vertices": 0,
+        "boundary_edges": 46,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0
+      },
+      "after_exact_coordinate_weld": {
+        "topology": {
+          "vertices": 2950,
+          "polygons": 5896,
+          "triangles": 5896,
+          "connected_components": 1,
+          "component_vertex_counts_descending": [
+            2950
+          ],
+          "loose_vertices": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0
+        },
+        "self_intersection_audit": {
+          "bvh_candidate_pair_count": 634,
+          "classification_counts": {
+            "excluded_shared_vertex_neighbor": 634
+          },
+          "true_nonadjacent_intersection_count": 0,
+          "sample": [],
+          "classifier_source": "docs/art/experiments/protagonist_tripo_body_v1/source/body_topology_check.py"
+        }
+      },
+      "normal_index_seam_interpretation": "The imported GLB has split raw indices for custom-normal seams. Raw-index boundary edges are not geometric cracks when the exact-coordinate welded copy is closed.",
+      "passes": true
+    },
+    "bounded_foot_change": {
+      "proof_envelope": "x > 0.022 and z < 0.070",
+      "raw_v1_welded_vertices": 3067,
+      "raw_v1_outside_envelope_surface_coordinates": 2762,
+      "v2_outside_envelope_surface_coordinates": 2762,
+      "outside_envelope_coordinate_multisets_identical": true,
+      "expected_unchanged_coordinate_count": 2762,
+      "passes": true
+    }
+  },
+  "runtime_validation": {
+    "kind": "offline Blender probe readback, not Godot or shipped-animation runtime validation",
+    "motion_probe": {
+      "exists": true,
+      "mesh_object_count": 1,
+      "armature_object_count": 1,
+      "actual_bone_count": 19,
+      "actual_vertex_count": 2950,
+      "actual_vertex_group_count": 19,
+      "actual_unweighted_vertices": 0,
+      "actual_maximum_weight_sum_error": 4.470348358154297e-08,
+      "actual_maximum_influences": 4,
+      "actual_keyed_frames": [
+        1,
+        20,
+        40,
+        60
+      ],
+      "report_pose_frames": [
+        1,
+        20,
+        40,
+        60
+      ],
+      "report_bone_spec_count": 19,
+      "report_vertices": 2950,
+      "report_unweighted_vertices": 0,
+      "report_maximum_weight_sum_error": 4.470348358154297e-08,
+      "report_maximum_influences": 4,
+      "recomputed_probe_frames": [
+        {
+          "frame": 1,
+          "finite_deformed_vertices": true,
+          "nonadjacent_crossings": 0
+        },
+        {
+          "frame": 20,
+          "finite_deformed_vertices": true,
+          "nonadjacent_crossings": 0
+        },
+        {
+          "frame": 40,
+          "finite_deformed_vertices": true,
+          "nonadjacent_crossings": 0
+        },
+        {
+          "frame": 60,
+          "finite_deformed_vertices": true,
+          "nonadjacent_crossings": 0
+        }
+      ],
+      "capture_structure_matches": true,
+      "recomputed_finite_and_zero_crossing": true,
+      "weight_sum_normalization_pass": true,
+      "passes_capture_only": true
+    },
+    "finding": "The saved temporary probe has the four recorded keyframes and recomputes finite, zero-crossing geometry. Top-four weights are normalized within the 1e-6 validation tolerance; the earlier automatic-heat error is retained separately in the source report."
+  },
+  "not_tested": [
+    "No Godot import, game playback, animation export, or final animation-ready claim.",
+    "No visual/art acceptance; parent-reviewed same-camera feet/front/side evidence remains the art gate.",
+    "No UV, garment fit, garment skinning, production rig, hand/finger rig, or final joint/weight approval.",
+    "Custom-normal index seams in the raw GLB were deliberately evaluated after exact-coordinate weld; they are not reported as geometric cracks."
+  ],
+  "acceptance_summary": {
+    "static_geometry_pass": true,
+    "probe_capture_pass_only": true,
+    "animation_ready": false,
+    "unresolved_probe_weight_normalization": false
+  }
+}
