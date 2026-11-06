@@ -1,6 +1,6 @@
-# 学校交接：2026-11-06／国内版主角灰模待审，4F v6仍待选
+# 学校交接：2026-11-06／主角细发清理候选待审，4F v6仍待选
 
-**当前优先：主角已恢复制作。** 用户明确国内版专业版已购买，可继续制作。新建[国内版P2.0灰模检查](experiments/protagonist_tripo_cn_p20_v1/preview.html)：正面v2＋修正背面v2输入，单个私有灰模，网页3020面；官方GLB与OBJ原包已下载，Blender源和五视图用于审查实际网格。先审外形，再决定分件、UV、像素贴图和绑定。原游戏角色、Room1、4F、镜头和光照均未替换。下方11月5日“主角暂停”是已被本次恢复指令取代的历史状态，旧模型否决仍有效。
+**当前优先：审查主角有限清理。** 用户已恢复国内版专业版制作，要求先看最新P2.0是否好修，不好修就分件生成；另明确细发丝太多、对贴图无益，头发保留轮廓和少量大块发束。当前入口是[有限清理前后五视图](experiments/protagonist_tripo_cn_cleanup_v1/preview.html)，含可编辑Blender与候选GLB。原始[国内版P2.0导出与检查](experiments/protagonist_tripo_cn_p20_v1/README.md)保留不动。先审外形，再整理分件、UV和变形网格；没有制作最终像素贴图或绑定。原游戏角色、Room1、4F、镜头和光照均未替换。下方11月5日暂停已被恢复指令取代，旧模型否决仍有效。
 
 **楼梯材质仍待审：**[局部折中候选](experiments/cryo_stair_material_sample_v1/preview.html)沿用 r24 墙、灰色矿物踏步＋平台。首轮偏花，quiet1过平，当前只作局部折中，不是认可基准。Godot入口 `scenes/dev/cryo_stair_material_sample_v1.tscn`，F6、1/2/3机位。整栋推广及最终运动灯光未完成。
 
@@ -13,7 +13,7 @@
 ## 接手后先做什么
 
 1. 检查本机`git status`并保留已有差异，再同步main。下面列出的未提交文件不能清理或顺手混入本次提交。
-2. 当前先打开[国内版主角五视图](experiments/protagonist_tripo_cn_p20_v1/preview.html)和对应Blender工程，审查头发、袍体、手脚及实际拓扑，未认可前不继续贴图和绑定。
+2. 当前先打开[主角有限清理对比](experiments/protagonist_tripo_cn_cleanup_v1/preview.html)和其中Blender工程，审看头发简化是否合适，核对脸、袍体、手脚和原姿势。此轮只做外观清理可行性，不把组件数量、法线或文件检查当作用户认可；未认可前不继续贴图和绑定。详细改动与残留问题见该目录README。
 3. 4F路线另看[五种镜头、两种触发和四段动图](experiments/cryo_4f_camera_compare_v6/preview.html)。Godot打开`scenes/dev/cryo_4f_camera_compare_v6.tscn`，F6运行，F8到走廊；不要用F5判断实验。
 4. 等用户确定v6镜头、触发和显现强度后再收敛，不把默认A／距离规则／50%当成已认可方案，不改回人物周围挖洞。
 5. 楼梯材质仍是局部折中候选，运动灯光未实现；1F室外连接未确定。主角当前已恢复，旧暂停记录只供追溯。

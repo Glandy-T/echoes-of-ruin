@@ -1,0 +1,713 @@
+{
+  "stage": "stage3_authorized_mainhair_vertex_only_ribbon_delete",
+  "raw_obj": "G:\\\u5352\u696d\u5236\u4f5c\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_cn_p20_v1\\model\\protagonist_tripo_cn_p20_v1_raw.obj",
+  "raw_sha256": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6",
+  "raw_sha_matches_intent": true,
+  "coordinate_conversion": "raw OBJ Y-up; inspection uses X,-Z,Y mapping (+Z up, face +X); original object transform retained",
+  "recipe": {
+    "status": "explicit_hair_component_selection_after_rgb_visual_review",
+    "floor_component_ids": [
+      32
+    ],
+    "delete_head_component_ids": [
+      7,
+      8,
+      17,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "preserve_main_component_ids": [
+      2,
+      5,
+      6
+    ],
+    "retained_unselected_ids": [
+      16,
+      29
+    ]
+  },
+  "exact_deletion": {
+    "source_faces": 3020,
+    "deleted_faces": 424,
+    "remaining_faces": 2596,
+    "faces_by_component": {
+      "7": 42,
+      "8": 52,
+      "17": 30,
+      "30": 54,
+      "31": 37,
+      "32": 1,
+      "33": 11,
+      "34": 26,
+      "35": 24,
+      "36": 42,
+      "37": 26
+    },
+    "additional_mainhair_component_6_raw_face_indices_zero_based": [
+      493,
+      518,
+      521,
+      2158,
+      2159,
+      2160,
+      2161,
+      2162,
+      2166,
+      2167,
+      2168,
+      2189,
+      2198,
+      2199,
+      2200,
+      2201,
+      2202,
+      2203,
+      2204,
+      2205,
+      2215,
+      2216,
+      2218,
+      2219,
+      2223,
+      2228,
+      2229,
+      2259,
+      2260,
+      2261,
+      2262,
+      2265,
+      2677,
+      2681,
+      2682,
+      2683,
+      2714,
+      2715,
+      2718,
+      2719,
+      2720,
+      2721,
+      2765,
+      2766,
+      2767,
+      2768,
+      2769,
+      2770,
+      2771,
+      2773,
+      2774,
+      2775,
+      2776,
+      2777,
+      2778,
+      2779,
+      2780,
+      2781,
+      2785,
+      2807,
+      2808,
+      2809,
+      2810,
+      2811,
+      2812,
+      2813,
+      2814,
+      2822,
+      2823,
+      2824,
+      2825,
+      2826,
+      2827,
+      2828,
+      2844,
+      2863,
+      2864,
+      2865,
+      2866
+    ],
+    "additional_mainhair_component_6_raw_face_numbers_one_based": [
+      494,
+      519,
+      522,
+      2159,
+      2160,
+      2161,
+      2162,
+      2163,
+      2167,
+      2168,
+      2169,
+      2190,
+      2199,
+      2200,
+      2201,
+      2202,
+      2203,
+      2204,
+      2205,
+      2206,
+      2216,
+      2217,
+      2219,
+      2220,
+      2224,
+      2229,
+      2230,
+      2260,
+      2261,
+      2262,
+      2263,
+      2266,
+      2678,
+      2682,
+      2683,
+      2684,
+      2715,
+      2716,
+      2719,
+      2720,
+      2721,
+      2722,
+      2766,
+      2767,
+      2768,
+      2769,
+      2770,
+      2771,
+      2772,
+      2774,
+      2775,
+      2776,
+      2777,
+      2778,
+      2779,
+      2780,
+      2781,
+      2782,
+      2786,
+      2808,
+      2809,
+      2810,
+      2811,
+      2812,
+      2813,
+      2814,
+      2815,
+      2823,
+      2824,
+      2825,
+      2826,
+      2827,
+      2828,
+      2829,
+      2845,
+      2864,
+      2865,
+      2866,
+      2867
+    ],
+    "floor_component_32_bbox": {
+      "min": [
+        -0.49975586,
+        0.00488278,
+        -0.49975586
+      ],
+      "max": [
+        0.49975586,
+        0.00488284,
+        0.49975586
+      ]
+    }
+  },
+  "weld": {
+    "tolerance_raw_units": 1e-06,
+    "source_vertices": 4110,
+    "vertices_after_deletion_before_weld": 3400,
+    "candidate_vertices": 2536,
+    "max_retained_vertex_coordinate_delta": 0.0,
+    "note": "Weld representative coordinates are retained; no smoothing, scaling, pose, UV, rig, or remesh operation was used."
+  },
+  "normals": {
+    "source_normals_domain": "CORNER",
+    "candidate_normals_domain": "CORNER",
+    "source_has_custom_normals": true,
+    "candidate_has_custom_normals": true,
+    "source_smooth_faces": 3020,
+    "candidate_smooth_faces": 2596,
+    "mapping": "Source split normals were mapped by retained raw face signature and per-loop vertex coordinate, then restored with normals_split_custom_set after deletion and exact weld.",
+    "retained_corner_normal_evidence": {
+      "source_corner_normals": 11546,
+      "retained_corner_normals_restored": 9864,
+      "retained_faces_matched": 2596,
+      "max_abs_component_delta": 0.0016005337238311768,
+      "comparison_tolerance_max_abs_component": 0.002,
+      "corners_over_tolerance": 0,
+      "source_has_custom_normals": true
+    },
+    "change": "No normal recalculation or smoothing operation was invoked; only explicitly deleted faces lack retained corner normals."
+  },
+  "source_components_after_exact_weld": 38,
+  "remaining_component_boundaries": [
+    {
+      "id": 0,
+      "faces": 122,
+      "vertices": 116,
+      "boundary_edges": 8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 1,
+      "faces": 9,
+      "vertices": 15,
+      "boundary_edges": 11,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 2,
+      "faces": 725,
+      "vertices": 688,
+      "boundary_edges": 22,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 3,
+      "faces": 186,
+      "vertices": 167,
+      "boundary_edges": 7,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 4,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 5,
+      "faces": 359,
+      "vertices": 334,
+      "boundary_edges": 24,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 6,
+      "faces": 805,
+      "vertices": 792,
+      "boundary_edges": 166,
+      "nonmanifold_edges": 2
+    },
+    {
+      "id": 9,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 10,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 11,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 12,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 13,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 14,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 15,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 16,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 18,
+      "faces": 9,
+      "vertices": 15,
+      "boundary_edges": 11,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 19,
+      "faces": 122,
+      "vertices": 116,
+      "boundary_edges": 8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 20,
+      "faces": 187,
+      "vertices": 167,
+      "boundary_edges": 7,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 21,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 22,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 23,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 24,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 25,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 26,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 27,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 28,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    },
+    {
+      "id": 29,
+      "faces": 4,
+      "vertices": 7,
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "main_hair_component_6_source_edge_audit_before_authorized_delete": {
+    "component_id": 6,
+    "edge_connected_region_count": 2,
+    "main_edge_region": {
+      "edge_region_index": 0,
+      "faces": 805,
+      "bbox": {
+        "min": [
+          -0.09448242,
+          0.46386719,
+          -0.07495121
+        ],
+        "max": [
+          0.04956055,
+          0.70654297,
+          0.08227535
+        ],
+        "size": [
+          0.14404297,
+          0.24267578,
+          0.15722656000000002
+        ]
+      },
+      "shares_welded_vertices_with_edge_regions": [
+        1
+      ]
+    },
+    "potential_vertex_only_islands": [
+      {
+        "edge_region_index": 1,
+        "faces": 79,
+        "bbox": {
+          "min": [
+            -0.0769043,
+            0.49316406,
+            -0.07885746
+          ],
+          "max": [
+            0.04223633,
+            0.67431641,
+            -0.01586919
+          ],
+          "size": [
+            0.11914063,
+            0.18115234999999996,
+            0.06298827000000001
+          ]
+        },
+        "shares_welded_vertices_with_edge_regions": [
+          0
+        ],
+        "raw_obj_face_indices_zero_based": [
+          493,
+          518,
+          521,
+          2158,
+          2159,
+          2160,
+          2161,
+          2162,
+          2166,
+          2167,
+          2168,
+          2189,
+          2198,
+          2199,
+          2200,
+          2201,
+          2202,
+          2203,
+          2204,
+          2205,
+          2215,
+          2216,
+          2218,
+          2219,
+          2223,
+          2228,
+          2229,
+          2259,
+          2260,
+          2261,
+          2262,
+          2265,
+          2677,
+          2681,
+          2682,
+          2683,
+          2714,
+          2715,
+          2718,
+          2719,
+          2720,
+          2721,
+          2765,
+          2766,
+          2767,
+          2768,
+          2769,
+          2770,
+          2771,
+          2773,
+          2774,
+          2775,
+          2776,
+          2777,
+          2778,
+          2779,
+          2780,
+          2781,
+          2785,
+          2807,
+          2808,
+          2809,
+          2810,
+          2811,
+          2812,
+          2813,
+          2814,
+          2822,
+          2823,
+          2824,
+          2825,
+          2826,
+          2827,
+          2828,
+          2844,
+          2863,
+          2864,
+          2865,
+          2866
+        ],
+        "raw_obj_face_numbers_one_based": [
+          494,
+          519,
+          522,
+          2159,
+          2160,
+          2161,
+          2162,
+          2163,
+          2167,
+          2168,
+          2169,
+          2190,
+          2199,
+          2200,
+          2201,
+          2202,
+          2203,
+          2204,
+          2205,
+          2206,
+          2216,
+          2217,
+          2219,
+          2220,
+          2224,
+          2229,
+          2230,
+          2260,
+          2261,
+          2262,
+          2263,
+          2266,
+          2678,
+          2682,
+          2683,
+          2684,
+          2715,
+          2716,
+          2719,
+          2720,
+          2721,
+          2722,
+          2766,
+          2767,
+          2768,
+          2769,
+          2770,
+          2771,
+          2772,
+          2774,
+          2775,
+          2776,
+          2777,
+          2778,
+          2779,
+          2780,
+          2781,
+          2782,
+          2786,
+          2808,
+          2809,
+          2810,
+          2811,
+          2812,
+          2813,
+          2814,
+          2815,
+          2823,
+          2824,
+          2825,
+          2826,
+          2827,
+          2828,
+          2829,
+          2845,
+          2864,
+          2865,
+          2866,
+          2867
+        ]
+      }
+    ],
+    "conclusion": "Read-only audit only: an island is not deleted without explicit visual review."
+  },
+  "main_hair_component_6_residual_edge_audit_after_authorized_delete": {
+    "component_id": 6,
+    "edge_connected_region_count": 1,
+    "main_edge_region": {
+      "edge_region_index": 0,
+      "faces": 805,
+      "bbox": {
+        "min": [
+          -0.09448242,
+          0.46386719,
+          -0.07495121
+        ],
+        "max": [
+          0.04956055,
+          0.70654297,
+          0.08227535
+        ],
+        "size": [
+          0.14404297,
+          0.24267578,
+          0.15722656000000002
+        ]
+      },
+      "shares_welded_vertices_with_edge_regions": []
+    },
+    "potential_vertex_only_islands": [],
+    "conclusion": "Read-only audit only: an island is not deleted without explicit visual review."
+  },
+  "source_selection_context": {
+    "legend": "diagnostic_c6_island_legend.json",
+    "images": [
+      "diagnostic_c6_island_head_back.png",
+      "diagnostic_c6_island_side.png"
+    ],
+    "boundary": "These are raw/source selection-context overlays, not the final candidate material, normals, or shading evidence."
+  },
+  "stage1_diagnostic_evidence_preserved": [
+    "diagnostic_front.png",
+    "diagnostic_head_back.png",
+    "diagnostic_side.png",
+    "diagnostic_legend.json"
+  ],
+  "semantic_parts_claimed": false,
+  "excluded_operations": [
+    "main head/hair replacement",
+    "remesh",
+    "UV edits",
+    "rigging",
+    "scale edits",
+    "pose edits"
+  ]
+}

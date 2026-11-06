@@ -1,0 +1,5 @@
+*.log
+*.blend1
+model/*.blend1
+source/__pycache__/
+source/*full_ui*.png

@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "checks": {
+    "raw_obj_hash_unchanged": true,
+    "before_after_collections_present": true,
+    "one_source_and_one_candidate_mesh": true,
+    "source_untouched_topology": true,
+    "candidate_counts_match_report": true,
+    "source_transform_equals_candidate": true,
+    "candidate_custom_corner_normals": true,
+    "no_uv_on_candidate": true,
+    "no_shape_keys_on_candidate": true,
+    "no_modifiers_on_candidate": true,
+    "candidate_world_vertices_match_source": true,
+    "no_armatures_in_blend": true,
+    "all_five_qa_cameras": true,
+    "candidate_glb_valid_header": true,
+    "candidate_glb_one_mesh_no_cameras": true,
+    "candidate_glb_no_rig": true,
+    "candidate_glb_no_uv": true
+  },
+  "visual_review": {
+    "actual_pngs_reviewed": [
+      "before_front",
+      "after_front",
+      "before_side",
+      "after_side",
+      "before_back",
+      "after_back",
+      "before_quarter",
+      "after_quarter",
+      "before_head_back",
+      "after_head_back"
+    ],
+    "finding": "Fine independent curls/loops and the selected lower rear curl are reduced while the main head, face, robe, hands, feet and silhouette remain materially unchanged.",
+    "remaining_limits": [
+      "A narrow long raised strip remains on the right rear hair mass; it reads as a broad modeled lock/seam rather than a free curl at this camera scale.",
+      "The lower hair edge remains jagged and the hands/feet remain rough AI-generated starting mesh geometry.",
+      "No UV, texture, rig, deformation, Room 1 placement, game camera or runtime behavior was validated."
+    ],
+    "user_art_acceptance": "pending"
+  },
+  "transforms": {
+    "source_world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "candidate_world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_location_rotation_scale": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.570796251296997,
+        -0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "candidate_location_rotation_scale": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.570796251296997,
+        -0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "max_abs_component_delta": 0.0,
+    "candidate_to_source_nearest_world_vertex_max_distance": 0.0
+  },
+  "artifact_sha256": {
+    "blend": "98a8a0bd8c9c7550177f31403e63dbfd5b535cf94c6f4132bc7ad94af136ac0e",
+    "glb": "b826b7946cbcd43fc6dc555d0e16f80c63610b92ae9b4bbbba2e7dcd64086bda"
+  }
+}

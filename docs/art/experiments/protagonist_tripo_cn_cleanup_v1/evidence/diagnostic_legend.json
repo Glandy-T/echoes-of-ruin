@@ -1,0 +1,123 @@
+{
+  "purpose": "Technical false-colour component identification only; not an artistic material or texture.",
+  "muted_gray_component_ids": [
+    2,
+    5,
+    6
+  ],
+  "candidate_components": [
+    {
+      "id": 17,
+      "rgb": [
+        0.9,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "id": 37,
+      "rgb": [
+        0.95,
+        0.55,
+        0.1
+      ]
+    },
+    {
+      "id": 30,
+      "rgb": [
+        0.95,
+        0.86,
+        0.12
+      ]
+    },
+    {
+      "id": 8,
+      "rgb": [
+        0.25,
+        0.75,
+        0.25
+      ]
+    },
+    {
+      "id": 7,
+      "rgb": [
+        0.1,
+        0.72,
+        0.86
+      ]
+    },
+    {
+      "id": 36,
+      "rgb": [
+        0.18,
+        0.42,
+        0.92
+      ]
+    },
+    {
+      "id": 34,
+      "rgb": [
+        0.5,
+        0.28,
+        0.88
+      ]
+    },
+    {
+      "id": 31,
+      "rgb": [
+        0.86,
+        0.2,
+        0.72
+      ]
+    },
+    {
+      "id": 35,
+      "rgb": [
+        0.92,
+        0.46,
+        0.46
+      ]
+    },
+    {
+      "id": 33,
+      "rgb": [
+        0.52,
+        0.78,
+        0.3
+      ]
+    },
+    {
+      "id": 16,
+      "rgb": [
+        0.2,
+        0.78,
+        0.64
+      ]
+    },
+    {
+      "id": 29,
+      "rgb": [
+        0.85,
+        0.64,
+        0.22
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "view": "front",
+      "file": "diagnostic_front.png",
+      "sha256": "1bd44c75a2ea22ad853c2f040f719f4615938671d67e6af65b5fc0af600329a9"
+    },
+    {
+      "view": "head_back",
+      "file": "diagnostic_head_back.png",
+      "sha256": "9abd4ef13c0a0527263d1d1d4cb07e14789d30c501338a33653121ee77d2aad5"
+    },
+    {
+      "view": "side",
+      "file": "diagnostic_side.png",
+      "sha256": "c8b96b3636cfb09de66cbc81f7f1bdc05f883cc00f3590b3cf2cbf86b0c4cc46"
+    }
+  ]
+}

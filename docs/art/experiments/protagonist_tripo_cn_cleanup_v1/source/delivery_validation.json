@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checks": {
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.glb": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.mtl": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.obj": true,
+    "raw_unchanged_protagonist_tripo_cn_p20_v1_raw.zip": true,
+    "source_hash_verified": true,
+    "recipe_head_ids_match": true,
+    "retained_vertices_unmoved": true,
+    "retained_normals_mapped": true,
+    "retained_normals_within_tolerance": true,
+    "ten_captures": true,
+    "front_same_camera": true,
+    "before_front_capture": true,
+    "after_front_capture": true,
+    "side_same_camera": true,
+    "before_side_capture": true,
+    "after_side_capture": true,
+    "back_same_camera": true,
+    "before_back_capture": true,
+    "after_back_capture": true,
+    "quarter_same_camera": true,
+    "before_quarter_capture": true,
+    "after_quarter_capture": true,
+    "head_back_same_camera": true,
+    "before_head_back_capture": true,
+    "after_head_back_capture": true,
+    "valid_glb_header": true,
+    "only_candidate_mesh_exported": true,
+    "no_qa_cameras_in_glb": true,
+    "no_rig_or_texture_claim": true,
+    "no_uv_claim": true,
+    "preview_links_exist": true
+  },
+  "scope": "Integrity and packaging only; user visual acceptance pending, no animation/game validation.",
+  "artifacts": {
+    "model/protagonist_cn_cleanup_v1.blend": "98a8a0bd8c9c7550177f31403e63dbfd5b535cf94c6f4132bc7ad94af136ac0e",
+    "model/protagonist_cn_cleanup_v1.glb": "b826b7946cbcd43fc6dc555d0e16f80c63610b92ae9b4bbbba2e7dcd64086bda"
+  }
+}

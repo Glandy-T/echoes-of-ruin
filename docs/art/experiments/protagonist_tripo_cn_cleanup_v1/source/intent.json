@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-06",
+  "user_request": "Try repairing the latest China P2.0 character; if difficult, generate separate parts instead of regenerating the whole figure.",
+  "baseline": "docs/art/experiments/protagonist_tripo_cn_p20_v1/model/protagonist_tripo_cn_p20_v1_raw.obj",
+  "baseline_obj_sha256": "f9717909d1df005269bfa695aa8a6863193ce4c27e583b3e52b9360d3ed58ff6",
+  "baseline_glb_sha256": "a767ba52fac06744603975cea3deb5a3e591d7e0ac7c8fa42d17165ea7548596",
+  "preserve": ["Original downloaded sources", "Main head, robe, body, hand and foot forms", "Original raw units and pose", "Current Room1/4F models, cameras, lighting and temporary player"],
+  "hair_user_clarification": "Modeled individual strands are excessive, unnecessary and hinder texturing. Keep the hairstyle silhouette and a few broad low-poly locks; fine separations belong in pixel textures.",
+  "allowed_trial": ["Remove actual exported ground plane", "Remove modeled fine strands, curls and narrow strips while retaining main hair masses", "Join truly coincident export seam vertices without silhouette change", "Only evidence-supported limited topology repair"],
+  "stop_rule": "Do not replace the head or main hair volume, bisect the whole body or invent a new silhouette. If substantial rebuilding is required, use the authorized separate-part generation route.",
+  "review_gate": "Compare actual before/after images in same front, side, back, quarter and head-back cameras; technical checks do not establish user art approval.",
+  "not_in_this_trial": ["Final pixel textures", "UV unwrap", "Rigging", "Game character replacement"]
+}
