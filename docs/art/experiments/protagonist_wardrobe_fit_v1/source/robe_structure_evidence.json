@@ -1,0 +1,570 @@
+{
+  "status": "READ_ONLY_EVIDENCE",
+  "source_hashes_before": {
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_robe_v2\\model\\protagonist_tripo_robe_v2_raw.glb": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_body_v2\\model\\protagonist_body_v2.blend": "be477873cf751a2aa89c6e3a629a2bfaa5e8f094d668fa75630516867e14cefe",
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_body_v2\\model\\body_v2_motion_probe.blend": "858912a6771f421f3a9215f7b3d695a64ed54e84ecb21d78a5175f18b6c04ea5",
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_robe_v2\\source\\robe_topology_check.json": "109eeaeaedd88b066603ef21fd82787ec98a60980ede48c471e4f4cb3b0b37b2"
+  },
+  "source_hashes_after": {
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_robe_v2\\model\\protagonist_tripo_robe_v2_raw.glb": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_body_v2\\model\\protagonist_body_v2.blend": "be477873cf751a2aa89c6e3a629a2bfaa5e8f094d668fa75630516867e14cefe",
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_body_v2\\model\\body_v2_motion_probe.blend": "858912a6771f421f3a9215f7b3d695a64ed54e84ecb21d78a5175f18b6c04ea5",
+    "G:\\卒業制作\\echoes-of-ruin\\docs\\art\\experiments\\protagonist_tripo_robe_v2\\source\\robe_topology_check.json": "109eeaeaedd88b066603ef21fd82787ec98a60980ede48c471e4f4cb3b0b37b2"
+  },
+  "source_files_unchanged": true,
+  "coordinate_convention": "Observed dimensions are raw normalized units; project convention is upright +Z, face +X.",
+  "robe": {
+    "mesh": {
+      "label": "raw_robe_glb",
+      "meshes": [
+        {
+          "object": "tripo_751bb9f4_7c1b_457e_a722_203c4830ec7a",
+          "vertices": 2020,
+          "polygons": 4049,
+          "bounds": {
+            "min": [
+              -0.1745605,
+              -0.3171387,
+              0.0
+            ],
+            "max": [
+              0.1745605,
+              0.3171387,
+              0.9995117
+            ]
+          },
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "landmarks": {
+      "neck_top": {
+        "z_range": [
+          0.9745117,
+          0.9995117
+        ],
+        "vertices": 113,
+        "bounds": {
+          "min": [
+            -0.1047363,
+            -0.126709,
+            0.9746094
+          ],
+          "max": [
+            0.0085449,
+            0.126709,
+            0.9985352
+          ]
+        }
+      },
+      "shoulder": {
+        "z_range": [
+          0.775,
+          0.835
+        ],
+        "vertices": 197,
+        "bounds": {
+          "min": [
+            -0.1379395,
+            -0.2268066,
+            0.7768555
+          ],
+          "max": [
+            0.0979004,
+            0.2268067,
+            0.8349609
+          ]
+        }
+      },
+      "elbow": {
+        "z_range": [
+          0.635,
+          0.725
+        ],
+        "vertices": 179,
+        "bounds": {
+          "min": [
+            -0.1403809,
+            -0.2775879,
+            0.6357422
+          ],
+          "max": [
+            0.1057129,
+            0.2775879,
+            0.7236328
+          ]
+        }
+      },
+      "cuff": {
+        "z_range": [
+          0.44,
+          0.58
+        ],
+        "vertices": 282,
+        "bounds": {
+          "min": [
+            -0.1481934,
+            -0.3171387,
+            0.4521484
+          ],
+          "max": [
+            0.1237793,
+            0.3171387,
+            0.5795898
+          ]
+        }
+      },
+      "hem": {
+        "z_range": [
+          0.0,
+          0.04
+        ],
+        "vertices": 72,
+        "bounds": {
+          "min": [
+            -0.1745605,
+            -0.2189942,
+            0.0
+          ],
+          "max": [
+            0.1726074,
+            0.2131348,
+            0.0327148
+          ]
+        }
+      },
+      "sleeve_negative_y": {
+        "vertices": 73,
+        "bounds": {
+          "min": [
+            -0.0690918,
+            -0.3171387,
+            0.5488281
+          ],
+          "max": [
+            0.0671387,
+            -0.2409668,
+            0.7358398
+          ]
+        }
+      },
+      "sleeve_positive_y": {
+        "vertices": 73,
+        "bounds": {
+          "min": [
+            -0.0690918,
+            0.2409668,
+            0.5488281
+          ],
+          "max": [
+            0.0671387,
+            0.3171387,
+            0.7358398
+          ]
+        }
+      }
+    }
+  },
+  "body": {
+    "master": {
+      "label": "body_v2_master",
+      "meshes": [
+        {
+          "object": "ProtagonistBodyV2_ToesRepaired",
+          "vertices": 2950,
+          "polygons": 3271,
+          "bounds": {
+            "min": [
+              -0.0661621,
+              -0.3234864,
+              -0.0
+            ],
+            "max": [
+              0.0661621,
+              0.3234863,
+              0.9995117
+            ]
+          },
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "master_armatures": []
+  },
+  "probe": {
+    "motion_probe": {
+      "label": "body_v2_motion_probe_rest_file",
+      "meshes": [
+        {
+          "object": "ProtagonistBodyV2_ToesRepaired",
+          "vertices": 2950,
+          "polygons": 3271,
+          "bounds": {
+            "min": [
+              -0.0661621,
+              -0.3234864,
+              -0.0
+            ],
+            "max": [
+              0.0661621,
+              0.3234863,
+              0.9995117
+            ]
+          },
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "armatures": [
+      {
+        "object": "PROBE_Humanoid_NOT_FINAL",
+        "bones": [
+          {
+            "name": "pelvis",
+            "head": [
+              0.0,
+              0.0,
+              0.48
+            ],
+            "tail": [
+              0.0,
+              0.0,
+              0.56
+            ]
+          },
+          {
+            "name": "spine",
+            "head": [
+              0.0,
+              0.0,
+              0.56
+            ],
+            "tail": [
+              0.0,
+              0.0,
+              0.67
+            ]
+          },
+          {
+            "name": "chest",
+            "head": [
+              0.0,
+              0.0,
+              0.67
+            ],
+            "tail": [
+              0.0,
+              0.0,
+              0.8
+            ]
+          },
+          {
+            "name": "neck",
+            "head": [
+              0.0,
+              0.0,
+              0.8
+            ],
+            "tail": [
+              0.0,
+              0.0,
+              0.865
+            ]
+          },
+          {
+            "name": "head",
+            "head": [
+              0.0,
+              0.0,
+              0.865
+            ],
+            "tail": [
+              0.0,
+              0.0,
+              0.99
+            ]
+          },
+          {
+            "name": "clavicle.L",
+            "head": [
+              0.0,
+              0.0,
+              0.79
+            ],
+            "tail": [
+              0.0,
+              0.081,
+              0.798
+            ]
+          },
+          {
+            "name": "upper_arm.L",
+            "head": [
+              0.0,
+              0.081,
+              0.798
+            ],
+            "tail": [
+              0.0,
+              0.181,
+              0.685
+            ]
+          },
+          {
+            "name": "forearm.L",
+            "head": [
+              0.0,
+              0.181,
+              0.685
+            ],
+            "tail": [
+              0.0,
+              0.275,
+              0.585
+            ]
+          },
+          {
+            "name": "hand.L",
+            "head": [
+              0.0,
+              0.275,
+              0.585
+            ],
+            "tail": [
+              0.002,
+              0.318,
+              0.545
+            ]
+          },
+          {
+            "name": "clavicle.R",
+            "head": [
+              0.0,
+              0.0,
+              0.79
+            ],
+            "tail": [
+              0.0,
+              -0.081,
+              0.798
+            ]
+          },
+          {
+            "name": "upper_arm.R",
+            "head": [
+              0.0,
+              -0.081,
+              0.798
+            ],
+            "tail": [
+              0.0,
+              -0.181,
+              0.685
+            ]
+          },
+          {
+            "name": "forearm.R",
+            "head": [
+              0.0,
+              -0.181,
+              0.685
+            ],
+            "tail": [
+              0.0,
+              -0.275,
+              0.585
+            ]
+          },
+          {
+            "name": "hand.R",
+            "head": [
+              0.0,
+              -0.275,
+              0.585
+            ],
+            "tail": [
+              0.002,
+              -0.318,
+              0.545
+            ]
+          },
+          {
+            "name": "thigh.L",
+            "head": [
+              0.0,
+              0.048,
+              0.493
+            ],
+            "tail": [
+              0.0,
+              0.043,
+              0.278
+            ]
+          },
+          {
+            "name": "shin.L",
+            "head": [
+              0.0,
+              0.043,
+              0.278
+            ],
+            "tail": [
+              0.0,
+              0.043,
+              0.055
+            ]
+          },
+          {
+            "name": "foot.L",
+            "head": [
+              0.0,
+              0.043,
+              0.055
+            ],
+            "tail": [
+              0.055,
+              0.047,
+              0.011
+            ]
+          },
+          {
+            "name": "thigh.R",
+            "head": [
+              0.0,
+              -0.048,
+              0.493
+            ],
+            "tail": [
+              0.0,
+              -0.043,
+              0.278
+            ]
+          },
+          {
+            "name": "shin.R",
+            "head": [
+              0.0,
+              -0.043,
+              0.278
+            ],
+            "tail": [
+              0.0,
+              -0.043,
+              0.055
+            ]
+          },
+          {
+            "name": "foot.R",
+            "head": [
+              0.0,
+              -0.043,
+              0.055
+            ],
+            "tail": [
+              0.055,
+              -0.047,
+              0.011
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "existing_robe_QA": {
+    "topology": {
+      "vertices": 2020,
+      "triangles": 4049,
+      "connected_components": 1,
+      "component_vertex_counts_descending": [
+        2020
+      ],
+      "boundary_edges": 23,
+      "nonmanifold_edges": 2,
+      "degenerate_faces": 0,
+      "uv_layers": 0,
+      "vertex_groups": 0,
+      "shape_keys": false,
+      "armature_modifiers": 0
+    },
+    "nonmanifold_edges": [
+      {
+        "edge": [
+          198,
+          204
+        ],
+        "face_count": 3,
+        "faces": [
+          121,
+          122,
+          123
+        ],
+        "midpoint": [
+          -0.114501953125,
+          -0.0900878831744194,
+          0.61767578125
+        ]
+      },
+      {
+        "edge": [
+          222,
+          224
+        ],
+        "face_count": 3,
+        "faces": [
+          137,
+          138,
+          1930
+        ],
+        "midpoint": [
+          -0.075439453125,
+          -0.1335449069738388,
+          0.8154296875
+        ]
+      }
+    ],
+    "crossings": {
+      "total": 272,
+      "sampled_crossings": 100,
+      "sample_region_counts": {
+        "sleeve_armpit": 34,
+        "shoulder_neck": 66
+      },
+      "note": "Counts describe the stored first-100 QA sample, not all 272 crossings."
+    },
+    "openings": {
+      "neck": {
+        "uncapped_centerline_rays": 9,
+        "immediate_cap_hits_under_002": 0
+      },
+      "hem": {
+        "uncapped_centerline_rays": 9,
+        "immediate_cap_hits_under_002": 0
+      },
+      "cuff_negative_y": {
+        "uncapped_centerline_rays": 9,
+        "immediate_cap_hits_under_002": 0
+      },
+      "cuff_positive_y": {
+        "uncapped_centerline_rays": 9,
+        "immediate_cap_hits_under_002": 0
+      }
+    }
+  },
+  "interpretation_limits": [
+    "This records source geometry and the existing exact robe QA; it does not prove body-to-robe clearance or animation deformation.",
+    "A raw single connected component cannot by itself identify a detachable inner shell. Any inner-layer deletion requires face-region selection in a working copy and same-camera silhouette comparison."
+  ]
+}

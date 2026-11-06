@@ -1,0 +1,30 @@
+{
+  "resolution": [
+    1280,
+    720
+  ],
+  "mask_threshold": 127,
+  "views": [
+    {
+      "view": "front",
+      "silhouette_iou": 0.9980075798592312,
+      "changed_mask_pixels": 276
+    },
+    {
+      "view": "side",
+      "silhouette_iou": 0.9983679674487754,
+      "changed_mask_pixels": 146
+    },
+    {
+      "view": "back",
+      "silhouette_iou": 0.9981446052774068,
+      "changed_mask_pixels": 257
+    },
+    {
+      "view": "quarter",
+      "silhouette_iou": 0.9976339631538177,
+      "changed_mask_pixels": 281
+    }
+  ],
+  "limits": "This measures silhouette overlap only, not folding, normals, topology or visual approval."
+}

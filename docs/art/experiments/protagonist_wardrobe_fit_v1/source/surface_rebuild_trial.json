@@ -1,0 +1,65 @@
+{
+  "status": "TRIAL_ONLY",
+  "source_sha256": "f37e04f2760ef710de31635c035ff4dbe9c3c54381d43a19c1b739ef325c63b7",
+  "voxel_size": 0.0025,
+  "triangle_target": 10000,
+  "voxel_before_reduction_topology": {
+    "vertices": 508306,
+    "polygons": 508310,
+    "triangles": 1016620,
+    "connected_components": 1,
+    "component_vertex_counts_descending": [
+      508306
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "uv_layers": 0,
+    "vertex_groups": 0,
+    "shape_keys": false,
+    "armature_modifiers": 0
+  },
+  "topology": {
+    "vertices": 4996,
+    "polygons": 10000,
+    "triangles": 10000,
+    "connected_components": 1,
+    "component_vertex_counts_descending": [
+      4996
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "uv_layers": 0,
+    "vertex_groups": 0,
+    "shape_keys": false,
+    "armature_modifiers": 0
+  },
+  "self_intersections": {
+    "bvh_candidate_pair_count": 1867,
+    "classification_counts": {
+      "excluded_shared_vertex_neighbor": 1866,
+      "point_touch": 1
+    },
+    "true_nonadjacent_intersection_count": 0,
+    "true_nonadjacent_intersections_sample": [],
+    "locality": {
+      "all_true_intersections_world_bounds": null,
+      "all_true_intersections_at_or_below_z_002": false,
+      "negative_y_count": 0,
+      "positive_y_count": 0
+    },
+    "method": "BVH candidates then exact triangle classifier; pairs sharing any mesh vertex excluded; point/edge-only coplanar contacts not counted."
+  },
+  "distance_to_raw_surface": {
+    "max": 0.0018913208041340113,
+    "p95": 0.00039293323061428964,
+    "mean": 9.928683768058539e-05
+  },
+  "raw_vertex_distance_to_rebuild": {
+    "max": 0.005555226933211088,
+    "p95": 0.0016279637347906828,
+    "mean": 0.0004256172266620392
+  },
+  "limits": "A geometric distance bound is not silhouette or opening/art approval. Do not adopt until visual comparison and opening probes."
+}
