@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "pack_id": "cryo_building_art_production_v1",
+  "authored_date": "2026-11-10",
+  "source_commit": "dcd51fcaf79c73273c73be79dad707687d494a59",
+  "status": "production_specification_not_completed_assets",
+  "selection_policy": "Build all listed A/B variants. The user selects after reviewing the completed comparison. Do not choose a winner or request an aesthetic choice before building.",
+  "entry_document": "docs/art/CRYO_BUILDING_ART_PRODUCTION_PACK.md",
+  "specifications": {
+    "materials": "docs/art/cryo_building_production/MATERIALS_AND_AGEING.md",
+    "components": "docs/art/cryo_building_production/COMPONENTS_AND_VARIANTS.md",
+    "pixellab_and_delivery": "docs/art/cryo_building_production/PIXELLAB_AND_REVIEW.md",
+    "references": "docs/art/cryo_building_production/REFERENCES.md"
+  },
+  "preserve_existing": [
+    "Room 1 approved wall r24, floor r26, pod r28 and current room work set r30",
+    "Room 1 formal F5 entry and its existing dependencies",
+    "4F complete v3 and pending camera/occlusion comparison v6",
+    "Current E-triggered authentication and room transition behavior",
+    "Current protagonist work and temporary in-game actor",
+    "Frozen CAD door openings, four zones, four stairs, four passenger lift nodes and 16F plus B1-B4"
+  ],
+  "reuse_sources": {
+    "wall": "assets/art/room1_wall_detail_full_r24/",
+    "floor": "assets/art/room1_floor_detail_full_r26/",
+    "stairs": "docs/art/experiments/cryo_stair_material_sample_v1/",
+    "source_authority": "docs/art/ROOM1_VERSION_INDEX.md",
+    "stair_texture_selection": "Use the current localized compromise mineral_a candidate. Original A and quiet1 are comparison history, not approved replacements."
+  },
+  "production": {
+    "review_resolution": [1280, 720],
+    "native_creation_pixels_per_meter_start": 80,
+    "main_surface_painting": "PixelLab",
+    "local_refinement": "Aseprite, separate named layers with a modification record",
+    "third_party_images_as_generation_inputs": false,
+    "procedural_weathering_as_main_painting": false,
+    "purchases_or_subscription_upgrades": false,
+    "automatic_promotion_to_formal_game": false,
+    "default_art_iterations": "One initial candidate plus one targeted correction; unresolved failures must be reported, not hidden or replaced by a different workflow.",
+    "initial_new_picture_tasks": 15,
+    "picture_tasks_are_not_credit_cost": true,
+    "actual_request_count_and_usage": "Measure from the current API and account. Split tasks only when native size requires it; record all actual calls."
+  },
+  "common_modules": [
+    {
+      "id": "ST-01",
+      "name": "One complete two-flight stair and landing sample",
+      "materials": ["M01", "M03", "M10"],
+      "quantity": 1,
+      "basis": "Current accepted geometry and existing localized mineral material candidate",
+      "status": "specified_for_production"
+    },
+    {
+      "id": "L-01",
+      "name": "Shared wall-integrated motion-responsive stair lighting",
+      "materials": ["M05-D", "M09"],
+      "quantity": 1,
+      "parameters": {
+        "strip_width_m": 0.04,
+        "height_above_nosing_line_m": 1.1,
+        "baseline_visual_factor": 0.2,
+        "occupied_visual_factor": 1.0,
+        "anticipation_distance_m": 1.5,
+        "fade_in_seconds": 0.4,
+        "hold_after_exit_seconds": 6.0,
+        "fade_to_baseline_seconds": 1.5,
+        "hold_while_occupied": true,
+        "engineering_compliance_claim": false
+      },
+      "status": "specified_for_production"
+    },
+    {
+      "id": "K-01",
+      "name": "Common nosing, signs, trims, coping, maintenance covers and existing machine-gate exterior",
+      "materials": ["M04", "M05-D", "M06", "M07", "M08", "M09", "M10"],
+      "quantity": 1,
+      "machine_gate_policy": "Only dress an already mapped opening; do not create a new opening or gameplay route.",
+      "status": "specified_for_production"
+    }
+  ],
+  "candidate_groups": [
+    {
+      "group": "handrails_and_guards",
+      "build_all": true,
+      "variants": [
+        {"id": "HR-A", "name": "Continuous round grip with slender vertical-bar guard", "materials": ["M04"]},
+        {"id": "HR-B", "name": "Solid folded-sheet guard with independent rounded grip", "materials": ["M04", "M05-D"]}
+      ]
+    },
+    {
+      "group": "stair_compartment_doors",
+      "build_all": true,
+      "opening_dimensions": "Read the actual frozen W/H; do not substitute the Room 1 door size.",
+      "variants": [
+        {"id": "FD-A", "name": "Symmetric two-leaf flat metal door", "materials": ["M04", "M05-L", "M05-D", "M08"]},
+        {"id": "FD-B", "name": "65/35 asymmetric two-leaf door with narrow service band", "materials": ["M04", "M05-L", "M05-D", "M08"]}
+      ]
+    },
+    {
+      "group": "passenger_lift_entrances",
+      "build_all": true,
+      "operational_state": "Door closed, call module dark, authentication disabled; independent non-colliding CAUTION display only.",
+      "variants": [
+        {"id": "EL-A", "name": "Two-panel center-parting precision interface, closed exterior only", "materials": ["M04", "M05-D", "M08"]},
+        {"id": "EL-B", "name": "Three-panel side-stacking precision interface, closed exterior only", "materials": ["M04", "M05-D", "M08"]}
+      ],
+      "shared_caution_text": "CAUTION — 電力不足により運転停止中。階段をご利用ください。",
+      "make_cabin_or_lift_operation": false
+    },
+    {
+      "group": "ground_floor_personnel_exits",
+      "build_all": true,
+      "placement_policy": "Use an existing confirmed exit. If no anchor exists, deliver both in an independent W1.8m/H2.4m asset review module marked ASSET_ONLY; do not cut a new opening.",
+      "variants": [
+        {"id": "EN-A", "name": "Mineral portal without separate canopy", "materials": ["M04", "M05-L", "M05-D", "M06", "M08"]},
+        {"id": "EN-B", "name": "Folded metal portal with shallow projecting rain canopy", "materials": ["M04", "M05-D", "M06", "M07", "M08", "M09"]}
+      ]
+    },
+    {
+      "group": "facades",
+      "build_all": true,
+      "geometry_policy": "Same frozen building envelope and existing traffic nodes; no new towers, ordinary windows or removed lift platforms.",
+      "variants": [
+        {"id": "FA-A", "name": "Horizontal mineral panels with restrained vertical node trims", "materials": ["M06", "M07"]},
+        {"id": "FA-B", "name": "Floor-height vertical mineral panels with zinc-clad lift-node faces", "materials": ["M06", "M07"]}
+      ]
+    }
+  ],
+  "candidate_count": 10,
+  "generation_jobs": [
+    {"id": "J00", "task": "Reuse current wall, floor and stair materials", "new_picture_tasks": 0},
+    {"id": "J01", "task": "Satin stainless trim material", "new_picture_tasks": 1},
+    {"id": "J02", "task": "Light and dark coated-metal materials", "new_picture_tasks": 2},
+    {"id": "J03", "task": "Three plain mineral facade variants, one joint-deposit variant, one sourced runoff variant", "new_picture_tasks": 5},
+    {"id": "J04", "task": "Blue-grey zinc-like cladding", "new_picture_tasks": 1},
+    {"id": "J05", "task": "FD-A/B, EL-A/B and EN-A/B mapped door-front painting", "new_picture_tasks": 6},
+    {"id": "J06", "task": "Reuse/refine seals, diffuser, nosing and accurate labels", "new_picture_tasks": 0}
+  ],
+  "planned_outputs": {
+    "documentation_and_sources": "docs/art/experiments/cryo_building_review_v1/",
+    "runtime_assets": "assets/art/cryo_building_review_v1/",
+    "scene": "scenes/dev/cryo_building_review_v1.tscn",
+    "github_review": "docs/art/experiments/cryo_building_review_v1/preview.md",
+    "local_review": "docs/art/experiments/cryo_building_review_v1/preview.html",
+    "review_manifest": "docs/art/experiments/cryo_building_review_v1/review_manifest.json",
+    "status": "Not created by this documentation-only commit. Create and validate these when executing the pack."
+  },
+  "acceptance": {
+    "all_variants_same_camera_and_light_within_group": true,
+    "native_and_enlarged_texture_reviews": true,
+    "actual_godot_images_required": true,
+    "technical_checks_do_not_equal_user_art_approval": true,
+    "user_may_mix_options_across_groups": true,
+    "preserve_baseline_until_user_selection": true
+  }
+}
