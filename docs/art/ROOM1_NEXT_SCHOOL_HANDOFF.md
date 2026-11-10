@@ -1,139 +1,35 @@
-# 学校交接：2026-11-07／白袍重新生成未通过，身体v2保留，4F v6仍待选
+# 学校交接｜2026-11-11
 
-**最新白袍：[Tripo v3.1独立重新生成与检查](experiments/protagonist_tripo_robe_h31_v1/preview.html)，未通过、未采用。** 用户提出“模型有问题就重新生成”，本轮用原白袍四向灰模图生成一次纯几何候选。原始OBJ未检出真自交，但有3个小型脱离碎片，领口浅凹封面、下摆内部封挡；不是可穿戴／可动画衣物。检查工程和原始下载均留档，没有继续绑定或替换游戏角色。按钮显示35额度，账户差额不能作为已核实单任务费用，详见生成记录。
+11 月 10 日收工。明天从**标准休眠楼的候选审图**接着做，先看楼梯间新材质和两款扶手。今天的成果基线是 [GitHub main `eea90b0`](https://github.com/Glandy-T/echoes-of-ruin/commit/eea90b0cfa3c2fe82ec1778618f7feedc26ad30f)。本交接随后单独提交。
 
-**已否决：**[双层试穿](experiments/protagonist_wardrobe_fit_v1/README.md)与[脚本单层重建](experiments/protagonist_robe_single_surface_v1/README.md)。后一版扁袖、尖肩是重建造成的问题。不要恢复这些工程当基线，也不要把静态零自交当成外观／运动合格。
+## 到学校先打开
 
-**当前优先：身体v2与衣物共骨架的下一步。** [身体v2审图入口](experiments/protagonist_tripo_body_v2/preview.html)含原版／修后6组同机位、身体母版／静态GLB及独立临时骨架工程。脚趾28对自交已修复；母版和GLB重导通过单连通、闭合、零退化／真自交检查；其余2762个表面坐标保留。临时19骨、最多4项归一化权重，1／20／40／60帧为原A姿势、抬臂、弯肘、迈步关节诊断，12张姿势图已保存。它不是生产步态，没有Godot播放、足底落地或最终权重验收。
+1. 在学校副本检查 `git status --short --branch`，再同步 GitHub `main`。如果有同路径的本机差异，先保留并比较，审图以仓库提交为准。
+2. 打开[并排审图](experiments/cryo_building_review_v1/preview.md)或[本地 HTML](experiments/cryo_building_review_v1/preview.html)。先看 [A 款扶手](experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png)和 [B 款扶手](experiments/cryo_building_review_v1/evidence/godot/hr-b_rail.png)，再看[正常视角](experiments/cryo_building_review_v1/evidence/godot/hr-b_occupied.png)与 [28 秒灯光演示](experiments/cryo_building_review_v1/evidence/stair_motion_28s.gif)。
+3. 想实机看时，用 Godot 4.6.2 打开 `scenes/dev/cryo_building_review_v1.tscn`，按 **F6**。数字 1–0 依次选 HR、FD、EL、EN、FA 的 A/B，↑↓ 切机位，O 开合门扇，C 切电梯警示，L 切楼梯保底照明。F5 走正式入口。
 
-**下一步：**先判断新候选的内部封挡是否值得在独立副本中有限整理，或以有依据的新条件再生成；不能只清碎片就直接绑定，也不无目标抽卡。白袍设计仍参考原v2认可轮廓，身体仍用v2。只有衣物表面、开口和轮廓都过关后，才统一姿势、共享骨架试穿，随后再做动作、最终UV与PixelLab像素贴图。本轮有一次Tripo生成，没有PixelLab请求；Room1和游戏占位主角均未改。
+## 当前结果与下一步
 
-**楼梯材质仍待审：**[局部折中候选](experiments/cryo_stair_material_sample_v1/preview.html)沿用 r24 墙、灰色矿物踏步＋平台。首轮偏花，quiet1过平，当前只作局部折中，不是认可基准。Godot入口 `scenes/dev/cryo_stair_material_sample_v1.tscn`，F6、1/2/3机位。整栋推广及最终运动灯光未完成。
-
-**历史主角试作，只供追溯：**[本地修模v1](experiments/protagonist_blender_cleanup_v1/README.md)被用户否决；[免费H2.5](experiments/protagonist_tripo_h25_v1/README.md)有后发碎片、无UV／骨架；[国际版P2.0免费试作](experiments/protagonist_tripo_trial_v1/README.md)当时无法下载。旧暂停已被11月6日恢复制作指令取代，旧模型否决并未撤销；不要将这三个版本混入当前国内版原始源。
-
-**4F路线仍停在v6待选。** 镜头、触发方式和显现强度尚未由用户选定，也没有迁移正式F5。主角检查不自动确认或改动该路线。
-
-交接前成果基线：[GitHub main 732f226](https://github.com/Glandy-T/echoes-of-ruin/commit/732f2268b4668184160b8d58bfb7177b890b6daf)。本交接随后单独提交。此页已合并11月4日进展，替代原来层层追加的旧计划；11月3日及早期交接可从Git历史追溯。
-
-## 接手后先做什么
-
-1. 检查本机`git status`并保留已有差异，再同步main。下面列出的未提交文件不能清理或顺手混入本次提交。
-2. 主角先看[新白袍原始检查](experiments/protagonist_tripo_robe_h31_v1/preview.html)与[身体v2对照](experiments/protagonist_tripo_body_v2/preview.html)。新衣物未通过，不自动采用；身体已修脚趾，不要回到v1的28对交叉。身体临时骨架1／20／40／60帧仍只是诊断；衣物开口和表面先过关再试穿。双层试穿、脚本重建、手工v3／文字白袍v1均只供追溯。
-3. 4F路线另看[五种镜头、两种触发和四段动图](experiments/cryo_4f_camera_compare_v6/preview.html)。Godot打开`scenes/dev/cryo_4f_camera_compare_v6.tscn`，F6运行，F8到走廊；不要用F5判断实验。
-4. 等用户确定v6镜头、触发和显现强度后再收敛，不把默认A／距离规则／50%当成已认可方案，不改回人物周围挖洞。
-5. 楼梯材质仍是局部折中候选，运动灯光未实现；1F室外连接未确定。主角当前已恢复并走分件候选路线，旧暂停记录只供追溯。
-
-## 用户最新要求与已改变的方向
-
-- 相机可以前移、缩小透视视角来放大构图，或适当组合，尽量减少多余空房间占画面；**相机仍留在前侧墙外，不越墙进入狭窄走廊。**
-- 前侧墙和门平时隐藏；主角靠近一定距离，或进入门前区域时，相应门墙整段渐显，离开后渐隐。两种触发都做成对比，注意是否挡住人物、是否在边缘闪烁。
-- **不采用人物周围局部挖洞消隐。** 此前查阅Trifox等案例时提出的局部溶解只是讨论建议，已被用户这次明确要求替代。
-- v5“整面常驻42%半透明”保留为旧对照，不能把它当作v6的当前目标。
-- 其他47间房先不做休眠仓或室内；Room1保留已有20舱。门后灰色场景本轮不处理。
-- 门先按E才开始认证；主门成功后开门，再对双面黑门洞按E进出，全黑时换位并转镜180°，返回恢复室内镜头。
-- 其他仍工作的认证门按E后小窗黄闪，权限不足后红灯拒绝，保持关闭；不用弹窗替代灯语。停运电梯按其独立Brief保持不认证，不套黄／红灯。
-
-## 当前入口，别混版本
-
-| 用途 | 入口 | 实际状态 |
+| 项目 | 目前状态 | 接手后的判断 |
 |---|---|---|
-| 本次优先比较 | `scenes/dev/cryo_4f_camera_compare_v6.tscn`，F6 | 独立镜头＋接近显现实验，尚未选定组合。 |
-| 旧4F整层候选／v5 | `scenes/dev/cryo_4f_complete_v3.tscn`，F6 | 文件仍叫v3，但逻辑已经包含v4灯语、v5横移及单门目标修正；42%常驻半透明旧对照。 |
-| 最新室内美术 | `scenes/dev/room1_door_window_r30.tscn`，F6 | r24墙、r26地坪、r28全20舱、r29门面及r30认证窗局部精修。 |
-| 正式游戏 | `project.godot` → F5 →「はじめる」 | 仍是r19正式功能入口，未换成本轮v6；原靠近自动认证／行走路线与实验E流程有区别。 |
+| ST-01 楼梯墙面与踏面 | 用户确认建筑很少有人走动，环境老化为主。大面已换成既有 PixelLab 细矿物纹理，旧痕集中在贴着踏步与平台的墙脚。主表面实测 80 原生像素／米。 | 用同机位先确认旧痕的位置和明暗。如果还有喷漆感，指出具体一块的位置，按对应的收边、缝隙或环境来源调整。 |
+| HR-A/B 扶手 | 两款立柱都落在实际踏面，补了握轨支座。A 为圆管和细竖杆，B 为沿踏步留缝的折板。造型仍待审。 | 先分清问题出在 A/B 的整体轮廓、转角，还是局部比例。当前实测净宽为 **1.616 m／1.617 m**，冻结目标为 **1.80 m**，现阶段只在独立样段比较。要安装时先解决净宽。 |
+| FD、EL、EN、FA | 各两款均已出 Godot 实拍。FD/EN 的独立样段验证了闭门阻挡与开后中心通行；EL 警示条可穿过，断电门叶仍挡住角色。FA 是 16F＋B4 外壳候选。 | 各组可独立挑选。FD 落地前复查整扇扫掠；EN 的首层外门位置待确认。FA 正式布光与远景运动采样仍待验证。 |
+| 4F v6 与主角 | 4F 镜头、显现触发和强度仍待选。主角 3D 已暂停，身体 v2 保留，最后一版 Tripo 白袍未通过，游戏里继续用纸片占位。 | 先看建筑审图。恢复 4F 或主角时从下方的独立入口接手。 |
 
-旧v1实时小样、v2局部烘焙、v4／v5修正截图都只供追溯。当前整层资产仍在`assets/art/cryo_4f_complete_v3/`；版本数字不代表可以删除依赖。
+**扶手建模的分工建议**。Tripo 可以先试复杂外壳或扶手的新轮廓。扶手定稿要逐级对齐固定点，并在 Blender 中按楼梯尺寸检查净宽与接点。是否更换造型由这轮审图决定。当前两款源文件都在同一个 [Blender 工程](experiments/cryo_building_review_v1/model/interior_accessories.blend)。
 
-## v6怎么比较
+**美术约束**。楼内优先表现长期静置的积尘、墙脚与接缝沉积，以及轻微的材质变化。室外痕迹要有暴露位置或滴水来源。Pixel Canals 用作观察参考，PixelLab 负责主体绘画，Aseprite 精修保留分层。最近一次实查 PixelLab 用量为 1994/2000，本轮楼梯两次修订均复用已有贴图。下次真正需要生成时再查账户。[材料与岁月痕迹](cryo_building_production/MATERIALS_AND_AGEING.md) · [生成记录](experiments/cryo_building_review_v1/source/usage_summary.json)
 
-| 按键 | 功能 |
-|---|---|
-| 1–5 | 切换A–E镜头，不改变人物位置。 |
-| T | 沿墙距离／门前区域触发。 |
-| R | 50%半显／100%实体遮挡对照。 |
-| F7 | 自动／强制隐藏／强制显现，HUD显示当前状态。 |
-| F8／Home | 到走廊门外／回室内。 |
-| F11／F12 | 整层俯视／技术切区，不授予正式玩法权限。 |
-| E | 沿用门认证、拒绝及黑门洞进出。 |
-| F9／F10 | 灯带／raw与降噪光图对照。 |
+## 复查、旧入口和本机差异
 
-镜头方案只用于八条水平走廊。室内、连接廊和楼梯沿用原镜头；在室内按1–5不会改变室内构图，先按F8进入比较。
+- 审图用独立实时光。已在 Godot 4.6.2 核对同机位画面与楼梯灯光演示，并比对导出模型的贴图密度、握轨坐标和立柱落脚高度。技术核对完成，视觉选择和正式安装仍待定。[审图说明及验证记录](experiments/cryo_building_review_v1/README.md)
+- 正式 Room 1、F5 与旧 4F 路线继续沿用各自入口。要看 4F，用 `scenes/dev/cryo_4f_camera_compare_v6.tscn` 按 F6，再按 F8 去走廊。要恢复主角，先读身体和白袍的各自验收状态。[4F v6 审图](experiments/cryo_4f_camera_compare_v6/preview.html) · [身体 v2](experiments/protagonist_tripo_body_v2/preview.html) · [白袍检查](experiments/protagonist_tripo_robe_h31_v1/preview.html)
+- 学校机上次使用的 Godot 路径为 `E:/卒業制作/GODOT/Godot_v4.6.2-stable_win64_console.exe`。学校当前安装和项目路径到校后再核对。早期的 4F 操作表、主角诊断和学校工具路径仍可从[11 月 7 日交接归档](https://github.com/Glandy-T/echoes-of-ruin/blob/eea90b0cfa3c2fe82ec1778618f7feedc26ad30f/docs/art/ROOM1_NEXT_SCHOOL_HANDOFF.md)查到。上一版楼梯可从 [`f9a3746` 同机位](https://github.com/Glandy-T/echoes-of-ruin/blob/f9a3746c218853eec56d33c441afb6cdc2148acb/docs/art/experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png)回看。
+- 家中有五项交接范围之外的本机差异。学校同步得到的是 GitHub 版本，尤其是 FA-A 应按已发布的候选比较。
+  - 已改 `assets/art/cryo_building_review_v1/models/FA-A_complete_envelope.glb` 与 `project.godot`。
+  - 未跟踪 `ASSET_CREDITS.md`、`assets/art/room1_integrated_door_v3/room1_integrated_door_v3_door_front.png` 与 `assets/art/room1_open_hero_bake_r1/strip_irradiance.exr`。
 
-| 方案 | 距离／水平FOV | 高度 | 代表机位下方空白 | 实测纸片角色高度 |
-|---|---|---|---:|---:|
-| A 原构图 | 8m／50° | 2.2m | 22.63% | 232px |
-| B 前移 | 6m／50° | 2.2m | 10.50% | 302px |
-| C 缩小视角 | 8m／38.5° | 2.2m | 13.45% | 310px |
-| D 适度组合 | 7m／44° | 2.2m | 12.58% | 304px |
-| E 更近构图 | 4m／50° | 2.2m | 0% | 423px |
+给学校 Codex 的简短开场
 
-空白数据只对应同一走廊中线点x=16m、z=-10.7m、前墙隐藏的画面下方；**不能说E在所有位置都没有空白**。角色高度由固定帧图对测量。B/C/D放大程度接近；E更紧，角色和像素也明显变大，周围可见范围变窄。
-
-显现规则：进入距离1.15m、退出1.35m；门前区域还要求左右距门中心≤1.2m，离开到1.5m外才释放。离开保持0.20s后渐隐，显隐各约0.28s。段长暂按冻结房间左右边界约21m，共32组前侧门墙；这是实验分组，尚未作为最终表现批准。
-
-认证中的门在原交互范围内会保持显示，便于读小窗。当前互动提示仍沿用原1.5m范围，可能早于自动显现阈值出现；选定主方案后再一起审看这处衔接。
-
-**已经看清的取舍：**100%实体从墙外看会完全挡住人物，保留作反例；50%单层显现保留约50%人物图像对比度，仍会压暗人物。这不是用户已认可50%的结论。距离触发沿墙横走仍显现；区域触发离开门前后隐去，二者都保留待选。
-
-## 已验证到什么程度
-
-- [功能报告](experiments/cryo_4f_camera_compare_v6/functional_validation.json)：PASS。120组位置＝5镜头×8走廊×3纵向位置；都在前侧墙外，最小实测墙外余量约1.69m，人物投影在画框内。
-- 隐藏墙、相邻门和分区门仍有碰撞；保留原469个整层新增碰撞体，32组显示层不改变物理网格。
-- 原主门认证开门、第二次E黑屏换镜、返回室内原8m／50°相机，对门黄闪红拒绝、无权限弹窗取消均通过。
-- 距离阈值、门前区域侧边、跨房间段边界的往复测试，没有反复开关显隐。
-- [实机图、4段运动GIF](experiments/cryo_4f_camera_compare_v6/preview.html)包含靠近／退开及沿墙横移；另有7张认证与往返实拍。截图1280×720，GIF精确缩半并使用共享调色板，原PNG和模拟时间保留。
-- 捕获使用`--fixed-fps 60`，不是学校机器真实FPS结论。没有做其他机器的性能或新楼梯镜头验收。
-
-上述是技术和画面检查，**不是用户认可最终方案**。下一轮先让用户比较，不继续无目标地改透明百分比或抽材质。
-
-## 这一层及美术做到哪里
-
-- 冻结布局48间房外壳、8条走廊及侧廊／连接节点已接入。其他47间没有舱体、可进入室内或室内地坪；Room1仍是既有20舱。
-- 整层复用r24墙板及r26中央过道地坪裁片，避开舱位痕迹；取消过往重复独立灯管。门继续沿用r30素材。
-- 整层v3已完成Cycles 4096采样、4096²图集烘焙，光照16px/m，原生颜色以80px/m为基准。当前GLB、映射和HDR由清单配套；raw经过连续UV2重投影但未降噪，未重投影的Cycles输出另存为`source_*.exr`。不能把它写成未经重采样的原始文件。
-- v6只改显示和比较控制，未改像素颜色、UV或静态光图，也没有新生成材质。仍遵守[光照／UV检查](ROOM1_LIGHTMAP_QA.md)。
-- 西梯既有4F至1F路线保留，东／南／北有4F入口灰盒。楼梯、公共区专用门型、电梯入口、外立面均未完成正式美术。1F到室外的连接尚未确定，不能声称已做完整栋或已走到室外。
-- 其他房间和楼层权限不开放，F12只是审图跳转。停运电梯不恢复运行。楼梯后续读[感应灯带Brief](CRYO_STAIR_MOTION_LIGHTING_BRIEF.md)，电梯读[入口Brief](CRYO_PASSENGER_LIFT_ENTRANCE_BRIEF.md)。
-- 主角仍为临时纸片，受光沿用已有近似；[三视图v2](experiments/protagonist_turnaround_v2/README.md)和[主角Brief](PROTAGONIST_LOW_POLY_BRIEF.md)保留，已取得3D分件候选，未完成绑定／替换。不要把旧v1错误背面当建模依据。
-
-## 主要文件与复现
-
-| 内容 | 文件 |
-|---|---|
-| v6逻辑 | `scripts/dev/cryo_4f_camera_compare_v6.gd` |
-| 原场景裁切／单层门墙显示 | `scripts/dev/cryo_4f_camera_context_v6.gdshader`、`cryo_4f_camera_section_v6.gdshader` |
-| 比较参数、限制和操作 | [v6 README](experiments/cryo_4f_camera_compare_v6/README.md) |
-| 数值、逐图相机与显隐记录 | `docs/art/experiments/cryo_4f_camera_compare_v6/comparison_analysis.json`及`evidence/`中的JSON |
-| 完整功能验证 | `scenes/dev/cryo_4f_camera_v6_verify.tscn` |
-| 静态／运动／人物遮挡捕获 | `scenes/dev/cryo_4f_camera_v6_capture.tscn` |
-| 认证与往返捕获 | `scenes/dev/cryo_4f_camera_v6_auth_capture.tscn` |
-| 生成审图页与测量 | `docs/art/experiments/cryo_4f_camera_compare_v6/analyze_preview.py`，需Pillow／NumPy |
-| 整层运行资产／烘焙源 | `assets/art/cryo_4f_complete_v3/`；[整层v3源与复建](experiments/cryo_4f_complete_v3/README.md) |
-| 冻结尺寸 | `docs/cad/cryo_standard_floor/v3_trim/floor_layout.json`；[设施布局](../CRYO_FACILITY_LAYOUT.md) |
-
-11月4日学校机曾使用并核对以下路径（历史环境记录；本轮家中工作区为 `G:/卒業制作/echoes-of-ruin`）：
-
-- Godot：`E:/卒業制作/GODOT/Godot_v4.6.2-stable_win64_console.exe`。
-- Blender：`C:/Program Files/Blender Foundation/Blender 5.0/blender.exe`，附带Python在`5.0/python/bin/python.exe`。
-- Pillow／NumPy补充包：`E:/卒業制作/.runtime/python-packages`，运行Python分析时设置该`PYTHONPATH`。
-- 当时CLI运行使用`APPDATA=E:/卒業制作/.runtime/roaming`、`LOCALAPPDATA=E:/卒業制作/.runtime/local`；这是学校代理的验证运行环境，不要求用户手工逐步配置。换机器先核对实际路径。
-
-需要重跑时由接手代理执行对应验证／捕获／分析；只改交接无需重烘焙。旧日志中的系统根证书读取提示不等于本轮断言失败，判断应读PASS报告及实际画面。
-
-## 本机未提交状态，必须保留
-
-交接开始时已存在以下差异，本轮不处理，也不混入交接提交：
-
-- `project.godot`：删除了两行显式默认配置`window/size/resizable=true`和`window/stretch/aspect="keep"`，其余本次不碰。
-- 未跟踪`ASSET_CREDITS.md`。
-- 未跟踪`assets/art/room1_integrated_door_v3/room1_integrated_door_v3_door_front.png`。
-- 未跟踪`assets/art/room1_open_hero_bake_r1/strip_irradiance.exr`。
-
-学校曾使用独立上传副本`E:/卒業制作/.publish-4f-complete-v3-20261104/`；11月6日家中按相同原则在当前仓库 `.delivery_uploads/` 下隔离提交。不要强制检出或清理这些未提交文件；换机器先看状态再拉取，不覆盖学校或家里的其他成果。
-
-## 工具与生成额度
-
-学校PixelLab API本轮早期已验证并实际调用；最初v1小样累计使用30次生成额度，地坪两次纯色未通过后停止，后续改为复用室内素材。v2至v6没有新增PixelLab生成。换机器或下次真正要生成时再核对连接，不把本轮成功写成永久可用。
-
-没有必要为下一步比较镜头再生成贴图。用户不熟悉令牌配置，不要要求其在聊天里发送令牌或反复手动配置；先由代理检查可用工具与本机安全配置。Pixel Canals为技术观感参考，其NoAI截图／模型／贴图不得上传生成服务；PixelLab主体材质与Aseprite局部精修约束继续遵守。
+> 同步 echoes-of-ruin 的 GitHub main，读 `docs/art/ROOM1_NEXT_SCHOOL_HANDOFF.md`。先打开最新楼梯审图，和我一起确认低使用频率的旧化以及 A/B 扶手造型。两款均暂在独立样段，安装还要解决净宽。
