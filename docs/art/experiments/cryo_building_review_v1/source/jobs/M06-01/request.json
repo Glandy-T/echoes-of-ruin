@@ -1,0 +1,38 @@
+{
+  "name": "M06-01",
+  "material": "M06-01",
+  "group": "J03",
+  "mode": "Pixen",
+  "observed_ui_unit_cost": 1,
+  "native_size": [
+    256,
+    256
+  ],
+  "input_size": [
+    320,
+    256
+  ],
+  "export_crop": [
+    0,
+    0,
+    256,
+    256
+  ],
+  "regions": [],
+  "region_key": {
+    "E0": "#59635c",
+    "E1": "#41525e",
+    "E2": "#90776b",
+    "E3": "#7c8f9e",
+    "E4": "#8d8070"
+  },
+  "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+  "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+  "style_crop": [
+    172,
+    56,
+    236,
+    248
+  ],
+  "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+}

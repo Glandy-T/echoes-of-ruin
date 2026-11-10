@@ -1,0 +1,16 @@
+{
+  "route": "PixelLab website Creator; Pixen and Pro Flash",
+  "monthly_used_before": 1899,
+  "monthly_used_after": 1994,
+  "monthly_allowance": 2000,
+  "monthly_consumed_this_run": 95,
+  "monthly_remaining_after": 6,
+  "paid_credit_usd_after": 0,
+  "purchases_this_run": 0,
+  "charged_images": {"one_unit": 14, "nine_units": 9},
+  "downloaded_originals": 23,
+  "new_editable_textures": 15,
+  "inherited_maps_or_crops": 6,
+  "inputs": "Single-image project-owned guides (some seeded with the native M03 material); no third-party uploads. Separate Creator style-reference attempt did not complete. Authored masks are applied in Aseprite packaging, not as server-side inputs.",
+  "records": ["creator_submissions.json", "official_downloads.json", "material_packaging.json"]
+}

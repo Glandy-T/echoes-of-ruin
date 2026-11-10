@@ -1,0 +1,26 @@
+{
+  "source": "f7fa9e8342f77106daad9b9199f34333fca53c89",
+  "remaining_monthly_units_observed": 101,
+  "paid_credit_balance_usd": 0,
+  "model_costs": "Creator displayed Pixen edit 1; Pro edit 10 at <=256²; recheck button on every submit",
+  "planned_requests": 15,
+  "expected_subscription_units": 87,
+  "budget_policy": "No purchase or upgrade. One initial result and at most one evidence-based targeted correction within existing balance.",
+  "task_order": [
+    "M04",
+    "M05-L",
+    "M05-D",
+    "M07",
+    "M06-01",
+    "M06-02",
+    "M06-03",
+    "M06-J",
+    "M06-R",
+    "FD-A",
+    "FD-B",
+    "EL-A",
+    "EL-B",
+    "EN-A",
+    "EN-B"
+  ]
+}

@@ -1,0 +1,370 @@
+[
+  {
+    "task": "M04",
+    "name": "pixellab--CRYO-M04--Paint-the-supplied--1794312682273.png",
+    "sha256": "0c114717c8a9d36131ddf97cd64a1e2371ae0143d7681cf1d4ca1acf53d54c89",
+    "size": [
+      256,
+      64
+    ],
+    "standard_deviation": [
+      8.855095577412104,
+      8.000563359541253,
+      7.534849454043712,
+      0.0
+    ],
+    "unique_pixels": 42
+  },
+  {
+    "task": "M05-L",
+    "name": "pixellab--CRYO-M05-L--Flat-native-pixel-1794312856688.png",
+    "sha256": "deb820f3b47ae19237a987a83a12ff21df8fb76f6510b6aafca145390a76c251",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      0.3898793706764933,
+      0.34035174143072966,
+      0.5276436268775909,
+      0.0
+    ],
+    "unique_pixels": 10
+  },
+  {
+    "task": "M05-D",
+    "name": "pixellab--CRYO-M05-D--Flat-native-pixel-1794313586442 (1).png",
+    "sha256": "a8126c4331832018e54c800a6bf862824d37549033b36c913cf1d95abc676b86",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      8.455127143530516,
+      8.321653508529188,
+      7.788725806231827,
+      0.0
+    ],
+    "unique_pixels": 29
+  },
+  {
+    "task": "M07",
+    "name": "pixellab--CRYO-M07--Flat-native-pixel-a-1794313602069 (1).png",
+    "sha256": "de3605bde0e9e1e4f06d1f41400f4d2b4f53b06953cc64b9ec2a6415e0208322",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      14.42767470496285,
+      12.53813351178616,
+      12.999943362712132,
+      0.0
+    ],
+    "unique_pixels": 49
+  },
+  {
+    "task": "M06-01",
+    "name": "pixellab--CRYO-M06-01--Flat-native-pixe-1794313028701.png",
+    "sha256": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "unique_pixels": 1
+  },
+  {
+    "task": "M06-02",
+    "name": "pixellab--CRYO-M06-02--Flat-native-pixe-1794313058060.png",
+    "sha256": "9b10e8931638fc4acd50624f5eb203b83e559556ad99ec5e449dab2043017b6d",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      33.50483682390183,
+      31.61984740397859,
+      30.73038314550356,
+      0.0
+    ],
+    "unique_pixels": 58
+  },
+  {
+    "task": "M06-03",
+    "name": "pixellab--CRYO-M06-03--Flat-native-pixe-1794313070181 (1).png",
+    "sha256": "84c453f7905996cc6986f9c0baa7fcd28be97cea9df3d850bf19dbaf63dc033f",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      19.491556857558248,
+      19.729245873165155,
+      17.27044391720023,
+      0.0
+    ],
+    "unique_pixels": 17
+  },
+  {
+    "task": "M06-J",
+    "name": "pixellab--CRYO-M06-J--Flat-native-pixel-1794313668640 (1).png",
+    "sha256": "29fb3d7449c1c0931653e116aee69e37470e75b94e50e90d996bf192a9b996b7",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      30.49041522684169,
+      26.72462945097202,
+      22.9596646530604,
+      0.0
+    ],
+    "unique_pixels": 22
+  },
+  {
+    "task": "M06-R",
+    "name": "pixellab--CRYO-M06-R--Flat-native-pixel-1794313735660 (1).png",
+    "sha256": "330db7cd839e7e02c0c046f3fc3b35c0271bc5dcc1234c96c92c57209f60094a",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      10.55514059781337,
+      8.22679667430208,
+      6.439495005813457,
+      0.0
+    ],
+    "unique_pixels": 46
+  },
+  {
+    "task": "FD-A",
+    "name": "pixellab--CRYO-FD-A--Edit-this-exact-14-1794314237680.png",
+    "sha256": "7523bd3a81dc26193b61020572ce5800e6a206b7ef706868cb2cf773bfc8a7e0",
+    "size": [
+      144,
+      192
+    ],
+    "standard_deviation": [
+      11.130266273274895,
+      10.140596174738004,
+      9.115312576463676,
+      0.0
+    ],
+    "unique_pixels": 36
+  },
+  {
+    "task": "FD-B",
+    "name": "pixellab--CRYO-FD-B--Edit-this-exact-14-1794314244904.png",
+    "sha256": "6cc1cf1112b2d3028d66552d6bd284b19f6872cb468a64668551a6999000d9a2",
+    "size": [
+      144,
+      192
+    ],
+    "standard_deviation": [
+      12.69081181763071,
+      12.493599625681746,
+      11.814981811717987,
+      0.0
+    ],
+    "unique_pixels": 42
+  },
+  {
+    "task": "EL-A",
+    "name": "pixellab--CRYO-EL-A--Edit-this-exact-11-1794314272429.png",
+    "sha256": "aaa46974dbeb655eb71ee33f5f0e835e2defb9dabf71f2c2150043a90fcd2b24",
+    "size": [
+      112,
+      192
+    ],
+    "standard_deviation": [
+      11.753091578510602,
+      12.159956776948004,
+      10.606704768514891,
+      0.0
+    ],
+    "unique_pixels": 39
+  },
+  {
+    "task": "EL-B",
+    "name": "pixellab--CRYO-EL-B--Edit-this-exact-11-1794314284017.png",
+    "sha256": "0990a0d4579fc6767bfdd73d52f9d5113848fad4dbfcbb6f840e9de8c2491972",
+    "size": [
+      112,
+      192
+    ],
+    "standard_deviation": [
+      12.940667384073764,
+      11.40917136562447,
+      10.110080819827909,
+      0.0
+    ],
+    "unique_pixels": 40
+  },
+  {
+    "task": "EN-A",
+    "name": "pixellab--CRYO-EN-A--Edit-this-exact-14-1794314295975.png",
+    "sha256": "fc5fe39c234a08dde9184a1d1b96eb10324aeea80429dc2b061d29cdca603619",
+    "size": [
+      144,
+      192
+    ],
+    "standard_deviation": [
+      10.694894261676403,
+      10.315633461664232,
+      9.38699940110978,
+      0.0
+    ],
+    "unique_pixels": 46
+  },
+  {
+    "task": "EN-B",
+    "name": "pixellab--CRYO-EN-B--Edit-this-exact-14-1794314323592.png",
+    "sha256": "371e1ba5c070aa40d08851eaa3bbb090a08d67592bf41169e1a516851e527ba9",
+    "size": [
+      144,
+      192
+    ],
+    "standard_deviation": [
+      10.532410479720967,
+      9.937237027889179,
+      9.191766265532989,
+      0.0
+    ],
+    "unique_pixels": 31
+  },
+  {
+    "task": "M05-L-R1",
+    "name": "pixellab--CRYO-M05-L-R1--Flat-256x256-n-1794314105110.png",
+    "sha256": "bf4a890488c4d92e514ccc813e576585622e06f619d8599057cddb39a1307aac",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      4.4407501842266415,
+      4.127667564234012,
+      3.509481581187415,
+      0.0
+    ],
+    "unique_pixels": 50
+  },
+  {
+    "task": "M05-D-R1",
+    "name": "pixellab--CRYO-M05-D-R1--Native-256x256-1794314669324.png",
+    "sha256": "2aeb3df6b72a39b77d860494cbb2f8920fff7cbb29faa2fefc376425598354b8",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      4.310836706088415,
+      4.697992804562568,
+      4.299361334527518,
+      0.0
+    ],
+    "unique_pixels": 49
+  },
+  {
+    "task": "M07-R1",
+    "name": "pixellab--CRYO-M07-R1--Native-256x256-f-1794314181404.png",
+    "sha256": "f1d3f0ed80e115a43750d1f482a85a9ea2a6bdecad0b4307f16f35a871f6d492",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      6.692918656635135,
+      5.863535882005948,
+      4.6360894796690095,
+      0.0
+    ],
+    "unique_pixels": 56
+  },
+  {
+    "task": "M06-01-R1",
+    "name": "pixellab--CRYO-M06-01-R1--Flat-color-te-1794314121766.png",
+    "sha256": "b7920235919e5fcbf305023bb374d468117cb44d7cacc157d372684353f65170",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      4.44707006005944,
+      4.239095695750895,
+      3.5212839316025453,
+      0.0
+    ],
+    "unique_pixels": 60
+  },
+  {
+    "task": "M06-02-R1",
+    "name": "pixellab--CRYO-M06-02-R1--Native-256x25-1794314127593.png",
+    "sha256": "cd26e0ebca92dde53d6c994780b0dc08f246fbf5a593b142e5f63f080b1c488d",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      5.330574676640563,
+      4.693491058168124,
+      3.6861186142514955,
+      0.0
+    ],
+    "unique_pixels": 57
+  },
+  {
+    "task": "M06-03-R1",
+    "name": "pixellab--CRYO-M06-03-R1--Flat-native-p-1794314158369.png",
+    "sha256": "5d9feca4330443c67e0560b6f55d916cdd9e1b7256e93c4ba57df1099f6bc121",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      4.155664472637756,
+      3.826417875146472,
+      3.2430193448292717,
+      0.0
+    ],
+    "unique_pixels": 43
+  },
+  {
+    "task": "M06-J-R1",
+    "name": "pixellab--CRYO-M06-J-R1--Flat-256x256-n-1794314684955.png",
+    "sha256": "cf5c4f2506c2a95c84eab9345e4c050a7c18223a1de6562f068d0b6438822743",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      7.390305721831896,
+      6.566893781797667,
+      5.305263333447396,
+      0.0
+    ],
+    "unique_pixels": 30
+  },
+  {
+    "task": "M06-R-R1",
+    "name": "pixellab--CRYO-M06-R-R1--Paint-a-256x25-1794314206522.png",
+    "sha256": "9f6025a81a9239b168ed5ee90222c7855236aee8c1e43b7101107e36c13253cf",
+    "size": [
+      256,
+      256
+    ],
+    "standard_deviation": [
+      6.562249254292689,
+      5.706186413142186,
+      4.651218551188647,
+      0.0
+    ],
+    "unique_pixels": 46
+  }
+]

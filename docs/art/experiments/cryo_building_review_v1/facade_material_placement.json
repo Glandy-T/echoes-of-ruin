@@ -1,0 +1,18 @@
+{
+  "schema": "cryo_facade_material_placement_v1",
+  "source_plan": "docs/cad/cryo_standard_floor/v3_trim/floor_layout.json",
+  "coordinate_origin": "plan centre; z=1F slab datum",
+  "texture_contract": {"atlas_px": [256, 256], "world_density_px_per_m": 80, "repeat_m": 3.2, "status": "PixelLab PNGs installed in isolated Godot review; runoff uses a clamped, top-anchored map"},
+  "materials": ["M06-01", "M06-02", "M06-03", "M06-J", "M06-R", "M07"],
+  "age_region_placements": [
+    {"id":"E3-01", "material":"M06-R", "source":"south coping joint x=-28.8m", "extent_m":{"x":[-29.1,-28.5],"z":[58.0,60.8]}, "note":"one localized, top-anchored PixelLab runoff map"},
+    {"id":"E3-02", "material":"M06-R", "source":"north coping joint x=35.2m", "extent_m":{"x":[34.9,35.5],"z":[58.0,60.8]}, "note":"authored runoff map placement only; no generated dirt"},
+    {"id":"E4-01", "material":"M06-BASE (M06-02 PNG with neutral tint)", "source":"continuous plinth at exposed facade bases", "extent_m":{"z":[0.0,0.6]}, "note":"light accumulation and material/tone break; no separate splash decal"}
+  ],
+  "explicit_non_attachments": {
+    "EN": "ASSET_ONLY: frozen exterior plan has no confirmed personnel-exit facade anchor; no opening cut.",
+    "machine": "No new exterior machine portal or anchor. Existing core portals remain internal frozen-plan metadata.",
+    "stairs": "Existing stair-node volumes retain continuous M06 corners; no windows or exposed stairs added."
+  },
+  "technical_b4": {"assembly":"separate B4-B1 technical shell within each facade GLB", "weathering":"none", "purpose":"engineering section/readback"}
+}

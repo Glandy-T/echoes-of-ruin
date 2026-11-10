@@ -1,0 +1,3719 @@
+[
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "hr-a_baseline.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "minimum_0.2_fault_demo",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "hr-a_occupied.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "occupied",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.018458, 0.0, 0.99983), Y: (0.091886, 0.995768, 0.001696), Z: (-0.995598, 0.091901, -0.01838), O: (-4.9, 2.25, -0.7)]",
+		"candidate": "HR-A",
+		"file": "hr-a_side.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "lower_game_direction",
+		"static_bake": "none",
+		"view": "side",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.053546, 0.0, 0.998565), Y: (0.302943, 0.95287, 0.016245), Z: (-0.951503, 0.303378, -0.051023), O: (-4.6, 4.9, -2.3)]",
+		"candidate": "HR-A",
+		"file": "hr-a_upper.png",
+		"missing_textures": [],
+		"ortho_m": 4.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "upper_game_direction",
+		"static_bake": "none",
+		"view": "upper",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "hr-a_neutral.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.270000010728836,
+		"state": "neutral_surface_review",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.968737, 0.0, 0.248091), Y: (0.184797, 0.667205, 0.721587), Z: (-0.165528, 0.744874, -0.646346), O: (-0.27, 6.685, -4.61)]",
+		"candidate": "HR-A",
+		"file": "hr-a_rail.png",
+		"missing_textures": [],
+		"ortho_m": 3.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.270000010728836,
+		"state": "guard_profile_and_grip",
+		"static_bake": "none",
+		"view": "rail",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-B",
+		"file": "hr-b_baseline.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "minimum_0.2_fault_demo",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-B",
+		"file": "hr-b_occupied.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "occupied",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.018458, 0.0, 0.99983), Y: (0.091886, 0.995768, 0.001696), Z: (-0.995598, 0.091901, -0.01838), O: (-4.9, 2.25, -0.7)]",
+		"candidate": "HR-B",
+		"file": "hr-b_side.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "lower_game_direction",
+		"static_bake": "none",
+		"view": "side",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.053546, 0.0, 0.998565), Y: (0.302943, 0.95287, 0.016245), Z: (-0.951503, 0.303378, -0.051023), O: (-4.6, 4.9, -2.3)]",
+		"candidate": "HR-B",
+		"file": "hr-b_upper.png",
+		"missing_textures": [],
+		"ortho_m": 4.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "upper_game_direction",
+		"static_bake": "none",
+		"view": "upper",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-B",
+		"file": "hr-b_neutral.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.270000010728836,
+		"state": "neutral_surface_review",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.968737, 0.0, 0.248091), Y: (0.184797, 0.667205, 0.721587), Z: (-0.165528, 0.744874, -0.646346), O: (-0.27, 6.685, -4.61)]",
+		"candidate": "HR-B",
+		"file": "hr-b_rail.png",
+		"missing_textures": [],
+		"ortho_m": 3.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.270000010728836,
+		"state": "guard_profile_and_grip",
+		"static_bake": "none",
+		"view": "rail",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "FD-A",
+		"file": "fd-a_closed.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "closed",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.999033, 0.043957), Z: (-0.0, 0.043957, -0.999033), O: (0.0, 1.6, -5.0)]",
+		"candidate": "FD-A",
+		"file": "fd-a_rear.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "closed_inner",
+		"static_bake": "none",
+		"view": "rear",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.984216, 0.0, -0.176972), Y: (-0.025021, 0.989955, 0.139154), Z: (0.175195, 0.141385, -0.974329), O: (0.68, 1.52, -3.2)]",
+		"candidate": "FD-A",
+		"file": "fd-a_release.png",
+		"missing_textures": [],
+		"ortho_m": 1.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "mechanical_release",
+		"static_bake": "none",
+		"view": "release",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.839153, 0.0, -0.543895), Y: (-0.115624, 0.977143, -0.178392), Z: (0.531463, 0.212585, 0.819972), O: (2.8, 2.4, 4.5)]",
+		"candidate": "FD-A",
+		"file": "fd-a_open90.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "two_leaves_at_90",
+		"static_bake": "none",
+		"view": "open90",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.204538, -0.978859), Z: (0.0, 0.978859, 0.204538), O: (0.0, 7.0, 1.4)]",
+		"candidate": "FD-A",
+		"file": "fd-a_sweep.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "open_leaf_clearance_technical",
+		"static_bake": "none",
+		"view": "sweep",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "FD-B",
+		"file": "fd-b_closed.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "closed",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.999033, 0.043957), Z: (-0.0, 0.043957, -0.999033), O: (0.0, 1.6, -5.0)]",
+		"candidate": "FD-B",
+		"file": "fd-b_rear.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "closed_inner",
+		"static_bake": "none",
+		"view": "rear",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.984216, 0.0, -0.176972), Y: (-0.025021, 0.989955, 0.139154), Z: (0.175195, 0.141385, -0.974329), O: (0.68, 1.52, -3.2)]",
+		"candidate": "FD-B",
+		"file": "fd-b_release.png",
+		"missing_textures": [],
+		"ortho_m": 1.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "mechanical_release",
+		"static_bake": "none",
+		"view": "release",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.839153, 0.0, -0.543895), Y: (-0.115624, 0.977143, -0.178392), Z: (0.531463, 0.212585, 0.819972), O: (2.8, 2.4, 4.5)]",
+		"candidate": "FD-B",
+		"file": "fd-b_open90.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "two_leaves_at_90",
+		"static_bake": "none",
+		"view": "open90",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.204538, -0.978859), Z: (0.0, 0.978859, 0.204538), O: (0.0, 7.0, 1.4)]",
+		"candidate": "FD-B",
+		"file": "fd-b_sweep.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "open_leaf_clearance_technical",
+		"static_bake": "none",
+		"view": "sweep",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EL-A",
+		"file": "el-a_closed.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "unpowered_no_caution",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EL-A",
+		"file": "el-a_caution.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "unpowered_caution",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.951223, 0.0, -0.308505), Y: (-0.033898, 0.993945, -0.104519), Z: (0.306637, 0.109878, 0.945463), O: (1.9, 1.62, 3.7)]",
+		"candidate": "EL-A",
+		"file": "el-a_touch.png",
+		"missing_textures": [],
+		"ortho_m": 1.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "dark_call_module",
+		"static_bake": "none",
+		"view": "touch",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EL-A",
+		"file": "el-a_pass.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "capsule_passes_display_stops_at_door",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EL-B",
+		"file": "el-b_closed.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "unpowered_no_caution",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EL-B",
+		"file": "el-b_caution.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "unpowered_caution",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.951223, 0.0, -0.308505), Y: (-0.033898, 0.993945, -0.104519), Z: (0.306637, 0.109878, 0.945463), O: (1.9, 1.62, 3.7)]",
+		"candidate": "EL-B",
+		"file": "el-b_touch.png",
+		"missing_textures": [],
+		"ortho_m": 1.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "dark_call_module",
+		"static_bake": "none",
+		"view": "touch",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EL-B",
+		"file": "el-b_pass.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.280000001192093,
+		"state": "capsule_passes_display_stops_at_door",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EN-A",
+		"file": "en-a_closed.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "closed",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.999033, 0.043957), Z: (-0.0, 0.043957, -0.999033), O: (0.0, 1.6, -5.0)]",
+		"candidate": "EN-A",
+		"file": "en-a_rear.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "closed_inner",
+		"static_bake": "none",
+		"view": "rear",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.984216, 0.0, -0.176972), Y: (-0.025021, 0.989955, 0.139154), Z: (0.175195, 0.141385, -0.974329), O: (0.68, 1.52, -3.2)]",
+		"candidate": "EN-A",
+		"file": "en-a_release.png",
+		"missing_textures": [],
+		"ortho_m": 1.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "mechanical_release",
+		"static_bake": "none",
+		"view": "release",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.839153, 0.0, -0.543895), Y: (-0.115624, 0.977143, -0.178392), Z: (0.531463, 0.212585, 0.819972), O: (2.8, 2.4, 4.5)]",
+		"candidate": "EN-A",
+		"file": "en-a_open90.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "two_leaves_at_90",
+		"static_bake": "none",
+		"view": "open90",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.204538, -0.978859), Z: (0.0, 0.978859, 0.204538), O: (0.0, 7.0, 1.4)]",
+		"candidate": "EN-A",
+		"file": "en-a_sweep.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "open_leaf_clearance_technical",
+		"static_bake": "none",
+		"view": "sweep",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.798968, 0.0, -0.601374), Y: (-0.18995, 0.948806, -0.252362), Z: (0.570587, 0.315861, 0.758065), O: (2.8, 2.8, 4.2)]",
+		"candidate": "EN-A",
+		"file": "en-a_transition.png",
+		"missing_textures": [],
+		"ortho_m": 3.75,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "asset_only_exterior_transition",
+		"static_bake": "none",
+		"view": "transition",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.999033, -0.043957), Z: (0.0, 0.043957, 0.999033), O: (0.0, 1.6, 5.0)]",
+		"candidate": "EN-B",
+		"file": "en-b_closed.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "closed",
+		"static_bake": "none",
+		"view": "front",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 0.999033, 0.043957), Z: (-0.0, 0.043957, -0.999033), O: (0.0, 1.6, -5.0)]",
+		"candidate": "EN-B",
+		"file": "en-b_rear.png",
+		"missing_textures": [],
+		"ortho_m": 3.45000004768372,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "closed_inner",
+		"static_bake": "none",
+		"view": "rear",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.984216, 0.0, -0.176972), Y: (-0.025021, 0.989955, 0.139154), Z: (0.175195, 0.141385, -0.974329), O: (0.68, 1.52, -3.2)]",
+		"candidate": "EN-B",
+		"file": "en-b_release.png",
+		"missing_textures": [],
+		"ortho_m": 1.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "mechanical_release",
+		"static_bake": "none",
+		"view": "release",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.839153, 0.0, -0.543895), Y: (-0.115624, 0.977143, -0.178392), Z: (0.531463, 0.212585, 0.819972), O: (2.8, 2.4, 4.5)]",
+		"candidate": "EN-B",
+		"file": "en-b_open90.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "two_leaves_at_90",
+		"static_bake": "none",
+		"view": "open90",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.204538, -0.978859), Z: (0.0, 0.978859, 0.204538), O: (0.0, 7.0, 1.4)]",
+		"candidate": "EN-B",
+		"file": "en-b_sweep.png",
+		"missing_textures": [],
+		"ortho_m": 3.5,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "open_leaf_clearance_technical",
+		"static_bake": "none",
+		"view": "sweep",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.798968, 0.0, -0.601374), Y: (-0.18995, 0.948806, -0.252362), Z: (0.570587, 0.315861, 0.758065), O: (2.8, 2.8, 4.2)]",
+		"candidate": "EN-B",
+		"file": "en-b_transition.png",
+		"missing_textures": [],
+		"ortho_m": 3.75,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "asset_only_exterior_transition",
+		"static_bake": "none",
+		"view": "transition",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.695104, 0.0, -0.718909), Y: (-0.23601, 0.944577, -0.228196), Z: (0.679065, 0.32829, 0.656579), O: (151.0, 103.0, 146.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_overall.png",
+		"missing_textures": [],
+		"ortho_m": 135.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "overall",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (-0.0, 0.0, -1.0), O: (0.0, 29.0, -240.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_north.png",
+		"missing_textures": [],
+		"ortho_m": 121.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "north",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 29.0, 240.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_south.png",
+		"missing_textures": [],
+		"ortho_m": 121.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "south",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, -1.0), Y: (0.0, 1.0, 0.0), Z: (1.0, 0.0, -0.0), O: (230.0, 30.0, 0.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_east.png",
+		"missing_textures": [],
+		"ortho_m": 72.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "east",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.0, 1.0, 0.0), Z: (-1.0, 0.0, -0.0), O: (-230.0, 30.0, 0.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_west.png",
+		"missing_textures": [],
+		"ortho_m": 72.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "west",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (16.0, 8.0, 48.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_detail10m.png",
+		"missing_textures": [],
+		"ortho_m": 5.625,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "detail10m",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.737154, 0.0, -0.675725), Y: (-0.122466, 0.98344, -0.133599), Z: (0.664534, 0.181237, 0.724947), O: (103.0, 16.0, 49.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_corner.png",
+		"missing_textures": [],
+		"ortho_m": 19.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "corner",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.588172, 0.0, -0.808736), Y: (-0.059299, 0.997308, -0.043127), Z: (0.806559, 0.073324, 0.586588), O: (106.0, 27.0, 31.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_node.png",
+		"missing_textures": [],
+		"ortho_m": 16.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "node",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.978106, 0.0, -0.208108), Y: (-0.020116, 0.995317, -0.094546), Z: (0.207133, 0.096662, 0.973526), O: (22.0, 3.5, 53.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_ground.png",
+		"missing_textures": [],
+		"ortho_m": 6.69999980926514,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "ground",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.38949, 0.834622, -0.38949), Z: (0.590167, 0.550823, 0.590167), O: (103.0, 72.0, 46.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_roof.png",
+		"missing_textures": [],
+		"ortho_m": 18.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "roof",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.680226, 0.0, -0.733002), Y: (0.0, 1.0, 0.0), Z: (0.733002, 0.0, 0.680226), O: (125.0, 7.0, 116.0)]",
+		"candidate": "FA-A",
+		"file": "fa-a_b4.png",
+		"missing_textures": [],
+		"ortho_m": 95.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "technical_underground_view",
+		"static_bake": "none",
+		"view": "b4",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.695104, 0.0, -0.718909), Y: (-0.23601, 0.944577, -0.228196), Z: (0.679065, 0.32829, 0.656579), O: (151.0, 103.0, 146.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_overall.png",
+		"missing_textures": [],
+		"ortho_m": 135.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "overall",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (-0.0, 0.0, -1.0), O: (0.0, 29.0, -240.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_north.png",
+		"missing_textures": [],
+		"ortho_m": 121.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "north",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 29.0, 240.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_south.png",
+		"missing_textures": [],
+		"ortho_m": 121.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "south",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, -1.0), Y: (0.0, 1.0, 0.0), Z: (1.0, 0.0, -0.0), O: (230.0, 30.0, 0.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_east.png",
+		"missing_textures": [],
+		"ortho_m": 72.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "east",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.0, 0.0, 1.0), Y: (0.0, 1.0, 0.0), Z: (-1.0, 0.0, -0.0), O: (-230.0, 30.0, 0.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_west.png",
+		"missing_textures": [],
+		"ortho_m": 72.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "west",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (16.0, 8.0, 48.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_detail10m.png",
+		"missing_textures": [],
+		"ortho_m": 5.625,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "detail10m",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.737154, 0.0, -0.675725), Y: (-0.122466, 0.98344, -0.133599), Z: (0.664534, 0.181237, 0.724947), O: (103.0, 16.0, 49.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_corner.png",
+		"missing_textures": [],
+		"ortho_m": 19.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "corner",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.588172, 0.0, -0.808736), Y: (-0.059299, 0.997308, -0.043127), Z: (0.806559, 0.073324, 0.586588), O: (106.0, 27.0, 31.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_node.png",
+		"missing_textures": [],
+		"ortho_m": 16.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "node",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.978106, 0.0, -0.208108), Y: (-0.020116, 0.995317, -0.094546), Z: (0.207133, 0.096662, 0.973526), O: (22.0, 3.5, 53.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_ground.png",
+		"missing_textures": [],
+		"ortho_m": 6.69999980926514,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "ground",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.707107, 0.0, -0.707107), Y: (-0.38949, 0.834622, -0.38949), Z: (0.590167, 0.550823, 0.590167), O: (103.0, 72.0, 46.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_roof.png",
+		"missing_textures": [],
+		"ortho_m": 18.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "shared_overcast",
+		"static_bake": "none",
+		"view": "roof",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (0.680226, 0.0, -0.733002), Y: (0.0, 1.0, 0.0), Z: (0.733002, 0.0, 0.680226), O: (125.0, 7.0, 116.0)]",
+		"candidate": "FA-B",
+		"file": "fa-b_b4.png",
+		"missing_textures": [],
+		"ortho_m": 95.0,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.400000005960464,
+		"state": "technical_underground_view",
+		"static_bake": "none",
+		"view": "b4",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "ST-01",
+		"file": "st-01_whole.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "two_flight_shared_sample",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_000.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.7,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_001.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_002.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_003.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_004.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_005.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_006.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_007.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_008.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_009.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_010.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_011.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_012.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_013.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_014.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_015.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_016.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_017.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.7,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_018.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_019.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_020.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_021.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_022.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_023.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_024.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_025.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			0.7,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_026.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_027.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_028.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_029.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_030.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_031.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_032.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_033.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_034.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_035.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_036.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_037.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_038.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_039.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_040.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_041.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_042.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_043.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_044.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_045.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_046.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_047.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_048.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_049.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_050.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_051.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_052.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_053.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_054.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_055.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_056.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_057.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_058.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_059.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_060.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_061.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_062.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_063.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_064.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_065.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			0.7
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_066.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_067.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_068.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_069.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_070.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.866666666666667,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_071.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.733333333333333,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_072.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.6,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_073.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.466666666666667,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_074.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.333333333333333,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_075.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_076.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_077.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_078.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_079.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_080.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_081.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_082.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_083.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.866666666666667,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_084.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.733333333333333,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_085.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.6,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_086.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.466666666666667,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_087.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.333333333333333,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_088.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_089.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_090.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_091.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_092.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			1.0,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_093.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.866666666666667,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_094.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.733333333333333,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_095.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.6,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_096.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.466666666666667,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_097.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.333333333333333,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_098.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_099.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_100.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_101.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			1.0
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_102.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.866666666666667
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_103.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.733333333333333
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_104.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.6
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_105.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.466666666666667
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_106.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.333333333333333
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_107.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_108.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_109.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_110.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"candidate": "HR-A",
+		"file": "stair_motion_111.png",
+		"missing_textures": [],
+		"ortho_m": 7.65000009536743,
+		"resolution": [
+			1280,
+			720
+		],
+		"rt_light_energy": 0.200000002980232,
+		"state": "deterministic_28s_motion",
+		"static_bake": "none",
+		"view": "hero",
+		"zone_factors": [
+			0.2,
+			0.2,
+			0.2,
+			0.2
+		]
+	}
+]

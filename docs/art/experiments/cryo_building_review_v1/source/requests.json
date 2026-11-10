@@ -1,0 +1,854 @@
+[
+  {
+    "name": "M04",
+    "material": "M04",
+    "group": "J01",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      64
+    ],
+    "input_size": [
+      320,
+      64
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      64
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          2,
+          19,
+          253,
+          41
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          44,
+          24,
+          63
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          230,
+          44,
+          255,
+          63
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M05-L",
+    "material": "M05-L",
+    "group": "J02",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      320,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          8,
+          228,
+          245,
+          253
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M05-D",
+    "material": "M05-D",
+    "group": "J02",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      320,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          8,
+          228,
+          245,
+          253
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M07",
+    "material": "M07",
+    "group": "J04",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      320,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [
+      {
+        "id": "E1",
+        "bounds": [
+          1,
+          1,
+          15,
+          254
+        ]
+      },
+      {
+        "id": "E2",
+        "bounds": [
+          240,
+          0,
+          255,
+          255
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M06-01",
+    "material": "M06-01",
+    "group": "J03",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      320,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M06-02",
+    "material": "M06-02",
+    "group": "J03",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      320,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M06-03",
+    "material": "M06-03",
+    "group": "J03",
+    "mode": "Pixen",
+    "observed_ui_unit_cost": 1,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      320,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M06-J",
+    "material": "M06-J",
+    "group": "J03",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      256,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [
+      {
+        "id": "E1",
+        "bounds": [
+          1,
+          3,
+          30,
+          253
+        ]
+      },
+      {
+        "id": "E4",
+        "bounds": [
+          0,
+          224,
+          255,
+          255
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "M06-R",
+    "material": "M06-R",
+    "group": "J03",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      256,
+      256
+    ],
+    "input_size": [
+      256,
+      256
+    ],
+    "export_crop": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "regions": [
+      {
+        "id": "E3",
+        "bounds": [
+          110,
+          1,
+          160,
+          137
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "FD-A",
+    "material": "FACE_FD_A",
+    "group": "J05",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      144,
+      192
+    ],
+    "input_size": [
+      144,
+      192
+    ],
+    "export_crop": [
+      0,
+      0,
+      144,
+      192
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          5,
+          174,
+          138,
+          190
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          0,
+          5,
+          191
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          138,
+          0,
+          143,
+          191
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "FD-B",
+    "material": "FACE_FD_B",
+    "group": "J05",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      144,
+      192
+    ],
+    "input_size": [
+      144,
+      192
+    ],
+    "export_crop": [
+      0,
+      0,
+      144,
+      192
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          5,
+          174,
+          138,
+          190
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          0,
+          5,
+          191
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          138,
+          0,
+          143,
+          191
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "EL-A",
+    "material": "FACE_EL_A",
+    "group": "J05",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      112,
+      192
+    ],
+    "input_size": [
+      112,
+      192
+    ],
+    "export_crop": [
+      0,
+      0,
+      112,
+      192
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          5,
+          174,
+          106,
+          190
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          0,
+          5,
+          191
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          106,
+          0,
+          111,
+          191
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "EL-B",
+    "material": "FACE_EL_B",
+    "group": "J05",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      112,
+      192
+    ],
+    "input_size": [
+      112,
+      192
+    ],
+    "export_crop": [
+      0,
+      0,
+      112,
+      192
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          5,
+          174,
+          106,
+          190
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          0,
+          5,
+          191
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          106,
+          0,
+          111,
+          191
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "EN-A",
+    "material": "FACE_EN_A",
+    "group": "J05",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      144,
+      192
+    ],
+    "input_size": [
+      144,
+      192
+    ],
+    "export_crop": [
+      0,
+      0,
+      144,
+      192
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          5,
+          174,
+          138,
+          190
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          0,
+          5,
+          191
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          138,
+          0,
+          143,
+          191
+        ]
+      },
+      {
+        "id": "E3",
+        "bounds": [
+          0,
+          0,
+          12,
+          45
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  },
+  {
+    "name": "EN-B",
+    "material": "FACE_EN_B",
+    "group": "J05",
+    "mode": "Pro",
+    "observed_ui_unit_cost": 10,
+    "native_size": [
+      144,
+      192
+    ],
+    "input_size": [
+      144,
+      192
+    ],
+    "export_crop": [
+      0,
+      0,
+      144,
+      192
+    ],
+    "regions": [
+      {
+        "id": "E2",
+        "bounds": [
+          5,
+          174,
+          138,
+          190
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          0,
+          0,
+          5,
+          191
+        ]
+      },
+      {
+        "id": "E1",
+        "bounds": [
+          138,
+          0,
+          143,
+          191
+        ]
+      },
+      {
+        "id": "E3",
+        "bounds": [
+          0,
+          0,
+          12,
+          45
+        ]
+      }
+    ],
+    "region_key": {
+      "E0": "#59635c",
+      "E1": "#41525e",
+      "E2": "#90776b",
+      "E3": "#7c8f9e",
+      "E4": "#8d8070"
+    },
+    "style_source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "style_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "style_crop": [
+      172,
+      56,
+      236,
+      248
+    ],
+    "workflow": "Official PixelLab Creator; visual guide submitted, mask used at export; editor does not receive a native mask."
+  }
+]

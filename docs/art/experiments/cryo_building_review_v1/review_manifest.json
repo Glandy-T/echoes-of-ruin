@@ -1,0 +1,150 @@
+{
+  "source_commit": "f7fa9e8342f77106daad9b9199f34333fca53c89",
+  "formal_assets_changed": false,
+  "render_scene": "scenes/dev/cryo_building_review_v1.tscn",
+  "renderer": "Godot 4.6.2 Compatibility, NVIDIA RTX 4070 Laptop GPU",
+  "uv0_target_native_texels_per_m": 80,
+  "capture_resolution": [
+    1280,
+    720
+  ],
+  "candidates": [
+    {
+      "id": "HR-A",
+      "type": "HR 扶手",
+      "appearance": "连续圆管＋细竖杆",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/HR-A.glb",
+      "primary_evidence": "evidence/godot/hr-a_rail.png"
+    },
+    {
+      "id": "HR-B",
+      "type": "HR 扶手",
+      "appearance": "折板＋独立握持轨",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/HR-B.glb",
+      "primary_evidence": "evidence/godot/hr-b_rail.png"
+    },
+    {
+      "id": "FD-A",
+      "type": "FD 楼梯分区门",
+      "appearance": "等宽双扇",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/FD-A.glb",
+      "primary_evidence": "evidence/godot/fd-a_closed.png"
+    },
+    {
+      "id": "FD-B",
+      "type": "FD 楼梯分区门",
+      "appearance": "65/35＋窄侧检修带",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/FD-B.glb",
+      "primary_evidence": "evidence/godot/fd-b_closed.png"
+    },
+    {
+      "id": "EL-A",
+      "type": "EL 电梯入口",
+      "appearance": "两片中分",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/EL-A.glb",
+      "primary_evidence": "evidence/godot/el-a_caution.png"
+    },
+    {
+      "id": "EL-B",
+      "type": "EL 电梯入口",
+      "appearance": "三片侧收套叠",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/EL-B.glb",
+      "primary_evidence": "evidence/godot/el-b_caution.png"
+    },
+    {
+      "id": "EN-A",
+      "type": "EN 首层人员出口",
+      "appearance": "矿物门套，无雨棚",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/EN-A.glb",
+      "primary_evidence": "evidence/godot/en-a_transition.png"
+    },
+    {
+      "id": "EN-B",
+      "type": "EN 首层人员出口",
+      "appearance": "折板门套，浅雨檐",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/EN-B.glb",
+      "primary_evidence": "evidence/godot/en-b_transition.png"
+    },
+    {
+      "id": "FA-A",
+      "type": "FA 建筑外壳",
+      "appearance": "水平矿物板带",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/FA-A_complete_envelope.glb",
+      "primary_evidence": "evidence/godot/fa-a_overall.png"
+    },
+    {
+      "id": "FA-B",
+      "type": "FA 建筑外壳",
+      "appearance": "层高竖板＋金属节点",
+      "status": "rendered / art selection pending",
+      "glb": "../../../../assets/art/cryo_building_review_v1/models/FA-B_complete_envelope.glb",
+      "primary_evidence": "evidence/godot/fa-b_overall.png"
+    }
+  ],
+  "constraints": [
+    "HR-A/B：扶手内缘净宽约 1.62 m，未达到冻结的 1.80 m；均是独立样段，暂不安装。",
+    "FD-A/B：已核对独立样段的开合与碰撞，冻结楼梯平台上的整扇扫掠仍须在安装前验证。",
+    "EL-A/B：均断电关闭；可穿过的 CAUTION 是显示层，门叶有碰撞。没有新增电梯功能。",
+    "EN-A/B：均为 ASSET ONLY，首层外门没有确认的锚点。现有内核 D089–D096 是 2.4 m 旁通开口，缺门高及封闭门定义；K-01 保留这些通路，不在外墙或核心新装门。",
+    "FA-A/B：共用冻结体量，地上 16 层＋地下 4 层。天气和外部照明是临时审图条件。独立场景使用实时光；正式光照图未重烘。"
+  ],
+  "support_models": [
+    "ST-01_stair_sample",
+    "K-01_accessories",
+    "EXTERIOR_K01_common"
+  ],
+  "capture_count": 177,
+  "still_count": 65,
+  "motion_frame_count": 112,
+  "capture_details": "evidence/godot/capture_record.json",
+  "motion_gif": "evidence/stair_motion_28s.gif",
+  "runtime_probes": "evidence/godot/runtime_probes.json",
+  "uv0_report": "evidence/uv0_density.json",
+  "usage": "source/usage_summary.json",
+  "texture_provenance": "source/material_packaging.json",
+  "asset_hashes": {
+    "models/EL-A.glb": "af61342976b6f3488a7fa39275ee0a775cfc4f079922d33b5919eae9969aea06",
+    "models/EL-B.glb": "a8fd1767e3ce6ef8074c20453f23b8ddd8dafaa5ac2d5bffd639ca44718c18f2",
+    "models/EN-A.glb": "ab0d0b83c060f5943f1a6c5f982faaee0aafc63b4c8aa896fc8f0d0a301ccdf0",
+    "models/EN-B.glb": "0bef405c0bfcbe06ff08b350f494ca9d9406f0e8ab9464a436ebf81f21cb7a7f",
+    "models/EXTERIOR_K01_common.glb": "cc0e7b1d10b57c450c1f6f95d1db8e9f1c1a7c066f3ab0e400b8902beb9fd5ac",
+    "models/FA-A_complete_envelope.glb": "fc20a1a52cf375f9515b2a6873eeffc1017cfed841e33d6dbc7ca9e68e4d8101",
+    "models/FA-B_complete_envelope.glb": "fbecdfd177d92a714eaba6e4c2be4fcb323b28a678a2791b0ef21ad5d06c91ae",
+    "models/FD-A.glb": "46aada6cb3d36e9351e00905e0ab7094fbf4daafaaac482da5a43c4a6a0cceff",
+    "models/FD-B.glb": "b03c57f558dae64b9b82a499f13c1ffbc605c1b87aee4d7e2cfcdcd1d50a3a7a",
+    "models/HR-A.glb": "4e82f20329762654e11f4d4b5d97228e312b025877b5aeae1015ccc3129849ad",
+    "models/HR-B.glb": "0c5f0f342451e84ef846b9ccc1b895efae096453cfbb4bd6545d0010f3bebb7f",
+    "models/K-01_accessories.glb": "eb3cbd9b2a72b2347685b215edec7dd7614067770450a3b705c18b84b25f6ab5",
+    "models/ST-01_stair_sample.glb": "85bbb340341475884a34db18a07202acdbce2ee70fd33b2b4e512e4870b921e0",
+    "textures/FACE_EL_A.png": "395d902e8b4d1be02f77f0d749f7784f4a474ce7ba4680663a5379ed353870b3",
+    "textures/FACE_EL_B.png": "5cfcd3990821470bb602e426a3818376522733c6d3e084ff934a54ba76bf33f5",
+    "textures/FACE_EN_A.png": "4a3b53bf657f08ac1656523d77c5911595ad2acff88d2dd738be576e4b33b7ba",
+    "textures/FACE_EN_B.png": "86f249f7077111e8b4c1d603a051d1f55724c5e6aeee024a9fae9ae65db10cc0",
+    "textures/FACE_FD_A.png": "7bd5a5bab765e0cb220d26119bba68f1c1a1daf2c32250afeca9d99ec730dae1",
+    "textures/FACE_FD_B.png": "e08808459da4a120b0522a616b754f6e851ef30489151253437d9625c59a7612",
+    "textures/M01.png": "5fdb714ffb350f7d503246a0be0453ad6332f6a0d21b2f7fbcbad8f69e36ba18",
+    "textures/M02.png": "89ee5c1c864e2a5f1936e9933bf57a3bcb0b9d9f29523724036a772587a38322",
+    "textures/M03.png": "3da7dd7df652cc3c015f64882e2167da79757d5714bf752b2ffb6ec57a47c463",
+    "textures/M04.png": "18870bfbb842ff1d2be9efa4354ade299fdb76bd4ac9431923c39dce72ce30b7",
+    "textures/M05-D.png": "508dfbb1b3c555040a907a3217753d56dcb04e466f2664c1cf70f9ffcdab6fd5",
+    "textures/M05-L.png": "4c52c0f93c5a36fa3277c9e874ad20fee59d600a30ad5adac8310d8b068961ac",
+    "textures/M06-01.png": "6cdd281fbf826c335535cf0903853b87b60e1859541153c5d3d51df58e57dc1b",
+    "textures/M06-02.png": "9ea0b0ae4f2ea82c53450f29be72c0713ce05a2803cf6b3622eb6476ed4ed04f",
+    "textures/M06-03.png": "b6e0b5e880d3ab6b5f419362d3b99357c2fc1445e091be3709e4d0495abbd6e9",
+    "textures/M06-J.png": "117cd56d0f87fec0e5769774ea3c24e9290448d9037aab20f9069ab82ab8286e",
+    "textures/M06-R.png": "29df5be873be49171f600ecee200cd6d93453ceceff22a8674ebbdd449e225bf",
+    "textures/M07.png": "417b1966dbaef7c6a15ec019dcb5d6ca1936d595c980dfb0ed19009d153e6965",
+    "textures/M08.png": "22e07a341ddf7caab328f0b95bff6273ec15b7c28b9d7b11542f26c6c49835b4",
+    "textures/M09.png": "f9c6fc9954a44f8c0c735f7c2323f35468aaab981a292f2a1a546953fe575926",
+    "textures/M10.png": "561f966cefc33315535251a377a5eea41fcf6daab68215458329d5fb2158253d"
+  }
+}

@@ -1,0 +1,16 @@
+*.log
+*.blend1
+__pycache__/
+source/connection_local.json
+source/pixellab_openapi_local.json
+source/queue_local.json
+source/stop_local
+evidence/godot/stair_motion_*.png
+evidence/godot/wip_*.png
+evidence/godot/fd_en_*.png
+evidence/godot/el_closed_caution.png
+evidence/godot/fa-?_10m_detail.png
+evidence/godot/fa-?_front_elevation.png
+evidence/godot/fa-?_node_roof*.png
+evidence/godot/fa-?_technical_b4.png
+evidence/godot/fa-?_?*elevation.png

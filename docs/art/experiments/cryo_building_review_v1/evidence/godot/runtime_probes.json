@@ -1,0 +1,46 @@
+[
+	{
+		"candidate": "FD-A",
+		"closed_leaf_blocks": true,
+		"hinge_count": 2,
+		"open_center_ray_clear": true,
+		"placement": "isolated_review_no_frozen_landing_sweep_claim"
+	},
+	{
+		"candidate": "FD-B",
+		"closed_leaf_blocks": true,
+		"hinge_count": 2,
+		"open_center_ray_clear": true,
+		"placement": "isolated_review_no_frozen_landing_sweep_claim"
+	},
+	{
+		"auth_or_operation": false,
+		"candidate": "EL-A",
+		"capsule_crosses_caution": true,
+		"capsule_stops_at_closed_leaf": true,
+		"caution_visual_ray_passes": true,
+		"closed_leaf_blocks": true
+	},
+	{
+		"auth_or_operation": false,
+		"candidate": "EL-B",
+		"capsule_crosses_caution": true,
+		"capsule_stops_at_closed_leaf": true,
+		"caution_visual_ray_passes": true,
+		"closed_leaf_blocks": true
+	},
+	{
+		"candidate": "EN-A",
+		"closed_leaf_blocks": true,
+		"hinge_count": 2,
+		"open_center_ray_clear": true,
+		"placement": "isolated_review_no_frozen_landing_sweep_claim"
+	},
+	{
+		"candidate": "EN-B",
+		"closed_leaf_blocks": true,
+		"hinge_count": 2,
+		"open_center_ray_clear": true,
+		"placement": "isolated_review_no_frozen_landing_sweep_claim"
+	}
+]

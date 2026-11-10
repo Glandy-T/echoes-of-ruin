@@ -1,0 +1,211 @@
+{
+  "doors": [
+    {
+      "id": "FD-A",
+      "W_m": 1.8,
+      "H_m": 2.4,
+      "panel_widths_m": [
+        0.9,
+        0.9
+      ],
+      "front_texture_size": [
+        144,
+        192
+      ],
+      "front_axis_godot": "+Z",
+      "floor_center": [
+        0,
+        0,
+        0
+      ],
+      "status": "isolated_candidate"
+    },
+    {
+      "id": "FD-B",
+      "W_m": 1.8,
+      "H_m": 2.4,
+      "panel_widths_m": [
+        1.1700000000000002,
+        0.63
+      ],
+      "front_texture_size": [
+        144,
+        192
+      ],
+      "front_axis_godot": "+Z",
+      "floor_center": [
+        0,
+        0,
+        0
+      ],
+      "status": "isolated_candidate"
+    },
+    {
+      "id": "EL-A",
+      "W_m": 1.4,
+      "H_m": 2.4,
+      "panel_widths_m": [
+        0.7,
+        0.7
+      ],
+      "front_texture_size": [
+        112,
+        192
+      ],
+      "front_axis_godot": "+Z",
+      "floor_center": [
+        0,
+        0,
+        0
+      ],
+      "status": "isolated_candidate"
+    },
+    {
+      "id": "EL-B",
+      "W_m": 1.4,
+      "H_m": 2.4,
+      "panel_widths_m": [
+        0.4666666666666666,
+        0.4666666666666666,
+        0.4666666666666666
+      ],
+      "front_texture_size": [
+        112,
+        192
+      ],
+      "front_axis_godot": "+Z",
+      "floor_center": [
+        0,
+        0,
+        0
+      ],
+      "status": "isolated_candidate"
+    },
+    {
+      "id": "EN-A",
+      "W_m": 1.8,
+      "H_m": 2.4,
+      "panel_widths_m": [
+        0.9,
+        0.9
+      ],
+      "front_texture_size": [
+        144,
+        192
+      ],
+      "front_axis_godot": "+Z",
+      "floor_center": [
+        0,
+        0,
+        0
+      ],
+      "status": "ASSET_ONLY"
+    },
+    {
+      "id": "EN-B",
+      "W_m": 1.8,
+      "H_m": 2.4,
+      "panel_widths_m": [
+        0.9,
+        0.9
+      ],
+      "front_texture_size": [
+        144,
+        192
+      ],
+      "front_axis_godot": "+Z",
+      "floor_center": [
+        0,
+        0,
+        0
+      ],
+      "status": "ASSET_ONLY"
+    }
+  ],
+  "stair_bounds_m": {
+    "x": [
+      -3.45,
+      3.62
+    ],
+    "y": [
+      -1.09,
+      3.09
+    ],
+    "floor_z": [
+      0,
+      3.8
+    ]
+  },
+  "stair": {
+    "steps_per_run": 11,
+    "risers_per_run": 12,
+    "rise_m": 0.15833333333333333,
+    "run_m": 3.3,
+    "width_m": 1.8,
+    "top_nosing_width_m": 0.045,
+    "front_fold_m": 0.01,
+    "turn_landing_m": [
+      1.8,
+      3.8
+    ]
+  },
+  "nominal_walkable_flight_before_accessories_m": 1.8,
+  "measured_continuous_grip_inner_edges_clear_m": {
+    "HR-A": 1.616,
+    "HR-B": 1.617
+  },
+  "clearance_status": "Both isolated HR candidates encroach on frozen nominal 1.8m width. No walls or route changed. Not approved to install.",
+  "light_nodes": [
+    "L01_ZONE_LOWER",
+    "L01_ZONE_TURN",
+    "L01_ZONE_UPPER",
+    "L01_ZONE_FLOOR"
+  ],
+  "godot_motion_waypoints": [
+    [
+      -3.6,
+      0,
+      0
+    ],
+    [
+      -1.65,
+      0,
+      0
+    ],
+    [
+      1.65,
+      1.9,
+      0
+    ],
+    [
+      2.62,
+      1.9,
+      0
+    ],
+    [
+      2.62,
+      1.9,
+      -2.0
+    ],
+    [
+      1.65,
+      1.9,
+      -2
+    ],
+    [
+      -1.65,
+      3.8,
+      -2
+    ],
+    [
+      -3.25,
+      3.8,
+      -2
+    ]
+  ],
+  "limits": [
+    "EN ASSET_ONLY: no frozen 1F exterior exit anchor",
+    "No formal route installation, no fire certification",
+    "Independent realtime lighting; no lightmap data reused"
+  ]
+}

@@ -1,0 +1,510 @@
+[
+  {
+    "material": "M01",
+    "source": "assets/art/cryo_stair_material_sample_v1/wall_body.png",
+    "source_sha256": "c018295ef1c1e56512d63d245243bb1873f009540da2c74fc94bddd0c3f83329",
+    "crop": null,
+    "size": [
+      728,
+      232
+    ],
+    "export": "M01.png",
+    "status": "inherited_original_native_pixels"
+  },
+  {
+    "material": "M02",
+    "source": "assets/art/cryo_corridor_baked_v2/corridor_baked_v2_floor.png",
+    "source_sha256": "89ee5c1c864e2a5f1936e9933bf57a3bcb0b9d9f29523724036a772587a38322",
+    "crop": null,
+    "size": [
+      256,
+      192
+    ],
+    "export": "M02.png",
+    "status": "inherited_original_native_pixels"
+  },
+  {
+    "material": "M03",
+    "source": "assets/art/cryo_stair_material_sample_v1/mineral_a.png",
+    "source_sha256": "0c5295d2e42821462435e3ce4ecb677de26f76f13c2575c7c4fb1cc405889ed4",
+    "crop": null,
+    "size": [
+      192,
+      256
+    ],
+    "export": "M03.png",
+    "status": "inherited_original_native_pixels"
+  },
+  {
+    "material": "M08",
+    "source": "assets/art/room1_door_window_r30/door_front.png",
+    "source_sha256": "eb97bfeb16e3e7075b74fc04c420bd4bd115bb3613bbb4c14f71b3c4b3290f7b",
+    "crop": [
+      0,
+      0,
+      4,
+      184
+    ],
+    "size": [
+      4,
+      184
+    ],
+    "export": "M08.png",
+    "status": "inherited_original_native_pixels"
+  },
+  {
+    "material": "M09",
+    "source": "assets/art/room1_wall_detail_full_r24/wall_rear.png",
+    "source_sha256": "fd2134ac5262f65bda10c3abfd4989173ca4fbf7ac3899df92e2693c219c24aa",
+    "crop": [
+      128,
+      12,
+      384,
+      17
+    ],
+    "size": [
+      256,
+      5
+    ],
+    "export": "M09.png",
+    "status": "inherited_original_native_pixels"
+  },
+  {
+    "material": "M10",
+    "source": "assets/art/cryo_stair_material_sample_v1/tread_edge.png",
+    "source_sha256": "a6cd9bcbc9664f9a9d4820d16fbd80026b2c609dc695cd984b11eae9c7f87cb8",
+    "crop": null,
+    "size": [
+      192,
+      16
+    ],
+    "export": "M10.png",
+    "status": "inherited_original_native_pixels"
+  },
+  {
+    "material": "M04",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      64
+    ],
+    "raw_size": [
+      256,
+      64
+    ],
+    "selected_raw": "M04.png",
+    "unique_colors": 42,
+    "raw_sha256": "0c114717c8a9d36131ddf97cd64a1e2371ae0143d7681cf1d4ca1acf53d54c89",
+    "export_sha256": "18870bfbb842ff1d2be9efa4354ade299fdb76bd4ac9431923c39dce72ce30b7",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M05-L",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M05-L-R1.png",
+    "unique_colors": 50,
+    "raw_sha256": "bf4a890488c4d92e514ccc813e576585622e06f619d8599057cddb39a1307aac",
+    "export_sha256": "4c52c0f93c5a36fa3277c9e874ad20fee59d600a30ad5adac8310d8b068961ac",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M05-D",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M05-D-R1.png",
+    "unique_colors": 49,
+    "raw_sha256": "2aeb3df6b72a39b77d860494cbb2f8920fff7cbb29faa2fefc376425598354b8",
+    "export_sha256": "508dfbb1b3c555040a907a3217753d56dcb04e466f2664c1cf70f9ffcdab6fd5",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M07",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M07-R1.png",
+    "unique_colors": 56,
+    "raw_sha256": "f1d3f0ed80e115a43750d1f482a85a9ea2a6bdecad0b4307f16f35a871f6d492",
+    "export_sha256": "417b1966dbaef7c6a15ec019dcb5d6ca1936d595c980dfb0ed19009d153e6965",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M06-01",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M06-01-R1.png",
+    "unique_colors": 60,
+    "raw_sha256": "b7920235919e5fcbf305023bb374d468117cb44d7cacc157d372684353f65170",
+    "export_sha256": "6cdd281fbf826c335535cf0903853b87b60e1859541153c5d3d51df58e57dc1b",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M06-02",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M06-02-R1.png",
+    "unique_colors": 57,
+    "raw_sha256": "cd26e0ebca92dde53d6c994780b0dc08f246fbf5a593b142e5f63f080b1c488d",
+    "export_sha256": "9ea0b0ae4f2ea82c53450f29be72c0713ce05a2803cf6b3622eb6476ed4ed04f",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M06-03",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M06-03-R1.png",
+    "unique_colors": 43,
+    "raw_sha256": "5d9feca4330443c67e0560b6f55d916cdd9e1b7256e93c4ba57df1099f6bc121",
+    "export_sha256": "b6e0b5e880d3ab6b5f419362d3b99357c2fc1445e091be3709e4d0495abbd6e9",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 0,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M06-J",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M06-J-R1.png",
+    "unique_colors": 78,
+    "raw_sha256": "cf5c4f2506c2a95c84eab9345e4c050a7c18223a1de6562f068d0b6438822743",
+    "export_sha256": "117cd56d0f87fec0e5769774ea3c24e9290448d9037aab20f9069ab82ab8286e",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 256,
+    "local_cleanup_pixels": 1911,
+    "local_cleanup_donor": "M06-01-R1",
+    "local_cleanup_regions": [
+      [
+        115,
+        54,
+        177,
+        149,
+        "dark"
+      ],
+      [
+        182,
+        53,
+        242,
+        143,
+        "dark"
+      ]
+    ],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "M06-R",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      256,
+      256
+    ],
+    "raw_size": [
+      256,
+      256
+    ],
+    "selected_raw": "M06-R-R1.png",
+    "unique_colors": 85,
+    "raw_sha256": "9f6025a81a9239b168ed5ee90222c7855236aee8c1e43b7101107e36c13253cf",
+    "export_sha256": "29df5be873be49171f600ecee200cd6d93453ceceff22a8674ebbdd449e225bf",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 33,
+    "local_cleanup_pixels": 1410,
+    "local_cleanup_donor": "M06-01-R1",
+    "local_cleanup_regions": [
+      [
+        28,
+        55,
+        76,
+        143,
+        "dark"
+      ],
+      [
+        78,
+        55,
+        112,
+        142,
+        "dark"
+      ]
+    ],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "FACE_FD_A",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      144,
+      192
+    ],
+    "raw_size": [
+      144,
+      192
+    ],
+    "selected_raw": "FD-A.png",
+    "unique_colors": 35,
+    "raw_sha256": "7523bd3a81dc26193b61020572ce5800e6a206b7ef706868cb2cf773bfc8a7e0",
+    "export_sha256": "7bd5a5bab765e0cb220d26119bba68f1c1a1daf2c32250afeca9d99ec730dae1",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 192,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "FACE_FD_B",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      144,
+      192
+    ],
+    "raw_size": [
+      144,
+      192
+    ],
+    "selected_raw": "FD-B.png",
+    "unique_colors": 41,
+    "raw_sha256": "6cc1cf1112b2d3028d66552d6bd284b19f6872cb468a64668551a6999000d9a2",
+    "export_sha256": "e08808459da4a120b0522a616b754f6e851ef30489151253437d9625c59a7612",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 192,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "FACE_EL_A",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      112,
+      192
+    ],
+    "raw_size": [
+      112,
+      192
+    ],
+    "selected_raw": "EL-A.png",
+    "unique_colors": 87,
+    "raw_sha256": "aaa46974dbeb655eb71ee33f5f0e835e2defb9dabf71f2c2150043a90fcd2b24",
+    "export_sha256": "395d902e8b4d1be02f77f0d749f7784f4a474ce7ba4680663a5379ed353870b3",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 192,
+    "local_cleanup_pixels": 2688,
+    "local_cleanup_donor": "M05-D-R1",
+    "local_cleanup_regions": [
+      [
+        4,
+        0,
+        15,
+        13,
+        "all"
+      ],
+      [
+        65,
+        1,
+        81,
+        14,
+        "all"
+      ],
+      [
+        45,
+        170,
+        66,
+        192,
+        "all"
+      ],
+      [
+        12,
+        54,
+        49,
+        145,
+        "dark"
+      ],
+      [
+        67,
+        53,
+        111,
+        144,
+        "dark"
+      ]
+    ],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "FACE_EL_B",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      112,
+      192
+    ],
+    "raw_size": [
+      112,
+      192
+    ],
+    "selected_raw": "EL-B.png",
+    "unique_colors": 87,
+    "raw_sha256": "0990a0d4579fc6767bfdd73d52f9d5113848fad4dbfcbb6f840e9de8c2491972",
+    "export_sha256": "5cfcd3990821470bb602e426a3818376522733c6d3e084ff934a54ba76bf33f5",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 384,
+    "local_cleanup_pixels": 1993,
+    "local_cleanup_donor": "M05-D-R1",
+    "local_cleanup_regions": [
+      [
+        7,
+        53,
+        49,
+        149,
+        "dark"
+      ],
+      [
+        59,
+        53,
+        111,
+        145,
+        "dark"
+      ]
+    ],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "FACE_EN_A",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      144,
+      192
+    ],
+    "raw_size": [
+      144,
+      192
+    ],
+    "selected_raw": "EN-A.png",
+    "unique_colors": 42,
+    "raw_sha256": "fc5fe39c234a08dde9184a1d1b96eb10324aeea80429dc2b061d29cdca603619",
+    "export_sha256": "4a3b53bf657f08ac1656523d77c5911595ad2acff88d2dd738be576e4b33b7ba",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 192,
+    "local_cleanup_pixels": 0,
+    "local_cleanup_donor": null,
+    "local_cleanup_regions": [],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  },
+  {
+    "material": "FACE_EN_B",
+    "status": "packaged_native_pending_visual_review",
+    "size": [
+      144,
+      192
+    ],
+    "raw_size": [
+      144,
+      192
+    ],
+    "selected_raw": "EN-B.png",
+    "unique_colors": 80,
+    "raw_sha256": "371e1ba5c070aa40d08851eaa3bbb090a08d67592bf41169e1a516851e527ba9",
+    "export_sha256": "86f249f7077111e8b4c1d603a051d1f55724c5e6aeee024a9fae9ae65db10cc0",
+    "editor_readback_exact": true,
+    "protected_pixels_restored": 192,
+    "local_cleanup_pixels": 2196,
+    "local_cleanup_donor": "M05-D-R1",
+    "local_cleanup_regions": [
+      [
+        16,
+        57,
+        55,
+        141,
+        "dark"
+      ],
+      [
+        83,
+        56,
+        121,
+        141,
+        "dark"
+      ]
+    ],
+    "notes": "Exact geometry restoration and bounded local cleanup only; donor pixels are other native PixelLab work, not synthesized. No scaling of runtime map."
+  }
+]
