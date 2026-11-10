@@ -46,7 +46,7 @@ def box(c,n,b,m,**kw):
     x,X,y,Y,z,Z=b
     return mesh(c,n,[(x,y,z),(X,y,z),(X,Y,z),(x,Y,z),(x,y,Z),(X,y,Z),(X,Y,Z),(x,Y,Z)],[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)],[m],**kw)
 
-def prism_xz(c,n,profile,y,Y,material,**kw):
+def prism_xz(c,n,profile,y,Y,material,side_origin=None,**kw):
     # CCW profile in X/Z means the near end faces -Y.
     twice=sum(a[0]*b[1]-a[1]*b[0] for a,b in zip(profile,profile[1:]+profile[:1]))
     if twice<0:profile=profile[::-1]
@@ -57,7 +57,8 @@ def prism_xz(c,n,profile,y,Y,material,**kw):
     w,h=SIZE[material]
     for i,(a,b) in enumerate(zip(profile,profile[1:]+profile[:1])):
         p=Vector((a[0],0,a[1])); axis=(Vector((b[0],0,b[1]))-p).normalized()
-        maps[i+2]=(lambda q,p=p,axis=axis:((q-p).dot(axis)*PX/w,(q.y-y)*PX/h))
+        u0,v0=side_origin(a,b) if side_origin else (0,0)
+        maps[i+2]=(lambda q,p=p,axis=axis,u0=u0,v0=v0:(((q-p).dot(axis)*PX+u0)/w,((q.y-y)*PX+v0)/h))
     return mesh(c,n,v,faces,[material],face_uv=maps,**kw)
 
 def tube(c,n,points,rx=.021,rz=None):
@@ -98,15 +99,35 @@ def export(c,n):
 
 RISE=1.9/12; X0=-1.65; X1=1.65
 c=group('ST-01')
+# Select native regions of the same mineral map. Origins are in Blender UV pixel
+# coordinates, measured up from the lower left. Keep minor variation without an
+# aligned blue band or a polished-looking traffic lane.
+TREAD_ORIGINS={
+    'Lower':[(12,96),(50,88),(24,110),(107,98),(58,80),(117,12),(17,72),(49,96),(34,16),(110,37),(55,107)],
+    'Upper':[(53,104),(23,85),(114,102),(34,22),(59,90),(13,107),(109,78),(50,65),(19,98),(120,7),(57,97)],
+}
 def flight(name,y,Y,z0,direction):
     x0,x1=(X0,X1) if direction==1 else (X1,X0)
     p=[(x0,z0-.22),(x0,z0)]
     for i in range(11):
         x=x0+i*.3*direction; Z=z0+(i+1)*RISE;p.extend([(x,Z),(x+.3*direction,Z)])
-        u,U=sorted((x,x+.045*direction));box(c,f'{name}_NosingTop_{i+1:02}',(u,U,y,Y,Z-.001,Z+.0007),'M10')
-        u,U=sorted((x-.0015*direction,x));box(c,f'{name}_NosingFold_{i+1:02}',(u,U,y,Y,Z-.010,Z+.0007),'M10')
+        # Follow the long axis of the strip across the flight. The 16 px
+        # dimension covers the depth and fold, not the 1.8 m stair width.
+        strip_start=(9+11*i+(0 if direction==1 else 19))%49
+        strip_width,strip_height=SIZE['M10']
+        def top_uv(q,strip_start=strip_start,x=x):
+            return ((strip_start+(q.y-y)*PX)/strip_width,1-(2+abs(q.x-x)*PX)/strip_height)
+        def fold_uv(q,strip_start=strip_start,Z=Z):
+            return ((strip_start+(q.y-y)*PX)/strip_width,1-(11+(Z-q.z)*PX)/strip_height)
+        u,U=sorted((x,x+.045*direction));box(c,f'{name}_NosingTop_{i+1:02}',(u,U,y,Y,Z-.001,Z+.0007),'M10',face_uv={1:top_uv})
+        u,U=sorted((x-.0015*direction,x));box(c,f'{name}_NosingFold_{i+1:02}',(u,U,y,Y,Z-.010,Z+.0007),'M10',face_uv={1:top_uv,(5 if direction==1 else 3):fold_uv})
     p += [(x1,z0+1.9-.22)]
-    prism_xz(c,name+'_ClosedFlight',p,y,Y,'M03',properties={'rises':12,'visible_treads':11,'tread_depth_m':.3,'slab_underface':'solid sloped closed profile'})
+    def step_origin(a,b):
+        if max(a[1],b[1])<=z0 or (abs(a[1]-b[1])>.001 and abs(a[0]-b[0])>.001):
+            return 0,0
+        tread_index=round((max(a[1],b[1])-z0)/RISE)-1
+        return TREAD_ORIGINS[name][tread_index] if 0<=tread_index<11 else (0,0)
+    prism_xz(c,name+'_ClosedFlight',p,y,Y,'M03',side_origin=step_origin,properties={'rises':12,'visible_treads':11,'tread_depth_m':.3,'slab_underface':'solid sloped closed profile'})
 flight('Lower',-.9,.9,0,1);flight('Upper',1.1,2.9,1.9,-1)
 for name,b in [('EntryLanding',(-3.45,X0,-.9,.9,-.2,0)),('TurnLanding',(X1,3.45,-.9,2.9,1.70,1.90)),('FloorLanding',(-3.45,X0,1.1,2.9,3.60,3.80))]:box(c,name,b,'M03')
 

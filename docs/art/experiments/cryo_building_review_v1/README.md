@@ -23,6 +23,8 @@ Pixel Canals 用来校准像素颗粒、连贯块面与细节完成度。15 张�
 
 ## 技术结论与待决项
 
+楼梯按低使用频率做旧。踏步与立板错开取样现有 M03 原图，保留细颗粒与少量孤立色差。M10 踏鼻沿长轴使用原生像素，消除了横向重复的亮块。两处仍按 80 原生像素／米映射。[原同机位](https://github.com/Glandy-T/echoes-of-ruin/blob/f0f6c6e7693c93434ccc0580cc9a4a647d8690e3/docs/art/experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png) · [修订后同机位](evidence/godot/hr-a_rail.png)
+
 - HR 两款成品可以比较握轨和护栏；约 1.62 m 的实测净宽小于工程 1.80 m，选款不等于可安装。
 - FD、EN 的独立样段实测闭合阻挡与开扇后中心通行。冻结的楼梯平台上还须检查整扇扫掠和有效宽度。
 - EL 以闭合停运交付。警示可穿过、实际门挡住角色；调用件无运行发光，无认证或电梯运行逻辑。
