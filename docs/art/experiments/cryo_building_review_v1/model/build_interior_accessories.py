@@ -16,6 +16,8 @@ bpy.context.preferences.filepaths.save_version=0
 PX=80
 SIZE={'M01':(728,232),'M02':(256,192),'M03':(192,256),'M04':(256,64),'M05-L':(256,256),'M05-D':(256,256),'M06':(256,256),'M07':(256,256),'M08':(4,184),'M09':(256,5),'M10':(192,16)}
 COLORS={'M01':'d3d6c9','M02':'5a6c73','M03':'7c8380','M04':'737f81','M05-L':'a7b0aa','M05-D':'4d6065','M06':'b9bdb2','M07':'71858a','M08':'263b3e','M09':'8f9d99','M10':'4e5b5b'}
+SIZE.update({'M01_STAIR':(256,256),'M03_STAIR':(256,256)})
+COLORS.update({'M01_STAIR':'b9bdb2','M03_STAIR':'7c8380'})
 def srgb(c): return c/12.92 if c<=.04045 else ((c+.055)/1.055)**2.4
 def mat(n,c):
     m=bpy.data.materials.new(n);m.use_nodes=True; rgb=tuple(srgb(int(c[i:i+2],16)/255) for i in (0,2,4));m.diffuse_color=(*rgb,1)
@@ -99,13 +101,18 @@ def export(c,n):
 
 RISE=1.9/12; X0=-1.65; X1=1.65
 c=group('ST-01')
-# Select native regions of the same mineral map. Origins are in Blender UV pixel
-# coordinates, measured up from the lower left. Keep minor variation without an
-# aligned blue band or a polished-looking traffic lane.
-TREAD_ORIGINS={
-    'Lower':[(12,96),(50,88),(24,110),(107,98),(58,80),(117,12),(17,72),(49,96),(34,16),(110,37),(55,107)],
-    'Upper':[(53,104),(23,85),(114,102),(34,22),(59,90),(13,107),(109,78),(50,65),(19,98),(120,7),(57,97)],
-}
+def stair_wall_foot(name,x,X,y,z,facing):
+    # Use the authored lower protection strip only where the deck meets the wall.
+    # One band is five native pixels high. The rest of the wall uses fine mineral grain.
+    ya,yb=sorted((y,y+.004*facing))
+    width,height=SIZE['M01']
+    def foot_uv(q):
+        return ((q.x+3.45)*PX/width,1-(224-(q.z-z)*PX)/height)
+    def top_uv(q):
+        return ((q.x+3.45)*PX/width,1-(219+abs(q.y-y)*PX)/height)
+    wall_face=4 if facing==1 else 2
+    return box(c,name,(x,X,ya,yb,z,z+5/PX),'M01',face_uv={wall_face:foot_uv,1:top_uv})
+
 def flight(name,y,Y,z0,direction):
     x0,x1=(X0,X1) if direction==1 else (X1,X0)
     p=[(x0,z0-.22),(x0,z0)]
@@ -121,22 +128,25 @@ def flight(name,y,Y,z0,direction):
             return ((strip_start+(q.y-y)*PX)/strip_width,1-(11+(Z-q.z)*PX)/strip_height)
         u,U=sorted((x,x+.045*direction));box(c,f'{name}_NosingTop_{i+1:02}',(u,U,y,Y,Z-.001,Z+.0007),'M10',face_uv={1:top_uv})
         u,U=sorted((x-.0015*direction,x));box(c,f'{name}_NosingFold_{i+1:02}',(u,U,y,Y,Z-.010,Z+.0007),'M10',face_uv={1:top_uv,(5 if direction==1 else 3):fold_uv})
+        x_left,x_right=sorted((x,x+.30*direction))
+        wall_name='L01_ZONE_LOWER' if direction==1 else 'L01_ZONE_UPPER'
+        stair_wall_foot(f'{wall_name}_Foot_{i+1:02}',x_left,x_right,y if direction==1 else Y,Z,direction)
     p += [(x1,z0+1.9-.22)]
     def step_origin(a,b):
         if max(a[1],b[1])<=z0 or (abs(a[1]-b[1])>.001 and abs(a[0]-b[0])>.001):
             return 0,0
         tread_index=round((max(a[1],b[1])-z0)/RISE)-1
-        return TREAD_ORIGINS[name][tread_index] if 0<=tread_index<11 else (0,0)
-    prism_xz(c,name+'_ClosedFlight',p,y,Y,'M03',side_origin=step_origin,properties={'rises':12,'visible_treads':11,'tread_depth_m':.3,'slab_underface':'solid sloped closed profile'})
+        return (24*tread_index,53 if direction==1 else 125) if 0<=tread_index<11 else (0,0)
+    prism_xz(c,name+'_ClosedFlight',p,y,Y,'M03_STAIR',side_origin=step_origin,properties={'rises':12,'visible_treads':11,'tread_depth_m':.3,'slab_underface':'solid sloped closed profile'})
 flight('Lower',-.9,.9,0,1);flight('Upper',1.1,2.9,1.9,-1)
-for name,b in [('EntryLanding',(-3.45,X0,-.9,.9,-.2,0)),('TurnLanding',(X1,3.45,-.9,2.9,1.70,1.90)),('FloorLanding',(-3.45,X0,1.1,2.9,3.60,3.80))]:box(c,name,b,'M03')
+for name,b in [('EntryLanding',(-3.45,X0,-.9,.9,-.2,0)),('TurnLanding',(X1,3.45,-.9,2.9,1.70,1.90)),('FloorLanding',(-3.45,X0,1.1,2.9,3.60,3.80))]:box(c,name,b,'M03_STAIR')
 
 def lighting_segment(name,x,X,y,z,Z,facing):
     # 40mm slot on sloped face. 20mm groove depth and 15mm cap lip.
     sign=1 if facing==1 else -1; back=y-.020*sign; outer=y-.19*sign; a,b=sorted((outer,back));c0,c1=sorted((back,y))
-    box(c,name+'_Backing',(x,X,a,b,min(z,Z)-1.4,max(z,Z)+2.2),'M01')
-    prism_xz(c,name+'_WallLower',[(x,min(z,Z)-1.4),(X,min(z,Z)-1.4),(X,Z-.020),(x,z-.020)],c0,c1,'M01')
-    prism_xz(c,name+'_WallUpper',[(x,z+.020),(X,Z+.020),(X,max(z,Z)+2.2),(x,max(z,Z)+2.2)],c0,c1,'M01')
+    box(c,name+'_Backing',(x,X,a,b,min(z,Z)-1.4,max(z,Z)+2.2),'M01_STAIR')
+    prism_xz(c,name+'_WallLower',[(x,min(z,Z)-1.4),(X,min(z,Z)-1.4),(X,Z-.020),(x,z-.020)],c0,c1,'M01_STAIR')
+    prism_xz(c,name+'_WallUpper',[(x,z+.020),(X,Z+.020),(X,max(z,Z)+2.2),(x,max(z,Z)+2.2)],c0,c1,'M01_STAIR')
     ya,yb=sorted((y-.017*sign,y-.012*sign))
     glass=prism_xz(c,name,[(x,z-.020),(X,Z-.020),(X,Z+.020),(x,z+.020)],ya,yb,'M09',properties={'width_m':.04,'groove_depth_m':.02,'diffuser_aim_down_degrees':15})
     for vert in glass.data.vertices:
@@ -148,30 +158,65 @@ def lighting_segment(name,x,X,y,z,Z,facing):
 # Upper and lower run strips lie on their real outer walls, not the same wall.
 lighting_segment('L01_ZONE_LOWER',X0,X1,-.90,1.10,1.10+1.9,1)
 lighting_segment('L01_ZONE_TURN',X1,3.45,-.90,3.00,3.00,1)
+stair_wall_foot('L01_ZONE_TURN_Foot',X1,3.45,-.90,1.9,1)
 back_start=set(c.objects)
 lighting_segment('L01_TURN_BACK',-.90,2.90,0.,3.00,3.00,1)
+stair_wall_foot('L01_TURN_BACK_Foot',-.90,2.90,0.,1.9,1)
 for o in set(c.objects)-back_start:
     for vert in o.data.vertices:
         x,y,z=vert.co;vert.co=(3.45-y,x,z)
 lighting_segment('L01_TURN_UPPER_RETURN',X1,3.45,2.90,3.00,3.00,-1)
+stair_wall_foot('L01_TURN_UPPER_RETURN_Foot',X1,3.45,2.90,1.9,-1)
 lighting_segment('L01_ZONE_UPPER',X0,X1,2.90,4.90,3.00,-1)
 lighting_segment('L01_ZONE_FLOOR',-3.45,X0,2.90,4.90,4.90,-1)
-box(c,'EntryWall',(-3.45,X0,-1.09,-.90,-.2,3.0),'M01')
+stair_wall_foot('L01_ZONE_FLOOR_Foot',-3.45,X0,2.90,3.8,-1)
+box(c,'EntryWall',(-3.45,X0,-1.09,-.90,-.2,3.0),'M01_STAIR')
+stair_wall_foot('EntryWall_Foot',-3.45,X0,-.90,0,1)
 export(c,'ST-01_stair_sample')
 
 def run_pickets(c,name,x,X,y,z,Z,kind):
-    length=abs(X-x);count=math.ceil(length/1.10)
-    for i in range(count+1):
-        t=i/count;u=x+(X-x)*t;v=z+(Z-z)*t
-        box(c,f'{name}_Post_{i:02}',(u-.0175,u+.0175,y-.0175,y+.0175,v,v+1.10),'M04' if kind=='A' else 'M05-D')
+    length=X-x
+    ascending=Z>z
+    def slope(u):
+        return z+(Z-z)*(u-x)/length
+    def tread(u):
+        run=(u-x) if ascending else (X-u)
+        index=min(10,max(0,math.floor((run+1e-6)/.30)))
+        return min(z,Z)+(index+1)*RISE
+
+    # Put structural posts at tread centers. A lower tube carries the smaller
+    # pickets, so their ends meet real hardware rather than the abstract slope.
+    material='M04' if kind=='A' else 'M05-D'
+    inside_y=y+(-.071 if ascending else .071)
+    for i,step in enumerate((0,3,6,9,10)):
+        u=x+(step+.5)*.30
+        base=tread(u)
+        top=slope(u)+1.10
+        post_y=y if kind=='A' else y+(.012 if ascending else -.012)
+        box(c,f'{name}_Post_{i:02}',(u-.0175,u+.0175,post_y-.0175,post_y+.0175,base,top),material)
+        box(c,f'{name}_Foot_{i:02}',(u-.031,u+.031,post_y-.028,post_y+.028,base-.002,base+.009),material)
+        bracket_y=sorted((post_y,inside_y))
+        grip_z=slope(u)+.90
+        box(c,f'{name}_GripBracket_{i:02}',(u-.013,u+.013,*bracket_y,grip_z-.013,grip_z+.004),'M04')
     if kind=='A':
+        tube(c,f'{name}_LowerRail',[(x,y,z+.195),(X,y,Z+.195)],.014)
         for i in range(1,round(length/.10)):
-            t=(i*.10)/length;u=x+(X-x)*t;v=z+(Z-z)*t
-            tube(c,f'{name}_Picket_{i:02}',[(u,y,v+.025),(u,y,v+1.075)],.006)
+            u=x+i*.10
+            v=slope(u)
+            tube(c,f'{name}_Picket_{i:02}',[(u,y,v+.195),(u,y,v+1.10)],.006)
     else:
-        for i in range(count):
-            a=i/count;b=(i+1)/count;xa=x+(X-x)*a;xb=x+(X-x)*b;za=z+(Z-z)*a;zb=z+(Z-z)*b
-            prism_xz(c,f'{name}_FoldedGuard_{i:02}',[(xa,za+.02),(xb,zb+.02),(xb,zb+1.1),(xa,za+1.1)],y-.0015,y+.0015,'M05-D')
+        cuts=[x+j*.30 for j in range(1,11)]
+        for i in range(3):
+            xa=x+i*length/3
+            xb=x+(i+1)*length/3
+            edges=[xa,*(cut for cut in cuts if xa<cut<xb),xb]
+            bottom=[]
+            for a,b in zip(edges,edges[1:]):
+                level=tread((a+b)/2)+.020
+                bottom.extend(((a,level),(b,level)))
+            za,zb=slope(xa),slope(xb)
+            profile=bottom+[(xb,zb+1.10),(xa,za+1.10)]
+            prism_xz(c,f'{name}_FoldedGuard_{i:02}',profile,y-.0015,y+.0015,'M05-D')
             prism_xz(c,f'{name}_Return_{i:02}',[(xa,za+1.097),(xb,zb+1.097),(xb,zb+1.10),(xa,za+1.10)],y-.015,y+.015,'M05-D')
 
 for variant in ('A','B'):
@@ -179,6 +224,11 @@ for variant in ('A','B'):
     # Both shared wall grips extend along full flights; ends return to walls.
     exterior=[(-3.10,-.90,.90),(-3.10,-.829,.90),(X0,-.829,.90),(X1,-.829,2.80),(3.37,-.829,2.8),(3.37,2.829,2.8),(X1,2.829,2.8),(X0,2.829,4.7),(-3.1,2.829,4.7),(-3.1,2.90,4.7)]
     tube(c,f'HR-{variant}_WallGrip',smooth_corners(exterior))
+    for i,u in enumerate((-1.35,-.45,.45,1.35)):
+        rise=(u-X0)/(X1-X0)*1.9
+        for side,wall_y,grip_y,h in [('Lower',-.90,-.829,.90+rise),('Upper',2.90,2.829,4.70-rise)]:
+            a,b=sorted((wall_y,grip_y))
+            box(c,f'HR-{variant}_{side}_WallBracket_{i:02}',(u-.014,u+.014,a,b,h-.017,h+.003),'M04')
     inside=[(X0,.829,.9),(X1,.829,2.8),(X1+.14,.9,2.8),(X1+.14,1.1,2.8),(X1,1.171,2.8),(X0,1.171,4.7)]
     tube(c,f'HR-{variant}_InnerGrip',smooth_corners(inside,.055),.021 if variant=='A' else .020,.021 if variant=='A' else .016)
     for side,y,z,Z in [('Lower',.90,0,1.9),('Upper',1.10,3.8,1.9)]:

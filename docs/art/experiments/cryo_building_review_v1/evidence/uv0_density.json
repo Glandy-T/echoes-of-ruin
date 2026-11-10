@@ -614,12 +614,12 @@
           256,
           64
         ],
-        "edge_samples": 4720,
+        "edge_samples": 5468,
         "median_texels_per_m": 80.0,
-        "within_1pct_percent": 66.69,
+        "within_1pct_percent": 71.25,
         "min": 57.09,
         "max": 102.65,
-        "edges_under_25mm_excluded": 6854
+        "edges_under_25mm_excluded": 7210
       }
     },
     "HR-B": {
@@ -628,24 +628,24 @@
           256,
           64
         ],
-        "edge_samples": 1760,
+        "edge_samples": 2156,
         "median_texels_per_m": 80.0,
-        "within_1pct_percent": 30.17,
+        "within_1pct_percent": 43.0,
         "min": 63.98,
         "max": 102.65,
-        "edges_under_25mm_excluded": 2044
+        "edges_under_25mm_excluded": 2188
       },
       "M05-D": {
         "size_px": [
           256,
           256
         ],
-        "edge_samples": 504,
+        "edge_samples": 1064,
         "median_texels_per_m": 80.0,
         "within_1pct_percent": 100.0,
         "min": 80.0,
         "max": 80.0,
-        "edges_under_25mm_excluded": 96
+        "edges_under_25mm_excluded": 256
       }
     },
     "K-01_accessories": {
@@ -680,6 +680,18 @@
           728,
           232
         ],
+        "edge_samples": 594,
+        "median_texels_per_m": 80.0,
+        "within_1pct_percent": 100.0,
+        "min": 80.0,
+        "max": 80.0,
+        "edges_under_25mm_excluded": 216
+      },
+      "M01_STAIR": {
+        "size_px": [
+          256,
+          256
+        ],
         "edge_samples": 474,
         "median_texels_per_m": 80.0,
         "within_1pct_percent": 100.0,
@@ -687,9 +699,9 @@
         "max": 80.0,
         "edges_under_25mm_excluded": 96
       },
-      "M03": {
+      "M03_STAIR": {
         "size_px": [
-          192,
+          256,
           256
         ],
         "edge_samples": 528,

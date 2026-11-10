@@ -11,7 +11,8 @@ base=Path(__file__).resolve().parent.parent
 root=base.parents[3]
 art=root/'assets/art/cryo_building_review_v1'
 sizes={p.stem:Image.open(p).size for p in (art/'textures').glob('*.png')}
-sizes.update({'M06':sizes['M06-01'],'M06-BASE':sizes['M06-02']})
+sizes.update({'M06':sizes['M06-01'],'M06-BASE':sizes['M06-02'],
+              'M01_STAIR':sizes['M06-01'],'M03_STAIR':sizes['M06-03']})
 
 def read_model(path):
     data=path.read_bytes()
@@ -63,7 +64,7 @@ def read_model(path):
     return records
 
 report={p.stem:read_model(p) for p in sorted((art/'models').glob('*.glb'))}
-primary={'M01','M02','M03','M05-L','M05-D','M06-01','M06-02','M06-03','M06-BASE','M06-J','M06-R','M07'}
+primary={'M01','M01_STAIR','M02','M03','M03_STAIR','M05-L','M05-D','M06-01','M06-02','M06-03','M06-BASE','M06-J','M06-R','M07'}
 for model, mats in report.items():
     for name, m in mats.items():
         if name in primary or name.startswith('FACE_'):

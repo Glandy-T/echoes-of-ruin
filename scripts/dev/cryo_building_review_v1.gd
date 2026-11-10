@@ -6,6 +6,7 @@ const VIEW := Vector2i(1280,720)
 const IDS := ["HR-A","HR-B","FD-A","FD-B","EL-A","EL-B","EN-A","EN-B","FA-A","FA-B"]
 const WAYPOINTS := [Vector3(-3.60,0,0),Vector3(-1.65,0,0),Vector3(1.65,1.90,0),Vector3(2.62,1.90,0),Vector3(2.62,1.90,-2),Vector3(1.65,1.90,-2),Vector3(-1.65,3.80,-2),Vector3(-3.25,3.80,-2)]
 const COLOR := {"M01":"d3d6c9","M02":"5a6c73","M03":"7c8380","M04":"737f81","M05-L":"a7b0aa","M05-D":"4d6065","M06":"b9bdb2","M07":"71858a","M08":"263b3e","M09":"8f9d99","M10":"4e5b5b"}
+const STAIR_MINERAL_SOURCES := {"M01_STAIR":"M06-01","M03_STAIR":"M06-03"}
 var stage: Node3D
 var camera: Camera3D
 var world: Environment
@@ -77,6 +78,7 @@ func mat(name: String, distant := false) -> StandardMaterial3D:
 	if name=="M04": m.metallic=.35; m.roughness=.75
 	if name=="M07": m.roughness=.8
 	var tex_name := "M06-01" if name=="M06" else "M06-02" if name=="M06-BASE" else name
+	tex_name=STAIR_MINERAL_SOURCES.get(name,tex_name)
 	var tex := _png(tex_name)
 	m.texture_filter=BaseMaterial3D.TEXTURE_FILTER_NEAREST_WITH_MIPMAPS if distant else BaseMaterial3D.TEXTURE_FILTER_NEAREST
 	m.texture_repeat=name!="M06-R" and not name.begins_with("FACE_")
@@ -84,6 +86,7 @@ func mat(name: String, distant := false) -> StandardMaterial3D:
 		m.albedo_texture=tex
 		if name=="M06-BASE":m.albedo_color=Color("b8c0bc")
 		if name=="M08":m.albedo_color=Color("596a6d")
+		if name=="M03_STAIR":m.albedo_color=Color("b4bac0")
 	else:
 		missing[tex_name]=true
 		var base := name if COLOR.has(name) else "M06" if name.begins_with("M06") else "M05-D" if name.begins_with("FACE_EL") or name=="FACE_EN_B" else "M05-L"

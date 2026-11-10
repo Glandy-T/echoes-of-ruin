@@ -23,7 +23,9 @@ Pixel Canals 用来校准像素颗粒、连贯块面与细节完成度。15 张�
 
 ## 技术结论与待决项
 
-楼梯按低使用频率做旧。踏步与立板错开取样现有 M03 原图，保留细颗粒与少量孤立色差。M10 踏鼻沿长轴使用原生像素，消除了横向重复的亮块。两处仍按 80 原生像素／米映射。[原同机位](https://github.com/Glandy-T/echoes-of-ruin/blob/f0f6c6e7693c93434ccc0580cc9a4a647d8690e3/docs/art/experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png) · [修订后同机位](evidence/godot/hr-a_rail.png)
+楼梯按低使用频率做旧。大面复用既有 PixelLab 细矿物颗粒，墙身取 M06-01，踏面和平台取 M06-03 并调至 M03 的灰色系。原 M01 的墙脚像素只用于实际接地的收边，随踏步和平台转折。M10 踏鼻沿长轴取样。贴图仍按 80 原生像素／米映射。[原同机位](https://github.com/Glandy-T/echoes-of-ruin/blob/f9a3746c218853eec56d33c441afb6cdc2148acb/docs/art/experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png) · [修订后同机位](evidence/godot/hr-a_rail.png)
+
+两款扶手的立柱落在实际踏步上，墙侧握轨有支座。A 款细杆接在上下横轨之间，B 款折板下口沿踏步轮廓留缝。两款沿用原握轨中心线，净宽限制见下。
 
 - HR 两款成品可以比较握轨和护栏；约 1.62 m 的实测净宽小于工程 1.80 m，选款不等于可安装。
 - FD、EN 的独立样段实测闭合阻挡与开扇后中心通行。冻结的楼梯平台上还须检查整扇扫掠和有效宽度。
