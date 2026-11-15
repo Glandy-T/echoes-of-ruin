@@ -26,8 +26,9 @@
 - 审图用独立实时光。已在 Godot 4.6.2 核对同机位画面与楼梯灯光演示，并比对导出模型的贴图密度、握轨坐标和立柱落脚高度。技术核对完成，视觉选择和正式安装仍待定。[审图说明及验证记录](experiments/cryo_building_review_v1/README.md)
 - 正式 Room 1、F5 与旧 4F 路线继续沿用各自入口。要看 4F，用 `scenes/dev/cryo_4f_camera_compare_v6.tscn` 按 F6，再按 F8 去走廊。要恢复主角，先读身体和白袍的各自验收状态。[4F v6 审图](experiments/cryo_4f_camera_compare_v6/preview.html) · [身体 v2](experiments/protagonist_tripo_body_v2/preview.html) · [白袍检查](experiments/protagonist_tripo_robe_h31_v1/preview.html)
 - 学校机上次使用的 Godot 路径为 `E:/卒業制作/GODOT/Godot_v4.6.2-stable_win64_console.exe`。学校当前安装和项目路径到校后再核对。早期的 4F 操作表、主角诊断和学校工具路径仍可从[11 月 7 日交接归档](https://github.com/Glandy-T/echoes-of-ruin/blob/eea90b0cfa3c2fe82ec1778618f7feedc26ad30f/docs/art/ROOM1_NEXT_SCHOOL_HANDOFF.md)查到。上一版楼梯可从 [`f9a3746` 同机位](https://github.com/Glandy-T/echoes-of-ruin/blob/f9a3746c218853eec56d33c441afb6cdc2148acb/docs/art/experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png)回看。
-- 家中有五项交接范围之外的本机差异。学校同步得到的是 GitHub 版本，尤其是 FA-A 应按已发布的候选比较。
-  - 已改 `assets/art/cryo_building_review_v1/models/FA-A_complete_envelope.glb` 与 `project.godot`。
+- 11 月 15 日接手时，家中有八项本机差异。同步得到的是 GitHub 已发布版本，立面审图也按已发布的候选比较。
+  - 已改 `assets/art/cryo_building_review_v1/models/` 下的 `EXTERIOR_K01_common.glb`、`FA-A_complete_envelope.glb`、`FA-B_complete_envelope.glb`。
+  - 已改 `docs/art/experiments/cryo_building_review_v1/model/facade_assembly_v1.blend` 与 `project.godot`。
   - 未跟踪 `ASSET_CREDITS.md`、`assets/art/room1_integrated_door_v3/room1_integrated_door_v3_door_front.png` 与 `assets/art/room1_open_hero_bake_r1/strip_irradiance.exr`。
 
 给学校 Codex 的简短开场
