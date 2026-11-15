@@ -1,0 +1,1461 @@
+{
+  "baseline": "docs/art/experiments/cryo_handrail_full_v1/model/handrail_full_v1.blend",
+  "geometry_hash_before_after_equal": true,
+  "geometry_sha256": {
+    "C_Guard_LowerAndReturn": "c7599f78a71371d34706809db12b07ff8bc518d00e3c7f07e32a535f7ccaab25",
+    "C_Guard_UpperAndFloor": "7be88b00e1e356ddd6a6a9efcb5c5f6f543d42bc40e9f907eeb98196b6e82b75",
+    "EntryLanding": "d39010214fb1b009a311947b6cfb0bf1cfc97588314943d4c9ead59cf8058fd3",
+    "FloorLanding": "82e382bf242ca926bf8ead04b1ecdbfe81b7df681b97f194142b128ef77fb710",
+    "L01_TURN_BACK": "762aca30de00b3db2c45abe706b2e56f59f5950866f0567d2739794a583bf3c7",
+    "L01_TURN_BACK_Lip": "7ea2ee40c7348ae368b4a7a49a2321007698ef14798ba5d3412a9de6964f9192",
+    "L01_TURN_UPPER_RETURN": "cefe66de22dd6e80c4ed6176eea1a0c001629bff96e60543effbea085f2bf103",
+    "L01_TURN_UPPER_RETURN_Lip": "aaa4e11a3a8543801745434bf9071831b29bc85c0a10ae83091ebe425294c9c5",
+    "L01_ZONE_FLOOR": "1a3dcbd02720218453fa76969d68246dd26dcc7c7d4ea66797a016c39e47e1ca",
+    "L01_ZONE_FLOOR_Lip": "b7b6cb0306e31d1e43a08321f2f58dc8b146d36db4f7fd74ec81d823b0069800",
+    "L01_ZONE_LOWER": "f3170c42d0d21790e5aca2399c7d901976f0919fd2b746c5766fa57f8eb82e6e",
+    "L01_ZONE_LOWER_Lip": "46bd97611085c6e15f1b2084e42f1bbd0724f43577025802085727731bc4c2ab",
+    "L01_ZONE_TURN": "654356a39d2da3d43bd2f5ee56414301f999e892f75bd85fc25fb814e9cbcdd8",
+    "L01_ZONE_TURN_Lip": "b961aa5e8fac4e56eb75fd3c838c025ee296ae7d807ba72345623e7ddbb380d8",
+    "L01_ZONE_UPPER": "a955bd7d36574a28c3a595d6de94b2e56f4ae5156c7a794a77450ea5ddadc72c",
+    "L01_ZONE_UPPER_Lip": "d41ad6239415dc58dc0fcf9880335efa8bc592381f54032d7c71b14aaee03123",
+    "Lower_ClosedFlight": "b07df5a40bc359375fb63b35cb732e92ac24358fff083cae55cb4e54d671c725",
+    "Lower_NosingFold_01": "82d3803950446a97e7d32590bf1aa1fcf990db0d9386ea2d09a24d7546e3a14e",
+    "Lower_NosingFold_02": "39065c80b65d649a1e84841445e7a5eaeea253d7a5cf9060bca3972e07620c24",
+    "Lower_NosingFold_03": "3fa908f26ffd0989ca8ee21b6c0ff28bbefde2f8777da62386664c90ba068b0f",
+    "Lower_NosingFold_04": "b663ed90ff4eacec73018c7f6bc97f0d1e7f7db2c4554417dbea5e73014da281",
+    "Lower_NosingFold_05": "6e0ce8ef60f525b7bf01e5bc49bee98fe957d58b3dc2ea6168da718515d3009e",
+    "Lower_NosingFold_06": "65e1f921f0798fa0c503194ec214d5eae4ed14dca940926f34058db0fed8bc2a",
+    "Lower_NosingFold_07": "1beb2a14c6380280cb88c7dd2e3b35c4ace9e39ee791b5feb85f6414b8794a24",
+    "Lower_NosingFold_08": "83d03322afc7a245ef1a82719f555ede60c659395ac89804647a6559e8acaf96",
+    "Lower_NosingFold_09": "6ec3a0521eea7ed3c8b99d8c3843b7d88dd2b8a981124e6f80350aa0f5d9b29c",
+    "Lower_NosingFold_10": "538f052e7adee80364272dee7268dc54210a79180f5309182957a15bf9562e0d",
+    "Lower_NosingFold_11": "c94a43754ab4c120e4df2658146fc7d52dd6c7f79bc59610a8e99c4bd9e15803",
+    "Lower_NosingTop_01": "86c47f3de29d5f4764156498eee2b2fefbc5b5f613b89a6d58217ae64abcaf58",
+    "Lower_NosingTop_02": "67e958b1d6cfd082a81bdd2ec26e308fa98a60ed72645323dc34367c39a62c85",
+    "Lower_NosingTop_03": "f3546aadf79ba41b9c018a46a6726dfced55f630e9f4772c7046cd376acf41a1",
+    "Lower_NosingTop_04": "5cfe7fa595bb74be6a2263653afcbe3e70c12c98434765f6b735bbdd73a08e91",
+    "Lower_NosingTop_05": "ca8cbeef71facc9834cfd324a4f225e9b0ffda505511a19edbddd0ccd0196907",
+    "Lower_NosingTop_06": "00c52e27576eb6a620626369376dd20909c2642a348c07ce72e8e166363177d7",
+    "Lower_NosingTop_07": "7e19150bff16d23661002ad5a6bdd8307015328de771193a61f6530d4dd25cb1",
+    "Lower_NosingTop_08": "2d842dde537911b92d7609d364cbc959d58c3948e39f3ac43485d63e2c2c5759",
+    "Lower_NosingTop_09": "59030cd88136b5153ad8edb96e3b72c42051ebfa25c85b7896ddd668f53b401d",
+    "Lower_NosingTop_10": "9eba21fedfdcf6729c81acf497cdbe70534a5e0640d00fbc0af714f4e652bf04",
+    "Lower_NosingTop_11": "09292059cd9f9e0cd714c8435f0f59749e93d7cfca1c8fe8576308c9e8d79ce4",
+    "TurnLanding": "4ae6aa396fe2a14b9653a610268b7fdcbabde6a5bfa6738f0c6758fdf747a4e9",
+    "Upper_ClosedFlight": "d99fa31a4afdbcb1879c49a7627e6cbdf024102fd791d1af8da231635d7d4323",
+    "Upper_NosingFold_01": "03deecccd849444cfda295cf094316d45ddb0024b0f48fb21a670964a4957986",
+    "Upper_NosingFold_02": "da27e178f6a1c66d94d7332d72e644e748c74b941239a311b34bbba6269cf93c",
+    "Upper_NosingFold_03": "af8023fb5a9dda18d0957435543f9fe08ab07686ac313545c06f201a2b8fa0d1",
+    "Upper_NosingFold_04": "0fe9a15617c696856cf178a38a683a7a97648beaa1c32904a59f3373655e78d4",
+    "Upper_NosingFold_05": "d23b1d799c3d2d6babe116a14f848f83b304a66b130ba1a6048ee351e24415e6",
+    "Upper_NosingFold_06": "cb9b7b2a36e13ba8b3df3e5ec9be3eae736e042dde36ba109aa7d1e8b289ba7b",
+    "Upper_NosingFold_07": "a22ed75ea33ccfc6c3ee92d9ef3bca98c5654da83b70e28c1a7e42479ed46174",
+    "Upper_NosingFold_08": "05d48bb60f4524036f300dbe3c5d396fefcb9e90523dd3c29b35bb7fe168aefd",
+    "Upper_NosingFold_09": "2ee1d2298c6a3ecea02f8361cde6942aebba6332b622d3eb628ff0abf85c8a8c",
+    "Upper_NosingFold_10": "f40f98d9e634eee4d5c19f93552ea2a57490ea8d3dbd855db53576e1859431f4",
+    "Upper_NosingFold_11": "69cf765272ec614323fe22460c594dcd9b9c17857ecf014acef2c75b1c261e90",
+    "Upper_NosingTop_01": "ac7a17f2d00cf3a38b32c8368527ad247f24904013d9206b2954b9a3aaa29986",
+    "Upper_NosingTop_02": "d0ed32673d538a2692cb1343251aae37c145eb158138925478439dd38920b932",
+    "Upper_NosingTop_03": "72f0fc7a69e9798213fce430c62a670a8a8c1bf16813b81dcf08dc9ab6e0888b",
+    "Upper_NosingTop_04": "4671a809f3c5e52ffb537f6d3fe81bacba617d072cd495634f3ffdccd59b7ce2",
+    "Upper_NosingTop_05": "48bb2efe54c8816f3c3974f9a45f8e200c4830a0e973f80fead2ee360bc1768c",
+    "Upper_NosingTop_06": "83c016108bf364612f13d98665783841678e1a521852b490640b118258da1f1b",
+    "Upper_NosingTop_07": "7c9dea1be7e86217d923e0264f366807bd16f27c8b99f1386ddc52e60bbe4a4e",
+    "Upper_NosingTop_08": "a12d20aedb8d9d8b01fd758961202dde732d8b47161a2d6d157ac395502ad1f2",
+    "Upper_NosingTop_09": "35b1fc88e2040662e1532f262b18911dec427eeab7b71164c5744273fdcdcc54",
+    "Upper_NosingTop_10": "ee26a30e08b887a833a640543f0c2c5e3e1705a804d1ae417631aa5badca4456",
+    "Upper_NosingTop_11": "e290653f327551ba44cec79be144722813358682d6610f36c6082b43e9b61345",
+    "Wall_Lower_Entry_Base": "cc9cfad12444e90e8e4359fa1f6757dbb3b60771ae6b04eb7b8253716813966c",
+    "Wall_Lower_Entry_FootBand": "098f6683a7b97fcad282eb1cf34edca6b3de1cbf2cfb8471e6b1f62ea91ed222",
+    "Wall_Lower_Entry_Grip_Back": "53cd73d18d57f502cb57ff24de9af544c31c1448c0d438fd5e596e7eef361dfc",
+    "Wall_Lower_Entry_Grip_LowerLip": "77e38ac591f0db6307be59f48b2403c56d3cc379802722a1553bc6a4a4972f5b",
+    "Wall_Lower_Entry_Grip_UpperLip": "d3e84fea91e941905e796b1c6c56ee9e88d8602dbcf021d0a1947787af684be7",
+    "Wall_Lower_Entry_Upper": "4e12feb0a1d943a207636697817d7c71795d61fe7f171460438f5a544bcd9450",
+    "Wall_Lower_Run_Base": "74a5adefe43f8dc87d766988c907b27f1506f659350c196cfeb73fdb75afb947",
+    "Wall_Lower_Run_FootBand": "ad87db86a81b373a333ba2f91411b4efa0456766a21785a8070f453e07cb96ca",
+    "Wall_Lower_Run_Grip_Back": "3b1cd96abac2f966a5e09f5dba618b59909d587d6796706a7a94f5585cfcd315",
+    "Wall_Lower_Run_Grip_LowerLip": "c26945a5c8145e8e9bd95486b765889c29cffb319a117bc7a537f8819c03fe0b",
+    "Wall_Lower_Run_Grip_UpperLip": "56c099208094012c9ba4a19a867a2923dadf0556f11f7a4c84b900a951e858d3",
+    "Wall_Lower_Run_Middle": "bb9c9e7c60af4bc6aa8edc5df19d04a2a9f13eb4981bba24f7ea405724702a35",
+    "Wall_Lower_Run_Upper": "06ca5225c65b7bdc3947f5024dd54ad9327178313c115259c4515b0eedcbf253",
+    "Wall_Turn_FootBand": "da613f12780fbd5ceee9776accb8800ac5bf8d720d9198f7b7a80647414c5f75",
+    "Wall_Turn_GripBack": "1a10348939b01563d7f610e89b6c1e65851c9783a4e585beeff5d4fb339131c4",
+    "Wall_Turn_GripLowerLip": "5d2a22c84b0fb967899d1ede4ec34f81934e1da87e721bf9af779ae038ac4bf4",
+    "Wall_Turn_GripUpperLip": "afc6806c4788091401708e71094055a1c5bbd9408dcd0199f930374cf577fe4b",
+    "Wall_Turn_Lower": "c2e91aa7d52d2049cd59eed2b7f02bf30646c6416ae014fb4d0e3992ab60e48a",
+    "Wall_Turn_LowerReturn_Base": "f809cac7ef95fd35cc3197dcc93b3837375dfb90295cdcbb074289fe68e59d37",
+    "Wall_Turn_LowerReturn_FootBand": "c51bcf15d5c38206d39815869a0438ac73b7889f25915f18ec0ae913e8fdf835",
+    "Wall_Turn_LowerReturn_Grip_Back": "d68cb3cb5f556c0e6ee50b40251f8fafd6ab17a77f477b45d5cc3d460ef69532",
+    "Wall_Turn_LowerReturn_Grip_LowerLip": "ab77303108a75d417fc5296eae3ce2b5e97fe8e4a8bb7847ac5886d1308abd44",
+    "Wall_Turn_LowerReturn_Grip_UpperLip": "c5dc8ec044fd87edf237c2605da4826e7ac0b5c17208c82846251d7de9dc6ceb",
+    "Wall_Turn_LowerReturn_Middle": "21d79a1c3ab4cd4de769c81a5dc191aaab3f07660874d061ddc4946243c7d66e",
+    "Wall_Turn_LowerReturn_Upper": "96c5d6b189839fbe30f2926ed48537e293d6e76767493cb31529657866260132",
+    "Wall_Turn_Middle": "efde0ff2649c407b2b69e694bdf7867ed14826e5fd53a96d9ddb62e7a0bf404a",
+    "Wall_Turn_Upper": "59d0f5d9098efa4d322be2e4c60169b36bfc5b663dd2f9b56d4579d16096d8c8",
+    "Wall_Turn_UpperReturn_Base": "d3f826abdd65e3564805ae32417568ae8e81dc95e5927a02b75c91814e777e2f",
+    "Wall_Turn_UpperReturn_FootBand": "9cba71d63baae6dd502d27071e25c433405bc8dd53aaa19feaf7f35039b5ccfc",
+    "Wall_Turn_UpperReturn_Grip_Back": "93f7f66623ac7d8997c7c22bbb2c2f9031073960ac6d2415a820504a1bf7003e",
+    "Wall_Turn_UpperReturn_Grip_LowerLip": "019ca1dc34b8c5038fc19815b716553255bdd089501fe54d5ac15498bf2c8c3d",
+    "Wall_Turn_UpperReturn_Grip_UpperLip": "3e31c376733ec56cdf29cc5617654d1e77d59f5e11691e41048ebdeaed5e71ce",
+    "Wall_Turn_UpperReturn_Middle": "002829a63ad72f664ef98e7fe91a4ad47b1d4735e917e00284c4433a979ae3b1",
+    "Wall_Turn_UpperReturn_Upper": "5c0f488d4c9e5c3387d78641621958b989d69be6e750dc45ad728857b3ebfd6c",
+    "Wall_Upper_Floor_Base": "afcff3687a2756b50c00b9b8b717508173627a03307062143148561dd0fc8300",
+    "Wall_Upper_Floor_FootBand": "0803d8de86dae5e4e40a50c09ea1b089fbce336d49aa1cf01f9efa9d322ca976",
+    "Wall_Upper_Floor_Grip_Back": "69f9bc76539d550aec519ee6bc84f2e7a6f2ae4b7e40d4913e686609b946859e",
+    "Wall_Upper_Floor_Grip_LowerLip": "e027f183d8d85398cf1f6e0c768caff20a770b3b8c2984245c809f8266c644b9",
+    "Wall_Upper_Floor_Grip_UpperLip": "1b327e28ac5c1e7f7aa4b9465f2d4a965fcb664bfc537031f49f5071fe450301",
+    "Wall_Upper_Floor_Middle": "14d5650354955067183720749916319c3569d32f9d1bd250dd393169577f4176",
+    "Wall_Upper_Floor_Upper": "28e45fe9dfd75d64248fc22f505b871bcaf7af7eb1ebb1ad9fe755513b6b5042",
+    "Wall_Upper_Run_Base": "2e05560796308db30f886fdb462b92169d869318f8a70fe58279244c89446c4a",
+    "Wall_Upper_Run_FootBand": "b416163e453b907fb231d2e605f6ef12ea2e9b438d399c0b898a727141f06228",
+    "Wall_Upper_Run_Grip_Back": "50d534857957dada06101d8e4235a8cb16fb1c3bb1be06b714680a1311bd32f8",
+    "Wall_Upper_Run_Grip_LowerLip": "413cd41388290372ee90c310fa1a19c982da30c865373bbac0a50b4256516530",
+    "Wall_Upper_Run_Grip_UpperLip": "304d7f4e2e810368a5b29f3d1107be2ceaa717ea53c1af613c46e8478210a584",
+    "Wall_Upper_Run_Middle": "b2ba449f3afbe08a5b5ddb92b1273be16d5de4a45364ffc4a121524ebe53bc6f",
+    "Wall_Upper_Run_Upper": "64b56385019da8cbe0a2aa8bd12dd93c573519cd2d81642b5d1642c330c7cec2"
+  },
+  "target_density_px_per_m": 80,
+  "glb": "assets/art/cryo_handrail_age_v2/cryo_handrail_age_v2.glb",
+  "blend": "docs/art/experiments/cryo_handrail_age_v2/model/handrail_age_v2.blend",
+  "placement_manifest": "docs/art/experiments/cryo_handrail_age_v2/source/placement_manifest.json",
+  "texture_policy": "base, alpha and flattened composite generated only from v1 base maps plus approved PixelLab images; masks express named structural contact zones",
+  "entries": [
+    {
+      "object": "C_Guard_LowerAndReturn",
+      "material": "AGE_C_Guard_LowerAndReturn",
+      "base_material": "C_BODY",
+      "source_kind": "groove",
+      "atlas_px": [
+        1966,
+        406
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 19,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 22010
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/c_guard_lowerandreturn_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/c_guard_lowerandreturn_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/c_guard_lowerandreturn_atlas_composite.png"
+      }
+    },
+    {
+      "object": "C_Guard_UpperAndFloor",
+      "material": "AGE_C_Guard_UpperAndFloor",
+      "base_material": "C_BODY",
+      "source_kind": "groove",
+      "atlas_px": [
+        2027,
+        535
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 19,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 30383
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/c_guard_upperandfloor_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/c_guard_upperandfloor_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/c_guard_upperandfloor_atlas_composite.png"
+      }
+    },
+    {
+      "object": "EntryLanding",
+      "material": "AGE_EntryLanding",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        893,
+        148
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 4888
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/entrylanding_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/entrylanding_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/entrylanding_atlas_composite.png"
+      }
+    },
+    {
+      "object": "FloorLanding",
+      "material": "AGE_FloorLanding",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        893,
+        148
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 4888
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/floorlanding_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/floorlanding_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/floorlanding_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Lower_ClosedFlight",
+      "material": "AGE_Lower_ClosedFlight",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        1978,
+        189
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 27,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 18367
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/lower_closedflight_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/lower_closedflight_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/lower_closedflight_atlas_composite.png"
+      }
+    },
+    {
+      "object": "TurnLanding",
+      "material": "AGE_TurnLanding",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        1213,
+        308
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 7448
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/turnlanding_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/turnlanding_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/turnlanding_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Upper_ClosedFlight",
+      "material": "AGE_Upper_ClosedFlight",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        1978,
+        189
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 27,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 18367
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/upper_closedflight_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/upper_closedflight_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/upper_closedflight_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Base",
+      "material": "AGE_Wall_Lower_Entry_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_Back",
+      "material": "AGE_Wall_Lower_Entry_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_LowerLip",
+      "material": "AGE_Wall_Lower_Entry_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_UpperLip",
+      "material": "AGE_Wall_Lower_Entry_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Base",
+      "material": "AGE_Wall_Lower_Run_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        1499,
+        76
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 6384
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_Back",
+      "material": "AGE_Wall_Lower_Run_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1279,
+        13
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2512
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_LowerLip",
+      "material": "AGE_Wall_Lower_Run_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_UpperLip",
+      "material": "AGE_Wall_Lower_Run_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_GripBack",
+      "material": "AGE_Wall_Turn_GripBack",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1389,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2760
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripback_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripback_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripback_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_GripLowerLip",
+      "material": "AGE_Wall_Turn_GripLowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1401,
+        20
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5624
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_griplowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_griplowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_griplowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_GripUpperLip",
+      "material": "AGE_Wall_Turn_GripUpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1401,
+        20
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5624
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripupperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripupperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripupperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_Lower",
+      "material": "AGE_Wall_Turn_Lower",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        1533,
+        86
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 6920
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lower_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lower_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lower_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Base",
+      "material": "AGE_Wall_Turn_LowerReturn_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_Back",
+      "material": "AGE_Wall_Turn_LowerReturn_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_LowerLip",
+      "material": "AGE_Wall_Turn_LowerReturn_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_UpperLip",
+      "material": "AGE_Wall_Turn_LowerReturn_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Base",
+      "material": "AGE_Wall_Turn_UpperReturn_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_Back",
+      "material": "AGE_Wall_Turn_UpperReturn_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_LowerLip",
+      "material": "AGE_Wall_Turn_UpperReturn_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_UpperLip",
+      "material": "AGE_Wall_Turn_UpperReturn_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Base",
+      "material": "AGE_Wall_Upper_Floor_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_Back",
+      "material": "AGE_Wall_Upper_Floor_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_LowerLip",
+      "material": "AGE_Wall_Upper_Floor_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_UpperLip",
+      "material": "AGE_Wall_Upper_Floor_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Base",
+      "material": "AGE_Wall_Upper_Run_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        1499,
+        76
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 6384
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_Back",
+      "material": "AGE_Wall_Upper_Run_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1279,
+        13
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2512
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_LowerLip",
+      "material": "AGE_Wall_Upper_Run_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_UpperLip",
+      "material": "AGE_Wall_Upper_Run_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_upperlip_atlas_composite.png"
+      }
+    }
+  ],
+  "uv_validation": {
+    "method": "per-object UV triangle area density; 256px raster union overlap metric (shared edges included)",
+    "entries": [
+      {
+        "object": "C_Guard_LowerAndReturn",
+        "material": "AGE_C_Guard_LowerAndReturn",
+        "atlas_px": [
+          1966,
+          406
+        ],
+        "effective_area_density_px_per_m": 80.00000395140593,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "C_Guard_UpperAndFloor",
+        "material": "AGE_C_Guard_UpperAndFloor",
+        "atlas_px": [
+          2027,
+          535
+        ],
+        "effective_area_density_px_per_m": 80.00000292081634,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "EntryLanding",
+        "material": "AGE_EntryLanding",
+        "atlas_px": [
+          893,
+          148
+        ],
+        "effective_area_density_px_per_m": 80.00000140804138,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "FloorLanding",
+        "material": "AGE_FloorLanding",
+        "atlas_px": [
+          893,
+          148
+        ],
+        "effective_area_density_px_per_m": 79.99999763897154,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Lower_ClosedFlight",
+        "material": "AGE_Lower_ClosedFlight",
+        "atlas_px": [
+          1978,
+          189
+        ],
+        "effective_area_density_px_per_m": 79.99999842319609,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "TurnLanding",
+        "material": "AGE_TurnLanding",
+        "atlas_px": [
+          1213,
+          308
+        ],
+        "effective_area_density_px_per_m": 79.99999521054156,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Upper_ClosedFlight",
+        "material": "AGE_Upper_ClosedFlight",
+        "atlas_px": [
+          1978,
+          189
+        ],
+        "effective_area_density_px_per_m": 79.99999907437542,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Entry_Base",
+        "material": "AGE_Wall_Lower_Entry_Base",
+        "atlas_px": [
+          771,
+          87
+        ],
+        "effective_area_density_px_per_m": 79.99999837247091,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Entry_Grip_Back",
+        "material": "AGE_Wall_Lower_Entry_Grip_Back",
+        "atlas_px": [
+          625,
+          14
+        ],
+        "effective_area_density_px_per_m": 79.99998553597666,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Entry_Grip_LowerLip",
+        "material": "AGE_Wall_Lower_Entry_Grip_LowerLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 79.99998153662494,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Entry_Grip_UpperLip",
+        "material": "AGE_Wall_Lower_Entry_Grip_UpperLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.00000038797873,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Run_Base",
+        "material": "AGE_Wall_Lower_Run_Base",
+        "atlas_px": [
+          1499,
+          76
+        ],
+        "effective_area_density_px_per_m": 80.00000187203048,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Run_Grip_Back",
+        "material": "AGE_Wall_Lower_Run_Grip_Back",
+        "atlas_px": [
+          1279,
+          13
+        ],
+        "effective_area_density_px_per_m": 79.99999175510543,
+        "uv_overlap_raster_ratio": 4.790189691511784e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Run_Grip_LowerLip",
+        "material": "AGE_Wall_Lower_Run_Grip_LowerLip",
+        "atlas_px": [
+          1263,
+          10
+        ],
+        "effective_area_density_px_per_m": 79.99997259687518,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Lower_Run_Grip_UpperLip",
+        "material": "AGE_Wall_Lower_Run_Grip_UpperLip",
+        "atlas_px": [
+          1263,
+          10
+        ],
+        "effective_area_density_px_per_m": 79.99993765084659,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_GripBack",
+        "material": "AGE_Wall_Turn_GripBack",
+        "atlas_px": [
+          1389,
+          14
+        ],
+        "effective_area_density_px_per_m": 80.00003362210465,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_GripLowerLip",
+        "material": "AGE_Wall_Turn_GripLowerLip",
+        "atlas_px": [
+          1401,
+          20
+        ],
+        "effective_area_density_px_per_m": 80.00005129631712,
+        "uv_overlap_raster_ratio": 3.824238020574401e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_GripUpperLip",
+        "material": "AGE_Wall_Turn_GripUpperLip",
+        "atlas_px": [
+          1401,
+          20
+        ],
+        "effective_area_density_px_per_m": 80.00001324872959,
+        "uv_overlap_raster_ratio": 3.824238020574401e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_Lower",
+        "material": "AGE_Wall_Turn_Lower",
+        "atlas_px": [
+          1533,
+          86
+        ],
+        "effective_area_density_px_per_m": 80.00000605055972,
+        "uv_overlap_raster_ratio": 5.97496489708123e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_LowerReturn_Base",
+        "material": "AGE_Wall_Turn_LowerReturn_Base",
+        "atlas_px": [
+          771,
+          87
+        ],
+        "effective_area_density_px_per_m": 80.00000080850216,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_LowerReturn_Grip_Back",
+        "material": "AGE_Wall_Turn_LowerReturn_Grip_Back",
+        "atlas_px": [
+          625,
+          14
+        ],
+        "effective_area_density_px_per_m": 79.99997898965475,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_LowerReturn_Grip_LowerLip",
+        "material": "AGE_Wall_Turn_LowerReturn_Grip_LowerLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.00005745563934,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_LowerReturn_Grip_UpperLip",
+        "material": "AGE_Wall_Turn_LowerReturn_Grip_UpperLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 79.99996544591953,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_UpperReturn_Base",
+        "material": "AGE_Wall_Turn_UpperReturn_Base",
+        "atlas_px": [
+          771,
+          87
+        ],
+        "effective_area_density_px_per_m": 80.000007886192,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_UpperReturn_Grip_Back",
+        "material": "AGE_Wall_Turn_UpperReturn_Grip_Back",
+        "atlas_px": [
+          625,
+          14
+        ],
+        "effective_area_density_px_per_m": 79.99995072617686,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_UpperReturn_Grip_LowerLip",
+        "material": "AGE_Wall_Turn_UpperReturn_Grip_LowerLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.00011409395094,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Turn_UpperReturn_Grip_UpperLip",
+        "material": "AGE_Wall_Turn_UpperReturn_Grip_UpperLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.00002208416599,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Floor_Base",
+        "material": "AGE_Wall_Upper_Floor_Base",
+        "atlas_px": [
+          771,
+          87
+        ],
+        "effective_area_density_px_per_m": 80.000007886192,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Floor_Grip_Back",
+        "material": "AGE_Wall_Upper_Floor_Grip_Back",
+        "atlas_px": [
+          625,
+          14
+        ],
+        "effective_area_density_px_per_m": 79.99987328368118,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Floor_Grip_LowerLip",
+        "material": "AGE_Wall_Upper_Floor_Grip_LowerLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.0002291385986,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Floor_Grip_UpperLip",
+        "material": "AGE_Wall_Upper_Floor_Grip_UpperLip",
+        "atlas_px": [
+          617,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.0000433145391,
+        "uv_overlap_raster_ratio": 4.7865211564235115e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Run_Base",
+        "material": "AGE_Wall_Upper_Run_Base",
+        "atlas_px": [
+          1499,
+          76
+        ],
+        "effective_area_density_px_per_m": 80.00000785901237,
+        "uv_overlap_raster_ratio": 3.128519584532599e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Run_Grip_Back",
+        "material": "AGE_Wall_Upper_Run_Grip_Back",
+        "atlas_px": [
+          1279,
+          13
+        ],
+        "effective_area_density_px_per_m": 79.99990190193316,
+        "uv_overlap_raster_ratio": 4.790189691511784e-05,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Run_Grip_LowerLip",
+        "material": "AGE_Wall_Upper_Run_Grip_LowerLip",
+        "atlas_px": [
+          1263,
+          10
+        ],
+        "effective_area_density_px_per_m": 79.99996768311475,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      },
+      {
+        "object": "Wall_Upper_Run_Grip_UpperLip",
+        "material": "AGE_Wall_Upper_Run_Grip_UpperLip",
+        "atlas_px": [
+          1263,
+          10
+        ],
+        "effective_area_density_px_per_m": 80.00014867305188,
+        "uv_overlap_raster_ratio": 0.0,
+        "pass_density_80pm": true,
+        "pass_no_material_overlap": true
+      }
+    ],
+    "all_density_pass": true,
+    "all_overlap_pass": true
+  }
+}

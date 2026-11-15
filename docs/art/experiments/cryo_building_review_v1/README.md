@@ -2,7 +2,7 @@
 
 [本地并排审图](preview.html) · [GitHub 并排审图](preview.md) · [逐图相机、状态和交付清单](review_manifest.json)
 
-11 月 15 日用户认可 C 单段轮廓后，已交付[完整 C 双跑与像素表面对比](../cryo_handrail_full_v1/preview.md)：墙侧内凹握槽、转台及平台接续，实测约 1.80 m 净宽。完整效果待审，尚未替换正式场景。[原单段灰模](../cryo_handrail_integrated_v1/preview.md)和本页 A/B 保留供追溯。
+11 月 15 日最新 C 候选为[完整双跑按部位旧化 v2](../cryo_handrail_age_v2/preview.md)：形体、约 80 原生像素／米与灯光保持，PixelLab 补槽底薄膜、墙脚／平台角及踏面靠墙端沉积。材料解释为隐藏结构支撑＋哑光矿物复合护面。材质／旧化待审，尚未替换正式场景。[完整 C v1](../cryo_handrail_full_v1/preview.md)、[原单段灰模](../cryo_handrail_integrated_v1/preview.md)和本页 A/B 保留供追溯。v1 实测两跑及转台净宽约 1.80 m；正式安装仍需控制器及门扫掠验证。
 
 以 GitHub main 的 `f7fa9e8342f77106daad9b9199f34333fca53c89`、[建筑美术执行包](../../CRYO_BUILDING_ART_PRODUCTION_PACK.md) 和冻结标准层 `v3_trim` 为基线。交付五组 A/B 十款造型，以及 ST-01 双跑样段和 K-01 共用配件。所有候选均为独立审图，等待用户选定。Room 1、正式 F5、4F v6、正式交互和主角工作没有替换。
 

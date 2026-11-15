@@ -1,0 +1,30 @@
+{
+  "godot_captures": 32,
+  "resolution": [
+    1280,
+    720
+  ],
+  "same_camera_light_geometry_per_pair": true,
+  "render_pixel_difference_count": {
+    "grip": 53661,
+    "wall_grip": 133513,
+    "tread_contact": 87372,
+    "platform_contact": 190697,
+    "turn": 50326,
+    "all": 23365,
+    "hero": 25339,
+    "upper_end": 58661,
+    "side": 40793,
+    "upper": 36990,
+    "landing": 114421,
+    "wall_back": 48570,
+    "lower_wall": 71520,
+    "upper_wall": 41937,
+    "baseline": 24662,
+    "occupied": 24933
+  },
+  "difference_note": "Counts show the material comparison changed pixels; they are not aesthetic approval or a replacement for reviewing placement.",
+  "glb_sha256": "bfac1d95283de18af439ae174113576ca80b5ad35f99b919aa99d59953250321",
+  "blend_sha256": "b28daafff8d9b1b0ab81f8db4096855053da0e4c7d5be8e7ed484ebb50988032",
+  "user_review": "pending"
+}

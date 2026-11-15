@@ -1,0 +1,142 @@
+{
+  "AGE_C_Guard_LowerAndReturn": {
+    "base": "textures/c_guard_lowerandreturn_atlas_base.png",
+    "composite": "textures/c_guard_lowerandreturn_atlas_composite.png"
+  },
+  "AGE_C_Guard_UpperAndFloor": {
+    "base": "textures/c_guard_upperandfloor_atlas_base.png",
+    "composite": "textures/c_guard_upperandfloor_atlas_composite.png"
+  },
+  "AGE_EntryLanding": {
+    "base": "textures/entrylanding_atlas_base.png",
+    "composite": "textures/entrylanding_atlas_composite.png"
+  },
+  "AGE_FloorLanding": {
+    "base": "textures/floorlanding_atlas_base.png",
+    "composite": "textures/floorlanding_atlas_composite.png"
+  },
+  "AGE_Lower_ClosedFlight": {
+    "base": "textures/lower_closedflight_atlas_base.png",
+    "composite": "textures/lower_closedflight_atlas_composite.png"
+  },
+  "AGE_TurnLanding": {
+    "base": "textures/turnlanding_atlas_base.png",
+    "composite": "textures/turnlanding_atlas_composite.png"
+  },
+  "AGE_Upper_ClosedFlight": {
+    "base": "textures/upper_closedflight_atlas_base.png",
+    "composite": "textures/upper_closedflight_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Entry_Base": {
+    "base": "textures/wall_lower_entry_base_atlas_base.png",
+    "composite": "textures/wall_lower_entry_base_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Entry_Grip_Back": {
+    "base": "textures/wall_lower_entry_grip_back_atlas_base.png",
+    "composite": "textures/wall_lower_entry_grip_back_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Entry_Grip_LowerLip": {
+    "base": "textures/wall_lower_entry_grip_lowerlip_atlas_base.png",
+    "composite": "textures/wall_lower_entry_grip_lowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Entry_Grip_UpperLip": {
+    "base": "textures/wall_lower_entry_grip_upperlip_atlas_base.png",
+    "composite": "textures/wall_lower_entry_grip_upperlip_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Run_Base": {
+    "base": "textures/wall_lower_run_base_atlas_base.png",
+    "composite": "textures/wall_lower_run_base_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Run_Grip_Back": {
+    "base": "textures/wall_lower_run_grip_back_atlas_base.png",
+    "composite": "textures/wall_lower_run_grip_back_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Run_Grip_LowerLip": {
+    "base": "textures/wall_lower_run_grip_lowerlip_atlas_base.png",
+    "composite": "textures/wall_lower_run_grip_lowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Lower_Run_Grip_UpperLip": {
+    "base": "textures/wall_lower_run_grip_upperlip_atlas_base.png",
+    "composite": "textures/wall_lower_run_grip_upperlip_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_GripBack": {
+    "base": "textures/wall_turn_gripback_atlas_base.png",
+    "composite": "textures/wall_turn_gripback_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_GripLowerLip": {
+    "base": "textures/wall_turn_griplowerlip_atlas_base.png",
+    "composite": "textures/wall_turn_griplowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_GripUpperLip": {
+    "base": "textures/wall_turn_gripupperlip_atlas_base.png",
+    "composite": "textures/wall_turn_gripupperlip_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_Lower": {
+    "base": "textures/wall_turn_lower_atlas_base.png",
+    "composite": "textures/wall_turn_lower_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_LowerReturn_Base": {
+    "base": "textures/wall_turn_lowerreturn_base_atlas_base.png",
+    "composite": "textures/wall_turn_lowerreturn_base_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_LowerReturn_Grip_Back": {
+    "base": "textures/wall_turn_lowerreturn_grip_back_atlas_base.png",
+    "composite": "textures/wall_turn_lowerreturn_grip_back_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_LowerReturn_Grip_LowerLip": {
+    "base": "textures/wall_turn_lowerreturn_grip_lowerlip_atlas_base.png",
+    "composite": "textures/wall_turn_lowerreturn_grip_lowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_LowerReturn_Grip_UpperLip": {
+    "base": "textures/wall_turn_lowerreturn_grip_upperlip_atlas_base.png",
+    "composite": "textures/wall_turn_lowerreturn_grip_upperlip_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_UpperReturn_Base": {
+    "base": "textures/wall_turn_upperreturn_base_atlas_base.png",
+    "composite": "textures/wall_turn_upperreturn_base_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_UpperReturn_Grip_Back": {
+    "base": "textures/wall_turn_upperreturn_grip_back_atlas_base.png",
+    "composite": "textures/wall_turn_upperreturn_grip_back_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_UpperReturn_Grip_LowerLip": {
+    "base": "textures/wall_turn_upperreturn_grip_lowerlip_atlas_base.png",
+    "composite": "textures/wall_turn_upperreturn_grip_lowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Turn_UpperReturn_Grip_UpperLip": {
+    "base": "textures/wall_turn_upperreturn_grip_upperlip_atlas_base.png",
+    "composite": "textures/wall_turn_upperreturn_grip_upperlip_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Floor_Base": {
+    "base": "textures/wall_upper_floor_base_atlas_base.png",
+    "composite": "textures/wall_upper_floor_base_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Floor_Grip_Back": {
+    "base": "textures/wall_upper_floor_grip_back_atlas_base.png",
+    "composite": "textures/wall_upper_floor_grip_back_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Floor_Grip_LowerLip": {
+    "base": "textures/wall_upper_floor_grip_lowerlip_atlas_base.png",
+    "composite": "textures/wall_upper_floor_grip_lowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Floor_Grip_UpperLip": {
+    "base": "textures/wall_upper_floor_grip_upperlip_atlas_base.png",
+    "composite": "textures/wall_upper_floor_grip_upperlip_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Run_Base": {
+    "base": "textures/wall_upper_run_base_atlas_base.png",
+    "composite": "textures/wall_upper_run_base_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Run_Grip_Back": {
+    "base": "textures/wall_upper_run_grip_back_atlas_base.png",
+    "composite": "textures/wall_upper_run_grip_back_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Run_Grip_LowerLip": {
+    "base": "textures/wall_upper_run_grip_lowerlip_atlas_base.png",
+    "composite": "textures/wall_upper_run_grip_lowerlip_atlas_composite.png"
+  },
+  "AGE_Wall_Upper_Run_Grip_UpperLip": {
+    "base": "textures/wall_upper_run_grip_upperlip_atlas_base.png",
+    "composite": "textures/wall_upper_run_grip_upperlip_atlas_composite.png"
+  }
+}

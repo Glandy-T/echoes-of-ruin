@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-15",
+  "route": "Official PixelLab Creator / Edit Image Pro Flash in Chrome extension",
+  "inputs": {
+    "mineral_edge": "Project-owned CRYO-C-BODY-V1 gallery entry",
+    "groove": "Project-owned CRYO-C-BODY-V1 gallery entry",
+    "floor_edge": "Project-owned CRYO-M06-03-R1 gallery entry"
+  },
+  "prompts": "prompts.json",
+  "monthly_allowance": 2000,
+  "used_before": 9,
+  "used_after": 36,
+  "consumed_this_round": 27,
+  "remaining": 1964,
+  "renewal_display": "Dec 13",
+  "new_purchases": 0,
+  "pixel_canals_content_uploaded": false,
+  "outputs": [
+    {
+      "name": "mineral_edge",
+      "file": "raw/mineral_edge.png",
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "a095f17379c99211c60186818a85decedd5d1ac5d930a4737b14fb81b7c31b33"
+    },
+    {
+      "name": "groove",
+      "file": "raw/groove.png",
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "fe0152edb16dd937244fdeb75291ffc787ffc06771de90688fa9ec67442bc757"
+    },
+    {
+      "name": "floor_edge",
+      "file": "raw/floor_edge.png",
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "72b920b85245b81869dde0ee6e1aaf1bd44158c1fc114a763c8cd89dfacbc0d5"
+    }
+  ],
+  "packaging_boundary": "PixelLab paints all residue shapes. Code may position, mask, crop, sample and pack the painted artwork; it does not synthesize weather shapes. Aseprite keeps base and age separable."
+}

@@ -1,0 +1,317 @@
+[
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/c_guard_lowerandreturn.aseprite",
+    "native_px": [
+      1966,
+      406
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/c_guard_upperandfloor.aseprite",
+    "native_px": [
+      2027,
+      535
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/entrylanding.aseprite",
+    "native_px": [
+      893,
+      148
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/floorlanding.aseprite",
+    "native_px": [
+      893,
+      148
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/lower_closedflight.aseprite",
+    "native_px": [
+      1978,
+      189
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/turnlanding.aseprite",
+    "native_px": [
+      1213,
+      308
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/upper_closedflight.aseprite",
+    "native_px": [
+      1978,
+      189
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_entry_base.aseprite",
+    "native_px": [
+      771,
+      87
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_entry_grip_back.aseprite",
+    "native_px": [
+      625,
+      14
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_entry_grip_lowerlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_entry_grip_upperlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_run_base.aseprite",
+    "native_px": [
+      1499,
+      76
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_run_grip_back.aseprite",
+    "native_px": [
+      1279,
+      13
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_run_grip_lowerlip.aseprite",
+    "native_px": [
+      1263,
+      10
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_lower_run_grip_upperlip.aseprite",
+    "native_px": [
+      1263,
+      10
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_gripback.aseprite",
+    "native_px": [
+      1389,
+      14
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_griplowerlip.aseprite",
+    "native_px": [
+      1401,
+      20
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_gripupperlip.aseprite",
+    "native_px": [
+      1401,
+      20
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_lower.aseprite",
+    "native_px": [
+      1533,
+      86
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_lowerreturn_base.aseprite",
+    "native_px": [
+      771,
+      87
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_lowerreturn_grip_back.aseprite",
+    "native_px": [
+      625,
+      14
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_lowerreturn_grip_lowerlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_lowerreturn_grip_upperlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_upperreturn_base.aseprite",
+    "native_px": [
+      771,
+      87
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_upperreturn_grip_back.aseprite",
+    "native_px": [
+      625,
+      14
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_upperreturn_grip_lowerlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_turn_upperreturn_grip_upperlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_floor_base.aseprite",
+    "native_px": [
+      771,
+      87
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_floor_grip_back.aseprite",
+    "native_px": [
+      625,
+      14
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_floor_grip_lowerlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_floor_grip_upperlip.aseprite",
+    "native_px": [
+      617,
+      10
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_run_base.aseprite",
+    "native_px": [
+      1499,
+      76
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_run_grip_back.aseprite",
+    "native_px": [
+      1279,
+      13
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_run_grip_lowerlip.aseprite",
+    "native_px": [
+      1263,
+      10
+    ],
+    "max_composite_channel_difference": 1,
+    "local_refinement": "empty; registration and layering only"
+  },
+  {
+    "master": "assets/art/cryo_handrail_age_v2/editable/wall_upper_run_grip_upperlip.aseprite",
+    "native_px": [
+      1263,
+      10
+    ],
+    "max_composite_channel_difference": 0,
+    "local_refinement": "empty; registration and layering only"
+  }
+]

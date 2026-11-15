@@ -1,0 +1,915 @@
+{
+  "method": "fixed semantic contact masks + PixelLab lower-edge samples only; no procedural ageing marks",
+  "entries": [
+    {
+      "object": "C_Guard_LowerAndReturn",
+      "material": "AGE_C_Guard_LowerAndReturn",
+      "base_material": "C_BODY",
+      "source_kind": "groove",
+      "atlas_px": [
+        1966,
+        406
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 19,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 22010
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/c_guard_lowerandreturn_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/c_guard_lowerandreturn_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/c_guard_lowerandreturn_atlas_composite.png"
+      }
+    },
+    {
+      "object": "C_Guard_UpperAndFloor",
+      "material": "AGE_C_Guard_UpperAndFloor",
+      "base_material": "C_BODY",
+      "source_kind": "groove",
+      "atlas_px": [
+        2027,
+        535
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 19,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 30383
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/c_guard_upperandfloor_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/c_guard_upperandfloor_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/c_guard_upperandfloor_atlas_composite.png"
+      }
+    },
+    {
+      "object": "EntryLanding",
+      "material": "AGE_EntryLanding",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        893,
+        148
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 4888
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/entrylanding_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/entrylanding_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/entrylanding_atlas_composite.png"
+      }
+    },
+    {
+      "object": "FloorLanding",
+      "material": "AGE_FloorLanding",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        893,
+        148
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 4888
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/floorlanding_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/floorlanding_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/floorlanding_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Lower_ClosedFlight",
+      "material": "AGE_Lower_ClosedFlight",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        1978,
+        189
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 27,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 18367
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/lower_closedflight_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/lower_closedflight_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/lower_closedflight_atlas_composite.png"
+      }
+    },
+    {
+      "object": "TurnLanding",
+      "material": "AGE_TurnLanding",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        1213,
+        308
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 7448
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/turnlanding_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/turnlanding_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/turnlanding_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Upper_ClosedFlight",
+      "material": "AGE_Upper_ClosedFlight",
+      "base_material": "M03_STAIR",
+      "source_kind": "floor",
+      "atlas_px": [
+        1978,
+        189
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 27,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 18367
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/upper_closedflight_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/upper_closedflight_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/upper_closedflight_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Base",
+      "material": "AGE_Wall_Lower_Entry_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_Back",
+      "material": "AGE_Wall_Lower_Entry_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_LowerLip",
+      "material": "AGE_Wall_Lower_Entry_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_UpperLip",
+      "material": "AGE_Wall_Lower_Entry_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_entry_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Base",
+      "material": "AGE_Wall_Lower_Run_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        1499,
+        76
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 6384
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_Back",
+      "material": "AGE_Wall_Lower_Run_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1279,
+        13
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2512
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_LowerLip",
+      "material": "AGE_Wall_Lower_Run_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_UpperLip",
+      "material": "AGE_Wall_Lower_Run_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_lower_run_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_GripBack",
+      "material": "AGE_Wall_Turn_GripBack",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1389,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2760
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripback_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripback_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripback_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_GripLowerLip",
+      "material": "AGE_Wall_Turn_GripLowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1401,
+        20
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5624
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_griplowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_griplowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_griplowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_GripUpperLip",
+      "material": "AGE_Wall_Turn_GripUpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1401,
+        20
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5624
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripupperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripupperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_gripupperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_Lower",
+      "material": "AGE_Wall_Turn_Lower",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        1533,
+        86
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 6920
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lower_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lower_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lower_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Base",
+      "material": "AGE_Wall_Turn_LowerReturn_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_Back",
+      "material": "AGE_Wall_Turn_LowerReturn_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_LowerLip",
+      "material": "AGE_Wall_Turn_LowerReturn_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_UpperLip",
+      "material": "AGE_Wall_Turn_LowerReturn_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_lowerreturn_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Base",
+      "material": "AGE_Wall_Turn_UpperReturn_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_Back",
+      "material": "AGE_Wall_Turn_UpperReturn_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_LowerLip",
+      "material": "AGE_Wall_Turn_UpperReturn_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_UpperLip",
+      "material": "AGE_Wall_Turn_UpperReturn_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_turn_upperreturn_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Base",
+      "material": "AGE_Wall_Upper_Floor_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        771,
+        87
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 3896
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_Back",
+      "material": "AGE_Wall_Upper_Floor_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        625,
+        14
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 1240
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_LowerLip",
+      "material": "AGE_Wall_Upper_Floor_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_UpperLip",
+      "material": "AGE_Wall_Upper_Floor_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        617,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2424
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_floor_grip_upperlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Base",
+      "material": "AGE_Wall_Upper_Run_Base",
+      "base_material": "M01_STAIR",
+      "source_kind": "mineral",
+      "atlas_px": [
+        1499,
+        76
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 6384
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_base_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_base_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_base_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_Back",
+      "material": "AGE_Wall_Upper_Run_Grip_Back",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1279,
+        13
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 2512
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_back_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_back_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_back_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_LowerLip",
+      "material": "AGE_Wall_Upper_Run_Grip_LowerLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_lowerlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_lowerlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_lowerlip_atlas_composite.png"
+      }
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_UpperLip",
+      "material": "AGE_Wall_Upper_Run_Grip_UpperLip",
+      "base_material": "C_SLOT",
+      "source_kind": "groove",
+      "atlas_px": [
+        1263,
+        10
+      ],
+      "uv_translation_metric": {
+        "packing": "existing continuous C strip/cap or complete planar polygon chart translated without scale",
+        "chart_count": 6,
+        "padding_px": 2,
+        "density_px_per_m": 80
+      },
+      "extrusion": {
+        "nearest_valid_texel_dilation_px": 2,
+        "content_gap_px": 5,
+        "written_padding_pixels": 5000
+      },
+      "textures": {
+        "base": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_upperlip_atlas_base.png",
+        "age": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_upperlip_atlas_age_rgba.png",
+        "composite": "assets/art/cryo_handrail_age_v2/textures/wall_upper_run_grip_upperlip_atlas_composite.png"
+      }
+    }
+  ]
+}

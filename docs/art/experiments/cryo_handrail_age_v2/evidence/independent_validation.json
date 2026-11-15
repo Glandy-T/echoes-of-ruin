@@ -1,0 +1,149 @@
+{
+  "validation_type": "independent_read_only_file_side_validation",
+  "validated_at": "2026-11-15T21:46:00+09:00",
+  "scope": {
+    "candidate": "cryo_handrail_age_v2",
+    "baseline": "cryo_handrail_full_v1",
+    "allowed_change": "native UV-atlas registration, PixelLab-derived ageing textures, and material roughness only",
+    "not_modified_by_validator": [
+      "models",
+      "scripts",
+      "textures",
+      "formal Godot scene"
+    ]
+  },
+  "artifact_sha256": {
+    "v2_glb": {
+      "path": "assets/art/cryo_handrail_age_v2/cryo_handrail_age_v2.glb",
+      "sha256": "bfac1d95283de18af439ae174113576ca80b5ad35f99b919aa99d59953250321"
+    },
+    "v2_blend": {
+      "path": "docs/art/experiments/cryo_handrail_age_v2/model/handrail_age_v2.blend",
+      "sha256": "b28daafff8d9b1b0ab81f8db4096855053da0e4c7d5be8e7ed484ebb50988032"
+    },
+    "build_script": {
+      "path": "docs/art/experiments/cryo_handrail_age_v2/model/build_age_v2.py",
+      "sha256": "fe736eb6c2a897ce66ffc20a469ccdeb7b8bfe527a4644adfa89f750eccff45c"
+    },
+    "baseline_v1_blend": {
+      "path": "docs/art/experiments/cryo_handrail_full_v1/model/handrail_full_v1.blend",
+      "sha256": "a78373f072030aa139bc2f49daa24f19ed1c7dd8a30d3ba9b34773201562d243"
+    }
+  },
+  "file_side_results": {
+    "geometry_and_layout": {
+      "result": "pass",
+      "method": "Opened both editable .blend files independently and compared every mesh's world-space vertex coordinates and polygon vertex-index topology.",
+      "v1_meshes": 111,
+      "v2_meshes": 111,
+      "common_meshes": 111,
+      "only_v1": [],
+      "only_v2": [],
+      "mismatches": [],
+      "conclusion": "No geometry or layout change was found between the frozen v1 source and v2."
+    },
+    "native_uv_density": {
+      "result": "pass",
+      "method": "Imported the final GLB, used its material-specific image dimensions, and computed square-root(texel triangle area / world-space triangle area) for each effective AGE-material triangle.",
+      "target_px_per_m": 80,
+      "aged_meshes": 35,
+      "effective_triangles": 2343,
+      "density_px_per_m": {
+        "min": 79.99488269904829,
+        "median": 79.99999954763784,
+        "max": 80.00478927729613
+      },
+      "excluded_degenerate_triangles": {
+        "count": 15,
+        "criterion": "world-space area less than 1e-7 m^2",
+        "observed_area_range_m2": [3.725290298461914e-09, 7.450580596923828e-08],
+        "reason": "collinear closed-flight fan residuals after GLB export; they have no renderable surface area and are not valid density samples"
+      }
+    },
+    "uv_atlas": {
+      "result": "pass",
+      "out_of_bounds_uv_vertices": 0,
+      "minimum_outer_margin_px": 1.9999746084213257,
+      "strict_positive_area_overlap": {
+        "result": "pass",
+        "tested_meshes": 35,
+        "nondegenerate_uv_triangles": 2357,
+        "pairs": 0,
+        "method": "Per-atlas strict interior edge-crossing and point-containment test; shared triangle edges alone do not count as overlap."
+      },
+      "edge_extrusion": {
+        "result": "pass",
+        "method": "Re-rasterized final UV islands, reproduced the specified two rounds of 4-neighbour nearest-valid dilation, and compared every expected padding texel against the delivered PNGs.",
+        "atlas_sets": 35,
+        "expected_padding_pixels": 205007,
+        "mismatches": {
+          "base": 0,
+          "age_rgba": 0,
+          "composite": 0
+        },
+        "cross_island_gap_px": 5
+      }
+    },
+    "portable_editable_source": {
+      "result": "pass",
+      "method": "Opened the final editable Blend directly rather than relying on its supplied portability record.",
+      "file_images": 40,
+      "packed_file_images": 40,
+      "unpacked_images": [],
+      "absolute_image_paths": [],
+      "relative_image_paths": 40
+    },
+    "source_and_workflow_lineage": {
+      "result": "pass_file_record",
+      "raw_pixel_lab_outputs": [
+        {
+          "file": "source/raw/mineral_edge.png",
+          "size_px": [256, 256],
+          "sha256": "a095f17379c99211c60186818a85decedd5d1ac5d930a4737b14fb81b7c31b33"
+        },
+        {
+          "file": "source/raw/groove.png",
+          "size_px": [256, 256],
+          "sha256": "fe0152edb16dd937244fdeb75291ffc787ffc06771de90688fa9ec67442bc757"
+        },
+        {
+          "file": "source/raw/floor_edge.png",
+          "size_px": [256, 256],
+          "sha256": "72b920b85245b81869dde0ee6e1aaf1bd44158c1fc114a763c8cd89dfacbc0d5"
+        }
+      ],
+      "generation_record_readback": {
+        "route": "Official PixelLab Creator / Edit Image Pro Flash in Chrome extension",
+        "credits_consumed_this_round": 27,
+        "pixel_canals_content_uploaded": false,
+        "inputs_declared_project_owned": true
+      },
+      "placement_method_declared": "fixed semantic contact masks plus PixelLab lower-edge samples only; no procedural ageing marks",
+      "script_readback": "The build script selects named contact zones, samples the three raw PixelLab images, and packs them; it does not contain a random/noise/scratch/stain generator.",
+      "aseprite_readback": {
+        "masters": 35,
+        "maximum_composite_channel_difference": 1,
+        "nonempty_local_refinements": 0
+      },
+      "boundary": "This verifies the retained local records and build behavior, not PixelLab's remote account history."
+    }
+  },
+  "runtime_validation": {
+    "independently_executed_by_validator": false,
+    "artifact_readback_only": {
+      "capture_record": "evidence/capture_record.json",
+      "matched_a_b_capture_count": 16,
+      "image_count": 32,
+      "resolution_px": [1280, 720],
+      "nearest_filter_declared": true,
+      "baked_light_declared": false
+    },
+    "parent_reported_visual_review": "Parent reports final A/B coverage of grip, tread, platform, walls, turn, full view, hero/occupied and baseline states; this is not an independent runtime judgment by this validator."
+  },
+  "not_tested": [
+    "Running Godot or inspecting live interaction/lighting in this validation pass",
+    "User aesthetic acceptance",
+    "Remote PixelLab account state beyond the saved generation record"
+  ],
+  "overall": "pass_file_side; final GLB BFAC1D... is geometrically unchanged from v1, has effective native 80 px/m UV density, no positive-area UV overlap or out-of-bounds coordinates, and verified two-pixel atlas extrusion. Runtime and aesthetic approval remain separate gates."
+}
