@@ -1,8 +1,8 @@
-# 学校交接｜2026-11-11
+# 继续制作交接｜2026-11-15
 
-11 月 10 日收工。明天从**标准休眠楼的候选审图**接着做，先看楼梯间新材质和两款扶手。今天的成果基线是 [GitHub main `eea90b0`](https://github.com/Glandy-T/echoes-of-ruin/commit/eea90b0cfa3c2fe82ec1778618f7feedc26ad30f)。本交接随后单独提交。
+11 月 15 日在家继续，从**标准休眠楼候选审图**完善了两款扶手的端部和折返接合。当前先看同机位前后对比及新增的接头近景，再确认造型。本轮基于 [GitHub main `dea95c4`](https://github.com/Glandy-T/echoes-of-ruin/commit/dea95c47c3b854043f57ede6d923c080fb9cd7e2)继续，闭合网格、管件自身相交和立柱落脚检查已留档。[本轮检查](experiments/cryo_building_review_v1/evidence/handrail_fit_20261115.json)
 
-## 到学校先打开
+## 继续时先打开
 
 1. 在学校副本检查 `git status --short --branch`，再同步 GitHub `main`。如果有同路径的本机差异，先保留并比较，审图以仓库提交为准。
 2. 打开[并排审图](experiments/cryo_building_review_v1/preview.md)或[本地 HTML](experiments/cryo_building_review_v1/preview.html)。先看 [A 款扶手](experiments/cryo_building_review_v1/evidence/godot/hr-a_rail.png)和 [B 款扶手](experiments/cryo_building_review_v1/evidence/godot/hr-b_rail.png)，再看[正常视角](experiments/cryo_building_review_v1/evidence/godot/hr-b_occupied.png)与 [28 秒灯光演示](experiments/cryo_building_review_v1/evidence/stair_motion_28s.gif)。
@@ -13,7 +13,7 @@
 | 项目 | 目前状态 | 接手后的判断 |
 |---|---|---|
 | ST-01 楼梯墙面与踏面 | 用户确认建筑很少有人走动，环境老化为主。大面已换成既有 PixelLab 细矿物纹理，旧痕集中在贴着踏步与平台的墙脚。主表面实测 80 原生像素／米。 | 用同机位先确认旧痕的位置和明暗。如果还有喷漆感，指出具体一块的位置，按对应的收边、缝隙或环境来源调整。 |
-| HR-A/B 扶手 | 两款立柱都落在实际踏面，补了握轨支座。A 为圆管和细竖杆，B 为沿踏步留缝的折板。造型仍待审。 | 先分清问题出在 A/B 的整体轮廓、转角，还是局部比例。当前实测净宽为 **1.616 m／1.617 m**，冻结目标为 **1.80 m**，现阶段只在独立样段比较。要安装时先解决净宽。 |
+| HR-A/B 扶手 | 两款每跑四根立柱，端头回接立柱，折返处圆弧连接，B 补了转向折板。A 为圆管和细竖杆，B 为沿踏步留缝的折板。造型仍待审。 | 先看前后对照和接头近景。当前实测净宽约 **1.616 m／1.618 m**，冻结目标为 **1.80 m**，现阶段只在独立样段比较。要安装时先解决净宽。 |
 | FD、EL、EN、FA | 各两款均已出 Godot 实拍。FD/EN 的独立样段验证了闭门阻挡与开后中心通行；EL 警示条可穿过，断电门叶仍挡住角色。FA 是 16F＋B4 外壳候选。 | 各组可独立挑选。FD 落地前复查整扇扫掠；EN 的首层外门位置待确认。FA 正式布光与远景运动采样仍待验证。 |
 | 4F v6 与主角 | 4F 镜头、显现触发和强度仍待选。主角 3D 已暂停，身体 v2 保留，最后一版 Tripo 白袍未通过，游戏里继续用纸片占位。 | 先看建筑审图。恢复 4F 或主角时从下方的独立入口接手。 |
 

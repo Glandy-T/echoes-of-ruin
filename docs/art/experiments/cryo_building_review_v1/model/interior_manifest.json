@@ -152,7 +152,7 @@
   "nominal_walkable_flight_before_accessories_m": 1.8,
   "measured_continuous_grip_inner_edges_clear_m": {
     "HR-A": 1.616,
-    "HR-B": 1.617
+    "HR-B": 1.618
   },
   "clearance_status": "Both isolated HR candidates encroach on frozen nominal 1.8m width. No walls or route changed. Not approved to install.",
   "light_nodes": [

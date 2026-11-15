@@ -258,6 +258,8 @@ func set_view(v: String) -> void:
 			"upper": p=Vector3(-4.6,4.9,-2.3);target=Vector3(2.3,2.70,-1.93);s=4.5
 			"landing": p=Vector3(1.3,3.4,-1.3);target=Vector3(2.6,2.15,-1.35);s=2.9
 			"rail": p=Vector3(-.27,6.685,-4.61);target=Vector3(.78,1.96,-.51);s=3.0
+			"turn": p=Vector3(3.1,3.9,.4);target=Vector3(1.65,2.68,-1.0);s=1.65
+			"end": p=Vector3(-3.1,1.8,.2);target=Vector3(-1.55,.85,-.93);s=1.85
 	else:
 		match v:
 			"rear": p=Vector3(0,1.6,-5);target=Vector3(0,1.38,0)
@@ -336,7 +338,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 	if k==KEY_C and is_instance_valid(banner):banner.visible=not banner.visible
 	if k==KEY_L:state_fault=not state_fault
 	if k in [KEY_UP,KEY_DOWN]:
-		var vs:= ["hero","side","upper","landing","rail"] if stair_environment else ["overall","north","south","west","east","detail10m","node","ground","roof","b4"] if candidate.begins_with("FA") else ["front","rear","release","open90","transition","touch"]
+		var vs:= ["hero","side","upper","landing","rail","turn","end"] if stair_environment else ["overall","north","south","west","east","detail10m","node","ground","roof","b4"] if candidate.begins_with("FA") else ["front","rear","release","open90","transition","touch"]
 		set_view(vs[posmod(vs.find(view_name)+(1 if k==KEY_UP else -1),vs.size())])
 
 func capture(name: String, view: String, state: String) -> void:
@@ -360,6 +362,8 @@ func capture_all() -> void:
 			stair_state(3.1,1.,true);await capture(n+"_neutral","hero","neutral_surface_review")
 			actor.visible=false
 			await capture(n+"_rail","rail","guard_profile_and_grip")
+			await capture(n+"_turn","turn","half_landing_handrail_return")
+			await capture(n+"_end","end","terminal_connections")
 		elif id.begins_with("FA"):
 			for v: String in ["overall","north","south","east","west","detail10m","corner","node","ground","roof"]:await capture(n+"_"+v,v,"shared_overcast")
 			stage.get_node("ReviewGround").visible=false;await capture(n+"_b4","b4","technical_underground_view")

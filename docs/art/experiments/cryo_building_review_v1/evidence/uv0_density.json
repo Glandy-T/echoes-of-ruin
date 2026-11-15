@@ -614,12 +614,12 @@
           256,
           64
         ],
-        "edge_samples": 5468,
+        "edge_samples": 3311,
         "median_texels_per_m": 80.0,
-        "within_1pct_percent": 71.25,
-        "min": 57.09,
-        "max": 102.65,
-        "edges_under_25mm_excluded": 7210
+        "within_1pct_percent": 92.24,
+        "min": 68.09,
+        "max": 96.97,
+        "edges_under_25mm_excluded": 10588
       }
     },
     "HR-B": {
@@ -628,24 +628,24 @@
           256,
           64
         ],
-        "edge_samples": 2156,
+        "edge_samples": 1189,
         "median_texels_per_m": 80.0,
-        "within_1pct_percent": 43.0,
-        "min": 63.98,
-        "max": 102.65,
-        "edges_under_25mm_excluded": 2188
+        "within_1pct_percent": 78.81,
+        "min": 68.09,
+        "max": 96.97,
+        "edges_under_25mm_excluded": 3728
       },
       "M05-D": {
         "size_px": [
           256,
           256
         ],
-        "edge_samples": 1064,
+        "edge_samples": 940,
         "median_texels_per_m": 80.0,
         "within_1pct_percent": 100.0,
         "min": 80.0,
         "max": 80.0,
-        "edges_under_25mm_excluded": 256
+        "edges_under_25mm_excluded": 320
       }
     },
     "K-01_accessories": {

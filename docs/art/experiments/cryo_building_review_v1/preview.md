@@ -7,7 +7,7 @@
 | HR-A · 连续圆管＋细竖杆 | HR-B · 折板＋独立握持轨 |
 |---|---|
 | [![HR-A](evidence/godot/hr-a_rail.png)](evidence/godot/hr-a_rail.png) | [![HR-B](evidence/godot/hr-b_rail.png)](evidence/godot/hr-b_rail.png) |
-| [感应增亮](evidence/godot/hr-a_occupied.png) · [保底光](evidence/godot/hr-a_baseline.png) · [下段](evidence/godot/hr-a_side.png) · [上段](evidence/godot/hr-a_upper.png) · [中性检查](evidence/godot/hr-a_neutral.png) | [感应增亮](evidence/godot/hr-b_occupied.png) · [保底光](evidence/godot/hr-b_baseline.png) · [下段](evidence/godot/hr-b_side.png) · [上段](evidence/godot/hr-b_upper.png) · [中性检查](evidence/godot/hr-b_neutral.png) |
+| [感应增亮](evidence/godot/hr-a_occupied.png) · [保底光](evidence/godot/hr-a_baseline.png) · [下段](evidence/godot/hr-a_side.png) · [上段](evidence/godot/hr-a_upper.png) · [中性检查](evidence/godot/hr-a_neutral.png) · [折返接头](evidence/godot/hr-a_turn.png) · [端部接头](evidence/godot/hr-a_end.png) | [感应增亮](evidence/godot/hr-b_occupied.png) · [保底光](evidence/godot/hr-b_baseline.png) · [下段](evidence/godot/hr-b_side.png) · [上段](evidence/godot/hr-b_upper.png) · [中性检查](evidence/godot/hr-b_neutral.png) · [折返接头](evidence/godot/hr-b_turn.png) · [端部接头](evidence/godot/hr-b_end.png) |
 
 ## FD 楼梯分区门
 
@@ -36,6 +36,17 @@
 |---|---|
 | [![FA-A](evidence/godot/fa-a_overall.png)](evidence/godot/fa-a_overall.png) | [![FA-B](evidence/godot/fa-b_overall.png)](evidence/godot/fa-b_overall.png) |
 | [北](evidence/godot/fa-a_north.png) · [南](evidence/godot/fa-a_south.png) · [东](evidence/godot/fa-a_east.png) · [西](evidence/godot/fa-a_west.png) · [10 m 片段](evidence/godot/fa-a_detail10m.png) · [转角](evidence/godot/fa-a_corner.png) · [交通节点](evidence/godot/fa-a_node.png) · [首层](evidence/godot/fa-a_ground.png) · [屋顶](evidence/godot/fa-a_roof.png) · [B4–B1 技术图](evidence/godot/fa-a_b4.png) | [北](evidence/godot/fa-b_north.png) · [南](evidence/godot/fa-b_south.png) · [东](evidence/godot/fa-b_east.png) · [西](evidence/godot/fa-b_west.png) · [10 m 片段](evidence/godot/fa-b_detail10m.png) · [转角](evidence/godot/fa-b_corner.png) · [交通节点](evidence/godot/fa-b_node.png) · [首层](evidence/godot/fa-b_ground.png) · [屋顶](evidence/godot/fa-b_roof.png) · [B4–B1 技术图](evidence/godot/fa-b_b4.png) |
+
+## 11 月 15 日扶手接合对比
+
+左图为 11 月 10 日发布稿，右图为本轮同机位。端头回接到立柱，折返管连续过渡，B 款补齐折板转向连接。
+
+| 原稿 | 本轮 |
+|---|---|
+| [![原 HR-A](evidence/godot/hr-a_rail_before_20261115.png)](evidence/godot/hr-a_rail_before_20261115.png) | [![修后 HR-A](evidence/godot/hr-a_rail.png)](evidence/godot/hr-a_rail.png) |
+| [![原 HR-B](evidence/godot/hr-b_rail_before_20261115.png)](evidence/godot/hr-b_rail_before_20261115.png) | [![修后 HR-B](evidence/godot/hr-b_rail.png)](evidence/godot/hr-b_rail.png) |
+
+[几何与净宽检查](evidence/handrail_fit_20261115.json)
 
 ## ST-01 楼梯照明与适用范围
 

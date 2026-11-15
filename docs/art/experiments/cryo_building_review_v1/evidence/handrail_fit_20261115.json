@@ -1,0 +1,105 @@
+{
+  "variants": {
+    "HR-A": {
+      "closed_meshes_checked": 101,
+      "tube_self_intersections": 0,
+      "structural_posts": [
+        {
+          "object": "HR-A_Lower_Post_00",
+          "tread": 1,
+          "bottom_z_m": 0.15833333134651184
+        },
+        {
+          "object": "HR-A_Lower_Post_01",
+          "tread": 4,
+          "bottom_z_m": 0.6333333253860474
+        },
+        {
+          "object": "HR-A_Lower_Post_02",
+          "tread": 8,
+          "bottom_z_m": 1.2666666507720947
+        },
+        {
+          "object": "HR-A_Lower_Post_03",
+          "tread": 11,
+          "bottom_z_m": 1.7416666746139526
+        },
+        {
+          "object": "HR-A_Upper_Post_00",
+          "tread": 11,
+          "bottom_z_m": 3.6416666507720947
+        },
+        {
+          "object": "HR-A_Upper_Post_01",
+          "tread": 8,
+          "bottom_z_m": 3.1666667461395264
+        },
+        {
+          "object": "HR-A_Upper_Post_02",
+          "tread": 4,
+          "bottom_z_m": 2.5333333015441895
+        },
+        {
+          "object": "HR-A_Upper_Post_03",
+          "tread": 1,
+          "bottom_z_m": 2.058333396911621
+        }
+      ],
+      "lower_grip_clear_width_m": 1.616,
+      "upper_grip_clear_width_m": 1.616,
+      "target_clear_width_m": 1.8,
+      "status": "independent candidate, clearance conflict remains"
+    },
+    "HR-B": {
+      "closed_meshes_checked": 48,
+      "tube_self_intersections": 0,
+      "structural_posts": [
+        {
+          "object": "HR-B_Lower_Post_00",
+          "tread": 1,
+          "bottom_z_m": 0.15833333134651184
+        },
+        {
+          "object": "HR-B_Lower_Post_01",
+          "tread": 4,
+          "bottom_z_m": 0.6333333253860474
+        },
+        {
+          "object": "HR-B_Lower_Post_02",
+          "tread": 8,
+          "bottom_z_m": 1.2666666507720947
+        },
+        {
+          "object": "HR-B_Lower_Post_03",
+          "tread": 11,
+          "bottom_z_m": 1.7416666746139526
+        },
+        {
+          "object": "HR-B_Upper_Post_00",
+          "tread": 11,
+          "bottom_z_m": 3.6416666507720947
+        },
+        {
+          "object": "HR-B_Upper_Post_01",
+          "tread": 8,
+          "bottom_z_m": 3.1666667461395264
+        },
+        {
+          "object": "HR-B_Upper_Post_02",
+          "tread": 4,
+          "bottom_z_m": 2.5333333015441895
+        },
+        {
+          "object": "HR-B_Upper_Post_03",
+          "tread": 1,
+          "bottom_z_m": 2.058333396911621
+        }
+      ],
+      "lower_grip_clear_width_m": 1.618,
+      "upper_grip_clear_width_m": 1.6182,
+      "target_clear_width_m": 1.8,
+      "status": "independent candidate, clearance conflict remains"
+    }
+  },
+  "units": "metres"
+}

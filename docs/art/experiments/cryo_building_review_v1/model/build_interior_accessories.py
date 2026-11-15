@@ -6,7 +6,7 @@ trim islands narrower than one texel. Door fronts share one exact W/H projection
 """
 from pathlib import Path
 import json, math, sys
-from mathutils import Vector
+from mathutils import Quaternion, Vector
 import bpy
 
 HERE=Path(__file__).resolve().parent; ROOT=HERE.parents[4]; OUT=ROOT/'assets/art/cryo_building_review_v1/models'
@@ -64,15 +64,30 @@ def prism_xz(c,n,profile,y,Y,material,side_origin=None,**kw):
     return mesh(c,n,v,faces,[material],face_uv=maps,**kw)
 
 def tube(c,n,points,rx=.021,rz=None):
-    rz=rx if rz is None else rz; sides=12;v=[]; lengths=[0.]
+    rz=rx if rz is None else rz
+    sides=12
+    v=[]
+    lengths=[0.]
     P=[Vector(p) for p in points]
-    for a,b in zip(P,P[1:]):lengths.append(lengths[-1]+(b-a).length)
+    for a,b in zip(P,P[1:]):
+        assert (b-a).length>1e-6,(n,a,b)
+        lengths.append(lengths[-1]+(b-a).length)
+    previous_tangent=None
+    side=None
     for i,p in enumerate(P):
         tangent=(P[min(i+1,len(P)-1)]-P[max(i-1,0)]).normalized()
-        ref=Vector((0,0,1)) if abs(tangent.z)<.95 else Vector((0,1,0))
-        u=tangent.cross(ref).normalized();w=tangent.cross(u).normalized()
+        if previous_tangent is None:
+            ref=Vector((0,0,1)) if abs(tangent.z)<.95 else Vector((0,1,0))
+            side=tangent.cross(ref).normalized()
+        else:
+            # Transport the ring along bends without changing its orientation abruptly.
+            side=previous_tangent.rotation_difference(tangent)@side
+            side=(side-tangent*side.dot(tangent)).normalized()
+        up=tangent.cross(side).normalized()
         for j in range(sides):
-            a=2*math.pi*j/sides;v.append(p+u*(rx*math.cos(a))+w*(rz*math.sin(a)))
+            angle=2*math.pi*j/sides
+            v.append(p+side*(rx*math.cos(angle))+up*(rz*math.sin(angle)))
+        previous_tangent=tangent
     faces=[]; native=SIZE['M04']; perimeter=[0.]
     for j in range(sides):perimeter.append(perimeter[-1]+(v[(j+1)%sides]-v[j]).length)
     for i in range(len(P)-1):
@@ -81,17 +96,38 @@ def tube(c,n,points,rx=.021,rz=None):
     faces += [tuple(reversed(range(sides))),tuple(range((len(P)-1)*sides,len(P)*sides))]
     o=mesh(c,n,v,faces,['M04']); uv=o.data.uv_layers.active
     for poly in o.data.polygons[:-2]:
+        poly.use_smooth=True
         i,j=divmod(poly.index,sides); r0=perimeter[j]*PX/native[1]; r1=perimeter[j+1]*PX/native[1]; u0=lengths[i]*PX/native[0];u1=lengths[i+1]*PX/native[0]
         for li,pair in zip(poly.loop_indices,[(u0,r0),(u0,r1),(u1,r1),(u1,r0)]):uv.data[li].uv=pair
     return o
 
 def smooth_corners(p,r=.12):
-    p=[Vector(q) for q in p];out=[p[0]]
+    p=[Vector(q) for q in p]
+    out=[p[0]]
     for a,b,c in zip(p,p[1:],p[2:]):
-        left=(a-b).normalized();right=(c-b).normalized(); d=min(r,(a-b).length*.4,(c-b).length*.4)
-        x=b+left*d;y=b+right*d
-        for j in range(5):t=j/4;out.append((1-t)**2*x+2*(1-t)*t*b+t*t*y)
-    out.append(p[-1]);return out
+        incoming=(b-a).normalized()
+        outgoing=(c-b).normalized()
+        angle=math.acos(max(-1.,min(1.,incoming.dot(outgoing))))
+        if angle<1e-5:
+            out.append(b)
+            continue
+        trim=min(r*math.tan(angle/2),(b-a).length*.45,(c-b).length*.45)
+        radius=trim/math.tan(angle/2)
+        start=b-incoming*trim
+        normal=incoming.cross(outgoing).normalized()
+        center=start+normal.cross(incoming)*radius
+        arc_start=start-center
+        for j in range(5):
+            out.append(center+Quaternion(normal,angle*j/4)@arc_start)
+    out.append(p[-1])
+    return out
+
+def stair_return(y0,y1,height):
+    """A semicircular return contained in the existing 200 mm stairwell gap."""
+    radius=(y1-y0)/2
+    center_y=(y0+y1)/2
+    return [(X1+radius*math.cos(angle),center_y+radius*math.sin(angle),height)
+            for angle in [-math.pi/2+i*math.pi/12 for i in range(13)]]
 
 def export(c,n):
     bpy.ops.object.select_all(action='DESELECT')
@@ -188,18 +224,20 @@ def run_pickets(c,name,x,X,y,z,Z,kind):
     # pickets, so their ends meet real hardware rather than the abstract slope.
     material='M04' if kind=='A' else 'M05-D'
     inside_y=y+(-.071 if ascending else .071)
-    for i,step in enumerate((0,3,6,9,10)):
-        u=x+(step+.5)*.30
+    end_inset=.06
+    for i,offset in enumerate((end_inset,1.05,2.15,length-end_inset)):
+        u=x+offset
         base=tread(u)
         top=slope(u)+1.10
         post_y=y if kind=='A' else y+(.012 if ascending else -.012)
-        box(c,f'{name}_Post_{i:02}',(u-.0175,u+.0175,post_y-.0175,post_y+.0175,base,top),material)
+        half_x,half_y=(.0175,.0175) if kind=='A' else (.010,.020)
+        box(c,f'{name}_Post_{i:02}',(u-half_x,u+half_x,post_y-half_y,post_y+half_y,base,top),material)
         box(c,f'{name}_Foot_{i:02}',(u-.031,u+.031,post_y-.028,post_y+.028,base-.002,base+.009),material)
         bracket_y=sorted((post_y,inside_y))
         grip_z=slope(u)+.90
         box(c,f'{name}_GripBracket_{i:02}',(u-.013,u+.013,*bracket_y,grip_z-.013,grip_z+.004),'M04')
     if kind=='A':
-        tube(c,f'{name}_LowerRail',[(x,y,z+.195),(X,y,Z+.195)],.014)
+        tube(c,f'{name}_LowerRail',[(x+end_inset,y,slope(x+end_inset)+.195),(X-end_inset,y,slope(X-end_inset)+.195)],.014)
         for i in range(1,round(length/.10)):
             u=x+i*.10
             v=slope(u)
@@ -219,6 +257,14 @@ def run_pickets(c,name,x,X,y,z,Z,kind):
             prism_xz(c,f'{name}_FoldedGuard_{i:02}',profile,y-.0015,y+.0015,'M05-D')
             prism_xz(c,f'{name}_Return_{i:02}',[(xa,za+1.097),(xb,zb+1.097),(xb,zb+1.10),(xa,za+1.10)],y-.015,y+.015,'M05-D')
 
+def grip_end(y,base_z):
+    """Finish the open entrance end at its terminal post."""
+    x=X0+.06
+    rise_offset=.06*1.9/(X1-X0)
+    height=base_z+(.90+rise_offset if y<1 else .90-rise_offset)
+    inner_y=.829 if y<1 else 1.171
+    return (x,y,height),(x,inner_y,height)
+
 for variant in ('A','B'):
     c=group('HR-'+variant)
     # Both shared wall grips extend along full flights; ends return to walls.
@@ -229,11 +275,19 @@ for variant in ('A','B'):
         for side,wall_y,grip_y,h in [('Lower',-.90,-.829,.90+rise),('Upper',2.90,2.829,4.70-rise)]:
             a,b=sorted((wall_y,grip_y))
             box(c,f'HR-{variant}_{side}_WallBracket_{i:02}',(u-.014,u+.014,a,b,h-.017,h+.003),'M04')
-    inside=[(X0,.829,.9),(X1,.829,2.8),(X1+.14,.9,2.8),(X1+.14,1.1,2.8),(X1,1.171,2.8),(X0,1.171,4.7)]
-    tube(c,f'HR-{variant}_InnerGrip',smooth_corners(inside,.055),.021 if variant=='A' else .020,.021 if variant=='A' else .016)
+    lower_end,lower_start=grip_end(.90,0.)
+    upper_end,upper_start=grip_end(1.10,3.8)
+    inside=[lower_end,lower_start,*stair_return(.829,1.171,2.8),upper_start,upper_end]
+    tube(c,f'HR-{variant}_InnerGrip',smooth_corners(inside,.025),.021 if variant=='A' else .020,.021 if variant=='A' else .016)
     for side,y,z,Z in [('Lower',.90,0,1.9),('Upper',1.10,3.8,1.9)]:
         run_pickets(c,'HR-'+variant+'_'+side,X0,X1,y,z,Z,variant)
-    if variant=='A':tube(c,'HR-A_GuardTop',smooth_corners([(X0,.9,1.1),(X1,.9,3.0),(X1+.1,1.,3.0),(X1,1.1,3.0),(X0,1.1,4.9)],.06),.018)
+    if variant=='A':
+        delta=.06*1.9/(X1-X0)
+        top=[(X0+.06,.90,1.10+delta),*stair_return(.90,1.10,3.0),(X0+.06,1.10,4.90-delta)]
+        tube(c,'HR-A_GuardTop',smooth_corners(top,.025),.018)
+    else:
+        box(c,'HR-B_TurnGuard',(X1-.0015,X1+.0015,.90,1.10,1.92,3.0),'M05-D')
+        box(c,'HR-B_TurnGuardFold',(X1-.015,X1+.015,.90,1.10,2.997,3.0),'M05-D')
     export(c,'HR-'+variant)
 
 def door(id,W,H,ratios):
@@ -297,7 +351,7 @@ def door(id,W,H,ratios):
 
 doors=[door('FD-A',1.8,2.4,[.5,.5]),door('FD-B',1.8,2.4,[.65,.35]),door('EL-A',1.4,2.4,[.5,.5]),door('EL-B',1.4,2.4,[1/3]*3),door('EN-A',1.8,2.4,[.5,.5]),door('EN-B',1.8,2.4,[.5,.5])]
 c=group('K-01');box(c,'K01FloorSign',(-.15,.15,-.02,.02,1.4,1.58),'M05-D');box(c,'K01ExitSign',(-.18,.18,-.02,.02,1.92,2.04),'M05-D');box(c,'K01Coping',(-1,1,-.06,.06,3,3.06),'M07');box(c,'K01MaintenanceCover',(-.15,.15,-.02,.02,.5,1),'M05-D');export(c,'K-01_accessories')
-record={'doors':doors,'stair_bounds_m':{'x':[-3.45,3.62],'y':[-1.09,3.09],'floor_z':[0,3.8]},'stair':{'steps_per_run':11,'risers_per_run':12,'rise_m':RISE,'run_m':3.30,'width_m':1.8,'top_nosing_width_m':.045,'front_fold_m':.01,'turn_landing_m':[1.8,3.8]},'nominal_walkable_flight_before_accessories_m':1.8,'measured_continuous_grip_inner_edges_clear_m':{'HR-A':1.616,'HR-B':1.617},'clearance_status':'Both isolated HR candidates encroach on frozen nominal 1.8m width. No walls or route changed. Not approved to install.', 'light_nodes':['L01_ZONE_LOWER','L01_ZONE_TURN','L01_ZONE_UPPER','L01_ZONE_FLOOR'],'godot_motion_waypoints':[[-3.6,0,0],[-1.65,0,0],[1.65,1.9,0],[2.62,1.9,0],[2.62,1.9,-2.0],[1.65,1.9,-2],[-1.65,3.8,-2],[-3.25,3.8,-2]],'limits':['EN ASSET_ONLY: no frozen 1F exterior exit anchor','No formal route installation, no fire certification','Independent realtime lighting; no lightmap data reused']}
+record={'doors':doors,'stair_bounds_m':{'x':[-3.45,3.62],'y':[-1.09,3.09],'floor_z':[0,3.8]},'stair':{'steps_per_run':11,'risers_per_run':12,'rise_m':RISE,'run_m':3.30,'width_m':1.8,'top_nosing_width_m':.045,'front_fold_m':.01,'turn_landing_m':[1.8,3.8]},'nominal_walkable_flight_before_accessories_m':1.8,'measured_continuous_grip_inner_edges_clear_m':{'HR-A':1.616,'HR-B':1.618},'clearance_status':'Both isolated HR candidates encroach on frozen nominal 1.8m width. No walls or route changed. Not approved to install.', 'light_nodes':['L01_ZONE_LOWER','L01_ZONE_TURN','L01_ZONE_UPPER','L01_ZONE_FLOOR'],'godot_motion_waypoints':[[-3.6,0,0],[-1.65,0,0],[1.65,1.9,0],[2.62,1.9,0],[2.62,1.9,-2.0],[1.65,1.9,-2],[-1.65,3.8,-2],[-3.25,3.8,-2]],'limits':['EN ASSET_ONLY: no frozen 1F exterior exit anchor','No formal route installation, no fire certification','Independent realtime lighting; no lightmap data reused']}
 (HERE/'interior_manifest.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
 sys.path.insert(0,str(HERE))
 from bind_preview_materials import bind

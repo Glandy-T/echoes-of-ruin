@@ -15,7 +15,7 @@ def write(name,content):
 
 pairs=[
  ('HR 扶手',('HR-A','连续圆管＋细竖杆'),('HR-B','折板＋独立握持轨'),'rail',
-  [('occupied','感应增亮'),('baseline','保底光'),('side','下段'),('upper','上段'),('neutral','中性检查')]),
+  [('occupied','感应增亮'),('baseline','保底光'),('side','下段'),('upper','上段'),('neutral','中性检查'),('turn','折返接头'),('end','端部接头')]),
  ('FD 楼梯分区门',('FD-A','等宽双扇'),('FD-B','65/35＋窄侧检修带'),'closed',
   [('rear','室内侧'),('release','机械释放'),('open90','打开 90°'),('sweep','独立样段扫掠')]),
  ('EL 电梯入口',('EL-A','两片中分'),('EL-B','三片侧收套叠'),'caution',
@@ -35,7 +35,7 @@ limits=[
 records=read(f'{cap}/capture_record.json')
 probes=read(f'{cap}/runtime_probes.json')
 shots={r['file']:r for r in records}
-assert len(shots)==177 and all(not r['missing_textures'] for r in records)
+assert len(shots)==181 and all(not r['missing_textures'] for r in records)
 assert all(p['closed_leaf_blocks'] and (
     p['hinge_count']==2 and p['open_center_ray_clear'] if 'hinge_count' in p else
     p['capsule_crosses_caution'] and p['capsule_stops_at_closed_leaf'] and not p['auth_or_operation']
@@ -70,6 +70,21 @@ for title,a,b,first,others in pairs:
         detail=''.join(f'<a href="{shot(id,v)}">{label}</a>' for v,label in others)
         web += [f'<article><strong>{id} · {description}</strong><a href="{file}"><img src="{file}" width="1280" height="720" loading="lazy" alt="{id} Godot"></a><div class="actions">{detail}</div></article>']
     web+=['</div></section>']
+
+md+=['## 11 月 15 日扶手接合对比','',
+     '左图为 11 月 10 日发布稿，右图为本轮同机位。端头回接到立柱，折返管连续过渡，B 款补齐折板转向连接。','',
+     '| 原稿 | 本轮 |','|---|---|']
+web+=['<section id="handrail-revision"><h2>11 月 15 日扶手接合对比</h2><p>左图为 11 月 10 日发布稿，右图为本轮同机位。端头、折返管和折板转向连接均可放大检查。</p>']
+for variant in ('a','b'):
+    old=f'evidence/godot/hr-{variant}_rail_before_20261115.png'
+    current=shot(f'HR-{variant.upper()}','rail')
+    md+=['| '+f'[![原 HR-{variant.upper()}]({old})]({old}) | [![修后 HR-{variant.upper()}]({current})]({current}) |']
+    web+=['<div class="pair">',
+          f'<article><strong>原 HR-{variant.upper()}</strong><a href="{old}"><img src="{old}" loading="lazy" alt="原扶手"></a></article>',
+          f'<article><strong>修后 HR-{variant.upper()}</strong><a href="{current}"><img src="{current}" loading="lazy" alt="修后扶手"></a></article>',
+          '</div>']
+md+=['','[几何与净宽检查](evidence/handrail_fit_20261115.json)','']
+web+=['<p><a href="evidence/handrail_fit_20261115.json">几何与净宽检查</a></p></section>']
 
 motion='evidence/stair_motion_28s.gif'
 st=shot('ST-01','whole')
@@ -117,6 +132,7 @@ manifest={
   'capture_count':len(shots),'still_count':len(shots)-112,'motion_frame_count':112,
   'capture_details':f'{cap}/capture_record.json','motion_gif':motion,
   'runtime_probes':f'{cap}/runtime_probes.json','uv0_report':'evidence/uv0_density.json',
+  'handrail_fit_report':'evidence/handrail_fit_20261115.json',
   'usage':'source/usage_summary.json','texture_provenance':'source/material_packaging.json',
   'asset_hashes':{f'{folder}/{p.name}':sha256(p.read_bytes()).hexdigest() for folder in ('models','textures') for p in sorted((base/assets/folder).glob('*.glb' if folder=='models' else '*.png'))},
 }
