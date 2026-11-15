@@ -1,6 +1,6 @@
 # 继续制作交接｜2026-11-15
 
-11 月 15 日在家继续，从**标准休眠楼候选审图**完善了两款扶手的端部和折返接合。当前先看同机位前后对比及新增的接头近景，再确认造型。本轮基于 [GitHub main `dea95c4`](https://github.com/Glandy-T/echoes-of-ruin/commit/dea95c47c3b854043f57ede6d923c080fb9cd7e2)继续，闭合网格、管件自身相交和立柱落脚检查已留档。[本轮检查](experiments/cryo_building_review_v1/evidence/handrail_fit_20261115.json)
+11 月 15 日在家继续，修过 A/B 的端部与折返。用户仍觉得造型“好现代”，本轮已增加[一体化护栏 C 的单段灰模](experiments/cryo_handrail_integrated_v1/preview.md)，与 A/B 使用相同机位和灰色光照比较。下一步先看 C 的整体轮廓、握持凹槽和转角，再决定细化方向。C 的厚度暂试 80 mm，握持边高 0.90 m、栏顶高 1.10 m，完整净宽与双跑安装待整合检查。原 A/B 的接合与落脚结果仍可查[几何检查](experiments/cryo_building_review_v1/evidence/handrail_fit_20261115.json)。
 
 ## 继续时先打开
 

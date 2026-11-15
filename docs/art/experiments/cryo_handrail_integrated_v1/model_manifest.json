@@ -1,0 +1,423 @@
+{
+  "source_commit": "1133379c9ba4330081a153424c369c4e180023f9",
+  "run_m": 3.3,
+  "rise_m": 1.9,
+  "guard_height_above_slope_m": 1.1,
+  "gripping_edge_above_slope_m": 0.9,
+  "C_body_thickness_m": 0.08,
+  "C_walkway_intrusion_m": 0,
+  "C_module_length_m": 1.1,
+  "C_joint_width_m": 0.006,
+  "C_hand_recess_depth_m": 0.067,
+  "C_hand_recess_height_m": 0.12,
+  "surface": "untextured shape comparison",
+  "layout": "one lower flight and a return cut at the shaft centre",
+  "limits": "Shape candidate. Wall-side grip, formal net width and full landing integration require a later pass.",
+  "checks": [
+    {
+      "object": "SAMPLE_HR-A_Lower_WallBracket_00",
+      "closed": true,
+      "volume_m3": 3.975994680406256e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_WallBracket_01",
+      "closed": true,
+      "volume_m3": 3.9760183792039244e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_WallBracket_02",
+      "closed": true,
+      "volume_m3": 3.975994680406153e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_WallBracket_03",
+      "closed": true,
+      "volume_m3": 3.975994680408684e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_InnerGrip",
+      "closed": true,
+      "volume_m3": 0.00537820947756749
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Post_00",
+      "closed": true,
+      "volume_m3": 0.001195859595381897
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Foot_00",
+      "closed": true,
+      "volume_m3": 3.81920440826525e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_GripBracket_00",
+      "closed": true,
+      "volume_m3": 3.1382054863950126e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Post_01",
+      "closed": true,
+      "volume_m3": 0.0013122368778793348
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Foot_01",
+      "closed": true,
+      "volume_m3": 3.8191903892558e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_GripBracket_01",
+      "closed": true,
+      "volume_m3": 3.138187289108518e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Post_02",
+      "closed": true,
+      "volume_m3": 0.0013122356144856665
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Foot_02",
+      "closed": true,
+      "volume_m3": 3.819212919807523e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_GripBracket_02",
+      "closed": true,
+      "volume_m3": 3.138194483370821e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Post_03",
+      "closed": true,
+      "volume_m3": 0.0014991398757739534
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Foot_03",
+      "closed": true,
+      "volume_m3": 3.8191733661513405e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_GripBracket_03",
+      "closed": true,
+      "volume_m3": 3.138194483370122e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_LowerRail",
+      "closed": true,
+      "volume_m3": 0.0021576220262940014
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_01",
+      "closed": true,
+      "volume_m3": 9.77398281093782e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_02",
+      "closed": true,
+      "volume_m3": 9.773983454666816e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_03",
+      "closed": true,
+      "volume_m3": 9.773982810937805e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_04",
+      "closed": true,
+      "volume_m3": 9.773983454666846e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_05",
+      "closed": true,
+      "volume_m3": 9.773983132802235e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_06",
+      "closed": true,
+      "volume_m3": 9.773983454666811e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_07",
+      "closed": true,
+      "volume_m3": 9.774006503789065e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_08",
+      "closed": true,
+      "volume_m3": 9.774006503789107e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_09",
+      "closed": true,
+      "volume_m3": 9.774007147519777e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_10",
+      "closed": true,
+      "volume_m3": 9.774006503789108e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_11",
+      "closed": true,
+      "volume_m3": 9.77400714751984e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_12",
+      "closed": true,
+      "volume_m3": 9.77400650411072e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_13",
+      "closed": true,
+      "volume_m3": 9.7740071478412e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_14",
+      "closed": true,
+      "volume_m3": 9.774006504030216e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_15",
+      "closed": true,
+      "volume_m3": 9.77400779141112e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_16",
+      "closed": true,
+      "volume_m3": 9.77400097753358e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_17",
+      "closed": true,
+      "volume_m3": 9.774000977533623e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_18",
+      "closed": true,
+      "volume_m3": 9.774007791411195e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_19",
+      "closed": true,
+      "volume_m3": 9.774007791491413e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_20",
+      "closed": true,
+      "volume_m3": 9.774006504110607e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_21",
+      "closed": true,
+      "volume_m3": 9.774006504110661e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_22",
+      "closed": true,
+      "volume_m3": 9.774005216327864e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_23",
+      "closed": true,
+      "volume_m3": 9.774007791250351e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_24",
+      "closed": true,
+      "volume_m3": 9.77400650378923e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_25",
+      "closed": true,
+      "volume_m3": 9.7740065037891e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_26",
+      "closed": true,
+      "volume_m3": 9.774005216328012e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_27",
+      "closed": true,
+      "volume_m3": 9.77398409839587e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_28",
+      "closed": true,
+      "volume_m3": 9.773984098395768e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_29",
+      "closed": true,
+      "volume_m3": 9.773982810937459e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_30",
+      "closed": true,
+      "volume_m3": 9.773982810937698e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_31",
+      "closed": true,
+      "volume_m3": 9.77398409839587e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_Lower_Picket_32",
+      "closed": true,
+      "volume_m3": 9.7739828109376e-05
+    },
+    {
+      "object": "SAMPLE_HR-A_GuardTop",
+      "closed": true,
+      "volume_m3": 0.003785629675692465
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_WallBracket_00",
+      "closed": true,
+      "volume_m3": 3.975994680406256e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_WallBracket_01",
+      "closed": true,
+      "volume_m3": 3.9760183792039244e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_WallBracket_02",
+      "closed": true,
+      "volume_m3": 3.975994680406153e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_WallBracket_03",
+      "closed": true,
+      "volume_m3": 3.975994680408684e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_InnerGrip",
+      "closed": true,
+      "volume_m3": 0.0039025682959045425
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Post_00",
+      "closed": true,
+      "volume_m3": 0.0007809682016957885
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Foot_00",
+      "closed": true,
+      "volume_m3": 3.819204408265185e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_GripBracket_00",
+      "closed": true,
+      "volume_m3": 3.668607638171678e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Post_01",
+      "closed": true,
+      "volume_m3": 0.0008569706574337154
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Foot_01",
+      "closed": true,
+      "volume_m3": 3.8191903892553336e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_GripBracket_01",
+      "closed": true,
+      "volume_m3": 3.668586365281301e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Post_02",
+      "closed": true,
+      "volume_m3": 0.0008569680081000602
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Foot_02",
+      "closed": true,
+      "volume_m3": 3.819212919807062e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_GripBracket_02",
+      "closed": true,
+      "volume_m3": 3.6685947754774514e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Post_03",
+      "closed": true,
+      "volume_m3": 0.0009790284556773013
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Foot_03",
+      "closed": true,
+      "volume_m3": 3.819173366150397e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_GripBracket_03",
+      "closed": true,
+      "volume_m3": 3.668594775479278e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_FoldedGuard_00",
+      "closed": true,
+      "volume_m3": 0.003373956533492016
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Return_00",
+      "closed": true,
+      "volume_m3": 9.90007914313066e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_FoldedGuard_01",
+      "closed": true,
+      "volume_m3": 0.0035639540297995737
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Return_01",
+      "closed": true,
+      "volume_m3": 9.899686288504509e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_FoldedGuard_02",
+      "closed": true,
+      "volume_m3": 0.0037539513231560537
+    },
+    {
+      "object": "SAMPLE_HR-B_Lower_Return_02",
+      "closed": true,
+      "volume_m3": 9.899685752072767e-05
+    },
+    {
+      "object": "SAMPLE_HR-B_TurnGuard",
+      "closed": true,
+      "volume_m3": 0.00032400235605301725
+    },
+    {
+      "object": "SAMPLE_HR-B_TurnGuardFold",
+      "closed": true,
+      "volume_m3": 9.000056505129028e-06
+    },
+    {
+      "object": "HR_C_PrefabModule_1",
+      "closed": true,
+      "volume_m3": 0.1036819121128828
+    },
+    {
+      "object": "HR_C_PrefabModule_2",
+      "closed": true,
+      "volume_m3": 0.10339837403608385
+    },
+    {
+      "object": "HR_C_PrefabModule_3",
+      "closed": true,
+      "volume_m3": 0.11235783532540729
+    },
+    {
+      "object": "HR_C_JointBacking",
+      "closed": true,
+      "volume_m3": 0.042074957741799146
+    },
+    {
+      "object": "HR_C_ClosedEntranceEnd",
+      "closed": true,
+      "volume_m3": 0.006311997381803082
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 [本地并排审图](preview.html) · [GitHub 并排审图](preview.md) · [逐图相机、状态和交付清单](review_manifest.json)
 
+11 月 15 日新增[一体化护栏单段灰模对比](../cryo_handrail_integrated_v1/preview.md)，用现有 A/B 和新 C 比较未来设施的轮廓。该形体试作单独审看。
+
 以 GitHub main 的 `f7fa9e8342f77106daad9b9199f34333fca53c89`、[建筑美术执行包](../../CRYO_BUILDING_ART_PRODUCTION_PACK.md) 和冻结标准层 `v3_trim` 为基线。交付五组 A/B 十款造型，以及 ST-01 双跑样段和 K-01 共用配件。所有候选均为独立审图，等待用户选定。Room 1、正式 F5、4F v6、正式交互和主角工作没有替换。
 
 | 组成 | 入口 |

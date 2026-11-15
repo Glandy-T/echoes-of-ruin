@@ -1,0 +1,362 @@
+[
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.975884, 0.0, 0.21829), Y: (0.103617, 0.880161, -0.463227), Z: (-0.19213, 0.474675, 0.858935), O: (-0.6, 3.7, 3.4)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "a_overview.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 3.59999990463257,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "A",
+		"view": "overview",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.998053, 0.0, 0.062378), Y: (0.012699, 0.97906, -0.203177), Z: (-0.061072, 0.203574, 0.977153), O: (-0.05, 2.4, 1.5)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "a_grip.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 1.35000002384186,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "A",
+		"view": "grip",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.665615, 0.0, -0.746296), Y: (-0.325173, 0.900084, -0.290019), Z: (0.671729, 0.435716, 0.599109), O: (3.4, 3.8, 0.75)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "a_turn.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 1.89999997615814,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "A",
+		"view": "turn",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "a_hero.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 7.65000009536743,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "A",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.975884, 0.0, 0.21829), Y: (0.103617, 0.880161, -0.463227), Z: (-0.19213, 0.474675, 0.858935), O: (-0.6, 3.7, 3.4)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "b_overview.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 3.59999990463257,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "B",
+		"view": "overview",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.998053, 0.0, 0.062378), Y: (0.012699, 0.97906, -0.203177), Z: (-0.061072, 0.203574, 0.977153), O: (-0.05, 2.4, 1.5)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "b_grip.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 1.35000002384186,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "B",
+		"view": "grip",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.665615, 0.0, -0.746296), Y: (-0.325173, 0.900084, -0.290019), Z: (0.671729, 0.435716, 0.599109), O: (3.4, 3.8, 0.75)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "b_turn.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 1.89999997615814,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "B",
+		"view": "turn",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "b_hero.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 7.65000009536743,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "B",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.975884, 0.0, 0.21829), Y: (0.103617, 0.880161, -0.463227), Z: (-0.19213, 0.474675, 0.858935), O: (-0.6, 3.7, 3.4)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "c_overview.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 3.59999990463257,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "C",
+		"view": "overview",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.998053, 0.0, 0.062378), Y: (0.012699, 0.97906, -0.203177), Z: (-0.061072, 0.203574, 0.977153), O: (-0.05, 2.4, 1.5)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "c_grip.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 1.35000002384186,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "C",
+		"view": "grip",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (0.665615, 0.0, -0.746296), Y: (-0.325173, 0.900084, -0.290019), Z: (0.671729, 0.435716, 0.599109), O: (3.4, 3.8, 0.75)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "c_turn.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 1.89999997615814,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "C",
+		"view": "turn",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	},
+	{
+		"albedo": "same gray for all geometry",
+		"ambient_energy": 0.379999995231628,
+		"camera": "[X: (-0.059497, 0.0, 0.998228), Y: (0.409284, 0.912081, 0.024394), Z: (-0.910465, 0.410011, -0.054266), O: (-7.1, 5.9, -1.45)]",
+		"cut": "single lower flight and return at shaft centre",
+		"file": "c_hero.png",
+		"light_energy": 0.270000010728836,
+		"ortho_m": 7.65000009536743,
+		"point_light_energies": [
+			0.272000014781952,
+			0.272000014781952,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065,
+			0.0544000044465065
+		],
+		"resolution": [
+			1280,
+			720
+		],
+		"sample": "C",
+		"view": "hero",
+		"zone_factors": [
+			1.0,
+			0.2,
+			0.2,
+			0.2
+		]
+	}
+]
