@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-15",
+  "route": "Official PixelLab Creator in Chrome extension; Edit Image Pro Flash",
+  "input_selection": "Official Creator gallery: project-owned [CRYO-M06-01-R1], same native image as project_mineral_input.png",
+  "upload_blocker": "Chrome extension setFiles reported Allow access to file URLs required. No native-desktop fallback. Used the already-uploaded project-owned gallery entry instead.",
+  "prompt": "prompt.txt",
+  "native_output_px": [256,256],
+  "outputs": ["pixellab_C_BODY_raw.png"],
+  "raw_sha256": "991812cbbac1b2961ed2b69b99bc8afdd79a07e2fc42b33ee261a97c81b9efec",
+  "download": "Official Download image button. Browser download event timed out; actual PNG found in Downloads and copied after verification.",
+  "monthly_allowance": 2000,
+  "monthly_used_before": 0,
+  "monthly_used_after": 9,
+  "consumed": 9,
+  "remaining": 1991,
+  "renewal_display": "Dec 13",
+  "new_purchases": 0,
+  "pixel_canals_content_uploaded": false,
+  "packaging": "Original PixelLab painting is unchanged. C_SLOT.png uses identical pixels; recessed liner has a separate slightly darker material multiplier. No procedural ageing. Empty Aseprite refinement layer reserved.",
+  "proof": "../evidence/pixellab_result.jpg"
+}

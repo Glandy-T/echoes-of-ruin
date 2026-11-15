@@ -1,25 +1,25 @@
 # 继续制作交接｜2026-11-15
 
-11 月 15 日在家继续，用户认为 A/B 过于现代后，已完成[一体化护栏 C 的单段灰模](experiments/cryo_handrail_integrated_v1/preview.md)。用户认可 C，反馈“可以，这个更舒服点看起来”。后续以 C 的一体化栏体、内凹握持边和连续转角为造型基线。下一步完善完整净宽、墙侧握轨、双跑接合与像素表面。C 的厚度暂试 80 mm，握持边高 0.90 m、栏顶高 1.10 m。
+11 月 15 日已沿用户认可的 C 轮廓完成[一体化护栏完整双跑候选](experiments/cryo_handrail_full_v1/preview.md)：两跑、转台、上下平台、墙内握槽及 PixelLab 像素表面。保留原踏步、平台和 L01 灯条几何，Godot 两跑及转台实测净宽约 **1.80 m**。本轮完整接合与材质待审，正式场景尚未替换；[原单段灰模](experiments/cryo_handrail_integrated_v1/preview.md)继续保留作造型基线。
 
 ## 继续时先打开
 
 1. 在学校副本检查 `git status --short --branch`，再同步 GitHub `main`。如果有同路径的本机差异，先保留并比较，审图以仓库提交为准。
-2. 打开[一体化护栏对比](experiments/cryo_handrail_integrated_v1/preview.md)或[本地 HTML](experiments/cryo_handrail_integrated_v1/preview.html)，先看已认可的 C 和握持槽、转角近景。其他建筑候选继续从[原并排审图](experiments/cryo_building_review_v1/preview.md)查看。
-3. 想实机看灰模时，用 Godot 4.6.2 打开 `scenes/dev/cryo_handrail_integrated_v1.tscn`，按 **F6**。1／2／3 切 A／B／C，↑↓ 切机位。其他建筑候选入口为 `scenes/dev/cryo_building_review_v1.tscn`。
+2. 打开[完整 C 对比](experiments/cryo_handrail_full_v1/preview.md)或[本地 HTML](experiments/cryo_handrail_full_v1/preview.html)，先看双跑整体、握槽及折返。每组为本轮同机位灰模／像素表面。其他建筑候选继续从[原并排审图](experiments/cryo_building_review_v1/preview.md)查看。
+3. 用 Godot 4.6.2 打开 `scenes/dev/cryo_handrail_full_v1.tscn` 按 **F6**。↑↓ 切机位、G 切灰模／像素、空格暂停演示、L 演示灯光故障。其他建筑候选入口为 `scenes/dev/cryo_building_review_v1.tscn`。
 
 ## 当前结果与下一步
 
 | 项目 | 目前状态 | 接手后的判断 |
 |---|---|---|
 | ST-01 楼梯墙面与踏面 | 用户确认建筑很少有人走动，环境老化为主。大面已换成既有 PixelLab 细矿物纹理，旧痕集中在贴着踏步与平台的墙脚。主表面实测 80 原生像素／米。 | 用同机位先确认旧痕的位置和明暗。如果还有喷漆感，指出具体一块的位置，按对应的收边、缝隙或环境来源调整。 |
-| HR-C 一体化扶手 | C 的整体造型已获用户认可，A/B 用于历史比较。 | 完善 C 的墙侧握轨和双跑接合，重测 **1.80 m** 净宽目标，再制作像素表面。 |
+| HR-C 一体化扶手 | 单段轮廓已认可，完整双跑候选已交付；墙侧握槽为真实凹腔，实际有效深度约 65 mm。新 C 表面由 PixelLab 生成，分层源和额度记录已保存。 | 先审本轮完整效果；通过后再安装至实际楼梯间，结合游戏镜头、移动控制器及门的扫掠验证。 |
 | FD、EL、EN、FA | 各两款均已出 Godot 实拍。FD/EN 的独立样段验证了闭门阻挡与开后中心通行；EL 警示条可穿过，断电门叶仍挡住角色。FA 是 16F＋B4 外壳候选。 | 各组可独立挑选。FD 落地前复查整扇扫掠；EN 的首层外门位置待确认。FA 正式布光与远景运动采样仍待验证。 |
 | 4F v6 与主角 | 4F 镜头、显现触发和强度仍待选。主角 3D 已暂停，身体 v2 保留，最后一版 Tripo 白袍未通过，游戏里继续用纸片占位。 | 先看建筑审图。恢复 4F 或主角时从下方的独立入口接手。 |
 
-**扶手继续制作**。沿已认可的 C 轮廓在 Blender 中按楼梯尺寸完善净宽与接点。[C 与旧款灰模工程](experiments/cryo_handrail_integrated_v1/model/handrail_integrated_v1.blend)保留可编辑样段，原 A/B 工程可供追溯。
+**扶手当前交付**。[完整 Blender](experiments/cryo_handrail_full_v1/model/handrail_full_v1.blend)、GLB、分层 Aseprite、12 组同机位对照和 28 秒灯光演示均见[说明](experiments/cryo_handrail_full_v1/README.md)。净宽射线与静态胶囊通过不等于碰撞爬楼控制器已完成。原 A/B 和单段 C 只供追溯。
 
-**美术约束**。楼内优先表现长期静置的积尘、墙脚与接缝沉积，以及轻微的材质变化。室外痕迹要有暴露位置或滴水来源。Pixel Canals 用作观察参考，PixelLab 负责主体绘画，Aseprite 精修保留分层。最近一次实查 PixelLab 用量为 1994/2000，本轮楼梯两次修订均复用已有贴图。下次真正需要生成时再查账户。[材料与岁月痕迹](cryo_building_production/MATERIALS_AND_AGEING.md) · [生成记录](experiments/cryo_building_review_v1/source/usage_summary.json)
+**美术约束**。楼内优先表现长期静置的环境变化，避免人为踩踏和喷漆式污斑。Pixel Canals 用作观察参考，PixelLab 负责主体绘画，Aseprite 精修保留分层。11 月 15 日已核实账户重置：本轮新图消耗 9／2,000，剩 1,991，网页显示下次重置／续费为 12 月 13 日。旧的 1994／2000 属上一期。[本轮生成记录](experiments/cryo_handrail_full_v1/source/generation_record.json) · [材料与岁月痕迹](cryo_building_production/MATERIALS_AND_AGEING.md)
 
 ## 复查、旧入口和本机差异
 
@@ -33,4 +33,4 @@
 
 给学校 Codex 的简短开场
 
-> 同步 echoes-of-ruin 的 GitHub main，读 `docs/art/ROOM1_NEXT_SCHOOL_HANDOFF.md`。一体化护栏 C 的整体造型已认可，沿 C 完善墙侧握轨、双跑接合、净宽和像素表面。
+> 同步 echoes-of-ruin 的 GitHub main，读 `docs/art/ROOM1_NEXT_SCHOOL_HANDOFF.md`。先打开 cryo_handrail_full_v1 审完整 C 双跑候选；正式场景尚未替换，不要从旧 A/B 或单段 C 继续扩展。

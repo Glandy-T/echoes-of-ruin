@@ -1,0 +1,130 @@
+[
+  {
+    "material": "M01_STAIR",
+    "image": "assets/art/cryo_building_review_v1/textures/M06-01.png",
+    "sha256": "6cdd281fbf826c335535cf0903853b87b60e1859541153c5d3d51df58e57dc1b",
+    "native_px": [
+      256,
+      256
+    ],
+    "multiplier": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "M03_STAIR",
+    "image": "assets/art/cryo_building_review_v1/textures/M06-03.png",
+    "sha256": "b6e0b5e880d3ab6b5f419362d3b99357c2fc1445e091be3709e4d0495abbd6e9",
+    "native_px": [
+      256,
+      256
+    ],
+    "multiplier": [
+      0.7058823529411765,
+      0.7294117647058823,
+      0.7529411764705882,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "M01",
+    "image": "assets/art/cryo_building_review_v1/textures/M01.png",
+    "sha256": "5fdb714ffb350f7d503246a0be0453ad6332f6a0d21b2f7fbcbad8f69e36ba18",
+    "native_px": [
+      728,
+      232
+    ],
+    "multiplier": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "M09",
+    "image": "assets/art/cryo_building_review_v1/textures/M09.png",
+    "sha256": "f9c6fc9954a44f8c0c735f7c2323f35468aaab981a292f2a1a546953fe575926",
+    "native_px": [
+      256,
+      5
+    ],
+    "multiplier": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "M05-D",
+    "image": "assets/art/cryo_building_review_v1/textures/M05-D.png",
+    "sha256": "508dfbb1b3c555040a907a3217753d56dcb04e466f2664c1cf70f9ffcdab6fd5",
+    "native_px": [
+      256,
+      256
+    ],
+    "multiplier": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "M10",
+    "image": "assets/art/cryo_building_review_v1/textures/M10.png",
+    "sha256": "561f966cefc33315535251a377a5eea41fcf6daab68215458329d5fb2158253d",
+    "native_px": [
+      192,
+      16
+    ],
+    "multiplier": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "C_BODY",
+    "image": "assets/art/cryo_handrail_full_v1/textures/C_BODY.png",
+    "sha256": "991812cbbac1b2961ed2b69b99bc8afdd79a07e2fc42b33ee261a97c81b9efec",
+    "native_px": [
+      256,
+      256
+    ],
+    "multiplier": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "packed": true
+  },
+  {
+    "material": "C_SLOT",
+    "image": "assets/art/cryo_handrail_full_v1/textures/C_SLOT.png",
+    "sha256": "991812cbbac1b2961ed2b69b99bc8afdd79a07e2fc42b33ee261a97c81b9efec",
+    "native_px": [
+      256,
+      256
+    ],
+    "multiplier": [
+      0.596078431372549,
+      0.6431372549019608,
+      0.6274509803921569,
+      1
+    ],
+    "packed": true
+  }
+]

@@ -1,0 +1,252 @@
+{
+	"capsule_height_m": 1.62,
+	"capsule_radius_m": 0.125,
+	"flight_ray_widths": [
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": -1.5
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": -1.2
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": -0.9
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999983310699,
+			"x": -0.6
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": -0.3
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": 0.0
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999983310699,
+			"x": 0.3
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": 0.6
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999983310699,
+			"x": 0.9
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": 1.2
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "lower",
+			"width_m": 1.79999995231628,
+			"x": 1.5
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": -1.5
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": -1.2
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": -0.9
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999995231628,
+			"x": -0.6
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999983310699,
+			"x": -0.3
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": 0.0
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": 0.3
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": 0.6
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999983310699,
+			"x": 0.9
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": 1.2
+		},
+		{
+			"height_above_tread": 0.45,
+			"run": "upper",
+			"width_m": 1.79999971389771,
+			"x": 1.5
+		}
+	],
+	"scope": "Godot imported triangle collision rays and static capsule poses. Not a movement-controller or stair-climbing acceptance test.",
+	"tread_center_static_poses": [
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": -1.5
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": -1.2
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": -0.9
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": -0.6
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": -0.3
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": 0.0
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": 0.3
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": 0.6
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": 0.9
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": 1.2
+		},
+		{
+			"overlap_count": 0,
+			"run": "lower",
+			"x": 1.5
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": -1.5
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": -1.2
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": -0.9
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": -0.6
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": -0.3
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": 0.0
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": 0.3
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": 0.6
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": 0.9
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": 1.2
+		},
+		{
+			"overlap_count": 0,
+			"run": "upper",
+			"x": 1.5
+		}
+	],
+	"turn_apex_width_m": 1.79999983310699
+}

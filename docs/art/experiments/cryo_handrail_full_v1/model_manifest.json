@@ -1,0 +1,692 @@
+{
+  "source": "docs/art/experiments/cryo_building_review_v1/model/interior_accessories.blend",
+  "base_commit": "0f41f84c85538e135fe1efb352dad172ce240881",
+  "scope": "full approved C guard with rebuilt recessed wall-side grips",
+  "flight": {
+    "run_m": 3.3,
+    "rise_m": 1.9,
+    "treads": 11,
+    "rises": 12,
+    "tread_depth_m": 0.3
+  },
+  "guard": {
+    "body_thickness_m": 0.08,
+    "guard_top_m": 1.1,
+    "gripping_edge_m": 0.9,
+    "recess_depth_m": 0.067,
+    "recess_opening_m": 0.12,
+    "module_joints": "none cut; continuous sweep prevents unsupported backing pieces"
+  },
+  "clear_envelopes_m": {
+    "lower_run_y": [
+      -0.9,
+      0.9
+    ],
+    "upper_run_y": [
+      1.1,
+      2.9
+    ],
+    "turnaround_x": [
+      1.65,
+      3.45
+    ],
+    "turnaround_y": [
+      -0.9,
+      2.9
+    ]
+  },
+  "actual_clear_width_m": {
+    "lower": 1.8,
+    "upper": 1.8,
+    "turnaround": 1.8
+  },
+  "mesh_bound_clearance_measurements_m": {
+    "lower_clear_y_m": [
+      -0.9,
+      0.9
+    ],
+    "upper_clear_y_m": [
+      1.1,
+      2.9
+    ],
+    "lower_guard_inner_y_m": 0.8999999761581421,
+    "upper_guard_inner_y_m": 1.100000023841858,
+    "turn_guard_outer_x_m": 1.649999976158142,
+    "turn_wall_inner_x_m": 3.450000047683716,
+    "turnaround_clear_width_m": 1.8000000000000003
+  },
+  "new_mesh_uv0": {
+    "target_density_px_per_m": 80,
+    "texture_pixels": {
+      "M01": [
+        728,
+        232
+      ],
+      "M01_STAIR": [
+        256,
+        256
+      ],
+      "M03_STAIR": [
+        256,
+        256
+      ],
+      "C_BODY": [
+        256,
+        256
+      ],
+      "C_SLOT": [
+        256,
+        256
+      ],
+      "M05-D": [
+        256,
+        256
+      ],
+      "M09": [
+        256,
+        5
+      ],
+      "M10": [
+        192,
+        16
+      ]
+    },
+    "method": "walls: orthogonal metric face axes; C: continuous triangle strips unfolded from actual 3D edge lengths, seams at real section folds and caps",
+    "measured_reference_px_per_m": {
+      "M01": {
+        "u": 80,
+        "v": 80
+      },
+      "M01_STAIR": {
+        "u": 80,
+        "v": 80
+      },
+      "M03_STAIR": {
+        "u": 80,
+        "v": 80
+      },
+      "C_BODY": {
+        "u": 80,
+        "v": 80
+      },
+      "C_SLOT": {
+        "u": 80,
+        "v": 80
+      },
+      "M05-D": {
+        "u": 80,
+        "v": 80
+      },
+      "M09": {
+        "u": 80,
+        "v": 80
+      },
+      "M10": {
+        "u": 80,
+        "v": 80
+      }
+    }
+  },
+  "treads_and_platforms_unchanged": true,
+  "inherited_uv0_repaired_only_in_candidate": [
+    "Lower_ClosedFlight",
+    "Upper_ClosedFlight"
+  ],
+  "frozen_source_mesh_copy_checks": [
+    {
+      "object": "Lower_NosingTop_01",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_01",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_02",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_02",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_03",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_03",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_04",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_04",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_05",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_05",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_06",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_06",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_07",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_07",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_08",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_08",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_09",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_09",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_10",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_10",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingTop_11",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_NosingFold_11",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Lower_ClosedFlight",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_01",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_01",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_02",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_02",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_03",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_03",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_04",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_04",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_05",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_05",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_06",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_06",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_07",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_07",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_08",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_08",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_09",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_09",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_10",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_10",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingTop_11",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_NosingFold_11",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "Upper_ClosedFlight",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "EntryLanding",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "TurnLanding",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "FloorLanding",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_LOWER",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_LOWER_Lip",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_TURN",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_TURN_Lip",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_TURN_BACK",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_TURN_BACK_Lip",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_TURN_UPPER_RETURN",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_TURN_UPPER_RETURN_Lip",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_UPPER",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_UPPER_Lip",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_FLOOR",
+      "unchanged_vertices": true
+    },
+    {
+      "object": "L01_ZONE_FLOOR_Lip",
+      "unchanged_vertices": true
+    }
+  ],
+  "lamp_geometry_preserved": [
+    "L01_TURN_BACK",
+    "L01_TURN_UPPER_RETURN",
+    "L01_ZONE_FLOOR",
+    "L01_ZONE_LOWER",
+    "L01_ZONE_TURN",
+    "L01_ZONE_UPPER"
+  ],
+  "checks": [
+    {
+      "object": "Wall_Lower_Entry_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.02137500728666808
+    },
+    {
+      "object": "Wall_Lower_Entry_Base",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.3548251138240117
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_LowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.002170794722696915
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_UpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0021708019110207332
+    },
+    {
+      "object": "Wall_Lower_Entry_Grip_Back",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0008640018196107384
+    },
+    {
+      "object": "Wall_Lower_Entry_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.6771602373647789
+    },
+    {
+      "object": "Wall_Lower_Run_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.03918751123547538
+    },
+    {
+      "object": "Wall_Lower_Run_Base",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.6505126500710714
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_LowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.003979783519998749
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_UpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.00397979010929526
+    },
+    {
+      "object": "Wall_Lower_Run_Grip_Back",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0015840040369050489
+    },
+    {
+      "object": "Wall_Lower_Run_Middle",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.037620012280941306
+    },
+    {
+      "object": "Wall_Lower_Run_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 1.1787603723454523
+    },
+    {
+      "object": "Wall_Upper_Run_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.03918746206164414
+    },
+    {
+      "object": "Wall_Upper_Run_Base",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.6505118104279711
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_LowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.003979743492575812
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_UpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.003979743492575812
+    },
+    {
+      "object": "Wall_Upper_Run_Grip_Back",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0015840772077141256
+    },
+    {
+      "object": "Wall_Upper_Run_Middle",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.037619927701985335
+    },
+    {
+      "object": "Wall_Upper_Run_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 1.178758930568642
+    },
+    {
+      "object": "Wall_Upper_Floor_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.021374980464576865
+    },
+    {
+      "object": "Wall_Upper_Floor_Base",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.35482464309634354
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_LowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.002170754918772018
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_UpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.002170754918772018
+    },
+    {
+      "object": "Wall_Upper_Floor_Grip_Back",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0008640430184646836
+    },
+    {
+      "object": "Wall_Upper_Floor_Middle",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.020519961676614774
+    },
+    {
+      "object": "Wall_Upper_Floor_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.6429594515132302
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.021375007286668073
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Base",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.3548250883430172
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_LowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0021707875343731134
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_UpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0021707875343731134
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Grip_Back",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0008640026779194036
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Middle",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.020519987425797546
+    },
+    {
+      "object": "Wall_Turn_LowerReturn_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.6429602583217833
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.021374980464576865
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Base",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.354824643096344
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_LowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0021707836720161514
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_UpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0021707836720160356
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Grip_Back",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.0008640413017707224
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Middle",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.02051996167661465
+    },
+    {
+      "object": "Wall_Turn_UpperReturn_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.6429594515132304
+    },
+    {
+      "object": "Wall_Turn_FootBand",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.049637514325976184
+    },
+    {
+      "object": "Wall_Turn_Lower",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.809687147318674
+    },
+    {
+      "object": "Wall_Turn_GripLowerLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.014295514751694466
+    },
+    {
+      "object": "Wall_Turn_GripBack",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.002006376216099965
+    },
+    {
+      "object": "Wall_Turn_GripUpperLip",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.01429551475169702
+    },
+    {
+      "object": "Wall_Turn_Middle",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.03335645355673889
+    },
+    {
+      "object": "Wall_Turn_Upper",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 1.4930965218143657
+    },
+    {
+      "object": "C_Guard_LowerAndReturn",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.3197097778775669
+    },
+    {
+      "object": "C_Guard_UpperAndFloor",
+      "open_edges": 0,
+      "degenerate_triangles": 0,
+      "volume_m3": 0.47257031917852954
+    }
+  ],
+  "status": "art assembly candidate. Not a fire, structural, or accessibility certification."
+}

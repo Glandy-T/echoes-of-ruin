@@ -1,0 +1,134 @@
+{
+  "validation_type": "independent_read_only_file_side_validation",
+  "validated_at": "2026-11-15T20:45:00+09:00",
+  "scope": {
+    "included": [
+      "assets/art/cryo_handrail_full_v1/cryo_handrail_full_v1.glb",
+      "docs/art/experiments/cryo_handrail_full_v1/model/handrail_full_v1.blend",
+      "docs/art/experiments/cryo_handrail_full_v1/model/build_full.py",
+      "docs/art/experiments/cryo_handrail_full_v1/model_manifest.json"
+    ],
+    "excluded": [
+      "No model, script, texture, formal scene, or Godot project file was changed by this validation.",
+      "No UI or live Godot run was started by this validator."
+    ]
+  },
+  "artifact_sha256": {
+    "glb": "BD82F37B3422E13506B92363E480E8BA5755C24F0F04BFA312F3976BCCBB838F",
+    "blend": "A78373F072030AA139BC2F49DAA24F19ED1C7DD8A30D3BA9B34773201562D243",
+    "build_full_py": "3C284177E642F24C5D75C58129FF21D36C408F04C670494E14A689C55E72DB9C",
+    "model_manifest_json": "7A41245B58E76E1F2C3EB64C5E11CB2DF3368B7CEFBE372B8D169D6D5E88A378"
+  },
+  "file_side": {
+    "glb_import": {
+      "result": "pass",
+      "method": "Imported the delivered GLB into Blender 5.0.1 with a factory-startup session; all required C_BODY, C_SLOT, M01, M01_STAIR, M03_STAIR, M05-D, M09 and M10 material images were embedded.",
+      "embedded_image_sizes_px": {
+        "C_BODY": [256, 256],
+        "C_SLOT": [256, 256],
+        "M01": [728, 232],
+        "M01_STAIR": [256, 256],
+        "M03_STAIR": [256, 256],
+        "M05-D": [256, 256],
+        "M09": [256, 5],
+        "M10": [192, 16]
+      }
+    },
+    "uv0_native_density": {
+      "result": "pass",
+      "target_px_per_m": 80,
+      "method": "Measured every non-zero-area exported GLB triangle with its embedded material dimensions. The metric is sqrt(abs(det(texture-pixel Jacobian / metre))). Triangles with 3D cross-product area below 1e-5 m2 were excluded as collinear fan residuals, for which density is undefined.",
+      "valid_triangle_summary_px_per_m": {
+        "C_BODY": {"count": 1794, "min": 79.998, "p50": 80.0, "p99": 80.001, "max": 80.002},
+        "C_SLOT": {"count": 252, "min": 79.997, "p50": 80.0, "p99": 80.001, "max": 80.001},
+        "M01": {"count": 84, "min": 80.0, "p50": 80.0, "p99": 80.0, "max": 80.0},
+        "M01_STAIR": {"count": 240, "min": 80.0, "p50": 80.0, "p99": 80.0, "max": 80.0},
+        "M03_STAIR": {"count": 213, "min": 80.0, "p50": 80.0, "p99": 80.0, "max": 80.001, "skipped_zero_area_fan_triangles": 15},
+        "M05-D": {"count": 72, "min": 80.0, "p50": 80.0, "p99": 80.0, "max": 80.001},
+        "M09": {"count": 72, "min": 78.195, "p50": 80.0, "p99": 80.001, "max": 80.001, "note": "The 5-pixel-high strip's 78.195 lower reading is the expected low-resolution/quantization edge case (2.26% below target), not a collapsed UV."},
+        "M10": {"count": 528, "min": 79.997, "p50": 80.0, "p99": 80.0, "max": 80.0}
+      },
+      "continuous_C_turn": "pass: both C guard sweeps are a single continuous object each; final C_BODY effective-density bounds are 79.998 to 80.002 px/m. The earlier closing-profile strip discontinuity was present in an intermediate export, was reported, and is not present in the hashed final artifact."
+    },
+    "recessed_grips": {
+      "result": "pass",
+      "method": "Read-only BVH rays from the walkable side at the opening centreline. Each sample hit a dedicated recessed back, not a coplanar front wall face.",
+      "measured_effective_depth_m": 0.065,
+      "design_position_depth_m": 0.067,
+      "samples": {
+        "entry": {"hit": "Wall_Lower_Entry_Grip_Back", "back_coordinate_y": -0.965},
+        "lower_run": {"hit": "Wall_Lower_Run_Grip_Back", "back_coordinate_y": -0.965},
+        "turn_lower_return": {"hit": "Wall_Turn_LowerReturn_Grip_Back", "back_coordinate_y": -0.965},
+        "turn_upper_return": {"hit": "Wall_Turn_UpperReturn_Grip_Back", "back_coordinate_y": 2.965},
+        "upper_run": {"hit": "Wall_Upper_Run_Grip_Back", "back_coordinate_y": 2.965},
+        "floor": {"hit": "Wall_Upper_Floor_Grip_Back", "back_coordinate_y": 2.965},
+        "turn_back": {"hit": "Wall_Turn_GripBack", "back_coordinate_x": 3.515}
+      }
+    },
+    "clear_width": {
+      "result": "pass",
+      "file_measurements_m": {
+        "lower_wall_to_guard": 1.8,
+        "upper_guard_to_wall": 1.8,
+        "turn_guard_to_wall": 1.8
+      },
+      "basis": "Delivered GLB bounds: lower y=-0.90..+0.90, upper y=+1.10..+2.90, and turn guard x=+1.65 to turn wall x=+3.45."
+    },
+    "source_geometry": {
+      "result": "pass_with_declared_uv_exception",
+      "method": "Compared world-space vertex coordinates and polygon-index sequences of source interior_accessories.blend against the delivered editable blend.",
+      "source_meshes_in_scope": 105,
+      "retained_meshes_compared": 61,
+      "geometry_hash_mismatches": [],
+      "intentionally_not_retained_source_wall_backing_meshes": 44,
+      "note": "All retained tread, landing and L01 core geometry is exact. Only UV0 on copied Lower_ClosedFlight and Upper_ClosedFlight was repaired in this candidate; their vertices and topology remain exact copies. The 44 unretained source names are the rebuilt old wall/backing family, not stair/platform/L01 core geometry."
+    },
+    "editable_blend_topology": {
+      "result": "pass",
+      "method": "Checked the current editable blend before export, rather than de-indexed GLB import edges.",
+      "scope": "All Wall_* and C_Guard_* meshes.",
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    "formal_scene_scope": {
+      "result": "pass_for_this_delivery_scope",
+      "method": "Repository status inspection found no modified tracked formal scene file under scenes/. The only scene introduced by this work is scenes/dev/cryo_handrail_full_v1.tscn.",
+      "note": "project.godot had an existing local diff before this validation. It is explicitly out of this asset delivery and was neither attributed to nor changed by this validation."
+    }
+  },
+  "runtime_evidence_readback_not_independently_executed": {
+    "result": "evidence_present_not_reperformed",
+    "files": [
+      "evidence/capture_record.json",
+      "evidence/runtime_clearance.json"
+    ],
+    "capture_record": {
+      "records": 138,
+      "unique_files": 138,
+      "resolution": "1280x720",
+      "records_with_missing_meshes": 0,
+      "states": [
+        "neutral_surface_review",
+        "occupied_realtime_lighting",
+        "minimum_0.2_fault_demo",
+        "scripted_28s_motion_not_physics_navigation"
+      ]
+    },
+    "runtime_clearance_record": {
+      "flight_ray_samples": 22,
+      "width_min_m": 1.79999971389771,
+      "width_max_m": 1.79999995231628,
+      "turn_apex_width_m": 1.79999983310699,
+      "static_capsule_poses": 22,
+      "static_pose_nonzero_overlaps": 0,
+      "boundary": "The authored record explicitly says this is imported-triangle rays and static capsule poses, not movement-controller or stair-climbing acceptance."
+    }
+  },
+  "not_tested": [
+    "Fresh Godot launch, rendering, player-controller traversal and frame-to-frame runtime behavior were not performed by this validator.",
+    "No user visual approval is implied by this technical validation.",
+    "This is not fire, structural or accessibility certification."
+  ],
+  "overall": "file_side_pass; runtime_evidence_readback_present_with_stated_boundary"
+}

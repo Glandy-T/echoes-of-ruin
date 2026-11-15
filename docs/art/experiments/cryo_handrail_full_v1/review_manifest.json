@@ -1,0 +1,16 @@
+{
+  "godot_captures": 138,
+  "comparison_pairs": 12,
+  "resolution": [
+    1280,
+    720
+  ],
+  "same_camera_and_lighting_per_pair": true,
+  "missing_maps": 0,
+  "aseprite_rgba_matches_raw": true,
+  "runtime_width_min_m": 1.79999971389771,
+  "turn_width_m": 1.79999983310699,
+  "raw_pixel_png_sha256": "991812cbbac1b2961ed2b69b99bc8afdd79a07e2fc42b33ee261a97c81b9efec",
+  "glb_sha256": "bd82f37b3422e13506b92363e480e8ba5755c24f0f04bfa312f3976bccbb838f",
+  "blend_sha256": "a78373f072030aa139bc2f49daa24f19ed1c7dd8a30d3ba9b34773201562d243"
+}
