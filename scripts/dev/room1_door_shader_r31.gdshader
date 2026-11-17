@@ -12,9 +12,9 @@ render_mode unshaded, cull_back;
 //     so the PixelLab coating variation and edge deposits vanished at play
 //     distance.
 // r31 therefore (1) follows the wall's flat profile and keeps a contact
-// darkening near the floor only, and (2) expands the painted pixel contrast
-// around the coating's own median colour.  Hue tint, lighting, UV and the
-// emergency-strip coupling are kept from v3.
+// darkening near the floor only, and (2) expands pixel contrast around a
+// reference colour (see the correction note below).  Hue tint, lighting, UV
+// and the emergency-strip coupling are kept from v3.
 
 uniform sampler2D pixel_map : source_color, filter_nearest, repeat_disable;
 uniform float strip_on = 1.0;
@@ -24,10 +24,17 @@ uniform float leaf_level = 0.19;
 // below v4's rejected lift so no light source appears under the door.
 uniform float contact_floor = 0.62;
 uniform float contact_height = 0.45;
-// Pixel-contrast expansion around the coating median (linear colour).
+// Pixel-contrast expansion around grain_reference: pixels darker than it use
+// grain_contrast, lighter ones grain_light_contrast.
+//
+// CORRECTION (found while building r32): under this project's gl_compatibility
+// renderer the sampled pixel_map values are sRGB-encoded, not linear.  The r31
+// default reference below was computed in linear space, so it lies under the
+// r30 coat colour: nearly every r30 pixel counts as "lighter" and r31 only
+// applied ~1.2x expansion, with leaf_level compensating the brightness.  The
+// defaults are kept unchanged so r31 renders exactly as reviewed; pass an
+// sRGB-space reference (texture median / 255) for new uses, as r32 does.
 uniform float grain_contrast = 2.6;
-// Lighter-than-median pixels are expanded less, so the leaf edge does not
-// gain a bright rim that would read as a polished sheet-metal edge.
 uniform float grain_light_contrast = 1.2;
 uniform vec3 grain_reference = vec3(0.4735, 0.5271, 0.4508);
 

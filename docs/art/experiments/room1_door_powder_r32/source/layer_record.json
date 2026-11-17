@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "M05-L": {
+      "path": "assets/art/cryo_building_review_v1/textures/M05-L.png",
+      "sha256": "4c52c0f93c5a36fa3277c9e874ad20fee59d600a30ad5adac8310d8b068961ac"
+    },
+    "r30": {
+      "path": "assets/art/room1_door_window_r30/door_front.png",
+      "sha256": "eb97bfeb16e3e7075b74fc04c420bd4bd115bb3613bbb4c14f71b3c4b3290f7b"
+    }
+  },
+  "m05l_native_crop_xywh": [
+    12,
+    52,
+    112,
+    184
+  ],
+  "pixels": {
+    "base_only": 17467,
+    "r30_darker_traces": 2534,
+    "r30_structure": 607,
+    "r30_lighter_dropped": 984
+  },
+  "r30_lighter_dropped_within_4px_of_edge": 0.743,
+  "new_generation_requests": 0
+}
