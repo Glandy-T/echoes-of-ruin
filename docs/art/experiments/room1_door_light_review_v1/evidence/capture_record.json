@@ -1,0 +1,173 @@
+{
+	"shots": [
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "idle",
+			"file": "game_1_idle.png",
+			"fov": 50.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "idle",
+			"file": "near_1_idle.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "scanning",
+			"file": "game_2_scanning_lit.png",
+			"fov": 50.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "scanning",
+			"file": "near_2_scanning_lit.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "scanning",
+			"file": "near_2_scanning_dark_phase.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "denied",
+			"file": "game_3_denied_red.png",
+			"fov": 50.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.0,
+			"door_glow_on": true,
+			"feedback": "denied",
+			"file": "near_3_denied_red.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.22,
+			"door_glow_on": false,
+			"feedback": "pass",
+			"file": "oblique_4_opening_r17_core.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 1.0,
+			"door_glow_on": false,
+			"feedback": "pass",
+			"file": "game_5_open_pass_r17_core.png",
+			"fov": 50.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 1.0,
+			"door_glow_on": false,
+			"feedback": "pass",
+			"file": "near_5_open_pass_r17_core.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 0.22,
+			"door_glow_on": true,
+			"feedback": "pass",
+			"file": "oblique_4_opening_r18_soft.png",
+			"fov": 47.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 1.0,
+			"door_glow_on": true,
+			"feedback": "pass",
+			"file": "game_5_open_pass_r18_soft.png",
+			"fov": 50.0
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door": {
+				"mode": 3,
+				"pixel_map": "res://assets/art/room1_door_powder_r32/door_front.png",
+				"shader": "res://scripts/dev/room1_door_shader_r31.gdshader"
+			},
+			"door_fraction": 1.0,
+			"door_glow_on": true,
+			"feedback": "pass",
+			"file": "near_5_open_pass_r18_soft.png",
+			"fov": 47.0
+		}
+	]
+}
