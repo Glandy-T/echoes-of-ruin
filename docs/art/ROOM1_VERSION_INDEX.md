@@ -1,5 +1,7 @@
 # Room 1：当前、正式与历史版本索引
 
+**2026-11-17 Room 1 美术已冻结。**用户按[待定事项清单](PENDING_DECISIONS.md)逐项确认：墙 r24、地坪 r26、20 舱 r28、门面 r32（M05-L 粉末涂层，颗粒取中间值）、门灯方案 B（灯芯藏槽 0.45＋门洞泛光 0.50＋弱光晕 1.1）、小窗暗玻璃（对准凹口，三级色阶）。竖灯在俯视镜头下的 1 像素移位保持现状。**冻结后的完整状态入口：F6 `scenes/dev/room1_door_light_recess_b1.tscn`**（默认即冻结状态；3 门面、5 门灯、6 小窗）。正式 F5 仍是 r19，4F 走廊仍是 r30 门＋v3 门着色器，二者都还需要接入冻结版本。
+
 **2026-11-17 门 r32 粉末涂层（待审，最新）：**用户确认门材质为 M05-L 粉末涂层钢板。r32 用 M05-L 原生底材，叠 r30 的暗痕迹、密封边和小窗；着色器沿用 r31，参数重新校准。当日修订：细粉末颗粒压到 0.5 倍，痕迹和小窗保持原样（第一版颗粒比墙板多）。F6 `scenes/dev/room1_door_powder_r32.tscn`，1 看 r30／2 看 r31／3 看 r32。[审图](experiments/room1_door_powder_r32/preview.html)·[说明](experiments/room1_door_powder_r32/README.md)。正式 F5 和 4F 走廊未切换。
 
 **2026-11-17 门着色器 r31（已被 r32 接替）：**用户认为 r30 门仍有不锈钢感。r31 只替换 DoorPanel 的着色器，贴图仍是 r30：按墙面校准明暗，并放大已有痕迹。F6 `scenes/dev/room1_door_shader_r31.tscn`，1 看 r30／2 看 r31。[审图](experiments/room1_door_shader_r31/preview.html)·[说明与测量](experiments/room1_door_shader_r31/README.md)。正式 F5 未切换；4F 走廊仍用 v3 门着色器。待审状态见[待定事项清单](PENDING_DECISIONS.md)。
