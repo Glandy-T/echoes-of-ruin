@@ -24,7 +24,9 @@
 
 | 顺序 | 项目 | 现状 | 建议 | 决定 |
 |---|---|---|---|---|
-| **1** | **Room 1 门面：r32 粉末涂层** | 11/17：r30 白边已解决，但仍有不锈钢感；r31（只改着色器）看起来仍偏干净。查明门材质此前没有定过，用户**确认为 M05-L 粉末涂层钢板**。r32 用 M05-L 原生底材，叠 r30 的暗痕迹、密封边和小窗，去掉 r30 的门边亮圈；亮度按墙面校准；第一版颗粒过多（用户指出），已修订为只压细粉末颗粒、痕迹保留原样。0 次新生成。[r32 审图](experiments/room1_door_powder_r32/preview.html)／[说明](experiments/room1_door_powder_r32/README.md) | 采用 r32，Room 1 冻结。之后再同步到 4F 走廊门和正式 F5。 | ⏳ 当前项：审 r32（材质已定：M05-L） |
+| **1a** | **Room 1 门面：r32 粉末涂层（颗粒强度）** | 材质已定为 M05-L。r32 用 M05-L 原生底材，叠 r30 的暗痕迹、密封边和小窗，去掉门边亮圈；亮度按墙面校准，0 次新生成。颗粒强度改过两次：第一版太花 → 第一次修订偏淡 → 现在取两者中间值（细颗粒 1.25 倍、痕迹 1.5 倍）。[r32 审图](experiments/room1_door_powder_r32/preview.html)／[说明](experiments/room1_door_powder_r32/README.md) | 确认中间值即可。 | ⏳ 当前项 |
+| **1b** | **Room 1 门灯：r17 内侧灯芯＋r18 柔光** | 10/29 交付后一直**没有确认**。r17：暗色灯槽里的细窄绿 LED 漫射芯，替代整框变绿；r18：在 r17 基础上加一层屏幕空间薄柔光。另外小窗的待机色、拒绝红灯节奏，brief 里也还写着 TBD。[r17](experiments/room1_door_inner_light_r17/preview.html)／[r18](experiments/room1_door_soft_glow_r18/preview.html) | 1a 定了之后用 r32 门重新同机位截图，再审灯。 | |
+| | *Room 1 冻结条件* | 门面（1a）和门灯（1b）都确认后，Room 1 美术整体冻结，再同步到 4F 走廊和正式 F5。 | | |
 | 2 | **楼梯 ST-01＋扶手 C 旧化 v2** | C 的形体你已认可；v2 补了环境旧化（槽底、墙脚、平台角、踏面靠墙端），中央没有踩踏磨耗。楼梯底材沿用 11/5 的局部折中稿。[审图](https://github.com/Glandy-T/echoes-of-ruin/blob/main/docs/art/experiments/cryo_handrail_age_v2/preview.md) | 采用 v2，楼梯材质一起冻结。之后的安装验证（爬楼控制器、门扫掠）是技术活。 | |
 | 3 | **楼梯分区门 FD-A／FD-B** | 路线经过楼梯间，**需要选**。A 对称双扇平整钢门；B 65/35 非对称双扇＋检修带。两款都实测了闭门阻挡和开门通行。[并排审图](https://github.com/Glandy-T/echoes-of-ruin/blob/main/docs/art/experiments/cryo_building_review_v1/preview.md) | 看缩略图凭直觉挑。 | |
 | 4 | **电梯入口 EL-A／EL-B** | 楼梯核心旁能看到，**需要选**。两款都是断电关闭，没有运行逻辑。 | 背景物，凭直觉挑即可。 | |

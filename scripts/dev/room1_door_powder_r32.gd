@@ -19,8 +19,10 @@ const R32_PARAMS := {
 	# Revision 2026-11-17: the first r32 (grain 2.0 everywhere) was busier than
 	# the wall panels.  Fine powder grain is now softened to 0.5x while painted
 	# traces, seal and status aperture keep their native contrast.
-	"grain_contrast": 1.0, "grain_light_contrast": 1.0,
-	"fine_contrast": 0.5, "fine_edge0": 0.04, "fine_edge1": 0.09,
+	# Second revision (user: take a middle value between the two): fine grain
+	# 1.25x, traces/seal/aperture 1.5x -- midway in visible-grain share.
+	"grain_contrast": 1.5, "grain_light_contrast": 1.5,
+	"fine_contrast": 1.25, "fine_edge0": 0.04, "fine_edge1": 0.09,
 	# Median of the r32 texture as the shader actually samples it: sRGB-encoded
 	# values under this project's gl_compatibility renderer (verified by sweep).
 	"grain_reference": Vector3(0.631, 0.667, 0.635),
