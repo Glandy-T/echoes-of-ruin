@@ -23,7 +23,7 @@
 
 | 顺序 | 项目 | 现状 | 建议 | 决定 |
 |---|---|---|---|---|
-| **1** | **Room 1 门面 r30** | 只去掉了认证小窗的浅白边（你指出的问题），其余与 r29 相同；改动限制在小窗周围，运行验证通过。[审图](experiments/room1_door_window_r30/preview.html) | 采用 r30，Room 1 美术整体冻结（墙 r24／地 r26／舱 r28／门 r30）。 | ⏳ 当前项 |
+| **1** | **Room 1 门面：r30 → r31 着色器对比** | 11/17 用户审 r30：认证窗白边已解决，但不锈钢感仍偏强。r31 只改着色器（贴图仍是 r30）：门的明暗按墙面逐段校准，取消整扇连续反光渐变，并放大已有痕迹。实测 r30 贴图 84% 是同一个颜色，这一层着色器改不了。[r31 审图](experiments/room1_door_shader_r31/preview.html)／[说明](experiments/room1_door_shader_r31/README.md) | 先看 r31 够不够：够了就采用 r31（贴图 r30＋着色器 r31），Room 1 冻结；还像金属板，就改贴图：复用已认可的细矿物底材打底，0 次新生成。 | ⏳ 当前项：审 r31 |
 | 2 | **楼梯 ST-01＋扶手 C 旧化 v2** | C 的形体你已认可；v2 补了环境旧化（槽底、墙脚、平台角、踏面靠墙端），中央没有踩踏磨耗。楼梯底材沿用 11/5 的局部折中稿。[审图](https://github.com/Glandy-T/echoes-of-ruin/blob/main/docs/art/experiments/cryo_handrail_age_v2/preview.md) | 采用 v2，楼梯材质一起冻结。之后的安装验证（爬楼控制器、门扫掠）是技术活。 | |
 | 3 | **楼梯分区门 FD-A／FD-B** | 路线经过楼梯间，**需要选**。A 对称双扇平整钢门；B 65/35 非对称双扇＋检修带。两款都实测了闭门阻挡和开门通行。[并排审图](https://github.com/Glandy-T/echoes-of-ruin/blob/main/docs/art/experiments/cryo_building_review_v1/preview.md) | 看缩略图凭直觉挑。 | |
 | 4 | **电梯入口 EL-A／EL-B** | 楼梯核心旁能看到，**需要选**。两款都是断电关闭，没有运行逻辑。 | 背景物，凭直觉挑即可。 | |

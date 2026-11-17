@@ -1,5 +1,7 @@
 # Room 1：当前、正式与历史版本索引
 
+**2026-11-17 门着色器 r31（待审）：**用户认为 r30 门仍有不锈钢感。r31 只替换 DoorPanel 的着色器，贴图仍是 r30：按墙面校准明暗，并放大已有痕迹。F6 `scenes/dev/room1_door_shader_r31.tscn`，1 看 r30／2 看 r31。[审图](experiments/room1_door_shader_r31/preview.html)·[说明与测量](experiments/room1_door_shader_r31/README.md)。正式 F5 未切换；4F 走廊仍用 v3 门着色器。待审状态见[待定事项清单](PENDING_DECISIONS.md)。
+
 **2026-11-10 收工。**[当前学校交接](ROOM1_NEXT_SCHOOL_HANDOFF.md)从标准休眠楼审图接手，先看楼梯旧化和两款扶手。4F v6 仍待选，正式 F5 继续使用 r19。下方各轮摘要供追溯。
 
 **2026-11-04独立对比v6完成，尚未选最终方案：** F6打开 `scenes/dev/cryo_4f_camera_compare_v6.tscn`，F8到走廊。1–5比较原构图、前移、缩小视角、适度组合、更近构图；T比较沿墙距离／门前区域触发，R比较50%半显／100%实体。前侧墙门平时隐藏、靠近整段渐显，不使用人物周围挖洞，相机始终留在前侧墙外。120组位置与碰撞／认证／往返通过，100%会挡住人物，保留作对照。图片和4段运动GIF：`docs/art/experiments/cryo_4f_camera_compare_v6/preview.html`（仓库根路径）。v5与正式F5保持，镜头／触发／强度待选。

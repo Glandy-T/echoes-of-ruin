@@ -1,0 +1,78 @@
+{
+  "game_camera_green_by_band_top_to_bottom_[door,wall]": {
+    "A_r30": [
+      [
+        36.2,
+        39.1
+      ],
+      [
+        33.8,
+        37.8
+      ],
+      [
+        29.4,
+        36.8
+      ],
+      [
+        27.7,
+        35.5
+      ],
+      [
+        25.7,
+        34.4
+      ],
+      [
+        17.7,
+        27.9
+      ]
+    ],
+    "B_r31": [
+      [
+        37.9,
+        39.1
+      ],
+      [
+        37.9,
+        37.8
+      ],
+      [
+        36.3,
+        36.8
+      ],
+      [
+        37.9,
+        35.5
+      ],
+      [
+        34.0,
+        34.4
+      ],
+      [
+        26.7,
+        27.9
+      ]
+    ]
+  },
+  "front_camera_grain": {
+    "A_r30": {
+      "door_local_std": 1.29,
+      "wall_local_std": 2.85,
+      "door_mean": 27.3,
+      "wall_mean": 33.4
+    },
+    "B_r31": {
+      "door_local_std": 1.68,
+      "wall_local_std": 2.85,
+      "door_mean": 33.6,
+      "wall_mean": 33.4
+    }
+  },
+  "r30_texture_single_colour_share": 0.838,
+  "r30_texture_luma_percentiles_5_25_50_75_95": [
+    169.5,
+    189.1,
+    189.1,
+    189.1,
+    189.1
+  ]
+}
