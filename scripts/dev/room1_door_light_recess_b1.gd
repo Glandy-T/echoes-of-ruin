@@ -14,6 +14,17 @@ const B_PHOSPHOR := {"phosphor_color": Vector3(0.36, 0.66, 0.46), "phosphor_ener
 const B_HALO_STRENGTH := 1.1
 
 var light_mode := 5
+# Status window (checklist 1c, 2026-11-17): the v3 lamp quad (0.115 x 0.045 m
+# at y 0.318) sat in the upper-left of the r30/r32 painted recess.  The recess
+# interior is 11 x 6 native px = 0.1346 x 0.0750 m, centred at (+0.0061, 0.300)
+# on the 1.37 x 2.30 m leaf; the new quad fills exactly that, leaving r30's
+# 1 px dark rim as the frame, and is shaded as dark glass with a lamp behind.
+const GLASS_SHADER := preload("res://scripts/dev/door_status_glass_v1.gdshader")
+const GLASS_SIZE := Vector2(0.1346, 0.0750)
+const GLASS_POS := Vector2(0.0061, 0.300)
+var glass_on := true
+var glass_material: ShaderMaterial
+var old_window: Dictionary = {}
 var wash_faces: Array[MeshInstance3D] = []
 var wash_materials: Array[ShaderMaterial] = []
 
@@ -59,6 +70,9 @@ func set_light_mode(mode: int) -> void:
 
 func _update_feedback() -> void:
 	super._update_feedback()
+	if is_instance_valid(glass_material) and is_instance_valid(status_material):
+		var c := status_material.albedo_color
+		glass_material.set_shader_parameter("lamp_color", Vector3(c.r, c.g, c.b))
 	if wash_materials.is_empty() or not is_instance_valid(door_mesh):
 		return
 	var center: Vector3 = integrated_root.to_local(door_mesh.global_position)
@@ -71,16 +85,39 @@ func _update_feedback() -> void:
 
 func _capture_r30_baseline() -> void:
 	super._capture_r30_baseline()
+	glass_material = ShaderMaterial.new()
+	glass_material.shader = GLASS_SHADER
+	glass_material.set_shader_parameter("aspect", GLASS_SIZE.x / GLASS_SIZE.y)
+	old_window = {"size": (status_window.mesh as QuadMesh).size, "pos": status_window.position}
 	set_light_mode(light_mode)
+	set_status_glass(glass_on)
+
+func set_status_glass(enabled: bool) -> void:
+	glass_on = enabled
+	var quad := status_window.mesh as QuadMesh
+	if glass_on:
+		quad.size = GLASS_SIZE
+		status_window.position = Vector3(GLASS_POS.x, GLASS_POS.y, old_window.pos.z)
+		status_window.material_override = glass_material
+	else:
+		quad.size = old_window.size
+		status_window.position = old_window.pos
+		status_window.material_override = status_material
+	_update_feedback()
+	_update_info()
 
 func _update_info() -> void:
 	super._update_info()
 	if info and is_instance_valid(inner_light_material):
-		info.text += "\n门灯：" + ("4 现状 r17灯芯＋r18柔光" if light_mode == 4 else "5 方案B 灯芯藏槽＋弱光晕＋门洞内侧泛光") + "（4／5切换）"
+		info.text += "\n门灯：" + ("4 现状 r17灯芯＋r18柔光" if light_mode == 4 else "5 方案B 灯芯藏槽＋弱光晕＋门洞内侧泛光") + "（4／5切换）\n小窗：" +("6 暗玻璃透光（对准凹口）" if glass_on else "6 旧发光块") + "（6切换）"
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo and event.physical_keycode in [KEY_4, KEY_5]:
 		set_light_mode(4 if event.physical_keycode == KEY_4 else 5)
+		get_viewport().set_input_as_handled()
+		return
+	if event is InputEventKey and event.pressed and not event.echo and event.physical_keycode == KEY_6:
+		set_status_glass(not glass_on)
 		get_viewport().set_input_as_handled()
 		return
 	super._unhandled_key_input(event)

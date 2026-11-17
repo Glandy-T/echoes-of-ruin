@@ -1,0 +1,102 @@
+{
+	"shots": [
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"feedback": "idle",
+			"file": "game_1_idle_old.png",
+			"fov": 50.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"feedback": "idle",
+			"file": "near_1_idle_old.png",
+			"fov": 47.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"feedback": "scanning",
+			"file": "game_2_scanning_old.png",
+			"fov": 50.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"feedback": "scanning",
+			"file": "near_2_scanning_old.png",
+			"fov": 47.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"feedback": "denied",
+			"file": "game_3_denied_old.png",
+			"fov": 50.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"feedback": "denied",
+			"file": "near_3_denied_old.png",
+			"fov": 47.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+			"feedback": "pass",
+			"file": "4_opening_green_old.png",
+			"fov": 47.0,
+			"glass_on": false
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"feedback": "idle",
+			"file": "game_1_idle_glass.png",
+			"fov": 50.0,
+			"glass_on": true
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"feedback": "idle",
+			"file": "near_1_idle_glass.png",
+			"fov": 47.0,
+			"glass_on": true
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"feedback": "scanning",
+			"file": "game_2_scanning_glass.png",
+			"fov": 50.0,
+			"glass_on": true
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"feedback": "scanning",
+			"file": "near_2_scanning_glass.png",
+			"fov": 47.0,
+			"glass_on": true
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"feedback": "denied",
+			"file": "game_3_denied_glass.png",
+			"fov": 50.0,
+			"glass_on": true
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"feedback": "denied",
+			"file": "near_3_denied_glass.png",
+			"fov": 47.0,
+			"glass_on": true
+		},
+		{
+			"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+			"feedback": "pass",
+			"file": "4_opening_green_glass.png",
+			"fov": 47.0,
+			"glass_on": true
+		}
+	]
+}
