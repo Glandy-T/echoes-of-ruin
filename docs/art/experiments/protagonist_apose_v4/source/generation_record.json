@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-17",
+  "status": "front_apose_material_cuff_candidate_user_review_pending",
+  "appearance_authority": "../protagonist_legacy_refine_v3/front_candidate.png",
+  "source_sha256": "35889c3e1cef6e2b29228822edd8021006b489328816d58e434f29ca65d540fb",
+  "native_canvas": [
+    128,
+    128
+  ],
+  "preparation": "Original96x128 sprite pasted unchanged at x16 in transparent128x128 canvas. No resizing or painted pixels. PixelLab will redraw only arm pose; preserve native scale.",
+  "pose_target": "Front orthographic A-pose, arms40-45degrees away from torso, symmetric neutral stance",
+  "face_shadow": "User requested future upper-face shade above nose; deferred, do not add dark mask to modeling guide.",
+  "third_party_images_uploaded": false,
+  "generation_requests": 2,
+  "local_painted_pixels": 38,
+  "tripo_generation_requests": 0,
+  "route": "PixelLab website Creator Edit image Pro via Chrome extension",
+  "model": "Pro",
+  "max_colors_requested": 16,
+  "credits_before": 76,
+  "displayed_request_cost": 10,
+  "prompt_file": "source/prompt.txt",
+  "credits_after": 96,
+  "total_credits_spent": 20,
+  "credits_remaining": 1904,
+  "reset_visible": "Dec 13",
+  "renewal_visible": "Dec 13",
+  "outputs": [
+    "raw/front.png"
+  ],
+  "reference_image_optional": false,
+  "raw_sha256": "a976a5087b120a6aaa382c6f39f5acbfced1b23ea80cdc012f4ef9f1faea2fce",
+  "actual_size": [
+    128,
+    128
+  ],
+  "actual_visible_bounds": [
+    24,
+    6,
+    104,
+    123
+  ],
+  "actual_visible_rgb_colours": 16,
+  "latest_feedback": "Wide cuffs read as yukata. Keep A-pose; narrow wrist cuff and clarify institutional one-piece sleepwear.",
+  "material_confirmed": "Fine matte slightly structured polyester-blend woven fabric; exact fiber ratio unspecified",
+  "material_confirmation": "User selected recommended matte woven polyester blend with narrowed cuffs on2026-11-17",
+  "material_edit_input": "source/material_GUIDE.png",
+  "material_edit_credits_before": 86,
+  "pose_request_prompt": "source/prompt_pose.txt",
+  "material_request_prompt": "source/prompt.txt",
+  "pose_output": "raw/pose_only_wide_cuff.png",
+  "attempts": [
+    {
+      "purpose": "A-pose reference",
+      "input": "source/apose_GUIDE.png",
+      "output": "raw/pose_only_wide_cuff.png",
+      "prompt": "source/prompt_pose.txt",
+      "credits_before": 76,
+      "credits_after": 86
+    },
+    {
+      "purpose": "Confirmed woven material and narrowed wrist cuffs",
+      "input": "source/material_GUIDE.png",
+      "output": "raw/front.png",
+      "prompt": "source/prompt.txt",
+      "credits_before": 86,
+      "credits_after": 96
+    }
+  ],
+  "local_refinement": "source/local_refinement.json",
+  "final_sha256": "5907d3b00ceb0ba5b0f82e306def81bec3527822a8c0170c97156714d6aa0253"
+}

@@ -1,0 +1,74 @@
+{
+  "native_size": [
+    128,
+    128
+  ],
+  "visible_bounds": [
+    24,
+    6,
+    104,
+    123
+  ],
+  "visible_rgb_colours": 16,
+  "alpha_values": [
+    0,
+    255
+  ],
+  "raw_sha256": "a976a5087b120a6aaa382c6f39f5acbfced1b23ea80cdc012f4ef9f1faea2fce",
+  "final_byte_identical_to_raw": false,
+  "final_sha256": "5907d3b00ceb0ba5b0f82e306def81bec3527822a8c0170c97156714d6aa0253",
+  "local_refinement": {
+    "method": "Aseprite independent layer; aligned prior plain-cloth region used as restoration mask",
+    "region_inclusive": [
+      56,
+      41,
+      72,
+      44
+    ],
+    "changed_pixels": 38,
+    "raw_preserved": true,
+    "alpha_unchanged": true,
+    "reason": "Remove unintended transverse chest seam-like shadow; preserve narrowed sleeves and all other artwork"
+  },
+  "aseprite_visible_pixels_and_alpha_exact": true,
+  "local_refined_pixels": 38,
+  "head_region_comparison_box": [
+    49,
+    5,
+    79,
+    29
+  ],
+  "head_region_changed_rgba_pixels_vs_guide": 437,
+  "head_difference_boundary": "This is a registration measurement only, not automatic likeness approval.",
+  "pose_review": "pending",
+  "not_verified": [
+    "side/back consistency",
+    "3D mesh openings and internal surfaces",
+    "garment fit and bone deformation",
+    "final character approval"
+  ],
+  "aseprite_layers": [
+    {
+      "name": "PixelLab_original_Pro_Apose",
+      "visible": true
+    },
+    {
+      "name": "Approved_v3_at_same_pixel_scale_hidden",
+      "visible": false
+    },
+    {
+      "name": "Apose_before_material_edit_hidden",
+      "visible": false
+    },
+    {
+      "name": "Local_restore_plain_chest_no_false_bust_seam",
+      "visible": true
+    },
+    {
+      "name": "Future_upper_face_shade_EMPTY_not_applied",
+      "visible": true
+    }
+  ],
+  "final_matches_aseprite_readback": true,
+  "raw_to_final_changes_confined_to_recorded_region": true
+}

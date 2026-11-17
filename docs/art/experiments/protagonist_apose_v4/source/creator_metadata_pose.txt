@@ -1,0 +1,34 @@
+How this was made
+Edit image (Pro)
+2026年11月17日 18:07
+
+DESCRIPTION
+
+Copy
+
+[EOR-HERO-APOSE-V4] Change ONLY the arm/sleeve pose of this SAME approved adult woman into a clear symmetric modeling A-POSE. STRICT IDENTITY AND SCALE LOCK: preserve exact adult head size, face direction, blue-black loose long hair with parted fringe and face-framing locks, pale softly warm skin, torso width, calf-length cool-white gown, garment length, leg length, feet stance and native coarse pixel style. Crown stays near y6, sole row123, head centered at x64 on128x128 canvas. Her head remains normal small adult size, about18 native pixels crown-to-chin in117px whole height, around6.5heads, never bighead, short-body chibi or doll. BOTH upper arms raised symmetrically to40-45degrees AWAY from the vertical torso (diagonally down outward, NOT horizontal T-pose). Straight relaxed elbows and wrists, hands gently open, thumb recognizable as one small side shape, fingers grouped and pointing diagonally down, not fists or flat front-facing palms. Show a clear negative-space gap under each upper arm and between hands and hips. Preserve normal shoulder volume and sloping shoulder-to-upper-arm transition, no pointed shoulder pads. The plain roomy long sleeves follow the arms, with a simple small cuff at each wrist, clear hands outside sleeves. No flared bat wings, detached sleeve fragments, paper-flat sleeves or body-arm fusion. Do not widen torso or enlarge head when lifting arms. Keep the same plain closed round neckline, loose continuous long gown to lower calf, no belt, lapel, fastener, slit, extra panel, accessory or equipment. Torso and gown hang naturally straight and symmetric while arms are lifted; keep bare adult feet on same ground line. Keep original simple three-tone white cloth planes and sparse connected blocky shadows, hair in a few dark masses, restrained low-information face and crisp stepped native pixel clusters. No fine realistic wrinkles, individual strands, tiny anatomical rendering, gradients, airbrush, noise or enlarged block mosaic. Keep existing neutral facial shading; no added black upper-face mask yet. Strict eye-level orthographic full FRONT view, no camera elevation, no perspective, no turn of head or body, single complete figure with wide transparent side margins, not a multiview sheet. Exactly128x128 native pixels and16colors. Pose adjustment for later 3D reference only, never redesign the character.
+
+SETTINGS
+
+Size
+
+128 × 128
+
+Background
+
+Transparent
+
+Edit method
+
+Text
+
+Colour palette
+
+max 16
+
+Reference images
+
+Used, not saved. Add it again.
+
+Use these settings
+Copy all settings
