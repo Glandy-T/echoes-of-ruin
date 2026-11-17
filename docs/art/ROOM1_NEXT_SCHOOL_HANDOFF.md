@@ -1,4 +1,14 @@
-# 继续制作交接｜2026-11-15
+# 继续制作交接｜2026-11-17
+
+**明天到学校先读[主角最新交接](PROTAGONIST_SCHOOL_HANDOFF_20261117.md)。** 当前停在 L2 正面两色体块待审：L2档位和新正面剪影已经用户认可，两色版尚未认可，外轮廓锁定。先打开[两色并排审图](experiments/protagonist_l2_front_twotone_v1/preview.html)，不自动推进成品上色、侧背面或3D。
+
+当前决定和其他制作顺序以[待定清单](PENDING_DECISIONS.md)为准。Room 1 已冻结为墙r24／地r26／舱r28／门面r32／门灯B／小窗暗玻璃。本轮没有改正式场景，楼梯旧化v2仍暂缓，建筑候选与4F镜头仍待分别确认。
+
+学校同步、当前分层母版、已确认／待确认边界、像素参数、文件核验和可复制开场都写在[11月17日主角交接](PROTAGONIST_SCHOOL_HANDOFF_20261117.md)。
+
+---
+
+## 11月15日楼梯交接背景（历史，主角状态已由上方覆盖）
 
 11 月 15 日最新交付为 [C 一体化护栏按部位旧化 v2](experiments/cryo_handrail_age_v2/preview.md)。在完整双跑 C 上补了 PixelLab 环境旧化：槽底薄膜、实际墙脚和平台转角沉积、踏面靠墙端痕迹。大面保留完整，不画人为通行磨耗。形体、布局、灯条和约 **80 原生像素／米** 保持。正式场景尚未替换；[完整 C v1](experiments/cryo_handrail_full_v1/preview.md)与[原单段灰模](experiments/cryo_handrail_integrated_v1/preview.md)保留作来源和回退。
 
