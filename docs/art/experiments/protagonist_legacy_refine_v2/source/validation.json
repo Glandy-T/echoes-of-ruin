@@ -1,0 +1,49 @@
+{
+  "raw_native_size": [
+    96,
+    160
+  ],
+  "visible_rgb_colours": 24,
+  "alpha_values": [
+    0,
+    255
+  ],
+  "visible_bounds": [
+    16,
+    7,
+    81,
+    154
+  ],
+  "raw_sha256": "0bb7a4cab209a946519fe5c62bdbf32fb71674cc9ea6429c5fa6a0ebb6586b5e",
+  "final_png_byte_identical_to_raw": true,
+  "aseprite_visible_pixel_mismatches": 0,
+  "aseprite_alpha_exact": true,
+  "aseprite_layers": [
+    {
+      "name": "PixelLab_original_Pro_adult_proportion",
+      "visible": true
+    },
+    {
+      "name": "Adult_proportion_GUIDE_hidden",
+      "visible": false
+    },
+    {
+      "name": "Legacy_identity_ONLY_not_proportions_hidden",
+      "visible": false
+    },
+    {
+      "name": "Aseprite_local_refinement_EMPTY",
+      "visible": true
+    }
+  ],
+  "local_painted_pixels": 0,
+  "user_visual_review": "pending",
+  "not_verified": [
+    "final character identity/proportion approval",
+    "side/back views",
+    "3D/rig/UV",
+    "Godot replacement"
+  ],
+  "all_delivery_links_exist": true,
+  "actual_metadata_contains_exact_prompt": true
+}

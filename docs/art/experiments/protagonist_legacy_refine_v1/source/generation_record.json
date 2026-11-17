@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "status": "generated_candidate_user_review_pending",
+  "status": "user_rejected_head_too_large",
   "baseline_commit": "607e234f9f2360ada6b7c85c788ffbd0f8248a4b",
   "identity_source": "assets/characters/idle.png frame0 96x128, current legacy Sprite3D",
   "input": "source/legacy_reference_2x_GUIDE.png",
@@ -55,5 +55,6 @@
     "Result remains mildly stylized; intended five-and-a-half-head prompt is not a measured or approved proportion.",
     "Gown extends closer to ankles than the old sprite; face retains a slight turn. These are review differences, not silently frozen changes."
   ],
-  "old_scene_and_models_modified": false
+  "old_scene_and_models_modified": false,
+  "user_feedback": "Head is too large. Preserve old hairstyle and white gown, but use adult proportions and pixel treatment like Katana ZERO / SIGNALIS."
 }

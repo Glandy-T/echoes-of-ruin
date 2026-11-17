@@ -1,6 +1,6 @@
 # 回到旧主角形象｜PixelLab 正面精修候选
 
-2026-11-17。**待用户审查，不是最终角色或已批准建模图。** 用户满意的是一直沿用的旧主角，认为后来立绘太写实、偏离原形象。本轮从旧精灵出发提高完成度，只出一张正面候选。
+2026-11-17。**用户否决：头部过大，不作为继续制作的比例基准。** 用户希望保留旧主角的发型和白袍，但比例及像素处理接近《武士零》《SIGNALIS》的成人方向。后续见[v2成人比例试稿](../protagonist_legacy_refine_v2/README.md)。本目录保留第一次从旧精灵精修的真实来源与结果，不覆盖原图或将其重新标成通过。
 
 [三版对比](preview.html) · [GitHub 看图](preview.md) · [候选原生 PNG](front_candidate.png) · [Aseprite 母版](editable/front_candidate.aseprite)
 

@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-17",
+  "status": "generated_candidate_user_review_pending",
+  "identity_source": "legacy_identity.png = original idle frame; hair/gown identity only, NOT head/body proportions",
+  "proportion_source": "adult_proportion_source.png = project November front v2; only body proportions and stance, NOT rendering style or blank face",
+  "image_to_edit": "adult_proportion_GUIDE.png",
+  "reference_image": "legacy_identity.png",
+  "input_preparation": "Proportion source scaled uniformly from192x256 to120x160 nearest-neighbour; cropped12px transparent margins each side to96x160. Guide only, not finished art.",
+  "rejected_v1_role": "comparison only, never input",
+  "third_party_images_uploaded": false,
+  "generation_requests": 1,
+  "baseline_commit": "1c0be23182bbd9295ab93e52e9c57e09734682a4",
+  "route": "Official PixelLab Creator / Edit image Pro, Chrome extension",
+  "monthly_used_before": 46,
+  "monthly_allowance": 2000,
+  "displayed_cost": 10,
+  "max_colours": 24,
+  "remove_background": true,
+  "native_canvas": [
+    96,
+    160
+  ],
+  "consumed_this_round": 10,
+  "api_called_directly": false,
+  "local_paint_changes": 0,
+  "monthly_used_after": 56,
+  "remaining": 1944,
+  "renewal_display": "Dec 13",
+  "save_method": "Saved the exact PNG data URL of the visible Creator result through documented read-only DOM access, no resampling.",
+  "raw_size": [
+    96,
+    160
+  ],
+  "raw_visible_rgb_colours": 24,
+  "raw_alpha_values": [
+    0,
+    255
+  ],
+  "raw_sha256": "0bb7a4cab209a946519fe5c62bdbf32fb71674cc9ea6429c5fa6a0ebb6586b5e",
+  "input_hashes": {
+    "adult_proportion_GUIDE.png": "006cbcfbea5cf7185b67e6e6b48b6804967ec2989e566a87d08675b4d573ef98",
+    "legacy_identity.png": "6360962c1372aca5a3d1221615b51dac9d55668c6d17a29438c4be34e880ac9b"
+  },
+  "formal_scene_replaced": false,
+  "third_party_references_role": "Katana ZERO/SIGNALIS observed only; no third-party image or asset uploaded"
+}
