@@ -1,0 +1,34 @@
+How this was made
+Edit image (Pro)
+2026年11月17日 17:14
+
+DESCRIPTION
+
+Copy
+
+[EOR-LEGACY-HERO-REFINE-V1] Redraw this SAME established young woman as ONE clearer, more finished native pixel-art FRONT character design. The uploaded image is our own old in-game sprite enlarged 2x ONLY as a design guide; actually redraw at the output resolution, do not merely clean or upscale its blocks. Preserve her recognizable identity: dark blue-black loose long hair, distinctive parted fringe and face-framing locks, softly rounded gentle face, pale softly warm skin, quiet observant expression, modest loose cool-white cryogenic sleep gown with simple round neckline and roomy sleeves, bare feet. Keep the approachable, slightly stylized personality of THIS original woman; do not turn her into a different severe realistic fashion model. Slightly lengthen the old tiny-sprite proportions toward a balanced roughly five-and-a-half-head stylized adult; not a big-head toddler/chibi, not seven/eight-head realism, no elongated neck or skinny mannequin. Stand facing the viewer, eye-level orthographic, arms relaxed slightly away from body, hands and both feet readable, whole figure within margins. Refined deliberate connected pixel clusters with a controlled small palette; clear stepped edges, broad stable hair masses and only a few organized highlights. Gown has a handful of readable folds from shoulder, sleeve bends and hem, with intact quiet fabric between them. Three or four related value groups per material, no photographic gradients, fine hair strands, scratchy/dither noise, excessive thin creases or realistic anatomy shading. Facial features may be tiny and low-contrast but retain her gentle character, no stern brows, dark eye sockets, giant glittering anime eyes or blank mask. Plain standardized civilian sleepwear, no lab-coat lapels, belt, accessories, decorative fasteners, weapons or sexy tailoring. Keep storage age very subtle and cool gray, no grime, yellowing, tears or horror-zombie effect. One clean transparent-background full-body front view only, no scene, ground shadow, text, labels or multiple views.
+
+SETTINGS
+
+Size
+
+192 × 256
+
+Background
+
+Transparent
+
+Edit method
+
+Text
+
+Colour palette
+
+max 32
+
+Reference images
+
+Used, not saved. Add it again.
+
+Use these settings
+Copy all settings

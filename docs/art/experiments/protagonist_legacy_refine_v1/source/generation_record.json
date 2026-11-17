@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-17",
+  "status": "generated_candidate_user_review_pending",
+  "baseline_commit": "607e234f9f2360ada6b7c85c788ffbd0f8248a4b",
+  "identity_source": "assets/characters/idle.png frame0 96x128, current legacy Sprite3D",
+  "input": "source/legacy_reference_2x_GUIDE.png",
+  "input_preparation": "Exact first-frame crop; nearest-neighbour 2x reference only. Not a finished redraw or density claim.",
+  "input_sha256": "b4ebc4969b3e842dc35584787589c11539dce8fb94c6010403fa8ffffaa3bc2f",
+  "third_party_images_uploaded": false,
+  "previous_front_v2_role": "comparison only, not generation input",
+  "formal_scene_replaced": false,
+  "route_prepared": "Official PixelLab Creator / Edit image Pro in Chrome extension",
+  "monthly_used_before": 36,
+  "monthly_allowance": 2000,
+  "renewal_display": "Dec 13",
+  "submitted": true,
+  "consumed_this_round": 10,
+  "blocker": "Chrome extension file URL permission required by file chooser; no substitute generator used",
+  "source_identity_notes": [
+    "blue-black long hair and parted fringe",
+    "soft familiar face",
+    "loose cool-white civilian sleep gown",
+    "bare feet"
+  ],
+  "comparison_policy": "Matched visible figure height uses nearest-neighbour for review only; not a density or final size claim",
+  "route": "Official PixelLab Creator / Edit image Pro in Chrome extension",
+  "creator_url": "https://www.pixellab.ai/create",
+  "generation_requests": 1,
+  "displayed_cost": 10,
+  "max_colours": 32,
+  "remove_background": true,
+  "output_size_requested": [
+    192,
+    256
+  ],
+  "blocker_resolved": "User enabled extension file URL access; upload then succeeded",
+  "guide_upscale_notice": "Use anyway chosen for explicitly labelled reference guide; does not claim upscaled input as native finished artwork",
+  "monthly_used_after": 46,
+  "remaining": 1954,
+  "raw_size": [
+    192,
+    256
+  ],
+  "raw_visible_rgb_colours": 32,
+  "raw_alpha_values": [
+    0,
+    255
+  ],
+  "raw_sha256": "b012ec9ce45e8721a9aafd40c42440ff21e4e1f3deef68b91d99451e8eee0ea3",
+  "save_method": "Official Download image was clicked, but no download event was reported. Saved the exact PNG data URL of the visible Creator result through the browser documented DOM read API, without resampling.",
+  "api_called_directly": false,
+  "local_paint_changes": 0,
+  "candidate_observations": [
+    "Closer to old blue-black hair, gentle face and white civilian gown than the November realistic front.",
+    "Result remains mildly stylized; intended five-and-a-half-head prompt is not a measured or approved proportion.",
+    "Gown extends closer to ankles than the old sprite; face retains a slight turn. These are review differences, not silently frozen changes."
+  ],
+  "old_scene_and_models_modified": false
+}
