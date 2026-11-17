@@ -1,5 +1,7 @@
 # 主角侧面立绘：问题诊断与下一步建议（给 Codex）
 
+> **同日更新**：第 3 节的 S1／S2／S3 剪影任务已由 [主角重设计简报](PROTAGONIST_REDESIGN_BRIEF.md) 取代（短发、短袖及膝休眠服、三档简化程度）。本文第 1、2 节的诊断和第 4 节的侧面验收标准仍然有效。
+
 > 2026-11-17，Claude Code 应用户要求所写。用户评价 v5 侧面"像穿棉袄准备出门买菜"，希望先听另一方的看法，再交给 Codex 继续改。
 > 本文件只是诊断和建议，**不是已批准的设计**；哪一个方向成立，由用户看完剪影后决定。本次没有生成、修改任何主角图或 3D，PixelLab／Tripo 调用 0 次。
 > 依据：`docs/art/experiments/protagonist_apose_v4/`（已提交），以及本机未提交的 `docs/art/experiments/protagonist_apose_turnaround_v5/`（`raw/side.png`、`raw/side_pose_fix_unreviewed.png`、`source/prompt_side*.txt`）。
