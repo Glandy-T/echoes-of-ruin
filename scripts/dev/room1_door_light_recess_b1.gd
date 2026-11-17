@@ -87,7 +87,6 @@ func _capture_r30_baseline() -> void:
 	super._capture_r30_baseline()
 	glass_material = ShaderMaterial.new()
 	glass_material.shader = GLASS_SHADER
-	glass_material.set_shader_parameter("aspect", GLASS_SIZE.x / GLASS_SIZE.y)
 	old_window = {"size": (status_window.mesh as QuadMesh).size, "pos": status_window.position}
 	set_light_mode(light_mode)
 	set_status_glass(glass_on)
