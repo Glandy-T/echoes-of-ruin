@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="760" viewBox="0 0 540 760">
+  <title>Echoes of Ruin – negative space wave draft V1</title>
+  <desc>Black and white vertical poster study. A single horizontal asymmetric gap: gentle narrow opening on the left, strongest irregular opening left-of-centre on top and right-of-centre on bottom, smaller reverberations toward the right. No city or titles.</desc>
+  <rect x="0" y="0" width="540" height="760" fill="#080808"/>
+  <path fill="#F7F7F4" d="
+    M 0,370
+    L 20,370 55,366 80,368 96,360 118,363
+    L 137,350 154,357 171,341 188,347
+    L 205,332 221,315 233,327 251,323
+    L 269,337 284,330 301,345 319,339
+    L 335,354 351,343 367,359 385,348
+    L 400,359 415,355 432,365 448,360
+    L 465,365 481,363 500,370 540,370
+    L 540,379 525,379 511,381 495,379
+    L 480,387 464,384 448,389 430,383
+    L 415,399 398,388 382,407 365,396
+    L 350,414 332,407 317,431 302,420
+    L 286,448 269,435 253,442 235,426
+    L 218,423 204,409 185,413 170,399
+    L 151,399 134,392 117,390 99,384
+    L 80,384 65,380 45,382 28,378 0,378 Z"/>
+</svg>
