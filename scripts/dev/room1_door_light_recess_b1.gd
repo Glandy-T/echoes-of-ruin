@@ -4,11 +4,14 @@ extends "res://scripts/dev/room1_door_powder_r32.gd"
 # too conspicuous).  The r32 door surface is fixed (mode 3).  Key 4/5 compare:
 #   4 = current r17 core + r18 soft glow
 #   5 = B: lamp core dimmed and desaturated like a slot seen at a grazing angle,
-#       r18 halo off, and a soft wash on the reveal faces and threshold that
+#       a weak r18 halo, and a soft wash on the reveal faces and threshold that
 #       fades from the slot toward the room.
 const WASH_SHADER := preload("res://scripts/dev/door_recess_wash_b1.gdshader")
 const R18_PHOSPHOR := {"phosphor_color": Vector3(0.34, 0.82, 0.44), "phosphor_energy": 0.78}
 const B_PHOSPHOR := {"phosphor_color": Vector3(0.36, 0.66, 0.46), "phosphor_energy": 0.45}
+# User (2026-11-17): add a little halo back.  The r18 halo follows the core's
+# energy, so at 0.45 core and 1.1 strength it is about 60% of r18's (0.6 was invisible).
+const B_HALO_STRENGTH := 1.1
 
 var light_mode := 5
 var wash_faces: Array[MeshInstance3D] = []
@@ -48,7 +51,9 @@ func set_light_mode(mode: int) -> void:
 	var phosphor: Dictionary = B_PHOSPHOR if light_mode == 5 else R18_PHOSPHOR
 	for key: String in phosphor:
 		inner_light_material.set_shader_parameter(key, phosphor[key])
-	set_door_glow(light_mode == 4)
+	set_door_glow(true)
+	var composite := door_glow_overlay.material as ShaderMaterial
+	composite.set_shader_parameter("strength", B_HALO_STRENGTH if light_mode == 5 else 1.0)
 	_update_feedback()
 	_update_info()
 
@@ -71,7 +76,7 @@ func _capture_r30_baseline() -> void:
 func _update_info() -> void:
 	super._update_info()
 	if info and is_instance_valid(inner_light_material):
-		info.text += "\n门灯：" + ("4 现状 r17灯芯＋r18柔光" if light_mode == 4 else "5 方案B 灯芯藏槽＋门洞内侧泛光") + "（4／5切换）"
+		info.text += "\n门灯：" + ("4 现状 r17灯芯＋r18柔光" if light_mode == 4 else "5 方案B 灯芯藏槽＋弱光晕＋门洞内侧泛光") + "（4／5切换）"
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo and event.physical_keycode in [KEY_4, KEY_5]:
