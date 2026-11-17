@@ -1,0 +1,51 @@
+{
+  "status": "PASS - front silhouette pending user visual approval",
+  "native_canvas": [
+    128,
+    128
+  ],
+  "black_only": true,
+  "binary_alpha": true,
+  "editable_layers": [
+    {
+      "name": "L2 unchanged body and limbs",
+      "visible": true
+    },
+    {
+      "name": "Front gown - mild A line",
+      "visible": true
+    },
+    {
+      "name": "Short hair - rounded crown and loose tips",
+      "visible": true
+    },
+    {
+      "name": "APPROVED L2 original - hidden reference",
+      "visible": false
+    },
+    {
+      "name": "Original straight gown - hidden reference",
+      "visible": false
+    },
+    {
+      "name": "Original hair - hidden reference",
+      "visible": false
+    }
+  ],
+  "aseprite_saved_visible_pixels_match": true,
+  "approved_L2_source_unchanged": true,
+  "visible_height_px": 117,
+  "waist_width_before_after_px": [
+    23,
+    23
+  ],
+  "hem_width_before_after_px": [
+    27,
+    31
+  ],
+  "changed_outline_pixels": 124,
+  "side_thickness_measurement": "Not performed: front-only task",
+  "Godot_preview": "Not performed: no coloured or game-ready character in this step",
+  "generation_calls": 0,
+  "colouring": "Not performed; waiting for silhouette approval"
+}
