@@ -1,0 +1,255 @@
+{
+	"baseline_formula": "inherited paper_hero.pixel_size * 96",
+	"baseline_visible_height_m": 1.40250000357628,
+	"capture_contract": "Frozen Room 1 gameplay presentation. Player teleported once to the fixed corridor position, inherited follow camera evaluated once, FOV fixed at 50, then six texture-only modes captured without camera recalculation.",
+	"review_camera": "ReviewCamera",
+	"shots": [
+		{
+			"appearance": {
+				"alpha_bbox_px": {
+					"height": 117,
+					"width": 47,
+					"x": 41,
+					"y": 6
+				},
+				"billboard": 2,
+				"cast_shadow": 0,
+				"foot_row_px_exclusive": 123,
+				"lighting_boundary": "Inherited paper Sprite3D strip-light approximation and existing bloom copy only; no final mesh, bones, skinning, GI receiver, or final 3D material is evaluated.",
+				"local_y": 0.70724356174469,
+				"material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+				"mode": "L1_front",
+				"native_image_px": [
+					128,
+					128
+				],
+				"native_pixels_per_m": 83.4224596803266,
+				"source": "res://docs/art/experiments/protagonist_simplification_l123/two_tone/L1_front.png",
+				"sprite_pixel_size": 0.011987179517746,
+				"sprite_shaded_flag": false,
+				"texture_filter": 0,
+				"world_visible_height_m": 1.40250000357628
+			},
+			"file": "game_L1_front.png",
+			"fov": 50.0,
+			"internal_viewport": [
+				1280,
+				720
+			],
+			"output_viewport": [
+				1280,
+				720
+			],
+			"player_position": "(10.5, 0.05, -4.75)",
+			"render_camera_matches_review": true,
+			"render_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"review_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]"
+		},
+		{
+			"appearance": {
+				"alpha_bbox_px": {
+					"height": 117,
+					"width": 22,
+					"x": 56,
+					"y": 6
+				},
+				"billboard": 2,
+				"cast_shadow": 0,
+				"foot_row_px_exclusive": 123,
+				"lighting_boundary": "Inherited paper Sprite3D strip-light approximation and existing bloom copy only; no final mesh, bones, skinning, GI receiver, or final 3D material is evaluated.",
+				"local_y": 0.70724356174469,
+				"material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+				"mode": "L1_side",
+				"native_image_px": [
+					128,
+					128
+				],
+				"native_pixels_per_m": 83.4224596803266,
+				"source": "res://docs/art/experiments/protagonist_simplification_l123/two_tone/L1_side.png",
+				"sprite_pixel_size": 0.011987179517746,
+				"sprite_shaded_flag": false,
+				"texture_filter": 0,
+				"world_visible_height_m": 1.40250000357628
+			},
+			"file": "game_L1_side.png",
+			"fov": 50.0,
+			"internal_viewport": [
+				1280,
+				720
+			],
+			"output_viewport": [
+				1280,
+				720
+			],
+			"player_position": "(10.5, 0.05, -4.75)",
+			"render_camera_matches_review": true,
+			"render_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"review_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]"
+		},
+		{
+			"appearance": {
+				"alpha_bbox_px": {
+					"height": 117,
+					"width": 45,
+					"x": 42,
+					"y": 6
+				},
+				"billboard": 2,
+				"cast_shadow": 0,
+				"foot_row_px_exclusive": 123,
+				"lighting_boundary": "Inherited paper Sprite3D strip-light approximation and existing bloom copy only; no final mesh, bones, skinning, GI receiver, or final 3D material is evaluated.",
+				"local_y": 0.70724356174469,
+				"material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+				"mode": "L2_front",
+				"native_image_px": [
+					128,
+					128
+				],
+				"native_pixels_per_m": 83.4224596803266,
+				"source": "res://docs/art/experiments/protagonist_simplification_l123/two_tone/L2_front.png",
+				"sprite_pixel_size": 0.011987179517746,
+				"sprite_shaded_flag": false,
+				"texture_filter": 0,
+				"world_visible_height_m": 1.40250000357628
+			},
+			"file": "game_L2_front.png",
+			"fov": 50.0,
+			"internal_viewport": [
+				1280,
+				720
+			],
+			"output_viewport": [
+				1280,
+				720
+			],
+			"player_position": "(10.5, 0.05, -4.75)",
+			"render_camera_matches_review": true,
+			"render_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"review_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]"
+		},
+		{
+			"appearance": {
+				"alpha_bbox_px": {
+					"height": 117,
+					"width": 21,
+					"x": 55,
+					"y": 6
+				},
+				"billboard": 2,
+				"cast_shadow": 0,
+				"foot_row_px_exclusive": 123,
+				"lighting_boundary": "Inherited paper Sprite3D strip-light approximation and existing bloom copy only; no final mesh, bones, skinning, GI receiver, or final 3D material is evaluated.",
+				"local_y": 0.70724356174469,
+				"material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+				"mode": "L2_side",
+				"native_image_px": [
+					128,
+					128
+				],
+				"native_pixels_per_m": 83.4224596803266,
+				"source": "res://docs/art/experiments/protagonist_simplification_l123/two_tone/L2_side.png",
+				"sprite_pixel_size": 0.011987179517746,
+				"sprite_shaded_flag": false,
+				"texture_filter": 0,
+				"world_visible_height_m": 1.40250000357628
+			},
+			"file": "game_L2_side.png",
+			"fov": 50.0,
+			"internal_viewport": [
+				1280,
+				720
+			],
+			"output_viewport": [
+				1280,
+				720
+			],
+			"player_position": "(10.5, 0.05, -4.75)",
+			"render_camera_matches_review": true,
+			"render_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"review_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]"
+		},
+		{
+			"appearance": {
+				"alpha_bbox_px": {
+					"height": 117,
+					"width": 45,
+					"x": 42,
+					"y": 6
+				},
+				"billboard": 2,
+				"cast_shadow": 0,
+				"foot_row_px_exclusive": 123,
+				"lighting_boundary": "Inherited paper Sprite3D strip-light approximation and existing bloom copy only; no final mesh, bones, skinning, GI receiver, or final 3D material is evaluated.",
+				"local_y": 0.70724356174469,
+				"material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+				"mode": "L3_front",
+				"native_image_px": [
+					128,
+					128
+				],
+				"native_pixels_per_m": 83.4224596803266,
+				"source": "res://docs/art/experiments/protagonist_simplification_l123/two_tone/L3_front.png",
+				"sprite_pixel_size": 0.011987179517746,
+				"sprite_shaded_flag": false,
+				"texture_filter": 0,
+				"world_visible_height_m": 1.40250000357628
+			},
+			"file": "game_L3_front.png",
+			"fov": 50.0,
+			"internal_viewport": [
+				1280,
+				720
+			],
+			"output_viewport": [
+				1280,
+				720
+			],
+			"player_position": "(10.5, 0.05, -4.75)",
+			"render_camera_matches_review": true,
+			"render_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"review_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]"
+		},
+		{
+			"appearance": {
+				"alpha_bbox_px": {
+					"height": 117,
+					"width": 24,
+					"x": 53,
+					"y": 6
+				},
+				"billboard": 2,
+				"cast_shadow": 0,
+				"foot_row_px_exclusive": 123,
+				"lighting_boundary": "Inherited paper Sprite3D strip-light approximation and existing bloom copy only; no final mesh, bones, skinning, GI receiver, or final 3D material is evaluated.",
+				"local_y": 0.70724356174469,
+				"material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+				"mode": "L3_side",
+				"native_image_px": [
+					128,
+					128
+				],
+				"native_pixels_per_m": 83.4224596803266,
+				"source": "res://docs/art/experiments/protagonist_simplification_l123/two_tone/L3_side.png",
+				"sprite_pixel_size": 0.011987179517746,
+				"sprite_shaded_flag": false,
+				"texture_filter": 0,
+				"world_visible_height_m": 1.40250000357628
+			},
+			"file": "game_L3_side.png",
+			"fov": 50.0,
+			"internal_viewport": [
+				1280,
+				720
+			],
+			"output_viewport": [
+				1280,
+				720
+			],
+			"player_position": "(10.5, 0.05, -4.75)",
+			"render_camera_matches_review": true,
+			"render_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"review_camera_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]"
+		}
+	],
+	"status": "captured"
+}

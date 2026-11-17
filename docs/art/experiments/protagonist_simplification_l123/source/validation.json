@@ -1,0 +1,385 @@
+{
+  "brief_scope": "Section3 L1/L2/L3 only",
+  "native_canvas": [
+    128,
+    128
+  ],
+  "visible_height_all": 117,
+  "pure_black_silhouettes": true,
+  "two_colour_rgbs": [
+    [
+      218,
+      221,
+      216
+    ],
+    [
+      79,
+      94,
+      99
+    ]
+  ],
+  "alpha_values": [
+    0,
+    255
+  ],
+  "geometry_metrics": {
+    "L1": {
+      "visible_height_px": 117,
+      "crown_y": 6,
+      "sole_exclusive_y": 123,
+      "head_crown_to_chin_landmark_px": 18,
+      "chin_last_row": 23,
+      "measured_heads_high": 6.5,
+      "measurements": {
+        "chest": {
+          "front": {
+            "row": 44,
+            "x_min": 53,
+            "x_max_inclusive": 75,
+            "width_px": 23
+          },
+          "side": {
+            "row": 44,
+            "x_min": 58,
+            "x_max_inclusive": 70,
+            "width_px": 13
+          },
+          "side_to_front": 0.5652173913043478
+        },
+        "waist": {
+          "front": {
+            "row": 55,
+            "x_min": 54,
+            "x_max_inclusive": 74,
+            "width_px": 21
+          },
+          "side": {
+            "row": 55,
+            "x_min": 58,
+            "x_max_inclusive": 69,
+            "width_px": 12
+          },
+          "side_to_front": 0.5714285714285714
+        },
+        "hem": {
+          "front": {
+            "row": 86,
+            "x_min": 51,
+            "x_max_inclusive": 77,
+            "width_px": 27
+          },
+          "side": {
+            "row": 86,
+            "x_min": 56,
+            "x_max_inclusive": 72,
+            "width_px": 17
+          },
+          "side_to_front": 0.6296296296296297
+        }
+      },
+      "torso_rows40_to64_ratio_min": 0.5652173913043478,
+      "torso_rows40_to64_ratio_max": 0.6190476190476191
+    },
+    "L2": {
+      "visible_height_px": 117,
+      "crown_y": 6,
+      "sole_exclusive_y": 123,
+      "head_crown_to_chin_landmark_px": 20,
+      "chin_last_row": 25,
+      "measured_heads_high": 5.85,
+      "measurements": {
+        "chest": {
+          "front": {
+            "row": 44,
+            "x_min": 52,
+            "x_max_inclusive": 76,
+            "width_px": 25
+          },
+          "side": {
+            "row": 44,
+            "x_min": 57,
+            "x_max_inclusive": 71,
+            "width_px": 15
+          },
+          "side_to_front": 0.6
+        },
+        "waist": {
+          "front": {
+            "row": 55,
+            "x_min": 53,
+            "x_max_inclusive": 75,
+            "width_px": 23
+          },
+          "side": {
+            "row": 55,
+            "x_min": 57,
+            "x_max_inclusive": 70,
+            "width_px": 14
+          },
+          "side_to_front": 0.6086956521739131
+        },
+        "hem": {
+          "front": {
+            "row": 86,
+            "x_min": 51,
+            "x_max_inclusive": 77,
+            "width_px": 27
+          },
+          "side": {
+            "row": 86,
+            "x_min": 55,
+            "x_max_inclusive": 73,
+            "width_px": 19
+          },
+          "side_to_front": 0.7037037037037037
+        }
+      },
+      "torso_rows40_to64_ratio_min": 0.56,
+      "torso_rows40_to64_ratio_max": 0.6086956521739131
+    },
+    "L3": {
+      "visible_height_px": 117,
+      "crown_y": 6,
+      "sole_exclusive_y": 123,
+      "head_crown_to_chin_landmark_px": 21,
+      "chin_last_row": 26,
+      "measured_heads_high": 5.571428571428571,
+      "measurements": {
+        "chest": {
+          "front": {
+            "row": 44,
+            "x_min": 52,
+            "x_max_inclusive": 76,
+            "width_px": 25
+          },
+          "side": {
+            "row": 44,
+            "x_min": 57,
+            "x_max_inclusive": 71,
+            "width_px": 15
+          },
+          "side_to_front": 0.6
+        },
+        "waist": {
+          "front": {
+            "row": 55,
+            "x_min": 53,
+            "x_max_inclusive": 75,
+            "width_px": 23
+          },
+          "side": {
+            "row": 55,
+            "x_min": 57,
+            "x_max_inclusive": 70,
+            "width_px": 14
+          },
+          "side_to_front": 0.6086956521739131
+        },
+        "hem": {
+          "front": {
+            "row": 86,
+            "x_min": 51,
+            "x_max_inclusive": 77,
+            "width_px": 27
+          },
+          "side": {
+            "row": 86,
+            "x_min": 55,
+            "x_max_inclusive": 73,
+            "width_px": 19
+          },
+          "side_to_front": 0.7037037037037037
+        }
+      },
+      "torso_rows40_to64_ratio_min": 0.56,
+      "torso_rows40_to64_ratio_max": 0.6086956521739131
+    }
+  },
+  "measurement_method": "Actual native garment masks and central connected silhouette run. Inclusive x widths at chest44, waist55, hem86. Band40..64 also checked; no arm width included.",
+  "aseprite_layers": [
+    {
+      "name": "L1_front_light_body",
+      "visible": true
+    },
+    {
+      "name": "L1_front_dark_planes",
+      "visible": true
+    },
+    {
+      "name": "L1_front_PURE_BLACK_hidden",
+      "visible": false
+    },
+    {
+      "name": "L1_front_measure_body_only_hidden",
+      "visible": false
+    },
+    {
+      "name": "L1_side_light_body",
+      "visible": true
+    },
+    {
+      "name": "L1_side_dark_planes",
+      "visible": true
+    },
+    {
+      "name": "L1_side_PURE_BLACK_hidden",
+      "visible": false
+    },
+    {
+      "name": "L1_side_measure_body_only_hidden",
+      "visible": false
+    },
+    {
+      "name": "L2_front_light_body",
+      "visible": true
+    },
+    {
+      "name": "L2_front_dark_planes",
+      "visible": true
+    },
+    {
+      "name": "L2_front_PURE_BLACK_hidden",
+      "visible": false
+    },
+    {
+      "name": "L2_front_measure_body_only_hidden",
+      "visible": false
+    },
+    {
+      "name": "L2_side_light_body",
+      "visible": true
+    },
+    {
+      "name": "L2_side_dark_planes",
+      "visible": true
+    },
+    {
+      "name": "L2_side_PURE_BLACK_hidden",
+      "visible": false
+    },
+    {
+      "name": "L2_side_measure_body_only_hidden",
+      "visible": false
+    },
+    {
+      "name": "L3_front_light_body",
+      "visible": true
+    },
+    {
+      "name": "L3_front_dark_planes",
+      "visible": true
+    },
+    {
+      "name": "L3_front_PURE_BLACK_hidden",
+      "visible": false
+    },
+    {
+      "name": "L3_front_measure_body_only_hidden",
+      "visible": false
+    },
+    {
+      "name": "L3_side_light_body",
+      "visible": true
+    },
+    {
+      "name": "L3_side_dark_planes",
+      "visible": true
+    },
+    {
+      "name": "L3_side_PURE_BLACK_hidden",
+      "visible": false
+    },
+    {
+      "name": "L3_side_measure_body_only_hidden",
+      "visible": false
+    }
+  ],
+  "aseprite_visible_pixels_and_alpha_exact": true,
+  "aseprite_transparent_rgb_ignored": true,
+  "game_screenshot_count": 6,
+  "game_output_internal": [
+    1280,
+    720
+  ],
+  "same_game_camera_all_six": true,
+  "game_world_visible_height_m": 1.40250000357628,
+  "game_crop_no_resampling": true,
+  "game_crop_source_rect": [
+    480,
+    230,
+    800,
+    540
+  ],
+  "game_checks": [
+    {
+      "file": "game_L1_front.png",
+      "sha256": "111658d086eaf46dd23cf2cd0b5e324bc15b80c2858ea45535f0f6af5778b375",
+      "difference_bounds_vs_L1_front": null,
+      "outside_actor_region_identical": true
+    },
+    {
+      "file": "game_L1_side.png",
+      "sha256": "43ed81371112306038f0299f46393466b68fe89f54d8e8194c1c21dbad842cbe",
+      "difference_bounds_vs_L1_front": [
+        594,
+        263,
+        688,
+        495
+      ],
+      "outside_actor_region_identical": true
+    },
+    {
+      "file": "game_L2_front.png",
+      "sha256": "a7d63fbe370f1b45abe4f5ea5eae675cfd47c1f0b79a7e560115de8f97684e32",
+      "difference_bounds_vs_L1_front": [
+        594,
+        263,
+        688,
+        495
+      ],
+      "outside_actor_region_identical": true
+    },
+    {
+      "file": "game_L2_side.png",
+      "sha256": "0d6e8bfaed3deeb1ac653c4f7e22f7f833550e3dc9a21605baf347297b3d8264",
+      "difference_bounds_vs_L1_front": [
+        594,
+        263,
+        688,
+        495
+      ],
+      "outside_actor_region_identical": true
+    },
+    {
+      "file": "game_L3_front.png",
+      "sha256": "c51fb74265871301b33750d4e90d764dcdc55804f083246a90f7dc3f9229c40d",
+      "difference_bounds_vs_L1_front": [
+        594,
+        263,
+        688,
+        495
+      ],
+      "outside_actor_region_identical": true
+    },
+    {
+      "file": "game_L3_side.png",
+      "sha256": "77a933e07f7184f48979134379111fb3c33d0c2af51f8a29e6ed63a4f03ced14",
+      "difference_bounds_vs_L1_front": [
+        594,
+        263,
+        688,
+        495
+      ],
+      "outside_actor_region_identical": true
+    }
+  ],
+  "PixelLab_requests": 0,
+  "Tripo_requests": 0,
+  "other_generation_requests": 0,
+  "selection": "USER_PENDING",
+  "not_verified": [
+    "Chosen simplification tier",
+    "Final costume/colour/face design",
+    "3D mesh, UV, rig, animation or lighting"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "L1": {
+    "visible_height_px": 117,
+    "crown_y": 6,
+    "sole_exclusive_y": 123,
+    "head_crown_to_chin_landmark_px": 18,
+    "chin_last_row": 23,
+    "measured_heads_high": 6.5,
+    "measurements": {
+      "chest": {
+        "front": {
+          "row": 44,
+          "x_min": 53,
+          "x_max_inclusive": 75,
+          "width_px": 23
+        },
+        "side": {
+          "row": 44,
+          "x_min": 58,
+          "x_max_inclusive": 70,
+          "width_px": 13
+        },
+        "side_to_front": 0.5652173913043478
+      },
+      "waist": {
+        "front": {
+          "row": 55,
+          "x_min": 54,
+          "x_max_inclusive": 74,
+          "width_px": 21
+        },
+        "side": {
+          "row": 55,
+          "x_min": 58,
+          "x_max_inclusive": 69,
+          "width_px": 12
+        },
+        "side_to_front": 0.5714285714285714
+      },
+      "hem": {
+        "front": {
+          "row": 86,
+          "x_min": 51,
+          "x_max_inclusive": 77,
+          "width_px": 27
+        },
+        "side": {
+          "row": 86,
+          "x_min": 56,
+          "x_max_inclusive": 72,
+          "width_px": 17
+        },
+        "side_to_front": 0.6296296296296297
+      }
+    },
+    "torso_rows40_to64_ratio_min": 0.5652173913043478,
+    "torso_rows40_to64_ratio_max": 0.6190476190476191
+  },
+  "L2": {
+    "visible_height_px": 117,
+    "crown_y": 6,
+    "sole_exclusive_y": 123,
+    "head_crown_to_chin_landmark_px": 20,
+    "chin_last_row": 25,
+    "measured_heads_high": 5.85,
+    "measurements": {
+      "chest": {
+        "front": {
+          "row": 44,
+          "x_min": 52,
+          "x_max_inclusive": 76,
+          "width_px": 25
+        },
+        "side": {
+          "row": 44,
+          "x_min": 57,
+          "x_max_inclusive": 71,
+          "width_px": 15
+        },
+        "side_to_front": 0.6
+      },
+      "waist": {
+        "front": {
+          "row": 55,
+          "x_min": 53,
+          "x_max_inclusive": 75,
+          "width_px": 23
+        },
+        "side": {
+          "row": 55,
+          "x_min": 57,
+          "x_max_inclusive": 70,
+          "width_px": 14
+        },
+        "side_to_front": 0.6086956521739131
+      },
+      "hem": {
+        "front": {
+          "row": 86,
+          "x_min": 51,
+          "x_max_inclusive": 77,
+          "width_px": 27
+        },
+        "side": {
+          "row": 86,
+          "x_min": 55,
+          "x_max_inclusive": 73,
+          "width_px": 19
+        },
+        "side_to_front": 0.7037037037037037
+      }
+    },
+    "torso_rows40_to64_ratio_min": 0.56,
+    "torso_rows40_to64_ratio_max": 0.6086956521739131
+  },
+  "L3": {
+    "visible_height_px": 117,
+    "crown_y": 6,
+    "sole_exclusive_y": 123,
+    "head_crown_to_chin_landmark_px": 21,
+    "chin_last_row": 26,
+    "measured_heads_high": 5.571428571428571,
+    "measurements": {
+      "chest": {
+        "front": {
+          "row": 44,
+          "x_min": 52,
+          "x_max_inclusive": 76,
+          "width_px": 25
+        },
+        "side": {
+          "row": 44,
+          "x_min": 57,
+          "x_max_inclusive": 71,
+          "width_px": 15
+        },
+        "side_to_front": 0.6
+      },
+      "waist": {
+        "front": {
+          "row": 55,
+          "x_min": 53,
+          "x_max_inclusive": 75,
+          "width_px": 23
+        },
+        "side": {
+          "row": 55,
+          "x_min": 57,
+          "x_max_inclusive": 70,
+          "width_px": 14
+        },
+        "side_to_front": 0.6086956521739131
+      },
+      "hem": {
+        "front": {
+          "row": 86,
+          "x_min": 51,
+          "x_max_inclusive": 77,
+          "width_px": 27
+        },
+        "side": {
+          "row": 86,
+          "x_min": 55,
+          "x_max_inclusive": 73,
+          "width_px": 19
+        },
+        "side_to_front": 0.7037037037037037
+      }
+    },
+    "torso_rows40_to64_ratio_min": 0.56,
+    "torso_rows40_to64_ratio_max": 0.6086956521739131
+  }
+}
