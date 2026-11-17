@@ -8,7 +8,7 @@ render_mode unshaded, blend_add, cull_disabled, depth_draw_never;
 // Vertices are in the stationary door root (same frame as r17's phosphor).
 
 uniform vec3 wash_color : source_color = vec3(0.30, 0.66, 0.42);
-uniform float wash_energy = 0.40;
+uniform float wash_energy = 0.50;
 uniform float passage_power = 0.0;
 // Slot depth (root-local z) and how fast the light fades toward the room.
 uniform float slot_z = -0.060;

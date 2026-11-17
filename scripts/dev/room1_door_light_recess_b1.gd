@@ -8,7 +8,7 @@ extends "res://scripts/dev/room1_door_powder_r32.gd"
 #       fades from the slot toward the room.
 const WASH_SHADER := preload("res://scripts/dev/door_recess_wash_b1.gdshader")
 const R18_PHOSPHOR := {"phosphor_color": Vector3(0.34, 0.82, 0.44), "phosphor_energy": 0.78}
-const B_PHOSPHOR := {"phosphor_color": Vector3(0.36, 0.66, 0.46), "phosphor_energy": 0.30}
+const B_PHOSPHOR := {"phosphor_color": Vector3(0.36, 0.66, 0.46), "phosphor_energy": 0.45}
 
 var light_mode := 5
 var wash_faces: Array[MeshInstance3D] = []
