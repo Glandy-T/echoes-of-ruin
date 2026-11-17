@@ -1,0 +1,48 @@
+{
+  "raw_native_size": [
+    96,
+    128
+  ],
+  "visible_rgb_colours": 16,
+  "alpha_values": [
+    0,
+    255
+  ],
+  "visible_bounds": [
+    22,
+    6,
+    74,
+    123
+  ],
+  "visible_height_pixels": 117,
+  "raw_sha256": "35889c3e1cef6e2b29228822edd8021006b489328816d58e434f29ca65d540fb",
+  "final_png_byte_identical_to_raw": true,
+  "aseprite_visible_pixel_mismatches": 0,
+  "aseprite_alpha_exact": true,
+  "aseprite_layers": [
+    {
+      "name": "PixelLab_original_Pro_compact_native",
+      "visible": true
+    },
+    {
+      "name": "Compact_GUIDE_resize_only_hidden",
+      "visible": false
+    },
+    {
+      "name": "Legacy_identity_ONLY_not_proportions_hidden",
+      "visible": false
+    },
+    {
+      "name": "Aseprite_local_refinement_EMPTY",
+      "visible": true
+    }
+  ],
+  "local_painted_pixels": 0,
+  "user_visual_review": "pending",
+  "not_verified": [
+    "final design approval",
+    "side/back views",
+    "3D mesh/rig/UV",
+    "final 3D lighting"
+  ]
+}

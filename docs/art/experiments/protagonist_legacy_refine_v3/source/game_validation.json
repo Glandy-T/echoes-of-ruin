@@ -1,0 +1,150 @@
+{
+  "shots": 12,
+  "native_output": [
+    1280,
+    720
+  ],
+  "native_internal": [
+    1280,
+    720
+  ],
+  "views": 3,
+  "modes": 4,
+  "same_camera_within_each_view": true,
+  "same_fov": 50,
+  "outside_actor_region_exact_same_pixels": true,
+  "actor_region": [
+    540,
+    240,
+    740,
+    530
+  ],
+  "closeup_crop": [
+    560,
+    250,
+    720,
+    510
+  ],
+  "closeup_display_scale": 2,
+  "images": [
+    {
+      "file": "01_front_left_legacy_idle_0.png",
+      "image_sha256": "e37a6aeee112d7724a14689b8e649ba7f1fbc098b72bf3c8f38011c4d9967a04",
+      "difference_bounds_vs_legacy": null,
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "01_front_left_v2_PixelLab.png",
+      "image_sha256": "dc655da2c13ad1f101b4edf1677c4fbfc2a8527aa0fb9522777eee2f2c5efed5",
+      "difference_bounds_vs_legacy": [
+        589,
+        263,
+        693,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "01_front_left_v3_PixelLab.png",
+      "image_sha256": "d8969c595b06fd75349e5c33d68205164d0892f2e58c40cd33efd67d77796f2a",
+      "difference_bounds_vs_legacy": [
+        587,
+        263,
+        693,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "01_front_left_v3_PixelLab_short_95pct.png",
+      "image_sha256": "813aa6d12a3f7e1d0f1cbb79d8b90184201914ad1e5fcc1125e0081c5f225754",
+      "difference_bounds_vs_legacy": [
+        590,
+        263,
+        690,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "02_front_middle_legacy_idle_0.png",
+      "image_sha256": "212e58ae0bbe50f2f325e3fceba305586ad2c1dbdc4e4053a5d44422204c5f77",
+      "difference_bounds_vs_legacy": null,
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "02_front_middle_v2_PixelLab.png",
+      "image_sha256": "6b8d9a2f135e3f67e117c3a55d7bf775fb76e8f91a4760b62ecb1bde20a962c5",
+      "difference_bounds_vs_legacy": [
+        589,
+        263,
+        693,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "02_front_middle_v3_PixelLab.png",
+      "image_sha256": "ac15d16614c24594c2a05896216200643c29e3ea831365382190ba38e89053e7",
+      "difference_bounds_vs_legacy": [
+        587,
+        263,
+        693,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "02_front_middle_v3_PixelLab_short_95pct.png",
+      "image_sha256": "cd60ba673a9b7a9c546b90e7f6a0f0fe05823d56f9d37e24021836d06b3d3c93",
+      "difference_bounds_vs_legacy": [
+        590,
+        263,
+        690,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "03_front_right_legacy_idle_0.png",
+      "image_sha256": "aa90eb531f96dbdc304fb61be3e2fc5d64d16f1b010ad6ae7c85b5ac2eca0e9b",
+      "difference_bounds_vs_legacy": null,
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "03_front_right_v2_PixelLab.png",
+      "image_sha256": "edf43472a59115699871214b4792d301a72f0fbcf7f772a856f8e66f0b17a3bc",
+      "difference_bounds_vs_legacy": [
+        589,
+        263,
+        693,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "03_front_right_v3_PixelLab.png",
+      "image_sha256": "c2b77087c174a21616a7f26ab57ddef2ef34cd1df1bf5d78513f9c4e7a09ae97",
+      "difference_bounds_vs_legacy": [
+        587,
+        263,
+        693,
+        495
+      ],
+      "outside_character_region_identical": true
+    },
+    {
+      "file": "03_front_right_v3_PixelLab_short_95pct.png",
+      "image_sha256": "b24efa4d77b48ff3f312329e4b5a218674db119036ef750a11b5dd8f1510bf59",
+      "difference_bounds_vs_legacy": [
+        590,
+        263,
+        690,
+        495
+      ],
+      "outside_character_region_identical": true
+    }
+  ],
+  "user_visual_approval": "pending",
+  "boundary": "Existing paper strip-light approximation; no final 3D mesh lighting validation."
+}

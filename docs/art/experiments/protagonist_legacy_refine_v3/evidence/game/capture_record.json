@@ -1,0 +1,497 @@
+{
+  "capture_contract": "Each view sets the inherited player/follow camera once, then captures all four paper modes without recalculating it.",
+  "shots": [
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 96,
+          "width": 37,
+          "x": 29,
+          "y": 24
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 120,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.818125009536743,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "legacy idle #0",
+        "native_pixels_per_m": 68.4491976864218,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://assets/characters/idle.png",
+        "sprite_pixel_size": 0.0146093750372529,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250000357628
+      },
+      "camera_matches_frozen_view": true,
+      "file": "01_front_left_legacy_idle_0.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(3.0, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "view": "front_left",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 147,
+          "width": 65,
+          "x": 16,
+          "y": 7
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 154,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.706020414829254,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v2 PixelLab",
+        "native_pixels_per_m": 104.812829363707,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/source/adult_v2_original.png",
+        "sprite_pixel_size": 0.00954081676900387,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250006504357
+      },
+      "camera_matches_frozen_view": true,
+      "file": "01_front_left_v2_PixelLab.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(3.0, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "view": "front_left",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 117,
+          "width": 52,
+          "x": 22,
+          "y": 6
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 123,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.70724356174469,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v3 PixelLab",
+        "native_pixels_per_m": 83.4224596803266,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/front_candidate.png",
+        "sprite_pixel_size": 0.011987179517746,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250000357628
+      },
+      "camera_matches_frozen_view": true,
+      "file": "01_front_left_v3_PixelLab.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(3.0, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "view": "front_left",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 117,
+          "width": 52,
+          "x": 22,
+          "y": 6
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 123,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.671881377696991,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v3 PixelLab short 95%",
+        "native_pixels_per_m": 87.8131168892877,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 274.5474)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/front_candidate.png",
+        "sprite_pixel_size": 0.0113878203555942,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.33237498160452
+      },
+      "camera_matches_frozen_view": true,
+      "file": "01_front_left_v3_PixelLab_short_95pct.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(3.0, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (3.0, 2.25, 4.2)]",
+      "view": "front_left",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 96,
+          "width": 37,
+          "x": 29,
+          "y": 24
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 120,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.818125009536743,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "legacy idle #0",
+        "native_pixels_per_m": 68.4491976864218,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://assets/characters/idle.png",
+        "sprite_pixel_size": 0.0146093750372529,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250000357628
+      },
+      "camera_matches_frozen_view": true,
+      "file": "02_front_middle_legacy_idle_0.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(10.5, 0.05, -4.75)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "view": "front_middle",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 147,
+          "width": 65,
+          "x": 16,
+          "y": 7
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 154,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.706020414829254,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v2 PixelLab",
+        "native_pixels_per_m": 104.812829363707,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/source/adult_v2_original.png",
+        "sprite_pixel_size": 0.00954081676900387,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250006504357
+      },
+      "camera_matches_frozen_view": true,
+      "file": "02_front_middle_v2_PixelLab.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(10.5, 0.05, -4.75)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "view": "front_middle",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 117,
+          "width": 52,
+          "x": 22,
+          "y": 6
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 123,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.70724356174469,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v3 PixelLab",
+        "native_pixels_per_m": 83.4224596803266,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/front_candidate.png",
+        "sprite_pixel_size": 0.011987179517746,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250000357628
+      },
+      "camera_matches_frozen_view": true,
+      "file": "02_front_middle_v3_PixelLab.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(10.5, 0.05, -4.75)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "view": "front_middle",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 117,
+          "width": 52,
+          "x": 22,
+          "y": 6
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 123,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.671881377696991,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v3 PixelLab short 95%",
+        "native_pixels_per_m": 87.8131168892877,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 274.5474)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/front_candidate.png",
+        "sprite_pixel_size": 0.0113878203555942,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.33237498160452
+      },
+      "camera_matches_frozen_view": true,
+      "file": "02_front_middle_v3_PixelLab_short_95pct.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(10.5, 0.05, -4.75)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+      "view": "front_middle",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 96,
+          "width": 37,
+          "x": 29,
+          "y": 24
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 120,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.818125009536743,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "legacy idle #0",
+        "native_pixels_per_m": 68.4491976864218,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://assets/characters/idle.png",
+        "sprite_pixel_size": 0.0146093750372529,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250000357628
+      },
+      "camera_matches_frozen_view": true,
+      "file": "03_front_right_legacy_idle_0.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(14.8, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "view": "front_right",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 147,
+          "width": 65,
+          "x": 16,
+          "y": 7
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 154,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.706020414829254,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v2 PixelLab",
+        "native_pixels_per_m": 104.812829363707,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/source/adult_v2_original.png",
+        "sprite_pixel_size": 0.00954081676900387,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250006504357
+      },
+      "camera_matches_frozen_view": true,
+      "file": "03_front_right_v2_PixelLab.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(14.8, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "view": "front_right",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 117,
+          "width": 52,
+          "x": 22,
+          "y": 6
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 123,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.70724356174469,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v3 PixelLab",
+        "native_pixels_per_m": 83.4224596803266,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 262.5927)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/front_candidate.png",
+        "sprite_pixel_size": 0.011987179517746,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.40250000357628
+      },
+      "camera_matches_frozen_view": true,
+      "file": "03_front_right_v3_PixelLab.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(14.8, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "view": "front_right",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "appearance": {
+        "alpha_bbox_px": {
+          "height": 117,
+          "width": 52,
+          "x": 22,
+          "y": 6
+        },
+        "billboard": 2,
+        "cast_shadow": 0,
+        "foot_row_px": 123,
+        "lighting_mode": "Inherited custom unshaded strip-light approximation",
+        "local_y": 0.671881377696991,
+        "material_override_shader": "res://scripts/dev/room1_sprite_player_strip_lighting_r2.gdshader",
+        "mode": "v3 PixelLab short 95%",
+        "native_pixels_per_m": 87.8131168892877,
+        "nonfinal_3d_lighting_boundary": "Paper Sprite3D only; no final mesh, bones, skinning, GI receiver, or final 3D material is being approved. The inherited paper strip-light shader is a local approximation, and bloom is the existing secondary render copy.",
+        "projected_crown": "(640.0, 274.5474)",
+        "projected_sole": "(640.0, 495.1495)",
+        "source": "res://docs/art/experiments/protagonist_legacy_refine_v3/front_candidate.png",
+        "sprite_pixel_size": 0.0113878203555942,
+        "sprite_shaded_flag": false,
+        "texture_filter": 0,
+        "world_visible_height_m": 1.33237498160452
+      },
+      "camera_matches_frozen_view": true,
+      "file": "03_front_right_v3_PixelLab_short_95pct.png",
+      "fov": 50.0,
+      "internal_viewport": [
+        1280,
+        720
+      ],
+      "player_position": "(14.8, 0.05, -3.8)",
+      "render_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "review_camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (14.8, 2.25, 4.2)]",
+      "view": "front_right",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

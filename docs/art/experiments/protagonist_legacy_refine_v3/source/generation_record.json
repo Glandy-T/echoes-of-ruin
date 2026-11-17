@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-17",
+  "status": "generated_game_context_review_pending",
+  "image_to_edit": "compact_GUIDE.png",
+  "identity_reference": "legacy_identity.png",
+  "input_preparation": "v2 raw96x160 uniformly reduced to height128 with rounded width77 by nearest-neighbour, centered in96x128 with transparent padding; composition guide only, no painted change or final density claim.",
+  "native_canvas_requested": [
+    96,
+    128
+  ],
+  "third_party_images_uploaded": false,
+  "local_paint_changes": 0,
+  "generation_requests": 2,
+  "baseline_commit": "89713f7e85295b46ec10679a92a54b4b4877ecb4",
+  "game_context_plan": "Independent r30-based Sprite3D review, legacy/v2/v3 same visible height and v3 at95percent; camera/light/layout fixed, no formal scene replacement.",
+  "model": "Pro",
+  "max_colors_requested": 16,
+  "credits_before": 56,
+  "credits_cost_displayed": 10,
+  "prompt_file": "source/prompt.txt",
+  "request_route": "PixelLab website Creator Edit image Pro via Chrome extension",
+  "total_credits_expected": 20,
+  "identity_reference_final_submission": false,
+  "attempt1_rejected": "Oversized head and shortened childish body; rejected before gameplay delivery",
+  "final_edit_input": "source/compact_GUIDE.png",
+  "correction": "Keep guide adult geometry; simplify pixel painting only; old identity image removed from final request",
+  "credits_after": 76,
+  "total_credits_spent": 20,
+  "credits_remaining": 1924,
+  "reset_visible": "Dec 13",
+  "renewal_visible": "Dec 13",
+  "attempts": [
+    {
+      "output": "raw/rejected_head_attempt1.png",
+      "prompt": "source/prompt_attempt1.txt",
+      "credits_before": 56,
+      "credits_after": 66,
+      "status": "rejected_oversized_head",
+      "inputs": [
+        "source/compact_GUIDE.png",
+        "source/legacy_identity.png"
+      ]
+    },
+    {
+      "output": "raw/front.png",
+      "prompt": "source/prompt.txt",
+      "credits_before": 66,
+      "credits_after": 76,
+      "status": "candidate_pending_gameplay_review",
+      "inputs": [
+        "source/compact_GUIDE.png"
+      ]
+    }
+  ],
+  "raw_sha256": "35889c3e1cef6e2b29228822edd8021006b489328816d58e434f29ca65d540fb",
+  "actual_canvas": [
+    96,
+    128
+  ],
+  "actual_visible_height": 117,
+  "actual_visible_rgb_colours": 16
+}
