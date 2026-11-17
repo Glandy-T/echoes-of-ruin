@@ -1,0 +1,26 @@
+# Room 1 门灯方案 B：灯芯藏槽＋门洞内侧泛光
+
+2026-11-17。用户认为 r18 门灯"太亮、灯条太明显"，从两个方向中选择只做 B。门面为已确认的 r32。**待审。**
+
+- [对比页](preview.html)：左为现状（r17＋r18），右为 B。
+- F6：`scenes/dev/room1_door_light_recess_b1.tscn`，**4** 看现状，**5** 看 B。
+- 代码：`scripts/dev/room1_door_light_recess_b1.gd`、`scripts/dev/door_recess_wash_b1.gdshader`；截图：`scripts/dev/capture_room1_door_light_recess_b1.gd`。
+
+## B 做了什么
+
+1. **灯芯压暗、降饱和**：沿用 r17 的灯芯几何和着色器，只改参数：亮度 0.78 → 0.30，颜色 (0.34, 0.82, 0.44) → (0.36, 0.66, 0.46)，表现为灯槽里的一条暗缝，而不是描边。
+2. **关掉 r18 的屏幕柔光**：它是绕着灯芯扩散的，会让线条显得更粗。
+3. **门洞内侧泛光**：在门洞左右内壁、顶面和门槛地面上叠加一层很淡的绿光（加法混合，不改原贴图）。光从门叶后方的灯槽位置开始，往房间方向按指数衰减；门槛的光往房间里延伸约 0.6 m，靠近两侧竖槽处更亮。侧壁只在门叶让开后才亮，待机、认证、拒绝时没有任何绿光。
+
+不改门形、UV、烘焙、小窗灯语和开门逻辑；没有新生成。
+
+## 实际效果和局限（请看图判断）
+
+- **斜侧看**：门洞内壁被照亮的一片绿光能读出来，最接近"门框里藏着灯"的意图。
+- **正对的游戏镜头**：门洞内壁几乎是侧对着镜头的，泛光能露出的面积很少，所以 B 在游戏镜头里主要表现为"细而暗的线＋门槛一点微光"，比 r18 安静很多。代价是通行状态主要靠小窗绿灯和这条暗线来提示。
+- 如果觉得正面太弱，可调的参数是灯芯亮度 `B_PHOSPHOR.phosphor_energy` 和泛光强度 `wash_energy`（现为 0.40）。
+
+## 复现
+
+1. Godot 4.6.2：`Godot --path . --resolution 1280x720 scenes/dev/room1_door_light_recess_b1_capture.tscn`。
+2. `python docs/art/experiments/room1_door_light_recess_b1/source/build_compare.py`（Pillow）。

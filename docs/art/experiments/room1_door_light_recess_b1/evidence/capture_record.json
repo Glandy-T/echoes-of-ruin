@@ -1,0 +1,84 @@
+{
+	"shots": [
+		{
+			"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+			"door_fraction": 0.22,
+			"feedback": "pass",
+			"file": "oblique_opening_current_r18.png",
+			"fov": 47.0,
+			"light_mode": 4
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door_fraction": 1.0,
+			"feedback": "pass",
+			"file": "game_open_pass_current_r18.png",
+			"fov": 50.0,
+			"light_mode": 4
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door_fraction": 1.0,
+			"feedback": "pass",
+			"file": "near_open_pass_current_r18.png",
+			"fov": 47.0,
+			"light_mode": 4
+		},
+		{
+			"camera": "[X: (0.864789, 0.0, 0.502136), Y: (0.018664, 0.999309, -0.032144), Z: (-0.501789, 0.03717, 0.864191), O: (7.8, 1.35, -4.55)]",
+			"door_fraction": 1.0,
+			"feedback": "pass",
+			"file": "oblique_open_current_r18.png",
+			"fov": 50.0,
+			"light_mode": 4
+		},
+		{
+			"camera": "[X: (0.868817, 0.0, 0.495133), Y: (0.012023, 0.999705, -0.021097), Z: (-0.494987, 0.024282, 0.868561), O: (7.9, 1.45, -4.55)]",
+			"door_fraction": 0.22,
+			"feedback": "pass",
+			"file": "oblique_opening_b_recess.png",
+			"fov": 47.0,
+			"light_mode": 5
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door_fraction": 1.0,
+			"feedback": "pass",
+			"file": "game_open_pass_b_recess.png",
+			"fov": 50.0,
+			"light_mode": 5
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door_fraction": 1.0,
+			"feedback": "pass",
+			"file": "near_open_pass_b_recess.png",
+			"fov": 47.0,
+			"light_mode": 5
+		},
+		{
+			"camera": "[X: (0.864789, 0.0, 0.502136), Y: (0.018664, 0.999309, -0.032144), Z: (-0.501789, 0.03717, 0.864191), O: (7.8, 1.35, -4.55)]",
+			"door_fraction": 1.0,
+			"feedback": "pass",
+			"file": "oblique_open_b_recess.png",
+			"fov": 50.0,
+			"light_mode": 5
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.985549, -0.169391), Z: (0.0, 0.169391, 0.985549), O: (10.5, 2.25, 3.25)]",
+			"door_fraction": 0.0,
+			"feedback": "idle",
+			"file": "game_idle_b_recess.png",
+			"fov": 50.0,
+			"light_mode": 5
+		},
+		{
+			"camera": "[X: (1.0, 0.0, 0.0), Y: (0.0, 0.998945, -0.045929), Z: (0.0, 0.045929, 0.998945), O: (10.5, 1.48, -4.85)]",
+			"door_fraction": 0.0,
+			"feedback": "idle",
+			"file": "near_idle_b_recess.png",
+			"fov": 47.0,
+			"light_mode": 5
+		}
+	]
+}
