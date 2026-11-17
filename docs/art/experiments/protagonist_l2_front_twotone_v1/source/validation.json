@@ -1,0 +1,48 @@
+{
+  "status": "PASS - pending user visual approval of two-value forms",
+  "native_canvas": [
+    128,
+    128
+  ],
+  "visible_height_px": 117,
+  "changed_silhouette_pixels": 0,
+  "approved_original_unchanged": true,
+  "two_neutral_values_only": [
+    [
+      79,
+      94,
+      99,
+      255
+    ],
+    [
+      218,
+      221,
+      216,
+      255
+    ]
+  ],
+  "no_antialiasing": true,
+  "editable_layers": [
+    {
+      "name": "LIGHT - locked silhouette",
+      "visible": true
+    },
+    {
+      "name": "DARK - broad form planes",
+      "visible": true
+    },
+    {
+      "name": "APPROVED outline - hidden reference",
+      "visible": false
+    }
+  ],
+  "aseprite_saved_pixels_match": true,
+  "face_shadow_or_marks_added": false,
+  "generation_calls": 0,
+  "not_verified_or_made": [
+    "final colour palette",
+    "side or back views",
+    "3D",
+    "new Godot character"
+  ]
+}

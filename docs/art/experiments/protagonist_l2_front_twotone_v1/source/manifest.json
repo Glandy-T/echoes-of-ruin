@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-17",
+  "stage": "L2 front two-value block study; pending user approval",
+  "approved_silhouette": "../protagonist_l2_front_silhouette_v1/front_silhouette.png",
+  "approved_source_sha256": "6aa2626e2235cda86a6c6d15b46e079a6472be092adc829feaae8f7658733a21",
+  "native_canvas": [
+    128,
+    128
+  ],
+  "visible_height_px": 117,
+  "alpha_equal": true,
+  "changed_silhouette_pixels": 0,
+  "neutral_study_palette": {
+    "light": [
+      218,
+      221,
+      216,
+      255
+    ],
+    "dark": [
+      79,
+      94,
+      99,
+      255
+    ]
+  },
+  "gown_shadow_vertices": [
+    [
+      72,
+      33
+    ],
+    [
+      76,
+      35
+    ],
+    [
+      75,
+      56
+    ],
+    [
+      76,
+      64
+    ],
+    [
+      78,
+      77
+    ],
+    [
+      79,
+      86
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      73,
+      77
+    ],
+    [
+      72,
+      64
+    ],
+    [
+      71,
+      55
+    ]
+  ],
+  "face_opening_single_light_value": true,
+  "method": "Editable flat block study, same two neutral values as selected L2, intersected with approved silhouette. Not a final texture.",
+  "services": {
+    "PixelLab": 0,
+    "Tripo": 0,
+    "other_generation": 0
+  },
+  "not_added": [
+    "face shadow",
+    "eyes or other facial features",
+    "P12",
+    "wristband",
+    "stage two costume",
+    "ageing texture"
+  ],
+  "not_made": [
+    "final colour palette",
+    "side",
+    "back",
+    "3D",
+    "Godot character replacement"
+  ]
+}
