@@ -54,27 +54,27 @@
     ],
     "C r32 粉末涂层": [
       [
-        38.4,
+        38.6,
         39.1
       ],
       [
-        38.4,
+        38.5,
         37.8
       ],
       [
-        36.7,
+        37.3,
         36.8
       ],
       [
-        38.6,
+        38.5,
         35.5
       ],
       [
-        34.3,
+        34.8,
         34.4
       ],
       [
-        27.8,
+        28.2,
         27.9
       ]
     ]
@@ -84,19 +84,43 @@
       "door_local_std": 1.29,
       "wall_local_std": 2.85,
       "door_mean": 27.3,
-      "wall_mean": 33.4
+      "wall_mean": 33.4,
+      "door_panel": {
+        "visible_pixels_pct": 3.9,
+        "quiet_blocks_pct": 85.1
+      },
+      "wall_panels": {
+        "visible_pixels_pct": 3.2,
+        "quiet_blocks_pct": 77.7
+      }
     },
     "B r31": {
       "door_local_std": 1.68,
       "wall_local_std": 2.85,
       "door_mean": 33.6,
-      "wall_mean": 33.4
+      "wall_mean": 33.4,
+      "door_panel": {
+        "visible_pixels_pct": 4.6,
+        "quiet_blocks_pct": 81.4
+      },
+      "wall_panels": {
+        "visible_pixels_pct": 3.2,
+        "quiet_blocks_pct": 77.7
+      }
     },
     "C r32 粉末涂层": {
-      "door_local_std": 2.75,
+      "door_local_std": 1.56,
       "wall_local_std": 2.85,
-      "door_mean": 33.6,
-      "wall_mean": 33.4
+      "door_mean": 33.9,
+      "wall_mean": 33.4,
+      "door_panel": {
+        "visible_pixels_pct": 4.5,
+        "quiet_blocks_pct": 74.8
+      },
+      "wall_panels": {
+        "visible_pixels_pct": 3.2,
+        "quiet_blocks_pct": 77.7
+      }
     }
   }
 }

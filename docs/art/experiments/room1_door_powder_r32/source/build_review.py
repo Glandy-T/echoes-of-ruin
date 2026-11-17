@@ -40,8 +40,16 @@ def bands(name):
 def grain(name):
     g = Image.open(EV / name).convert("L"); a = np.asarray(g).astype(float)
     hp = a - np.asarray(g.filter(ImageFilter.GaussianBlur(12))).astype(float)
+    def panel(r):
+        # Panel-interior comparison (door centre vs wall panel centres, no wall
+        # corner deposits): share of visibly deviating pixels and of quiet 20px blocks.
+        H, W = r.shape
+        blocks = np.array([r[y:y+20, x:x+20].std() for y in range(0, H - 19, 20) for x in range(0, W - 19, 20)])
+        return {"visible_pixels_pct": round(float((abs(r) > 2).mean() * 100), 1), "quiet_blocks_pct": round(float((blocks < 1).mean() * 100), 1)}
     return {"door_local_std": round(hp[60:600, 470:820].std(), 2), "wall_local_std": round(hp[60:600, 180:420].std(), 2),
-            "door_mean": round(a[60:600, 470:820].mean(), 1), "wall_mean": round(a[60:600, 180:420].mean(), 1)}
+            "door_mean": round(a[60:600, 470:820].mean(), 1), "wall_mean": round(a[60:600, 180:420].mean(), 1),
+            "door_panel": panel(hp[100:560, 500:790]),
+            "wall_panels": panel(np.concatenate([hp[100:560, 200:400], hp[100:560, 880:1030]], 1))}
 
 report = {
     "game_camera_green_by_band_top_to_bottom_[door,wall]": {lab: bands(f"{p}_game_door_closed.png") for p, lab in MODES},

@@ -37,12 +37,24 @@ uniform float contact_height = 0.45;
 uniform float grain_contrast = 2.6;
 uniform float grain_light_contrast = 1.2;
 uniform vec3 grain_reference = vec3(0.4735, 0.5271, 0.4508);
+// Optional (added for r32 revision): separate scale for fine coating grain.
+// Deviations smaller than fine_edge0 (luma) use fine_contrast, larger ones
+// (painted traces, seal, status aperture) keep the scales above, blended up to
+// fine_edge1.  Negative fine_contrast = disabled, i.e. exact r31 behaviour.
+uniform float fine_contrast = -1.0;
+uniform float fine_edge0 = 0.02;
+uniform float fine_edge1 = 0.045;
 
 void fragment() {
 	vec4 surface = texture(pixel_map, UV);
 	vec3 delta = surface.rgb - grain_reference;
-	float lighter = step(0.0, dot(delta, vec3(0.2126, 0.7152, 0.0722)));
-	vec3 painted = max(grain_reference + delta * mix(grain_contrast, grain_light_contrast, lighter), vec3(0.0));
+	float delta_luma = dot(delta, vec3(0.2126, 0.7152, 0.0722));
+	float lighter = step(0.0, delta_luma);
+	float scale = mix(grain_contrast, grain_light_contrast, lighter);
+	if (fine_contrast >= 0.0) {
+		scale = mix(fine_contrast, scale, smoothstep(fine_edge0, fine_edge1, abs(delta_luma)));
+	}
+	vec3 painted = max(grain_reference + delta * scale, vec3(0.0));
 	// GLB UV V is downward in Godot: top of the door has UV.y near zero.
 	float height_fraction = 1.0 - UV.y;
 	float contact = mix(contact_floor, 1.0, smoothstep(0.0, contact_height, height_fraction));

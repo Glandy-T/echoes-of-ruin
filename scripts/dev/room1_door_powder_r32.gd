@@ -10,12 +10,17 @@ const R32_DOOR := "res://assets/art/room1_door_powder_r32/door_front.png"
 const R31_PARAMS := {
 	"leaf_level": 0.19, "contact_floor": 0.62, "contact_height": 0.45,
 	"grain_contrast": 2.6, "grain_light_contrast": 1.2,
-	"grain_reference": Vector3(0.4735, 0.5271, 0.4508),
+	"grain_reference": Vector3(0.4735, 0.5271, 0.4508), "fine_contrast": -1.0,
+	"fine_edge0": 0.02, "fine_edge1": 0.045,
 }
 # Calibrated on same-camera captures against the surrounding wall (README).
 const R32_PARAMS := {
 	"leaf_level": 0.23, "contact_floor": 0.66, "contact_height": 0.45,
-	"grain_contrast": 2.0, "grain_light_contrast": 2.0,
+	# Revision 2026-11-17: the first r32 (grain 2.0 everywhere) was busier than
+	# the wall panels.  Fine powder grain is now softened to 0.5x while painted
+	# traces, seal and status aperture keep their native contrast.
+	"grain_contrast": 1.0, "grain_light_contrast": 1.0,
+	"fine_contrast": 0.5, "fine_edge0": 0.04, "fine_edge1": 0.09,
 	# Median of the r32 texture as the shader actually samples it: sRGB-encoded
 	# values under this project's gl_compatibility renderer (verified by sweep).
 	"grain_reference": Vector3(0.631, 0.667, 0.635),
