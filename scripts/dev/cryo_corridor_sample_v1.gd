@@ -1,4 +1,4 @@
-extends "res://scripts/dev/room1_door_window_r30.gd"
+extends "res://scripts/dev/room1_door_light_recess_b1.gd"
 
 const SAMPLE := preload("res://assets/art/cryo_corridor_sample_v1/corridor_sample_v1.glb")
 const SAMPLE_LAYER := 1 << 19

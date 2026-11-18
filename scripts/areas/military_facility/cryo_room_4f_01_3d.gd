@@ -1,4 +1,4 @@
-extends "res://scripts/dev/room1_complete_r19.gd"
+extends "res://scripts/dev/cryo_4f_camera_compare_v6.gd"
 
 # The formal Room 1 entry point deliberately inherits the approved review build.
 # Keep its play-mode policy here so the review scene remains available as a tool.
@@ -15,7 +15,7 @@ func _ready() -> void:
 
 
 func _unhandled_key_input(event: InputEvent) -> void:
-	# r19 inherits several review-only shortcuts.  Do not call the inherited
+	# The integrated scene inherits several review-only shortcuts.  Do not call the inherited
 	# handler during normal play: movement and dialogue use actions /
 	# _unhandled_input, while this prevents F-keys and diagnostic letters from
 	# changing the scene's presentation.

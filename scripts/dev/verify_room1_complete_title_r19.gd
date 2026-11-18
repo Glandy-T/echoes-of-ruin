@@ -125,6 +125,27 @@ func run_checks() -> void:
 		assert(not room.info.get_parent().visible)
 	assert(room.get("door_glow_on") == glow_before)
 
+	# Exercise the same E handler as the player on both sides of the main door.
+	assert(room.get_r32_door_report().pixel_map == room.R32_DOOR)
+	assert(room.light_mode == 5 and room.glass_on and room.room_pods.size() == 20)
+	room.teleport_player(Vector3(10.5, 0.05, -8.2))
+	await _physics_frames(120)
+	assert(not room.corridor_view and room.door_fraction == 0.0)
+	await tap(&"interact")
+	await _physics_frames(310)
+	assert(room.door_fraction >= 0.99)
+	await tap(&"interact")
+	await _physics_frames(65)
+	assert(room.corridor_view and not room.switching_view)
+	assert(room.portal_events.back().event == "transfer_under_black")
+	assert(room.portal_events.back().alpha >= 0.99)
+	await tap(&"interact")
+	await _physics_frames(65)
+	assert(not room.corridor_view and room.portal_events.back().alpha >= 0.99)
+	room.teleport_player(Vector3(8.0, 0.05, -6.0))
+	await _physics_frames(260)
+	assert(room.door_fraction == 0.0)
+
 	# Direct scene execution (F6) must receive the same play-mode guard.
 	root.get_node("GameState").reset_demo_state()
 	assert(change_scene_to_file(FORMAL_ROOM_SCENE) == OK)
@@ -134,5 +155,5 @@ func run_checks() -> void:
 	assert(bool(root.get_node("GameState").get_flag(&"room1_play_mode", false)))
 	assert(not room.info.get_parent().visible)
 
-	print("PASS: r19 title route, F6 play mode, opening, movement, P12 interaction, pause, and review-key isolation")
+	print("PASS: integrated Room 1 and 4F round trip, automatic close, title route, F6 play mode, opening, movement, P12 interaction, pause, and review-key isolation")
 	quit()

@@ -60,7 +60,7 @@ func _ready() -> void:
 			var kind: String = record.kind
 			var mat := ShaderMaterial.new();mat.shader=FLOOR_SHADER
 			var map_path := "res://assets/art/cryo_corridor_sample_v1/"+("floor.png" if kind=="floor" else "wall.png")
-			if kind=="door":map_path="res://assets/art/room1_door_window_r30/door_front.png"
+			if kind=="door":map_path=R32_DOOR
 			mat.set_shader_parameter("color_map",load(map_path))
 			mat.set_shader_parameter("emission_map",load("res://assets/art/cryo_corridor_sample_v1/wall_emission.png"))
 			mat.set_shader_parameter("is_wall",1.0 if kind=="wall" else 0.0)
