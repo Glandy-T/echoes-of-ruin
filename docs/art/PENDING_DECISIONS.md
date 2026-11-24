@@ -56,7 +56,8 @@
 | 角色暂缓 | **R5 走路测试** | 智能网格类人绑骨。 | 复查脚、腿和裙摆。 | ⏳ [步态实测](experiments/protagonist_smart_mesh_walk_r5/README.md)下摆飞起，原版保留作对照。 |
 | 角色暂缓 | **R5 裙摆权重修正** | 原走路动作对照。 | 复查下摆。 | ⏳ [步态实测](experiments/protagonist_walk_r5_hem_fix/README.md)已认可，作为 UV 工作底模。 |
 | 角色暂缓 | **R5 智能 UV 与像素尺度** | 新 UV 已转入裙摆修正版。 | 确认原生像素尺度。 | ⏳ [实机测试格](experiments/protagonist_r5_uv_trial/README.md)128 档已认可。 |
-| **角色当前项** | **R5 主角像素贴图小样** | 第一轮 128 图集。 | 检查角色实机可读性。 | ⏳ [材质审图](experiments/protagonist_r5_pixel_skin_v1/README.md)待审。 |
+| 角色暂缓 | **R5 主角像素贴图小样** | 第一轮 128 图集。 | 检查角色实机可读性。 | ⏳ [材质审图](experiments/protagonist_r5_pixel_skin_v1/README.md)脸部错位，留作对照。 |
+| **角色当前项** | **R5 脸部 UV 对位** | 正面与斜侧已复查。 | 确认脸与受光。 | ⏳ [材质审图](experiments/protagonist_r5_face_v2/README.md)待审。 |
 | 角色排队 | **主角表情（3D 脸部贴图）** | 侧眼在 2D 调了两轮仍不对，决定到 3D 贴图上以正面眼睛为准再定。 | 3D 进行到脸部贴图时再拿出来。 | 暂缓 |
 | **1a** | **Room 1 门面：r32 粉末涂层（颗粒强度）** | 材质已定为 M05-L。r32 用 M05-L 原生底材，叠 r30 的暗痕迹、密封边和小窗，去掉门边亮圈；亮度按墙面校准，0 次新生成。颗粒强度改过两次：第一版太花 → 第一次修订偏淡 → 现在取两者中间值（细颗粒 1.25 倍、痕迹 1.5 倍）。[r32 审图](experiments/room1_door_powder_r32/preview.html)／[说明](experiments/room1_door_powder_r32/README.md) | 确认中间值即可。 | ✅ 11/17 用户确认：采用 r32 中间值（提交 9599ce8） |
 | **1b** | **Room 1 门灯：方案 B** | r18 太亮、灯条太明显 → 方案 B：灯芯压暗、降饱和藏进槽里（0.45），门洞内壁和门槛加淡泛光（0.50），保留约 r18 一半的弱光晕（1.1）。只在通行时亮。[方案 B](experiments/room1_door_light_recess_b1/preview.html)／[说明](experiments/room1_door_light_recess_b1/README.md) | — | ✅ 11/17 用户确认：采用 B（提交 8465a17） |
