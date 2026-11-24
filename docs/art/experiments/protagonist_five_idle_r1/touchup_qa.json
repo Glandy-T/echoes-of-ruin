@@ -1,0 +1,52 @@
+{
+  "0": {
+    "changed_pixels": 105,
+    "remaining_dark_leg_colors": [
+      [
+        153,
+        128,
+        123
+      ]
+    ]
+  },
+  "45": {
+    "changed_pixels": 133,
+    "remaining_dark_leg_colors": [
+      [
+        153,
+        128,
+        123
+      ]
+    ]
+  },
+  "90": {
+    "changed_pixels": 76,
+    "remaining_dark_leg_colors": [
+      [
+        153,
+        128,
+        123
+      ]
+    ]
+  },
+  "135": {
+    "changed_pixels": 265,
+    "remaining_dark_leg_colors": [
+      [
+        153,
+        128,
+        123
+      ]
+    ]
+  },
+  "180": {
+    "changed_pixels": 266,
+    "remaining_dark_leg_colors": [
+      [
+        153,
+        128,
+        123
+      ]
+    ]
+  }
+}

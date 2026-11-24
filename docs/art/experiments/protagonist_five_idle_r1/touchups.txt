@@ -1,0 +1,26 @@
+# Local Aseprite correction manifest
+
+Every correction is on the independent `Local pixel corrections` layer.
+The raw PixelLab layer remains untouched in every `.aseprite` master.
+
+## Lower-leg skin clusters
+
+Only the exposed lower-leg and foot boxes, from y=88 through y=127, are sampled.
+The source's substantial dark off-palette clusters are replaced with the two exact
+B skin-dark swatches according to source brightness.
+
+| Direction | Zones | Dark-source pixels | B replacement |
+| --- | --- | ---: | --- |
+| 0° | x52–59 and x69–76 | 105 | #99807B / #C5A891 |
+| 45° | x54–61 and x67–74 | 133 | #99807B / #C5A891 |
+| 90° | x59–68 | 76 | #99807B / #C5A891 |
+| 135° | x55–64 and x67–76 | 265 | #99807B / #C5A891 |
+| 180° | x53–61 and x67–75 | 244 | #99807B / #C5A891 |
+
+The 135° green-grey calf clusters and the 180° copper calf clusters are included
+in these boxes. Bright skin is preserved. Garment pixels are outside all zones.
+
+## Back crown
+
+At 180° only, 22 opaque pixels in the upper-left crown at x55–61, y5–11 are
+lifted to B hair mid-dark #454E48. The upper-right crown remains unchanged.

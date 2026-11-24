@@ -1,0 +1,86 @@
+{
+  "B": {
+    "bbox": [
+      44,
+      3,
+      84,
+      128
+    ],
+    "height": 125,
+    "hem_light_last_row": 86,
+    "gown_luma_left_right": [
+      218.0,
+      196.6
+    ]
+  },
+  "0": {
+    "bbox": [
+      44,
+      3,
+      84,
+      128
+    ],
+    "height": 125,
+    "hem_light_last_row": 86,
+    "gown_luma_left_right": [
+      217.5,
+      195.9
+    ]
+  },
+  "45": {
+    "bbox": [
+      48,
+      3,
+      79,
+      127
+    ],
+    "height": 124,
+    "hem_light_last_row": 86,
+    "gown_luma_left_right": [
+      215.1,
+      166.5
+    ]
+  },
+  "90": {
+    "bbox": [
+      51,
+      3,
+      77,
+      127
+    ],
+    "height": 124,
+    "hem_light_last_row": 86,
+    "gown_luma_left_right": [
+      202.1,
+      172.3
+    ]
+  },
+  "135": {
+    "bbox": [
+      50,
+      2,
+      78,
+      127
+    ],
+    "height": 125,
+    "hem_light_last_row": 85,
+    "gown_luma_left_right": [
+      217.7,
+      186.1
+    ]
+  },
+  "180": {
+    "bbox": [
+      46,
+      2,
+      82,
+      127
+    ],
+    "height": 125,
+    "hem_light_last_row": 86,
+    "gown_luma_left_right": [
+      222.9,
+      196.4
+    ]
+  }
+}
