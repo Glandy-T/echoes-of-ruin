@@ -47,7 +47,8 @@
 | 角色已定档 | **背面（PixelLab）** | 以正面 B、侧面定稿为准画背面。指令见[重设计简报](PROTAGONIST_REDESIGN_BRIEF.md)附录 4。 | 用户看背面成品。 | ✅ 11/24 用户确认定稿：[back.png](experiments/protagonist_back_v1/back.png)。顾问核对：与水平翻转的正面剪影只差边缘 1 px，暗面方向与正面一致。附带一处小修：手腿肤色比正面亮、偏橙，由 Codex 在 Aseprite 换成正面 B 的两档暗肤色（不动外形，不另审，回报像素数和并排图）。三视图（正面 B、侧面 eye_v4、背面）至此齐了。 |
 | 角色暂缓 | **主角 3D 第一轮：灰模外形（Tripo）** | 用三视图生成灰模，只看外形；正交渲染和三视图叠比，结构检查，放进 Room 1。不做减面、分件、UV、绑骨。指令见[重设计简报](PROTAGONIST_REDESIGN_BRIEF.md)附录 5。 | 用户看灰模三视图叠比和 Room 1 画面；分件与否等看完再定。 | 暂缓，先审平涂输入。 |
 | 角色已定档 | **建模用平涂三视图** | 以正面 B、右侧 eye_v4、背面定稿制作三色平涂。 | 核对同角度的轮廓、比例和站姿。 | ✅ 已确认，已用于 R2。 |
-| **角色当前项** | **主角平涂输入灰模 R2** | 三视图、斜视、结构和 Room 1 实机。 | 确认外形和局部整理方向。 | ⏳ [灰模对照](experiments/protagonist_gray_tripo_r2/README.md)待审。 |
+| 角色暂缓 | **主角平涂输入灰模 R2** | 三视图、斜视、结构和 Room 1 实机。 | 确认外形和局部整理方向。 | ⏳ [灰模对照](experiments/protagonist_gray_tripo_r2/README.md)暂缓 Blender 修整，转测 Tripo 行走。 |
+| **角色当前项** | **Tripo 分件与行走试验** | 检查衣摆与腿、低模和步态。 | 看结构与动作实测。 | ⏳ [交付记录](experiments/protagonist_tripo_walk_r3/README.md)待审。 |
 | 角色排队 | **主角表情（3D 脸部贴图）** | 侧眼在 2D 调了两轮仍不对，决定到 3D 贴图上以正面眼睛为准再定。 | 3D 进行到脸部贴图时再拿出来。 | 暂缓 |
 | **1a** | **Room 1 门面：r32 粉末涂层（颗粒强度）** | 材质已定为 M05-L。r32 用 M05-L 原生底材，叠 r30 的暗痕迹、密封边和小窗，去掉门边亮圈；亮度按墙面校准，0 次新生成。颗粒强度改过两次：第一版太花 → 第一次修订偏淡 → 现在取两者中间值（细颗粒 1.25 倍、痕迹 1.5 倍）。[r32 审图](experiments/room1_door_powder_r32/preview.html)／[说明](experiments/room1_door_powder_r32/README.md) | 确认中间值即可。 | ✅ 11/17 用户确认：采用 r32 中间值（提交 9599ce8） |
 | **1b** | **Room 1 门灯：方案 B** | r18 太亮、灯条太明显 → 方案 B：灯芯压暗、降饱和藏进槽里（0.45），门洞内壁和门槛加淡泛光（0.50），保留约 r18 一半的弱光晕（1.1）。只在通行时亮。[方案 B](experiments/room1_door_light_recess_b1/preview.html)／[说明](experiments/room1_door_light_recess_b1/README.md) | — | ✅ 11/17 用户确认：采用 B（提交 8465a17） |
