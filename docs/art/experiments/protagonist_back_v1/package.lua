@@ -24,5 +24,20 @@ end
 local l=sp:newLayer()
 l.name="B gown palette"
 sp:newCel(l,1,overlay,Point(0,0))
+-- Screen-left limbs carry the shadow in the mirrored B reference.
+local skin=Image(128,128,ColorMode.RGB)
+mappings={}
+for _,c in ipairs({"e8be99","f1cca8","cca98e","be9d88"}) do add(c,"C5A891") end
+for _,c in ipairs({"957c77","a2867e","b39181"}) do add(c,"99807B") end
+for y=43,127 do
+  local right=(y<=75 and 55) or (y>=87 and 63) or -1
+  for x=0,right do
+    local target=mappings[source:getPixel(x,y)]
+    if target then skin:drawPixel(x,y,target) end
+  end
+end
+local skinLayer=sp:newLayer()
+skinLayer.name="B shadow skin - rear arm and leg"
+sp:newCel(skinLayer,1,skin,Point(0,0))
 sp:saveAs(dir.."/back.aseprite")
 sp:saveCopyAs(dir.."/back.png")
