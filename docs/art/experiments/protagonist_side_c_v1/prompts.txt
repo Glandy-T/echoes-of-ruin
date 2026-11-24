@@ -1,0 +1,10 @@
+1. Edit image Pro, sole input ../protagonist_front_c_raw_v2/B_original.png -> raw/master.png
+Turn this same young adult to a full right-facing side profile. Keep the short hair, warm ivory short-sleeved knee-length sleep gown and bare feet. Relaxed upright stance, thin fabric falls from chest and shoulder blades, hem hangs close. Match proportions, colours and pixel scale.
+
+2. Edit image Pro, base raw/guide.png, reference ../protagonist_front_c_raw_v2/B_original.png -> raw/guided.png
+Finish the right-profile guide as the same young adult in reference B. Short dark hair, small calm eye, bare feet. Thin warm ivory sleep gown: cloth falls from chest and shoulder blades, straight narrow knee hem, no flare. Natural relaxed arm. Match the reference pixel scale and colours.
+
+3. Edit image Pro, sole input raw/guided.png
+Tailor only the sleep gown in this side view: remove the triangular skirt flare. Bring its back hem forward over the heel and its front hem back above the knee. Slim straight hanging shift, hem as narrow as the ribcage. Keep this person, anatomy, head, feet, pose, colours and pixel size.
+
+128x128, Remove background enabled, Max colours 16. UI price 10 generations per submission. No before/after account balance read.
