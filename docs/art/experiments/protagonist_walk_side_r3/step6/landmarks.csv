@@ -1,0 +1,7 @@
+frame,phase,crown_y,pelvis_y,rear_tip_y,rear_tip_x,crown_height_delta,pelvis_height_delta,rear_tip_height_delta
+1,Contact,3,60.0,13,76,0.0,0.0,0.0
+2,Down,5,63.0,13,75,-2.0,-3.0,0.0
+3,Recover,4,61.0,15,77,-1.0,-1.0,-2.0
+4,Passing,3,60.0,14,76,0.0,0.0,-1.0
+5,Up,2,59.0,13,77,1.0,1.0,0.0
+6,Reach,3,60.0,12,76,0.0,0.0,1.0
