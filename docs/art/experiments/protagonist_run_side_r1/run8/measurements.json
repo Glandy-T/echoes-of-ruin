@@ -1,0 +1,92 @@
+{
+  "contacts_x": [
+    [
+      44,
+      104
+    ],
+    [
+      44,
+      104
+    ]
+  ],
+  "step_px": [
+    60,
+    60
+  ],
+  "period_s": 0.6336,
+  "fps": 12.626262626262625,
+  "frames": [
+    {
+      "frame": 1,
+      "phase": "Contact",
+      "rig_hip_y": 62,
+      "hip_above_ground": 63,
+      "hip_vs_contact": 0,
+      "near_clearance": 0,
+      "far_clearance": 4
+    },
+    {
+      "frame": 2,
+      "phase": "Down",
+      "rig_hip_y": 65,
+      "hip_above_ground": 60,
+      "hip_vs_contact": -3,
+      "near_clearance": 0,
+      "far_clearance": 23
+    },
+    {
+      "frame": 3,
+      "phase": "Push",
+      "rig_hip_y": 62,
+      "hip_above_ground": 63,
+      "hip_vs_contact": 0,
+      "near_clearance": 0,
+      "far_clearance": 12
+    },
+    {
+      "frame": 4,
+      "phase": "Flight",
+      "rig_hip_y": 61,
+      "hip_above_ground": 64,
+      "hip_vs_contact": 1,
+      "near_clearance": 12,
+      "far_clearance": 2
+    },
+    {
+      "frame": 5,
+      "phase": "Contact",
+      "rig_hip_y": 62,
+      "hip_above_ground": 63,
+      "hip_vs_contact": 0,
+      "near_clearance": 4,
+      "far_clearance": 0
+    },
+    {
+      "frame": 6,
+      "phase": "Down",
+      "rig_hip_y": 65,
+      "hip_above_ground": 60,
+      "hip_vs_contact": -3,
+      "near_clearance": 23,
+      "far_clearance": 0
+    },
+    {
+      "frame": 7,
+      "phase": "Push",
+      "rig_hip_y": 62,
+      "hip_above_ground": 63,
+      "hip_vs_contact": 0,
+      "near_clearance": 12,
+      "far_clearance": 0
+    },
+    {
+      "frame": 8,
+      "phase": "Flight",
+      "rig_hip_y": 61,
+      "hip_above_ground": 64,
+      "hip_vs_contact": 1,
+      "near_clearance": 2,
+      "far_clearance": 12
+    }
+  ]
+}

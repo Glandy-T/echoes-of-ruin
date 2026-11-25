@@ -10,9 +10,11 @@ NEAREST = Image.Resampling.NEAREST
 GROUND = 125
 
 
-def head(image, idle, high, dx=-4):
-    dy = 0 if high else 3
-    lag = 2 if high else -2
+def head(image, idle, high, dx=-4, dy=None, lag=None):
+    if dy is None:
+        dy = 0 if high else 3
+    if lag is None:
+        lag = 2 if high else -2
     layer = idle.crop((0,0,128,27))
     # Keep two rooted locks attached, carrying the ends only.
     for strand,root in [([(74,11),(74,12),(75,12),(75,13),(76,13)],(73,11)),
