@@ -1,0 +1,32 @@
+{
+  "id": "08b6ee51-e438-443f-b644-84c253ca8b89",
+  "before": {
+    "credits": {
+      "type": "usd",
+      "usd": 0.0
+    },
+    "subscription": {
+      "type": "generations",
+      "status": "active",
+      "plan": "Tier 1: Pixel Apprentice",
+      "generations": 1665.9,
+      "total": 2000.0
+    }
+  },
+  "usage": null,
+  "status": "completed",
+  "after": {
+    "credits": {
+      "type": "usd",
+      "usd": 0.0
+    },
+    "subscription": {
+      "type": "generations",
+      "status": "active",
+      "plan": "Tier 1: Pixel Apprentice",
+      "generations": 1662.9,
+      "total": 2000.0
+    }
+  },
+  "result_usage": null
+}

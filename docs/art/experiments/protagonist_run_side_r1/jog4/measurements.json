@@ -1,0 +1,53 @@
+{
+  "contacts_x": [
+    [
+      28,
+      87
+    ],
+    [
+      28,
+      86
+    ]
+  ],
+  "steps_px": [
+    58,
+    59
+  ],
+  "steps_m": [
+    0.7656,
+    0.7787999999999999
+  ],
+  "period_s": 0.61776,
+  "sample_fps": 6.4750064750064755,
+  "eight_frame_fps": 12.950012950012951,
+  "poses": [
+    {
+      "frame": 1,
+      "ground_clearance_px": 0,
+      "crown_y": 6,
+      "rig_pelvis_y": 62,
+      "rear_tip_y": 14
+    },
+    {
+      "frame": 3,
+      "ground_clearance_px": 2,
+      "crown_y": 3,
+      "rig_pelvis_y": 59,
+      "rear_tip_y": 15
+    },
+    {
+      "frame": 5,
+      "ground_clearance_px": 0,
+      "crown_y": 6,
+      "rig_pelvis_y": 62,
+      "rear_tip_y": 14
+    },
+    {
+      "frame": 7,
+      "ground_clearance_px": 2,
+      "crown_y": 3,
+      "rig_pelvis_y": 59,
+      "rear_tip_y": 15
+    }
+  ]
+}
