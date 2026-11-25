@@ -10,8 +10,8 @@ NEAREST = Image.Resampling.NEAREST
 GROUND = 125
 
 
-def head(image, idle, high):
-    dx,dy = -4,0 if high else 3
+def head(image, idle, high, dx=-4):
+    dy = 0 if high else 3
     lag = 2 if high else -2
     layer = idle.crop((0,0,128,27))
     # Keep two rooted locks attached, carrying the ends only.

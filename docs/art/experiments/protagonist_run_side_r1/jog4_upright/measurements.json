@@ -1,0 +1,67 @@
+{
+  "contacts_x": [
+    [
+      29,
+      88
+    ],
+    [
+      29,
+      87
+    ]
+  ],
+  "steps_px": [
+    58,
+    59
+  ],
+  "steps_m": [
+    0.7656,
+    0.7787999999999999
+  ],
+  "period_s": 0.61776,
+  "four_fps": 6.4750064750064755,
+  "eight_fps": 12.950012950012951,
+  "poses": [
+    {
+      "frame": 1,
+      "clearance_px": 0,
+      "crown_y": 6,
+      "rig_lean_deg": 3.9,
+      "LEFT_elbow_deg": 108.2,
+      "LEFT_knee_deg": 167.5,
+      "RIGHT_elbow_deg": 116.9,
+      "RIGHT_knee_deg": 180.0,
+      "sole_on_ground_px": 14
+    },
+    {
+      "frame": 3,
+      "clearance_px": 2,
+      "crown_y": 3,
+      "rig_lean_deg": 3.9,
+      "LEFT_elbow_deg": 116.9,
+      "LEFT_knee_deg": 173.6,
+      "RIGHT_elbow_deg": 108.2,
+      "RIGHT_knee_deg": 157.4
+    },
+    {
+      "frame": 5,
+      "clearance_px": 0,
+      "crown_y": 6,
+      "rig_lean_deg": 3.9,
+      "LEFT_elbow_deg": 116.9,
+      "LEFT_knee_deg": 176.7,
+      "RIGHT_elbow_deg": 108.2,
+      "RIGHT_knee_deg": 170.7,
+      "sole_on_ground_px": 13
+    },
+    {
+      "frame": 7,
+      "clearance_px": 2,
+      "crown_y": 3,
+      "rig_lean_deg": 3.9,
+      "LEFT_elbow_deg": 108.2,
+      "LEFT_knee_deg": 154.1,
+      "RIGHT_elbow_deg": 116.9,
+      "RIGHT_knee_deg": 176.9
+    }
+  ]
+}
