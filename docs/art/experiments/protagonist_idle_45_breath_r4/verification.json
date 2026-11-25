@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "first_png_byte_identical": true,
+  "row": 38,
+  "durations_ms": [
+    1200,
+    1600
+  ],
+  "row_difference_counts": {
+    "34": 7,
+    "35": 11,
+    "36": 8,
+    "37": 7,
+    "38": 3,
+    "39": 8,
+    "40": 5,
+    "41": 7,
+    "42": 7,
+    "43": 12,
+    "44": 14,
+    "45": 8,
+    "46": 6,
+    "47": 4,
+    "48": 6,
+    "49": 7,
+    "50": 5,
+    "51": 5,
+    "52": 7
+  },
+  "unexpected_pixel_counts": {
+    "inhale_vs_D": 0,
+    "exhale_vs_exact_reconstruction": 0,
+    "exhale_top_vs_transparent": 0,
+    "exhale_y1_to_38_vs_inhale_y0_to_37": 0,
+    "below_cut_y39_to_127": 0,
+    "exhale_vs_advisor_B": 0,
+    "breath_1x.gif_frame_1": 0,
+    "breath_1x.gif_frame_2": 0,
+    "breath_3x.gif_frame_1": 0,
+    "breath_3x.gif_frame_2": 0
+  }
+}
