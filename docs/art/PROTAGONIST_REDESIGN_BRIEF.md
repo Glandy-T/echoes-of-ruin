@@ -573,3 +573,57 @@
 先改四姿势小样给用户看，再补齐 8 帧。
 
 参考：[Wikipedia: Walk cycle](https://en.wikipedia.org/wiki/Walk_cycle)、[BMCC 走路循环讲义](https://openlab.bmcc.cuny.edu/ani-260-1300-intro-2d-animation-sp-2021/?p=386)、[Pluralsight: 12 Steps to a Great Walk Cycle](https://www.pluralsight.com/blog/tutorials/12-steps-walk-cycle-animation)、[Adobe: walk cycle](https://www.adobe.com/creativecloud/animation/discover/animation-walk-cycle)。
+
+## 附录 9（11/25）：待机动作
+
+五个方向的站立静帧已经定档，但站着不动时人物是一张死图。待机分两层：先做**呼吸循环**（一直在播），再做**待机小动作**（站久了偶尔触发一次）。这一条先只做呼吸。
+
+### 9.1 呼吸循环：本地像素做，不用 PixelLab
+
+呼吸的动作只有 1～2 px。让 PixelLab 每帧重画，脸和头发会跟着闪（走路 r1 吃过这个亏），所以这一项**用定稿静帧在本地分层错位**，0 generations，脸的像素保证和定稿一模一样。
+
+**分层**（从定稿静帧切出，切缝藏在衣服褶和轮廓里）：脚和小腿、下摆、上身（胸到肩）、两只手臂、头、后发梢和刘海尖。
+
+**哪里动、哪里不动**
+- **脚、腿、下摆完全不动**，脚底一个像素都不能挪。
+- **胸和肩**：吸气时上抬 1 px。做法是在胸口和腰之间**多插一行像素**，把上身拉长 1 px，不要把整个上半身平移，否则腰线会断开或下摆跟着跳。侧面（90°）胸口同时往前鼓 1 px。
+- **手臂**挂在肩上，跟着肩抬起；**手**比肩晚一帧跟上。
+- **头**比肩晚一帧抬起 1 px，也晚一帧落下。
+- **发梢和刘海尖**再晚一帧，只动 1 px。
+- 一句话：**动作从胸口开始，一层层往外传**，越远的部位越晚动。不能所有部位在同一帧一起跳 1 px，那样就是整张图在抖。
+
+**节奏**：刚醒、体力差、在冷的地方，呼吸比健康人略浅略快，一个周期约 **2.8 s**。按休息时的呼吸，吸气比呼气短，呼完之后停一下。每帧时长不同，在 Godot 的 SpriteFrames 里逐帧设置：
+
+| 帧 | 胸肩 | 头 | 发梢 | 时长 |
+|---|---|---|---|---|
+| 1 | 0 | 0 | 0 | 0.6 s（呼完后的停顿） |
+| 2 | ↑1 | 0 | 0 | 0.5 s（吸气） |
+| 3 | ↑1 | ↑1 | 0 | 0.5 s（吸满） |
+| 4 | ↑1 | ↑1 | ↑1 | 0.3 s |
+| 5 | 0 | ↑1 | ↑1 | 0.5 s（呼气，头还没落） |
+| 6 | 0 | 0 | ↑1 | 0.4 s（发梢最后落下） |
+
+**方向**：先做 **90°** 和 **0°** 两个方向，在 Room 1 里看过再铺另外三个方向（45°、135°、180°，另外三个方向镜像）。0° 主要看肩线；180° 只有肩和发梢在动；90° 要看到胸口往前鼓。
+
+**验收**
+- 1× 和游戏镜头下都要看。1 px 在游戏镜头里如果看不出来，**只把胸肩加到 2 px**，头和发梢仍然 1 px，不要整体放大。
+- 循环接缝看不出从哪一帧重新开始。
+- 定稿脸部像素逐帧比对完全一致（只允许整体位移）。
+- 和走路、跑步的首帧切换时不能跳：待机第 1 帧就是定稿静帧本身。
+
+### 9.2 待机小动作（呼吸通过之后再定）
+
+站着不动约 8～10 s 后偶尔播一次，播完回到呼吸循环，不要每次都一样、也不要频繁触发。候选方向，等用户选：
+- **抱臂搓手臂**：冷，衣服单薄。最贴合"刚从休眠舱醒来"。
+- **左右张望**：在陌生、破败的地方不安。
+- **低头看自己的手或腕带**：还没搞清楚自己是谁。
+
+小动作的姿势变化大，要走附录 8 的骨架生成路线，规则照旧：骨架摆对后让 PixelLab 一次画完整，不在加工稿上手改。
+
+参考：
+- [itch.io: pixel art idle cycle tutorial](https://itch.io/blog/559673/pixel-art-idle-cycle-animation-tutorial)：两帧、错 1 px、每帧 400～500 ms 的最简做法；
+- [Animation Mentor: breathing](https://www.animationmentor.com/?p=87282)：肚子、胸、肩、头的时间要错开；
+- [AnimSchool: Breathing Life into Idle Animations](https://blog.animschool.edu/2024/06/14/breathing-life-into-idle-animations)：先做呼吸基础循环，再叠加小动作，并且要有变化；
+- [MocapOnline: idle animation guide](https://mocaponline.com/blogs/mocap-news/idle-animation-game-dev-guide)：放松时每分钟约 15～20 次呼吸，起伏约 1～2 cm。
+
+按本角色的比例，1 px ≈ 1.3 cm，所以 1 px 的起伏是对的。
