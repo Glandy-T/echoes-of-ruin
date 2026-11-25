@@ -1,0 +1,594 @@
+﻿{
+    "1":  {
+              "LEFT HIP":  [
+                               64,
+                               62
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                62
+                            ],
+              "LEFT KNEE":  [
+                                50,
+                                92
+                            ],
+              "RIGHT KNEE":  [
+                                 76,
+                                 92
+                             ],
+              "LEFT LEG":  [
+                               56,
+                               119
+                           ],
+              "RIGHT LEG":  [
+                                109,
+                                111
+                            ],
+              "NECK":  [
+                           57,
+                           34
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    35
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     36
+                                 ],
+              "NOSE":  [
+                           50,
+                           19
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               17
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                17
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               15
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                16
+                            ],
+              "LEFT ELBOW":  [
+                                 77,
+                                 45
+                             ],
+              "LEFT ARM":  [
+                               70,
+                               59
+                           ],
+              "RIGHT ELBOW":  [
+                                  58,
+                                  53
+                              ],
+              "RIGHT ARM":  [
+                                44,
+                                56
+                            ]
+          },
+    "2":  {
+              "LEFT HIP":  [
+                               64,
+                               65
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                65
+                            ],
+              "LEFT KNEE":  [
+                                49,
+                                90
+                            ],
+              "RIGHT KNEE":  [
+                                 66,
+                                 93
+                             ],
+              "LEFT LEG":  [
+                               68,
+                               119
+                           ],
+              "RIGHT LEG":  [
+                                96,
+                                94
+                            ],
+              "NECK":  [
+                           57,
+                           37
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    38
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     39
+                                 ],
+              "NOSE":  [
+                           50,
+                           22
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               20
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                20
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               18
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                19
+                            ],
+              "LEFT ELBOW":  [
+                                 67,
+                                 54
+                             ],
+              "LEFT ARM":  [
+                               57,
+                               62
+                           ],
+              "RIGHT ELBOW":  [
+                                  61,
+                                  55
+                              ],
+              "RIGHT ARM":  [
+                                49,
+                                60
+                            ]
+          },
+    "3":  {
+              "LEFT HIP":  [
+                               64,
+                               62
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                62
+                            ],
+              "LEFT KNEE":  [
+                                77,
+                                88
+                            ],
+              "RIGHT KNEE":  [
+                                 48,
+                                 85
+                             ],
+              "LEFT LEG":  [
+                               93,
+                               113
+                           ],
+              "RIGHT LEG":  [
+                                56,
+                                104
+                            ],
+              "NECK":  [
+                           57,
+                           34
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    35
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     36
+                                 ],
+              "NOSE":  [
+                           50,
+                           19
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               17
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                17
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               15
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                16
+                            ],
+              "LEFT ELBOW":  [
+                                 60,
+                                 52
+                             ],
+              "LEFT ARM":  [
+                               46,
+                               55
+                           ],
+              "RIGHT ELBOW":  [
+                                  75,
+                                  46
+                              ],
+              "RIGHT ARM":  [
+                                69,
+                                60
+                            ]
+          },
+    "4":  {
+              "LEFT HIP":  [
+                               64,
+                               61
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                61
+                            ],
+              "LEFT KNEE":  [
+                                69,
+                                90
+                            ],
+              "RIGHT KNEE":  [
+                                 49,
+                                 89
+                             ],
+              "LEFT LEG":  [
+                               95,
+                               104
+                           ],
+              "RIGHT LEG":  [
+                                57,
+                                118
+                            ],
+              "NECK":  [
+                           57,
+                           33
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    34
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     35
+                                 ],
+              "NOSE":  [
+                           50,
+                           18
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               16
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                16
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               14
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                15
+                            ],
+              "LEFT ELBOW":  [
+                                 60,
+                                 51
+                             ],
+              "LEFT ARM":  [
+                               46,
+                               54
+                           ],
+              "RIGHT ELBOW":  [
+                                  75,
+                                  45
+                              ],
+              "RIGHT ARM":  [
+                                67,
+                                59
+                            ]
+          },
+    "5":  {
+              "LEFT HIP":  [
+                               64,
+                               62
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                62
+                            ],
+              "LEFT KNEE":  [
+                                76,
+                                92
+                            ],
+              "RIGHT KNEE":  [
+                                 50,
+                                 92
+                             ],
+              "LEFT LEG":  [
+                               109,
+                               111
+                           ],
+              "RIGHT LEG":  [
+                                56,
+                                119
+                            ],
+              "NECK":  [
+                           57,
+                           34
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    35
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     36
+                                 ],
+              "NOSE":  [
+                           50,
+                           19
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               17
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                17
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               15
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                16
+                            ],
+              "LEFT ELBOW":  [
+                                 60,
+                                 52
+                             ],
+              "LEFT ARM":  [
+                               46,
+                               55
+                           ],
+              "RIGHT ELBOW":  [
+                                  75,
+                                  46
+                              ],
+              "RIGHT ARM":  [
+                                67,
+                                60
+                            ]
+          },
+    "6":  {
+              "LEFT HIP":  [
+                               64,
+                               65
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                65
+                            ],
+              "LEFT KNEE":  [
+                                66,
+                                93
+                            ],
+              "RIGHT KNEE":  [
+                                 49,
+                                 90
+                             ],
+              "LEFT LEG":  [
+                               96,
+                               94
+                           ],
+              "RIGHT LEG":  [
+                                68,
+                                119
+                            ],
+              "NECK":  [
+                           57,
+                           37
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    38
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     39
+                                 ],
+              "NOSE":  [
+                           50,
+                           22
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               20
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                20
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               18
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                19
+                            ],
+              "LEFT ELBOW":  [
+                                 63,
+                                 54
+                             ],
+              "LEFT ARM":  [
+                               51,
+                               59
+                           ],
+              "RIGHT ELBOW":  [
+                                  65,
+                                  55
+                              ],
+              "RIGHT ARM":  [
+                                55,
+                                63
+                            ]
+          },
+    "7":  {
+              "LEFT HIP":  [
+                               64,
+                               62
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                62
+                            ],
+              "LEFT KNEE":  [
+                                48,
+                                85
+                            ],
+              "RIGHT KNEE":  [
+                                 77,
+                                 88
+                             ],
+              "LEFT LEG":  [
+                               56,
+                               104
+                           ],
+              "RIGHT LEG":  [
+                                93,
+                                113
+                            ],
+              "NECK":  [
+                           57,
+                           34
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    35
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     36
+                                 ],
+              "NOSE":  [
+                           50,
+                           19
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               17
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                17
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               15
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                16
+                            ],
+              "LEFT ELBOW":  [
+                                 77,
+                                 45
+                             ],
+              "LEFT ARM":  [
+                               72,
+                               59
+                           ],
+              "RIGHT ELBOW":  [
+                                  58,
+                                  53
+                              ],
+              "RIGHT ARM":  [
+                                44,
+                                56
+                            ]
+          },
+    "8":  {
+              "LEFT HIP":  [
+                               64,
+                               61
+                           ],
+              "RIGHT HIP":  [
+                                64,
+                                61
+                            ],
+              "LEFT KNEE":  [
+                                49,
+                                89
+                            ],
+              "RIGHT KNEE":  [
+                                 69,
+                                 90
+                             ],
+              "LEFT LEG":  [
+                               57,
+                               118
+                           ],
+              "RIGHT LEG":  [
+                                95,
+                                104
+                            ],
+              "NECK":  [
+                           57,
+                           33
+                       ],
+              "LEFT SHOULDER":  [
+                                    60,
+                                    34
+                                ],
+              "RIGHT SHOULDER":  [
+                                     58,
+                                     35
+                                 ],
+              "NOSE":  [
+                           50,
+                           18
+                       ],
+              "LEFT EYE":  [
+                               53,
+                               16
+                           ],
+              "RIGHT EYE":  [
+                                49,
+                                16
+                            ],
+              "LEFT EAR":  [
+                               59,
+                               14
+                           ],
+              "RIGHT EAR":  [
+                                52,
+                                15
+                            ],
+              "LEFT ELBOW":  [
+                                 77,
+                                 44
+                             ],
+              "LEFT ARM":  [
+                               70,
+                               58
+                           ],
+              "RIGHT ELBOW":  [
+                                  58,
+                                  52
+                              ],
+              "RIGHT ARM":  [
+                                44,
+                                55
+                            ]
+          }
+}
